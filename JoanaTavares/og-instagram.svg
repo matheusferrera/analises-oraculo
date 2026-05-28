@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
+  <defs>
+    <linearGradient id="igGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f09433"/>
+      <stop offset=".28" stop-color="#e6683c"/>
+      <stop offset=".55" stop-color="#dc2743"/>
+      <stop offset=".78" stop-color="#cc2366"/>
+      <stop offset="1" stop-color="#bc1888"/>
+    </linearGradient>
+    <radialGradient id="blueGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#1d4ed8" stop-opacity=".35"/>
+      <stop offset="1" stop-color="#1d4ed8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="roseGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#dc2743" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#dc2743" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="36" height="36" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#fff" opacity=".075"/>
+    </pattern>
+    <filter id="blurText"><feGaussianBlur stdDeviation="3"/></filter>
+    <clipPath id="clip"><rect width="1200" height="630" rx="16"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#clip)">
+    <rect width="1200" height="630" fill="#0a0d1a"/>
+    <circle cx="120" cy="20" r="250" fill="url(#blueGlow)"/>
+    <circle cx="1080" cy="595" r="210" fill="url(#roseGlow)"/>
+    <rect width="1200" height="630" fill="url(#dots)"/>
+    <rect y="0" width="1200" height="2" fill="url(#igGrad)"/>
+    <line x1="600" y1="0" x2="600" y2="580" stroke="#fff" stroke-opacity=".055"/>
+
+    <g font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif">
+      <g transform="translate(60 52)">
+        <circle cx="10" cy="13" r="7" fill="#1d4ed8"/>
+        <text x="26" y="18" fill="#e2e8f0" font-size="16" font-weight="800" letter-spacing=".8">ORÁCULO</text>
+        <text x="112" y="18" fill="#94a3b8" font-size="11" font-weight="600" letter-spacing="1.1">TECNOLOGIA</text>
+      </g>
+
+      <g transform="translate(60 114)">
+        <rect width="110" height="30" rx="15" fill="url(#igGrad)"/>
+        <circle cx="17" cy="15" r="3.5" fill="#fff" opacity=".55"/>
+        <text x="30" y="20" fill="#fff" font-size="12" font-weight="800" letter-spacing="1">INSTAGRAM</text>
+      </g>
+
+      <text x="60" y="193" fill="#f1f5f9" font-size="43" font-weight="900" letter-spacing="-1.7">
+        <tspan x="60" dy="0">Análise completa</tspan>
+        <tspan x="60" dy="46">do perfil</tspan>
+      </text>
+      <text x="60" y="292" fill="#dc2743" font-size="43" font-weight="900" letter-spacing="-1.7">@drajoanatavares</text>
+
+      <text x="60" y="337" fill="#94a3b8" font-size="15" font-weight="400">
+        <tspan x="60" dy="0">Métricas, engajamento, conteúdo e recomendações</tspan>
+        <tspan x="60" dy="24">estratégicas para transformar autoridade em</tspan>
+        <tspan x="60" dy="24">consultas mais qualificadas.</tspan>
+      </text>
+
+      <g transform="translate(60 485)">
+        <circle cx="22" cy="22" r="22" fill="#1d4ed8"/>
+        <text x="22" y="28" text-anchor="middle" fill="#fff" font-size="14" font-weight="800">JT</text>
+        <text x="58" y="18" fill="#e2e8f0" font-size="15" font-weight="800">Dra. Joana Tavares Brito</text>
+        <text x="58" y="39" fill="#94a3b8" font-size="13">Relatório exclusivo · Mai 2026</text>
+      </g>
+
+      <text x="648" y="78" fill="#64748b" font-size="11" font-weight="800" letter-spacing="1.6">PRÉVIA DOS DADOS ANALISADOS</text>
+
+      <g transform="translate(648 96)">
+        <g>
+          <rect width="222" height="128" rx="12" fill="#fff" opacity=".045" stroke="#fff" stroke-opacity=".075"/>
+          <rect x="17" y="17" width="28" height="28" rx="7" fill="#1d4ed8" opacity=".2"/>
+          <path d="M37 39v-2a4 4 0 0 0-4-4h-8a4 4 0 0 0-4 4v2M33 25a4 4 0 1 1-8 0 4 4 0 0 1 8 0" fill="none" stroke="#60a5fa" stroke-width="2"/>
+          <rect x="168" y="13" width="40" height="18" rx="9" fill="#4ade80" opacity=".12"/>
+          <text x="188" y="26" text-anchor="middle" fill="#4ade80" font-size="11" font-weight="800" filter="url(#blurText)">base</text>
+          <text x="17" y="83" fill="#f1f5f9" font-size="25" font-weight="900" letter-spacing="-1" filter="url(#blurText)">212K</text>
+          <text x="17" y="107" fill="#64748b" font-size="11" font-weight="700" letter-spacing=".9">SEGUIDORES</text>
+        </g>
+        <g transform="translate(234 0)">
+          <rect width="222" height="128" rx="12" fill="#fff" opacity=".045" stroke="#fff" stroke-opacity=".075"/>
+          <rect x="17" y="17" width="28" height="28" rx="7" fill="#16a34a" opacity=".2"/>
+          <path d="M40 22a6 6 0 0 0-9 0l-1 1-1-1a6 6 0 0 0-9 8l10 10 10-10a6 6 0 0 0 0-8z" fill="none" stroke="#4ade80" stroke-width="2"/>
+          <rect x="175" y="13" width="33" height="18" rx="9" fill="#4ade80" opacity=".12"/>
+          <text x="191.5" y="26" text-anchor="middle" fill="#4ade80" font-size="11" font-weight="800" filter="url(#blurText)">ER</text>
+          <text x="17" y="83" fill="#f1f5f9" font-size="25" font-weight="900" letter-spacing="-1" filter="url(#blurText)">0,23%</text>
+          <text x="17" y="107" fill="#64748b" font-size="11" font-weight="700" letter-spacing=".9">ENGAJAMENTO</text>
+        </g>
+        <g transform="translate(0 140)">
+          <rect width="222" height="128" rx="12" fill="#fff" opacity=".045" stroke="#fff" stroke-opacity=".075"/>
+          <rect x="17" y="17" width="28" height="28" rx="7" fill="#d97706" opacity=".2"/>
+          <rect x="22" y="22" width="18" height="18" rx="2" fill="none" stroke="#fbbf24" stroke-width="2"/>
+          <path d="M22 29h18M29 40V29" stroke="#fbbf24" stroke-width="2"/>
+          <text x="17" y="83" fill="#f1f5f9" font-size="25" font-weight="900" letter-spacing="-1" filter="url(#blurText)">1.126</text>
+          <text x="17" y="107" fill="#64748b" font-size="11" font-weight="700" letter-spacing=".9">POSTS</text>
+        </g>
+        <g transform="translate(234 140)">
+          <rect width="222" height="128" rx="12" fill="#fff" opacity=".045" stroke="#fff" stroke-opacity=".075"/>
+          <rect x="17" y="17" width="28" height="28" rx="7" fill="#7c3aed" opacity=".2"/>
+          <path d="M18 31s5-8 13-8 13 8 13 8-5 8-13 8-13-8-13-8z" fill="none" stroke="#a78bfa" stroke-width="2"/>
+          <circle cx="31" cy="31" r="3" fill="none" stroke="#a78bfa" stroke-width="2"/>
+          <rect x="174" y="13" width="34" height="18" rx="9" fill="#4ade80" opacity=".12"/>
+          <text x="191" y="26" text-anchor="middle" fill="#4ade80" font-size="11" font-weight="800" filter="url(#blurText)">top</text>
+          <text x="17" y="83" fill="#f1f5f9" font-size="25" font-weight="900" letter-spacing="-1" filter="url(#blurText)">4.156</text>
+          <text x="17" y="107" fill="#64748b" font-size="11" font-weight="700" letter-spacing=".9">MAIOR POST</text>
+        </g>
+      </g>
+
+      <g transform="translate(648 485)">
+        <rect width="492" height="56" rx="10" fill="#1d4ed8" opacity=".12" stroke="#1d4ed8" stroke-opacity=".25"/>
+        <rect x="16" y="12" width="32" height="32" rx="8" fill="#1d4ed8" opacity=".2"/>
+        <rect x="25" y="27" width="14" height="10" rx="2" fill="none" stroke="#93c5fd" stroke-width="2"/>
+        <path d="M28 27v-4a4 4 0 0 1 8 0v4" fill="none" stroke="#93c5fd" stroke-width="2"/>
+        <text x="60" y="24" fill="#93c5fd" font-size="13" font-weight="800">Análise completa disponível</text>
+        <text x="60" y="42" fill="#64748b" font-size="11">Conteúdo, funil, destaques e próximos passos</text>
+        <rect x="397" y="14" width="79" height="28" rx="7" fill="#1d4ed8"/>
+        <text x="436.5" y="32" text-anchor="middle" fill="#fff" font-size="12" font-weight="800">Ver análise</text>
+      </g>
+
+      <rect y="580" width="1200" height="50" fill="#000" opacity=".2"/>
+      <line x1="0" y1="580" x2="1200" y2="580" stroke="#fff" stroke-opacity=".055"/>
+      <text x="60" y="611" fill="#64748b" font-size="11" font-weight="600">Diagnóstico de Presença Digital</text>
+      <text x="258" y="611" fill="#64748b" font-size="11" font-weight="600">Atualizado Mai 2026</text>
+      <text x="998" y="611" fill="#64748b" font-size="11">Preparado por</text>
+      <text x="1084" y="611" fill="#60a5fa" font-size="11" font-weight="800">Oráculo Tecnologia</text>
+    </g>
+  </g>
+</svg>
