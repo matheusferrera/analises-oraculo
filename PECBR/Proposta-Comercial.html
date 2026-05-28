@@ -1,0 +1,1315 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Proposta Comercial — PECBR Soluções em Agronegócio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:            #f5f6f8;
+      --bg-2:          #eef0f3;
+      --bg-3:          #e8eaed;
+      --surface:       #ffffff;
+      --surface-2:     #f0f2f5;
+      --border:        #e4e7ec;
+      --primary:       #1d4ed8;
+      --primary-light: #2563eb;
+      --gold:          #d97706;
+      --gold-2:        #f59e0b;
+      --green:         #059669;
+      --blue:          #1d4ed8;
+      --text:          #1a1d23;
+      --muted:         #6b7280;
+      --muted-2:       #9ca3af;
+    }
+
+    html { scroll-behavior: smooth; overflow-x: hidden; }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    /* ─── NAV ─── */
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      padding: 16px 40px;
+      display: flex; align-items: center; justify-content: space-between;
+      background: rgba(255,255,255,0.92);
+      backdrop-filter: blur(20px);
+      border-bottom: 1px solid var(--border);
+      box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+    }
+    .nav-logo { display: flex; align-items: center; gap: 10px; }
+    .nav-logo-dot { width: 10px; height: 10px; border-radius: 50%; background: var(--primary); }
+    .nav-logo-text { font-weight: 700; font-size: 15px; color: var(--text); letter-spacing: 0.5px; }
+    .nav-links { display: flex; gap: 28px; }
+    .nav-links a { color: var(--muted); font-size: 13px; font-weight: 500; text-decoration: none; transition: color 200ms; }
+    .nav-links a:hover { color: var(--text); }
+    .nav-cta {
+      background: var(--primary); color: #fff;
+      font-size: 13px; font-weight: 600;
+      padding: 9px 20px; border-radius: 8px;
+      text-decoration: none;
+      transition: opacity 200ms;
+    }
+    .nav-cta:hover { opacity: 0.85; }
+
+    /* ─── SECTIONS ─── */
+    section { padding: 120px 40px; max-width: 1200px; margin: 0 auto; }
+    .section-full { max-width: 100%; padding: 120px 0; }
+
+    /* ─── HERO ─── */
+    .hero {
+      min-height: 100vh;
+      display: flex; flex-direction: column; align-items: center; justify-content: center;
+      text-align: center;
+      position: relative;
+      padding: 120px 40px 80px;
+      overflow: hidden;
+    }
+    .hero-bg {
+      position: absolute; inset: 0; z-index: 0;
+      background:
+        radial-gradient(ellipse 80% 60% at 50% -10%, rgba(29,78,216,0.08) 0%, transparent 70%),
+        radial-gradient(ellipse 60% 50% at 80% 110%, rgba(217,119,6,0.05) 0%, transparent 60%),
+        var(--bg);
+    }
+    .hero-grid {
+      position: absolute; inset: 0; z-index: 0;
+      background-image:
+        linear-gradient(rgba(29,78,216,0.06) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(29,78,216,0.06) 1px, transparent 1px);
+      background-size: 60px 60px;
+      mask-image: radial-gradient(ellipse at center, black 30%, transparent 80%);
+    }
+    .hero-content { position: relative; z-index: 1; max-width: 860px; }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: #eff6ff; border: 1px solid #bfdbfe;
+      border-radius: 100px; padding: 6px 16px;
+      font-size: 12px; font-weight: 600; color: var(--primary);
+      letter-spacing: 0.8px; text-transform: uppercase;
+      margin-bottom: 32px;
+    }
+    .hero-badge-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--primary); animation: pulse 2s infinite; }
+    @keyframes pulse { 0%,100%{opacity:1;} 50%{opacity:0.4;} }
+    .hero h1 {
+      font-size: clamp(40px, 6vw, 72px);
+      font-weight: 900; line-height: 1.08;
+      letter-spacing: -2px;
+      margin-bottom: 24px;
+    }
+    .hero h1 .accent { color: var(--primary); }
+    .hero-sub {
+      font-size: clamp(16px, 2vw, 20px);
+      color: var(--muted); max-width: 600px; margin: 0 auto 48px;
+      font-weight: 400; line-height: 1.7;
+    }
+    .hero-stats {
+      display: flex; gap: 48px; justify-content: center;
+      margin-top: 64px;
+      padding-top: 48px;
+      border-top: 1px solid var(--border);
+    }
+    .hero-stat { text-align: center; }
+    .hero-stat-num {
+      font-size: 36px; font-weight: 800;
+      color: var(--text); letter-spacing: -1px;
+    }
+    .hero-stat-num .unit { font-size: 20px; color: var(--primary); }
+    .hero-stat-label { font-size: 12px; color: var(--muted); font-weight: 500; margin-top: 4px; letter-spacing: 0.5px; }
+    .scroll-indicator {
+      position: absolute; bottom: 40px; left: 50%; transform: translateX(-50%);
+      display: flex; flex-direction: column; align-items: center; gap: 8px;
+      color: var(--muted-2); font-size: 11px; letter-spacing: 1px; text-transform: uppercase;
+      animation: bounce 2s infinite;
+    }
+    @keyframes bounce { 0%,100%{transform:translateX(-50%) translateY(0);} 50%{transform:translateX(-50%) translateY(6px);} }
+    @keyframes bounce-y { 0%,100%{transform:translateY(0);} 50%{transform:translateY(6px);} }
+    .scroll-arrow { width: 20px; height: 20px; border-right: 2px solid var(--muted-2); border-bottom: 2px solid var(--muted-2); transform: rotate(45deg); margin-top: -4px; }
+
+    /* ─── SECTION HEADER ─── */
+    .section-header { text-align: center; margin-bottom: 72px; }
+    .section-eyebrow {
+      display: inline-block;
+      font-size: 11px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase;
+      color: var(--primary); margin-bottom: 16px;
+    }
+    .section-title {
+      font-size: clamp(28px, 4vw, 48px);
+      font-weight: 800; letter-spacing: -1.5px; line-height: 1.1;
+      color: var(--text);
+    }
+    .section-title .dim { color: var(--muted-2); }
+    .section-desc {
+      font-size: 16px; color: var(--muted); margin-top: 16px;
+      max-width: 560px; margin-left: auto; margin-right: auto;
+      line-height: 1.75;
+    }
+
+    /* ─── DIAGNOSTIC ─── */
+    .diagnostic-wrap {
+      display: grid; grid-template-columns: 1fr 1fr; gap: 24px;
+    }
+    .platform-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 36px;
+      position: relative;
+      overflow: hidden;
+      transition: border-color 300ms;
+    }
+    .platform-card:hover { border-color: #bfdbfe; }
+    .platform-card::before {
+      content: '';
+      position: absolute; top: 0; left: 0; right: 0; height: 3px;
+    }
+    .platform-card.yt::before { background: linear-gradient(90deg, #FF0000, #60a5fa); }
+    .platform-card.ig::before { background: linear-gradient(90deg, #833AB4, #FD1D1D, #FCB045); }
+    .platform-icon {
+      width: 48px; height: 48px; border-radius: 12px;
+      display: flex; align-items: center; justify-content: center;
+      margin-bottom: 20px; font-size: 22px;
+    }
+    .platform-icon.yt { background: rgba(255,0,0,0.15); }
+    .platform-icon.ig { background: rgba(131,58,180,0.15); }
+    .platform-name { font-size: 13px; font-weight: 700; color: var(--muted); letter-spacing: 1px; text-transform: uppercase; margin-bottom: 8px; }
+    .platform-metrics { display: grid; gap: 1px; background: var(--border); border-top: 1px solid var(--border); margin-top: 20px; grid-template-columns: repeat(2, 1fr); }
+    .metric-box { background: var(--surface); text-align: center; padding: 14px 8px; }
+    .metric-box-val { font-size: 1.35rem; font-weight: 800; color: var(--primary); line-height: 1; letter-spacing: -.02em; }
+    .metric-box-label { font-size: .62rem; color: var(--muted); font-weight: 500; margin-top: 4px; text-transform: uppercase; letter-spacing: .04em; line-height: 1.3; }
+    @media (min-width: 480px) {
+      .platform-metrics { grid-template-columns: repeat(4, 1fr); }
+      .metric-box { padding: 14px 10px; }
+      .metric-box-val { font-size: 1.5rem; }
+    }
+    .platform-problems { margin-top: 24px; display: flex; flex-direction: column; gap: 10px; }
+    .problem-item {
+      display: flex; align-items: flex-start; gap: 10px;
+      font-size: 13px; color: var(--muted);
+    }
+    .problem-icon {
+      width: 18px; height: 18px; border-radius: 50%; flex-shrink: 0;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 10px; margin-top: 1px;
+    }
+    .problem-icon.warn { background: rgba(245,158,11,0.15); color: var(--gold); }
+    .problem-icon.bad  { background: rgba(239,68,68,0.15);  color: #EF4444; }
+
+    /* ─── PROBLEMS ─── */
+    .problems-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+    .problem-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 16px; padding: 28px;
+      transition: transform 250ms, border-color 250ms;
+    }
+    .problem-card:hover { transform: translateY(-4px); border-color: rgba(29,78,216,0.3); }
+    .problem-card-icon {
+      width: 44px; height: 44px; border-radius: 10px;
+      background: rgba(29,78,216,0.1); border: 1px solid rgba(29,78,216,0.2);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 20px; margin-bottom: 16px;
+    }
+    .problem-card h3 { font-size: 15px; font-weight: 700; color: var(--text); margin-bottom: 8px; }
+    .problem-card p { font-size: 13px; color: var(--muted); line-height: 1.65; }
+
+    /* ─── SOLUTIONS ─── */
+    .solutions-list { display: flex; flex-direction: column; gap: 24px; }
+    .solution-item {
+      display: grid; grid-template-columns: 64px 1fr;
+      gap: 24px; align-items: start;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 16px; padding: 28px;
+      transition: border-color 250ms;
+    }
+    .solution-item:hover { border-color: rgba(16,185,129,0.3); }
+    .solution-num {
+      width: 64px; height: 64px; border-radius: 14px;
+      background: rgba(16,185,129,0.1); border: 1px solid rgba(16,185,129,0.2);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 24px; font-weight: 800; color: var(--green);
+      flex-shrink: 0;
+    }
+    .solution-body h3 { font-size: 17px; font-weight: 700; color: var(--text); margin-bottom: 8px; }
+    .solution-body p { font-size: 14px; color: var(--muted); line-height: 1.7; }
+    .solution-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 12px; }
+    .tag {
+      font-size: 11px; font-weight: 600; padding: 4px 10px; border-radius: 100px;
+      background: rgba(59,130,246,0.1); color: var(--blue);
+      border: 1px solid rgba(59,130,246,0.2);
+    }
+    .tag.green { background: rgba(16,185,129,0.1); color: var(--green); border-color: rgba(16,185,129,0.2); }
+    .tag.red   { background: rgba(29,78,216,0.1);  color: var(--primary-light); border-color: rgba(29,78,216,0.2); }
+    .tag.gold  { background: rgba(245,158,11,0.1); color: var(--gold);  border-color: rgba(245,158,11,0.2); }
+
+    /* ─── RESULTS ─── */
+    .results-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; }
+    .result-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 16px; padding: 28px;
+      text-align: center;
+      position: relative; overflow: hidden;
+    }
+    .result-card::after {
+      content: '';
+      position: absolute; bottom: 0; left: 0; right: 0; height: 2px;
+      background: linear-gradient(90deg, var(--green), #34D399);
+    }
+    .result-num {
+      font-size: 42px; font-weight: 900; color: var(--green);
+      letter-spacing: -2px; line-height: 1;
+    }
+    .result-unit { font-size: 20px; color: var(--muted); }
+    .result-label { font-size: 13px; color: var(--muted); margin-top: 10px; font-weight: 500; }
+    .result-period { font-size: 11px; color: var(--muted-2); margin-top: 4px; }
+
+    /* ─── PRICING ─── */
+    .pricing-wrap { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; align-items: start; }
+    .pricing-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 20px; padding: 36px;
+      position: relative; transition: transform 250ms, border-color 250ms;
+    }
+    .pricing-card:hover { transform: translateY(-6px); }
+    .pricing-card.featured {
+      background: linear-gradient(135deg, rgba(29,78,216,0.08), rgba(29,78,216,0.04));
+      border-color: rgba(29,78,216,0.4);
+    }
+    .pricing-badge {
+      position: absolute; top: -14px; left: 50%; transform: translateX(-50%);
+      background: var(--primary); color: #fff;
+      font-size: 11px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase;
+      padding: 5px 16px; border-radius: 100px; white-space: nowrap;
+    }
+    .pricing-plan { font-size: 12px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; color: var(--muted); margin-bottom: 8px; }
+    .pricing-name { font-size: 22px; font-weight: 800; color: var(--text); margin-bottom: 4px; }
+    .pricing-desc { font-size: 13px; color: var(--muted); margin-bottom: 28px; line-height: 1.6; }
+    .pricing-price { margin-bottom: 8px; }
+    .pricing-price .currency { font-size: 20px; font-weight: 700; color: var(--muted); vertical-align: top; margin-top: 8px; display: inline-block; }
+    .pricing-price .amount {
+      font-size: 52px; font-weight: 900; color: var(--text); letter-spacing: -3px; line-height: 1;
+    }
+    .pricing-price .period { font-size: 14px; color: var(--muted); margin-left: 4px; }
+    .pricing-note { font-size: 12px; color: var(--muted-2); margin-bottom: 28px; }
+    .pricing-divider { height: 1px; background: var(--border); margin: 24px 0; }
+    .pricing-features { display: flex; flex-direction: column; gap: 12px; margin-bottom: 32px; }
+    .pricing-feature { display: flex; align-items: flex-start; gap: 10px; font-size: 13px; color: var(--muted); }
+    .feature-check {
+      width: 18px; height: 18px; border-radius: 50%; flex-shrink: 0;
+      display: flex; align-items: center; justify-content: center; margin-top: 1px; font-size: 10px;
+    }
+    .feature-check.yes { background: rgba(16,185,129,0.15); color: var(--green); }
+    .feature-check.no  { background: var(--surface-2); color: var(--muted-2); }
+    .pricing-cta {
+      display: block; width: 100%; padding: 14px;
+      border-radius: 10px; text-align: center;
+      font-size: 14px; font-weight: 700;
+      text-decoration: none; cursor: pointer; border: none;
+      transition: opacity 200ms, transform 150ms;
+    }
+    .pricing-cta:hover { opacity: 0.85; transform: translateY(-1px); }
+    .pricing-cta.primary { background: var(--primary); color: #fff; }
+    .pricing-cta.outline { background: transparent; border: 1px solid var(--border); color: var(--text); }
+    .pricing-cta.outline:hover { border-color: #93c5fd; background: #eff6ff; }
+
+    /* ─── TIMELINE ─── */
+    .timeline { position: relative; padding-left: 32px; }
+    .timeline::before {
+      content: ''; position: absolute; left: 8px; top: 8px; bottom: 8px;
+      width: 2px; background: var(--border);
+    }
+    .timeline-item { position: relative; margin-bottom: 40px; }
+    .timeline-item::before {
+      content: ''; position: absolute; left: -28px; top: 6px;
+      width: 12px; height: 12px; border-radius: 50%;
+      background: var(--primary); border: 2px solid var(--surface);
+      box-shadow: 0 0 0 3px rgba(29,78,216,0.15);
+    }
+    .timeline-phase {
+      font-size: 11px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase;
+      color: var(--primary); margin-bottom: 4px;
+    }
+    .timeline-title { font-size: 17px; font-weight: 700; color: var(--text); margin-bottom: 8px; }
+    .timeline-desc { font-size: 13px; color: var(--muted); line-height: 1.7; }
+
+    /* ─── WHY US ─── */
+    .why-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+    .why-card {
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: 16px; padding: 28px;
+    }
+    .why-icon { font-size: 28px; margin-bottom: 16px; }
+    .why-card h3 { font-size: 15px; font-weight: 700; color: var(--text); margin-bottom: 8px; }
+    .why-card p { font-size: 13px; color: var(--muted); line-height: 1.65; }
+
+    /* ─── CTA SECTION ─── */
+    .cta-section {
+      background: linear-gradient(135deg, #eff6ff, #f0f9ff);
+      border: 1px solid #bfdbfe;
+      border-radius: 28px;
+      padding: 80px 60px;
+      text-align: center;
+      position: relative; overflow: hidden;
+    }
+    .cta-section::before {
+      content: '';
+      position: absolute; inset: 0;
+      background: radial-gradient(ellipse at 50% 0%, rgba(29,78,216,0.06), transparent 60%);
+    }
+    .cta-section > * { position: relative; z-index: 1; }
+    .cta-section h2 { font-size: clamp(28px, 4vw, 48px); font-weight: 900; letter-spacing: -1.5px; margin-bottom: 16px; }
+    .cta-section p { font-size: 16px; color: var(--muted); margin-bottom: 40px; max-width: 500px; margin-left: auto; margin-right: auto; }
+    .cta-buttons { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
+    .btn-primary {
+      background: var(--primary); color: #fff;
+      font-size: 15px; font-weight: 700;
+      padding: 16px 36px; border-radius: 12px;
+      text-decoration: none; transition: opacity 200ms, transform 150ms;
+      display: inline-block;
+    }
+    .btn-primary:hover { opacity: 0.85; transform: translateY(-2px); }
+    .btn-secondary {
+      background: #fff; color: var(--text);
+      font-size: 15px; font-weight: 600;
+      padding: 16px 36px; border-radius: 12px;
+      border: 1px solid var(--border);
+      text-decoration: none; transition: border-color 200ms, background 200ms;
+      display: inline-block;
+    }
+    .btn-secondary:hover { border-color: #93c5fd; background: #eff6ff; }
+
+    /* ─── FOOTER ─── */
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 40px;
+      display: flex; align-items: center; justify-content: space-between;
+      color: var(--muted-2); font-size: 12px;
+    }
+
+    /* ─── FADE IN ─── */
+    .fade-up {
+      opacity: 0; transform: translateY(30px);
+      transition: opacity 600ms ease, transform 600ms ease;
+    }
+    .fade-up.visible { opacity: 1; transform: translateY(0); }
+
+    /* ─── SCROLL ANCHORS (compensa nav fixa) ─── */
+    section[id], [id] { scroll-margin-top: 72px; }
+
+    /* ─── TOUCH UX ─── */
+    a, button, .pricing-cta, .btn-primary, .btn-secondary {
+      touch-action: manipulation;
+    }
+    .nav-cta {
+      min-height: 44px;
+      display: inline-flex;
+      align-items: center;
+    }
+
+    /* ─── SAFE AREA (notch iPhones) ─── */
+    nav { padding-top: calc(16px + env(safe-area-inset-top)); }
+
+    /* ─── GLOBAL OVERFLOW ─── */
+    img, canvas, iframe, video, svg { max-width: 100%; }
+
+    /* ─── RESPONSIVE ─── */
+    /* ─── RESPONSIVE INNER WRAPPERS ─── */
+    .inner-wrap { max-width: 1200px; margin: 0 auto; padding: 0 40px; }
+    .section-full { max-width: 100% !important; padding: 100px 0; }
+    .timeline-grid { margin-top: 72px; display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: start; }
+    .addons-outer { margin-top: 48px; background: var(--surface); border: 1px solid var(--border); border-radius: 20px; padding: 36px; }
+    .addons-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+    .hero-ctas { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
+    .cta-mini-stats { margin-top: 48px; display: flex; gap: 40px; justify-content: center; flex-wrap: wrap; }
+
+    @media (max-width: 900px) {
+      nav {
+        padding: 0 20px;
+        padding-top: env(safe-area-inset-top);
+        min-height: calc(52px + env(safe-area-inset-top));
+      }
+      .nav-links { display: none; }
+      section { padding: 80px 20px; }
+      .section-full { padding: 80px 0 !important; }
+      .diagnostic-wrap { grid-template-columns: 1fr; }
+      .problems-grid { grid-template-columns: 1fr; }
+      .results-grid { grid-template-columns: 1fr 1fr; }
+      .pricing-wrap { grid-template-columns: 1fr; }
+      .why-grid { grid-template-columns: 1fr; }
+      .hero-stats { flex-direction: column; gap: 24px; }
+      .solution-item { grid-template-columns: 1fr; }
+      .cta-section { padding: 48px 24px; }
+      footer { flex-direction: column; gap: 12px; text-align: center; }
+      .inner-wrap { padding: 0 20px; }
+      .timeline-grid { grid-template-columns: 1fr; gap: 32px; }
+      .addons-grid { grid-template-columns: 1fr 1fr; }
+    }
+
+    @media (max-width: 600px) {
+      nav {
+        padding: 0 16px;
+        padding-top: env(safe-area-inset-top);
+      }
+
+      /* hero */
+      .hero { padding: calc(72px + env(safe-area-inset-top)) 20px 56px; }
+      .hero h1 { font-size: clamp(28px, 8vw, 44px); letter-spacing: -1px; }
+      .hero-badge { font-size: 10px; margin-bottom: 20px; padding: 5px 12px; }
+      .hero-stats { margin-top: 40px; padding-top: 28px; gap: 16px; }
+      .hero-stat-num { font-size: 28px; }
+      .hero-stat-label { font-size: 11px; }
+
+      /* sections */
+      section { padding: 56px 16px; }
+      .section-full { padding: 56px 0 !important; }
+      .section-header { margin-bottom: 40px; }
+      .section-desc { font-size: 14px; }
+
+      /* hero ctas */
+      .hero-ctas { flex-direction: column; align-items: stretch; }
+
+      /* scroll indicator — flui naturalmente após os stats */
+      .scroll-indicator {
+        position: static;
+        transform: none;
+        left: auto;
+        margin-top: 32px;
+        animation: bounce-y 2s infinite;
+      }
+      .hero-ctas .btn-primary, .hero-ctas .btn-secondary { text-align: center; }
+
+      /* cards */
+      .platform-card { padding: 20px; border-radius: 14px; }
+      .metric-box { padding: 12px; }
+      .metric-box-val { font-size: 18px; }
+      .problem-card { padding: 20px; border-radius: 12px; }
+      .problem-card h3 { font-size: 14px; }
+      .why-card { padding: 20px; border-radius: 12px; }
+      .why-card h3 { font-size: 14px; }
+
+      /* solutions */
+      .solution-item { padding: 20px; gap: 14px; border-radius: 12px; }
+      .solution-num { width: 48px; height: 48px; font-size: 18px; border-radius: 10px; }
+      .solution-body h3 { font-size: 15px; }
+
+      /* results */
+      .result-card { padding: 20px; }
+      .result-num { font-size: 32px; letter-spacing: -1px; }
+      .result-unit { font-size: 16px; }
+      .results-grid { grid-template-columns: 1fr 1fr; gap: 12px; }
+
+      /* pricing */
+      .pricing-card { padding: 24px; border-radius: 14px; }
+      .pricing-price .amount { font-size: 40px; letter-spacing: -2px; }
+      .pricing-cta { padding: 14px; min-height: 48px; }
+
+      /* cta */
+      .cta-section { padding: 36px 16px; border-radius: 16px; }
+      .btn-primary, .btn-secondary { padding: 14px 20px; font-size: 14px; min-height: 48px; }
+
+      /* table scroll */
+      .compare-table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+      .compare-table { min-width: 520px; }
+      .compare-table th, .compare-table td { padding: 10px 12px; font-size: 12px; }
+
+      /* footer */
+      footer { padding: 24px 16px; font-size: 11px; }
+
+      /* inner wrappers */
+      .inner-wrap { padding: 0 16px; }
+      .timeline-grid { margin-top: 40px; gap: 24px; }
+      .addons-outer { padding: 20px 16px; border-radius: 16px; }
+      .addons-grid { grid-template-columns: 1fr 1fr; gap: 10px; }
+
+      /* cta mini stats */
+      .cta-mini-stats { gap: 20px; margin-top: 32px; }
+    }
+
+    /* ─── COMPARISON TABLE ─── */
+    .compare-table { width: 100%; border-collapse: collapse; }
+    .compare-table th, .compare-table td { padding: 14px 20px; text-align: left; font-size: 13px; border-bottom: 1px solid var(--border); }
+    .compare-table th { font-weight: 700; color: var(--muted); font-size: 11px; letter-spacing: 1px; text-transform: uppercase; background: var(--surface); }
+    .compare-table tr:hover td { background: #f8faff; }
+    .compare-table td:first-child { color: var(--text); font-weight: 500; }
+    .compare-table .badge-bad  { display: inline-block; padding: 3px 10px; border-radius: 100px; font-size: 11px; font-weight: 600; background: rgba(239,68,68,0.12); color: #EF4444; }
+    .compare-table .badge-ok   { display: inline-block; padding: 3px 10px; border-radius: 100px; font-size: 11px; font-weight: 600; background: rgba(245,158,11,0.12); color: var(--gold); }
+    .compare-table .badge-good { display: inline-block; padding: 3px 10px; border-radius: 100px; font-size: 11px; font-weight: 600; background: rgba(16,185,129,0.12); color: var(--green); }
+
+    /* ─── NUMBER COUNTER ─── */
+    .counter { display: inline-block; }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-logo">
+    <div class="nav-logo-dot"></div>
+    <span class="nav-logo-text">Proposta Comercial</span>
+  </div>
+  <div class="nav-links">
+    <a href="#diagnostico">Diagnóstico</a>
+    <a href="#problemas">Problemas</a>
+    <a href="#solucoes">Soluções</a>
+    <a href="#planos">Planos</a>
+    <a href="#contato">Contato</a>
+  </div>
+  <a href="#contato" class="nav-cta">Vamos Conversar</a>
+</nav>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-grid"></div>
+  <div class="hero-content">
+    <div class="hero-badge">
+      <span class="hero-badge-dot"></span>
+      Proposta Exclusiva · 27 de Maio de 2026
+    </div>
+    <h1>
+      O que está travando o<br/>
+      crescimento digital da<br/>
+      <span class="accent">PECBR</span>
+    </h1>
+    <p class="hero-sub">
+      Analisamos a fundo o YouTube e o Instagram da PECBR. Encontramos pontos críticos, oportunidades inexploradas — e criamos um plano para dobrar seu impacto digital em 90 dias.
+    </p>
+    <div class="hero-ctas">
+      <a href="#diagnostico" class="btn-primary">Ver Diagnóstico Completo</a>
+      <a href="#planos" class="btn-secondary">Ver Planos e Preços</a>
+    </div>
+    <div class="hero-stats">
+      <div class="hero-stat">
+        <div class="hero-stat-num"><span class="counter" data-target="28900">0</span></div>
+        <div class="hero-stat-label">Seguidores no Instagram</div>
+      </div>
+      <div class="hero-stat">
+        <div class="hero-stat-num"><span class="counter" data-target="13200">0</span></div>
+        <div class="hero-stat-label">Inscritos no YouTube</div>
+      </div>
+      <div class="hero-stat">
+        <div class="hero-stat-num"><span class="counter" data-target="2316">0</span></div>
+        <div class="hero-stat-label">Conteúdos Publicados</div>
+      </div>
+      <div class="hero-stat">
+        <div class="hero-stat-num"><span class="counter" data-target="10">0</span><span class="unit">+</span></div>
+        <div class="hero-stat-label">Anos de Mercado</div>
+      </div>
+    </div>
+  </div>
+  <div class="scroll-indicator">
+    <span>Role para ver</span>
+    <div class="scroll-arrow"></div>
+  </div>
+</div>
+
+<!-- DIAGNÓSTICO -->
+<section id="diagnostico" class="fade-up">
+  <div class="section-header">
+    <span class="section-eyebrow">Análise Realizada</span>
+    <h2 class="section-title">Diagnóstico das <span class="dim">suas plataformas</span></h2>
+    <p class="section-desc">Analisamos cada detalhe do seu YouTube e Instagram. Aqui está o retrato honesto da situação atual.</p>
+  </div>
+  <div class="diagnostic-wrap">
+    <!-- YouTube -->
+    <div class="platform-card yt fade-up">
+      <div class="platform-icon yt">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="#FF0000"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+      </div>
+      <div class="platform-name">YouTube · @pecbrsolucoes</div>
+      <div style="font-size:20px;font-weight:800;color:var(--text);">Canal com Potencial Represado</div>
+      <div class="platform-metrics">
+        <div class="metric-box">
+          <div class="metric-box-val">13,2K</div>
+          <div class="metric-box-label">Inscritos</div>
+        </div>
+        <div class="metric-box">
+          <div class="metric-box-val">374</div>
+          <div class="metric-box-label">Vídeos</div>
+        </div>
+        <div class="metric-box">
+          <div class="metric-box-val" style="color:#EF4444;">~223</div>
+          <div class="metric-box-label">Views recentes</div>
+        </div>
+        <div class="metric-box">
+          <div class="metric-box-val" style="color:var(--gold);">145K</div>
+          <div class="metric-box-label">Maior vídeo</div>
+        </div>
+      </div>
+      <div class="platform-problems">
+        <div class="problem-item">
+          <div class="problem-icon bad">✕</div>
+          <span>Vídeos recentes com menos de 250 visualizações — queda crítica</span>
+        </div>
+        <div class="problem-item">
+          <div class="problem-icon bad">✕</div>
+          <span>Frequência irregular: publicações com 7 meses de intervalo</span>
+        </div>
+        <div class="problem-item">
+          <div class="problem-icon warn">!</div>
+          <span>Thumbnails sem padrão visual — baixo CTR estimado</span>
+        </div>
+        <div class="problem-item">
+          <div class="problem-icon warn">!</div>
+          <span>Títulos e descrições sem otimização de SEO para YouTube</span>
+        </div>
+        <div class="problem-item">
+          <div class="problem-icon warn">!</div>
+          <span>76 Shorts publicados mas sem estratégia integrada</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Instagram -->
+    <div class="platform-card ig fade-up">
+      <div class="platform-icon ig">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="url(#igGrad)">
+          <defs>
+            <linearGradient id="igGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+              <stop offset="0%" style="stop-color:#FCB045"/>
+              <stop offset="50%" style="stop-color:#FD1D1D"/>
+              <stop offset="100%" style="stop-color:#833AB4"/>
+            </linearGradient>
+          </defs>
+          <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"/>
+        </svg>
+      </div>
+      <div class="platform-name">Instagram · @pecbrsolucoes ✅</div>
+      <div style="font-size:20px;font-weight:800;color:var(--text);">Plataforma Principal, Com Gaps</div>
+      <div class="platform-metrics">
+        <div class="metric-box">
+          <div class="metric-box-val">28,9K</div>
+          <div class="metric-box-label">Seguidores</div>
+        </div>
+        <div class="metric-box">
+          <div class="metric-box-val">1.942</div>
+          <div class="metric-box-label">Posts</div>
+        </div>
+        <div class="metric-box">
+          <div class="metric-box-val" style="color:var(--gold);">1,3%</div>
+          <div class="metric-box-label">Engajamento</div>
+        </div>
+        <div class="metric-box">
+          <div class="metric-box-val" style="color:var(--green);">2.500</div>
+          <div class="metric-box-label">Curtidas fixado</div>
+        </div>
+      </div>
+      <div class="platform-problems">
+        <div class="problem-item">
+          <div class="problem-icon bad">✕</div>
+          <span>Bio sem CTA claro — visitantes não sabem como contratar</span>
+        </div>
+        <div class="problem-item">
+          <div class="problem-icon bad">✕</div>
+          <span>Sem Highlights organizados — perfil parece incompleto</span>
+        </div>
+        <div class="problem-item">
+          <div class="problem-icon warn">!</div>
+          <span>Stories subutilizados — sem enquetes, bastidores ou caixinhas</span>
+        </div>
+        <div class="problem-item">
+          <div class="problem-icon warn">!</div>
+          <span>Reels não são reaproveitados do conteúdo YouTube já produzido</span>
+        </div>
+        <div class="problem-item">
+          <div class="problem-icon warn">!</div>
+          <span>Sem link personalizado — Linktree ou bio-link não configurado</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Comparison Table -->
+  <div style="margin-top:32px;" class="fade-up compare-table-wrap">
+    <table class="compare-table">
+      <thead>
+        <tr>
+          <th>Métrica</th>
+          <th>Situação Atual</th>
+          <th>Benchmark do Setor</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Frequência de publicação (YouTube)</td>
+          <td>1–2 vídeos/mês (irregular)</td>
+          <td>4–8 vídeos/mês</td>
+          <td><span class="badge-bad">Crítico</span></td>
+        </tr>
+        <tr>
+          <td>Views médias por vídeo (recentes)</td>
+          <td>~230 views</td>
+          <td>1.000–5.000 views</td>
+          <td><span class="badge-bad">Crítico</span></td>
+        </tr>
+        <tr>
+          <td>Taxa de engajamento Instagram</td>
+          <td>0,7–1,3%</td>
+          <td>0,5–2% (B2B nicho)</td>
+          <td><span class="badge-ok">Regular</span></td>
+        </tr>
+        <tr>
+          <td>Consistência de postagem Instagram</td>
+          <td>1–2 posts/semana</td>
+          <td>3–5 posts/semana</td>
+          <td><span class="badge-ok">Regular</span></td>
+        </tr>
+        <tr>
+          <td>Otimização de SEO (YouTube)</td>
+          <td>Parcial</td>
+          <td>Completa</td>
+          <td><span class="badge-bad">Ausente</span></td>
+        </tr>
+        <tr>
+          <td>Estratégia de Highlights Instagram</td>
+          <td>Não identificada</td>
+          <td>5–8 Highlights temáticos</td>
+          <td><span class="badge-bad">Ausente</span></td>
+        </tr>
+        <tr>
+          <td>Autoridade (conta verificada)</td>
+          <td>✅ Instagram verificado</td>
+          <td>—</td>
+          <td><span class="badge-good">Excelente</span></td>
+        </tr>
+        <tr>
+          <td>Biblioteca de conteúdo</td>
+          <td>374 vídeos + 1.942 posts</td>
+          <td>—</td>
+          <td><span class="badge-good">Sólida</span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- PROBLEMAS -->
+<section id="problemas" class="section-full" style="background: linear-gradient(180deg, transparent, #eff6ff, transparent);">
+  <div class="inner-wrap">
+    <div class="section-header fade-up">
+      <span class="section-eyebrow">O Que Está Travando Você</span>
+      <h2 class="section-title">6 problemas críticos <span class="dim">identificados</span></h2>
+      <p class="section-desc">Esses são os pontos que estão impedindo a PECBR de converter sua autoridade técnica em crescimento digital real.</p>
+    </div>
+    <div class="problems-grid">
+      <div class="problem-card fade-up">
+        <div class="problem-card-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#1d4ed8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+        </div>
+        <h3>Algoritmo Desfavorecendo o Canal</h3>
+        <p>A queda de frequência de publicação no YouTube fez o algoritmo parar de distribuir seu conteúdo. Vídeos antigos têm 145K views, os novos chegam a 223. Não é falta de qualidade — é falta de consistência.</p>
+      </div>
+      <div class="problem-card fade-up">
+        <div class="problem-card-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#1d4ed8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+        </div>
+        <h3>Invisível para Quem Está Buscando</h3>
+        <p>Títulos e descrições sem otimização de SEO significam que profissionais pesquisando "abate bovino" ou "qualidade de carcaça" no YouTube estão encontrando o concorrente — não você.</p>
+      </div>
+      <div class="problem-card fade-up">
+        <div class="problem-card-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#1d4ed8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+        </div>
+        <h3>Visitantes Sem Direção no Instagram</h3>
+        <p>Uma bio genérica sem CTA, sem Highlights organizados e sem link direto faz o visitante chegar no perfil e... sair sem fazer nada. Cada visita desperdiçada é um lead perdido.</p>
+      </div>
+      <div class="problem-card fade-up">
+        <div class="problem-card-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#1d4ed8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+        </div>
+        <h3>Conteúdo não Está Sendo Reaproveitado</h3>
+        <p>Vocês têm 374 vídeos no YouTube e não estão transformando esses em Reels, Shorts e carrosséis. Cada vídeo longo poderia gerar 5 a 10 peças de conteúdo para outras plataformas.</p>
+      </div>
+      <div class="problem-card fade-up">
+        <div class="problem-card-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#1d4ed8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+        </div>
+        <h3>Rede de Collabs Subutilizada</h3>
+        <p>Vocês já têm parcerias com @beef10oficial e @caioarossato, mas essa estratégia está sendo usada de forma pontual. Com um programa estruturado, você poderia alcançar 200–500 mil pessoas por mês.</p>
+      </div>
+      <div class="problem-card fade-up">
+        <div class="problem-card-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#1d4ed8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+        </div>
+        <h3>Sem Monetização dos Stories e Lives</h3>
+        <p>Stories com enquetes, caixinhas de perguntas e bastidores são gratuitos e aumentam o alcance orgânico em até 40%. Lives sobre pauta em alta (exportação para UE, preço do boi) poderiam gerar centenas de leads qualificados.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SOLUÇÕES -->
+<section id="solucoes" class="fade-up">
+  <div class="section-header">
+    <span class="section-eyebrow">Nossa Proposta</span>
+    <h2 class="section-title">O que vamos <span class="dim">fazer por você</span></h2>
+    <p class="section-desc">Um plano estruturado para transformar sua presença digital de potencial represado em máquina de geração de autoridade e clientes.</p>
+  </div>
+  <div class="solutions-list">
+    <div class="solution-item fade-up">
+      <div class="solution-num">01</div>
+      <div class="solution-body">
+        <h3>Recuperação e Dominância no YouTube</h3>
+        <p>Criamos um calendário editorial semanal e retomamos a consistência de publicação — o único caminho para reconquistar o algoritmo. Aplicamos SEO completo (títulos, descrições, tags, thumbnails padronizadas) em cada vídeo. Transformamos seus Shorts em estratégia de alcance orgânico. Meta: 3x mais visualizações em 90 dias.</p>
+        <div class="solution-tags">
+          <span class="tag">Calendário Editorial</span>
+          <span class="tag green">SEO de YouTube</span>
+          <span class="tag">Thumbnails CTR</span>
+          <span class="tag red">Shorts Estratégicos</span>
+        </div>
+      </div>
+    </div>
+    <div class="solution-item fade-up">
+      <div class="solution-num">02</div>
+      <div class="solution-body">
+        <h3>Transformação do Instagram em Máquina de Leads</h3>
+        <p>Criamos um sistema completo de geração de leads passiva: Highlights organizados por serviço, bio otimizada com CTA e Linktree, 3–5 Stories diários com enquetes e interação, e série semanal de Reels técnicos. A estratégia "Comente EU QUERO" será potencializada com fluxos automatizados via DM.</p>
+        <div class="solution-tags">
+          <span class="tag green">Highlights Completos</span>
+          <span class="tag">Bio + Linktree</span>
+          <span class="tag gold">Stories Diários</span>
+          <span class="tag">Série de Reels</span>
+        </div>
+      </div>
+    </div>
+    <div class="solution-item fade-up">
+      <div class="solution-num">03</div>
+      <div class="solution-body">
+        <h3>Estratégia de Reaproveitamento de Conteúdo</h3>
+        <p>Cada vídeo longo do YouTube será transformado em: 1 Reel para Instagram, 2–3 Shorts para YouTube, 1 carrossel educativo e 1 post estático com dado/insight. Você produz uma vez — distribuímos em 5 formatos. Isso multiplica seu alcance sem aumentar o esforço de produção.</p>
+        <div class="solution-tags">
+          <span class="tag red">Repurposing</span>
+          <span class="tag">Corte de Vídeo</span>
+          <span class="tag green">5× o Conteúdo</span>
+          <span class="tag gold">Custo Zero Extra</span>
+        </div>
+      </div>
+    </div>
+    <div class="solution-item fade-up">
+      <div class="solution-num">04</div>
+      <div class="solution-body">
+        <h3>Programa Estruturado de Collabs e Parcerias</h3>
+        <p>Mapeamos os 20 melhores perfis do agronegócio para colaborações mensais — veterinários, zootecnistas, associações de pecuária, universidades e frigoríficos clientes. Cada collab estruturado expõe a PECBR para uma nova audiência de 5.000 a 50.000 pessoas qualificadas por mês.</p>
+        <div class="solution-tags">
+          <span class="tag">Mapeamento de Parceiros</span>
+          <span class="tag green">Posts Collab</span>
+          <span class="tag">Universidades Agro</span>
+          <span class="tag red">Crescimento Orgânico</span>
+        </div>
+      </div>
+    </div>
+    <div class="solution-item fade-up">
+      <div class="solution-num">05</div>
+      <div class="solution-body">
+        <h3>Dashboard de Métricas e Relatórios Mensais</h3>
+        <p>Você terá acesso a um dashboard atualizado semanalmente com todas as métricas que importam: alcance, engajamento, leads gerados, crescimento de seguidores e oportunidades perdidas. Todo mês, uma reunião estratégica para ajustar o que não está funcionando e escalar o que está.</p>
+        <div class="solution-tags">
+          <span class="tag gold">Dashboard Semanal</span>
+          <span class="tag green">Reunião Mensal</span>
+          <span class="tag">Relatório Executivo</span>
+          <span class="tag">KPIs Personalizados</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- RESULTADOS ESPERADOS -->
+<section class="section-full" style="background:linear-gradient(180deg,transparent,#f0fdf4,transparent);">
+  <div class="inner-wrap">
+    <div class="section-header fade-up">
+      <span class="section-eyebrow">Projeção de Resultados</span>
+      <h2 class="section-title">O que esperar <span class="dim">em 90 dias</span></h2>
+      <p class="section-desc">Resultados conservadores baseados na análise do canal, no histórico de desempenho e nas melhores práticas do nicho agropecuário.</p>
+    </div>
+    <div class="results-grid fade-up">
+      <div class="result-card">
+        <div class="result-num"><span class="counter" data-target="3" data-suffix="×">0</span></div>
+        <div class="result-label">Mais visualizações por vídeo no YouTube</div>
+        <div class="result-period">Em 90 dias</div>
+      </div>
+      <div class="result-card">
+        <div class="result-num"><span class="counter" data-target="40" data-suffix="%">0</span></div>
+        <div class="result-label">Crescimento de seguidores no Instagram</div>
+        <div class="result-period">Em 6 meses</div>
+      </div>
+      <div class="result-card">
+        <div class="result-num"><span class="counter" data-target="5" data-suffix="×">0</span></div>
+        <div class="result-label">Mais conteúdo distribuído por semana</div>
+        <div class="result-period">A partir do mês 1</div>
+      </div>
+      <div class="result-card">
+        <div class="result-num"><span class="counter" data-target="100" data-suffix="+">0</span></div>
+        <div class="result-label">Leads qualificados gerados por mês</div>
+        <div class="result-period">Em 3 meses</div>
+      </div>
+    </div>
+
+    <!-- Timeline -->
+    <div class="timeline-grid fade-up">
+      <div>
+        <h3 style="font-size:20px;font-weight:800;margin-bottom:32px;">Cronograma de Execução</h3>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-phase">Mês 1</div>
+            <div class="timeline-title">Estruturação e Fundação</div>
+            <div class="timeline-desc">Auditoria completa das plataformas, criação do calendário editorial, redesenho do perfil Instagram (bio, Highlights, Linktree), SEO de 10 vídeos antigos estratégicos, início das collabs.</div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-phase">Mês 2</div>
+            <div class="timeline-title">Execução e Distribuição</div>
+            <div class="timeline-desc">Plena cadência de publicação, série semanal de Reels, repurposing de conteúdo YouTube em Shorts e carrosséis, Stories diários, primeiros relatórios de performance.</div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-phase">Mês 3</div>
+            <div class="timeline-title">Escala e Otimização</div>
+            <div class="timeline-desc">Análise dos conteúdos que performaram, dobrar a produção dos formatos com melhores resultados, live temática, expansão do programa de collabs e revisão estratégica completa.</div>
+          </div>
+          <div class="timeline-item" style="margin-bottom:0;">
+            <div class="timeline-phase">Mês 4+</div>
+            <div class="timeline-title">Consolidação de Autoridade</div>
+            <div class="timeline-desc">Métricas consolidadas, funil de leads estruturado, exploração de tráfego pago, avaliação de lançamento de curso ou certificação PECBR.</div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h3 style="font-size:20px;font-weight:800;margin-bottom:32px;">Potencial de Receita Gerado</h3>
+        <div style="display:flex;flex-direction:column;gap:16px;">
+          <div style="background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:20px;">
+            <div style="font-size:12px;color:var(--muted);font-weight:600;text-transform:uppercase;letter-spacing:1px;margin-bottom:6px;">Leads por mês via Instagram</div>
+            <div style="font-size:24px;font-weight:800;">30 – 150 leads</div>
+            <div style="font-size:12px;color:var(--muted-2);margin-top:4px;">Baseado na estratégia "EU QUERO" + Stories</div>
+          </div>
+          <div style="background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:20px;">
+            <div style="font-size:12px;color:var(--muted);font-weight:600;text-transform:uppercase;letter-spacing:1px;margin-bottom:6px;">Taxa de conversão estimada</div>
+            <div style="font-size:24px;font-weight:800;">2 – 5%</div>
+            <div style="font-size:12px;color:var(--muted-2);margin-top:4px;">Público altamente qualificado e de nicho</div>
+          </div>
+          <div style="background:linear-gradient(135deg,rgba(16,185,129,0.1),rgba(16,185,129,0.05));border:1px solid rgba(16,185,129,0.2);border-radius:14px;padding:20px;">
+            <div style="font-size:12px;color:var(--green);font-weight:700;text-transform:uppercase;letter-spacing:1px;margin-bottom:6px;">Receita potencial extra/mês</div>
+            <div style="font-size:28px;font-weight:900;color:var(--green);">R$ 4.000 – R$ 75.000</div>
+            <div style="font-size:12px;color:var(--muted-2);margin-top:4px;">1–5 clientes × ticket de R$ 2k–R$ 15k de consultoria</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PLANOS E PREÇOS -->
+<section id="planos" class="fade-up">
+  <div class="section-header">
+    <span class="section-eyebrow">Planos e Investimento</span>
+    <h2 class="section-title">Escolha o plano <span class="dim">certo para você</span></h2>
+    <p class="section-desc">Três níveis de atuação. Todos incluem estratégia, execução e relatórios. Sem taxas ocultas.</p>
+  </div>
+  <div class="pricing-wrap">
+
+    <!-- Plano Essencial -->
+    <div class="pricing-card fade-up">
+      <div class="pricing-plan">Plano 01</div>
+      <div class="pricing-name">Essencial</div>
+      <div class="pricing-desc">Para quem quer organizar e profissionalizar a presença no Instagram sem perder tempo.</div>
+      <div class="pricing-price">
+        <span class="currency">R$</span>
+        <span class="amount">2.997</span>
+        <span class="period">/mês</span>
+      </div>
+      <div class="pricing-note">+ Imposto, sem fidelidade no 1° mês</div>
+      <div class="pricing-divider"></div>
+      <div class="pricing-features">
+        <div class="pricing-feature"><div class="feature-check yes">✓</div><span>Gestão completa do Instagram</span></div>
+        <div class="pricing-feature"><div class="feature-check yes">✓</div><span>12 posts/mês (8 Reels + 4 Carrosséis)</span></div>
+        <div class="pricing-feature"><div class="feature-check yes">✓</div><span>Stories diários (5×/semana)</span></div>
+        <div class="pricing-feature"><div class="feature-check yes">✓</div><span>Otimização de bio + Highlights</span></div>
+        <div class="pricing-feature"><div class="feature-check yes">✓</div><span>Configuração de Linktree/biolink</span></div>
+        <div class="pricing-feature"><div class="feature-check yes">✓</div><span>Relatório mensal de métricas</span></div>
+        <div class="pricing-feature"><div class="feature-check yes">✓</div><span>Estratégia de hashtags otimizada</span></div>
+        <div class="pricing-feature"><div class="feature-check no">–</div><span style="color:var(--muted-2);">Gestão YouTube</span></div>
+        <div class="pricing-feature"><div class="feature-check no">–</div><span style="color:var(--muted-2);">Produção de vídeos</span></div>
+        <div class="pricing-feature"><div class="feature-check no">–</div><span style="color:var(--muted-2);">Tráfego pago</span></div>
+      </div>
+      <a href="#contato" class="pricing-cta outline">Começar com Essencial</a>
+    </div>
+
+    <!-- Plano Crescimento (Destaque) -->
+    <div class="pricing-card featured fade-up">
+      <div class="pricing-badge">Mais Escolhido</div>
+      <div class="pricing-plan">Plano 02</div>
+      <div class="pricing-name">Crescimento</div>
+      <div class="pricing-desc">O plano completo para dominar tanto o Instagram quanto o YouTube e multiplicar sua autoridade.</div>
+      <div class="pricing-price">
+        <span class="currency">R$</span>
+        <span class="amount">5.497</span>
+        <span class="period">/mês</span>
+      </div>
+      <div class="pricing-note">+ Imposto, sem fidelidade no 1° mês</div>
+      <div class="pricing-divider"></div>
+      <div class="pricing-features">
+        <div class="pricing-feature"><div class="feature-check yes">✓</div><span>Tudo do Plano Essencial</span></div>
+        <div class="pricing-feature"><div class="feature-check yes">✓</div><span>Gestão completa do YouTube</span></div>
+        <div class="pricing-feature"><div class="feature-check yes">✓</div><span>2 vídeos YouTube/mês (roteiro + edição)</span></div>
+        <div class="pricing-feature"><div class="feature-check yes">✓</div><span>SEO completo de YouTube (títulos, tags, descrições)</span></div>
+        <div class="pricing-feature"><div class="feature-check yes">✓</div><span>Thumbnails profissionais padronizadas</span></div>
+        <div class="pricing-feature"><div class="feature-check yes">✓</div><span>Reaproveitamento de conteúdo (5× o alcance)</span></div>
+        <div class="pricing-feature"><div class="feature-check yes">✓</div><span>Estratégia de Shorts (4–6/mês)</span></div>
+        <div class="pricing-feature"><div class="feature-check yes">✓</div><span>Calendário editorial integrado</span></div>
+        <div class="pricing-feature"><div class="feature-check yes">✓</div><span>1 Reunião estratégica mensal</span></div>
+        <div class="pricing-feature"><div class="feature-check no">–</div><span style="color:var(--muted-2);">Tráfego pago (opcional)</span></div>
+      </div>
+      <a href="#contato" class="pricing-cta primary">Começar com Crescimento</a>
+    </div>
+
+    <!-- Plano Dominância -->
+    <div class="pricing-card fade-up">
+      <div class="pricing-plan">Plano 03</div>
+      <div class="pricing-name">Dominância</div>
+      <div class="pricing-desc">Para empresas que querem liderar o nicho digitalmente e transformar o conteúdo em receita direta.</div>
+      <div class="pricing-price">
+        <span class="currency">R$</span>
+        <span class="amount">9.997</span>
+        <span class="period">/mês</span>
+      </div>
+      <div class="pricing-note">+ Imposto · Verba de ads inclusa</div>
+      <div class="pricing-divider"></div>
+      <div class="pricing-features">
+        <div class="pricing-feature"><div class="feature-check yes">✓</div><span>Tudo do Plano Crescimento</span></div>
+        <div class="pricing-feature"><div class="feature-check yes">✓</div><span>4 vídeos YouTube/mês (produção completa)</span></div>
+        <div class="pricing-feature"><div class="feature-check yes">✓</div><span>1 dia de gravação profissional/mês</span></div>
+        <div class="pricing-feature"><div class="feature-check yes">✓</div><span>Tráfego pago: Meta Ads + Google Ads</span></div>
+        <div class="pricing-feature"><div class="feature-check yes">✓</div><span>R$ 2.000/mês de verba de anúncios inclusa</span></div>
+        <div class="pricing-feature"><div class="feature-check yes">✓</div><span>Dashboard de métricas personalizado</span></div>
+        <div class="pricing-feature"><div class="feature-check yes">✓</div><span>Programa de collabs estruturado</span></div>
+        <div class="pricing-feature"><div class="feature-check yes">✓</div><span>Live mensal estratégica</span></div>
+        <div class="pricing-feature"><div class="feature-check yes">✓</div><span>2 Reuniões estratégicas/mês</span></div>
+        <div class="pricing-feature"><div class="feature-check yes">✓</div><span>Suporte prioritário via WhatsApp</span></div>
+      </div>
+      <a href="#contato" class="pricing-cta outline">Começar com Dominância</a>
+    </div>
+  </div>
+
+  <!-- Add-ons -->
+  <div class="addons-outer fade-up">
+    <h3 style="font-size:16px;font-weight:700;margin-bottom:24px;color:var(--text);">Serviços Adicionais (Add-ons)</h3>
+    <div class="addons-grid">
+      <div style="background:var(--surface-2);border-radius:12px;padding:16px;">
+        <div style="font-size:18px;font-weight:800;color:var(--gold);">R$ 1.497</div>
+        <div style="font-size:13px;font-weight:600;margin-top:4px;">Produção de vídeo extra</div>
+        <div style="font-size:11px;color:var(--muted-2);margin-top:4px;">Roteiro + gravação + edição</div>
+      </div>
+      <div style="background:var(--surface-2);border-radius:12px;padding:16px;">
+        <div style="font-size:18px;font-weight:800;color:var(--gold);">R$ 1.997</div>
+        <div style="font-size:13px;font-weight:600;margin-top:4px;">Gestão de tráfego pago</div>
+        <div style="font-size:11px;color:var(--muted-2);margin-top:4px;">Meta Ads ou Google (verba separada)</div>
+      </div>
+      <div style="background:var(--surface-2);border-radius:12px;padding:16px;">
+        <div style="font-size:18px;font-weight:800;color:var(--gold);">R$ 997</div>
+        <div style="font-size:13px;font-weight:600;margin-top:4px;">Landing page de captação</div>
+        <div style="font-size:11px;color:var(--muted-2);margin-top:4px;">Para ebook, curso ou consultoria</div>
+      </div>
+      <div style="background:var(--surface-2);border-radius:12px;padding:16px;">
+        <div style="font-size:18px;font-weight:800;color:var(--gold);">R$ 797</div>
+        <div style="font-size:13px;font-weight:600;margin-top:4px;">Live estratégica mensal</div>
+        <div style="font-size:11px;color:var(--muted-2);margin-top:4px;">Produção + moderação + repercussão</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- POR QUE NÓS -->
+<section class="section-full" style="background:linear-gradient(180deg,transparent,#eff6ff,transparent);">
+  <div class="inner-wrap">
+    <div class="section-header fade-up">
+      <span class="section-eyebrow">Por Que Trabalhar Conosco</span>
+      <h2 class="section-title">Especialistas em <span class="dim">conteúdo técnico</span></h2>
+      <p class="section-desc">Não somos uma agência genérica. Entendemos o agronegócio, o público técnico e como converter autoridade em receita.</p>
+    </div>
+    <div class="why-grid fade-up">
+      <div class="why-card">
+        <div class="why-icon">🎯</div>
+        <h3>Especialização em Nicho Técnico</h3>
+        <p>Criamos conteúdo que fala a língua de veterinários, zootecnistas, gestores de frigorífico e pecuaristas. Não adaptamos — desenvolvemos estratégias nativas para o agronegócio.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon">📊</div>
+        <h3>Decisões Baseadas em Dados</h3>
+        <p>Cada ação tem uma métrica. Cada métrica tem uma meta. Você nunca fica no escuro — relatórios semanais e reuniões mensais garantem total transparência sobre o que está sendo feito e por quê.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon">⚡</div>
+        <h3>Velocidade de Execução</h3>
+        <p>Nosso processo de onboarding é de 7 dias. No final da primeira semana, o perfil já está otimizado e o calendário editorial está rodando. Você começa a ver resultados no primeiro mês.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon">🔄</div>
+        <h3>Sistema de Conteúdo Escalável</h3>
+        <p>Desenvolvemos um sistema que multiplica cada peça de conteúdo produzida. Um vídeo vira Shorts, Reels, carrossel e post. Você produz menos, distribui mais.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon">🤝</div>
+        <h3>Parceiro Estratégico, Não Fornecedor</h3>
+        <p>Trabalhamos como extensão do seu time. Entendemos seus serviços, seus clientes e seus objetivos de negócio. Cada conteúdo é criado para atrair o cliente certo para a PECBR.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon">🛡️</div>
+        <h3>Sem Fidelidade no 1° Mês</h3>
+        <p>Acreditamos tanto no nosso trabalho que não prendemos ninguém. O primeiro mês é sem contrato de fidelidade — se não gostar dos resultados, sem burocracia. Depois, contratos de 3 ou 6 meses com desconto.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA FINAL -->
+<section id="contato">
+  <div class="cta-section fade-up">
+    <div style="display:inline-flex;align-items:center;gap:8px;background:#eff6ff;border:1px solid #bfdbfe;border-radius:100px;padding:6px 16px;font-size:12px;font-weight:700;color:var(--primary);letter-spacing:0.8px;text-transform:uppercase;margin-bottom:24px;">
+      <span style="width:6px;height:6px;border-radius:50%;background:var(--primary);animation:pulse 2s infinite;display:inline-block;"></span>
+      Vagas Limitadas — Apenas 3 Clientes por Mês
+    </div>
+    <h2>Pronto para transformar a<br/>PECBR no canal #1 do agronegócio?</h2>
+    <p>Agende uma conversa de 30 minutos sem compromisso. Vamos analisar juntos qual plano faz mais sentido para os seus objetivos.</p>
+    <div class="cta-buttons">
+      <a href="https://wa.me/5511999999999?text=Ol%C3%A1%2C%20vi%20a%20proposta%20comercial%20da%20PECBR%20e%20gostaria%20de%20saber%20mais." class="btn-primary">
+        Falar no WhatsApp
+      </a>
+      <a href="mailto:contato@suaagencia.com.br?subject=Proposta PECBR - Interesse" class="btn-secondary">
+        Enviar E-mail
+      </a>
+    </div>
+    <div class="cta-mini-stats">
+      <div style="text-align:center;">
+        <div style="font-size:24px;font-weight:800;color:var(--text);">30 min</div>
+        <div style="font-size:12px;color:var(--muted);margin-top:4px;">Reunião sem compromisso</div>
+      </div>
+      <div style="text-align:center;">
+        <div style="font-size:24px;font-weight:800;color:var(--text);">7 dias</div>
+        <div style="font-size:12px;color:var(--muted);margin-top:4px;">Para onboarding completo</div>
+      </div>
+      <div style="text-align:center;">
+        <div style="font-size:24px;font-weight:800;color:var(--text);">90 dias</div>
+        <div style="font-size:12px;color:var(--muted);margin-top:4px;">Para resultados visíveis</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div>
+    <div style="font-weight:700;color:var(--text);margin-bottom:4px;">Proposta Comercial · PECBR Soluções em Agronegócio</div>
+    <div>Análise realizada em 27 de maio de 2026 · Dados públicos do YouTube e Instagram</div>
+  </div>
+  <div style="text-align:right;">
+    <div>Esta proposta é confidencial e destinada exclusivamente à PECBR.</div>
+    <div style="margin-top:4px;">Válida por 30 dias a partir da data de envio.</div>
+  </div>
+</footer>
+
+<script>
+  // ─── Intersection Observer para fade-up ───
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry, i) => {
+      if (entry.isIntersecting) {
+        setTimeout(() => {
+          entry.target.classList.add('visible');
+        }, 80);
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.08 });
+
+  document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
+
+  // ─── Counter Animation ───
+  function animateCounter(el) {
+    const target = parseInt(el.dataset.target, 10);
+    const suffix = el.dataset.suffix || '';
+    const duration = 1600;
+    const step = 16;
+    const total = Math.ceil(duration / step);
+    let current = 0;
+    const inc = target / total;
+
+    const timer = setInterval(() => {
+      current = Math.min(current + inc, target);
+      if (target >= 1000) {
+        el.textContent = Math.floor(current).toLocaleString('pt-BR') + suffix;
+      } else {
+        el.textContent = Math.floor(current) + suffix;
+      }
+      if (current >= target) {
+        clearInterval(timer);
+        if (target >= 1000) {
+          el.textContent = target.toLocaleString('pt-BR') + suffix;
+        } else {
+          el.textContent = target + suffix;
+        }
+      }
+    }, step);
+  }
+
+  const counterObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        animateCounter(entry.target);
+        counterObserver.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.3 });
+
+  document.querySelectorAll('.counter').forEach(el => counterObserver.observe(el));
+
+  // ─── Nav scroll opacity ───
+  const nav = document.querySelector('nav');
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 80) {
+      nav.style.background = 'rgba(255,255,255,0.98)';
+      nav.style.boxShadow = '0 1px 8px rgba(0,0,0,0.08)';
+    } else {
+      nav.style.background = 'rgba(255,255,255,0.92)';
+      nav.style.boxShadow = '0 1px 3px rgba(0,0,0,0.06)';
+    }
+  }, { passive: true });
+
+  // ─── Staggered children fade ───
+  document.querySelectorAll('.problems-grid, .pricing-wrap, .results-grid, .why-grid').forEach(grid => {
+    const children = grid.querySelectorAll('.fade-up');
+    const gridObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          children.forEach((child, i) => {
+            setTimeout(() => child.classList.add('visible'), i * 100);
+          });
+          gridObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.05 });
+    gridObserver.observe(grid);
+  });
+
+  // ─── prefers-reduced-motion ───
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    document.querySelectorAll('.fade-up').forEach(el => {
+      el.style.opacity = '1';
+      el.style.transform = 'none';
+      el.style.transition = 'none';
+    });
+  }
+</script>
+</body>
+</html>

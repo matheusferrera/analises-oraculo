@@ -1,0 +1,1889 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Análise de Instagram — PECBR | Oráculo</title>
+
+<meta property="og:type"        content="website"/>
+<meta property="og:title"       content="Análise de Instagram — PECBR | Oráculo"/>
+<meta property="og:description" content="Análise completa do perfil @pecbrsolucoes no Instagram: métricas, conteúdo, engajamento e recomendações estratégicas."/>
+<meta name="description"        content="Análise completa do perfil @pecbrsolucoes no Instagram. Preparado pela Oráculo Tecnologia."/>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --primary:      #1d4ed8;
+    --primary-soft: #eff6ff;
+    --primary-mid:  #bfdbfe;
+    --bg:           #f5f6f8;
+    --surface:      #ffffff;
+    --border:       #e4e7ec;
+    --text:         #1a1d23;
+    --text-2:       #4b5563;
+    --text-3:       #9ca3af;
+    --green:        #16a34a;
+    --green-bg:     #f0fdf4;
+    --green-bdr:    #bbf7d0;
+    --amber:        #d97706;
+    --amber-bg:     #fffbeb;
+    --amber-bdr:    #fde68a;
+    --blue:         #1d4ed8;
+    --blue-bg:      #eff6ff;
+    --blue-bdr:     #bfdbfe;
+    --purple:       #7c3aed;
+    --purple-bg:    #f5f3ff;
+    --purple-bdr:   #ddd6fe;
+    --ig-grad:      linear-gradient(135deg,#f09433,#e6683c,#dc2743,#cc2366,#bc1888);
+    --radius:       12px;
+    --shadow:       0 1px 4px rgba(0,0,0,.06), 0 1px 2px rgba(0,0,0,.04);
+    --shadow-md:    0 4px 16px rgba(0,0,0,.08), 0 2px 6px rgba(0,0,0,.04);
+  }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    font-size: 16px;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+    width: 100%;
+    overflow-x: hidden;
+    padding-top: calc(48px + env(safe-area-inset-top));
+  }
+
+  .page-wrap { overflow-x: hidden; width: 100%; }
+
+  /* ── COVER ── */
+  .cover {
+    background: #0f0a1e;
+    color: #fff;
+    padding: 48px 20px 60px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    border-bottom: 1px solid rgba(29,78,216,0.2);
+  }
+  .cover-dot-grid {
+    position: absolute; inset: 0;
+    background-image: radial-gradient(circle, rgba(29,78,216,0.2) 1px, transparent 1px);
+    background-size: 32px 32px;
+    pointer-events: none;
+    mask-image: linear-gradient(to bottom, transparent, black 18%, black 82%, transparent);
+    -webkit-mask-image: linear-gradient(to bottom, transparent, black 18%, black 82%, transparent);
+  }
+  .cover-glow {
+    position: absolute; top: -10rem; left: 50%; transform: translateX(-50%);
+    width: 60rem; height: 40rem; border-radius: 50%;
+    background: radial-gradient(circle, rgba(29,78,216,0.22) 0%, transparent 62%);
+    pointer-events: none;
+  }
+  .cover::after {
+    content: '';
+    position: absolute;
+    bottom: -1px; left: 0; right: 0;
+    height: 40px;
+    background: var(--bg);
+    clip-path: ellipse(55% 100% at 50% 100%);
+  }
+  .cover-label {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: rgba(29,78,216,0.18);
+    border: 1px solid rgba(29,78,216,0.4);
+    border-radius: 100px;
+    padding: 4px 14px 4px 8px;
+    font-size: .72rem;
+    font-weight: 700;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: #60a5fa;
+  }
+  .cover-label-orb {
+    width: 8px; height: 8px; border-radius: 50%;
+    background: var(--ig-grad);
+    box-shadow: 0 0 8px rgba(29,78,216,0.8);
+    flex-shrink: 0;
+  }
+  .cover h1 {
+    font-size: clamp(2rem, 6vw, 3.2rem);
+    font-weight: 800;
+    letter-spacing: -.03em;
+    line-height: 1.1;
+    margin-bottom: 12px;
+    color: #f1f5f9;
+  }
+  .cover h1 .hl {
+    background: var(--ig-grad);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .cover-sub {
+    font-size: 1.05rem;
+    color: #94a3b8;
+    max-width: 520px;
+    margin: 0 auto 32px;
+  }
+  .cover-meta {
+    display: inline-flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: .85rem;
+    color: #93c5fd;
+  }
+  .cover-meta span { display: flex; align-items: center; gap: 6px; }
+  .ig-badge {
+    display: inline-flex; align-items: center; gap: 6px;
+    background: var(--ig-grad); border-radius: 100px;
+    padding: 4px 14px; font-size: .75rem; font-weight: 700;
+    color: #fff; margin-bottom: 16px;
+  }
+
+  /* ── NAV ── */
+  .nav {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 100;
+    background: rgba(255,255,255,0.97);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border-bottom: 1px solid var(--border);
+    padding: 0 24px;
+    padding-top: env(safe-area-inset-top);
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    overflow-x: auto;
+    scrollbar-width: none;
+    box-shadow: 0 2px 12px rgba(0,0,0,.07);
+  }
+  .nav::-webkit-scrollbar { display: none; }
+  .nav a {
+    display: block;
+    padding: 14px 14px;
+    font-size: .8rem;
+    font-weight: 600;
+    color: #4b5563;
+    text-decoration: none;
+    white-space: nowrap;
+    border-bottom: 2px solid transparent;
+    transition: color .15s, border-color .15s;
+  }
+  .nav a:hover { color: var(--primary); border-bottom-color: var(--primary); }
+  .nav a.active {
+    color: var(--primary);
+    border-bottom-color: var(--primary);
+    background: var(--primary-soft);
+    border-radius: 6px 6px 0 0;
+  }
+
+  /* ── LAYOUT ── */
+  .page { max-width: 900px; margin: 0 auto; padding: 60px 16px 90px; }
+
+  /* ── KPI STRIP ── */
+  .kpi-row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    margin-bottom: 32px;
+  }
+  .kpi {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 16px 12px;
+    box-shadow: var(--shadow);
+    text-align: center;
+  }
+  .kpi-val {
+    font-size: 1.7rem;
+    font-weight: 800;
+    color: var(--primary);
+    line-height: 1;
+    letter-spacing: -.03em;
+  }
+  .kpi-val.ig { color: var(--primary); }
+  .kpi-label {
+    font-size: .78rem;
+    color: var(--text-2);
+    margin-top: 6px;
+    font-weight: 500;
+  }
+  .kpi-delta {
+    display: inline-block;
+    font-size: .7rem;
+    font-weight: 700;
+    margin-top: 4px;
+    padding: 2px 6px;
+    border-radius: 6px;
+  }
+  .delta-up   { background: #f0fdf4; color: #16a34a; }
+  .delta-warn { background: #fffbeb; color: #d97706; }
+
+  /* ── SECTION HEADER ── */
+  .section-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 20px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--border);
+  }
+  .section-num {
+    width: 32px; height: 32px;
+    border-radius: 8px;
+    background: var(--primary-soft);
+    color: var(--primary);
+    font-size: .8rem;
+    font-weight: 800;
+    display: flex; align-items: center; justify-content: center;
+    flex-shrink: 0;
+  }
+  .section-header h2 {
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: var(--text);
+    letter-spacing: -.02em;
+  }
+  .section { margin-bottom: 48px; }
+
+  /* ── CARD ── */
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 16px;
+    box-shadow: var(--shadow);
+    margin-bottom: 16px;
+  }
+  .card h3 {
+    font-size: .95rem;
+    font-weight: 700;
+    color: var(--text);
+    margin-bottom: 14px;
+  }
+
+  /* ── TABLE ── */
+  .tbl-wrap { overflow-x: auto; }
+  table { width: 100%; border-collapse: collapse; font-size: .88rem; }
+  th {
+    background: var(--primary-soft);
+    color: var(--primary);
+    font-size: .72rem;
+    font-weight: 700;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    padding: 10px 12px;
+    text-align: left;
+  }
+  td { padding: 10px 12px; border-bottom: 1px solid var(--border); color: var(--text-2); vertical-align: top; }
+  tr:last-child td { border-bottom: none; }
+  tr:hover td { background: var(--bg); }
+  td strong { color: var(--text); font-weight: 600; }
+
+  /* ── CALLOUT ── */
+  .callout {
+    border-radius: var(--radius);
+    padding: 16px 18px;
+    margin-bottom: 16px;
+    font-size: .9rem;
+    border-left: 3px solid;
+  }
+  .callout strong { display: block; font-size: .72rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; margin-bottom: 6px; }
+  .callout.green  { background: var(--green-bg);  border-color: var(--green);  color: #166534; }
+  .callout.green strong { color: var(--green); }
+  .callout.amber  { background: var(--amber-bg);  border-color: var(--amber);  color: #92400e; }
+  .callout.amber strong { color: var(--amber); }
+  .callout.blue   { background: var(--blue-bg);   border-color: var(--blue);   color: #1e3a8a; }
+  .callout.blue strong  { color: var(--blue); }
+  .callout.purple { background: var(--purple-bg); border-color: var(--purple); color: #4c1d95; }
+  .callout.purple strong{ color: var(--purple); }
+  .callout.primary{ background: var(--primary-soft); border-color: var(--primary); color: #1e3a8a; }
+  .callout.primary strong { color: var(--primary); }
+
+  /* ── BADGE ── */
+  .badge {
+    display: inline-block;
+    font-size: .72rem;
+    font-weight: 700;
+    padding: 2px 8px;
+    border-radius: 6px;
+  }
+  .badge-green  { background: var(--green-bg);  color: var(--green);  border: 1px solid var(--green-bdr); }
+  .badge-amber  { background: var(--amber-bg);  color: var(--amber);  border: 1px solid var(--amber-bdr); }
+  .badge-blue   { background: var(--blue-bg);   color: var(--blue);   border: 1px solid var(--blue-bdr); }
+  .badge-primary{ background: var(--primary-soft); color: var(--primary); border: 1px solid var(--primary-mid); }
+  .badge-ig { background: var(--ig-grad); color: #fff; border: none; }
+
+  /* ── SWOT ── */
+  .swot-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 12px;
+    margin-top: 12px;
+  }
+  .swot-cell { border-radius: var(--radius); padding: 14px; }
+  .swot-cell h4 { font-size: .8rem; font-weight: 800; letter-spacing: .07em; text-transform: uppercase; margin-bottom: 10px; }
+  .swot-cell ul { padding-left: 1.1rem; }
+  .swot-cell li { font-size: .84rem; margin-bottom: 5px; line-height: 1.5; }
+  .swot-s { background: var(--green-bg);  border: 1px solid var(--green-bdr); }
+  .swot-s h4 { color: var(--green); }
+  .swot-s li  { color: #166534; }
+  .swot-w { background: var(--primary-soft); border: 1px solid var(--primary-mid); }
+  .swot-w h4 { color: var(--primary); }
+  .swot-w li  { color: #1e3a8a; }
+  .swot-o { background: var(--blue-bg);   border: 1px solid var(--blue-bdr); }
+  .swot-o h4 { color: var(--blue); }
+  .swot-o li  { color: #1e3a8a; }
+  .swot-t { background: var(--amber-bg);  border: 1px solid var(--amber-bdr); }
+  .swot-t h4 { color: var(--amber); }
+  .swot-t li  { color: #92400e; }
+
+  /* ── RECOMENDAÇÕES ── */
+  .rec-grid { display: grid; grid-template-columns: 1fr; gap: 16px; }
+  .rec-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 20px; box-shadow: var(--shadow); }
+  .rec-card h4 { font-size: .8rem; font-weight: 800; letter-spacing: .06em; text-transform: uppercase; margin-bottom: 12px; padding-bottom: 8px; border-bottom: 2px solid; }
+  .rec-card ul { padding-left: 1rem; }
+  .rec-card li { font-size: .84rem; color: var(--text-2); margin-bottom: 8px; line-height: 1.5; }
+  .rec-card li::marker { color: var(--primary); }
+  .rec-short h4 { color: var(--primary); border-color: var(--primary-mid); }
+  .rec-mid   h4 { color: var(--blue);    border-color: var(--blue-bdr); }
+  .rec-long  h4 { color: var(--purple);  border-color: var(--purple-bdr); }
+
+  /* ── ENGAGEMENT SAMPLE ── */
+  .post-row {
+    display: flex; align-items: center; gap: 12px;
+    padding: 12px 0; border-bottom: 1px solid var(--border);
+  }
+  .post-row:last-child { border-bottom: none; }
+  .post-icon {
+    width: 40px; height: 40px; border-radius: 8px; flex-shrink: 0;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 1.2rem;
+  }
+  .post-title { font-size: .87rem; font-weight: 600; color: var(--text); }
+  .post-meta  { font-size: .76rem; color: var(--text-3); margin-top: 2px; }
+  .post-stats { margin-left: auto; text-align: right; flex-shrink: 0; }
+  .post-likes { font-size: 1rem; font-weight: 800; color: var(--primary); }
+  .post-cmts  { font-size: .75rem; color: var(--text-3); }
+
+  /* ── HASHTAG CLOUD ── */
+  .tag-cloud { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+  .tag {
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 100px;
+    font-size: .78rem;
+    font-weight: 600;
+    border: 1px solid var(--border);
+    color: var(--text-2);
+    background: var(--surface);
+  }
+  .tag.high  { background: var(--primary-soft); color: var(--primary); border-color: var(--primary-mid); }
+  .tag.mid   { background: var(--blue-bg); color: var(--blue); border-color: var(--blue-bdr); }
+  .tag.low   { background: var(--bg); color: var(--text-3); }
+
+  /* ── FUNNEL DIAGRAM ── */
+  .funnel { display: flex; flex-direction: column; gap: 0; margin: 16px 0; }
+  .funnel-step {
+    padding: 14px 20px;
+    font-size: .88rem; font-weight: 600;
+    color: #fff;
+    position: relative;
+    clip-path: polygon(0 0, 100% 0, 95% 100%, 5% 100%);
+    margin-bottom: 4px;
+    text-align: center;
+  }
+  .f1 { background: #1d4ed8; width: 100%; }
+  .f2 { background: #2563eb; width: 85%; align-self: center; }
+  .f3 { background: #d97706; width: 68%; align-self: center; }
+  .f4 { background: #16a34a; width: 50%; align-self: center; clip-path: polygon(0 0, 100% 0, 92% 100%, 8% 100%); }
+
+  /* ── CHART ── */
+  .chart-wrap { position: relative; height: 260px; margin-top: 12px; }
+
+  /* ── SCORE RING ── */
+  .score-ring-wrap { display: flex; align-items: center; gap: 20px; flex-wrap: wrap; flex-direction: column; }
+  .score-ring {
+    flex-shrink: 0;
+    width: 120px; height: 120px; border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    flex-direction: column;
+    background: conic-gradient(#1d4ed8 0% 72%, #e4e7ec 72% 100%);
+  }
+  .score-inner {
+    width: 86px; height: 86px; border-radius: 50%;
+    background: var(--surface);
+    display: flex; align-items: center; justify-content: center; flex-direction: column;
+  }
+  .score-val { font-size: 1.8rem; font-weight: 800; color: var(--primary); line-height: 1; }
+  .score-max { font-size: .7rem; color: var(--text-3); }
+  .score-labels { flex: 1; }
+  .score-item { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; }
+  .score-bar-bg { flex: 1; height: 6px; background: var(--border); border-radius: 3px; }
+  .score-bar    { height: 6px; border-radius: 3px; background: var(--primary); }
+  .score-item-label { font-size: .78rem; color: var(--text-2); width: 120px; flex-shrink: 0; }
+  .score-item-val   { font-size: .78rem; font-weight: 700; color: var(--text); width: 28px; text-align: right; flex-shrink: 0; }
+
+  /* ── COMPARISON ── */
+  .vs-grid { display: grid; grid-template-columns: 1fr; gap: 16px; }
+  .vs-card { border-radius: var(--radius); padding: 20px; border: 1px solid; }
+  .vs-ig { background: var(--primary-soft); border-color: var(--primary-mid); }
+  .vs-yt { background: var(--blue-bg); border-color: var(--blue-bdr); }
+  .vs-platform { font-size: .7rem; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; margin-bottom: 12px; }
+  .vs-ig .vs-platform { color: var(--primary); }
+  .vs-yt .vs-platform { color: var(--blue); }
+  .vs-metric { display: flex; justify-content: space-between; font-size: .84rem; padding: 6px 0; border-bottom: 1px solid rgba(0,0,0,.06); }
+  .vs-metric:last-child { border-bottom: none; }
+  .vs-metric-label { color: var(--text-2); }
+  .vs-metric-val { font-weight: 700; }
+  .vs-ig .vs-metric-val { color: var(--primary); }
+  .vs-yt .vs-metric-val { color: var(--blue); }
+
+  /* ── COLLAB CARDS ── */
+  .collab-grid { display: grid; grid-template-columns: 1fr; gap: 16px; margin-top: 12px; }
+  .collab-card {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: var(--radius); padding: 18px;
+    display: flex; align-items: center; gap: 14px;
+    box-shadow: var(--shadow);
+  }
+  .collab-avatar {
+    width: 48px; height: 48px; border-radius: 50%;
+    background: var(--ig-grad); display: flex; align-items: center;
+    justify-content: center; font-size: 1.4rem; flex-shrink: 0;
+  }
+  .collab-handle { font-size: .9rem; font-weight: 700; color: var(--text); }
+  .collab-desc   { font-size: .78rem; color: var(--text-3); margin-top: 2px; }
+
+  /* ── FOOTER ── */
+  footer {
+    background: #0f0a1e;
+    color: #94a3b8;
+    padding: 40px 24px;
+    text-align: center;
+    font-size: .84rem;
+    margin-bottom: 64px;
+  }
+  footer strong { color: #f1f5f9; }
+  footer a { color: #60a5fa; text-decoration: none; }
+
+  /* ── DIAGNÓSTICO EXECUTIVO ── */
+  .diag-wrap {
+    background: #1d4ed8;
+    border-radius: var(--radius);
+    padding: 24px 20px;
+    margin-bottom: 40px;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+  }
+  .diag-wrap::before {
+    content: '';
+    position: absolute; inset: 0;
+    background-image: radial-gradient(circle, rgba(255,255,255,0.12) 1px, transparent 1px);
+    background-size: 28px 28px;
+    pointer-events: none;
+  }
+  .diag-title {
+    font-size: 1.1rem;
+    font-weight: 800;
+    color: #ffffff;
+    margin-bottom: 4px;
+    position: relative;
+  }
+  .diag-sub {
+    font-size: .82rem;
+    color: rgba(255,255,255,0.75);
+    margin-bottom: 20px;
+    position: relative;
+  }
+  .diag-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    margin-bottom: 24px;
+    position: relative;
+  }
+  .diag-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    background: rgba(255,255,255,0.12);
+    border-radius: 10px;
+    padding: 12px 14px;
+    border: 1px solid rgba(255,255,255,0.18);
+  }
+  .diag-dot {
+    width: 10px; height: 10px; border-radius: 50%;
+    flex-shrink: 0; margin-top: 5px;
+  }
+  .diag-dot.green  { background: #4ade80; box-shadow: 0 0 6px #4ade80; }
+  .diag-dot.yellow { background: #fbbf24; box-shadow: 0 0 6px #fbbf24; }
+  .diag-dot.red    { background: #f87171; box-shadow: 0 0 6px #f87171; }
+  .diag-item-title { font-size: .88rem; font-weight: 700; color: #ffffff; line-height: 1.3; }
+  .diag-item-desc  { font-size: .78rem; color: rgba(255,255,255,0.72); margin-top: 2px; line-height: 1.4; }
+  .diag-legend {
+    display: flex; gap: 16px; flex-wrap: wrap;
+    font-size: .72rem; color: rgba(255,255,255,0.65);
+    margin-bottom: 20px; position: relative;
+  }
+  .diag-legend span { display: flex; align-items: center; gap: 5px; }
+  .diag-cta-label {
+    font-size: .68rem; font-weight: 800; letter-spacing: .1em;
+    text-transform: uppercase; color: rgba(255,255,255,0.9);
+    margin-bottom: 10px; position: relative;
+  }
+  .oraculo-pills {
+    display: flex; flex-wrap: wrap; gap: 8px; position: relative;
+  }
+  .oraculo-pill {
+    display: inline-flex; align-items: center; gap: 6px;
+    background: rgba(255,255,255,0.15);
+    border: 1px solid rgba(255,255,255,0.28);
+    border-radius: 100px;
+    padding: 6px 12px;
+    font-size: .78rem; font-weight: 600; color: #ffffff;
+  }
+  .oraculo-pill .pill-icon { font-size: .9rem; }
+
+  /* ── INTRO DIAGNÓSTICO ── */
+  .intro-diag { margin-bottom: 28px; }
+  .intro-diag-greeting {
+    font-size: .78rem; font-weight: 700; text-transform: uppercase;
+    letter-spacing: .1em; color: var(--text-3); margin-bottom: 6px;
+  }
+  .intro-diag-title {
+    font-size: clamp(1.4rem, 4vw, 2rem); font-weight: 800; color: var(--text);
+    letter-spacing: -.03em; line-height: 1.2; margin-bottom: 10px;
+  }
+  .intro-diag-title span { color: var(--primary); }
+  .intro-diag-lead {
+    font-size: 1rem; color: var(--text-2); max-width: 680px;
+    line-height: 1.7; margin-bottom: 28px;
+  }
+
+  /* ── SCORE CARD ── */
+  .score-block {
+    display: grid; grid-template-columns: auto 1fr;
+    gap: 24px; align-items: center;
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: var(--radius); padding: 28px;
+    box-shadow: var(--shadow-md); margin-bottom: 20px;
+  }
+  .score-circle {
+    width: 110px; height: 110px; border-radius: 50%;
+    background: conic-gradient(var(--primary) 0% 64%, #e4e7ec 64% 100%);
+    display: flex; align-items: center; justify-content: center;
+    position: relative; flex-shrink: 0;
+  }
+  .score-diag-inner {
+    width: 80px; height: 80px; border-radius: 50%;
+    background: var(--surface);
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+  }
+  .score-num {
+    font-size: 1.7rem; font-weight: 900; color: var(--primary);
+    line-height: 1; letter-spacing: -.04em;
+  }
+  .score-den { font-size: .65rem; font-weight: 700; color: var(--text-3); letter-spacing: .04em; }
+  .score-info h3 {
+    font-size: 1.15rem; font-weight: 800; color: var(--text);
+    margin-bottom: 6px; margin-top: 0; border: none; padding: 0;
+  }
+  .score-info p { font-size: .9rem; color: var(--text-2); margin-bottom: 14px; }
+  .score-bars { display: flex; flex-direction: column; gap: 8px; }
+  .score-bar-row { display: flex; align-items: center; gap: 10px; font-size: .8rem; }
+  .score-bar-label { width: 140px; color: var(--text-2); font-weight: 500; flex-shrink: 0; }
+  .score-bar-track { flex: 1; height: 7px; background: #f0f2f5; border-radius: 4px; overflow: hidden; }
+  .score-bar-fill  { height: 100%; border-radius: 4px; }
+  .score-bar-val { width: 30px; text-align: right; font-weight: 700; color: var(--text); font-size: .78rem; }
+
+  /* ── SITUAÇÃO + COMO AJUDAMOS ── */
+  .sithelp-grid { display: grid; grid-template-columns: 1fr; gap: 16px; margin-bottom: 32px; }
+  .sit-card, .help-card { border-radius: var(--radius); padding: 22px; border: 1px solid; }
+  .sit-card  { background: var(--amber-bg); border-color: var(--amber-bdr); }
+  .help-card { background: var(--green-bg); border-color: var(--green-bdr); }
+  .sithelp-head {
+    display: flex; align-items: center; gap: 10px;
+    font-size: .75rem; font-weight: 800; text-transform: uppercase; letter-spacing: .09em;
+    margin-bottom: 14px;
+  }
+  .sit-card  .sithelp-head { color: var(--amber); }
+  .help-card .sithelp-head { color: var(--green); }
+  .sithelp-head-icon {
+    width: 28px; height: 28px; border-radius: 8px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: .85rem; flex-shrink: 0;
+  }
+  .sit-card  .sithelp-head-icon { background: rgba(180,83,9,.12); }
+  .help-card .sithelp-head-icon { background: rgba(21,128,61,.12); }
+  .sithelp-list { list-style: none; padding: 0; }
+  .sithelp-list li {
+    font-size: .86rem; padding: 7px 0;
+    border-bottom: 1px solid rgba(0,0,0,.06);
+    display: flex; align-items: flex-start; gap: 8px; line-height: 1.5;
+  }
+  .sithelp-list li:last-child { border-bottom: none; padding-bottom: 0; }
+  .sithelp-list li::before { font-weight: 800; flex-shrink: 0; margin-top: 1px; }
+  .sit-card  .sithelp-list li { color: #92400e; }
+  .sit-card  .sithelp-list li::before { content: '–'; color: var(--amber); }
+  .help-card .sithelp-list li { color: #166534; }
+  .help-card .sithelp-list li::before { content: '✓'; color: var(--green); }
+
+  /* ── FORMAT GRID (mobile: empilhado, desktop: lado a lado) ── */
+  .format-grid { display: grid; grid-template-columns: 1fr; gap: 16px; align-items: center; }
+
+  /* ── TABLET (≥ 600px) ── */
+  @media (min-width: 600px) {
+    .diag-grid   { grid-template-columns: 1fr 1fr; }
+    .kpi-row     { grid-template-columns: repeat(3, 1fr); gap: 16px; }
+    .kpi         { padding: 18px 14px; }
+    .kpi-val     { font-size: 1.9rem; }
+    .collab-grid { grid-template-columns: 1fr 1fr; }
+    .vs-grid     { grid-template-columns: 1fr 1fr; }
+    .sithelp-grid { grid-template-columns: 1fr 1fr; }
+    .score-block  { grid-template-columns: auto 1fr; text-align: left; }
+    .score-circle { margin: 0; }
+    .score-bar-row { flex-wrap: nowrap; }
+    .score-bar-label { width: 120px; }
+  }
+
+  /* ── DESKTOP (≥ 768px) ── */
+  @media (min-width: 768px) {
+    .format-grid { grid-template-columns: 1fr 1fr; }
+    .cover       { padding: 64px 32px 72px; }
+    .page        { padding: 56px 24px 100px; }
+    .kpi-row     { grid-template-columns: repeat(5, 1fr); margin-bottom: 40px; }
+    .kpi-val     { font-size: 2rem; }
+    .kpi         { padding: 20px 18px; }
+    .card        { padding: 24px; }
+    .swot-grid   { grid-template-columns: 1fr 1fr; }
+    .swot-cell   { padding: 18px; }
+    .rec-grid    { grid-template-columns: repeat(3, 1fr); }
+    .score-ring-wrap { flex-direction: row; gap: 28px; }
+    .score-block  { padding: 28px; gap: 24px; }
+    .score-circle { width: 110px; height: 110px; }
+    .score-num    { font-size: 1.7rem; }
+    .score-bar-label { width: 140px; font-size: .8rem; }
+    .score-bar-track { height: 7px; }
+    .sit-card, .help-card { padding: 22px; }
+    .sithelp-list li { font-size: .86rem; }
+  }
+
+  /* ── SCROLL ANCHORS (compensa a nav fixa) ── */
+  .section,
+  #diagnostico {
+    scroll-margin-top: calc(52px + env(safe-area-inset-top));
+  }
+
+  /* ── TOUCH / MOBILE UX ── */
+  .nav a,
+  a,
+  button {
+    touch-action: manipulation;
+  }
+  .nav a {
+    -webkit-tap-highlight-color: rgba(29,78,216,0.12);
+  }
+
+  /* ── MOBILE BASE (≤ 479px) ── */
+  @media (max-width: 479px) {
+    /* nav */
+    .nav {
+      padding: 0 4px;
+      padding-top: env(safe-area-inset-top);
+      gap: 0;
+      min-height: 44px;
+    }
+    .nav a {
+      padding: 10px 8px;
+      font-size: .72rem;
+      flex-shrink: 0;
+      min-height: 44px;
+      display: flex;
+      align-items: center;
+    }
+
+    /* page */
+    .page { padding: 32px 14px calc(72px + env(safe-area-inset-bottom)); }
+
+    /* cover */
+    .cover { padding: 36px 16px 50px; }
+    .cover h1 { font-size: clamp(1.5rem, 6vw, 2.6rem); }
+    .cover-sub { font-size: .88rem; max-width: 100%; }
+    .cover-meta { font-size: .76rem; gap: 8px; flex-direction: column; }
+
+    /* kpi */
+    .kpi-val { font-size: 1.4rem; }
+    .kpi { padding: 13px 10px; }
+    .kpi-label { font-size: .72rem; }
+    .kpi-delta { font-size: .65rem; }
+
+    /* section */
+    .section { margin-bottom: 32px; }
+    .section-header { margin-bottom: 14px; }
+    .section-header h2 { font-size: 1rem; }
+
+    /* diag */
+    .diag-wrap { padding: 18px 14px; }
+    .diag-title { font-size: .97rem; }
+    .diag-item { padding: 10px 11px; gap: 10px; }
+    .diag-item-title { font-size: .84rem; }
+    .diag-item-desc  { font-size: .74rem; }
+    .oraculo-pill { font-size: .72rem; padding: 5px 10px; }
+
+    /* score block */
+    .score-block { grid-template-columns: 1fr; text-align: center; padding: 16px; gap: 16px; }
+    .score-circle { width: 90px; height: 90px; margin: 0 auto; }
+    .score-num { font-size: 1.4rem; }
+    .score-bar-row { flex-wrap: wrap; gap: 4px; }
+    .score-bar-label { width: 100%; font-size: .74rem; }
+    .score-bar-track { flex: 1; min-width: 0; height: 6px; }
+    .score-bar-val { width: auto; font-size: .72rem; }
+    .score-info h3 { font-size: 1rem; }
+    .score-info p  { font-size: .83rem; }
+
+    /* sithelp */
+    .sithelp-grid { grid-template-columns: 1fr; gap: 12px; }
+    .sit-card, .help-card { padding: 14px; }
+    .sithelp-list li { font-size: .8rem; }
+    .intro-diag-title { font-size: 1.3rem; }
+    .intro-diag-lead  { font-size: .88rem; margin-bottom: 18px; }
+
+    /* cards */
+    .card { padding: 14px 13px; }
+    .rec-card { padding: 14px; }
+    .rec-card li { font-size: .8rem; }
+    .collab-card { padding: 14px; gap: 10px; }
+
+    /* chart */
+    .chart-wrap { height: 200px; }
+
+    /* score */
+    .score-ring { width: 100px; height: 100px; }
+    .score-inner { width: 72px; height: 72px; }
+    .score-val { font-size: 1.5rem; }
+    .score-item-label { width: 90px; font-size: .72rem; }
+
+    /* footer */
+    footer { padding: 28px 16px; font-size: .78rem; margin-bottom: 0; }
+  }
+
+  /* ── MOBILE 480–599px ── */
+  @media (min-width: 480px) and (max-width: 599px) {
+    .nav { padding: 0 16px; gap: 2px; }
+    .nav a { padding: 12px 10px; font-size: .76rem; }
+    .page { padding: 36px 20px 80px; }
+    .kpi-row { grid-template-columns: repeat(3, 1fr); }
+  }
+
+  /* ── OVERFLOW HORIZONTAL GLOBAL ── */
+  img, canvas, iframe, video, svg { max-width: 100%; }
+</style>
+</head>
+<body>
+<div class="page-wrap">
+
+<!-- ── COVER ── -->
+<div class="cover">
+  <div class="cover-dot-grid"></div>
+  <div class="cover-glow"></div>
+  <div class="ig-badge">📸 Instagram @pecbrsolucoes</div>
+  <div class="cover-label">
+    <span class="cover-label-orb"></span>
+    Oráculo Tecnologia · Análise de Redes Sociais
+  </div>
+  <h1>PECBR no <span class="hl">Instagram</span></h1>
+  <p class="cover-sub">Análise completa do perfil @pecbrsolucoes — métricas, conteúdo, engajamento e estratégia de crescimento</p>
+  <div class="cover-meta">
+    <span>📅 27 de maio de 2026</span>
+    <span>👥 28,9 mil seguidores</span>
+    <span>📷 1.942 posts</span>
+    <span>✅ Conta verificada</span>
+  </div>
+</div>
+
+<!-- ── NAV ── -->
+<nav class="nav">
+  <a href="#diagnostico">Diagnóstico</a>
+  <a href="#visao-geral">Visão Geral</a>
+  <a href="#metricas">Métricas</a>
+  <a href="#conteudo">Conteúdo</a>
+  <a href="#engajamento">Engajamento</a>
+  <a href="#collabs">Collabs</a>
+  <a href="#audiencia">Audiência</a>
+  <a href="#swot">SWOT</a>
+  <a href="#comparativo">vs YouTube</a>
+  <a href="#recomendacoes">Recomendações</a>
+  <a href="#resumo">Resumo</a>
+</nav>
+
+<!-- ── PAGE ── -->
+<div class="page">
+
+  <!-- DIAGNÓSTICO EXECUTIVO -->
+  <section class="section" id="diagnostico">
+
+  <div class="intro-diag">
+    <div class="intro-diag-greeting">Preparado exclusivamente para PECBR</div>
+    <h1 class="intro-diag-title">Seu perfil tem alcance.<br><span>Veja onde estão os gargalos.</span></h1>
+    <p class="intro-diag-lead">
+      Fizemos uma análise completa e imparcial do perfil @pecbrsolucoes no Instagram — avaliamos conteúdo, engajamento, audiência, posicionamento e oportunidades. O objetivo é dar a você uma visão clara de onde o perfil está hoje, o que está funcionando e o que precisa mudar para crescer.
+    </p>
+
+    <!-- SCORE / NOTA -->
+    <div class="score-block">
+      <div class="score-circle">
+        <div class="score-diag-inner">
+          <span class="score-num">6,4</span>
+          <span class="score-den">/ 10</span>
+        </div>
+      </div>
+      <div class="score-info">
+        <h3>Saúde geral do perfil: Razoável com alto potencial</h3>
+        <p>O perfil tem bases sólidas — conta verificada, audiência estabelecida e collabs estratégicas comprovadas. O que puxa a nota para baixo é o baixo engajamento, a falta de consistência e a ausência de estratégia de conversão.</p>
+        <div class="score-bars">
+          <div class="score-bar-row">
+            <span class="score-bar-label">Branding &amp; identidade</span>
+            <div class="score-bar-track"><div class="score-bar-fill" style="width:75%;background:#15803d"></div></div>
+            <span class="score-bar-val" style="color:#15803d">7,5</span>
+          </div>
+          <div class="score-bar-row">
+            <span class="score-bar-label">Qualidade do conteúdo</span>
+            <div class="score-bar-track"><div class="score-bar-fill" style="width:70%;background:#15803d"></div></div>
+            <span class="score-bar-val" style="color:#15803d">7,0</span>
+          </div>
+          <div class="score-bar-row">
+            <span class="score-bar-label">Posicionamento de nicho</span>
+            <div class="score-bar-track"><div class="score-bar-fill" style="width:85%;background:#15803d"></div></div>
+            <span class="score-bar-val" style="color:#15803d">8,5</span>
+          </div>
+          <div class="score-bar-row">
+            <span class="score-bar-label">Consistência de postagem</span>
+            <div class="score-bar-track"><div class="score-bar-fill" style="width:35%;background:#1d4ed8"></div></div>
+            <span class="score-bar-val" style="color:#1d4ed8">3,5</span>
+          </div>
+          <div class="score-bar-row">
+            <span class="score-bar-label">Taxa de engajamento</span>
+            <div class="score-bar-track"><div class="score-bar-fill" style="width:45%;background:#b45309"></div></div>
+            <span class="score-bar-val" style="color:#b45309">4,5</span>
+          </div>
+          <div class="score-bar-row">
+            <span class="score-bar-label">Estratégia de conversão</span>
+            <div class="score-bar-track"><div class="score-bar-fill" style="width:40%;background:#b45309"></div></div>
+            <span class="score-bar-val" style="color:#b45309">4,0</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SITUAÇÃO + COMO AJUDAMOS -->
+    <div class="sithelp-grid">
+      <div class="sit-card">
+        <div class="sithelp-head">
+          <div class="sithelp-head-icon">&#9888;</div>
+          Situação atual do perfil
+        </div>
+        <ul class="sithelp-list">
+          <li>Publicações irregulares — 1 a 2 posts por semana, sem stories diários</li>
+          <li>Engajamento abaixo do potencial (~0,7%) para uma conta de 28,9k seguidores</li>
+          <li>Bio sem CTA e sem link — visitantes não sabem para onde ir</li>
+          <li>Sem Destaques (Highlights) — serviços e cases invisíveis para novos visitantes</li>
+          <li>Reels e Stories inexplorados — alcance orgânico desperdiçado</li>
+        </ul>
+      </div>
+      <div class="help-card">
+        <div class="sithelp-head">
+          <div class="sithelp-head-icon">&#9670;</div>
+          Como a Oráculo pode ajudar
+        </div>
+        <ul class="sithelp-list">
+          <li>Criar calendário editorial com publicação diária de stories e posts estratégicos</li>
+          <li>Otimizar a bio com CTA claro e link inteligente para geração de leads</li>
+          <li>Estruturar Destaques que apresentam serviços e cases da PECBR</li>
+          <li>Desenvolver roteiros de Reels para ampliar o alcance orgânico</li>
+          <li>Monitorar métricas mensalmente e ajustar a estratégia em tempo real</li>
+        </ul>
+      </div>
+    </div>
+  </div><!-- /intro-diag -->
+
+  <div class="diag-wrap">
+    <div class="diag-title">📋 Diagnóstico Rápido — @pecbrsolucoes no Instagram</div>
+    <div class="diag-sub">Visão geral da saúde do perfil em 3 dimensões: o que está funcionando, o que precisa de atenção e o que está custando crescimento agora.</div>
+
+    <div class="diag-legend">
+      <span><span class="diag-dot green" style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4ade80;"></span> Ponto forte</span>
+      <span><span class="diag-dot yellow" style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#fbbf24;"></span> Atenção</span>
+      <span><span class="diag-dot red" style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#f87171;"></span> Oportunidade perdida</span>
+    </div>
+
+    <div class="diag-grid">
+      <div class="diag-item">
+        <div class="diag-dot green"></div>
+        <div>
+          <div class="diag-item-title">Conta verificada + 28,9 mil seguidores</div>
+          <div class="diag-item-desc">A PECBR já tem audiência e credibilidade — base sólida para crescer sem partir do zero.</div>
+        </div>
+      </div>
+      <div class="diag-item">
+        <div class="diag-dot green"></div>
+        <div>
+          <div class="diag-item-title">Collabs estratégicas gerando alcance extra</div>
+          <div class="diag-item-desc">Posts com @beef10oficial e @caioarossato comprovam capacidade de colaboração — um diferencial raro no nicho.</div>
+        </div>
+      </div>
+      <div class="diag-item">
+        <div class="diag-dot green"></div>
+        <div>
+          <div class="diag-item-title">CTA "EU QUERO" gerando leads passivos</div>
+          <div class="diag-item-desc">Estratégia inteligente de geração de leads via comentários — funciona 24h sem custo adicional.</div>
+        </div>
+      </div>
+      <div class="diag-item">
+        <div class="diag-dot yellow"></div>
+        <div>
+          <div class="diag-item-title">Engajamento abaixo do potencial (~0,7%)</div>
+          <div class="diag-item-desc">Com 28,9 mil seguidores, os posts recentes têm 100–376 curtidas. Há espaço significativo para crescer.</div>
+        </div>
+      </div>
+      <div class="diag-item">
+        <div class="diag-dot yellow"></div>
+        <div>
+          <div class="diag-item-title">Frequência irregular — 1 a 2 posts/semana</div>
+          <div class="diag-item-desc">O algoritmo do Instagram favorece consistência. Sem calendário editorial, o alcance orgânico cai semana a semana.</div>
+        </div>
+      </div>
+      <div class="diag-item">
+        <div class="diag-dot red"></div>
+        <div>
+          <div class="diag-item-title">Bio sem CTA nem link — tráfego desperdiçado</div>
+          <div class="diag-item-desc">Todo visitante do perfil chega e não sabe para onde ir. Um link e uma frase de ação dobrariam as conversões sem custo.</div>
+        </div>
+      </div>
+      <div class="diag-item">
+        <div class="diag-dot red"></div>
+        <div>
+          <div class="diag-item-title">Sem Destaques (Highlights) — perfil sem vitrine</div>
+          <div class="diag-item-desc">Novos visitantes não encontram os serviços, cases ou materiais da PECBR. O perfil parece vazio para quem chega pela primeira vez.</div>
+        </div>
+      </div>
+      <div class="diag-item">
+        <div class="diag-dot red"></div>
+        <div>
+          <div class="diag-item-title">Stories inexplorados — alcance diário desperdiçado</div>
+          <div class="diag-item-desc">Stories têm prioridade no algoritmo e custo zero. Sem publicação diária, a PECBR está invisível para boa parte dos seus seguidores.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="diag-cta-label">🚀 Onde a Oráculo pode acelerar os resultados</div>
+    <div class="oraculo-pills">
+      <span class="oraculo-pill"><span class="pill-icon">🗓️</span> Calendário editorial estratégico</span>
+      <span class="oraculo-pill"><span class="pill-icon">✍️</span> Produção de legendas e CTAs otimizados</span>
+      <span class="oraculo-pill"><span class="pill-icon">🎬</span> Roteiros e edição de Reels</span>
+      <span class="oraculo-pill"><span class="pill-icon">🤝</span> Gestão e expansão de collabs</span>
+      <span class="oraculo-pill"><span class="pill-icon">🔗</span> Otimização da bio e link na bio</span>
+      <span class="oraculo-pill"><span class="pill-icon">📌</span> Criação de Destaques e organização do perfil</span>
+      <span class="oraculo-pill"><span class="pill-icon">📊</span> Monitoramento de métricas e ajuste de estratégia</span>
+      <span class="oraculo-pill"><span class="pill-icon">🎯</span> Campanhas de tráfego pago (Instagram Ads)</span>
+    </div>
+  </div>
+  </section>
+
+  <!-- KPI STRIP -->
+  <div class="kpi-row">
+    <div class="kpi">
+      <div class="kpi-val ig">28,9k</div>
+      <div class="kpi-label">Seguidores</div>
+      <span class="kpi-delta delta-up">2,2× mais que YouTube</span>
+    </div>
+    <div class="kpi">
+      <div class="kpi-val">1.942</div>
+      <div class="kpi-label">Posts publicados</div>
+      <span class="kpi-delta delta-up">5,2× mais que YouTube</span>
+    </div>
+    <div class="kpi">
+      <div class="kpi-val">✅</div>
+      <div class="kpi-label">Conta verificada</div>
+      <span class="kpi-delta delta-up">Credibilidade oficial</span>
+    </div>
+    <div class="kpi">
+      <div class="kpi-val">2,5k</div>
+      <div class="kpi-label">Curtidas (post fixado)</div>
+      <span class="kpi-delta delta-up">Melhor post</span>
+    </div>
+    <div class="kpi">
+      <div class="kpi-val">~1%</div>
+      <div class="kpi-label">Taxa de engajamento</div>
+      <span class="kpi-delta delta-warn">Normal para B2B</span>
+    </div>
+  </div>
+
+  <!-- 1. VISÃO GERAL -->
+  <section class="section" id="visao-geral">
+    <div class="section-header">
+      <div class="section-num">1</div>
+      <h2>Identidade e Posicionamento</h2>
+    </div>
+
+    <div class="card">
+      <h3>Perfil Público</h3>
+      <div class="tbl-wrap">
+        <table>
+          <tr><th>Campo</th><th>Valor</th></tr>
+          <tr><td>Handle</td><td><strong>@pecbrsolucoes</strong></td></tr>
+          <tr><td>Nome exibido</td><td><strong>PECBR</strong></td></tr>
+          <tr><td>Verificação</td><td><span class="badge badge-green">✅ Conta Verificada</span></td></tr>
+          <tr><td>Bio (linha 1)</td><td>🐂 Por uma pecuária mais justa e rentável</td></tr>
+          <tr><td>Bio (linha 2)</td><td>• Gestão + de 22 marcas de 🥩</td></tr>
+          <tr><td>Seguidores</td><td><strong>28.997 (28,9 mil)</strong></td></tr>
+          <tr><td>Seguindo</td><td>5.756</td></tr>
+          <tr><td>Ratio seg./seg.</td><td><strong>5:1</strong> — perfil de autoridade</td></tr>
+          <tr><td>Total de posts</td><td><strong>1.942</strong></td></tr>
+          <tr><td>Post fixado</td><td>Identificação da Idade de Bovinos (dentição)</td></tr>
+        </table>
+      </div>
+    </div>
+
+    <div class="callout primary">
+      <strong>🎯 Posicionamento no Instagram</strong>
+      A PECBR usa o Instagram como <strong>hub principal de relacionamento e geração de leads</strong>, com foco em conteúdo técnico sobre abate bovino, qualidade de carne e gestão de frigoríficos. A bio "Gestão + de 22 marcas de 🥩" é um forte gatilho de prova social — comunica escala e confiança imediatamente.
+    </div>
+
+    <div class="card">
+      <h3>Branding Visual</h3>
+      <div class="tbl-wrap">
+        <table>
+          <tr><th>Elemento</th><th>Descrição</th></tr>
+          <tr><td>Foto de perfil</td><td>Logo circular PECBR — símbolo em vermelho/vinho com texto em anel</td></tr>
+          <tr><td>Paleta principal</td><td>Vermelho + Preto + Branco (consistente com YouTube)</td></tr>
+          <tr><td>Padrão de posts</td><td>Fundo escuro, título bold em vermelho/branco — identidade forte</td></tr>
+          <tr><td>Reels</td><td>Apresentador + texto de impacto na parte inferior da tela</td></tr>
+          <tr><td>Carrosséis</td><td>Infográficos técnicos com layout padronizado PECBR</td></tr>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. MÉTRICAS -->
+  <section class="section" id="metricas">
+    <div class="section-header">
+      <div class="section-num">2</div>
+      <h2>Métricas Principais</h2>
+    </div>
+
+    <div class="card">
+      <h3>Dados do Perfil</h3>
+      <div class="tbl-wrap">
+        <table>
+          <tr><th>Métrica</th><th>Valor</th><th>Avaliação</th></tr>
+          <tr>
+            <td>Seguidores</td>
+            <td><strong>28.997 (28,9 mil)</strong></td>
+            <td><span class="badge badge-green">✅ Forte</span></td>
+          </tr>
+          <tr>
+            <td>Total de posts</td>
+            <td><strong>1.942</strong></td>
+            <td><span class="badge badge-green">✅ Biblioteca robusta</span></td>
+          </tr>
+          <tr>
+            <td>Frequência estimada</td>
+            <td>1–2 posts/semana</td>
+            <td><span class="badge badge-amber">⚠️ Regular mas pode melhorar</span></td>
+          </tr>
+          <tr>
+            <td>Conta verificada</td>
+            <td>Sim ✅</td>
+            <td><span class="badge badge-green">✅ Diferencial</span></td>
+          </tr>
+          <tr>
+            <td>Ratio seguidor/seguindo</td>
+            <td>5:1</td>
+            <td><span class="badge badge-green">✅ Perfil de autoridade</span></td>
+          </tr>
+          <tr>
+            <td>Post fixado</td>
+            <td>Sim (alto engajamento)</td>
+            <td><span class="badge badge-green">✅ Estratégico</span></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <div class="callout green">
+      <strong>🏆 Destaque vs. YouTube</strong>
+      O Instagram tem <strong>2,2× mais seguidores</strong> que o YouTube (28,9 mil vs. 13,2 mil) e <strong>5,2× mais conteúdo publicado</strong> (1.942 vs. 374). É o canal digital mais robusto da PECBR em volume e audiência — e o único com verificação oficial.
+    </div>
+
+    <div class="card">
+      <h3>Comparativo Geral de Audiência</h3>
+      <div class="chart-wrap">
+        <canvas id="chartAudiencia"></canvas>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. CONTEÚDO -->
+  <section class="section" id="conteudo">
+    <div class="section-header">
+      <div class="section-num">3</div>
+      <h2>Estratégia de Conteúdo</h2>
+    </div>
+
+    <div class="card">
+      <h3>Mix de Formatos</h3>
+      <div class="format-grid">
+        <div class="chart-wrap" style="height:220px;">
+          <canvas id="chartFormatos"></canvas>
+        </div>
+        <div>
+          <div class="tbl-wrap">
+            <table>
+              <tr><th>Formato</th><th>Função Principal</th></tr>
+              <tr><td><strong>Reels</strong> (~50%)</td><td>Alcance orgânico e viralização</td></tr>
+              <tr><td><strong>Carrosséis</strong> (~30%)</td><td>Educação e salvamentos</td></tr>
+              <tr><td><strong>Posts estáticos</strong> (~15%)</td><td>Infográficos e dados</td></tr>
+              <tr><td><strong>Collabs</strong> (~5%)</td><td>Expansão de audiência</td></tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Temas de Conteúdo Identificados</h3>
+      <div class="tbl-wrap">
+        <table>
+          <tr><th>#</th><th>Tema</th><th>Exemplos de Posts</th><th>Peso estimado</th></tr>
+          <tr>
+            <td><strong>1</strong></td>
+            <td>Gestão de Frigoríficos</td>
+            <td>Queima do frio, STOCKNET, processos industriais</td>
+            <td><span class="badge badge-primary">Alto</span></td>
+          </tr>
+          <tr>
+            <td><strong>2</strong></td>
+            <td>Qualidade de Carne</td>
+            <td>Marmoreio, pH, cor, certificações PECBR</td>
+            <td><span class="badge badge-primary">Alto</span></td>
+          </tr>
+          <tr>
+            <td><strong>3</strong></td>
+            <td>Diagnóstico Técnico</td>
+            <td>Vaca prenhe no abate, dentição bovina, cisticercose</td>
+            <td><span class="badge badge-blue">Médio-Alto</span></td>
+          </tr>
+          <tr>
+            <td><strong>4</strong></td>
+            <td>Mercado e Exportação</td>
+            <td>Dados EUA, União Europeia, números do Brasil</td>
+            <td><span class="badge badge-blue">Médio</span></td>
+          </tr>
+          <tr>
+            <td><strong>5</strong></td>
+            <td>Fomento Pecuário</td>
+            <td>Programas de bonificação, +R$/@</td>
+            <td><span class="badge badge-blue">Médio</span></td>
+          </tr>
+          <tr>
+            <td><strong>6</strong></td>
+            <td>Eventos e Palestras</td>
+            <td>Registros de apresentações, agradecimentos</td>
+            <td><span class="badge badge-amber">Baixo-Médio</span></td>
+          </tr>
+          <tr>
+            <td><strong>7</strong></td>
+            <td>Datas Comemorativas</td>
+            <td>Dia do Zootecnista, Dia do Veterinário</td>
+            <td><span class="badge badge-amber">Baixo</span></td>
+          </tr>
+          <tr>
+            <td><strong>8</strong></td>
+            <td>Bubalinocultura</td>
+            <td>Manejo de búfalos no Pará</td>
+            <td><span class="badge badge-amber">Baixo</span></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Estratégia de CTAs (Chamadas para Ação)</h3>
+      <div class="callout primary">
+        <strong>🔑 CTA Principal — "Comente EU QUERO"</strong>
+        A frase <strong>"Comente EU QUERO e receba mais informações!!!"</strong> aparece repetidamente nas legendas. Essa estratégia é dupla: (1) aumenta o engajamento nos comentários, favorecendo o algoritmo do Instagram, e (2) gera leads qualificados que a PECBR responde via DM com materiais ou proposta de consultoria.
+      </div>
+      <div class="tbl-wrap">
+        <table>
+          <tr><th>CTA Identificada</th><th>Objetivo</th><th>Eficácia</th></tr>
+          <tr>
+            <td>"Comente EU QUERO"</td>
+            <td>Geração de leads + boost algorítmico</td>
+            <td><span class="badge badge-green">✅ Comprovada</span></td>
+          </tr>
+          <tr>
+            <td>"Peça o link do ebook nos comentários"</td>
+            <td>Lead magnet / material educativo</td>
+            <td><span class="badge badge-green">✅ Ativa (49 comentários no post fixado)</span></td>
+          </tr>
+          <tr>
+            <td>Hashtags temáticas</td>
+            <td>Descoberta orgânica por nicho</td>
+            <td><span class="badge badge-blue">Suporte</span></td>
+          </tr>
+          <tr>
+            <td>Collab posts</td>
+            <td>Expansão de audiência parceira</td>
+            <td><span class="badge badge-green">✅ Estratégica</span></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. ENGAJAMENTO -->
+  <section class="section" id="engajamento">
+    <div class="section-header">
+      <div class="section-num">4</div>
+      <h2>Engajamento — Amostra Real</h2>
+    </div>
+
+    <div class="card">
+      <h3>Posts Analisados (dados públicos coletados ao vivo)</h3>
+
+      <div class="post-row">
+        <div class="post-icon" style="background:#fff7ed;">📌</div>
+        <div>
+          <div class="post-title">Identificação da Idade de Bovinos (dentição)</div>
+          <div class="post-meta">Carrossel fixado · 18/02/2025 · Lead magnet (ebook)</div>
+        </div>
+        <div class="post-stats">
+          <div class="post-likes">2.500 ❤️</div>
+          <div class="post-cmts">49 💬</div>
+        </div>
+      </div>
+
+      <div class="post-row">
+        <div class="post-icon" style="background:#fff7ed;">🎬</div>
+        <div>
+          <div class="post-title">Queima do frio / STOCKNET — Qualidade de Carne</div>
+          <div class="post-meta">Reel collab @beef10oficial · 30/04/2026 · 3 semanas atrás</div>
+        </div>
+        <div class="post-stats">
+          <div class="post-likes">376 ❤️</div>
+          <div class="post-cmts">15 💬</div>
+        </div>
+      </div>
+
+      <div class="post-row">
+        <div class="post-icon" style="background:#eff6ff;">🌍</div>
+        <div>
+          <div class="post-title">União Europeia retira Brasil das exportações autorizadas</div>
+          <div class="post-meta">Reel collab @caioarossato · 22/05/2026 · 5 dias atrás</div>
+        </div>
+        <div class="post-stats">
+          <div class="post-likes">186 ❤️</div>
+          <div class="post-cmts">16 💬</div>
+        </div>
+      </div>
+
+      <div class="post-row">
+        <div class="post-icon" style="background:#f0fdf4;">🐄</div>
+        <div>
+          <div class="post-title">Diagnóstico de bezerro — Vaca prenhe na indústria</div>
+          <div class="post-meta">Carrossel · 29/04/2026 · 4 semanas atrás</div>
+        </div>
+        <div class="post-stats">
+          <div class="post-likes">100 ❤️</div>
+          <div class="post-cmts">14 💬</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Análise de Taxa de Engajamento</h3>
+      <div class="chart-wrap">
+        <canvas id="chartEngajamento"></canvas>
+      </div>
+      <div class="callout blue" style="margin-top:16px;">
+        <strong>📊 Contexto de Engajamento B2B</strong>
+        Para contas B2B em nichos técnicos (agropecuária, consultoria industrial), uma taxa de <strong>0,7% – 1,3%</strong> é esperada e saudável. O benchmark geral do Instagram é 1–3%, mas nichos técnicos operam na faixa inferior — cada interação representa um profissional com alta intenção de compra, não um consumidor casual.
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Estimativa de Métricas de Alcance</h3>
+      <div class="tbl-wrap">
+        <table>
+          <tr><th>Métrica</th><th>Estimativa</th></tr>
+          <tr><td>Alcance médio por post estático</td><td>3.000 – 8.000 pessoas</td></tr>
+          <tr><td>Alcance médio por Reel</td><td>5.000 – 20.000 pessoas</td></tr>
+          <tr><td>Impressões mensais estimadas</td><td>80.000 – 200.000</td></tr>
+          <tr><td>Leads gerados/mês via "EU QUERO"</td><td>30 – 100 leads</td></tr>
+          <tr><td>Taxa de conversão lead → cliente (estimada)</td><td>2 – 5%</td></tr>
+          <tr><td>Novos clientes potenciais/mês via Instagram</td><td>1 – 5 clientes</td></tr>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. COLLABS -->
+  <section class="section" id="collabs">
+    <div class="section-header">
+      <div class="section-num">5</div>
+      <h2>Estratégia de Colaborações</h2>
+    </div>
+
+    <div class="callout purple">
+      <strong>🤝 Por que Collabs são Poderosas</strong>
+      Posts colaborativos no Instagram aparecem simultaneamente no feed de <strong>dois perfis</strong>, dobrando o alcance orgânico sem custo adicional. A PECBR usa essa estratégia com parceiros complementares — não concorrentes, mas com audiências sobrepostas (pecuaristas, profissionais de frigoríficos).
+    </div>
+
+    <div class="collab-grid">
+      <div class="collab-card">
+        <div class="collab-avatar">🥩</div>
+        <div>
+          <div class="collab-handle">@caioarossato</div>
+          <div class="collab-desc">Agronegócio / Pecuária de corte<br>Collab: EU retira Brasil das exportações</div>
+        </div>
+      </div>
+      <div class="collab-card">
+        <div class="collab-avatar">🏭</div>
+        <div>
+          <div class="collab-handle">@beef10oficial</div>
+          <div class="collab-desc">Qualidade de carne / Frigoríficos<br>Collab: Queima do frio / STOCKNET</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card" style="margin-top:16px;">
+      <h3>Impacto das Collabs nos Posts Analisados</h3>
+      <div class="tbl-wrap">
+        <table>
+          <tr><th>Post</th><th>Tipo</th><th>Curtidas</th><th>vs. Post Solo (est.)</th></tr>
+          <tr>
+            <td>Queima do frio (collab @beef10oficial)</td>
+            <td>Reel</td>
+            <td><strong>376</strong></td>
+            <td><span class="badge badge-green">+50–80% estimado</span></td>
+          </tr>
+          <tr>
+            <td>União Europeia (collab @caioarossato)</td>
+            <td>Reel</td>
+            <td><strong>186</strong></td>
+            <td><span class="badge badge-blue">Alcance duplo de audiência</span></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. HASHTAGS -->
+  <section class="section">
+    <div class="section-header">
+      <div class="section-num">6</div>
+      <h2>Hashtags e Descoberta Orgânica</h2>
+    </div>
+
+    <div class="card">
+      <h3>Alta Frequência (nicho principal)</h3>
+      <div class="tag-cloud">
+        <span class="tag high">#pecuaria</span>
+        <span class="tag high">#agronegócio</span>
+        <span class="tag high">#agronegocio</span>
+        <span class="tag high">#agro</span>
+        <span class="tag high">#boigordo</span>
+        <span class="tag high">#fazenda</span>
+        <span class="tag high">#bovinos</span>
+      </div>
+
+      <h3 style="margin-top:16px;">Técnico-Profissional (nicho específico)</h3>
+      <div class="tag-cloud">
+        <span class="tag mid">#frigorífico</span>
+        <span class="tag mid">#abate</span>
+        <span class="tag mid">#carcaça</span>
+        <span class="tag mid">#acompanhamentodeabate</span>
+        <span class="tag mid">#cisticercosebovina</span>
+        <span class="tag mid">#maturidadebovina</span>
+        <span class="tag mid">#denticaobovina</span>
+        <span class="tag mid">#sistemadequalidade</span>
+        <span class="tag mid">#carnebovina</span>
+      </div>
+
+      <h3 style="margin-top:16px;">Mercado Internacional</h3>
+      <div class="tag-cloud">
+        <span class="tag low">#exportação</span>
+        <span class="tag low">#mercadointernacional</span>
+        <span class="tag low">#uniaoeuropeia</span>
+        <span class="tag low">#pecuariadecorte</span>
+        <span class="tag low">#export</span>
+        <span class="tag low">#eua</span>
+        <span class="tag low">#bubalinocultura</span>
+        <span class="tag low">#palestra</span>
+      </div>
+    </div>
+
+    <div class="callout green">
+      <strong>✅ Estratégia Inteligente de Hashtags</strong>
+      A PECBR usa uma combinação de hashtags <strong>amplas</strong> (#pecuaria, #agronegócio — milhões de posts) para volume e hashtags de <strong>nicho profundo</strong> (#cisticercosebovina, #acompanhamentodeabate — poucos posts, alta intenção), maximizando simultaneamente alcance e relevância para o público certo.
+    </div>
+  </section>
+
+  <!-- 7. AUDIÊNCIA -->
+  <section class="section" id="audiencia">
+    <div class="section-header">
+      <div class="section-num">7</div>
+      <h2>Análise de Audiência</h2>
+    </div>
+
+    <div class="card">
+      <h3>Perfil Estimado do Público</h3>
+      <div class="chart-wrap">
+        <canvas id="chartAudienciaSegmentos"></canvas>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Características da Audiência Instagram</h3>
+      <div class="tbl-wrap">
+        <table>
+          <tr><th>Característica</th><th>Descrição</th></tr>
+          <tr><td>Perfil predominante</td><td>Profissionais do setor agropecuário e da cadeia de proteína animal</td></tr>
+          <tr><td>Intenção de consumo</td><td>Alta — buscam informações técnicas antes de contratar ou comprar</td></tr>
+          <tr><td>Geolocalização</td><td>Brasil (foco em legislação brasileira, mercado nacional)</td></tr>
+          <tr><td>Faixa etária estimada</td><td>25–55 anos (profissionais do setor)</td></tr>
+          <tr><td>Comportamento no feed</td><td>Salva posts técnicos, comenta dúvidas, segue para aprendizado contínuo</td></tr>
+          <tr><td>Diferença vs. YouTube</td><td>Inclui mais estudantes e jovens profissionais (plataforma mais acessível)</td></tr>
+        </table>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Funil de Audiência Estimado</h3>
+      <div class="funnel">
+        <div class="funnel-step f1">📱 Descoberta via Reels e hashtags (~500k–2M impressões/mês)</div>
+        <div class="funnel-step f2">👁️ Visualização de perfil e posts (~80–200k/mês)</div>
+        <div class="funnel-step f3">❤️ Engajamento — curtidas, comentários, salvamentos (~500–2k/mês)</div>
+        <div class="funnel-step f4">💼 Lead qualificado — DM, "EU QUERO", WhatsApp (30–100/mês)</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. SWOT -->
+  <section class="section" id="swot">
+    <div class="section-header">
+      <div class="section-num">8</div>
+      <h2>Análise SWOT do Instagram</h2>
+    </div>
+
+    <div class="card">
+      <div class="swot-grid">
+        <div class="swot-cell swot-s">
+          <h4>💪 Forças (Strengths)</h4>
+          <ul>
+            <li>Conta verificada — credibilidade imediata</li>
+            <li>28,9 mil seguidores — maior audiência digital da marca</li>
+            <li>Estratégia de collabs ativa com parceiros relevantes</li>
+            <li>CTA "Comente EU QUERO" gera leads passivos 24h/dia</li>
+            <li>Mix de formatos equilibrado (Reels + Carrosséis + Posts)</li>
+            <li>Identidade visual consistente e profissional</li>
+            <li>Post fixado como vitrine de autoridade (2,5k curtidas)</li>
+            <li>Conteúdo baseado em imagens reais de campo e frigoríficos</li>
+            <li>Bio clara com prova social ("22 marcas")</li>
+          </ul>
+        </div>
+        <div class="swot-cell swot-w">
+          <h4>⚠️ Fraquezas (Weaknesses)</h4>
+          <ul>
+            <li>Taxa de engajamento nos posts recentes ainda baixa (~0,7%)</li>
+            <li>Bio sem link claro para site/ebook/WhatsApp</li>
+            <li>Ausência de Destaques (Highlights) para organizar conteúdo</li>
+            <li>Legendas longas truncadas exigem clique extra do usuário</li>
+            <li>Frequência de Stories não identificada (provavelmente baixa)</li>
+            <li>Variação de estilo entre posts pode dificultar reconhecimento no feed</li>
+          </ul>
+        </div>
+        <div class="swot-cell swot-o">
+          <h4>🚀 Oportunidades (Opportunities)</h4>
+          <ul>
+            <li>Reels sobre exportações e UE (tema em alta no agro em 2026)</li>
+            <li>Destaques para portfólio: "Serviços", "Cases", "Ebook"</li>
+            <li>Stories com enquetes para engajamento diário de baixo custo</li>
+            <li>Repostar Shorts do YouTube como Reels (reaproveitamento)</li>
+            <li>Colaborações com universidades agrícolas (USP, UFV, UFLA)</li>
+            <li>Instagram Ads segmentados para produtores e gestores de frigoríficos</li>
+            <li>Série semanal de Reels (ex: "Sexta do Frigorífico")</li>
+            <li>Carrosséis de resultados de clientes (prova social)</li>
+          </ul>
+        </div>
+        <div class="swot-cell swot-t">
+          <h4>⚡ Ameaças (Threats)</h4>
+          <ul>
+            <li>Algoritmo do Instagram desfavorece conteúdo técnico vs. entretenimento</li>
+            <li>Restrições sobre imagens de abate animal (conteúdo sensível)</li>
+            <li>Crescimento de concorrentes com Reels mais virais e leves</li>
+            <li>Dependência de alcance orgânico — mudanças no algoritmo impactam diretamente</li>
+            <li>Perfis generalistas do agro com mais seguidores disputam a mesma audiência</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 9. COMPARATIVO -->
+  <section class="section" id="comparativo">
+    <div class="section-header">
+      <div class="section-num">9</div>
+      <h2>Instagram vs. YouTube — Comparativo</h2>
+    </div>
+
+    <div class="vs-grid">
+      <div class="vs-card vs-ig">
+        <div class="vs-platform">📸 Instagram</div>
+        <div class="vs-metric"><span class="vs-metric-label">Seguidores</span><span class="vs-metric-val">28,9 mil</span></div>
+        <div class="vs-metric"><span class="vs-metric-label">Conteúdo publicado</span><span class="vs-metric-val">1.942 posts</span></div>
+        <div class="vs-metric"><span class="vs-metric-label">Frequência recente</span><span class="vs-metric-val">1–2x/semana</span></div>
+        <div class="vs-metric"><span class="vs-metric-label">Melhor resultado</span><span class="vs-metric-val">2.500 curtidas</span></div>
+        <div class="vs-metric"><span class="vs-metric-label">Verificado</span><span class="vs-metric-val">✅ Sim</span></div>
+        <div class="vs-metric"><span class="vs-metric-label">Collabs ativas</span><span class="vs-metric-val">✅ Sim</span></div>
+        <div class="vs-metric"><span class="vs-metric-label">Lead gen ativa</span><span class="vs-metric-val">✅ "EU QUERO"</span></div>
+        <div class="vs-metric"><span class="vs-metric-label">Papel no funil</span><span class="vs-metric-val">Topo / Meio</span></div>
+        <div class="vs-metric"><span class="vs-metric-label">Consistência</span><span class="vs-metric-val">✅ Regular</span></div>
+      </div>
+      <div class="vs-card vs-yt">
+        <div class="vs-platform">▶️ YouTube</div>
+        <div class="vs-metric"><span class="vs-metric-label">Inscritos</span><span class="vs-metric-val">13,2 mil</span></div>
+        <div class="vs-metric"><span class="vs-metric-label">Conteúdo publicado</span><span class="vs-metric-val">374 vídeos</span></div>
+        <div class="vs-metric"><span class="vs-metric-label">Frequência recente</span><span class="vs-metric-val">~1x/mês</span></div>
+        <div class="vs-metric"><span class="vs-metric-label">Melhor resultado</span><span class="vs-metric-val">145k views</span></div>
+        <div class="vs-metric"><span class="vs-metric-label">Verificado</span><span class="vs-metric-val">❌ Não</span></div>
+        <div class="vs-metric"><span class="vs-metric-label">Collabs ativas</span><span class="vs-metric-val">❌ Rara</span></div>
+        <div class="vs-metric"><span class="vs-metric-label">Lead gen ativa</span><span class="vs-metric-val">Via descrição</span></div>
+        <div class="vs-metric"><span class="vs-metric-label">Papel no funil</span><span class="vs-metric-val">Meio / Fundo</span></div>
+        <div class="vs-metric"><span class="vs-metric-label">Consistência</span><span class="vs-metric-val">⚠️ Irregular</span></div>
+      </div>
+    </div>
+
+    <div class="callout green" style="margin-top:16px;">
+      <strong>🏆 Diagnóstico Comparativo</strong>
+      O Instagram é o <strong>canal mais ativo, consistente e com maior audiência</strong> da PECBR. Já o YouTube funciona como repositório de autoridade com maior profundidade de conteúdo. Os dois se complementam: Instagram atrai e aquece, YouTube converte e aprofunda.
+    </div>
+
+    <div class="card">
+      <h3>Papel de Cada Plataforma no Ecossistema Digital PECBR</h3>
+      <div class="chart-wrap">
+        <canvas id="chartComparativo"></canvas>
+      </div>
+    </div>
+  </section>
+
+  <!-- 10. RECOMENDAÇÕES -->
+  <section class="section" id="recomendacoes">
+    <div class="section-header">
+      <div class="section-num">10</div>
+      <h2>Recomendações Estratégicas</h2>
+    </div>
+
+    <div class="rec-grid">
+      <div class="rec-card rec-short">
+        <h4>⚡ Curto Prazo (0–3 meses)</h4>
+        <ul>
+          <li>Criar Destaques temáticos: "Serviços", "Cases", "Ebook", "Abate", "Exportação"</li>
+          <li>Otimizar bio com link (Linktree ou link direto para site/WhatsApp)</li>
+          <li>Aumentar frequência de Stories: enquetes, bastidores e caixinhas de perguntas</li>
+          <li>Repostar os melhores Shorts do YouTube como Reels com adaptação mínima</li>
+          <li>Criar modelo de legenda padrão com CTA no início (não só no final)</li>
+        </ul>
+      </div>
+      <div class="rec-card rec-mid">
+        <h4>📈 Médio Prazo (3–12 meses)</h4>
+        <ul>
+          <li>Série semanal de Reels: ex. "Sexta do Frigorífico" — conteúdo previsível fideliza audiência</li>
+          <li>Expandir rede de collabs: universidades agrícolas, associações de pecuária, clientes frigoríficos</li>
+          <li>Carrosséis de resultados de clientes: "Fazenda X aumentou rendimento Y%" — prova social</li>
+          <li>Conteúdo de bastidores: dia a dia do acompanhamento de abate humaniza a marca</li>
+          <li>Lives mensais sobre pautas quentes (exportação, preço do boi, legislação)</li>
+        </ul>
+      </div>
+      <div class="rec-card rec-long">
+        <h4>🔭 Longo Prazo (12+ meses)</h4>
+        <ul>
+          <li>Instagram Ads segmentados: produtores rurais, veterinários, gestores de frigoríficos</li>
+          <li>Comunidade fechada: grupo de WhatsApp/Telegram para seguidores premium</li>
+          <li>Programa de certificação PECBR: usar Instagram para lançar e dar visibilidade</li>
+          <li>Internacionalização: conteúdo em espanhol para Argentina e Uruguai (exportadores de carne)</li>
+          <li>Parcerias com universidades para conteúdo científico-prático co-criado</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 11. RESUMO -->
+  <section class="section" id="resumo">
+    <div class="section-header">
+      <div class="section-num">11</div>
+      <h2>Resumo Executivo e Pontuação</h2>
+    </div>
+
+    <div class="card">
+      <h3>Pontuação Geral do Perfil Instagram</h3>
+      <div class="score-ring-wrap">
+        <div class="score-ring">
+          <div class="score-inner">
+            <div class="score-val">7,2</div>
+            <div class="score-max">/ 10</div>
+          </div>
+        </div>
+        <div class="score-labels">
+          <div class="score-item">
+            <span class="score-item-label">Audiência</span>
+            <div class="score-bar-bg"><div class="score-bar" style="width:85%"></div></div>
+            <span class="score-item-val">8,5</span>
+          </div>
+          <div class="score-item">
+            <span class="score-item-label">Estratégia de conteúdo</span>
+            <div class="score-bar-bg"><div class="score-bar" style="width:75%"></div></div>
+            <span class="score-item-val">7,5</span>
+          </div>
+          <div class="score-item">
+            <span class="score-item-label">Engajamento</span>
+            <div class="score-bar-bg"><div class="score-bar" style="width:65%"></div></div>
+            <span class="score-item-val">6,5</span>
+          </div>
+          <div class="score-item">
+            <span class="score-item-label">Geração de leads</span>
+            <div class="score-bar-bg"><div class="score-bar" style="width:80%"></div></div>
+            <span class="score-item-val">8,0</span>
+          </div>
+          <div class="score-item">
+            <span class="score-item-label">Otimização do perfil</span>
+            <div class="score-bar-bg"><div class="score-bar" style="width:55%"></div></div>
+            <span class="score-item-val">5,5</span>
+          </div>
+          <div class="score-item">
+            <span class="score-item-label">Branding visual</span>
+            <div class="score-bar-bg"><div class="score-bar" style="width:80%"></div></div>
+            <span class="score-item-val">8,0</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="callout primary">
+      <strong>🎯 Diagnóstico Final</strong>
+      O <strong>Instagram @pecbrsolucoes</strong> é o canal digital mais robusto da PECBR — com <strong>28,9 mil seguidores, conta verificada, collabs estratégicas e uma máquina de geração de leads via comentários</strong> que funciona 24h. O nível de maturidade digital está acima da média para empresas de consultoria agropecuária.
+      <br><br>
+      O <strong>principal ponto cego</strong> é a organização do perfil: ausência de Destaques, bio sem CTA direto e sem link otimizado desperdiçam parte do tráfego já conquistado.
+      <br><br>
+      O <strong>maior potencial não explorado</strong> está em Stories diários e séries de Reels semanais — formatos que ampliam alcance orgânico sem custo adicional e que competidores do nicho ainda não dominam.
+    </div>
+
+    <div class="card">
+      <h3>Estimativa de ROI do Instagram para a PECBR</h3>
+      <div class="tbl-wrap">
+        <table>
+          <tr><th>Métrica</th><th>Estimativa</th></tr>
+          <tr><td>Custo mensal do Instagram (sem ads)</td><td><strong>R$ 0</strong> (investimento de tempo)</td></tr>
+          <tr><td>Leads gerados/mês via perfil</td><td>30 – 100 leads</td></tr>
+          <tr><td>Conversão estimada</td><td>2 – 5% → 1 – 5 clientes/mês</td></tr>
+          <tr><td>Ticket médio de consultoria</td><td>R$ 2.000 – R$ 15.000/mês por cliente</td></tr>
+          <tr><td>Receita potencial atribuída ao Instagram</td><td>R$ 2.000 – R$ 75.000/mês</td></tr>
+          <tr><td>ROI estimado do canal</td><td><span class="badge badge-green">Extremamente alto</span></td></tr>
+        </table>
+      </div>
+    </div>
+  </section>
+
+</div><!-- /page -->
+
+<!-- ── FOOTER ── -->
+<footer>
+  <strong>PECBR — Análise de Instagram @pecbrsolucoes</strong><br>
+  Análise realizada em 27 de maio de 2026 com base em dados públicos do perfil.<br><br>
+  <a href="https://instagram.com/pecbrsolucoes">@pecbrsolucoes no Instagram</a> ·
+  <a href="https://youtube.com/@pecbrsolucoes">YouTube @pecbrsolucoes</a> ·
+  <a href="https://pecbr.com.br">pecbr.com.br</a><br><br>
+  <span style="opacity:.5;font-size:.75rem;">Preparado pela Oráculo Tecnologia · Análise de Redes Sociais</span>
+</footer>
+
+</div><!-- /page-wrap -->
+
+<script>
+// ── Nav active on scroll ──
+const navLinks = document.querySelectorAll('.nav a');
+const sections = document.querySelectorAll('section[id]');
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      navLinks.forEach(a => a.classList.remove('active'));
+      const a = document.querySelector('.nav a[href="#' + e.target.id + '"]');
+      if (a) { a.classList.add('active'); a.scrollIntoView({block:'nearest',inline:'center',behavior:'smooth'}); }
+    }
+  });
+}, { threshold: 0.4 });
+sections.forEach(s => observer.observe(s));
+
+// ── Paleta Oráculo ──
+const RED  = '#1d4ed8';
+const BLUE = '#3b82f6';
+const GRN  = '#16a34a';
+const AMB  = '#d97706';
+const PUR  = '#7c3aed';
+
+// Chart 1: Audiência Instagram vs YouTube
+new Chart(document.getElementById('chartAudiencia'), {
+  type: 'bar',
+  data: {
+    labels: ['Instagram\n@pecbrsolucoes', 'YouTube\n@pecbrsolucoes'],
+    datasets: [{
+      label: 'Audiência',
+      data: [28997, 13200],
+      backgroundColor: [RED, BLUE],
+      borderRadius: 8,
+    }]
+  },
+  options: {
+    responsive: true, maintainAspectRatio: false,
+    plugins: { legend: { display: false },
+      tooltip: { callbacks: { label: ctx => ' ' + ctx.raw.toLocaleString('pt-BR') + ' seguidores/inscritos' } }
+    },
+    scales: {
+      y: { beginAtZero: true, ticks: { callback: v => (v/1000).toFixed(0) + 'k' }, grid: { color: '#f3f4f6' } },
+      x: { grid: { display: false } }
+    }
+  }
+});
+
+// Chart 2: Formatos de conteúdo
+new Chart(document.getElementById('chartFormatos'), {
+  type: 'doughnut',
+  data: {
+    labels: ['Reels', 'Carrosséis', 'Posts estáticos', 'Collabs'],
+    datasets: [{
+      data: [50, 30, 15, 5],
+      backgroundColor: [RED, BLUE, GRN, AMB],
+      borderWidth: 2,
+      borderColor: '#fff',
+    }]
+  },
+  options: {
+    responsive: true, maintainAspectRatio: false,
+    cutout: '65%',
+    plugins: {
+      legend: { position: 'bottom', labels: { padding: 12, font: { size: 11 } } }
+    }
+  }
+});
+
+// Chart 3: Engajamento por post
+new Chart(document.getElementById('chartEngajamento'), {
+  type: 'bar',
+  data: {
+    labels: ['Post fixado\n(dentição)', 'Reel collab\n(queima do frio)', 'Reel collab\n(UE exportações)', 'Carrossel\n(vaca prenhe)'],
+    datasets: [
+      {
+        label: 'Curtidas',
+        data: [2500, 376, 186, 100],
+        backgroundColor: RED,
+        borderRadius: 6,
+      },
+      {
+        label: 'Comentários',
+        data: [49, 15, 16, 14],
+        backgroundColor: AMB,
+        borderRadius: 6,
+      }
+    ]
+  },
+  options: {
+    responsive: true, maintainAspectRatio: false,
+    plugins: {
+      legend: { position: 'bottom' },
+      tooltip: { callbacks: { label: ctx => ' ' + ctx.dataset.label + ': ' + ctx.raw.toLocaleString('pt-BR') } }
+    },
+    scales: {
+      y: { beginAtZero: true, grid: { color: '#f3f4f6' } },
+      x: { grid: { display: false } }
+    }
+  }
+});
+
+// Chart 4: Audiência por segmento
+new Chart(document.getElementById('chartAudienciaSegmentos'), {
+  type: 'bar',
+  indexAxis: 'y',
+  data: {
+    labels: ['Pecuaristas / Produtores', 'Técnicos de Frigoríficos', 'Veterinários / Zootecnistas', 'Estudantes de Ciências Agrárias', 'Traders / Compradores de Carne', 'Outros (agro em geral)'],
+    datasets: [{
+      label: 'Relevância estimada (%)',
+      data: [30, 25, 20, 15, 7, 3],
+      backgroundColor: [RED, BLUE, GRN, AMB, PUR, '#6b7280'],
+      borderRadius: 6,
+    }]
+  },
+  options: {
+    responsive: true, maintainAspectRatio: false,
+    plugins: {
+      legend: { display: false },
+      tooltip: { callbacks: { label: ctx => ' ' + ctx.raw + '% da audiência estimada' } }
+    },
+    scales: {
+      x: { beginAtZero: true, max: 35, ticks: { callback: v => v + '%' }, grid: { color: '#f3f4f6' } },
+      y: { grid: { display: false } }
+    }
+  }
+});
+
+// Chart 5: Comparativo Instagram vs YouTube por dimensão
+new Chart(document.getElementById('chartComparativo'), {
+  type: 'radar',
+  data: {
+    labels: ['Audiência', 'Consistência', 'Lead Gen', 'Autoridade técnica', 'Alcance orgânico', 'Profundidade'],
+    datasets: [
+      {
+        label: 'Instagram',
+        data: [9, 7, 9, 7, 8, 5],
+        borderColor: '#1d4ed8',
+        backgroundColor: 'rgba(29,78,216,0.15)',
+        pointBackgroundColor: '#1d4ed8',
+        borderWidth: 2,
+      },
+      {
+        label: 'YouTube',
+        data: [5, 4, 5, 9, 6, 10],
+        borderColor: PUR,
+        backgroundColor: 'rgba(124,58,237,0.15)',
+        pointBackgroundColor: PUR,
+        borderWidth: 2,
+      }
+    ]
+  },
+  options: {
+    responsive: true, maintainAspectRatio: false,
+    plugins: { legend: { position: 'bottom' } },
+    scales: {
+      r: {
+        min: 0, max: 10,
+        ticks: { stepSize: 2, font: { size: 10 } },
+        pointLabels: { font: { size: 11 } },
+        grid: { color: '#e4e7ec' }
+      }
+    }
+  }
+});
+</script>
+
+</body>
+</html>
