@@ -796,6 +796,61 @@
 
   /* ── OVERFLOW HORIZONTAL GLOBAL ── */
   img, canvas, iframe, video, svg { max-width: 100%; }
+
+  /* ── INSIGHT "O QUE ISSO SIGNIFICA PARA VOCÊ" ── */
+  .insight {
+    margin-top: 20px;
+    border-radius: var(--radius);
+    border: 1.5px solid var(--border);
+    overflow: hidden;
+    box-shadow: var(--shadow);
+  }
+  .insight-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 11px 18px;
+    font-size: .72rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+  }
+  .insight-header svg { flex-shrink: 0; }
+  .insight-body {
+    padding: 16px 18px;
+    font-size: .9rem;
+    line-height: 1.65;
+    background: var(--surface);
+    color: var(--text-2);
+  }
+  .insight-body strong { color: var(--text); }
+  .insight-body .verdict {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: 700;
+    font-size: .78rem;
+    text-transform: uppercase;
+    letter-spacing: .07em;
+    margin-bottom: 8px;
+    padding: 3px 10px;
+    border-radius: 100px;
+  }
+  .insight.good   .insight-header { background: var(--green-bg);    color: var(--green);   border-bottom: 1px solid var(--green-bdr); }
+  .insight.good   .verdict        { background: var(--green-bg);    color: var(--green); }
+  .insight.warn   .insight-header { background: var(--amber-bg);    color: var(--amber);   border-bottom: 1px solid var(--amber-bdr); }
+  .insight.warn   .verdict        { background: var(--amber-bg);    color: var(--amber); }
+  .insight.bad    .insight-header { background: var(--primary-soft);color: var(--primary); border-bottom: 1px solid var(--primary-mid); }
+  .insight.bad    .verdict        { background: var(--primary-soft);color: var(--primary); }
+  .insight.info   .insight-header { background: var(--blue-bg);     color: var(--blue);    border-bottom: 1px solid var(--blue-bdr); }
+  .insight.info   .verdict        { background: var(--blue-bg);     color: var(--blue); }
+  .insight.purple .insight-header { background: var(--purple-bg);   color: var(--purple);  border-bottom: 1px solid var(--purple-bdr); }
+  .insight.purple .verdict        { background: var(--purple-bg);   color: var(--purple); }
+
+  @media (max-width: 479px) {
+    .insight-header { padding: 9px 13px; font-size: .66rem; }
+    .insight-body   { padding: 12px 13px; font-size: .84rem; }
+  }
 </style>
 </head>
 <body>
@@ -1062,6 +1117,17 @@
         </table>
       </div>
     </div>
+
+    <div class="insight good">
+      <div class="insight-header">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+        O que isso significa para você
+      </div>
+      <div class="insight-body">
+        <span class="verdict">&#9650; Muito forte</span>
+        <p>A bio funciona como filtro de qualidade antes mesmo de o visitante ver o feed. <strong>PhD, Harvard Medical School, CRM e RQE comunicam autoridade de nível nacional</strong> em segundos. O risco está no equilíbrio: a narrativa de "fada madrinha" é memorável e diferenciadora, mas precisa de âncora técnica para preservar confiança e atender ao CFM. Esse posicionamento já é um ativo — e pode ser otimizado sem perder a personalidade.</p>
+      </div>
+    </div>
   </section>
 
   <section class="section" id="metricas">
@@ -1089,6 +1155,17 @@
     <div class="callout green">
       <strong>🏆 Destaque da coleta</strong>
       Os posts fixados de 2025 continuam muito acima da média: <strong>4.156 curtidas/356 comentários</strong> e <strong>2.620 curtidas/202 comentários</strong>. Isso mostra que o perfil sabe gerar picos de atenção; o desafio é transformar esse potencial em consistência recente.
+    </div>
+
+    <div class="insight warn">
+      <div class="insight-header">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+        O que isso significa para você
+      </div>
+      <div class="insight-body">
+        <span class="verdict">&#9654; Atenção necessária</span>
+        <p><strong>212 mil seguidores é um ativo enorme — o ER de 0,23% nos posts recentes não é crise, é sinal de audiência adormecida.</strong> Seguidores que não interagem ainda enxergam o perfil, mas o algoritmo distribui menos sem engajamento frequente. A boa notícia: não é preciso reconstruir do zero. Uma cadência regular de conteúdo FAQ e série educativa é suficiente para reativar a distribuição orgânica e reconectar com quem já te segue.</p>
+      </div>
     </div>
 
     <div class="card">
@@ -1143,6 +1220,17 @@
     <div class="callout primary">
       <strong>💡 Leitura estratégica</strong>
       O perfil fala muito bem com pacientes que já desejam rinoplastia. O próximo salto é construir mais conteúdo para quem ainda está decidindo: segurança, limites, riscos, função respiratória, primeira consulta e expectativas realistas.
+    </div>
+
+    <div class="insight warn">
+      <div class="insight-header">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+        O que isso significa para você
+      </div>
+      <div class="insight-body">
+        <span class="verdict">&#9654; Situação mista</span>
+        <p>Os Reels dominando 78% do mix mostram que o perfil já adotou o formato certo para alcance. O problema é o foco quase exclusivo em resultado visual: <strong>esse conteúdo converte quem já está decidido, mas não alcança quem ainda está pesquisando.</strong> Adicionar conteúdo de segurança, processo e função nasal não dilui a marca — expande o público que entra no funil e reduz a taxa de abandono de quem ainda tem medo ou dúvida.</p>
+      </div>
     </div>
   </section>
 
