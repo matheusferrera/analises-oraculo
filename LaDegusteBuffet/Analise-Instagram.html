@@ -1,0 +1,1628 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Análise de Instagram — La Deguste Buffet | Oráculo</title>
+
+<meta property="og:type"        content="website"/>
+<meta property="og:title"       content="Análise de Instagram — La Deguste Buffet | Oráculo"/>
+<meta property="og:description" content="Análise completa do perfil @ladegustebuffet no Instagram: métricas, conteúdo, engajamento e recomendações estratégicas para o buffet de eventos."/>
+<meta property="og:image"        content="https://analises-oraculo.vercel.app/LaDegusteBuffet/og-instagram.png"/>
+<meta property="og:image:width"  content="1200"/>
+<meta property="og:image:height" content="630"/>
+<meta property="og:url"          content="https://analises-oraculo.vercel.app/LaDegusteBuffet/Analise-Instagram.html"/>
+<meta property="og:site_name"    content="Oráculo Tecnologia"/>
+<meta name="twitter:card"        content="summary_large_image"/>
+<meta name="twitter:image"       content="https://analises-oraculo.vercel.app/LaDegusteBuffet/og-instagram.png"/>
+<meta name="description"        content="Análise completa do perfil @ladegustebuffet no Instagram. Preparado pela Oráculo Tecnologia."/>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --primary:      #1d4ed8;
+    --primary-soft: #eff6ff;
+    --primary-mid:  #bfdbfe;
+    --bg:           #f5f6f8;
+    --surface:      #ffffff;
+    --border:       #e4e7ec;
+    --text:         #1a1d23;
+    --text-2:       #4b5563;
+    --text-3:       #9ca3af;
+    --green:        #16a34a;
+    --green-bg:     #f0fdf4;
+    --green-bdr:    #bbf7d0;
+    --amber:        #d97706;
+    --amber-bg:     #fffbeb;
+    --amber-bdr:    #fde68a;
+    --blue:         #1d4ed8;
+    --blue-bg:      #eff6ff;
+    --blue-bdr:     #bfdbfe;
+    --purple:       #7c3aed;
+    --purple-bg:    #f5f3ff;
+    --purple-bdr:   #ddd6fe;
+    --ig-grad:      linear-gradient(135deg,#f09433,#e6683c,#dc2743,#cc2366,#bc1888);
+    --radius:       12px;
+    --shadow:       0 1px 4px rgba(0,0,0,.06), 0 1px 2px rgba(0,0,0,.04);
+    --shadow-md:    0 4px 16px rgba(0,0,0,.08), 0 2px 6px rgba(0,0,0,.04);
+  }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    font-size: 16px;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+    width: 100%;
+    overflow-x: hidden;
+    padding-top: calc(48px + env(safe-area-inset-top));
+  }
+
+  .page-wrap { overflow-x: hidden; width: 100%; }
+
+  /* ── COVER ── */
+  .cover {
+    background: #0f0a1e;
+    color: #fff;
+    padding: 48px 20px 60px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    border-bottom: 1px solid rgba(29,78,216,0.2);
+  }
+  .cover-dot-grid {
+    position: absolute; inset: 0;
+    background-image: radial-gradient(circle, rgba(29,78,216,0.2) 1px, transparent 1px);
+    background-size: 32px 32px;
+    pointer-events: none;
+    mask-image: linear-gradient(to bottom, transparent, black 18%, black 82%, transparent);
+    -webkit-mask-image: linear-gradient(to bottom, transparent, black 18%, black 82%, transparent);
+  }
+  .cover-glow {
+    position: absolute; top: -10rem; left: 50%; transform: translateX(-50%);
+    width: 60rem; height: 40rem; border-radius: 50%;
+    background: radial-gradient(circle, rgba(29,78,216,0.22) 0%, transparent 62%);
+    pointer-events: none;
+  }
+  .cover::after {
+    content: '';
+    position: absolute;
+    bottom: -1px; left: 0; right: 0;
+    height: 40px;
+    background: var(--bg);
+    clip-path: ellipse(55% 100% at 50% 100%);
+  }
+  .cover-label {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: rgba(29,78,216,0.18);
+    border: 1px solid rgba(29,78,216,0.4);
+    border-radius: 100px;
+    padding: 4px 14px 4px 8px;
+    font-size: .72rem;
+    font-weight: 700;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: #60a5fa;
+  }
+  .cover-label-orb {
+    width: 8px; height: 8px; border-radius: 50%;
+    background: var(--ig-grad);
+    box-shadow: 0 0 8px rgba(29,78,216,0.8);
+    flex-shrink: 0;
+  }
+  .cover h1 {
+    font-size: clamp(2rem, 6vw, 3.2rem);
+    font-weight: 800;
+    letter-spacing: -.03em;
+    line-height: 1.1;
+    margin-bottom: 12px;
+    color: #f1f5f9;
+  }
+  .cover h1 .hl {
+    background: var(--ig-grad);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .cover-sub {
+    font-size: 1.05rem;
+    color: #94a3b8;
+    max-width: 520px;
+    margin: 0 auto 32px;
+  }
+  .cover-meta {
+    display: inline-flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: .85rem;
+    color: #93c5fd;
+  }
+  .cover-meta span { display: flex; align-items: center; gap: 6px; }
+  .ig-badge {
+    display: inline-flex; align-items: center; gap: 6px;
+    background: var(--ig-grad); border-radius: 100px;
+    padding: 4px 14px; font-size: .75rem; font-weight: 700;
+    color: #fff; margin-bottom: 16px;
+  }
+
+  /* ── NAV ── */
+  .nav {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 100;
+    background: rgba(255,255,255,0.97);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border-bottom: 1px solid var(--border);
+    padding: 0 24px;
+    padding-top: env(safe-area-inset-top);
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    overflow-x: auto;
+    scrollbar-width: none;
+    box-shadow: 0 2px 12px rgba(0,0,0,.07);
+  }
+  .nav::-webkit-scrollbar { display: none; }
+  .nav a {
+    display: block;
+    padding: 14px 14px;
+    font-size: .8rem;
+    font-weight: 600;
+    color: #4b5563;
+    text-decoration: none;
+    white-space: nowrap;
+    border-bottom: 2px solid transparent;
+    transition: color .15s, border-color .15s;
+  }
+  .nav a:hover { color: var(--primary); border-bottom-color: var(--primary); }
+  .nav a.active {
+    color: var(--primary);
+    border-bottom-color: var(--primary);
+    background: var(--primary-soft);
+    border-radius: 6px 6px 0 0;
+  }
+
+  /* ── LAYOUT ── */
+  .page { max-width: 900px; margin: 0 auto; padding: 60px 16px 90px; }
+
+  /* ── KPI STRIP ── */
+  .kpi-row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    margin-bottom: 32px;
+  }
+  .kpi {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 16px 12px;
+    box-shadow: var(--shadow);
+    text-align: center;
+  }
+  .kpi-val {
+    font-size: 1.7rem;
+    font-weight: 800;
+    color: var(--primary);
+    line-height: 1;
+    letter-spacing: -.03em;
+  }
+  .kpi-val.ig { color: var(--primary); }
+  .kpi-label {
+    font-size: .78rem;
+    color: var(--text-2);
+    margin-top: 6px;
+    font-weight: 500;
+  }
+  .kpi-delta {
+    display: inline-block;
+    font-size: .7rem;
+    font-weight: 700;
+    margin-top: 4px;
+    padding: 2px 6px;
+    border-radius: 6px;
+  }
+  .delta-up   { background: #f0fdf4; color: #16a34a; }
+  .delta-warn { background: #fffbeb; color: #d97706; }
+
+  /* ── SECTION HEADER ── */
+  .section-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 20px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--border);
+  }
+  .section-num {
+    width: 32px; height: 32px;
+    border-radius: 8px;
+    background: var(--primary-soft);
+    color: var(--primary);
+    font-size: .8rem;
+    font-weight: 800;
+    display: flex; align-items: center; justify-content: center;
+    flex-shrink: 0;
+  }
+  .section-header h2 {
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: var(--text);
+    letter-spacing: -.02em;
+  }
+  .section { margin-bottom: 48px; }
+
+  /* ── CARD ── */
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 16px;
+    box-shadow: var(--shadow);
+    margin-bottom: 16px;
+  }
+  .card h3 {
+    font-size: .95rem;
+    font-weight: 700;
+    color: var(--text);
+    margin-bottom: 14px;
+  }
+
+  /* ── TABLE ── */
+  .tbl-wrap { overflow-x: auto; }
+  table { width: 100%; border-collapse: collapse; font-size: .88rem; }
+  th {
+    background: var(--primary-soft);
+    color: var(--primary);
+    font-size: .72rem;
+    font-weight: 700;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    padding: 10px 12px;
+    text-align: left;
+  }
+  td { padding: 10px 12px; border-bottom: 1px solid var(--border); color: var(--text-2); vertical-align: top; }
+  tr:last-child td { border-bottom: none; }
+  tr:hover td { background: var(--bg); }
+  td strong { color: var(--text); font-weight: 600; }
+
+  /* ── CALLOUT ── */
+  .callout {
+    border-radius: var(--radius);
+    padding: 16px 18px;
+    margin-bottom: 16px;
+    font-size: .9rem;
+    border-left: 3px solid;
+  }
+  .callout strong { display: block; font-size: .72rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; margin-bottom: 6px; }
+  .callout.green  { background: var(--green-bg);  border-color: var(--green);  color: #166534; }
+  .callout.green strong { color: var(--green); }
+  .callout.amber  { background: var(--amber-bg);  border-color: var(--amber);  color: #92400e; }
+  .callout.amber strong { color: var(--amber); }
+  .callout.blue   { background: var(--blue-bg);   border-color: var(--blue);   color: #1e3a8a; }
+  .callout.blue strong  { color: var(--blue); }
+  .callout.purple { background: var(--purple-bg); border-color: var(--purple); color: #4c1d95; }
+  .callout.purple strong{ color: var(--purple); }
+  .callout.primary{ background: var(--primary-soft); border-color: var(--primary); color: #1e3a8a; }
+  .callout.primary strong { color: var(--primary); }
+
+  /* ── BADGE ── */
+  .badge {
+    display: inline-block;
+    font-size: .72rem;
+    font-weight: 700;
+    padding: 2px 8px;
+    border-radius: 6px;
+  }
+  .badge-green  { background: var(--green-bg);  color: var(--green);  border: 1px solid var(--green-bdr); }
+  .badge-amber  { background: var(--amber-bg);  color: var(--amber);  border: 1px solid var(--amber-bdr); }
+  .badge-blue   { background: var(--blue-bg);   color: var(--blue);   border: 1px solid var(--blue-bdr); }
+  .badge-primary{ background: var(--primary-soft); color: var(--primary); border: 1px solid var(--primary-mid); }
+  .badge-ig { background: var(--ig-grad); color: #fff; border: none; }
+
+  /* ── SWOT ── */
+  .swot-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 12px;
+    margin-top: 12px;
+  }
+  .swot-cell { border-radius: var(--radius); padding: 14px; }
+  .swot-cell h4 { font-size: .8rem; font-weight: 800; letter-spacing: .07em; text-transform: uppercase; margin-bottom: 10px; }
+  .swot-cell ul { padding-left: 1.1rem; }
+  .swot-cell li { font-size: .84rem; margin-bottom: 5px; line-height: 1.5; }
+  .swot-s { background: var(--green-bg);  border: 1px solid var(--green-bdr); }
+  .swot-s h4 { color: var(--green); }
+  .swot-s li  { color: #166534; }
+  .swot-w { background: var(--primary-soft); border: 1px solid var(--primary-mid); }
+  .swot-w h4 { color: var(--primary); }
+  .swot-w li  { color: #1e3a8a; }
+  .swot-o { background: var(--blue-bg);   border: 1px solid var(--blue-bdr); }
+  .swot-o h4 { color: var(--blue); }
+  .swot-o li  { color: #1e3a8a; }
+  .swot-t { background: var(--amber-bg);  border: 1px solid var(--amber-bdr); }
+  .swot-t h4 { color: var(--amber); }
+  .swot-t li  { color: #92400e; }
+
+  /* ── RECOMENDAÇÕES ── */
+  .rec-grid { display: grid; grid-template-columns: 1fr; gap: 16px; }
+  .rec-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 20px; box-shadow: var(--shadow); }
+  .rec-card h4 { font-size: .8rem; font-weight: 800; letter-spacing: .06em; text-transform: uppercase; margin-bottom: 12px; padding-bottom: 8px; border-bottom: 2px solid; }
+  .rec-card ul { padding-left: 1rem; }
+  .rec-card li { font-size: .84rem; color: var(--text-2); margin-bottom: 8px; line-height: 1.5; }
+  .rec-card li::marker { color: var(--primary); }
+  .rec-short h4 { color: var(--primary); border-color: var(--primary-mid); }
+  .rec-mid   h4 { color: var(--blue);    border-color: var(--blue-bdr); }
+  .rec-long  h4 { color: var(--purple);  border-color: var(--purple-bdr); }
+
+  /* ── ENGAGEMENT SAMPLE ── */
+  .post-row {
+    display: flex; align-items: center; gap: 12px;
+    padding: 12px 0; border-bottom: 1px solid var(--border);
+  }
+  .post-row:last-child { border-bottom: none; }
+  .post-icon {
+    width: 40px; height: 40px; border-radius: 8px; flex-shrink: 0;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 1.2rem;
+  }
+  .post-title { font-size: .87rem; font-weight: 600; color: var(--text); }
+  .post-meta  { font-size: .76rem; color: var(--text-3); margin-top: 2px; }
+  .post-stats { margin-left: auto; text-align: right; flex-shrink: 0; }
+  .post-likes { font-size: 1rem; font-weight: 800; color: var(--primary); }
+  .post-cmts  { font-size: .75rem; color: var(--text-3); }
+
+  /* ── HASHTAG CLOUD ── */
+  .tag-cloud { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+  .tag {
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 100px;
+    font-size: .78rem;
+    font-weight: 600;
+    border: 1px solid var(--border);
+    color: var(--text-2);
+    background: var(--surface);
+  }
+  .tag.high  { background: var(--primary-soft); color: var(--primary); border-color: var(--primary-mid); }
+  .tag.mid   { background: var(--blue-bg); color: var(--blue); border-color: var(--blue-bdr); }
+  .tag.low   { background: var(--bg); color: var(--text-3); }
+
+  /* ── FUNNEL DIAGRAM ── */
+  .funnel { display: flex; flex-direction: column; gap: 0; margin: 16px 0; }
+  .funnel-step {
+    padding: 14px 20px;
+    font-size: .88rem; font-weight: 600;
+    color: #fff;
+    position: relative;
+    clip-path: polygon(0 0, 100% 0, 95% 100%, 5% 100%);
+    margin-bottom: 4px;
+    text-align: center;
+  }
+  .f1 { background: #1d4ed8; width: 100%; }
+  .f2 { background: #2563eb; width: 85%; align-self: center; }
+  .f3 { background: #d97706; width: 68%; align-self: center; }
+  .f4 { background: #16a34a; width: 50%; align-self: center; clip-path: polygon(0 0, 100% 0, 92% 100%, 8% 100%); }
+
+  /* ── CHART ── */
+  .chart-wrap { position: relative; height: 260px; margin-top: 12px; }
+
+  /* ── SCORE RING ── */
+  .score-ring-wrap { display: flex; align-items: center; gap: 20px; flex-wrap: wrap; flex-direction: column; }
+  .score-ring {
+    flex-shrink: 0;
+    width: 120px; height: 120px; border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    flex-direction: column;
+    background: conic-gradient(#1d4ed8 0% 72%, #e4e7ec 72% 100%);
+  }
+  .score-inner {
+    width: 86px; height: 86px; border-radius: 50%;
+    background: var(--surface);
+    display: flex; align-items: center; justify-content: center; flex-direction: column;
+  }
+  .score-val { font-size: 1.8rem; font-weight: 800; color: var(--primary); line-height: 1; }
+  .score-max { font-size: .7rem; color: var(--text-3); }
+  .score-labels { flex: 1; }
+  .score-item { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; }
+  .score-bar-bg { flex: 1; height: 6px; background: var(--border); border-radius: 3px; }
+  .score-bar    { height: 6px; border-radius: 3px; background: var(--primary); }
+  .score-item-label { font-size: .78rem; color: var(--text-2); width: 120px; flex-shrink: 0; }
+  .score-item-val   { font-size: .78rem; font-weight: 700; color: var(--text); width: 28px; text-align: right; flex-shrink: 0; }
+
+  /* ── COMPARISON ── */
+  .vs-grid { display: grid; grid-template-columns: 1fr; gap: 16px; }
+  .vs-card { border-radius: var(--radius); padding: 20px; border: 1px solid; }
+  .vs-ig { background: var(--primary-soft); border-color: var(--primary-mid); }
+  .vs-yt { background: var(--blue-bg); border-color: var(--blue-bdr); }
+  .vs-platform { font-size: .7rem; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; margin-bottom: 12px; }
+  .vs-ig .vs-platform { color: var(--primary); }
+  .vs-yt .vs-platform { color: var(--blue); }
+  .vs-metric { display: flex; justify-content: space-between; font-size: .84rem; padding: 6px 0; border-bottom: 1px solid rgba(0,0,0,.06); }
+  .vs-metric:last-child { border-bottom: none; }
+  .vs-metric-label { color: var(--text-2); }
+  .vs-metric-val { font-weight: 700; }
+  .vs-ig .vs-metric-val { color: var(--primary); }
+  .vs-yt .vs-metric-val { color: var(--blue); }
+
+  /* ── COLLAB CARDS ── */
+  .collab-grid { display: grid; grid-template-columns: 1fr; gap: 16px; margin-top: 12px; }
+  .collab-card {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: var(--radius); padding: 18px;
+    display: flex; align-items: center; gap: 14px;
+    box-shadow: var(--shadow);
+  }
+  .collab-avatar {
+    width: 48px; height: 48px; border-radius: 50%;
+    background: var(--ig-grad); display: flex; align-items: center;
+    justify-content: center; font-size: 1.4rem; flex-shrink: 0;
+  }
+  .collab-handle { font-size: .9rem; font-weight: 700; color: var(--text); }
+  .collab-desc   { font-size: .78rem; color: var(--text-3); margin-top: 2px; }
+
+  /* ── FOOTER ── */
+  footer {
+    background: #0f0a1e;
+    color: #94a3b8;
+    padding: 40px 24px;
+    text-align: center;
+    font-size: .84rem;
+    margin-bottom: 64px;
+  }
+  footer strong { color: #f1f5f9; }
+  footer a { color: #60a5fa; text-decoration: none; }
+
+  /* ── DIAGNÓSTICO EXECUTIVO ── */
+  .diag-wrap {
+    background: #1d4ed8;
+    border-radius: var(--radius);
+    padding: 24px 20px;
+    margin-bottom: 40px;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+  }
+  .diag-wrap::before {
+    content: '';
+    position: absolute; inset: 0;
+    background-image: radial-gradient(circle, rgba(255,255,255,0.12) 1px, transparent 1px);
+    background-size: 28px 28px;
+    pointer-events: none;
+  }
+  .diag-title {
+    font-size: 1.1rem;
+    font-weight: 800;
+    color: #ffffff;
+    margin-bottom: 4px;
+    position: relative;
+  }
+  .diag-sub {
+    font-size: .82rem;
+    color: rgba(255,255,255,0.75);
+    margin-bottom: 20px;
+    position: relative;
+  }
+  .diag-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    margin-bottom: 24px;
+    position: relative;
+  }
+  .diag-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    background: rgba(255,255,255,0.12);
+    border-radius: 10px;
+    padding: 12px 14px;
+    border: 1px solid rgba(255,255,255,0.18);
+  }
+  .diag-dot {
+    width: 10px; height: 10px; border-radius: 50%;
+    flex-shrink: 0; margin-top: 5px;
+  }
+  .diag-dot.green  { background: #4ade80; box-shadow: 0 0 6px #4ade80; }
+  .diag-dot.yellow { background: #fbbf24; box-shadow: 0 0 6px #fbbf24; }
+  .diag-dot.red    { background: #f87171; box-shadow: 0 0 6px #f87171; }
+  .diag-item-title { font-size: .88rem; font-weight: 700; color: #ffffff; line-height: 1.3; }
+  .diag-item-desc  { font-size: .78rem; color: rgba(255,255,255,0.72); margin-top: 2px; line-height: 1.4; }
+  .diag-legend {
+    display: flex; gap: 16px; flex-wrap: wrap;
+    font-size: .72rem; color: rgba(255,255,255,0.65);
+    margin-bottom: 20px; position: relative;
+  }
+  .diag-legend span { display: flex; align-items: center; gap: 5px; }
+  .diag-cta-label {
+    font-size: .68rem; font-weight: 800; letter-spacing: .1em;
+    text-transform: uppercase; color: rgba(255,255,255,0.9);
+    margin-bottom: 10px; position: relative;
+  }
+  .oraculo-pills {
+    display: flex; flex-wrap: wrap; gap: 8px; position: relative;
+  }
+  .oraculo-pill {
+    display: inline-flex; align-items: center; gap: 6px;
+    background: rgba(255,255,255,0.15);
+    border: 1px solid rgba(255,255,255,0.28);
+    border-radius: 100px;
+    padding: 6px 12px;
+    font-size: .78rem; font-weight: 600; color: #ffffff;
+  }
+  .oraculo-pill .pill-icon { font-size: .9rem; }
+
+  /* ── INTRO DIAGNÓSTICO ── */
+  .intro-diag { margin-bottom: 28px; }
+  .intro-diag-greeting {
+    font-size: .78rem; font-weight: 700; text-transform: uppercase;
+    letter-spacing: .1em; color: var(--text-3); margin-bottom: 6px;
+  }
+  .intro-diag-title {
+    font-size: clamp(1.4rem, 4vw, 2rem); font-weight: 800; color: var(--text);
+    letter-spacing: -.03em; line-height: 1.2; margin-bottom: 10px;
+  }
+  .intro-diag-title span { color: var(--primary); }
+  .intro-diag-lead {
+    font-size: 1rem; color: var(--text-2); max-width: 680px;
+    line-height: 1.7; margin-bottom: 28px;
+  }
+
+  /* ── SCORE CARD ── */
+  .score-block {
+    display: grid; grid-template-columns: auto 1fr;
+    gap: 24px; align-items: center;
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: var(--radius); padding: 28px;
+    box-shadow: var(--shadow-md); margin-bottom: 20px;
+  }
+  .score-circle {
+    width: 110px; height: 110px; border-radius: 50%;
+    background: conic-gradient(var(--primary) 0% 64%, #e4e7ec 64% 100%);
+    display: flex; align-items: center; justify-content: center;
+    position: relative; flex-shrink: 0;
+  }
+  .score-diag-inner {
+    width: 80px; height: 80px; border-radius: 50%;
+    background: var(--surface);
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+  }
+  .score-num {
+    font-size: 1.7rem; font-weight: 900; color: var(--primary);
+    line-height: 1; letter-spacing: -.04em;
+  }
+  .score-den { font-size: .65rem; font-weight: 700; color: var(--text-3); letter-spacing: .04em; }
+  .score-info h3 {
+    font-size: 1.15rem; font-weight: 800; color: var(--text);
+    margin-bottom: 6px; margin-top: 0; border: none; padding: 0;
+  }
+  .score-info p { font-size: .9rem; color: var(--text-2); margin-bottom: 14px; }
+  .score-bars { display: flex; flex-direction: column; gap: 8px; }
+  .score-bar-row { display: flex; align-items: center; gap: 10px; font-size: .8rem; }
+  .score-bar-label { width: 140px; color: var(--text-2); font-weight: 500; flex-shrink: 0; }
+  .score-bar-track { flex: 1; height: 7px; background: #f0f2f5; border-radius: 4px; overflow: hidden; }
+  .score-bar-fill  { height: 100%; border-radius: 4px; }
+  .score-bar-val { width: 30px; text-align: right; font-weight: 700; color: var(--text); font-size: .78rem; }
+
+  /* ── SITUAÇÃO + COMO AJUDAMOS ── */
+  .sithelp-grid { display: grid; grid-template-columns: 1fr; gap: 16px; margin-bottom: 32px; }
+  .sit-card, .help-card { border-radius: var(--radius); padding: 22px; border: 1px solid; }
+  .sit-card  { background: var(--amber-bg); border-color: var(--amber-bdr); }
+  .help-card { background: var(--green-bg); border-color: var(--green-bdr); }
+  .sithelp-head {
+    display: flex; align-items: center; gap: 10px;
+    font-size: .75rem; font-weight: 800; text-transform: uppercase; letter-spacing: .09em;
+    margin-bottom: 14px;
+  }
+  .sit-card  .sithelp-head { color: var(--amber); }
+  .help-card .sithelp-head { color: var(--green); }
+  .sithelp-head-icon {
+    width: 28px; height: 28px; border-radius: 8px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: .85rem; flex-shrink: 0;
+  }
+  .sit-card  .sithelp-head-icon { background: rgba(180,83,9,.12); }
+  .help-card .sithelp-head-icon { background: rgba(21,128,61,.12); }
+  .sithelp-list { list-style: none; padding: 0; }
+  .sithelp-list li {
+    font-size: .86rem; padding: 7px 0;
+    border-bottom: 1px solid rgba(0,0,0,.06);
+    display: flex; align-items: flex-start; gap: 8px; line-height: 1.5;
+  }
+  .sithelp-list li:last-child { border-bottom: none; padding-bottom: 0; }
+  .sithelp-list li::before { font-weight: 800; flex-shrink: 0; margin-top: 1px; }
+  .sit-card  .sithelp-list li { color: #92400e; }
+  .sit-card  .sithelp-list li::before { content: '–'; color: var(--amber); }
+  .help-card .sithelp-list li { color: #166534; }
+  .help-card .sithelp-list li::before { content: '✓'; color: var(--green); }
+
+  /* ── FORMAT GRID (mobile: empilhado, desktop: lado a lado) ── */
+  .format-grid { display: grid; grid-template-columns: 1fr; gap: 16px; align-items: center; }
+
+  /* ── TABLET (≥ 600px) ── */
+  @media (min-width: 600px) {
+    .diag-grid   { grid-template-columns: 1fr 1fr; }
+    .kpi-row     { grid-template-columns: repeat(3, 1fr); gap: 16px; }
+    .kpi         { padding: 18px 14px; }
+    .kpi-val     { font-size: 1.9rem; }
+    .collab-grid { grid-template-columns: 1fr 1fr; }
+    .vs-grid     { grid-template-columns: 1fr 1fr; }
+    .sithelp-grid { grid-template-columns: 1fr 1fr; }
+    .score-block  { grid-template-columns: auto 1fr; text-align: left; }
+    .score-circle { margin: 0; }
+    .score-bar-row { flex-wrap: nowrap; }
+    .score-bar-label { width: 120px; }
+  }
+
+  /* ── DESKTOP (≥ 768px) ── */
+  @media (min-width: 768px) {
+    .format-grid { grid-template-columns: 1fr 1fr; }
+    .cover       { padding: 64px 32px 72px; }
+    .page        { padding: 56px 24px 100px; }
+    .kpi-row     { grid-template-columns: repeat(5, 1fr); margin-bottom: 40px; }
+    .kpi-val     { font-size: 2rem; }
+    .kpi         { padding: 20px 18px; }
+    .card        { padding: 24px; }
+    .swot-grid   { grid-template-columns: 1fr 1fr; }
+    .swot-cell   { padding: 18px; }
+    .rec-grid    { grid-template-columns: repeat(3, 1fr); }
+    .score-ring-wrap { flex-direction: row; gap: 28px; }
+    .score-block  { padding: 28px; gap: 24px; }
+    .score-circle { width: 110px; height: 110px; }
+    .score-num    { font-size: 1.7rem; }
+    .score-bar-label { width: 140px; font-size: .8rem; }
+    .score-bar-track { height: 7px; }
+    .sit-card, .help-card { padding: 22px; }
+    .sithelp-list li { font-size: .86rem; }
+  }
+
+  /* ── SCROLL ANCHORS (compensa a nav fixa) ── */
+  .section,
+  #diagnostico {
+    scroll-margin-top: calc(52px + env(safe-area-inset-top));
+  }
+
+  /* ── TOUCH / MOBILE UX ── */
+  .nav a,
+  a,
+  button {
+    touch-action: manipulation;
+  }
+  .nav a {
+    -webkit-tap-highlight-color: rgba(29,78,216,0.12);
+  }
+
+  /* ── MOBILE BASE (≤ 479px) ── */
+  @media (max-width: 479px) {
+    /* nav */
+    .nav {
+      padding: 0 4px;
+      padding-top: env(safe-area-inset-top);
+      gap: 0;
+      min-height: 44px;
+    }
+    .nav a {
+      padding: 10px 8px;
+      font-size: .72rem;
+      flex-shrink: 0;
+      min-height: 44px;
+      display: flex;
+      align-items: center;
+    }
+
+    /* page */
+    .page { padding: 32px 14px calc(72px + env(safe-area-inset-bottom)); }
+
+    /* cover */
+    .cover { padding: 36px 16px 50px; }
+    .cover h1 { font-size: clamp(1.5rem, 6vw, 2.6rem); }
+    .cover-sub { font-size: .88rem; max-width: 100%; }
+    .cover-meta { font-size: .76rem; gap: 8px; flex-direction: column; }
+
+    /* kpi */
+    .kpi-val { font-size: 1.4rem; }
+    .kpi { padding: 13px 10px; }
+    .kpi-label { font-size: .72rem; }
+    .kpi-delta { font-size: .65rem; }
+
+    /* section */
+    .section { margin-bottom: 32px; }
+    .section-header { margin-bottom: 14px; }
+    .section-header h2 { font-size: 1rem; }
+
+    /* diag */
+    .diag-wrap { padding: 18px 14px; }
+    .diag-title { font-size: .97rem; }
+    .diag-item { padding: 10px 11px; gap: 10px; }
+    .diag-item-title { font-size: .84rem; }
+    .diag-item-desc  { font-size: .74rem; }
+    .oraculo-pill { font-size: .72rem; padding: 5px 10px; }
+
+    /* score block */
+    .score-block { grid-template-columns: 1fr; text-align: center; padding: 16px; gap: 16px; }
+    .score-circle { width: 90px; height: 90px; margin: 0 auto; }
+    .score-num { font-size: 1.4rem; }
+    .score-bar-row { flex-wrap: wrap; gap: 4px; }
+    .score-bar-label { width: 100%; font-size: .74rem; }
+    .score-bar-track { flex: 1; min-width: 0; height: 6px; }
+    .score-bar-val { width: auto; font-size: .72rem; }
+    .score-info h3 { font-size: 1rem; }
+    .score-info p  { font-size: .83rem; }
+
+    /* sithelp */
+    .sithelp-grid { grid-template-columns: 1fr; gap: 12px; }
+    .sit-card, .help-card { padding: 14px; }
+    .sithelp-list li { font-size: .8rem; }
+    .intro-diag-title { font-size: 1.3rem; }
+    .intro-diag-lead  { font-size: .88rem; margin-bottom: 18px; }
+
+    /* cards */
+    .card { padding: 14px 13px; }
+    .rec-card { padding: 14px; }
+    .rec-card li { font-size: .8rem; }
+    .collab-card { padding: 14px; gap: 10px; }
+
+    /* chart */
+    .chart-wrap { height: 200px; }
+
+    /* score */
+    .score-ring { width: 100px; height: 100px; }
+    .score-inner { width: 72px; height: 72px; }
+    .score-val { font-size: 1.5rem; }
+    .score-item-label { width: 90px; font-size: .72rem; }
+
+    /* footer */
+    footer { padding: 28px 16px; font-size: .78rem; margin-bottom: 0; }
+  }
+
+  /* ── MOBILE 480–599px ── */
+  @media (min-width: 480px) and (max-width: 599px) {
+    .nav { padding: 0 16px; gap: 2px; }
+    .nav a { padding: 12px 10px; font-size: .76rem; }
+    .page { padding: 36px 20px 80px; }
+    .kpi-row { grid-template-columns: repeat(3, 1fr); }
+  }
+
+  /* ── OVERFLOW HORIZONTAL GLOBAL ── */
+  img, canvas, iframe, video, svg { max-width: 100%; }
+
+  /* ── INSIGHT "O QUE ISSO SIGNIFICA PARA VOCÊ" ── */
+  .insight {
+    margin-top: 20px;
+    border-radius: var(--radius);
+    border: 1.5px solid var(--border);
+    overflow: hidden;
+    box-shadow: var(--shadow);
+  }
+  .insight-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 11px 18px;
+    font-size: .72rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+  }
+  .insight-header svg { flex-shrink: 0; }
+  .insight-body {
+    padding: 16px 18px;
+    font-size: .9rem;
+    line-height: 1.65;
+    background: var(--surface);
+    color: var(--text-2);
+  }
+  .insight-body strong { color: var(--text); }
+  .insight-body .verdict {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: 700;
+    font-size: .78rem;
+    text-transform: uppercase;
+    letter-spacing: .07em;
+    margin-bottom: 8px;
+    padding: 3px 10px;
+    border-radius: 100px;
+  }
+  .insight.good   .insight-header { background: var(--green-bg);    color: var(--green);   border-bottom: 1px solid var(--green-bdr); }
+  .insight.good   .verdict        { background: var(--green-bg);    color: var(--green); }
+  .insight.warn   .insight-header { background: var(--amber-bg);    color: var(--amber);   border-bottom: 1px solid var(--amber-bdr); }
+  .insight.warn   .verdict        { background: var(--amber-bg);    color: var(--amber); }
+  .insight.bad    .insight-header { background: var(--primary-soft);color: var(--primary); border-bottom: 1px solid var(--primary-mid); }
+  .insight.bad    .verdict        { background: var(--primary-soft);color: var(--primary); }
+  .insight.info   .insight-header { background: var(--blue-bg);     color: var(--blue);    border-bottom: 1px solid var(--blue-bdr); }
+  .insight.info   .verdict        { background: var(--blue-bg);     color: var(--blue); }
+  .insight.purple .insight-header { background: var(--purple-bg);   color: var(--purple);  border-bottom: 1px solid var(--purple-bdr); }
+  .insight.purple .verdict        { background: var(--purple-bg);   color: var(--purple); }
+
+  @media (max-width: 479px) {
+    .insight-header { padding: 9px 13px; font-size: .66rem; }
+    .insight-body   { padding: 12px 13px; font-size: .84rem; }
+  }
+</style>
+<style>
+  /* override: identidade La Deguste (champanhe / dourado elegante) — --primary segue azul Oráculo */
+  :root { --ig-grad: linear-gradient(135deg,#bfa14a,#e8d9a0,#a8842f); }
+</style>
+</head>
+<body>
+<div class="page-wrap">
+
+<!-- COVER -->
+<div class="cover">
+  <div class="cover-dot-grid"></div>
+  <div class="cover-glow"></div>
+  <div class="ig-badge">📸 Instagram @ladegustebuffet</div>
+  <div class="cover-label">
+    <span class="cover-label-orb"></span>
+    Oráculo Tecnologia · Análise de Redes Sociais
+  </div>
+  <h1>La Deguste Buffet no <span class="hl">Instagram</span></h1>
+  <p class="cover-sub">Análise completa do perfil @ladegustebuffet — métricas, conteúdo, engajamento, posts mais curtidos e estratégia de crescimento para o buffet de eventos em Brasília</p>
+  <div class="cover-meta">
+    <span>📅 11 de junho de 2026</span>
+    <span>👥 2.508 seguidores</span>
+    <span>📷 577 posts</span>
+    <span>🍽️ Buffet · Casamentos &amp; Eventos</span>
+  </div>
+</div>
+
+<!-- NAV -->
+<nav class="nav">
+  <a href="#diagnostico">Diagnóstico</a>
+  <a href="#visao-geral">Visão Geral</a>
+  <a href="#metricas">Métricas</a>
+  <a href="#conteudo">Conteúdo</a>
+  <a href="#engajamento">Engajamento</a>
+  <a href="#collabs">Prova Social</a>
+  <a href="#audiencia">Audiência</a>
+  <a href="#swot">SWOT</a>
+  <a href="#comparativo">Comparativo</a>
+  <a href="#recomendacoes">Recomendações</a>
+  <a href="#resumo">Resumo</a>
+</nav>
+
+<div class="page">
+
+  <!-- DIAGNÓSTICO EXECUTIVO -->
+  <section class="section" id="diagnostico">
+    <div class="intro-diag">
+      <div class="intro-diag-greeting">Preparado exclusivamente para La Deguste Buffet</div>
+      <h1 class="intro-diag-title">Sua marca tem 30 anos de autoridade.<br><span>Veja onde o Instagram pode virar canal de vendas.</span></h1>
+      <p class="intro-diag-lead">
+        Fizemos uma análise completa e imparcial do perfil @ladegustebuffet no Instagram. A coleta foi feita via Playwright em sessão autenticada em 11/06/2026: capturamos o perfil, os destaques e uma amostra dos <strong>60 posts mais recentes</strong>, extraindo curtidas, comentários, visualizações de Reels, datas, formatos e legendas reais diretamente da API do Instagram.
+      </p>
+
+      <div class="score-block">
+        <div class="score-circle" style="background:conic-gradient(var(--primary) 0% 63%, #e4e7ec 63% 100%);">
+          <div class="score-diag-inner">
+            <span class="score-num">6,3</span>
+            <span class="score-den">/ 10</span>
+          </div>
+        </div>
+        <div class="score-info">
+          <h3>Saúde geral do perfil: Marca forte, alcance subutilizado</h3>
+          <p>O buffet tem posicionamento premium, 30 anos de história, prova social de casamentos reais e uma rede de fornecedores parceiros invejável. O que segura a nota é a base pequena de seguidores para o tamanho do negócio, o engajamento recente em queda e um funil de conversão ainda informal.</p>
+          <div class="score-bars">
+            <div class="score-bar-row">
+              <span class="score-bar-label">Posicionamento &amp; autoridade</span>
+              <div class="score-bar-track"><div class="score-bar-fill" style="width:80%;background:#15803d"></div></div>
+              <span class="score-bar-val" style="color:#15803d">8,0</span>
+            </div>
+            <div class="score-bar-row">
+              <span class="score-bar-label">Branding &amp; identidade</span>
+              <div class="score-bar-track"><div class="score-bar-fill" style="width:75%;background:#15803d"></div></div>
+              <span class="score-bar-val" style="color:#15803d">7,5</span>
+            </div>
+            <div class="score-bar-row">
+              <span class="score-bar-label">Qualidade do conteúdo</span>
+              <div class="score-bar-track"><div class="score-bar-fill" style="width:65%;background:#b45309"></div></div>
+              <span class="score-bar-val" style="color:#b45309">6,5</span>
+            </div>
+            <div class="score-bar-row">
+              <span class="score-bar-label">Engajamento recente</span>
+              <div class="score-bar-track"><div class="score-bar-fill" style="width:45%;background:#b45309"></div></div>
+              <span class="score-bar-val" style="color:#b45309">4,5</span>
+            </div>
+            <div class="score-bar-row">
+              <span class="score-bar-label">Crescimento de base</span>
+              <div class="score-bar-track"><div class="score-bar-fill" style="width:40%;background:#b45309"></div></div>
+              <span class="score-bar-val" style="color:#b45309">4,0</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="sithelp-grid">
+        <div class="sit-card">
+          <div class="sithelp-head">
+            <div class="sithelp-head-icon">&#9888;</div>
+            Situação atual do perfil
+          </div>
+          <ul class="sithelp-list">
+            <li>2.508 seguidores e 577 posts — base pequena para um buffet com 30 anos de mercado em Brasília</li>
+            <li>Conta business com WhatsApp na bio (wa.me) — canal de conversão já existe, mas é pouco acionado nas legendas</li>
+            <li>ER médio da amostra de 60 posts: 1,21%; nos 12 posts recentes cai para 0,80%</li>
+            <li>Carrosséis e editoriais engajam quase 3x mais que imagens estáticas, que dominam o feed recente</li>
+            <li>Rede forte de fornecedores marcados (cerimonial, decoração, foto, confeitaria) ainda pouco explorada como alcance</li>
+          </ul>
+        </div>
+        <div class="help-card">
+          <div class="sithelp-head">
+            <div class="sithelp-head-icon">&#9670;</div>
+            Como a Oráculo pode ajudar
+          </div>
+          <ul class="sithelp-list">
+            <li>Transformar as degustações em máquina de captação de leads com CTA e link de WhatsApp</li>
+            <li>Migrar o feed de imagens estáticas para Reels de bastidores e carrosséis de cases</li>
+            <li>Estruturar co-marketing com os fornecedores parceiros para multiplicar alcance</li>
+            <li>Reorganizar destaques por jornada: casamentos, corporativo, degustações e depoimentos</li>
+            <li>Monitorar métricas mensalmente e conectar conteúdo a orçamentos fechados</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="diag-wrap">
+      <div class="diag-title">📋 Diagnóstico Rápido — @ladegustebuffet no Instagram</div>
+      <div class="diag-sub">Visão geral da saúde do perfil em 3 dimensões: o que está funcionando, o que precisa de atenção e o que está custando vendas agora.</div>
+
+      <div class="diag-legend">
+        <span><span class="diag-dot green" style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4ade80;"></span> Ponto forte</span>
+        <span><span class="diag-dot yellow" style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#fbbf24;"></span> Atenção</span>
+        <span><span class="diag-dot red" style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#f87171;"></span> Oportunidade perdida</span>
+      </div>
+
+      <div class="diag-grid">
+        <div class="diag-item">
+          <div class="diag-dot green"></div>
+          <div>
+            <div class="diag-item-title">30 anos + 5 estrelas no Casamentos.com</div>
+            <div class="diag-item-desc">Autoridade e reputação consolidadas em um nicho de alto ticket. A confiança já existe — falta amplificá-la.</div>
+          </div>
+        </div>
+        <div class="diag-item">
+          <div class="diag-dot green"></div>
+          <div>
+            <div class="diag-item-title">Rede de fornecedores parceiros</div>
+            <div class="diag-item-desc">Cerimoniais, decoração, foto e confeitaria marcados em dezenas de posts: um ecossistema pronto para co-marketing.</div>
+          </div>
+        </div>
+        <div class="diag-item">
+          <div class="diag-dot green"></div>
+          <div>
+            <div class="diag-item-title">Carrosséis e editoriais engajam mais</div>
+            <div class="diag-item-desc">Formato editorial “Day Dream” gerou 43 comentários; carrosséis têm ER de 1,87% contra 0,70% das imagens.</div>
+          </div>
+        </div>
+        <div class="diag-item">
+          <div class="diag-dot yellow"></div>
+          <div>
+            <div class="diag-item-title">Engajamento recente em queda</div>
+            <div class="diag-item-desc">Os 12 posts mais recentes têm ER de 0,80% e média de 19 curtidas — abaixo do potencial da marca.</div>
+          </div>
+        </div>
+        <div class="diag-item">
+          <div class="diag-dot yellow"></div>
+          <div>
+            <div class="diag-item-title">Feed dominado por imagens estáticas e avisos</div>
+            <div class="diag-item-desc">Muitos posts são cartazes de degustação e datas comemorativas — baixo alcance e pouca conexão emocional.</div>
+          </div>
+        </div>
+        <div class="diag-item">
+          <div class="diag-dot red"></div>
+          <div>
+            <div class="diag-item-title">Base de seguidores estagnada</div>
+            <div class="diag-item-desc">2.508 seguidores para 577 posts e 1.572 perfis seguidos: o perfil produz muito, mas não cresce audiência.</div>
+          </div>
+        </div>
+        <div class="diag-item">
+          <div class="diag-dot red"></div>
+          <div>
+            <div class="diag-item-title">Funil de orçamento informal</div>
+            <div class="diag-item-desc">O WhatsApp está na bio, mas só ~35% dos posts têm CTA. Interesse não vira pedido de orçamento de forma sistemática.</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="diag-cta-label">🚀 Onde a Oráculo pode acelerar os resultados</div>
+      <div class="oraculo-pills">
+        <span class="oraculo-pill"><span class="pill-icon">🗓️</span> Calendário de degustações e eventos</span>
+        <span class="oraculo-pill"><span class="pill-icon">🎬</span> Reels de bastidores e montagem</span>
+        <span class="oraculo-pill"><span class="pill-icon">💬</span> Funil de WhatsApp e triagem de orçamento</span>
+        <span class="oraculo-pill"><span class="pill-icon">🤝</span> Co-marketing com fornecedores</span>
+        <span class="oraculo-pill"><span class="pill-icon">📌</span> Reorganização dos Destaques</span>
+        <span class="oraculo-pill"><span class="pill-icon">📸</span> Editoriais e cases de casamentos reais</span>
+        <span class="oraculo-pill"><span class="pill-icon">📊</span> Relatórios de performance</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- KPI STRIP -->
+  <div class="kpi-row">
+    <div class="kpi">
+      <div class="kpi-val ig">2.508</div>
+      <div class="kpi-label">Seguidores</div>
+      <span class="kpi-delta delta-warn">A escalar</span>
+    </div>
+    <div class="kpi">
+      <div class="kpi-val">577</div>
+      <div class="kpi-label">Posts publicados</div>
+      <span class="kpi-delta delta-up">Histórico robusto</span>
+    </div>
+    <div class="kpi">
+      <div class="kpi-val">60</div>
+      <div class="kpi-label">Posts analisados</div>
+      <span class="kpi-delta delta-up">Coleta via API</span>
+    </div>
+    <div class="kpi">
+      <div class="kpi-val">179</div>
+      <div class="kpi-label">Maior post em likes</div>
+      <span class="kpi-delta delta-up">Reel de depoimento</span>
+    </div>
+    <div class="kpi">
+      <div class="kpi-val">0,80%</div>
+      <div class="kpi-label">ER recente</div>
+      <span class="kpi-delta delta-warn">A reativar</span>
+    </div>
+  </div>
+
+  <section class="section" id="visao-geral">
+    <div class="section-header"><div class="section-num">1</div><h2>Identidade e Posicionamento</h2></div>
+    <div class="card">
+      <h3>Perfil Público</h3>
+      <div class="tbl-wrap"><table>
+        <tr><th>Campo</th><th>Valor</th></tr>
+        <tr><td>Handle</td><td><strong>@ladegustebuffet</strong></td></tr>
+        <tr><td>Nome exibido</td><td><strong>La Deguste Buffet</strong></td></tr>
+        <tr><td>Categoria</td><td><span class="badge badge-primary">Cozinha/culinária · Conta business</span></td></tr>
+        <tr><td>Bio</td><td>🍴 +30 anos de experiência gastronômica e afetiva 💛 · ⭐️ 5 estrelas no Casamentos.com · 💍 Casamentos | 🎉 Aniversários | 💼 Corporativos | 🎓 Formaturas</td></tr>
+        <tr><td>Link da bio</td><td><strong>WhatsApp</strong> (wa.me/5561982740045) — canal de conversão direto</td></tr>
+        <tr><td>Seguidores</td><td><strong>2.508</strong></td></tr>
+        <tr><td>Seguindo</td><td>1.572</td></tr>
+        <tr><td>Total de posts</td><td><strong>577</strong></td></tr>
+        <tr><td>Localização</td><td>Brasília/DF e entorno</td></tr>
+        <tr><td>Destaques</td><td>Depoimentos, Degustações, Geranium, Une Wedding, M.Hortências, Dicas</td></tr>
+      </table></div>
+    </div>
+    <div class="callout primary">
+      <strong>🎯 Posicionamento no Instagram</strong>
+      A La Deguste se posiciona como buffet premium de eventos em Brasília, ancorada em <strong>30 anos de experiência e reputação 5 estrelas</strong>. A bio comunica os quatro pilares de negócio (casamentos, aniversários, corporativos e formaturas) e oferece um caminho de contato direto via WhatsApp. O posicionamento é sólido; o desafio é traduzi-lo em alcance e cadência de conteúdo que gerem orçamentos.
+    </div>
+    <div class="card">
+      <h3>Branding Visual</h3>
+      <div class="tbl-wrap"><table>
+        <tr><th>Elemento</th><th>Descrição</th></tr>
+        <tr><td>Foto de perfil</td><td>Logotipo em fundo preto com tipografia manuscrita elegante — sofisticado e coerente com o nicho de casamentos</td></tr>
+        <tr><td>Paleta predominante</td><td>Tons neutros, dourado/champanhe, branco e verde dos espaços ao ar livre</td></tr>
+        <tr><td>Padrão de posts</td><td>Cartazes de degustação, fotos de eventos, editoriais e Reels de casamentos reais</td></tr>
+        <tr><td>Tom de marca</td><td>Afetivo, sofisticado e orientado à celebração</td></tr>
+        <tr><td>Risco visual</td><td>Excesso de cartazes/avisos com texto reduz o apelo emocional e o alcance do feed</td></tr>
+      </table></div>
+    </div>
+    <div class="insight good">
+      <div class="insight-header">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+        O que isso significa para você
+      </div>
+      <div class="insight-body">
+        <span class="verdict">&#9650; Forte</span>
+        <p>A marca tem o ativo mais difícil de construir num negócio de eventos: <strong>30 anos de história e reputação 5 estrelas em um nicho de alto ticket</strong>. A bio é clara, segmenta os quatro tipos de evento e já direciona para o WhatsApp. Esse posicionamento é um diferencial real frente a buffets mais novos — e pode ser amplificado sem reinventar a identidade, apenas dando a ela o alcance que merece no Instagram.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="metricas">
+    <div class="section-header"><div class="section-num">2</div><h2>Métricas Principais</h2></div>
+    <div class="card">
+      <h3>Dados do Perfil e da Amostra</h3>
+      <div class="tbl-wrap"><table>
+        <tr><th>Métrica</th><th>Valor</th><th>Avaliação</th></tr>
+        <tr><td>Seguidores</td><td><strong>2.508</strong></td><td><span class="badge badge-amber">⚠️ Pequena para o porte</span></td></tr>
+        <tr><td>Total de posts</td><td><strong>577</strong></td><td><span class="badge badge-green">✅ Histórico robusto</span></td></tr>
+        <tr><td>Posts analisados</td><td><strong>60</strong> (jul/2024 a jun/2026)</td><td><span class="badge badge-green">✅ Coleta ampla</span></td></tr>
+        <tr><td>Curtidas com dados</td><td><strong>60 de 60</strong></td><td><span class="badge badge-green">✅ Base completa</span></td></tr>
+        <tr><td>Média da amostra</td><td>27,5 curtidas · 2,8 comentários por post</td><td><span class="badge badge-amber">⚠️ Moderado</span></td></tr>
+        <tr><td>ER médio da amostra</td><td><strong>1,21%</strong></td><td><span class="badge badge-green">✅ Bom para a base atual</span></td></tr>
+        <tr><td>ER recente (12 posts)</td><td><strong>0,80%</strong></td><td><span class="badge badge-amber">⚠️ Em queda</span></td></tr>
+      </table></div>
+    </div>
+    <div class="callout green">
+      <strong>🏆 Destaque da coleta</strong>
+      O Reel de depoimento e parcerias (fev/2026) puxou <strong>179 curtidas, 15 comentários e mais de 12 mil reproduções</strong> — prova de que conteúdo com pessoas reais e histórias de eventos viraliza muito acima da média do perfil. O ER de 1,21% da amostra é, inclusive, saudável; o ponto de atenção é a base pequena que limita o volume absoluto de alcance.
+    </div>
+    <div class="insight warn">
+      <div class="insight-header">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+        O que isso significa para você
+      </div>
+      <div class="insight-body">
+        <span class="verdict">&#9654; Atenção necessária</span>
+        <p><strong>O engajamento percentual é até bom (1,21%) — o gargalo real é o tamanho da audiência.</strong> Com 2.508 seguidores, mesmo um post excelente alcança poucas pessoas em números absolutos. Para um buffet que fecha contratos de milhares de reais, faltam seguidores qualificados na praça certa (noivos e organizadores de Brasília). A queda para 0,80% nos posts recentes reforça que o feed atual — muito baseado em cartazes — não está reativando nem expandindo a base.</p>
+      </div>
+    </div>
+    <div class="card">
+      <h3>Comparativo de Engajamento (ER %)</h3>
+      <div class="chart-wrap"><canvas id="chartAudiencia"></canvas></div>
+    </div>
+  </section>
+
+  <section class="section" id="conteudo">
+    <div class="section-header"><div class="section-num">3</div><h2>Estratégia de Conteúdo</h2></div>
+    <div class="card">
+      <h3>Mix de Formatos da Amostra (60 posts)</h3>
+      <div class="format-grid">
+        <div class="chart-wrap" style="height:220px;"><canvas id="chartFormatos"></canvas></div>
+        <div><div class="tbl-wrap"><table>
+          <tr><th>Formato</th><th>Desempenho observado</th></tr>
+          <tr><td><strong>Reels</strong> (47%)</td><td>Maior alcance; média de 31 curtidas e ~2.800 reproduções</td></tr>
+          <tr><td><strong>Imagens</strong> (37%)</td><td>Menor tração: 16,5 curtidas e ER de 0,70% — muitos cartazes/avisos</td></tr>
+          <tr><td><strong>Carrosséis</strong> (16%)</td><td>Melhor engajamento: 40,7 curtidas, 6,2 comentários, ER 1,87%</td></tr>
+          <tr><td><strong>Destaques</strong></td><td>Vitrine de depoimentos, degustações e espaços parceiros</td></tr>
+        </table></div></div>
+      </div>
+    </div>
+    <div class="card">
+      <h3>Temas de Conteúdo Identificados</h3>
+      <div class="tbl-wrap"><table>
+        <tr><th>#</th><th>Tema</th><th>Exemplos</th><th>Peso estratégico</th></tr>
+        <tr><td><strong>1</strong></td><td>Casamentos reais</td><td>“Izabella e Alex”, “Mabel &amp; Edgar”, cases com noivos</td><td><span class="badge badge-primary">Muito alto</span></td></tr>
+        <tr><td><strong>2</strong></td><td>Degustações / captação</td><td>Convites para noites de degustação no Salão Rosa</td><td><span class="badge badge-primary">Alto</span></td></tr>
+        <tr><td><strong>3</strong></td><td>Editorial &amp; branding</td><td>“Editorial Day Dream”, ensaios com fornecedores</td><td><span class="badge badge-blue">Alto</span></td></tr>
+        <tr><td><strong>4</strong></td><td>Espaços parceiros</td><td>Sítio Geranium, Villa Tulum, M. Hortências</td><td><span class="badge badge-blue">Médio-alto</span></td></tr>
+        <tr><td><strong>5</strong></td><td>Datas comemorativas</td><td>Dia das Mães, Natal, mensagens institucionais</td><td><span class="badge badge-amber">A reduzir</span></td></tr>
+        <tr><td><strong>6</strong></td><td>Pacotes &amp; serviços</td><td>All Inclusive, casamento civil, corporativo</td><td><span class="badge badge-blue">Médio</span></td></tr>
+      </table></div>
+    </div>
+    <div class="callout primary">
+      <strong>💡 Leitura estratégica</strong>
+      O conteúdo que mais conecta é o que mostra <strong>pessoas e eventos reais</strong> — casamentos, bastidores e editoriais. O feed recente, porém, está pesado em cartazes de degustação e mensagens de data comemorativa, que rendem pouco alcance. O próximo salto é inverter essa proporção: mais histórias de eventos, montagem e bastidores em Reels; menos imagem estática com texto.
+    </div>
+    <div class="insight warn">
+      <div class="insight-header">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+        O que isso significa para você
+      </div>
+      <div class="insight-body">
+        <span class="verdict">&#9654; Situação mista</span>
+        <p>Os Reels já são o formato mais usado (47%) e isso está certo — eles puxam o alcance. O problema é o segundo lugar: <strong>37% do conteúdo são imagens estáticas, em boa parte cartazes de degustação e avisos, que têm o pior engajamento (ER 0,70%)</strong>. Os carrosséis, que engajam quase 3x mais, são só 16%. Reequilibrar o mix — mais carrosséis de cases e Reels de bastidores, menos cartaz — eleva o alcance médio sem aumentar o volume de publicação.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="engajamento">
+    <div class="section-header"><div class="section-num">4</div><h2>Engajamento e Posts Mais Curtidos</h2></div>
+    <div class="card">
+      <h3>Ranking dos Posts Mais Curtidos na Amostra</h3>
+      <div class="tbl-wrap"><table>
+        <tr><th>#</th><th>Post / Reel</th><th>Data</th><th>Curtidas</th><th>Coment.</th><th>Leitura estratégica</th></tr>
+        <tr><td>1</td><td>Depoimento + fornecedores parceiros</td><td>05/02/2026</td><td><strong>179</strong></td><td>15</td><td>Reel com prova social e marcações — 12,2 mil plays</td></tr>
+        <tr><td>2</td><td>“Alguns lugares a gente sente” (espaço)</td><td>11/02/2026</td><td><strong>88</strong></td><td>7</td><td>Reel emocional de ambientação</td></tr>
+        <tr><td>3</td><td>Editorial Day Dream</td><td>11/11/2025</td><td><strong>85</strong></td><td>43</td><td>Carrossel — recorde de comentários da amostra</td></tr>
+        <tr><td>4</td><td>Casamento Izabella &amp; Alex</td><td>18/12/2024</td><td><strong>81</strong></td><td>5</td><td>Case real de casamento — storytelling</td></tr>
+        <tr><td>5</td><td>Mês do Consumidor · Sítio Geranium</td><td>15/03/2025</td><td><strong>79</strong></td><td>4</td><td>Carrossel de oferta + espaço parceiro</td></tr>
+        <tr><td>6</td><td>Salão Rosa · Santuário São João Bosco</td><td>06/06/2026</td><td><strong>77</strong></td><td>0</td><td>Convite de degustação</td></tr>
+        <tr><td>7</td><td>Casamento civil com all inclusive</td><td>16/05/2025</td><td><strong>77</strong></td><td>5</td><td>Carrossel de serviço</td></tr>
+        <tr><td>8</td><td>Pacote de Casamento dos Sonhos</td><td>10/01/2025</td><td><strong>69</strong></td><td>6</td><td>Reel com 21,8 mil reproduções — maior alcance</td></tr>
+      </table></div>
+    </div>
+    <div class="card">
+      <h3>Top 5 Posts — Curtidas e Comentários</h3>
+      <div class="chart-wrap"><canvas id="chartEngajamento"></canvas></div>
+    </div>
+    <div class="callout amber">
+      <strong>⚠️ Padrão observado</strong>
+      Os posts com pessoas e histórias reais (depoimentos, casamentos, espaços) geram mais curtidas; o editorial em carrossel gerou o pico de comentários (43). Já os cartazes de degustação curtem pouco, mesmo quando têm bom alcance. Conteúdo emocional puxa engajamento — conteúdo de aviso puxa só visualização passiva.
+    </div>
+    <div class="insight good">
+      <div class="insight-header">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+        O que isso significa para você
+      </div>
+      <div class="insight-body">
+        <span class="verdict">&#9650; Bom sinal</span>
+        <p>O ranking revela uma fórmula replicável: <strong>quando a La Deguste mostra gente, emoção e casamentos reais, o engajamento dispara</strong> — o Reel de depoimento chegou a 179 curtidas e 12 mil plays, e o editorial Day Dream a 43 comentários. Isso não é sorte: é o tipo de conteúdo que o público de eventos quer ver. Estruturar uma cadência fixa de cases reais e bastidores transforma esses picos isolados em um padrão semanal de alcance.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="collabs">
+    <div class="section-header"><div class="section-num">5</div><h2>Destaques, Prova Social e Conversão</h2></div>
+    <div class="card">
+      <h3>Destaques Atuais</h3>
+      <div class="tbl-wrap"><table>
+        <tr><th>Destaque</th><th>Função na jornada</th><th>Avaliação</th></tr>
+        <tr><td>Depoimentos</td><td>Prova social e confiança</td><td><span class="badge badge-green">Forte</span></td></tr>
+        <tr><td>Degustações</td><td>Captação e conversão de eventos</td><td><span class="badge badge-blue">Essencial</span></td></tr>
+        <tr><td>Geranium</td><td>Espaço parceiro / casamento no campo</td><td><span class="badge badge-blue">Bom</span></td></tr>
+        <tr><td>Une Wedding</td><td>Casamentos / feira do setor</td><td><span class="badge badge-blue">Bom</span></td></tr>
+        <tr><td>M.Hortências</td><td>Espaço parceiro</td><td><span class="badge badge-blue">Bom</span></td></tr>
+        <tr><td>Dicas</td><td>Conteúdo educativo para quem planeja</td><td><span class="badge badge-green">Forte</span></td></tr>
+      </table></div>
+    </div>
+    <div class="card">
+      <h3>Funil Recomendado para Destaques</h3>
+      <div class="funnel">
+        <div class="funnel-step f1">👋 Comece aqui — quem é a La Deguste e os 30 anos de história</div>
+        <div class="funnel-step f2">💒 Tipos de evento — casamentos, corporativos, aniversários e formaturas</div>
+        <div class="funnel-step f3">🍽️ Degustações &amp; cardápios — o que você vai experimentar</div>
+        <div class="funnel-step f4">📲 Orçamento — fale no WhatsApp e garanta a data</div>
+      </div>
+    </div>
+    <div class="insight warn">
+      <div class="insight-header">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+        O que isso significa para você
+      </div>
+      <div class="insight-body">
+        <span class="verdict">&#9654; Oportunidade clara</span>
+        <p>Os destaques existem e cobrem bons temas, mas estão organizados por <strong>espaço parceiro</strong> (Geranium, M.Hortências) em vez de por <strong>jornada do cliente</strong>. Um casal que chega pelo Reel não encontra um caminho óbvio de “quero casar” até “vou pedir orçamento”. Reordenar os destaques na sequência acima — história → tipos de evento → degustação → WhatsApp — é uma ação de impacto imediato e custo zero, que pode aumentar diretamente os pedidos de orçamento.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-header"><div class="section-num">6</div><h2>Temas, Palavras-Chave e CTAs</h2></div>
+    <div class="card">
+      <h3>Hashtags e Parcerias Mais Recorrentes</h3>
+      <div class="tag-cloud">
+        <span class="tag high">#buffet</span>
+        <span class="tag high">#casamento</span>
+        <span class="tag high">#eventos</span>
+        <span class="tag mid">#casamentodossonhos</span>
+        <span class="tag mid">#eventocorporativo</span>
+        <span class="tag mid">#noiva</span>
+        <span class="tag mid">#buffetbrasília</span>
+        <span class="tag low">#casamentonocampo</span>
+        <span class="tag low">#sítiogeranium</span>
+        <span class="tag low">#eventosocial</span>
+      </div>
+      <p style="margin-top:14px;font-size:.85rem;color:var(--text-2);">Parceiros mais marcados: <strong>@awconfeitariaartesanal</strong>, <strong>@canta_arte</strong>, <strong>@lunafilgueirascerimonial</strong>, <strong>@promoviesbsb</strong>, <strong>@leo.neves.fotografias</strong>, <strong>@finartfilmes</strong>, <strong>@rosildaateliedanoiva</strong>, <strong>@barbaracastro_cerimonial</strong>, <strong>@keilaflores.decoracoes</strong>.</p>
+    </div>
+    <div class="card">
+      <h3>Temas com Maior Potencial</h3>
+      <div class="tbl-wrap"><table>
+        <tr><th>Tema</th><th>Por que importa</th><th>CTA sugerido</th></tr>
+        <tr><td>Casamentos reais</td><td>Gera desejo e identificação dos noivos</td><td>“Quer um casamento assim? Chame no WhatsApp”</td></tr>
+        <tr><td>Bastidores de montagem</td><td>Mostra o cuidado e justifica o ticket</td><td>“Salve para inspirar o seu evento”</td></tr>
+        <tr><td>Degustação</td><td>Principal momento de captação</td><td>“Comente EU QUERO e receba o convite”</td></tr>
+        <tr><td>Cardápios &amp; pratos</td><td>Apela ao sensorial e ao alcance</td><td>“Marque quem comeria isso com você”</td></tr>
+        <tr><td>Corporativo &amp; formatura</td><td>Diversifica além de casamentos</td><td>“Planeje o evento da sua empresa conosco”</td></tr>
+        <tr><td>Depoimentos de clientes</td><td>Reduz risco percebido e fecha decisão</td><td>“Peça seu orçamento pelo link da bio”</td></tr>
+      </table></div>
+    </div>
+    <div class="insight info">
+      <div class="insight-header">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+        O que isso significa para você
+      </div>
+      <div class="insight-body">
+        <span class="verdict">&#9733; Oportunidade estratégica</span>
+        <p>Cada linha desta tabela é um Reel, carrossel ou destaque esperando para existir — e cada parceiro marcado é um canal de alcance. <strong>Hoje só ~35% dos posts têm CTA claro; padronizar chamadas para o WhatsApp em todos os posts transforma o Instagram em uma esteira de orçamentos.</strong> O CTA “Comente EU QUERO e receba o convite da degustação”, por exemplo, dispara comentários, aquece o alcance e captura leads ao mesmo tempo — exatamente o que falta no funil atual.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="audiencia">
+    <div class="section-header"><div class="section-num">7</div><h2>Análise de Audiência</h2></div>
+    <div class="card">
+      <h3>Segmentos Estimados da Audiência</h3>
+      <div class="chart-wrap"><canvas id="chartAudienciaSegmentos"></canvas></div>
+    </div>
+    <div class="card">
+      <h3>Características da Audiência</h3>
+      <div class="tbl-wrap"><table>
+        <tr><th>Segmento</th><th>Comportamento observado</th></tr>
+        <tr><td>Noivos planejando casamento</td><td>Engajam com cases reais, editoriais e pacotes; público de maior ticket</td></tr>
+        <tr><td>Famílias (aniversários e formaturas)</td><td>Buscam datas comemorativas e celebrações sociais</td></tr>
+        <tr><td>Fornecedores e parceiros do setor</td><td>Cerimoniais, decoração, foto e confeitaria — marcam e compartilham</td></tr>
+        <tr><td>Empresas (eventos corporativos)</td><td>Interesse em estrutura, organização e all inclusive</td></tr>
+        <tr><td>Audiência local de Brasília</td><td>Admiradores da marca e indicações boca a boca</td></tr>
+      </table></div>
+    </div>
+    <div class="insight good">
+      <div class="insight-header">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+        O que isso significa para você
+      </div>
+      <div class="insight-body">
+        <span class="verdict">&#9650; Audiência qualificada</span>
+        <p>A audiência mistura noivos, famílias, fornecedores e empresas — exatamente os quatro mercados que a La Deguste atende. <strong>O grupo de fornecedores parceiros é um ativo estratégico subexplorado:</strong> cada cerimonial, decorador ou fotógrafo marcado tem a própria audiência de noivos, e o co-marketing entre eles multiplica alcance sem custo de mídia. Conteúdo segmentado — cases para noivos, estrutura para empresas, montagem para fornecedores — fala diretamente com quem está mais perto de fechar um evento.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="swot">
+    <div class="section-header"><div class="section-num">8</div><h2>Análise SWOT do Instagram</h2></div>
+    <div class="card"><div class="swot-grid">
+      <div class="swot-cell swot-s">
+        <h4>💪 Forças</h4>
+        <ul>
+          <li>30 anos de mercado e reputação 5 estrelas no Casamentos.com</li>
+          <li>Nicho de alto ticket (casamentos e eventos) em Brasília</li>
+          <li>Rede ampla de fornecedores parceiros marcados</li>
+          <li>Cases de casamentos reais e editoriais de qualidade</li>
+          <li>Conta business com WhatsApp na bio</li>
+          <li>Destaques cobrindo depoimentos, degustações e espaços</li>
+        </ul>
+      </div>
+      <div class="swot-cell swot-w">
+        <h4>⚠️ Fraquezas</h4>
+        <ul>
+          <li>Base de seguidores pequena (2.508) para o porte do negócio</li>
+          <li>Engajamento recente em queda (ER 0,80%)</li>
+          <li>Feed dominado por cartazes estáticos e avisos</li>
+          <li>CTA presente em apenas ~35% dos posts</li>
+          <li>Funil de orçamento informal e não mensurado</li>
+          <li>Ratio seguindo/seguidores alto (1.572 / 2.508)</li>
+        </ul>
+      </div>
+      <div class="swot-cell swot-o">
+        <h4>🚀 Oportunidades</h4>
+        <ul>
+          <li>Co-marketing estruturado com fornecedores parceiros</li>
+          <li>Degustações como funil recorrente de captação de leads</li>
+          <li>Série fixa de casamentos reais e bastidores em Reels</li>
+          <li>Carrosséis de cases (melhor formato de engajamento)</li>
+          <li>Tráfego pago local para noivos de Brasília</li>
+        </ul>
+      </div>
+      <div class="swot-cell swot-t">
+        <h4>⚡ Ameaças</h4>
+        <ul>
+          <li>Concorrência intensa de buffets e espaços em Brasília</li>
+          <li>Base pequena limita o alcance orgânico</li>
+          <li>Dependência de avisos pontuais reduz valor evergreen</li>
+          <li>Sazonalidade forte do calendário de casamentos</li>
+          <li>Algoritmo penaliza feed de baixa interação</li>
+        </ul>
+      </div>
+    </div></div>
+    <div class="insight info">
+      <div class="insight-header">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+        O que isso significa para você
+      </div>
+      <div class="insight-body">
+        <span class="verdict">&#9733; Visão clara</span>
+        <p>O ativo mais valioso — 30 anos de autoridade e uma rede de fornecedores — já está consolidado e é difícil de copiar. <strong>A alavanca de crescimento agora não é reputação: é distribuição.</strong> As fraquezas (base pequena, feed de cartazes, funil informal) são estruturais e corrigíveis sem aumentar a carga de trabalho. A maior oportunidade está na rede de parceiros: ativar co-marketing com cerimoniais e decoradores pode crescer a base de seguidores qualificados mais rápido do que qualquer post isolado.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="comparativo">
+    <div class="section-header"><div class="section-num">9</div><h2>Desempenho por Formato: Carrossel vs Imagem</h2></div>
+    <div class="vs-grid">
+      <div class="vs-card vs-ig">
+        <div class="vs-platform">🖼️ Carrosséis / Editoriais</div>
+        <div class="vs-metric"><span class="vs-metric-label">Amostra</span><span class="vs-metric-val">10 posts</span></div>
+        <div class="vs-metric"><span class="vs-metric-label">Curtidas médias</span><span class="vs-metric-val">40,7</span></div>
+        <div class="vs-metric"><span class="vs-metric-label">Comentários médios</span><span class="vs-metric-val">6,2</span></div>
+        <div class="vs-metric"><span class="vs-metric-label">ER médio</span><span class="vs-metric-val">1,87%</span></div>
+        <div class="vs-metric"><span class="vs-metric-label">Papel no funil</span><span class="vs-metric-val">Desejo / cases</span></div>
+      </div>
+      <div class="vs-card vs-yt">
+        <div class="vs-platform">📷 Imagens estáticas</div>
+        <div class="vs-metric"><span class="vs-metric-label">Amostra</span><span class="vs-metric-val">22 posts</span></div>
+        <div class="vs-metric"><span class="vs-metric-label">Curtidas médias</span><span class="vs-metric-val">16,5</span></div>
+        <div class="vs-metric"><span class="vs-metric-label">Comentários médios</span><span class="vs-metric-val">1,0</span></div>
+        <div class="vs-metric"><span class="vs-metric-label">ER médio</span><span class="vs-metric-val">0,70%</span></div>
+        <div class="vs-metric"><span class="vs-metric-label">Papel no funil</span><span class="vs-metric-val">Aviso / cartaz</span></div>
+      </div>
+    </div>
+    <div class="card">
+      <h3>Curtidas e Comentários Médios por Formato</h3>
+      <div class="chart-wrap"><canvas id="chartComparativo"></canvas></div>
+    </div>
+    <div class="insight bad">
+      <div class="insight-header">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+        O que isso significa para você
+      </div>
+      <div class="insight-body">
+        <span class="verdict">&#9654; Diagnóstico importante</span>
+        <p>A diferença é gritante: <strong>carrosséis engajam quase 3x mais que imagens estáticas (ER 1,87% vs 0,70%) e geram 6x mais comentários.</strong> Ainda assim, as imagens estáticas — muitas delas cartazes de degustação — são o segundo formato mais publicado. Cada cartaz que vira carrossel de case ou Reel de bastidores recupera alcance imediatamente. A recomendação é direta: reduzir o cartaz estático e investir em carrossel e vídeo, os formatos que o próprio perfil já prova serem melhores.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="recomendacoes">
+    <div class="section-header"><div class="section-num">10</div><h2>Recomendações Estratégicas</h2></div>
+    <div class="rec-grid">
+      <div class="rec-card rec-short">
+        <h4>⚡ Curto Prazo (0–3 meses)</h4>
+        <ul>
+          <li>Reorganizar destaques por jornada do cliente</li>
+          <li>Adicionar CTA de WhatsApp em todos os posts</li>
+          <li>Trocar cartazes de degustação por carrosséis e Reels</li>
+          <li>Padronizar respostas de orçamento e tempo de resposta</li>
+          <li>Publicar 1 case de evento real por semana</li>
+        </ul>
+      </div>
+      <div class="rec-card rec-mid">
+        <h4>📈 Médio Prazo (3–12 meses)</h4>
+        <ul>
+          <li>Série fixa: “Casamentos reais La Deguste” em Reels</li>
+          <li>Co-marketing recorrente com fornecedores parceiros</li>
+          <li>Degustação como funil: inscrição → lead → orçamento</li>
+          <li>Tráfego pago local segmentado para noivos de Brasília</li>
+          <li>Relatório mensal ligando conteúdo a orçamentos fechados</li>
+        </ul>
+      </div>
+      <div class="rec-card rec-long">
+        <h4>🔭 Longo Prazo (12+ meses)</h4>
+        <ul>
+          <li>Crescer base para 10 mil+ seguidores qualificados</li>
+          <li>Landing page de orçamento com captação de leads</li>
+          <li>Conteúdo segmentado por linha: casamento, corporativo, social</li>
+          <li>Automação de atendimento e triagem no WhatsApp</li>
+          <li>Posicionar a marca como referência de buffet premium no DF</li>
+        </ul>
+      </div>
+    </div>
+    <div class="insight good">
+      <div class="insight-header">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+        O que isso significa para você
+      </div>
+      <div class="insight-body">
+        <span class="verdict">&#9650; Plano acionável</span>
+        <p>As ações de curto prazo têm impacto imediato e custo próximo de zero: reorganizar destaques, padronizar CTA de WhatsApp e trocar cartazes por carrosséis são mudanças de estrutura, não de produção. <strong>Isso faz o conteúdo que a La Deguste já publica render mais — sem precisar postar mais.</strong> O médio prazo traz crescimento de base via co-marketing e tráfego pago local; o longo prazo posiciona a marca como referência premium de buffet no DF, algo que os 30 anos de história já sustentam e só precisam de distribuição.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="resumo">
+    <div class="section-header"><div class="section-num">11</div><h2>Resumo Executivo e Pontuação</h2></div>
+    <div class="card">
+      <h3>Pontuação Geral do Perfil Instagram</h3>
+      <div class="score-ring-wrap">
+        <div class="score-ring" style="background:conic-gradient(#1d4ed8 0% 63%, #e4e7ec 63% 100%);">
+          <div class="score-inner"><div class="score-val">6,3</div><div class="score-max">/ 10</div></div>
+        </div>
+        <div class="score-labels">
+          <div class="score-item"><span class="score-item-label">Posicionamento</span><div class="score-bar-bg"><div class="score-bar" style="width:80%"></div></div><span class="score-item-val">8,0</span></div>
+          <div class="score-item"><span class="score-item-label">Branding</span><div class="score-bar-bg"><div class="score-bar" style="width:75%"></div></div><span class="score-item-val">7,5</span></div>
+          <div class="score-item"><span class="score-item-label">Conteúdo</span><div class="score-bar-bg"><div class="score-bar" style="width:65%"></div></div><span class="score-item-val">6,5</span></div>
+          <div class="score-item"><span class="score-item-label">Engajamento recente</span><div class="score-bar-bg"><div class="score-bar" style="width:45%"></div></div><span class="score-item-val">4,5</span></div>
+          <div class="score-item"><span class="score-item-label">Conversão</span><div class="score-bar-bg"><div class="score-bar" style="width:60%"></div></div><span class="score-item-val">6,0</span></div>
+          <div class="score-item"><span class="score-item-label">Crescimento de base</span><div class="score-bar-bg"><div class="score-bar" style="width:40%"></div></div><span class="score-item-val">4,0</span></div>
+        </div>
+      </div>
+    </div>
+    <div class="callout primary">
+      <strong>🎯 Diagnóstico Final</strong>
+      O <strong>Instagram @ladegustebuffet</strong> tem o ativo mais difícil de um negócio de eventos: 30 anos de autoridade, reputação 5 estrelas e uma rede de fornecedores parceiros. O próximo ganho não está em produzir mais conteúdo, e sim em <strong>distribuí-lo melhor e transformar atenção em orçamentos</strong>.
+      <br><br>
+      O <strong>maior ponto de melhoria</strong> é crescer a base de seguidores qualificados e organizar um funil de WhatsApp visível. As degustações, os cases reais e os parceiros são munição de sobra — falta a estrutura comercial para capturar a demanda.
+    </div>
+    <div class="card">
+      <h3>Estimativa de Oportunidade Comercial</h3>
+      <div class="tbl-wrap"><table>
+        <tr><th>Métrica</th><th>Estimativa</th></tr>
+        <tr><td>Principal gargalo</td><td>Base pequena + funil de orçamento informal</td></tr>
+        <tr><td>Alavanca de maior ROI</td><td>Co-marketing com parceiros + CTA de WhatsApp em todos os posts</td></tr>
+        <tr><td>Ganhos esperados</td><td>Mais alcance qualificado, mais pedidos de orçamento e melhor leitura da origem dos leads</td></tr>
+        <tr><td>Prioridade de ROI</td><td><span class="badge badge-green">Funil de degustação + cases reais em Reels</span></td></tr>
+      </table></div>
+    </div>
+    <div class="insight good">
+      <div class="insight-header">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+        O que isso significa para você
+      </div>
+      <div class="insight-body">
+        <span class="verdict">&#9650; Visão consolidada</span>
+        <p>A La Deguste tem o que muitos buffets levam décadas para construir: <strong>autoridade de 30 anos, reputação 5 estrelas, casamentos reais como prova social e uma rede de fornecedores pronta para amplificar.</strong> A próxima fase não é de construção de marca — é de distribuição e conversão. Com base crescendo via co-marketing, feed reequilibrado para Reels e carrosséis, e um funil de WhatsApp estruturado, o Instagram pode virar o principal canal de captação de eventos da marca em Brasília. O potencial já existe; falta a estrutura para capturá-lo.</p>
+      </div>
+    </div>
+  </section>
+</div><!-- /page -->
+<footer>
+  <strong>La Deguste Buffet — Análise de Instagram @ladegustebuffet</strong><br>
+  Análise realizada em 11 de junho de 2026 com coleta via Playwright em sessão autenticada e API pública do Instagram.<br><br>
+  <a href="https://instagram.com/ladegustebuffet">@ladegustebuffet no Instagram</a> ·
+  <a href="https://wa.me/5561982740045">WhatsApp La Deguste</a><br><br>
+  <span style="opacity:.5;font-size:.75rem;">Preparado pela Oráculo Tecnologia · Análise de Redes Sociais</span>
+</footer>
+
+</div><!-- /page-wrap -->
+
+<script>
+const navLinks = document.querySelectorAll('.nav a');
+const sections = document.querySelectorAll('section[id]');
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      navLinks.forEach(a => a.classList.remove('active'));
+      const a = document.querySelector('.nav a[href="#' + e.target.id + '"]');
+      if (a) { a.classList.add('active'); a.scrollIntoView({block:'nearest',inline:'center',behavior:'smooth'}); }
+    }
+  });
+}, { threshold: 0.4 });
+sections.forEach(s => observer.observe(s));
+
+const PRI  = '#1d4ed8';
+const BLUE = '#3b82f6';
+const GRN  = '#16a34a';
+const AMB  = '#d97706';
+const PUR  = '#7c3aed';
+
+new Chart(document.getElementById('chartAudiencia'), {
+  type: 'bar',
+  data: {
+    labels: ['Amostra total\n60 posts', 'Recentes\n12 posts', 'Meta desejada'],
+    datasets: [{
+      label: 'Taxa de engajamento (%)',
+      data: [1.21, 0.80, 2.5],
+      backgroundColor: [PRI, AMB, GRN],
+      borderRadius: 8,
+    }]
+  },
+  options: {
+    responsive: true, maintainAspectRatio: false,
+    plugins: { legend: { display: false }, tooltip: { callbacks: { label: ctx => ' ' + ctx.raw + '% de ER médio' } } },
+    scales: { y: { beginAtZero: true, max: 3, ticks: { callback: v => v + '%' }, grid: { color: '#f3f4f6' } }, x: { grid: { display: false } } }
+  }
+});
+
+new Chart(document.getElementById('chartFormatos'), {
+  type: 'doughnut',
+  data: {
+    labels: ['Reels', 'Imagens', 'Carrosséis'],
+    datasets: [{ data: [28, 22, 10], backgroundColor: [PRI, AMB, GRN], borderWidth: 2, borderColor: '#fff' }]
+  },
+  options: { responsive: true, maintainAspectRatio: false, cutout: '65%', plugins: { legend: { position: 'bottom', labels: { padding: 12, font: { size: 11 } } } } }
+});
+
+new Chart(document.getElementById('chartEngajamento'), {
+  type: 'bar',
+  data: {
+    labels: ['Depoimento\n+ parceiros', '“Lugares que\na gente sente”', 'Editorial\nDay Dream', 'Casamento\nIzabella & Alex', 'Mês Consumidor\nGeranium'],
+    datasets: [
+      { label: 'Curtidas', data: [179, 88, 85, 81, 79], backgroundColor: PRI, borderRadius: 6 },
+      { label: 'Comentários', data: [15, 7, 43, 5, 4], backgroundColor: AMB, borderRadius: 6 }
+    ]
+  },
+  options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { position: 'bottom' } }, scales: { y: { beginAtZero: true, grid: { color: '#f3f4f6' } }, x: { grid: { display: false } } } }
+});
+
+new Chart(document.getElementById('chartAudienciaSegmentos'), {
+  type: 'bar', indexAxis: 'y',
+  data: {
+    labels: ['Noivos planejando casamento', 'Famílias (aniversários/formaturas)', 'Fornecedores e parceiros', 'Empresas (corporativo)', 'Audiência local Brasília'],
+    datasets: [{ label: 'Relevância estimada (%)', data: [35, 22, 18, 13, 12], backgroundColor: [PRI, BLUE, GRN, AMB, PUR], borderRadius: 6 }]
+  },
+  options: {
+    responsive: true, maintainAspectRatio: false,
+    plugins: { legend: { display: false }, tooltip: { callbacks: { label: ctx => ' ' + ctx.raw + '% da audiência estimada' } } },
+    scales: { x: { beginAtZero: true, max: 40, ticks: { callback: v => v + '%' }, grid: { color: '#f3f4f6' } }, y: { grid: { display: false } } }
+  }
+});
+
+new Chart(document.getElementById('chartComparativo'), {
+  type: 'bar',
+  data: {
+    labels: ['Carrosséis', 'Reels', 'Imagens'],
+    datasets: [
+      { label: 'Curtidas médias', data: [40.7, 31.4, 16.5], backgroundColor: PRI, borderRadius: 6 },
+      { label: 'Comentários médios', data: [6.2, 2.9, 1.0], backgroundColor: AMB, borderRadius: 6 }
+    ]
+  },
+  options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { position: 'bottom' } }, scales: { y: { beginAtZero: true, grid: { color: '#f3f4f6' } }, x: { grid: { display: false } } } }
+});
+</script>
+</body>
+</html>

@@ -18,18 +18,49 @@ Use PascalCase sem espaços. Ex: `JoanaTavares`, `PECBR`, `DrCarlosAlves`.
 
 ### 2. Coletar dados do perfil
 
-**Usar o MCP do Playwright** para navegar e extrair os dados diretamente do perfil público.
+**Usar o MCP do Playwright** com a **API interna do Instagram** (método validado na análise da La Deguste Buffet). É muito mais confiável e rápido do que abrir post por post, e é a **única forma de obter curtidas/comentários quando a conta oculta a contagem** (a maioria das contas business oculta).
 
-Sequência obrigatória:
+#### 2.1 Garantir sessão autenticada (pré-requisito)
 1. `browser_navigate` → `https://www.instagram.com/<handle>/`
-2. Fechar modais de login/aviso com `browser_click` se aparecerem
-3. Rolar a página várias vezes com `browser_press_key` (End) ou `browser_scroll` para carregar mais posts
-4. `browser_snapshot` para capturar o estado completo da página (bio, seguidores, destaques, grid)
-5. `browser_take_screenshot` para salvar screenshot do perfil
-6. Para cada post relevante (top ~27): `browser_navigate` → URL do post → `browser_snapshot` para extrair curtidas, comentários, data e legenda
-7. Salvar todos os dados extraídos em `<NomeCliente>/data/<handle>-body.txt` (texto bruto) e `<NomeCliente>/data/<handle>-scan.json` (estrutura JSON com postDetails)
+2. Se o cabeçalho mostrar **"Entrar"/"Cadastre-se"**, a sessão está **deslogada** → curtidas e comentários ficam ocultos e a API retorna vazio. **Pare e peça ao usuário para logar** na janela do Playwright (`browser_navigate` → `https://www.instagram.com/accounts/login/`). Quando logado, o título da aba mostra algo como `(N) Instagram`.
+3. Se aparecer modal de cadastro, fechar com `browser_press_key` → `Escape`.
+4. `browser_take_screenshot` → salvar screenshot do perfil em `screenshots/<handle>-profile.png`.
 
-> O script `tools/instagram-scan.mjs` existe como referência de lógica, mas a coleta deve ser feita via MCP do Playwright para aproveitar a sessão já autenticada do browser e ter controle interativo sobre modais e bloqueios.
+#### 2.2 Puxar dados via API interna (preferencial)
+Com a sessão logada, usar `browser_evaluate` em qualquer página `instagram.com` (mesma origem, cookies inclusos). Header obrigatório: `x-ig-app-id: 936619743392459`.
+
+**a) Perfil + user_id:**
+```js
+await fetch('/api/v1/users/web_profile_info/?username=<handle>', {
+  headers: { 'x-ig-app-id': '936619743392459' }, credentials: 'include'
+}).then(r => r.json())
+// → data.user: id, full_name, category_name, biography, external_url,
+//   edge_followed_by.count (seguidores), edge_follow.count (seguindo),
+//   edge_owner_to_timeline_media.count (posts), bio_links, highlight_reel_count
+```
+
+**b) Amostra de posts (paginada) — usar o `user.id` do passo a):**
+```js
+// loop com max_id; ~5 páginas de 30 = até ~150 posts. 60 é uma boa amostra.
+let url = `/api/v1/feed/user/${uid}/?count=30` + (maxId ? `&max_id=${maxId}` : '');
+const j = await fetch(url, { headers:{'x-ig-app-id':'936619743392459'}, credentials:'include' }).then(r=>r.json());
+// cada item: code, media_type (1=img,2=vídeo/reel,8=carrossel), product_type,
+//   like_count, comment_count, play_count/ig_play_count (Reels),
+//   carousel_media_count, taken_at (epoch s), caption.text
+// j.more_available + j.next_max_id controlam a paginação
+```
+Salvar o resultado com `browser_evaluate({ filename: 'ladeguste-feed.json' })` (vai para `.playwright-mcp/`).
+
+> **Detalhe do scroll deslogado:** sem login, o Instagram bloqueia o scroll infinito (mostra "Mostrar mais posts" + login wall) e o snapshot do grid só traz ~12 posts. Por isso o método via API logada é o padrão.
+> **Post único (fallback):** o media id numérico está no `<meta property="al:ios:url" content="instagram://media?id=NUMERO">`; com ele, `GET /api/v1/media/<id>/info/` retorna os mesmos campos.
+
+#### 2.3 Gerar os arquivos de dados
+Processar o JSON cru com Python e salvar:
+- `<NomeCliente>/data/<handle>-scan.json` — estrutura com cabeçalho do perfil + `postDetails` (tipo, data, likes, comentarios, plays, tags, tema, legenda)
+- `<NomeCliente>/data/<handle>-body.txt` — texto bruto legível (perfil + lista de posts)
+- (opcional) manter o feed cru como `<handle>-feed-raw.json`
+
+> O script `tools/instagram-scan.mjs` existe como referência de lógica, mas a coleta deve ser feita via MCP do Playwright para aproveitar a sessão autenticada e a API interna.
 
 ### 3. Analisar os dados coletados
 
@@ -37,19 +68,23 @@ Ler os dois arquivos gerados antes de escrever qualquer HTML:
 - `<NomeCliente>/data/<handle>-body.txt` — texto bruto da página (seguidores, bio, nomes de destaques, legendas)
 - `<NomeCliente>/data/<handle>-scan.json` — estrutura JSON com postDetails (curtidas, comentários, datas, títulos)
 
-Extrair:
-- Contagem de seguidores, posts, seguindo
-- Bio completa
-- Lista de destaques
+Extrair (processar o JSON com Python, não a olho):
+- Contagem de seguidores, posts, seguindo + bio completa + lista de destaques
 - Top posts por curtidas (ordenar `postDetails` por likes)
 - ER médio da amostra: `(soma das curtidas + comentários) / (n_posts × seguidores) × 100`
-- Padrão de formatos (Reels vs. carrossel vs. estático)
-- Temas recorrentes nas legendas
-- Comentários com intenção de compra
+- **ER recente** (últimos ~12 posts) vs ER da amostra completa — revela queda/alta de tração
+- **ER por formato** (Reel vs carrossel vs imagem) — quase sempre revela qual formato performa melhor e embasa a seção 9 (comparativo) e a recomendação de mix
+- Mix de formatos (contagem por tipo) + média de `plays` dos Reels
+- Cadência de postagem (posts/mês) a partir de `taken_at`
+- Hashtags mais usadas e **@menções recorrentes** (parceiros/fornecedores — viram ângulo de co-marketing)
+- % de posts com CTA (regex por "link na bio", "wa.me", "whats", "orçamento", "agende", etc.)
+- Temas recorrentes e comentários/legendas com intenção de compra
 
 ### 4. Criar `Analise-Instagram.html`
 
 Usar `JoanaTavares/Analise-Instagram.html` como template base. Substituir todos os dados pelo cliente novo.
+
+> **Técnica de build (recomendada):** o `<style>` é enorme (~30 KB) e nunca muda. Em vez de editá-lo, extraia o bloco `<style>…</style>` do template e reaproveite-o; monte o `<head>`, cover, seções e o `<script>` dos gráficos como strings em um script Python e concatene. Isso evita corromper o CSS e mantém o design system intacto. Ajuste só `--ig-grad` no `:root` (override) para a identidade do cliente — `--primary` segue sempre o azul Oráculo `#1d4ed8`. **Antes de salvar, valide com Python:** zero resquícios do cliente-template (ex: `Joana`, handle antigo, telefone, termos do nicho antigo) e zero aspas curvas dentro de tags (`<[^>]*[”“][^>]*>` deve dar 0; aspas curvas só no texto visível). O mesmo vale para a Proposta e os Banners — lembre da `<meta name="description">` no head, fácil de esquecer.
 
 **Estrutura obrigatória da página (na ordem):**
 

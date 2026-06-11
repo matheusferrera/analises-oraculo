@@ -1,0 +1,1311 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Proposta Comercial — La Deguste Buffet | Oráculo</title>
+  <meta property="og:type"         content="website"/>
+  <meta property="og:title"        content="Proposta Comercial — La Deguste Buffet | Oráculo"/>
+  <meta property="og:description"  content="Proposta estratégica para transformar 30 anos de autoridade do buffet @ladegustebuffet em alcance qualificado, captação de eventos e mais orçamentos fechados."/>
+  <meta property="og:image"        content="https://analises-oraculo.vercel.app/LaDegusteBuffet/og-proposta.png"/>
+  <meta property="og:image:width"  content="1200"/>
+  <meta property="og:image:height" content="630"/>
+  <meta property="og:url"          content="https://analises-oraculo.vercel.app/LaDegusteBuffet/Proposta-Comercial.html"/>
+  <meta property="og:site_name"    content="Oráculo Tecnologia"/>
+  <meta name="twitter:card"        content="summary_large_image"/>
+  <meta name="twitter:image"       content="https://analises-oraculo.vercel.app/LaDegusteBuffet/og-proposta.png"/>
+  <meta name="description"         content="Proposta comercial exclusiva para a La Deguste Buffet. Elaborado pela Oráculo Tecnologia."/>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:            #f5f6f8;
+      --bg-2:          #eef0f3;
+      --bg-3:          #e8eaed;
+      --surface:       #ffffff;
+      --surface-2:     #f0f2f5;
+      --border:        #e4e7ec;
+      --primary:       #1d4ed8;
+      --primary-light: #2563eb;
+      --gold:          #d97706;
+      --gold-2:        #f59e0b;
+      --green:         #059669;
+      --blue:          #1d4ed8;
+      --text:          #1a1d23;
+      --muted:         #6b7280;
+      --muted-2:       #9ca3af;
+    }
+
+    html { scroll-behavior: smooth; overflow-x: hidden; }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    /* ─── NAV ─── */
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      padding: 16px 40px;
+      display: flex; align-items: center; justify-content: space-between;
+      background: rgba(255,255,255,0.92);
+      backdrop-filter: blur(20px);
+      border-bottom: 1px solid var(--border);
+      box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+    }
+    .nav-logo { display: flex; align-items: center; gap: 10px; }
+    .nav-logo-dot { width: 10px; height: 10px; border-radius: 50%; background: var(--primary); }
+    .nav-logo-text { font-weight: 700; font-size: 15px; color: var(--text); letter-spacing: 0.5px; }
+    .nav-links { display: flex; gap: 28px; }
+    .nav-links a { color: var(--muted); font-size: 13px; font-weight: 500; text-decoration: none; transition: color 200ms; }
+    .nav-links a:hover { color: var(--text); }
+    .nav-cta {
+      background: var(--primary); color: #fff;
+      font-size: 13px; font-weight: 600;
+      padding: 9px 20px; border-radius: 8px;
+      text-decoration: none;
+      transition: opacity 200ms;
+    }
+    .nav-cta:hover { opacity: 0.85; }
+
+    /* ─── SECTIONS ─── */
+    section { padding: 120px 40px; max-width: 1200px; margin: 0 auto; }
+    .section-full { max-width: 100%; padding: 120px 0; }
+
+    /* ─── HERO ─── */
+    .hero {
+      min-height: 100vh;
+      display: flex; flex-direction: column; align-items: center; justify-content: center;
+      text-align: center;
+      position: relative;
+      padding: 120px 40px 80px;
+      overflow: hidden;
+    }
+    .hero-bg {
+      position: absolute; inset: 0; z-index: 0;
+      background:
+        radial-gradient(ellipse 80% 60% at 50% -10%, rgba(29,78,216,0.08) 0%, transparent 70%),
+        radial-gradient(ellipse 60% 50% at 80% 110%, rgba(217,119,6,0.05) 0%, transparent 60%),
+        var(--bg);
+    }
+    .hero-grid {
+      position: absolute; inset: 0; z-index: 0;
+      background-image:
+        linear-gradient(rgba(29,78,216,0.06) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(29,78,216,0.06) 1px, transparent 1px);
+      background-size: 60px 60px;
+      mask-image: radial-gradient(ellipse at center, black 30%, transparent 80%);
+    }
+    .hero-content { position: relative; z-index: 1; max-width: 860px; }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: #eff6ff; border: 1px solid #bfdbfe;
+      border-radius: 100px; padding: 6px 16px;
+      font-size: 12px; font-weight: 600; color: var(--primary);
+      letter-spacing: 0.8px; text-transform: uppercase;
+      margin-bottom: 32px;
+    }
+    .hero-badge-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--primary); animation: pulse 2s infinite; }
+    @keyframes pulse { 0%,100%{opacity:1;} 50%{opacity:0.4;} }
+    .hero h1 {
+      font-size: clamp(40px, 6vw, 72px);
+      font-weight: 900; line-height: 1.08;
+      letter-spacing: -2px;
+      margin-bottom: 24px;
+    }
+    .hero h1 .accent { color: var(--primary); }
+    .mobile-line { display: none; }
+    .hero-sub {
+      font-size: clamp(16px, 2vw, 20px);
+      color: var(--muted); max-width: 600px; margin: 0 auto 48px;
+      font-weight: 400; line-height: 1.7;
+    }
+    .hero-stats {
+      display: flex; gap: 48px; justify-content: center;
+      margin-top: 64px;
+      padding-top: 48px;
+      border-top: 1px solid var(--border);
+    }
+    .hero-stat { text-align: center; }
+    .hero-stat-num {
+      font-size: 36px; font-weight: 800;
+      color: var(--text); letter-spacing: -1px;
+    }
+    .hero-stat-num .unit { font-size: 20px; color: var(--primary); }
+    .hero-stat-label { font-size: 12px; color: var(--muted); font-weight: 500; margin-top: 4px; letter-spacing: 0.5px; }
+    .scroll-indicator {
+      position: absolute; bottom: 40px; left: 50%; transform: translateX(-50%);
+      display: flex; flex-direction: column; align-items: center; gap: 8px;
+      color: var(--muted-2); font-size: 11px; letter-spacing: 1px; text-transform: uppercase;
+      animation: bounce 2s infinite;
+    }
+    @keyframes bounce { 0%,100%{transform:translateX(-50%) translateY(0);} 50%{transform:translateX(-50%) translateY(6px);} }
+    @keyframes bounce-y { 0%,100%{transform:translateY(0);} 50%{transform:translateY(6px);} }
+    .scroll-arrow { width: 20px; height: 20px; border-right: 2px solid var(--muted-2); border-bottom: 2px solid var(--muted-2); transform: rotate(45deg); margin-top: -4px; }
+
+    /* ─── SECTION HEADER ─── */
+    .section-header { text-align: center; margin-bottom: 72px; }
+    .section-eyebrow {
+      display: inline-block;
+      font-size: 11px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase;
+      color: var(--primary); margin-bottom: 16px;
+    }
+    .section-title {
+      font-size: clamp(28px, 4vw, 48px);
+      font-weight: 800; letter-spacing: -1.5px; line-height: 1.1;
+      color: var(--text);
+    }
+    .section-title .dim { color: var(--muted-2); }
+    .section-desc {
+      font-size: 16px; color: var(--muted); margin-top: 16px;
+      max-width: 560px; margin-left: auto; margin-right: auto;
+      line-height: 1.75;
+    }
+
+    /* ─── DIAGNOSTIC ─── */
+    .diagnostic-wrap {
+      display: grid; grid-template-columns: 1fr 1fr; gap: 24px;
+    }
+    .platform-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 36px;
+      position: relative;
+      overflow: hidden;
+      transition: border-color 300ms;
+    }
+    .platform-card:hover { border-color: #bfdbfe; }
+    .platform-card::before {
+      content: '';
+      position: absolute; top: 0; left: 0; right: 0; height: 3px;
+    }
+    .platform-card.yt::before { background: linear-gradient(90deg, #FF0000, #60a5fa); }
+    .platform-card.ig::before { background: linear-gradient(90deg, #833AB4, #FD1D1D, #FCB045); }
+    .platform-icon {
+      width: 48px; height: 48px; border-radius: 12px;
+      display: flex; align-items: center; justify-content: center;
+      margin-bottom: 20px; font-size: 22px;
+    }
+    .platform-icon.yt { background: rgba(255,0,0,0.15); }
+    .platform-icon.ig { background: rgba(131,58,180,0.15); }
+    .platform-name { font-size: 13px; font-weight: 700; color: var(--muted); letter-spacing: 1px; text-transform: uppercase; margin-bottom: 8px; }
+    .platform-metrics { display: grid; gap: 1px; background: var(--border); border-top: 1px solid var(--border); margin-top: 20px; grid-template-columns: repeat(2, 1fr); }
+    .metric-box { background: var(--surface); text-align: center; padding: 14px 8px; }
+    .metric-box-val { font-size: 1.35rem; font-weight: 800; color: var(--primary); line-height: 1; letter-spacing: -.02em; }
+    .metric-box-label { font-size: .62rem; color: var(--muted); font-weight: 500; margin-top: 4px; text-transform: uppercase; letter-spacing: .04em; line-height: 1.3; }
+    @media (min-width: 480px) {
+      .platform-metrics { grid-template-columns: repeat(4, 1fr); }
+      .metric-box { padding: 14px 10px; }
+      .metric-box-val { font-size: 1.5rem; }
+    }
+    .platform-problems { margin-top: 24px; display: flex; flex-direction: column; gap: 10px; }
+    .problem-item {
+      display: flex; align-items: flex-start; gap: 10px;
+      font-size: 13px; color: var(--muted);
+    }
+    .problem-icon {
+      width: 18px; height: 18px; border-radius: 50%; flex-shrink: 0;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 10px; margin-top: 1px;
+    }
+    .problem-icon.warn { background: rgba(245,158,11,0.15); color: var(--gold); }
+    .problem-icon.bad  { background: rgba(239,68,68,0.15);  color: #EF4444; }
+
+    /* ─── PROBLEMS ─── */
+    .problems-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+    .problem-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 16px; padding: 28px;
+      transition: transform 250ms, border-color 250ms;
+    }
+    .problem-card:hover { transform: translateY(-4px); border-color: rgba(29,78,216,0.3); }
+    .problem-card-icon {
+      width: 44px; height: 44px; border-radius: 10px;
+      background: rgba(29,78,216,0.1); border: 1px solid rgba(29,78,216,0.2);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 20px; margin-bottom: 16px;
+    }
+    .problem-card h3 { font-size: 15px; font-weight: 700; color: var(--text); margin-bottom: 8px; }
+    .problem-card p { font-size: 13px; color: var(--muted); line-height: 1.65; }
+
+    /* ─── SOLUTIONS ─── */
+    .solutions-list { display: flex; flex-direction: column; gap: 24px; }
+    .solution-item {
+      display: grid; grid-template-columns: 64px 1fr;
+      gap: 24px; align-items: start;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 16px; padding: 28px;
+      transition: border-color 250ms;
+    }
+    .solution-item:hover { border-color: rgba(16,185,129,0.3); }
+    .solution-num {
+      width: 64px; height: 64px; border-radius: 14px;
+      background: rgba(16,185,129,0.1); border: 1px solid rgba(16,185,129,0.2);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 24px; font-weight: 800; color: var(--green);
+      flex-shrink: 0;
+    }
+    .solution-body h3 { font-size: 17px; font-weight: 700; color: var(--text); margin-bottom: 8px; }
+    .solution-body p { font-size: 14px; color: var(--muted); line-height: 1.7; }
+    .solution-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 12px; }
+    .tag {
+      font-size: 11px; font-weight: 600; padding: 4px 10px; border-radius: 100px;
+      background: rgba(59,130,246,0.1); color: var(--blue);
+      border: 1px solid rgba(59,130,246,0.2);
+    }
+    .tag.green { background: rgba(16,185,129,0.1); color: var(--green); border-color: rgba(16,185,129,0.2); }
+    .tag.red   { background: rgba(29,78,216,0.1);  color: var(--primary-light); border-color: rgba(29,78,216,0.2); }
+    .tag.gold  { background: rgba(245,158,11,0.1); color: var(--gold);  border-color: rgba(245,158,11,0.2); }
+
+    /* ─── RESULTS ─── */
+    .results-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; }
+    .result-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 16px; padding: 28px;
+      text-align: center;
+      position: relative; overflow: hidden;
+    }
+    .result-card::after {
+      content: '';
+      position: absolute; bottom: 0; left: 0; right: 0; height: 2px;
+      background: linear-gradient(90deg, var(--green), #34D399);
+    }
+    .result-num {
+      font-size: 42px; font-weight: 900; color: var(--green);
+      letter-spacing: -2px; line-height: 1;
+    }
+    .result-unit { font-size: 20px; color: var(--muted); }
+    .result-label { font-size: 13px; color: var(--muted); margin-top: 10px; font-weight: 500; }
+    .result-period { font-size: 11px; color: var(--muted-2); margin-top: 4px; }
+
+    /* ─── PRICING ─── */
+    .pricing-wrap { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; align-items: start; }
+    .pricing-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 20px; padding: 36px;
+      position: relative; transition: transform 250ms, border-color 250ms;
+    }
+    .pricing-card:hover { transform: translateY(-6px); }
+    .pricing-card.featured {
+      background: linear-gradient(135deg, rgba(29,78,216,0.08), rgba(29,78,216,0.04));
+      border-color: rgba(29,78,216,0.4);
+    }
+    .pricing-badge {
+      position: absolute; top: -14px; left: 50%; transform: translateX(-50%);
+      background: var(--primary); color: #fff;
+      font-size: 11px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase;
+      padding: 5px 16px; border-radius: 100px; white-space: nowrap;
+    }
+    .pricing-plan { font-size: 12px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; color: var(--muted); margin-bottom: 8px; }
+    .pricing-name { font-size: 22px; font-weight: 800; color: var(--text); margin-bottom: 4px; }
+    .pricing-desc { font-size: 13px; color: var(--muted); margin-bottom: 28px; line-height: 1.6; }
+    .pricing-price { margin-bottom: 8px; }
+    .pricing-price .currency { font-size: 20px; font-weight: 700; color: var(--muted); vertical-align: top; margin-top: 8px; display: inline-block; }
+    .pricing-price .amount {
+      font-size: 52px; font-weight: 900; color: var(--text); letter-spacing: -3px; line-height: 1;
+    }
+    .pricing-price .period { font-size: 14px; color: var(--muted); margin-left: 4px; }
+    .pricing-note { font-size: 12px; color: var(--muted-2); margin-bottom: 28px; }
+    .pricing-divider { height: 1px; background: var(--border); margin: 24px 0; }
+    .pricing-features { display: flex; flex-direction: column; gap: 12px; margin-bottom: 32px; }
+    .pricing-feature { display: flex; align-items: flex-start; gap: 10px; font-size: 13px; color: var(--muted); }
+    .feature-check {
+      width: 18px; height: 18px; border-radius: 50%; flex-shrink: 0;
+      display: flex; align-items: center; justify-content: center; margin-top: 1px; font-size: 10px;
+    }
+    .feature-check.yes { background: rgba(16,185,129,0.15); color: var(--green); }
+    .feature-check.no  { background: var(--surface-2); color: var(--muted-2); }
+    .pricing-cta {
+      display: block; width: 100%; padding: 14px;
+      border-radius: 10px; text-align: center;
+      font-size: 14px; font-weight: 700;
+      text-decoration: none; cursor: pointer; border: none;
+      transition: opacity 200ms, transform 150ms;
+    }
+    .pricing-cta:hover { opacity: 0.85; transform: translateY(-1px); }
+    .pricing-cta.primary { background: var(--primary); color: #fff; }
+    .pricing-cta.outline { background: transparent; border: 1px solid var(--border); color: var(--text); }
+    .pricing-cta.outline:hover { border-color: #93c5fd; background: #eff6ff; }
+
+    /* ─── TIMELINE ─── */
+    .timeline { position: relative; padding-left: 32px; }
+    .timeline::before {
+      content: ''; position: absolute; left: 8px; top: 8px; bottom: 8px;
+      width: 2px; background: var(--border);
+    }
+    .timeline-item { position: relative; margin-bottom: 40px; }
+    .timeline-item::before {
+      content: ''; position: absolute; left: -28px; top: 6px;
+      width: 12px; height: 12px; border-radius: 50%;
+      background: var(--primary); border: 2px solid var(--surface);
+      box-shadow: 0 0 0 3px rgba(29,78,216,0.15);
+    }
+    .timeline-phase {
+      font-size: 11px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase;
+      color: var(--primary); margin-bottom: 4px;
+    }
+    .timeline-title { font-size: 17px; font-weight: 700; color: var(--text); margin-bottom: 8px; }
+    .timeline-desc { font-size: 13px; color: var(--muted); line-height: 1.7; }
+
+    /* ─── WHY US ─── */
+    .why-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+    .why-card {
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: 16px; padding: 28px;
+    }
+    .why-icon { font-size: 28px; margin-bottom: 16px; }
+    .why-card h3 { font-size: 15px; font-weight: 700; color: var(--text); margin-bottom: 8px; }
+    .why-card p { font-size: 13px; color: var(--muted); line-height: 1.65; }
+
+    /* ─── CTA SECTION ─── */
+    .cta-section {
+      background: linear-gradient(135deg, #eff6ff, #f0f9ff);
+      border: 1px solid #bfdbfe;
+      border-radius: 28px;
+      padding: 80px 60px;
+      text-align: center;
+      position: relative; overflow: hidden;
+    }
+    .cta-section::before {
+      content: '';
+      position: absolute; inset: 0;
+      background: radial-gradient(ellipse at 50% 0%, rgba(29,78,216,0.06), transparent 60%);
+    }
+    .cta-section > * { position: relative; z-index: 1; }
+    .cta-section h2 { font-size: clamp(28px, 4vw, 48px); font-weight: 900; letter-spacing: -1.5px; margin-bottom: 16px; }
+    .cta-section p { font-size: 16px; color: var(--muted); margin-bottom: 40px; max-width: 500px; margin-left: auto; margin-right: auto; }
+    .cta-buttons { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
+    .btn-primary {
+      background: var(--primary); color: #fff;
+      font-size: 15px; font-weight: 700;
+      padding: 16px 36px; border-radius: 12px;
+      text-decoration: none; transition: opacity 200ms, transform 150ms;
+      display: inline-block;
+    }
+    .btn-primary:hover { opacity: 0.85; transform: translateY(-2px); }
+    .btn-secondary {
+      background: #fff; color: var(--text);
+      font-size: 15px; font-weight: 600;
+      padding: 16px 36px; border-radius: 12px;
+      border: 1px solid var(--border);
+      text-decoration: none; transition: border-color 200ms, background 200ms;
+      display: inline-block;
+    }
+    .btn-secondary:hover { border-color: #93c5fd; background: #eff6ff; }
+
+    /* ─── FOOTER ─── */
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 40px;
+      display: flex; align-items: center; justify-content: space-between;
+      color: var(--muted-2); font-size: 12px;
+    }
+
+    /* ─── FADE IN ─── */
+    .fade-up {
+      opacity: 0; transform: translateY(30px);
+      transition: opacity 600ms ease, transform 600ms ease;
+    }
+    .fade-up.visible { opacity: 1; transform: translateY(0); }
+
+    /* ─── SCROLL ANCHORS (compensa nav fixa) ─── */
+    section[id], [id] { scroll-margin-top: 72px; }
+
+    /* ─── TOUCH UX ─── */
+    a, button, .pricing-cta, .btn-primary, .btn-secondary {
+      touch-action: manipulation;
+    }
+    .nav-cta {
+      min-height: 44px;
+      display: inline-flex;
+      align-items: center;
+    }
+
+    /* ─── SAFE AREA (notch iPhones) ─── */
+    nav { padding-top: calc(16px + env(safe-area-inset-top)); }
+
+    /* ─── GLOBAL OVERFLOW ─── */
+    img, canvas, iframe, video, svg { max-width: 100%; }
+
+    /* ─── RESPONSIVE ─── */
+    /* ─── RESPONSIVE INNER WRAPPERS ─── */
+    .inner-wrap { max-width: 1200px; margin: 0 auto; padding: 0 40px; }
+    .section-full { max-width: 100% !important; padding: 100px 0; }
+    .timeline-grid { margin-top: 72px; display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: start; }
+    .addons-outer { margin-top: 48px; background: var(--surface); border: 1px solid var(--border); border-radius: 20px; padding: 36px; }
+    .addons-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+    .hero-ctas { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
+    .cta-mini-stats { margin-top: 48px; display: flex; gap: 40px; justify-content: center; flex-wrap: wrap; }
+
+    @media (max-width: 900px) {
+      nav {
+        padding: 0 20px;
+        padding-top: env(safe-area-inset-top);
+        min-height: calc(52px + env(safe-area-inset-top));
+      }
+      .nav-links { display: none; }
+      section { padding: 80px 20px; }
+      .section-full { padding: 80px 0 !important; }
+      .diagnostic-wrap { grid-template-columns: 1fr; }
+      .problems-grid { grid-template-columns: 1fr; }
+      .results-grid { grid-template-columns: 1fr 1fr; }
+      .pricing-wrap { grid-template-columns: 1fr; }
+      .why-grid { grid-template-columns: 1fr; }
+      .hero-stats { flex-direction: column; gap: 24px; }
+      .solution-item { grid-template-columns: 1fr; }
+      .cta-section { padding: 48px 24px; }
+      footer { flex-direction: column; gap: 12px; text-align: center; }
+      .inner-wrap { padding: 0 20px; }
+      .timeline-grid { grid-template-columns: 1fr; gap: 32px; }
+      .addons-grid { grid-template-columns: 1fr 1fr; }
+    }
+
+    @media (max-width: 600px) {
+      nav {
+        padding: 0 16px;
+        padding-top: env(safe-area-inset-top);
+      }
+      .nav-logo-text { font-size: 14px; }
+      .nav-cta { display: none; }
+
+      /* hero */
+      .hero { padding: calc(72px + env(safe-area-inset-top)) 20px 56px; }
+      .hero-content { width: 100%; max-width: 100%; }
+      .hero h1 { font-size: clamp(30px, 9vw, 38px); letter-spacing: -1px; overflow-wrap: break-word; max-width: 280px; margin-left: auto; margin-right: auto; }
+      .desktop-line { display: none; }
+      .mobile-line { display: inline; }
+      .hero-sub { max-width: 280px; }
+      .hero-badge { font-size: 10px; margin-bottom: 20px; padding: 5px 12px; }
+      .hero-stats { margin-top: 40px; padding-top: 28px; gap: 16px; }
+      .hero-stat-num { font-size: 28px; }
+      .hero-stat-label { font-size: 11px; }
+
+      /* sections */
+      section { padding: 56px 16px; }
+      .section-full { padding: 56px 0 !important; }
+      .section-header { margin-bottom: 40px; }
+      .section-desc { font-size: 14px; }
+
+      /* hero ctas */
+      .hero-ctas { flex-direction: column; align-items: stretch; max-width: 280px; margin-left: auto; margin-right: auto; }
+
+      /* scroll indicator — flui naturalmente após os stats */
+      .scroll-indicator {
+        position: static;
+        transform: none;
+        left: auto;
+        margin-top: 32px;
+        animation: bounce-y 2s infinite;
+      }
+      .hero-ctas .btn-primary, .hero-ctas .btn-secondary { text-align: center; }
+
+      /* cards */
+      .platform-card { padding: 20px; border-radius: 14px; }
+      .metric-box { padding: 12px; }
+      .metric-box-val { font-size: 18px; }
+      .problem-card { padding: 20px; border-radius: 12px; }
+      .problem-card h3 { font-size: 14px; }
+      .why-card { padding: 20px; border-radius: 12px; }
+      .why-card h3 { font-size: 14px; }
+
+      /* solutions */
+      .solution-item { padding: 20px; gap: 14px; border-radius: 12px; }
+      .solution-num { width: 48px; height: 48px; font-size: 18px; border-radius: 10px; }
+      .solution-body h3 { font-size: 15px; }
+
+      /* results */
+      .result-card { padding: 20px; }
+      .result-num { font-size: 32px; letter-spacing: -1px; }
+      .result-unit { font-size: 16px; }
+      .results-grid { grid-template-columns: 1fr 1fr; gap: 12px; }
+
+      /* pricing */
+      .pricing-card { padding: 24px; border-radius: 14px; }
+      .pricing-price .amount { font-size: 40px; letter-spacing: -2px; }
+      .pricing-cta { padding: 14px; min-height: 48px; }
+
+      /* cta */
+      .cta-section { padding: 36px 16px; border-radius: 16px; }
+      .btn-primary, .btn-secondary { padding: 14px 20px; font-size: 14px; min-height: 48px; }
+
+      /* table scroll */
+      .compare-table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+      .compare-table { min-width: 520px; }
+      .compare-table th, .compare-table td { padding: 10px 12px; font-size: 12px; }
+
+      /* footer */
+      footer { padding: 24px 16px; font-size: 11px; }
+
+      /* inner wrappers */
+      .inner-wrap { padding: 0 16px; }
+      .timeline-grid { margin-top: 40px; gap: 24px; }
+      .addons-outer { padding: 20px 16px; border-radius: 16px; }
+      .addons-grid { grid-template-columns: 1fr 1fr; gap: 10px; }
+
+      /* cta mini stats */
+      .cta-mini-stats { gap: 20px; margin-top: 32px; }
+    }
+
+    /* ─── COMPARISON TABLE ─── */
+    .compare-table { width: 100%; border-collapse: collapse; }
+    .compare-table th, .compare-table td { padding: 14px 20px; text-align: left; font-size: 13px; border-bottom: 1px solid var(--border); }
+    .compare-table th { font-weight: 700; color: var(--muted); font-size: 11px; letter-spacing: 1px; text-transform: uppercase; background: var(--surface); }
+    .compare-table tr:hover td { background: #f8faff; }
+    .compare-table td:first-child { color: var(--text); font-weight: 500; }
+    .compare-table .badge-bad  { display: inline-block; padding: 3px 10px; border-radius: 100px; font-size: 11px; font-weight: 600; background: rgba(239,68,68,0.12); color: #EF4444; }
+    .compare-table .badge-ok   { display: inline-block; padding: 3px 10px; border-radius: 100px; font-size: 11px; font-weight: 600; background: rgba(245,158,11,0.12); color: var(--gold); }
+    .compare-table .badge-good { display: inline-block; padding: 3px 10px; border-radius: 100px; font-size: 11px; font-weight: 600; background: rgba(16,185,129,0.12); color: var(--green); }
+
+    /* ─── NUMBER COUNTER ─── */
+    .counter { display: inline-block; }
+  </style>
+</head>
+<body>
+<nav>
+  <div class="nav-logo">
+    <div class="nav-logo-dot"></div>
+    <span class="nav-logo-text">Proposta Comercial</span>
+  </div>
+  <div class="nav-links">
+    <a href="#diagnostico">Diagnóstico</a>
+    <a href="#problemas">Problemas</a>
+    <a href="#solucoes">Soluções</a>
+    <a href="#planos">Planos</a>
+    <a href="#contato">Contato</a>
+  </div>
+  <a href="#contato" class="nav-cta">Vamos Conversar</a>
+</nav>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-grid"></div>
+  <div class="hero-content">
+    <div class="hero-badge">
+      <span class="hero-badge-dot"></span>
+      Proposta Exclusiva · 11 de Junho de 2026
+    </div>
+    <h1>
+      O que trava a<br/>
+      <span class="desktop-line">conversão digital da</span>
+      <span class="mobile-line">conversão<br/>digital da</span><br/>
+      <span class="accent">La Deguste</span>
+    </h1>
+    <p class="hero-sub">
+      Analisamos o Instagram @ladegustebuffet com coleta técnica e leitura estratégica. A autoridade de 30 anos existe e a prova social é forte — agora o desafio é transformar atenção em alcance qualificado e em uma esteira previsível de orçamentos de eventos.
+    </p>
+    <div class="hero-ctas">
+      <a href="#diagnostico" class="btn-primary">Ver Diagnóstico Completo</a>
+      <a href="#planos" class="btn-secondary">Ver Planos e Preços</a>
+    </div>
+    <div class="hero-stats">
+      <div class="hero-stat">
+        <div class="hero-stat-num"><span class="counter" data-target="2508">0</span></div>
+        <div class="hero-stat-label">Seguidores no Instagram</div>
+      </div>
+      <div class="hero-stat">
+        <div class="hero-stat-num"><span class="counter" data-target="577">0</span></div>
+        <div class="hero-stat-label">Posts publicados</div>
+      </div>
+      <div class="hero-stat">
+        <div class="hero-stat-num"><span class="counter" data-target="60">0</span></div>
+        <div class="hero-stat-label">Posts analisados</div>
+      </div>
+      <div class="hero-stat">
+        <div class="hero-stat-num"><span class="counter" data-target="90">0</span></div>
+        <div class="hero-stat-label">Dias do primeiro ciclo</div>
+      </div>
+    </div>
+  </div>
+  <div class="scroll-indicator">
+    <span>Role para ver</span>
+    <div class="scroll-arrow"></div>
+  </div>
+</div>
+
+<!-- DIAGNÓSTICO -->
+<section id="diagnostico" class="fade-up">
+  <div class="section-header">
+    <span class="section-eyebrow">Análise Realizada</span>
+    <h2 class="section-title">Diagnóstico da <span class="dim">presença digital</span></h2>
+    <p class="section-desc">A análise de 11/06/2026, com coleta de 60 posts reais, mostra uma marca forte, com reputação 5 estrelas e prova social de casamentos. O ponto central não é construir reputação do zero: é dar alcance ao que já existe e organizar a captação de eventos.</p>
+  </div>
+  <div class="diagnostic-wrap">
+    <!-- Instagram -->
+    <div class="platform-card ig fade-up">
+      <div class="platform-icon ig">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="url(#igGrad)">
+          <defs>
+            <linearGradient id="igGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+              <stop offset="0%" style="stop-color:#FCB045"/>
+              <stop offset="50%" style="stop-color:#FD1D1D"/>
+              <stop offset="100%" style="stop-color:#833AB4"/>
+            </linearGradient>
+          </defs>
+          <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"/>
+        </svg>
+      </div>
+      <div class="platform-name">Instagram · @ladegustebuffet</div>
+      <div style="font-size:20px;font-weight:800;color:var(--text);">Marca Forte, Alcance Subutilizado</div>
+      <div class="platform-metrics">
+        <div class="metric-box">
+          <div class="metric-box-val">2.508</div>
+          <div class="metric-box-label">Seguidores</div>
+        </div>
+        <div class="metric-box">
+          <div class="metric-box-val">577</div>
+          <div class="metric-box-label">Posts</div>
+        </div>
+        <div class="metric-box">
+          <div class="metric-box-val" style="color:var(--gold);">0,80%</div>
+          <div class="metric-box-label">ER recente</div>
+        </div>
+        <div class="metric-box">
+          <div class="metric-box-val" style="color:var(--green);">179</div>
+          <div class="metric-box-label">Maior post</div>
+        </div>
+      </div>
+      <div class="platform-problems">
+        <div class="problem-item">
+          <div class="problem-icon warn">!</div>
+          <span>Base pequena (2.508 seguidores) para um buffet com 30 anos de mercado</span>
+        </div>
+        <div class="problem-item">
+          <div class="problem-icon bad">✕</div>
+          <span>Feed dominado por cartazes estáticos com baixo alcance (ER 0,70%)</span>
+        </div>
+        <div class="problem-item">
+          <div class="problem-icon warn">!</div>
+          <span>Carrosséis e Reels engajam até 3x mais, mas são minoria das publicações</span>
+        </div>
+        <div class="problem-item">
+          <div class="problem-icon warn">!</div>
+          <span>Rede de fornecedores parceiros pouco aproveitada para alcance</span>
+        </div>
+        <div class="problem-item">
+          <div class="problem-icon bad">✕</div>
+          <span>WhatsApp na bio, mas CTA aparece em apenas ~35% dos posts</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Funil -->
+    <div class="platform-card yt fade-up">
+      <div class="platform-icon yt">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#1d4ed8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M3 7h18"/><path d="M6 12h12"/><path d="M10 17h4"/>
+          <path d="M4 4h16a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1z"/>
+        </svg>
+      </div>
+      <div class="platform-name">Funil · Captação de Eventos</div>
+      <div style="font-size:20px;font-weight:800;color:var(--text);">Demanda Existe, Processo Precisa Organizar</div>
+      <div class="platform-metrics">
+        <div class="metric-box">
+          <div class="metric-box-val">6</div>
+          <div class="metric-box-label">Destaques</div>
+        </div>
+        <div class="metric-box">
+          <div class="metric-box-val">4</div>
+          <div class="metric-box-label">Linhas de evento</div>
+        </div>
+        <div class="metric-box">
+          <div class="metric-box-val" style="color:var(--green);">9+</div>
+          <div class="metric-box-label">Fornecedores parceiros</div>
+        </div>
+        <div class="metric-box">
+          <div class="metric-box-val" style="color:var(--gold);">90</div>
+          <div class="metric-box-label">Dias de plano</div>
+        </div>
+      </div>
+      <div class="platform-problems">
+        <div class="problem-item">
+          <div class="problem-icon bad">✕</div>
+          <span>Não há um caminho claro de “quero meu evento” até “pedi orçamento”</span>
+        </div>
+        <div class="problem-item">
+          <div class="problem-icon warn">!</div>
+          <span>Destaques organizados por espaço, não por jornada do cliente</span>
+        </div>
+        <div class="problem-item">
+          <div class="problem-icon warn">!</div>
+          <span>Degustações captam interesse, mas sem captura estruturada de leads</span>
+        </div>
+        <div class="problem-item">
+          <div class="problem-icon bad">✕</div>
+          <span>Falta cadência de cases reais e bastidores que geram desejo</span>
+        </div>
+        <div class="problem-item">
+          <div class="problem-icon warn">!</div>
+          <span>Sem relatório que conecte conteúdo a leads e eventos fechados</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Comparison Table -->
+  <div style="margin-top:32px;" class="fade-up compare-table-wrap">
+    <table class="compare-table">
+      <thead>
+        <tr><th>Métrica</th><th>Situação Atual</th><th>Referência Estratégica</th><th>Status</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Reputação da marca</td>
+          <td>30 anos · 5 estrelas no Casamentos.com</td>
+          <td>Autoridade premium acima da média do nicho local</td>
+          <td><span class="badge-good">Excelente</span></td>
+        </tr>
+        <tr>
+          <td>Base de audiência</td>
+          <td>2.508 seguidores</td>
+          <td>Pequena para o porte; meta de 10 mil+ qualificados no DF</td>
+          <td><span class="badge-bad">Atenção</span></td>
+        </tr>
+        <tr>
+          <td>Engajamento recente</td>
+          <td>ER ~0,80% nos 12 posts recentes</td>
+          <td>Mais Reels e carrosséis para reativar alcance</td>
+          <td><span class="badge-ok">Oportunidade</span></td>
+        </tr>
+        <tr>
+          <td>Melhor formato</td>
+          <td>Carrossel: ER 1,87% e 6,2 comentários médios</td>
+          <td>Reduzir cartaz estático, investir em carrossel e vídeo</td>
+          <td><span class="badge-good">Prova Forte</span></td>
+        </tr>
+        <tr>
+          <td>Rede de parceiros</td>
+          <td>Cerimoniais, decoração, foto e confeitaria marcados</td>
+          <td>Co-marketing estruturado para multiplicar alcance</td>
+          <td><span class="badge-ok">Subexplorada</span></td>
+        </tr>
+        <tr>
+          <td>Destaques</td>
+          <td>Depoimentos, Degustações, Geranium, Une Wedding, M.Hortências, Dicas</td>
+          <td>Organizar por jornada: história, eventos, degustação, orçamento</td>
+          <td><span class="badge-ok">Regular</span></td>
+        </tr>
+        <tr>
+          <td>Funil de orçamento</td>
+          <td>WhatsApp na bio, CTA em ~35% dos posts</td>
+          <td>CTA em todos os posts + captura via degustações</td>
+          <td><span class="badge-bad">Informal</span></td>
+        </tr>
+        <tr>
+          <td>Mensuração</td>
+          <td>Sem relatório de performance</td>
+          <td>Painel mensal conectando conteúdo, leads e eventos</td>
+          <td><span class="badge-bad">Ausente</span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- PROBLEMAS -->
+<section id="problemas" class="section-full" style="background: linear-gradient(180deg, transparent, #eff6ff, transparent);">
+  <div class="inner-wrap">
+    <div class="section-header fade-up">
+      <span class="section-eyebrow">O Que Está Travando Você</span>
+      <h2 class="section-title">6 problemas críticos <span class="dim">identificados</span></h2>
+      <p class="section-desc">Esses são os pontos que impedem o perfil de transformar 30 anos de autoridade e a prova social de casamentos em uma esteira previsível de orçamentos.</p>
+    </div>
+    <div class="problems-grid">
+      <div class="problem-card fade-up">
+        <div class="problem-card-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#1d4ed8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-4 4"/></svg></div>
+        <h3>Base Pequena para o Porte do Negócio</h3>
+        <p>São 2.508 seguidores para um buffet com 577 posts e três décadas de mercado. O perfil produz muito, mas não cresce audiência qualificada — o que limita o alcance de cada publicação na praça certa.</p>
+      </div>
+      <div class="problem-card fade-up">
+        <div class="problem-card-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#1d4ed8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="m8 13 2.5 2.5L16 9"/><path d="M8 3v18"/></svg></div>
+        <h3>Feed Dominado por Cartazes Estáticos</h3>
+        <p>37% das publicações são imagens estáticas — muitas delas cartazes de degustação e avisos — com o pior engajamento (ER 0,70%). Esse formato informa, mas não gera desejo nem alcance.</p>
+      </div>
+      <div class="problem-card fade-up">
+        <div class="problem-card-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#1d4ed8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a4 4 0 0 1-4 4H7l-4 4V7a4 4 0 0 1 4-4h6"/><path d="M16 3h5v5"/><path d="m15 9 6-6"/></svg></div>
+        <h3>Orçamentos Sem Funil Claro</h3>
+        <p>O WhatsApp está na bio, mas o CTA aparece em apenas ~35% dos posts. O interesse de quem assiste aos Reels não é canalizado de forma consistente para um pedido de orçamento.</p>
+      </div>
+      <div class="problem-card fade-up">
+        <div class="problem-card-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#1d4ed8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 1 1 5.82 1c0 2-3 2-3 4"/><path d="M12 17h.01"/></svg></div>
+        <h3>Cases Reais Subaproveitados</h3>
+        <p>Os casamentos reais e editoriais são o conteúdo que mais engaja, mas aparecem de forma esporádica. Falta uma cadência fixa de histórias que transformem cada evento em prova social recorrente.</p>
+      </div>
+      <div class="problem-card fade-up">
+        <div class="problem-card-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#1d4ed8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19V5"/><path d="M4 5h16l-2 5 2 5H4"/></svg></div>
+        <h3>Destaques Sem Jornada</h3>
+        <p>Os destaques têm bons temas, mas estão organizados por espaço parceiro em vez de guiar o cliente: quem é a La Deguste, tipos de evento, degustação e como pedir orçamento.</p>
+      </div>
+      <div class="problem-card fade-up">
+        <div class="problem-card-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#1d4ed8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20V10"/><path d="M10 20V4"/><path d="M16 20v-6"/><path d="M22 20H2"/></svg></div>
+        <h3>Rede de Parceiros Ociosa</h3>
+        <p>Cerimoniais, decoradores, fotógrafos e confeiteiros são marcados em dezenas de posts, mas sem co-marketing estruturado. Cada parceiro tem uma audiência de noivos que poderia chegar à La Deguste.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SOLUÇÕES -->
+<section id="solucoes" class="fade-up">
+  <div class="section-header">
+    <span class="section-eyebrow">Nossa Proposta</span>
+    <h2 class="section-title">O que vamos <span class="dim">fazer por você</span></h2>
+    <p class="section-desc">Um sistema de conteúdo e conversão para transformar o Instagram em uma esteira de desejo, prova social, captação por degustação e orçamentos de eventos.</p>
+  </div>
+  <div class="solutions-list">
+    <div class="solution-item fade-up">
+      <div class="solution-num">01</div>
+      <div class="solution-body">
+        <h3>Funil de Orçamento e Captação</h3>
+        <p>Reorganizamos bio, link, destaques e CTAs para conduzir o cliente por uma jornada clara: conhecer a marca, ver tipos de evento, participar da degustação e pedir orçamento no WhatsApp — com respostas padronizadas e captura de leads.</p>
+        <div class="solution-tags">
+          <span class="tag green">Bio + Link</span>
+          <span class="tag">Destaques por Jornada</span>
+          <span class="tag gold">Captação por Degustação</span>
+          <span class="tag">WhatsApp</span>
+        </div>
+      </div>
+    </div>
+    <div class="solution-item fade-up">
+      <div class="solution-num">02</div>
+      <div class="solution-body">
+        <h3>Calendário Editorial de Eventos</h3>
+        <p>Criamos uma matriz de temas que equilibra cases reais, bastidores de montagem, cardápios, editoriais e datas estratégicas do calendário de casamentos — reduzindo a dependência de cartazes e avisos estáticos.</p>
+        <div class="solution-tags">
+          <span class="tag">Roteiros de Reels</span>
+          <span class="tag green">Carrosséis de Cases</span>
+          <span class="tag gold">Bastidores</span>
+          <span class="tag">Séries Fixas</span>
+        </div>
+      </div>
+    </div>
+    <div class="solution-item fade-up">
+      <div class="solution-num">03</div>
+      <div class="solution-body">
+        <h3>Crescimento de Base com Co-marketing</h3>
+        <p>Estruturamos ações conjuntas com a rede de fornecedores parceiros (cerimoniais, decoração, foto, confeitaria) e tráfego pago local segmentado para noivos de Brasília, fazendo a base crescer com seguidores realmente qualificados.</p>
+        <div class="solution-tags">
+          <span class="tag gold">Parcerias</span>
+          <span class="tag">Collabs no Reels</span>
+          <span class="tag green">Tráfego Local</span>
+          <span class="tag red">Segmentação DF</span>
+        </div>
+      </div>
+    </div>
+    <div class="solution-item fade-up">
+      <div class="solution-num">04</div>
+      <div class="solution-body">
+        <h3>Cases Reais e Prova Social Recorrente</h3>
+        <p>Transformamos cada evento realizado em conteúdo: Reels de casamentos reais, depoimentos de clientes, antes/depois de montagem e editoriais. A prova social passa a ser semanal, não eventual.</p>
+        <div class="solution-tags">
+          <span class="tag green">Casamentos Reais</span>
+          <span class="tag">Depoimentos</span>
+          <span class="tag gold">Editoriais</span>
+          <span class="tag">Stories</span>
+        </div>
+      </div>
+    </div>
+    <div class="solution-item fade-up">
+      <div class="solution-num">05</div>
+      <div class="solution-body">
+        <h3>Painel de Conteúdo, Leads e Eventos</h3>
+        <p>Todo mês conectamos performance de conteúdo a sinais comerciais: alcance, salvamentos, comentários, mensagens no WhatsApp, leads das degustações e quais conteúdos mais aproximam o cliente de fechar o evento.</p>
+        <div class="solution-tags">
+          <span class="tag gold">Relatório Mensal</span>
+          <span class="tag green">Reunião Estratégica</span>
+          <span class="tag">KPIs de Orçamento</span>
+          <span class="tag">Ajustes de Rota</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- RESULTADOS ESPERADOS -->
+<section class="section-full" style="background:linear-gradient(180deg,transparent,#f0fdf4,transparent);">
+  <div class="inner-wrap">
+    <div class="section-header fade-up">
+      <span class="section-eyebrow">Metas de Evolução</span>
+      <h2 class="section-title">O que perseguir <span class="dim">em 90 dias</span></h2>
+      <p class="section-desc">Projeções conservadoras para orientar a execução. As metas medem evolução de processo, alcance e qualificação — não são promessa de faturamento.</p>
+    </div>
+    <div class="results-grid fade-up">
+      <div class="result-card">
+        <div class="result-num"><span class="counter" data-target="3" data-suffix="×">0</span></div>
+        <div class="result-label">Potencial de aumento no alcance médio</div>
+        <div class="result-period">Mais Reels e carrosséis</div>
+      </div>
+      <div class="result-card">
+        <div class="result-num"><span class="counter" data-target="100" data-suffix="%">0</span></div>
+        <div class="result-label">Posts com CTA de orçamento</div>
+        <div class="result-period">Da bio ao WhatsApp</div>
+      </div>
+      <div class="result-card">
+        <div class="result-num"><span class="counter" data-target="2" data-suffix="×">0</span></div>
+        <div class="result-label">Crescimento da base qualificada</div>
+        <div class="result-period">Co-marketing + tráfego local</div>
+      </div>
+      <div class="result-card">
+        <div class="result-num"><span class="counter" data-target="8" data-suffix="+">0</span></div>
+        <div class="result-label">Séries e formatos validados</div>
+        <div class="result-period">Base para escala</div>
+      </div>
+    </div>
+
+    <!-- Timeline -->
+    <div class="timeline-grid fade-up">
+      <div>
+        <h3 style="font-size:20px;font-weight:800;margin-bottom:32px;">Cronograma de Execução</h3>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-phase">Mês 1</div>
+            <div class="timeline-title">Fundação e Identidade</div>
+            <div class="timeline-desc">Auditoria do perfil, matriz editorial, reorganização de bio/destaques/link, padronização de CTA de WhatsApp e primeiros roteiros de Reels e carrosséis de cases.</div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-phase">Mês 2</div>
+            <div class="timeline-title">Ativação e Alcance</div>
+            <div class="timeline-desc">Cadência completa de Reels, carrosséis e Stories. Primeiras collabs com fornecedores parceiros e testes de temas: cases reais, bastidores, cardápios e degustação.</div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-phase">Mês 3</div>
+            <div class="timeline-title">Captação e Otimização</div>
+            <div class="timeline-desc">Funil de degustação com captura de leads, fluxo de WhatsApp, tráfego local para noivos do DF e relatório conectando conteúdo, leads e orçamentos.</div>
+          </div>
+          <div class="timeline-item" style="margin-bottom:0;">
+            <div class="timeline-phase">Mês 4+</div>
+            <div class="timeline-title">Escala</div>
+            <div class="timeline-desc">Ampliação dos formatos vencedores, co-marketing recorrente, novas séries de autoridade e expansão para landing page de orçamento e CRM.</div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h3 style="font-size:20px;font-weight:800;margin-bottom:32px;">Potencial Comercial Organizado</h3>
+        <div style="display:flex;flex-direction:column;gap:16px;">
+          <div style="background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:20px;">
+            <div style="font-size:12px;color:var(--muted);font-weight:600;text-transform:uppercase;letter-spacing:1px;margin-bottom:6px;">Demanda já visível</div>
+            <div style="font-size:24px;font-weight:800;">Casamentos, corporativo e formaturas</div>
+            <div style="font-size:12px;color:var(--muted-2);margin-top:4px;">Quatro linhas de evento de alto ticket atendidas pela marca</div>
+          </div>
+          <div style="background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:20px;">
+            <div style="font-size:12px;color:var(--muted);font-weight:600;text-transform:uppercase;letter-spacing:1px;margin-bottom:6px;">Captação por degustação</div>
+            <div style="font-size:24px;font-weight:800;">Lead a cada interessado</div>
+            <div style="font-size:12px;color:var(--muted-2);margin-top:4px;">Estimativa de organização do fluxo, não promessa de fechamento</div>
+          </div>
+          <div style="background:linear-gradient(135deg,rgba(16,185,129,0.1),rgba(16,185,129,0.05));border:1px solid rgba(16,185,129,0.2);border-radius:14px;padding:20px;">
+            <div style="font-size:12px;color:var(--green);font-weight:700;text-transform:uppercase;letter-spacing:1px;margin-bottom:6px;">Ganho esperado do sistema</div>
+            <div style="font-size:28px;font-weight:900;color:var(--green);">Mais orçamentos qualificados</div>
+            <div style="font-size:12px;color:var(--muted-2);margin-top:4px;">Cliente chega mais decidido e a equipe responde com consistência</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PLANOS E PREÇOS -->
+<section id="planos" class="fade-up">
+  <div class="section-header">
+    <span class="section-eyebrow">Planos e Investimento</span>
+    <h2 class="section-title">Escolha o plano <span class="dim">certo para você</span></h2>
+    <p class="section-desc">Três níveis de atuação. Todos incluem estratégia, execução, gestão do perfil e relatório mensal. Sem taxas ocultas. Valores de referência — ajustáveis ao escopo final.</p>
+  </div>
+  <div class="pricing-wrap">
+
+    <!-- Plano Essencial -->
+    <div class="pricing-card fade-up">
+      <div class="pricing-plan">Plano 01</div>
+      <div class="pricing-name">Essencial</div>
+      <div class="pricing-desc">Para organizar a vitrine, manter consistência e começar a captar orçamentos pelo Instagram.</div>
+      <div class="pricing-price">
+        <span class="currency">R$</span>
+        <span class="amount">1.490</span>
+        <span class="period">/mês</span>
+      </div>
+      <div class="pricing-note">+ Imposto · sem fidelidade no 1° mês</div>
+      <div class="pricing-divider"></div>
+      <div class="pricing-features">
+        <div class="pricing-feature"><div class="feature-check yes">✓</div><span>Gestão completa do Instagram</span></div>
+        <div class="pricing-feature"><div class="feature-check yes">✓</div><span>12 conteúdos/mês entre Reels, carrosséis e estáticos</span></div>
+        <div class="pricing-feature"><div class="feature-check yes">✓</div><span>Planejamento editorial mensal</span></div>
+        <div class="pricing-feature"><div class="feature-check yes">✓</div><span>Otimização de bio, destaques e CTA de WhatsApp</span></div>
+        <div class="pricing-feature"><div class="feature-check yes">✓</div><span>Legendas com CTA de orçamento</span></div>
+        <div class="pricing-feature"><div class="feature-check yes">✓</div><span>Relatório mensal de métricas</span></div>
+        <div class="pricing-feature"><div class="feature-check no">–</div><span style="color:var(--muted-2);">Cobertura de degustações/eventos</span></div>
+        <div class="pricing-feature"><div class="feature-check no">–</div><span style="color:var(--muted-2);">Co-marketing com parceiros</span></div>
+        <div class="pricing-feature"><div class="feature-check no">–</div><span style="color:var(--muted-2);">Gestão de tráfego pago</span></div>
+      </div>
+      <a href="#contato" class="pricing-cta outline">Começar com Essencial</a>
+    </div>
+
+    <!-- Plano Crescimento (Destaque) -->
+    <div class="pricing-card featured fade-up">
+      <div class="pricing-badge">Mais Indicado</div>
+      <div class="pricing-plan">Plano 02</div>
+      <div class="pricing-name">Crescimento</div>
+      <div class="pricing-desc">O plano completo para crescer a base, gerar desejo com cases reais e estruturar a captação de eventos.</div>
+      <div class="pricing-price">
+        <span class="currency">R$</span>
+        <span class="amount">2.890</span>
+        <span class="period">/mês</span>
+      </div>
+      <div class="pricing-note">+ Imposto · sem fidelidade no 1° mês</div>
+      <div class="pricing-divider"></div>
+      <div class="pricing-features">
+        <div class="pricing-feature"><div class="feature-check yes">✓</div><span>Tudo do Plano Essencial</span></div>
+        <div class="pricing-feature"><div class="feature-check yes">✓</div><span>20 conteúdos/mês com foco em Reels e carrosséis</span></div>
+        <div class="pricing-feature"><div class="feature-check yes">✓</div><span>1 cobertura mensal de degustação ou evento</span></div>
+        <div class="pricing-feature"><div class="feature-check yes">✓</div><span>Roteiros de vídeo e direção de gravação</span></div>
+        <div class="pricing-feature"><div class="feature-check yes">✓</div><span>Co-marketing com fornecedores parceiros</span></div>
+        <div class="pricing-feature"><div class="feature-check yes">✓</div><span>Funil de captação de leads via degustação</span></div>
+        <div class="pricing-feature"><div class="feature-check yes">✓</div><span>Reunião estratégica mensal</span></div>
+        <div class="pricing-feature"><div class="feature-check yes">✓</div><span>Relatório com insights de conversão</span></div>
+        <div class="pricing-feature"><div class="feature-check no">–</div><span style="color:var(--muted-2);">Tráfego pago recorrente</span></div>
+      </div>
+      <a href="#contato" class="pricing-cta primary">Começar com Crescimento</a>
+    </div>
+
+    <!-- Plano Performance Total -->
+    <div class="pricing-card fade-up">
+      <div class="pricing-plan">Plano 03</div>
+      <div class="pricing-name">Performance Total</div>
+      <div class="pricing-desc">Para transformar o perfil em referência de buffet premium no DF e escalar a captação com mídia paga.</div>
+      <div class="pricing-price">
+        <span class="currency">R$</span>
+        <span class="amount">4.900</span>
+        <span class="period">/mês</span>
+      </div>
+      <div class="pricing-note">+ Imposto · verba de mídia separada</div>
+      <div class="pricing-divider"></div>
+      <div class="pricing-features">
+        <div class="pricing-feature"><div class="feature-check yes">✓</div><span>Tudo do Plano Crescimento</span></div>
+        <div class="pricing-feature"><div class="feature-check yes">✓</div><span>30 conteúdos/mês com calendário multiformato</span></div>
+        <div class="pricing-feature"><div class="feature-check yes">✓</div><span>Landing page de orçamento com captura de leads</span></div>
+        <div class="pricing-feature"><div class="feature-check yes">✓</div><span>Gestão de tráfego pago local (Meta Ads)</span></div>
+        <div class="pricing-feature"><div class="feature-check yes">✓</div><span>2 coberturas mensais de eventos/degustações</span></div>
+        <div class="pricing-feature"><div class="feature-check yes">✓</div><span>Dashboard personalizado de conteúdo e leads</span></div>
+        <div class="pricing-feature"><div class="feature-check yes">✓</div><span>Reunião estratégica quinzenal</span></div>
+        <div class="pricing-feature"><div class="feature-check yes">✓</div><span>Suporte prioritário via WhatsApp</span></div>
+      </div>
+      <a href="#contato" class="pricing-cta outline">Começar com Performance</a>
+    </div>
+  </div>
+
+  <!-- Add-ons -->
+  <div class="addons-outer fade-up">
+    <h3 style="font-size:16px;font-weight:700;margin-bottom:24px;color:var(--text);">Serviços Adicionais (Add-ons)</h3>
+    <div class="addons-grid">
+      <div style="background:var(--surface-2);border-radius:12px;padding:16px;">
+        <div style="font-size:18px;font-weight:800;color:var(--gold);">R$ 1290</div>
+        <div style="font-size:13px;font-weight:600;margin-top:4px;">Cobertura presencial de evento</div>
+        <div style="font-size:11px;color:var(--muted-2);margin-top:4px;">Roteiro, gravação e edição de Reels do dia</div>
+      </div>
+      <div style="background:var(--surface-2);border-radius:12px;padding:16px;">
+        <div style="font-size:18px;font-weight:800;color:var(--gold);">R$ 1.200</div>
+        <div style="font-size:13px;font-weight:600;margin-top:4px;">Gestão de tráfego pago</div>
+        <div style="font-size:11px;color:var(--muted-2);margin-top:4px;">Meta Ads local com verba separada</div>
+      </div>
+      <div style="background:var(--surface-2);border-radius:12px;padding:16px;">
+        <div style="font-size:18px;font-weight:800;color:var(--gold);">R$ 990</div>
+        <div style="font-size:13px;font-weight:600;margin-top:4px;">Landing page de orçamento</div>
+        <div style="font-size:11px;color:var(--muted-2);margin-top:4px;">Para campanha, degustação ou captação</div>
+      </div>
+      <div style="background:var(--surface-2);border-radius:12px;padding:16px;">
+        <div style="font-size:18px;font-weight:800;color:var(--gold);">A combinar</div>
+        <div style="font-size:13px;font-weight:600;margin-top:4px;">Automação WhatsApp/CRM</div>
+        <div style="font-size:11px;color:var(--muted-2);margin-top:4px;">Fluxo de tags, respostas e acompanhamento</div>
+      </div>
+    </div>
+    <p style="font-size:12px;color:var(--muted-2);margin-top:18px;">* Valores de referência sugeridos pela Oráculo, sujeitos a ajuste conforme o escopo final acordado com a La Deguste Buffet.</p>
+  </div>
+</section>
+
+<!-- POR QUE NÓS -->
+<section class="section-full" style="background:linear-gradient(180deg,transparent,#eff6ff,transparent);">
+  <div class="inner-wrap">
+    <div class="section-header fade-up">
+      <span class="section-eyebrow">Por Que Trabalhar Conosco</span>
+      <h2 class="section-title">Especialistas em <span class="dim">conteúdo que converte</span></h2>
+      <p class="section-desc">A proposta combina crescimento digital, copywriting de conversão e leitura de dados para um nicho em que desejo, prova social e confiança decidem a venda.</p>
+    </div>
+    <div class="why-grid fade-up">
+      <div class="why-card">
+        <div class="why-icon">🎯</div>
+        <h3>Foco no Nicho de Eventos</h3>
+        <p>Criamos conteúdo que valoriza casamentos, gastronomia e celebração — falando a língua de noivos, famílias e empresas que contratam buffet premium.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon">🤝</div>
+        <h3>Co-marketing com Parceiros</h3>
+        <p>Ativamos a rede de cerimoniais, decoradores, fotógrafos e confeiteiros já marcados no perfil para multiplicar alcance qualificado sem custo de mídia.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon">📊</div>
+        <h3>Decisões Baseadas em Dados</h3>
+        <p>Partimos de 60 posts reais, curtidas, comentários e reproduções. Cada mês mostra o que gerou alcance, conversa e pedidos de orçamento.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon">⚡</div>
+        <h3>Velocidade de Execução</h3>
+        <p>Onboarding em 7 dias: perfil revisado, matriz editorial pronta, primeiros roteiros definidos e CTA de WhatsApp padronizado.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon">🔄</div>
+        <h3>Sistema Escalável</h3>
+        <p>Um evento vira Reel, carrossel, Stories e depoimento. O perfil passa a trabalhar por séries e cases, não por posts isolados.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon">💬</div>
+        <h3>Parceiro Estratégico</h3>
+        <p>Trabalhamos como extensão do time da La Deguste, conectando marketing, atendimento no WhatsApp e a experiência de quem contrata o evento.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA FINAL -->
+<section id="contato">
+  <div class="cta-section fade-up">
+    <div style="display:inline-flex;align-items:center;gap:8px;background:#eff6ff;border:1px solid #bfdbfe;border-radius:100px;padding:6px 16px;font-size:12px;font-weight:700;color:var(--primary);letter-spacing:0.8px;text-transform:uppercase;margin-bottom:24px;">
+      <span style="width:6px;height:6px;border-radius:50%;background:var(--primary);animation:pulse 2s infinite;display:inline-block;"></span>
+      Próximo passo · Reunião estratégica
+    </div>
+    <h2>Pronto para transformar audiência em<br/>mais orçamentos de eventos?</h2>
+    <p>Agende uma conversa de 30 minutos para ajustar escopo, frequência, cobertura de eventos, co-marketing e prioridades comerciais do buffet.</p>
+    <div class="cta-buttons">
+      <a href="https://wa.me/5561982740045" class="btn-primary">Solicitar Reunião</a>
+      <a href="Analise-Instagram.html" class="btn-secondary">Rever Análise</a>
+    </div>
+    <div class="cta-mini-stats">
+      <div style="text-align:center;">
+        <div style="font-size:24px;font-weight:800;color:var(--text);">30 min</div>
+        <div style="font-size:12px;color:var(--muted);margin-top:4px;">Reunião de alinhamento</div>
+      </div>
+      <div style="text-align:center;">
+        <div style="font-size:24px;font-weight:800;color:var(--text);">7 dias</div>
+        <div style="font-size:12px;color:var(--muted);margin-top:4px;">Para onboarding completo</div>
+      </div>
+      <div style="text-align:center;">
+        <div style="font-size:24px;font-weight:800;color:var(--text);">90 dias</div>
+        <div style="font-size:12px;color:var(--muted);margin-top:4px;">Para o primeiro ciclo</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div>
+    <div style="font-weight:700;color:var(--text);margin-bottom:4px;">Proposta Comercial · La Deguste Buffet</div>
+    <div>Análise realizada em 11 de junho de 2026 · Dados do Instagram @ladegustebuffet</div>
+  </div>
+  <div style="text-align:right;">
+    <div>Esta proposta é confidencial e destinada exclusivamente à La Deguste Buffet.</div>
+    <div style="margin-top:4px;">Válida por 90 dias a partir da data de envio.</div>
+  </div>
+</footer>
+
+<script>
+  // ─── Intersection Observer para fade-up ───
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry, i) => {
+      if (entry.isIntersecting) {
+        setTimeout(() => {
+          entry.target.classList.add('visible');
+        }, 80);
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.08 });
+
+  document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
+
+  // ─── Counter Animation ───
+  function animateCounter(el) {
+    const target = parseInt(el.dataset.target, 10);
+    const suffix = el.dataset.suffix || '';
+    const duration = 1600;
+    const step = 16;
+    const total = Math.ceil(duration / step);
+    let current = 0;
+    const inc = target / total;
+
+    const timer = setInterval(() => {
+      current = Math.min(current + inc, target);
+      if (target >= 1000) {
+        el.textContent = Math.floor(current).toLocaleString('pt-BR') + suffix;
+      } else {
+        el.textContent = Math.floor(current) + suffix;
+      }
+      if (current >= target) {
+        clearInterval(timer);
+        if (target >= 1000) {
+          el.textContent = target.toLocaleString('pt-BR') + suffix;
+        } else {
+          el.textContent = target + suffix;
+        }
+      }
+    }, step);
+  }
+
+  const counterObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        animateCounter(entry.target);
+        counterObserver.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.3 });
+
+  document.querySelectorAll('.counter').forEach(el => counterObserver.observe(el));
+
+  // ─── Nav scroll opacity ───
+  const nav = document.querySelector('nav');
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 80) {
+      nav.style.background = 'rgba(255,255,255,0.98)';
+      nav.style.boxShadow = '0 1px 8px rgba(0,0,0,0.08)';
+    } else {
+      nav.style.background = 'rgba(255,255,255,0.92)';
+      nav.style.boxShadow = '0 1px 3px rgba(0,0,0,0.06)';
+    }
+  }, { passive: true });
+
+  // ─── Staggered children fade ───
+  document.querySelectorAll('.problems-grid, .pricing-wrap, .results-grid, .why-grid').forEach(grid => {
+    const children = grid.querySelectorAll('.fade-up');
+    const gridObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          children.forEach((child, i) => {
+            setTimeout(() => child.classList.add('visible'), i * 100);
+          });
+          gridObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.05 });
+    gridObserver.observe(grid);
+  });
+
+  // ─── prefers-reduced-motion ───
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    document.querySelectorAll('.fade-up').forEach(el => {
+      el.style.opacity = '1';
+      el.style.transform = 'none';
+      el.style.transition = 'none';
+    });
+  }
+</script>
+</body>
+</html>
