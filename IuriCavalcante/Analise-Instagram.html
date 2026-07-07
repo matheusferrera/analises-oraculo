@@ -1,0 +1,1739 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>An&aacute;lise de Instagram &mdash; Iuri Cavalcante Reis | Or&aacute;culo</title>
+
+<meta property="og:type"        content="website"/>
+<meta property="og:title"       content="An&aacute;lise de Instagram &mdash; Iuri Cavalcante Reis | Or&aacute;culo"/>
+<meta property="og:description" content="An&aacute;lise completa do perfil @iuricavalcantereis no Instagram: m&eacute;tricas, conte&uacute;do, engajamento e recomenda&ccedil;&otilde;es estrat&eacute;gicas."/>
+<meta property="og:image"        content="https://analises-oraculo.vercel.app/IuriCavalcante/og-instagram.png"/>
+<meta property="og:image:width"  content="1200"/>
+<meta property="og:image:height" content="630"/>
+<meta property="og:url"          content="https://analises-oraculo.vercel.app/IuriCavalcante/Analise-Instagram.html"/>
+<meta property="og:site_name"    content="Or&aacute;culo Tecnologia"/>
+<meta name="twitter:card"        content="summary_large_image"/>
+<meta name="twitter:image"       content="https://analises-oraculo.vercel.app/IuriCavalcante/og-instagram.png"/>
+<meta name="description"        content="An&aacute;lise completa do perfil @iuricavalcantereis no Instagram. Preparado pela Or&aacute;culo Tecnologia."/>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --primary:      #1d4ed8;
+    --primary-soft: #eff6ff;
+    --primary-mid:  #bfdbfe;
+    --bg:           #f5f6f8;
+    --surface:      #ffffff;
+    --border:       #e4e7ec;
+    --text:         #1a1d23;
+    --text-2:       #4b5563;
+    --text-3:       #9ca3af;
+    --green:        #16a34a;
+    --green-bg:     #f0fdf4;
+    --green-bdr:    #bbf7d0;
+    --amber:        #d97706;
+    --amber-bg:     #fffbeb;
+    --amber-bdr:    #fde68a;
+    --blue:         #1d4ed8;
+    --blue-bg:      #eff6ff;
+    --blue-bdr:     #bfdbfe;
+    --purple:       #7c3aed;
+    --purple-bg:    #f5f3ff;
+    --purple-bdr:   #ddd6fe;
+    --ig-grad:      linear-gradient(135deg,#1e3a8a,#1d4ed8,#312e81);
+    --radius:       12px;
+    --shadow:       0 1px 4px rgba(0,0,0,.06), 0 1px 2px rgba(0,0,0,.04);
+    --shadow-md:    0 4px 16px rgba(0,0,0,.08), 0 2px 6px rgba(0,0,0,.04);
+  }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    font-size: 16px;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+    width: 100%;
+    overflow-x: hidden;
+    padding-top: calc(48px + env(safe-area-inset-top));
+  }
+
+  .page-wrap { overflow-x: hidden; width: 100%; }
+
+  /* ── COVER ── */
+  .cover {
+    background: #0f0a1e;
+    color: #fff;
+    padding: 48px 20px 60px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    border-bottom: 1px solid rgba(29,78,216,0.2);
+  }
+  .cover-dot-grid {
+    position: absolute; inset: 0;
+    background-image: radial-gradient(circle, rgba(29,78,216,0.2) 1px, transparent 1px);
+    background-size: 32px 32px;
+    pointer-events: none;
+    mask-image: linear-gradient(to bottom, transparent, black 18%, black 82%, transparent);
+    -webkit-mask-image: linear-gradient(to bottom, transparent, black 18%, black 82%, transparent);
+  }
+  .cover-glow {
+    position: absolute; top: -10rem; left: 50%; transform: translateX(-50%);
+    width: 60rem; height: 40rem; border-radius: 50%;
+    background: radial-gradient(circle, rgba(29,78,216,0.22) 0%, transparent 62%);
+    pointer-events: none;
+  }
+  .cover::after {
+    content: '';
+    position: absolute;
+    bottom: -1px; left: 0; right: 0;
+    height: 40px;
+    background: var(--bg);
+    clip-path: ellipse(55% 100% at 50% 100%);
+  }
+  .cover-label {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: rgba(29,78,216,0.18);
+    border: 1px solid rgba(29,78,216,0.4);
+    border-radius: 100px;
+    padding: 4px 14px 4px 8px;
+    font-size: .72rem;
+    font-weight: 700;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: #60a5fa;
+  }
+  .cover-label-orb {
+    width: 8px; height: 8px; border-radius: 50%;
+    background: var(--ig-grad);
+    box-shadow: 0 0 8px rgba(29,78,216,0.8);
+    flex-shrink: 0;
+  }
+  .cover h1 {
+    font-size: clamp(2rem, 6vw, 3.2rem);
+    font-weight: 800;
+    letter-spacing: -.03em;
+    line-height: 1.1;
+    margin-bottom: 12px;
+    color: #f1f5f9;
+  }
+  .cover h1 .hl {
+    background: var(--ig-grad);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .cover-sub {
+    font-size: 1.05rem;
+    color: #94a3b8;
+    max-width: 520px;
+    margin: 0 auto 32px;
+  }
+  .cover-meta {
+    display: inline-flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: .85rem;
+    color: #93c5fd;
+  }
+  .cover-meta span { display: flex; align-items: center; gap: 6px; }
+  .ig-badge {
+    display: inline-flex; align-items: center; gap: 6px;
+    background: var(--ig-grad); border-radius: 100px;
+    padding: 4px 14px; font-size: .75rem; font-weight: 700;
+    color: #fff; margin-bottom: 16px;
+  }
+
+  /* ── NAV ── */
+  .nav {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 100;
+    background: rgba(255,255,255,0.97);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border-bottom: 1px solid var(--border);
+    padding: 0 24px;
+    padding-top: env(safe-area-inset-top);
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    overflow-x: auto;
+    scrollbar-width: none;
+    box-shadow: 0 2px 12px rgba(0,0,0,.07);
+  }
+  .nav::-webkit-scrollbar { display: none; }
+  .nav a {
+    display: block;
+    padding: 14px 14px;
+    font-size: .8rem;
+    font-weight: 600;
+    color: #4b5563;
+    text-decoration: none;
+    white-space: nowrap;
+    border-bottom: 2px solid transparent;
+    transition: color .15s, border-color .15s;
+  }
+  .nav a:hover { color: var(--primary); border-bottom-color: var(--primary); }
+  .nav a.active {
+    color: var(--primary);
+    border-bottom-color: var(--primary);
+    background: var(--primary-soft);
+    border-radius: 6px 6px 0 0;
+  }
+
+  /* ── LAYOUT ── */
+  .page { max-width: 900px; margin: 0 auto; padding: 60px 16px 90px; }
+
+  /* ── KPI STRIP ── */
+  .kpi-row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    margin-bottom: 32px;
+  }
+  .kpi {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 16px 12px;
+    box-shadow: var(--shadow);
+    text-align: center;
+  }
+  .kpi-val {
+    font-size: 1.7rem;
+    font-weight: 800;
+    color: var(--primary);
+    line-height: 1;
+    letter-spacing: -.03em;
+  }
+  .kpi-val.ig { color: var(--primary); }
+  .kpi-label {
+    font-size: .78rem;
+    color: var(--text-2);
+    margin-top: 6px;
+    font-weight: 500;
+  }
+  .kpi-delta {
+    display: inline-block;
+    font-size: .7rem;
+    font-weight: 700;
+    margin-top: 4px;
+    padding: 2px 6px;
+    border-radius: 6px;
+  }
+  .delta-up   { background: #f0fdf4; color: #16a34a; }
+  .delta-warn { background: #fffbeb; color: #d97706; }
+
+  /* ── SECTION HEADER ── */
+  .section-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 20px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--border);
+  }
+  .section-num {
+    width: 32px; height: 32px;
+    border-radius: 8px;
+    background: var(--primary-soft);
+    color: var(--primary);
+    font-size: .8rem;
+    font-weight: 800;
+    display: flex; align-items: center; justify-content: center;
+    flex-shrink: 0;
+  }
+  .section-header h2 {
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: var(--text);
+    letter-spacing: -.02em;
+  }
+  .section { margin-bottom: 48px; }
+
+  /* ── CARD ── */
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 16px;
+    box-shadow: var(--shadow);
+    margin-bottom: 16px;
+  }
+  .card h3 {
+    font-size: .95rem;
+    font-weight: 700;
+    color: var(--text);
+    margin-bottom: 14px;
+  }
+
+  /* ── TABLE ── */
+  .tbl-wrap { overflow-x: auto; }
+  table { width: 100%; border-collapse: collapse; font-size: .88rem; }
+  th {
+    background: var(--primary-soft);
+    color: var(--primary);
+    font-size: .72rem;
+    font-weight: 700;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    padding: 10px 12px;
+    text-align: left;
+  }
+  td { padding: 10px 12px; border-bottom: 1px solid var(--border); color: var(--text-2); vertical-align: top; }
+  tr:last-child td { border-bottom: none; }
+  tr:hover td { background: var(--bg); }
+  td strong { color: var(--text); font-weight: 600; }
+
+  /* ── CALLOUT ── */
+  .callout {
+    border-radius: var(--radius);
+    padding: 16px 18px;
+    margin-bottom: 16px;
+    font-size: .9rem;
+    border-left: 3px solid;
+  }
+  .callout strong { display: block; font-size: .72rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; margin-bottom: 6px; }
+  .callout.green  { background: var(--green-bg);  border-color: var(--green);  color: #166534; }
+  .callout.green strong { color: var(--green); }
+  .callout.amber  { background: var(--amber-bg);  border-color: var(--amber);  color: #92400e; }
+  .callout.amber strong { color: var(--amber); }
+  .callout.blue   { background: var(--blue-bg);   border-color: var(--blue);   color: #1e3a8a; }
+  .callout.blue strong  { color: var(--blue); }
+  .callout.purple { background: var(--purple-bg); border-color: var(--purple); color: #4c1d95; }
+  .callout.purple strong{ color: var(--purple); }
+  .callout.primary{ background: var(--primary-soft); border-color: var(--primary); color: #1e3a8a; }
+  .callout.primary strong { color: var(--primary); }
+
+  /* ── BADGE ── */
+  .badge {
+    display: inline-block;
+    font-size: .72rem;
+    font-weight: 700;
+    padding: 2px 8px;
+    border-radius: 6px;
+  }
+  .badge-green  { background: var(--green-bg);  color: var(--green);  border: 1px solid var(--green-bdr); }
+  .badge-amber  { background: var(--amber-bg);  color: var(--amber);  border: 1px solid var(--amber-bdr); }
+  .badge-blue   { background: var(--blue-bg);   color: var(--blue);   border: 1px solid var(--blue-bdr); }
+  .badge-primary{ background: var(--primary-soft); color: var(--primary); border: 1px solid var(--primary-mid); }
+  .badge-ig { background: var(--ig-grad); color: #fff; border: none; }
+
+  /* ── SWOT ── */
+  .swot-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 12px;
+    margin-top: 12px;
+  }
+  .swot-cell { border-radius: var(--radius); padding: 14px; }
+  .swot-cell h4 { font-size: .8rem; font-weight: 800; letter-spacing: .07em; text-transform: uppercase; margin-bottom: 10px; }
+  .swot-cell ul { padding-left: 1.1rem; }
+  .swot-cell li { font-size: .84rem; margin-bottom: 5px; line-height: 1.5; }
+  .swot-s { background: var(--green-bg);  border: 1px solid var(--green-bdr); }
+  .swot-s h4 { color: var(--green); }
+  .swot-s li  { color: #166534; }
+  .swot-w { background: var(--primary-soft); border: 1px solid var(--primary-mid); }
+  .swot-w h4 { color: var(--primary); }
+  .swot-w li  { color: #1e3a8a; }
+  .swot-o { background: var(--blue-bg);   border: 1px solid var(--blue-bdr); }
+  .swot-o h4 { color: var(--blue); }
+  .swot-o li  { color: #1e3a8a; }
+  .swot-t { background: var(--amber-bg);  border: 1px solid var(--amber-bdr); }
+  .swot-t h4 { color: var(--amber); }
+  .swot-t li  { color: #92400e; }
+
+  /* ── RECOMENDAÇÕES ── */
+  .rec-grid { display: grid; grid-template-columns: 1fr; gap: 16px; }
+  .rec-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 20px; box-shadow: var(--shadow); }
+  .rec-card h4 { font-size: .8rem; font-weight: 800; letter-spacing: .06em; text-transform: uppercase; margin-bottom: 12px; padding-bottom: 8px; border-bottom: 2px solid; }
+  .rec-card ul { padding-left: 1rem; }
+  .rec-card li { font-size: .84rem; color: var(--text-2); margin-bottom: 8px; line-height: 1.5; }
+  .rec-card li::marker { color: var(--primary); }
+  .rec-short h4 { color: var(--primary); border-color: var(--primary-mid); }
+  .rec-mid   h4 { color: var(--blue);    border-color: var(--blue-bdr); }
+  .rec-long  h4 { color: var(--purple);  border-color: var(--purple-bdr); }
+
+  /* ── ENGAGEMENT SAMPLE ── */
+  .post-row {
+    display: flex; align-items: center; gap: 12px;
+    padding: 12px 0; border-bottom: 1px solid var(--border);
+  }
+  .post-row:last-child { border-bottom: none; }
+  .post-icon {
+    width: 40px; height: 40px; border-radius: 8px; flex-shrink: 0;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 1.2rem;
+  }
+  .post-title { font-size: .87rem; font-weight: 600; color: var(--text); }
+  .post-meta  { font-size: .76rem; color: var(--text-3); margin-top: 2px; }
+  .post-stats { margin-left: auto; text-align: right; flex-shrink: 0; }
+  .post-likes { font-size: 1rem; font-weight: 800; color: var(--primary); }
+  .post-cmts  { font-size: .75rem; color: var(--text-3); }
+
+  /* ── HASHTAG CLOUD ── */
+  .tag-cloud { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+  .tag {
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 100px;
+    font-size: .78rem;
+    font-weight: 600;
+    border: 1px solid var(--border);
+    color: var(--text-2);
+    background: var(--surface);
+  }
+  .tag.high  { background: var(--primary-soft); color: var(--primary); border-color: var(--primary-mid); }
+  .tag.mid   { background: var(--blue-bg); color: var(--blue); border-color: var(--blue-bdr); }
+  .tag.low   { background: var(--bg); color: var(--text-3); }
+
+  /* ── FUNNEL DIAGRAM ── */
+  .funnel { display: flex; flex-direction: column; gap: 0; margin: 16px 0; }
+  .funnel-step {
+    padding: 14px 20px;
+    font-size: .88rem; font-weight: 600;
+    color: #fff;
+    position: relative;
+    clip-path: polygon(0 0, 100% 0, 95% 100%, 5% 100%);
+    margin-bottom: 4px;
+    text-align: center;
+  }
+  .f1 { background: #1d4ed8; width: 100%; }
+  .f2 { background: #2563eb; width: 85%; align-self: center; }
+  .f3 { background: #d97706; width: 68%; align-self: center; }
+  .f4 { background: #16a34a; width: 50%; align-self: center; clip-path: polygon(0 0, 100% 0, 92% 100%, 8% 100%); }
+
+  /* ── CHART ── */
+  .chart-wrap { position: relative; height: 260px; margin-top: 12px; }
+
+  /* ── SCORE RING ── */
+  .score-ring-wrap { display: flex; align-items: center; gap: 20px; flex-wrap: wrap; flex-direction: column; }
+  .score-ring {
+    flex-shrink: 0;
+    width: 120px; height: 120px; border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    flex-direction: column;
+    background: conic-gradient(#1d4ed8 0% 72%, #e4e7ec 72% 100%);
+  }
+  .score-inner {
+    width: 86px; height: 86px; border-radius: 50%;
+    background: var(--surface);
+    display: flex; align-items: center; justify-content: center; flex-direction: column;
+  }
+  .score-val { font-size: 1.8rem; font-weight: 800; color: var(--primary); line-height: 1; }
+  .score-max { font-size: .7rem; color: var(--text-3); }
+  .score-labels { flex: 1; }
+  .score-item { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; }
+  .score-bar-bg { flex: 1; height: 6px; background: var(--border); border-radius: 3px; }
+  .score-bar    { height: 6px; border-radius: 3px; background: var(--primary); }
+  .score-item-label { font-size: .78rem; color: var(--text-2); width: 120px; flex-shrink: 0; }
+  .score-item-val   { font-size: .78rem; font-weight: 700; color: var(--text); width: 28px; text-align: right; flex-shrink: 0; }
+
+  /* ── COMPARISON ── */
+  .vs-grid { display: grid; grid-template-columns: 1fr; gap: 16px; }
+  .vs-card { border-radius: var(--radius); padding: 20px; border: 1px solid; }
+  .vs-ig { background: var(--primary-soft); border-color: var(--primary-mid); }
+  .vs-yt { background: var(--blue-bg); border-color: var(--blue-bdr); }
+  .vs-platform { font-size: .7rem; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; margin-bottom: 12px; }
+  .vs-ig .vs-platform { color: var(--primary); }
+  .vs-yt .vs-platform { color: var(--blue); }
+  .vs-metric { display: flex; justify-content: space-between; font-size: .84rem; padding: 6px 0; border-bottom: 1px solid rgba(0,0,0,.06); }
+  .vs-metric:last-child { border-bottom: none; }
+  .vs-metric-label { color: var(--text-2); }
+  .vs-metric-val { font-weight: 700; }
+  .vs-ig .vs-metric-val { color: var(--primary); }
+  .vs-yt .vs-metric-val { color: var(--blue); }
+
+  /* ── COLLAB CARDS ── */
+  .collab-grid { display: grid; grid-template-columns: 1fr; gap: 16px; margin-top: 12px; }
+  .collab-card {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: var(--radius); padding: 18px;
+    display: flex; align-items: center; gap: 14px;
+    box-shadow: var(--shadow);
+  }
+  .collab-avatar {
+    width: 48px; height: 48px; border-radius: 50%;
+    background: var(--ig-grad); display: flex; align-items: center;
+    justify-content: center; font-size: 1.4rem; flex-shrink: 0;
+  }
+  .collab-handle { font-size: .9rem; font-weight: 700; color: var(--text); }
+  .collab-desc   { font-size: .78rem; color: var(--text-3); margin-top: 2px; }
+
+  /* ── FOOTER ── */
+  footer {
+    background: #0f0a1e;
+    color: #94a3b8;
+    padding: 40px 24px;
+    text-align: center;
+    font-size: .84rem;
+    margin-bottom: 64px;
+  }
+  footer strong { color: #f1f5f9; }
+  footer a { color: #60a5fa; text-decoration: none; }
+
+  /* ── DIAGNÓSTICO EXECUTIVO ── */
+  .diag-wrap {
+    background: #1d4ed8;
+    border-radius: var(--radius);
+    padding: 24px 20px;
+    margin-bottom: 40px;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+  }
+  .diag-wrap::before {
+    content: '';
+    position: absolute; inset: 0;
+    background-image: radial-gradient(circle, rgba(255,255,255,0.12) 1px, transparent 1px);
+    background-size: 28px 28px;
+    pointer-events: none;
+  }
+  .diag-title {
+    font-size: 1.1rem;
+    font-weight: 800;
+    color: #ffffff;
+    margin-bottom: 4px;
+    position: relative;
+  }
+  .diag-sub {
+    font-size: .82rem;
+    color: rgba(255,255,255,0.75);
+    margin-bottom: 20px;
+    position: relative;
+  }
+  .diag-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    margin-bottom: 24px;
+    position: relative;
+  }
+  .diag-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    background: rgba(255,255,255,0.12);
+    border-radius: 10px;
+    padding: 12px 14px;
+    border: 1px solid rgba(255,255,255,0.18);
+  }
+  .diag-dot {
+    width: 10px; height: 10px; border-radius: 50%;
+    flex-shrink: 0; margin-top: 5px;
+  }
+  .diag-dot.green  { background: #4ade80; box-shadow: 0 0 6px #4ade80; }
+  .diag-dot.yellow { background: #fbbf24; box-shadow: 0 0 6px #fbbf24; }
+  .diag-dot.red    { background: #f87171; box-shadow: 0 0 6px #f87171; }
+  .diag-item-title { font-size: .88rem; font-weight: 700; color: #ffffff; line-height: 1.3; }
+  .diag-item-desc  { font-size: .78rem; color: rgba(255,255,255,0.72); margin-top: 2px; line-height: 1.4; }
+  .diag-legend {
+    display: flex; gap: 16px; flex-wrap: wrap;
+    font-size: .72rem; color: rgba(255,255,255,0.65);
+    margin-bottom: 20px; position: relative;
+  }
+  .diag-legend span { display: flex; align-items: center; gap: 5px; }
+  .diag-cta-label {
+    font-size: .68rem; font-weight: 800; letter-spacing: .1em;
+    text-transform: uppercase; color: rgba(255,255,255,0.9);
+    margin-bottom: 10px; position: relative;
+  }
+  .oraculo-pills {
+    display: flex; flex-wrap: wrap; gap: 8px; position: relative;
+  }
+  .oraculo-pill {
+    display: inline-flex; align-items: center; gap: 6px;
+    background: rgba(255,255,255,0.15);
+    border: 1px solid rgba(255,255,255,0.28);
+    border-radius: 100px;
+    padding: 6px 12px;
+    font-size: .78rem; font-weight: 600; color: #ffffff;
+  }
+  .oraculo-pill .pill-icon { font-size: .9rem; }
+
+  /* ── INTRO DIAGNÓSTICO ── */
+  .intro-diag { margin-bottom: 28px; }
+  .intro-diag-greeting {
+    font-size: .78rem; font-weight: 700; text-transform: uppercase;
+    letter-spacing: .1em; color: var(--text-3); margin-bottom: 6px;
+  }
+  .intro-diag-title {
+    font-size: clamp(1.4rem, 4vw, 2rem); font-weight: 800; color: var(--text);
+    letter-spacing: -.03em; line-height: 1.2; margin-bottom: 10px;
+  }
+  .intro-diag-title span { color: var(--primary); }
+  .intro-diag-lead {
+    font-size: 1rem; color: var(--text-2); max-width: 680px;
+    line-height: 1.7; margin-bottom: 28px;
+  }
+
+  /* ── SCORE CARD ── */
+  .score-block {
+    display: grid; grid-template-columns: auto 1fr;
+    gap: 24px; align-items: center;
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: var(--radius); padding: 28px;
+    box-shadow: var(--shadow-md); margin-bottom: 20px;
+  }
+  .score-circle {
+    width: 110px; height: 110px; border-radius: 50%;
+    background: conic-gradient(var(--primary) 0% 64%, #e4e7ec 64% 100%);
+    display: flex; align-items: center; justify-content: center;
+    position: relative; flex-shrink: 0;
+  }
+  .score-diag-inner {
+    width: 80px; height: 80px; border-radius: 50%;
+    background: var(--surface);
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+  }
+  .score-num {
+    font-size: 1.7rem; font-weight: 900; color: var(--primary);
+    line-height: 1; letter-spacing: -.04em;
+  }
+  .score-den { font-size: .65rem; font-weight: 700; color: var(--text-3); letter-spacing: .04em; }
+  .score-info h3 {
+    font-size: 1.15rem; font-weight: 800; color: var(--text);
+    margin-bottom: 6px; margin-top: 0; border: none; padding: 0;
+  }
+  .score-info p { font-size: .9rem; color: var(--text-2); margin-bottom: 14px; }
+  .score-bars { display: flex; flex-direction: column; gap: 8px; }
+  .score-bar-row { display: flex; align-items: center; gap: 10px; font-size: .8rem; }
+  .score-bar-label { width: 140px; color: var(--text-2); font-weight: 500; flex-shrink: 0; }
+  .score-bar-track { flex: 1; height: 7px; background: #f0f2f5; border-radius: 4px; overflow: hidden; }
+  .score-bar-fill  { height: 100%; border-radius: 4px; }
+  .score-bar-val { width: 30px; text-align: right; font-weight: 700; color: var(--text); font-size: .78rem; }
+
+  /* ── SITUAÇÃO + COMO AJUDAMOS ── */
+  .sithelp-grid { display: grid; grid-template-columns: 1fr; gap: 16px; margin-bottom: 32px; }
+  .sit-card, .help-card { border-radius: var(--radius); padding: 22px; border: 1px solid; }
+  .sit-card  { background: var(--amber-bg); border-color: var(--amber-bdr); }
+  .help-card { background: var(--green-bg); border-color: var(--green-bdr); }
+  .sithelp-head {
+    display: flex; align-items: center; gap: 10px;
+    font-size: .75rem; font-weight: 800; text-transform: uppercase; letter-spacing: .09em;
+    margin-bottom: 14px;
+  }
+  .sit-card  .sithelp-head { color: var(--amber); }
+  .help-card .sithelp-head { color: var(--green); }
+  .sithelp-head-icon {
+    width: 28px; height: 28px; border-radius: 8px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: .85rem; flex-shrink: 0;
+  }
+  .sit-card  .sithelp-head-icon { background: rgba(180,83,9,.12); }
+  .help-card .sithelp-head-icon { background: rgba(21,128,61,.12); }
+  .sithelp-list { list-style: none; padding: 0; }
+  .sithelp-list li {
+    font-size: .86rem; padding: 7px 0;
+    border-bottom: 1px solid rgba(0,0,0,.06);
+    display: flex; align-items: flex-start; gap: 8px; line-height: 1.5;
+  }
+  .sithelp-list li:last-child { border-bottom: none; padding-bottom: 0; }
+  .sithelp-list li::before { font-weight: 800; flex-shrink: 0; margin-top: 1px; }
+  .sit-card  .sithelp-list li { color: #92400e; }
+  .sit-card  .sithelp-list li::before { content: '–'; color: var(--amber); }
+  .help-card .sithelp-list li { color: #166534; }
+  .help-card .sithelp-list li::before { content: '✓'; color: var(--green); }
+
+  /* ── FORMAT GRID (mobile: empilhado, desktop: lado a lado) ── */
+  .format-grid { display: grid; grid-template-columns: 1fr; gap: 16px; align-items: center; }
+
+  /* ── TABLET (≥ 600px) ── */
+  @media (min-width: 600px) {
+    .diag-grid   { grid-template-columns: 1fr 1fr; }
+    .kpi-row     { grid-template-columns: repeat(3, 1fr); gap: 16px; }
+    .kpi         { padding: 18px 14px; }
+    .kpi-val     { font-size: 1.9rem; }
+    .collab-grid { grid-template-columns: 1fr 1fr; }
+    .vs-grid     { grid-template-columns: 1fr 1fr; }
+    .sithelp-grid { grid-template-columns: 1fr 1fr; }
+    .score-block  { grid-template-columns: auto 1fr; text-align: left; }
+    .score-circle { margin: 0; }
+    .score-bar-row { flex-wrap: nowrap; }
+    .score-bar-label { width: 120px; }
+  }
+
+  /* ── DESKTOP (≥ 768px) ── */
+  @media (min-width: 768px) {
+    .format-grid { grid-template-columns: 1fr 1fr; }
+    .cover       { padding: 64px 32px 72px; }
+    .page        { padding: 56px 24px 100px; }
+    .kpi-row     { grid-template-columns: repeat(5, 1fr); margin-bottom: 40px; }
+    .kpi-val     { font-size: 2rem; }
+    .kpi         { padding: 20px 18px; }
+    .card        { padding: 24px; }
+    .swot-grid   { grid-template-columns: 1fr 1fr; }
+    .swot-cell   { padding: 18px; }
+    .rec-grid    { grid-template-columns: repeat(3, 1fr); }
+    .score-ring-wrap { flex-direction: row; gap: 28px; }
+    .score-block  { padding: 28px; gap: 24px; }
+    .score-circle { width: 110px; height: 110px; }
+    .score-num    { font-size: 1.7rem; }
+    .score-bar-label { width: 140px; font-size: .8rem; }
+    .score-bar-track { height: 7px; }
+    .sit-card, .help-card { padding: 22px; }
+    .sithelp-list li { font-size: .86rem; }
+  }
+
+  /* ── SCROLL ANCHORS (compensa a nav fixa) ── */
+  .section,
+  #diagnostico {
+    scroll-margin-top: calc(52px + env(safe-area-inset-top));
+  }
+
+  /* ── TOUCH / MOBILE UX ── */
+  .nav a,
+  a,
+  button {
+    touch-action: manipulation;
+  }
+  .nav a {
+    -webkit-tap-highlight-color: rgba(29,78,216,0.12);
+  }
+
+  /* ── MOBILE BASE (≤ 479px) ── */
+  @media (max-width: 479px) {
+    /* nav */
+    .nav {
+      padding: 0 4px;
+      padding-top: env(safe-area-inset-top);
+      gap: 0;
+      min-height: 44px;
+    }
+    .nav a {
+      padding: 10px 8px;
+      font-size: .72rem;
+      flex-shrink: 0;
+      min-height: 44px;
+      display: flex;
+      align-items: center;
+    }
+
+    /* page */
+    .page { padding: 32px 14px calc(72px + env(safe-area-inset-bottom)); }
+
+    /* cover */
+    .cover { padding: 36px 16px 50px; }
+    .cover h1 { font-size: clamp(1.5rem, 6vw, 2.6rem); }
+    .cover-sub { font-size: .88rem; max-width: 100%; }
+    .cover-meta { font-size: .76rem; gap: 8px; flex-direction: column; }
+
+    /* kpi */
+    .kpi-val { font-size: 1.4rem; }
+    .kpi { padding: 13px 10px; }
+    .kpi-label { font-size: .72rem; }
+    .kpi-delta { font-size: .65rem; }
+
+    /* section */
+    .section { margin-bottom: 32px; }
+    .section-header { margin-bottom: 14px; }
+    .section-header h2 { font-size: 1rem; }
+
+    /* diag */
+    .diag-wrap { padding: 18px 14px; }
+    .diag-title { font-size: .97rem; }
+    .diag-item { padding: 10px 11px; gap: 10px; }
+    .diag-item-title { font-size: .84rem; }
+    .diag-item-desc  { font-size: .74rem; }
+    .oraculo-pill { font-size: .72rem; padding: 5px 10px; }
+
+    /* score block */
+    .score-block { grid-template-columns: 1fr; text-align: center; padding: 16px; gap: 16px; }
+    .score-circle { width: 90px; height: 90px; margin: 0 auto; }
+    .score-num { font-size: 1.4rem; }
+    .score-bar-row { flex-wrap: wrap; gap: 4px; }
+    .score-bar-label { width: 100%; font-size: .74rem; }
+    .score-bar-track { flex: 1; min-width: 0; height: 6px; }
+    .score-bar-val { width: auto; font-size: .72rem; }
+    .score-info h3 { font-size: 1rem; }
+    .score-info p  { font-size: .83rem; }
+
+    /* sithelp */
+    .sithelp-grid { grid-template-columns: 1fr; gap: 12px; }
+    .sit-card, .help-card { padding: 14px; }
+    .sithelp-list li { font-size: .8rem; }
+    .intro-diag-title { font-size: 1.3rem; }
+    .intro-diag-lead  { font-size: .88rem; margin-bottom: 18px; }
+
+    /* cards */
+    .card { padding: 14px 13px; }
+    .rec-card { padding: 14px; }
+    .rec-card li { font-size: .8rem; }
+    .collab-card { padding: 14px; gap: 10px; }
+
+    /* chart */
+    .chart-wrap { height: 200px; }
+
+    /* score */
+    .score-ring { width: 100px; height: 100px; }
+    .score-inner { width: 72px; height: 72px; }
+    .score-val { font-size: 1.5rem; }
+    .score-item-label { width: 90px; font-size: .72rem; }
+
+    /* footer */
+    footer { padding: 28px 16px; font-size: .78rem; margin-bottom: 0; }
+  }
+
+  /* ── MOBILE 480–599px ── */
+  @media (min-width: 480px) and (max-width: 599px) {
+    .nav { padding: 0 16px; gap: 2px; }
+    .nav a { padding: 12px 10px; font-size: .76rem; }
+    .page { padding: 36px 20px 80px; }
+    .kpi-row { grid-template-columns: repeat(3, 1fr); }
+  }
+
+  /* ── OVERFLOW HORIZONTAL GLOBAL ── */
+  img, canvas, iframe, video, svg { max-width: 100%; }
+
+  /* ── INSIGHT "O QUE ISSO SIGNIFICA PARA VOCÊ" ── */
+  .insight {
+    margin-top: 20px;
+    border-radius: var(--radius);
+    border: 1.5px solid var(--border);
+    overflow: hidden;
+    box-shadow: var(--shadow);
+  }
+  .insight-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 11px 18px;
+    font-size: .72rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+  }
+  .insight-header svg { flex-shrink: 0; }
+  .insight-body {
+    padding: 16px 18px;
+    font-size: .9rem;
+    line-height: 1.65;
+    background: var(--surface);
+    color: var(--text-2);
+  }
+  .insight-body strong { color: var(--text); }
+  .insight-body .verdict {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: 700;
+    font-size: .78rem;
+    text-transform: uppercase;
+    letter-spacing: .07em;
+    margin-bottom: 8px;
+    padding: 3px 10px;
+    border-radius: 100px;
+  }
+  .insight.good   .insight-header { background: var(--green-bg);    color: var(--green);   border-bottom: 1px solid var(--green-bdr); }
+  .insight.good   .verdict        { background: var(--green-bg);    color: var(--green); }
+  .insight.warn   .insight-header { background: var(--amber-bg);    color: var(--amber);   border-bottom: 1px solid var(--amber-bdr); }
+  .insight.warn   .verdict        { background: var(--amber-bg);    color: var(--amber); }
+  .insight.bad    .insight-header { background: var(--primary-soft);color: var(--primary); border-bottom: 1px solid var(--primary-mid); }
+  .insight.bad    .verdict        { background: var(--primary-soft);color: var(--primary); }
+  .insight.info   .insight-header { background: var(--blue-bg);     color: var(--blue);    border-bottom: 1px solid var(--blue-bdr); }
+  .insight.info   .verdict        { background: var(--blue-bg);     color: var(--blue); }
+  .insight.purple .insight-header { background: var(--purple-bg);   color: var(--purple);  border-bottom: 1px solid var(--purple-bdr); }
+  .insight.purple .verdict        { background: var(--purple-bg);   color: var(--purple); }
+
+  @media (max-width: 479px) {
+    .insight-header { padding: 9px 13px; font-size: .66rem; }
+    .insight-body   { padding: 12px 13px; font-size: .84rem; }
+  }
+</style>
+</head>
+<body>
+<div class="page-wrap">
+
+<!-- COVER -->
+<div class="cover">
+  <div class="cover-dot-grid"></div>
+  <div class="cover-glow"></div>
+  <div class="ig-badge">&#128247; Instagram @iuricavalcantereis</div>
+  <div class="cover-label">
+    <span class="cover-label-orb"></span>
+    Or&aacute;culo Tecnologia &middot; An&aacute;lise de Redes Sociais
+  </div>
+  <h1>Iuri Cavalcante Reis no <span class="hl">Instagram</span></h1>
+  <p class="cover-sub">An&aacute;lise completa do perfil @iuricavalcantereis &mdash; m&eacute;tricas, conte&uacute;do, engajamento, posts mais curtidos e estrat&eacute;gia de crescimento para a marca pessoal e o escrit&oacute;rio</p>
+  <div class="cover-meta">
+    <span>&#128197; 19 de junho de 2026</span>
+    <span>&#128101; 11.039 seguidores</span>
+    <span>&#128247; 105 posts</span>
+    <span>&#9989; Conta verificada</span>
+  </div>
+</div>
+
+<!-- NAV -->
+<nav class="nav">
+  <a href="#diagnostico">Diagn&oacute;stico</a>
+  <a href="#visao-geral">Vis&atilde;o Geral</a>
+  <a href="#metricas">M&eacute;tricas</a>
+  <a href="#conteudo">Conte&uacute;do</a>
+  <a href="#engajamento">Engajamento</a>
+  <a href="#collabs">Prova Social</a>
+  <a href="#audiencia">Audi&ecirc;ncia</a>
+  <a href="#swot">SWOT</a>
+  <a href="#comparativo">Comparativo</a>
+  <a href="#recomendacoes">Recomenda&ccedil;&otilde;es</a>
+  <a href="#resumo">Resumo</a>
+</nav>
+
+<div class="page">
+
+  <!-- DIAGN&Oacute;STICO EXECUTIVO -->
+  <section class="section" id="diagnostico">
+    <div class="intro-diag">
+      <div class="intro-diag-greeting">Preparado exclusivamente para Iuri Cavalcante Reis</div>
+      <h1 class="intro-diag-title">Sua marca pessoal tem autoridade.<br><span>Veja onde ela pode virar alcance e clientes.</span></h1>
+      <p class="intro-diag-lead">
+        Fizemos uma an&aacute;lise completa e imparcial do perfil @iuricavalcantereis no Instagram. A coleta foi feita via Playwright em 19/06/2026, usando a API interna do Instagram com sess&atilde;o autenticada: capturamos uma amostra de 72 publica&ccedil;&otilde;es (2021 a 2026) e extra&iacute;mos datas, curtidas, coment&aacute;rios, formatos e legendas. Como a conta &eacute; privada, a an&aacute;lise reflete os dados internos reais &mdash; n&atilde;o estimativas p&uacute;blicas.
+      </p>
+
+      <div class="score-block">
+        <div class="score-circle">
+          <div class="score-diag-inner">
+            <span class="score-num">6,4</span>
+            <span class="score-den">/ 10</span>
+          </div>
+        </div>
+        <div class="score-info">
+          <h3>Sa&uacute;de geral do perfil: Autoridade s&oacute;lida, alcance subaproveitado</h3>
+          <p>O perfil tem credenciais de peso (Doutor, Mestre e LLM em Direito), conta verificada e uma audi&ecirc;ncia fiel que comenta e celebra cada marco. O que puxa a nota para baixo &eacute; a combina&ccedil;&atilde;o de conta privada, cad&ecirc;ncia baixa, aus&ecirc;ncia quase total de Reels e nenhum funil de convers&atilde;o para o escrit&oacute;rio.</p>
+          <div class="score-bars">
+            <div class="score-bar-row">
+              <span class="score-bar-label">Autoridade &amp; credenciais</span>
+              <div class="score-bar-track"><div class="score-bar-fill" style="width:88%;background:#15803d"></div></div>
+              <span class="score-bar-val" style="color:#15803d">8,8</span>
+            </div>
+            <div class="score-bar-row">
+              <span class="score-bar-label">Branding &amp; identidade</span>
+              <div class="score-bar-track"><div class="score-bar-fill" style="width:72%;background:#15803d"></div></div>
+              <span class="score-bar-val" style="color:#15803d">7,2</span>
+            </div>
+            <div class="score-bar-row">
+              <span class="score-bar-label">Qualidade do conte&uacute;do</span>
+              <div class="score-bar-track"><div class="score-bar-fill" style="width:65%;background:#b45309"></div></div>
+              <span class="score-bar-val" style="color:#b45309">6,5</span>
+            </div>
+            <div class="score-bar-row">
+              <span class="score-bar-label">Engajamento recente</span>
+              <div class="score-bar-track"><div class="score-bar-fill" style="width:40%;background:#b45309"></div></div>
+              <span class="score-bar-val" style="color:#b45309">4,0</span>
+            </div>
+            <div class="score-bar-row">
+              <span class="score-bar-label">Estrat&eacute;gia de convers&atilde;o</span>
+              <div class="score-bar-track"><div class="score-bar-fill" style="width:35%;background:#b45309"></div></div>
+              <span class="score-bar-val" style="color:#b45309">3,5</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="sithelp-grid">
+        <div class="sit-card">
+          <div class="sithelp-head">
+            <div class="sithelp-head-icon">&#9888;</div>
+            Situa&ccedil;&atilde;o atual do perfil
+          </div>
+          <ul class="sithelp-list">
+            <li>11.039 seguidores, 105 posts e conta verificada &mdash; base de autoridade s&oacute;lida para um advogado</li>
+            <li>Engajamento real forte nos marcos pessoais: posts de at&eacute; 555 curtidas e 221 coment&aacute;rios</li>
+            <li>ER m&eacute;dio de 2,45% nos posts com curtidas vis&iacute;veis &mdash; excelente para o tamanho da conta</li>
+            <li>Por&eacute;m a tra&ccedil;&atilde;o recente caiu: m&eacute;dia de 6,8 coment&aacute;rios nos &uacute;ltimos 12 posts, contra 30,9 hist&oacute;ricos</li>
+            <li>Conta <strong>privada</strong>, 0 destaques, apenas 1 Reel em 72 posts e s&oacute; 12% das publica&ccedil;&otilde;es com chamada para a&ccedil;&atilde;o</li>
+          </ul>
+        </div>
+        <div class="help-card">
+          <div class="sithelp-head">
+            <div class="sithelp-head-icon">&#9670;</div>
+            Como a Or&aacute;culo pode ajudar
+          </div>
+          <ul class="sithelp-list">
+            <li>Definir a estrat&eacute;gia p&uacute;blico vs. privado e o papel do perfil pessoal x @cavalcantereisadvs</li>
+            <li>Construir conte&uacute;do de autoridade jur&iacute;dica (Direito Penal e Empresarial), n&atilde;o s&oacute; marcos pessoais</li>
+            <li>Implantar Reels e cad&ecirc;ncia semanal para recuperar alcance org&acirc;nico</li>
+            <li>Criar destaques organizados como vitrine do escrit&oacute;rio e da trajet&oacute;ria</li>
+            <li>Transformar autoridade em capta&ccedil;&atilde;o: CTAs, link de contato e funil para o escrit&oacute;rio</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="diag-wrap">
+      <div class="diag-title">&#128203; Diagn&oacute;stico R&aacute;pido &mdash; @iuricavalcantereis no Instagram</div>
+      <div class="diag-sub">Vis&atilde;o geral da sa&uacute;de do perfil em 3 dimens&otilde;es: o que est&aacute; funcionando, o que precisa de aten&ccedil;&atilde;o e o que est&aacute; custando alcance e clientes agora.</div>
+
+      <div class="diag-legend">
+        <span><span class="diag-dot green" style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4ade80;"></span> Ponto forte</span>
+        <span><span class="diag-dot yellow" style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#fbbf24;"></span> Aten&ccedil;&atilde;o</span>
+        <span><span class="diag-dot red" style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#f87171;"></span> Oportunidade perdida</span>
+      </div>
+
+      <div class="diag-grid">
+        <div class="diag-item">
+          <div class="diag-dot green"></div>
+          <div>
+            <div class="diag-item-title">Conta verificada + credenciais raras</div>
+            <div class="diag-item-desc">Selo de verifica&ccedil;&atilde;o, Doutorado, Mestrado e LLM em Direito comunicam autoridade antes de o visitante ver o feed.</div>
+          </div>
+        </div>
+        <div class="diag-item">
+          <div class="diag-dot green"></div>
+          <div>
+            <div class="diag-item-title">Audi&ecirc;ncia fiel e calorosa</div>
+            <div class="diag-item-desc">Marcos pessoais geram 200+ coment&aacute;rios. H&aacute; uma comunidade real de amigos, colegas e clientes engajada.</div>
+          </div>
+        </div>
+        <div class="diag-item">
+          <div class="diag-dot green"></div>
+          <div>
+            <div class="diag-item-title">Rede de alto valor</div>
+            <div class="diag-item-desc">Men&ccedil;&otilde;es a magistrados, promotores, pol&iacute;ticos e ao agroneg&oacute;cio (@_agroreis) revelam capital social forte.</div>
+          </div>
+        </div>
+        <div class="diag-item">
+          <div class="diag-dot yellow"></div>
+          <div>
+            <div class="diag-item-title">Cad&ecirc;ncia baixa e em queda</div>
+            <div class="diag-item-desc">M&eacute;dia de 1,2 post/m&ecirc;s; apenas 6 publica&ccedil;&otilde;es em 2026. O algoritmo distribui menos sem regularidade.</div>
+          </div>
+        </div>
+        <div class="diag-item">
+          <div class="diag-dot yellow"></div>
+          <div>
+            <div class="diag-item-title">Conte&uacute;do quase 100% pessoal</div>
+            <div class="diag-item-desc">Fam&iacute;lia, f&eacute; e marcos dominam. Falta conte&uacute;do jur&iacute;dico que converta autoridade em demanda por servi&ccedil;os.</div>
+          </div>
+        </div>
+        <div class="diag-item">
+          <div class="diag-dot red"></div>
+          <div>
+            <div class="diag-item-title">Conta privada limita descoberta</div>
+            <div class="diag-item-desc">Para uma marca pessoal jur&iacute;dica, o perfil fechado bloqueia alcance, indica&ccedil;&otilde;es e capta&ccedil;&atilde;o de novos clientes.</div>
+          </div>
+        </div>
+        <div class="diag-item">
+          <div class="diag-dot red"></div>
+          <div>
+            <div class="diag-item-title">Sem Reels, sem destaques, sem CTA</div>
+            <div class="diag-item-desc">1 Reel em 72 posts, 0 destaques e s&oacute; 12% das legendas com chamada. N&atilde;o h&aacute; funil para o escrit&oacute;rio.</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="diag-cta-label">&#128640; Onde a Or&aacute;culo pode acelerar os resultados</div>
+      <div class="oraculo-pills">
+        <span class="oraculo-pill"><span class="pill-icon">&#128197;</span> Calend&aacute;rio editorial jur&iacute;dico</span>
+        <span class="oraculo-pill"><span class="pill-icon">&#9997;&#65039;</span> Legendas e CTAs de capta&ccedil;&atilde;o</span>
+        <span class="oraculo-pill"><span class="pill-icon">&#127916;</span> Roteiros de Reels e cortes</span>
+        <span class="oraculo-pill"><span class="pill-icon">&#128279;</span> Funil para o escrit&oacute;rio</span>
+        <span class="oraculo-pill"><span class="pill-icon">&#128204;</span> Cria&ccedil;&atilde;o de Destaques</span>
+        <span class="oraculo-pill"><span class="pill-icon">&#128202;</span> Relat&oacute;rios de performance</span>
+        <span class="oraculo-pill"><span class="pill-icon">&#9878;&#65039;</span> Compliance da publicidade (OAB)</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- KPI STRIP -->
+  <div class="kpi-row">
+    <div class="kpi">
+      <div class="kpi-val ig">11.039</div>
+      <div class="kpi-label">Seguidores</div>
+      <span class="kpi-delta delta-up">Conta verificada</span>
+    </div>
+    <div class="kpi">
+      <div class="kpi-val">105</div>
+      <div class="kpi-label">Posts publicados</div>
+      <span class="kpi-delta delta-up">Hist&oacute;rico consistente</span>
+    </div>
+    <div class="kpi">
+      <div class="kpi-val">72</div>
+      <div class="kpi-label">Posts analisados</div>
+      <span class="kpi-delta delta-up">Coleta via API</span>
+    </div>
+    <div class="kpi">
+      <div class="kpi-val">555</div>
+      <div class="kpi-label">Maior post em likes</div>
+      <span class="kpi-delta delta-up">Marco pessoal</span>
+    </div>
+    <div class="kpi">
+      <div class="kpi-val">2,45%</div>
+      <div class="kpi-label">ER (posts vis&iacute;veis)</div>
+      <span class="kpi-delta delta-warn">Em queda recente</span>
+    </div>
+  </div>
+
+  <section class="section" id="visao-geral">
+    <div class="section-header">
+      <div class="section-num">1</div>
+      <h2>Identidade e Posicionamento</h2>
+    </div>
+
+    <div class="card">
+      <h3>Perfil</h3>
+      <div class="tbl-wrap">
+        <table>
+          <tr><th>Campo</th><th>Valor</th></tr>
+          <tr><td>Handle</td><td><strong>@iuricavalcantereis</strong></td></tr>
+          <tr><td>Nome exibido</td><td><strong>Iuri Cavalcante Reis</strong></td></tr>
+          <tr><td>Verifica&ccedil;&atilde;o</td><td><span class="badge badge-green">&#9989; Conta verificada</span></td></tr>
+          <tr><td>Privacidade</td><td><span class="badge badge-amber">&#128274; Conta privada</span></td></tr>
+          <tr><td>Bio</td><td>Muita f&eacute; na vida &middot; CEO @cavalcantereisadvs &middot; Doutorado, Mestre e LLM em Direito &middot; Uma pessoa do bem que valoriza uma boa amizade &middot; Pai da Maria Vit&oacute;ria</td></tr>
+          <tr><td>Seguidores</td><td><strong>11.039</strong></td></tr>
+          <tr><td>Seguindo</td><td>3.026</td></tr>
+          <tr><td>Total de posts</td><td><strong>105</strong></td></tr>
+          <tr><td>Site na bio</td><td>cavalcantereis.adv.br</td></tr>
+          <tr><td>Destaques</td><td><span class="badge badge-red">Nenhum (0)</span></td></tr>
+        </table>
+      </div>
+    </div>
+
+    <div class="callout primary">
+      <strong>&#127919; Posicionamento no Instagram</strong>
+      Iuri posiciona o perfil como uma <strong>marca pessoal de autoridade</strong>: advogado com Doutorado, Mestrado e LLM em Direito, CEO do escrit&oacute;rio Cavalcante Reis e com atua&ccedil;&atilde;o tamb&eacute;m no agroneg&oacute;cio. A narrativa &eacute; calorosa e baseada em f&eacute;, fam&iacute;lia e relacionamentos &mdash; o que gera afeto, mas hoje comunica pouco sobre o <strong>valor jur&iacute;dico</strong> que ele entrega ao cliente.
+    </div>
+
+    <div class="card">
+      <h3>Identidade de Conte&uacute;do</h3>
+      <div class="tbl-wrap">
+        <table>
+          <tr><th>Elemento</th><th>Descri&ccedil;&atilde;o</th></tr>
+          <tr><td>Foto de perfil</td><td>Retrato profissional, coerente com a imagem de advogado</td></tr>
+          <tr><td>Tom de marca</td><td>Pessoal, afetivo, religioso e relacional</td></tr>
+          <tr><td>Padr&atilde;o de posts</td><td>Carross&eacute;is de eventos, marcos familiares, posses e homenagens</td></tr>
+          <tr><td>Eixos de atua&ccedil;&atilde;o</td><td>Advocacia (Direito Penal/Empresarial) + agroneg&oacute;cio (@_agroreis, nelore)</td></tr>
+          <tr><td>Risco de posicionamento</td><td>Conte&uacute;do muito pessoal e conta privada limitam o uso do perfil como ativo comercial</td></tr>
+        </table>
+      </div>
+    </div>
+<div class="insight good">
+  <div class="insight-header"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+    O que isso significa para voc&ecirc;
+  </div>
+  <div class="insight-body">
+    <span class="verdict">&#9650; Base forte</span>
+    <p>A combina&ccedil;&atilde;o de <strong>conta verificada + Doutorado/Mestrado/LLM em Direito</strong> &eacute; rara e funciona como prova de autoridade imediata &mdash; um ativo que a maioria dos advogados leva anos para construir. O ponto de aten&ccedil;&atilde;o &eacute; que essa autoridade hoje quase n&atilde;o aparece no conte&uacute;do: o feed comunica o homem (f&eacute;, fam&iacute;lia, amizades) muito mais do que o jurista. Equilibrar os dois lados &mdash; sem perder a humanidade que gera afeto &mdash; &eacute; o caminho para transformar reputa&ccedil;&atilde;o em demanda por servi&ccedil;os.</p>
+  </div>
+</div>
+  </section>
+
+  <section class="section" id="metricas">
+    <div class="section-header">
+      <div class="section-num">2</div>
+      <h2>M&eacute;tricas Principais</h2>
+    </div>
+
+    <div class="card">
+      <h3>Dados do Perfil e da Amostra</h3>
+      <div class="tbl-wrap">
+        <table>
+          <tr><th>M&eacute;trica</th><th>Valor</th><th>Avalia&ccedil;&atilde;o</th></tr>
+          <tr><td>Seguidores</td><td><strong>11.039</strong></td><td><span class="badge badge-green">&#9989; S&oacute;lido para o nicho</span></td></tr>
+          <tr><td>Total de posts</td><td><strong>105</strong></td><td><span class="badge badge-green">&#9989; Hist&oacute;rico consistente</span></td></tr>
+          <tr><td>Posts analisados</td><td><strong>72</strong> (2021&ndash;2026)</td><td><span class="badge badge-green">&#9989; Amostra ampla</span></td></tr>
+          <tr><td>Posts com curtidas vis&iacute;veis</td><td><strong>45 de 72</strong></td><td><span class="badge badge-amber">&#9888; 27 ocultam likes</span></td></tr>
+          <tr><td>M&eacute;dia (posts vis&iacute;veis)</td><td>240 curtidas &middot; 31 coment&aacute;rios</td><td><span class="badge badge-green">&#9989; Forte</span></td></tr>
+          <tr><td>ER m&eacute;dio (posts vis&iacute;veis)</td><td><strong>2,45%</strong></td><td><span class="badge badge-green">&#9989; Excelente p/ o tamanho</span></td></tr>
+          <tr><td>Coment&aacute;rios m&eacute;dios &mdash; recentes (12)</td><td><strong>6,8</strong> vs. 30,9 hist&oacute;rico</td><td><span class="badge badge-red">&#9888; Queda de tra&ccedil;&atilde;o</span></td></tr>
+          <tr><td>Cad&ecirc;ncia de postagem</td><td><strong>1,2 post/m&ecirc;s</strong> (6 em 2026)</td><td><span class="badge badge-red">&#9888; Baixa</span></td></tr>
+        </table>
+      </div>
+    </div>
+
+    <div class="callout green">
+      <strong>&#127942; Destaque da coleta</strong>
+      Apesar de a conta ocultar curtidas nos posts mais recentes, os dados internos mostram um <strong>ER de 2,45%</strong> nos posts vis&iacute;veis &mdash; muito acima da m&eacute;dia para contas dessa faixa. Isso prova que a audi&ecirc;ncia &eacute; real e engajada: quando Iuri publica algo relevante, a comunidade responde com for&ccedil;a.
+    </div>
+<div class="insight warn">
+  <div class="insight-header"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+    O que isso significa para voc&ecirc;
+  </div>
+  <div class="insight-body">
+    <span class="verdict">&#9654; Aten&ccedil;&atilde;o necess&aacute;ria</span>
+    <p>A leitura aqui tem duas camadas. A boa: <strong>o engajamento por post &eacute; &oacute;timo</strong> &mdash; 2,45% de ER &eacute; o tipo de n&uacute;mero que marcas maiores invejam. A de aten&ccedil;&atilde;o: <strong>a tra&ccedil;&atilde;o recente despencou</strong> &mdash; os &uacute;ltimos 12 posts t&ecirc;m em m&eacute;dia 6,8 coment&aacute;rios contra 30,9 no hist&oacute;rico, e a cad&ecirc;ncia caiu para 6 posts em todo o ano de 2026. N&atilde;o &eacute; falta de audi&ecirc;ncia, &eacute; falta de presen&ccedil;a: sem regularidade, o algoritmo entrega menos e a comunidade esfria. Retomar uma cad&ecirc;ncia semanal j&aacute; reativa boa parte desse potencial.</p>
+  </div>
+</div>
+
+    <div class="card">
+      <h3>Engajamento por Formato (ER %)</h3>
+      <div class="chart-wrap">
+        <canvas id="chartAudiencia"></canvas>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="conteudo">
+    <div class="section-header">
+      <div class="section-num">3</div>
+      <h2>Estrat&eacute;gia de Conte&uacute;do</h2>
+    </div>
+
+    <div class="card">
+      <h3>Mix de Formatos da Amostra (72 posts)</h3>
+      <div class="format-grid">
+        <div class="chart-wrap" style="height:220px;">
+          <canvas id="chartFormatos"></canvas>
+        </div>
+        <div>
+          <div class="tbl-wrap">
+            <table>
+              <tr><th>Formato</th><th>Fun&ccedil;&atilde;o &amp; observa&ccedil;&atilde;o</th></tr>
+              <tr><td><strong>Carross&eacute;is</strong> (83%)</td><td>Formato dominante &mdash; eventos e marcos, m&eacute;dia de 7 fotos por post</td></tr>
+              <tr><td><strong>Imagens</strong> (12%)</td><td>Posts &uacute;nicos pontuais</td></tr>
+              <tr><td><strong>Reels</strong> (4%)</td><td>Apenas 1 em 72 &mdash; o formato de maior alcance est&aacute; praticamente ausente</td></tr>
+              <tr><td><strong>Destaques</strong></td><td>Nenhum criado &mdash; perde a vitrine permanente do perfil</td></tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Temas de Conte&uacute;do Identificados</h3>
+      <div class="tbl-wrap">
+        <table>
+          <tr><th>#</th><th>Tema</th><th>Exemplos</th><th>Peso atual</th></tr>
+          <tr><td><strong>1</strong></td><td>Fam&iacute;lia e marcos pessoais</td><td>Nascimento e anivers&aacute;rios da Maria Vit&oacute;ria, datas em fam&iacute;lia</td><td><span class="badge badge-primary">Muito alto</span></td></tr>
+          <tr><td><strong>2</strong></td><td>F&eacute; e gratid&atilde;o</td><td>&ldquo;Muita f&eacute; na vida&rdquo;, &ldquo;tudo no tempo de Deus&rdquo;</td><td><span class="badge badge-primary">Alto</span></td></tr>
+          <tr><td><strong>3</strong></td><td>Trajet&oacute;ria jur&iacute;dica</td><td>Mestre em Direito Penal, defesa de tese, posses</td><td><span class="badge badge-amber">Subaproveitado</span></td></tr>
+          <tr><td><strong>4</strong></td><td>Rede e homenagens</td><td>Posse da irm&atilde; promotora, amigos, autoridades</td><td><span class="badge badge-blue">M&eacute;dio</span></td></tr>
+          <tr><td><strong>5</strong></td><td>Agroneg&oacute;cio</td><td>@_agroreis, nelore, vida no campo</td><td><span class="badge badge-blue">M&eacute;dio</span></td></tr>
+          <tr><td><strong>6</strong></td><td>Conte&uacute;do jur&iacute;dico &uacute;til</td><td>Quase inexistente &mdash; dicas, casos, direitos do cliente</td><td><span class="badge badge-red">A criar</span></td></tr>
+        </table>
+      </div>
+    </div>
+
+    <div class="callout primary">
+      <strong>&#128161; Leitura estrat&eacute;gica</strong>
+      O perfil documenta muito bem a <strong>vida</strong> de Iuri, mas quase nunca o <strong>trabalho</strong> dele como advogado. Para quem busca um especialista em Direito Penal ou Empresarial, falta o conte&uacute;do que prova compet&ecirc;ncia: explica&ccedil;&otilde;es de casos, direitos, novidades legislativas e bastidores do escrit&oacute;rio.
+    </div>
+<div class="insight warn">
+  <div class="insight-header"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+    O que isso significa para voc&ecirc;
+  </div>
+  <div class="insight-body">
+    <span class="verdict">&#9654; Situa&ccedil;&atilde;o mista</span>
+    <p>Com 83% de carross&eacute;is e apenas 1 Reel, o perfil est&aacute; investindo no formato de <strong>menor alcance org&acirc;nico</strong> e ignorando o de maior: o Reel &eacute; hoje a principal porta de descoberta no Instagram. Some-se a isso o conte&uacute;do quase 100% pessoal e o resultado &eacute; um perfil que <strong>fideliza quem j&aacute; conhece o Iuri, mas n&atilde;o atrai novos clientes</strong>. A corre&ccedil;&atilde;o n&atilde;o exige abandonar a marca pessoal &mdash; exige somar Reels curtos de conte&uacute;do jur&iacute;dico (dicas, mitos, casos) que carreguem a autoridade dele para fora da bolha atual.</p>
+  </div>
+</div>
+  </section>
+
+  <section class="section" id="engajamento">
+    <div class="section-header">
+      <div class="section-num">4</div>
+      <h2>Engajamento e Posts Mais Curtidos</h2>
+    </div>
+
+    <div class="card">
+      <h3>Ranking dos Posts Mais Curtidos (curtidas vis&iacute;veis)</h3>
+      <div class="tbl-wrap">
+        <table>
+          <tr><th>#</th><th>Post</th><th>Data</th><th>Curtidas</th><th>Coment&aacute;rios</th><th>Leitura</th></tr>
+          <tr><td>1</td><td>Nascimento da Maria Vit&oacute;ria</td><td>02/05/2024</td><td><strong>555</strong></td><td>217</td><td>Marco familiar &mdash; pico de afeto da comunidade</td></tr>
+          <tr><td>2</td><td>&ldquo;Tudo no tempo de Deus&rdquo;</td><td>06/02/2024</td><td><strong>503</strong></td><td>221</td><td>F&eacute; + vulnerabilidade gera recorde de coment&aacute;rios</td></tr>
+          <tr><td>3</td><td>Posse da irm&atilde; como Promotora</td><td>02/04/2023</td><td><strong>439</strong></td><td>58</td><td>Rede de autoridade + orgulho familiar</td></tr>
+          <tr><td>4</td><td>Estrada e labuta da advocacia</td><td>10/11/2022</td><td><strong>370</strong></td><td>60</td><td>Raro post de rotina profissional &mdash; performou bem</td></tr>
+          <tr><td>5</td><td>Mestre em Direito Penal</td><td>06/04/2022</td><td><strong>362</strong></td><td>118</td><td>Conquista jur&iacute;dica &mdash; autoridade + 118 coment&aacute;rios</td></tr>
+        </table>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Curtidas e Coment&aacute;rios dos Top Posts</h3>
+      <div class="chart-wrap">
+        <canvas id="chartEngajamento"></canvas>
+      </div>
+    </div>
+
+    <div class="callout amber">
+      <strong>&#9888;&#65039; Padr&atilde;o observado</strong>
+      Os recordes v&ecirc;m de marcos pessoais e de f&eacute;, mas note que os posts de <strong>conquista jur&iacute;dica</strong> (Mestre em Direito Penal, posse, labuta da advocacia) tamb&eacute;m performam muito bem &mdash; sinal claro de que a audi&ecirc;ncia <strong>quer</strong> acompanhar o lado profissional, n&atilde;o s&oacute; o pessoal.
+    </div>
+<div class="insight good">
+  <div class="insight-header"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+    O que isso significa para voc&ecirc;
+  </div>
+  <div class="insight-body">
+    <span class="verdict">&#9650; Bom sinal</span>
+    <p>Os posts mais curtidos revelam uma verdade valiosa: <strong>quando Iuri mostra a trajet&oacute;ria jur&iacute;dica, a audi&ecirc;ncia responde t&atilde;o bem quanto aos marcos pessoais</strong> &mdash; o post &ldquo;Mestre em Direito Penal&rdquo; teve 362 curtidas e 118 coment&aacute;rios. Isso desmonta o receio de que conte&uacute;do profissional engaja menos. O caminho &oacute;timo &eacute; unir os dois: usar a humanidade que j&aacute; gera afeto como gancho e, em seguida, entregar valor jur&iacute;dico &mdash; cada conquista, caso e bastidor do escrit&oacute;rio &eacute; combust&iacute;vel de autoridade que hoje est&aacute; sendo pouco usado.</p>
+  </div>
+</div>
+  </section>
+
+  <section class="section" id="collabs">
+    <div class="section-header">
+      <div class="section-num">5</div>
+      <h2>Destaques, Prova Social e Convers&atilde;o</h2>
+    </div>
+
+    <div class="card">
+      <h3>Situa&ccedil;&atilde;o Atual da Convers&atilde;o</h3>
+      <div class="tbl-wrap">
+        <table>
+          <tr><th>Elemento</th><th>Status</th><th>Avalia&ccedil;&atilde;o</th></tr>
+          <tr><td>Destaques (Highlights)</td><td>Nenhum criado</td><td><span class="badge badge-red">Cr&iacute;tico</span></td></tr>
+          <tr><td>Link na bio</td><td>Site do escrit&oacute;rio presente</td><td><span class="badge badge-green">Bom</span></td></tr>
+          <tr><td>CTAs nas legendas</td><td>Apenas 12% dos posts</td><td><span class="badge badge-red">Baixo</span></td></tr>
+          <tr><td>Men&ccedil;&atilde;o ao escrit&oacute;rio</td><td>@cavalcantereisadvs citado 14&times;</td><td><span class="badge badge-amber">Pode crescer</span></td></tr>
+          <tr><td>Privacidade</td><td>Conta privada</td><td><span class="badge badge-red">Limita capta&ccedil;&atilde;o</span></td></tr>
+        </table>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Funil de Destaques Recomendado</h3>
+      <div class="funnel">
+        <div class="funnel-step f1">&#128075; Quem &eacute; o Iuri &mdash; trajet&oacute;ria, credenciais e valores</div>
+        <div class="funnel-step f2">&#9878;&#65039; &Aacute;reas de atua&ccedil;&atilde;o &mdash; Penal, Empresarial e o escrit&oacute;rio</div>
+        <div class="funnel-step f3">&#128172; D&uacute;vidas jur&iacute;dicas &mdash; respostas r&aacute;pidas e direitos do cliente</div>
+        <div class="funnel-step f4">&#128241; Fale com o escrit&oacute;rio &mdash; contato, agendamento e localiza&ccedil;&atilde;o</div>
+      </div>
+    </div>
+<div class="insight warn">
+  <div class="insight-header"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+    O que isso significa para voc&ecirc;
+  </div>
+  <div class="insight-body">
+    <span class="verdict">&#9654; Oportunidade clara</span>
+    <p>Hoje o perfil n&atilde;o tem <strong>nenhum</strong> destaque e s&oacute; 12% dos posts trazem chamada para a&ccedil;&atilde;o &mdash; ou seja, a autoridade do Iuri n&atilde;o tem por onde virar contato. Um visitante impressionado com as credenciais n&atilde;o encontra um caminho claro para falar com o escrit&oacute;rio sem sair do perfil. Criar 4 destaques organizados como jornada e padronizar CTAs &eacute; uma a&ccedil;&atilde;o de <strong>impacto imediato e custo zero</strong>: aproveita tudo o que j&aacute; existe e transforma reputa&ccedil;&atilde;o em capta&ccedil;&atilde;o.</p>
+  </div>
+</div>
+  </section>
+
+  <section class="section">
+    <div class="section-header">
+      <div class="section-num">6</div>
+      <h2>Temas, Palavras-Chave e CTAs</h2>
+    </div>
+
+    <div class="card">
+      <h3>Temas com Maior Potencial</h3>
+      <div class="tbl-wrap">
+        <table>
+          <tr><th>Tema</th><th>Por que importa</th><th>CTA sugerido</th></tr>
+          <tr><td>Direito Penal na pr&aacute;tica</td><td>Especialidade do Iuri, alta busca e d&uacute;vidas frequentes</td><td>&ldquo;Tem uma d&uacute;vida penal? Comente abaixo&rdquo;</td></tr>
+          <tr><td>Direito do empres&aacute;rio</td><td>Conecta com o agroneg&oacute;cio e o p&uacute;blico de neg&oacute;cios</td><td>&ldquo;Sua empresa est&aacute; protegida? Fale com a gente&rdquo;</td></tr>
+          <tr><td>Bastidores do escrit&oacute;rio</td><td>Humaniza a equipe e refor&ccedil;a estrutura</td><td>&ldquo;Conhe&ccedil;a o time @cavalcantereisadvs&rdquo;</td></tr>
+          <tr><td>Mitos jur&iacute;dicos</td><td>Formato de Reel de alto alcance e f&aacute;cil de compartilhar</td><td>&ldquo;Salve este post para n&atilde;o esquecer&rdquo;</td></tr>
+          <tr><td>Conquistas e credenciais</td><td>J&aacute; provadamente engajam (Mestre, posse)</td><td>&ldquo;Acompanhe a trajet&oacute;ria&rdquo;</td></tr>
+          <tr><td>Trajet&oacute;ria pessoal + f&eacute;</td><td>Gera o maior afeto &mdash; mant&eacute;m a conex&atilde;o humana</td><td>&ldquo;Marque quem precisa ler isso hoje&rdquo;</td></tr>
+        </table>
+      </div>
+    </div>
+<div class="insight info">
+  <div class="insight-header"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+    O que isso significa para voc&ecirc;
+  </div>
+  <div class="insight-body">
+    <span class="verdict">&#9733; Oportunidade estrat&eacute;gica</span>
+    <p>Cada linha desta tabela &eacute; um post ou Reel esperando para existir &mdash; e todas partem de algo que o Iuri <strong>j&aacute; tem</strong>: conhecimento jur&iacute;dico de alto n&iacute;vel e uma audi&ecirc;ncia afetiva. Hoje as legendas raramente convidam &agrave; a&ccedil;&atilde;o (apenas 12%), ent&atilde;o o engajamento se esgota em curtidas e n&atilde;o vira conversa nem contato. Com CTAs espec&iacute;ficos por tema, o perfil deixa de depender da sorte do algoritmo e passa a <strong>gerar oportunidades de neg&oacute;cio de forma sistem&aacute;tica</strong>, mantendo a alma pessoal que diferencia a marca.</p>
+  </div>
+</div>
+  </section>
+
+  <section class="section" id="audiencia">
+    <div class="section-header">
+      <div class="section-num">7</div>
+      <h2>An&aacute;lise de Audi&ecirc;ncia</h2>
+    </div>
+
+    <div class="card">
+      <h3>Segmentos Estimados da Audi&ecirc;ncia</h3>
+      <div class="chart-wrap">
+        <canvas id="chartAudienciaSegmentos"></canvas>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Caracter&iacute;sticas da Audi&ecirc;ncia</h3>
+      <div class="tbl-wrap">
+        <table>
+          <tr><th>Segmento</th><th>Comportamento observado</th></tr>
+          <tr><td>Amigos e c&iacute;rculo pr&oacute;ximo</td><td>Comentam marcos pessoais com calor &mdash; n&uacute;cleo mais engajado</td></tr>
+          <tr><td>Colegas do Direito</td><td>Magistrados, promotores e advogados &mdash; rede de autoridade</td></tr>
+          <tr><td>Clientes potenciais</td><td>Acompanham, mas sem caminho claro de contato hoje</td></tr>
+          <tr><td>P&uacute;blico do agroneg&oacute;cio</td><td>Conex&atilde;o via @_agroreis e vida no campo</td></tr>
+          <tr><td>Comunidade local/regional</td><td>Base no Amap&aacute;, refor&ccedil;ada por homenagens e imprensa local</td></tr>
+        </table>
+      </div>
+    </div>
+<div class="insight good">
+  <div class="insight-header"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+    O que isso significa para voc&ecirc;
+  </div>
+  <div class="insight-body">
+    <span class="verdict">&#9650; Audi&ecirc;ncia qualificada</span>
+    <p>A audi&ecirc;ncia do Iuri &eacute; pequena em n&uacute;mero, mas <strong>densa em valor</strong>: re&uacute;ne colegas do Direito, autoridades, empres&aacute;rios do agro e uma comunidade local fiel. Para um advogado, esse tipo de p&uacute;blico vale mais do que dezenas de milhares de seguidores an&ocirc;nimos &mdash; s&atilde;o pessoas que indicam, contratam e abrem portas. O que falta &eacute; dar a cada segmento um motivo recorrente para voltar: conte&uacute;do jur&iacute;dico para os clientes potenciais, bastidores para os colegas e a continuidade da narrativa pessoal para o c&iacute;rculo pr&oacute;ximo.</p>
+  </div>
+</div>
+  </section>
+
+  <section class="section" id="swot">
+    <div class="section-header">
+      <div class="section-num">8</div>
+      <h2>An&aacute;lise SWOT do Instagram</h2>
+    </div>
+
+    <div class="card">
+      <div class="swot-grid">
+        <div class="swot-cell swot-s">
+          <h4>&#128170; For&ccedil;as</h4>
+          <ul>
+            <li>Conta verificada e credenciais raras (Doutor, Mestre, LLM)</li>
+            <li>ER de 2,45% &mdash; engajamento real muito acima da m&eacute;dia</li>
+            <li>Audi&ecirc;ncia fiel: marcos geram 200+ coment&aacute;rios</li>
+            <li>Rede de alto valor (jur&iacute;dico, pol&iacute;tico, agro)</li>
+            <li>Narrativa pessoal aut&ecirc;ntica que gera afeto</li>
+          </ul>
+        </div>
+        <div class="swot-cell swot-w">
+          <h4>&#9888;&#65039; Fraquezas</h4>
+          <ul>
+            <li>Conta privada limita descoberta e capta&ccedil;&atilde;o</li>
+            <li>Cad&ecirc;ncia baixa (1,2/m&ecirc;s) e em queda em 2026</li>
+            <li>Apenas 1 Reel em 72 posts &mdash; sem alcance org&acirc;nico</li>
+            <li>0 destaques e s&oacute; 12% de posts com CTA</li>
+            <li>Conte&uacute;do jur&iacute;dico (a especialidade) quase ausente</li>
+          </ul>
+        </div>
+        <div class="swot-cell swot-o">
+          <h4>&#128640; Oportunidades</h4>
+          <ul>
+            <li>S&eacute;rie de Reels &ldquo;Direito na pr&aacute;tica&rdquo; e mitos jur&iacute;dicos</li>
+            <li>Perfil p&uacute;blico ou estrat&eacute;gia integrada com @cavalcantereisadvs</li>
+            <li>Destaques como vitrine do escrit&oacute;rio e da trajet&oacute;ria</li>
+            <li>Cross-marketing com o agroneg&oacute;cio e parceiros</li>
+            <li>Funil de contato para capta&ccedil;&atilde;o de clientes</li>
+          </ul>
+        </div>
+        <div class="swot-cell swot-t">
+          <h4>&#9889; Amea&ccedil;as</h4>
+          <ul>
+            <li>Concorr&ecirc;ncia de advogados que j&aacute; produzem conte&uacute;do</li>
+            <li>Regras de publicidade da OAB (Provimento 205/2021)</li>
+            <li>Queda de alcance org&acirc;nico sem regularidade</li>
+            <li>Depend&ecirc;ncia de marcos pessoais para engajar</li>
+            <li>Conta privada barra novos seguidores espont&acirc;neos</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+<div class="insight info">
+  <div class="insight-header"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+    O que isso significa para voc&ecirc;
+  </div>
+  <div class="insight-body">
+    <span class="verdict">&#9733; Vis&atilde;o clara</span>
+    <p>O maior ativo &mdash; <strong>autoridade jur&iacute;dica verificada + audi&ecirc;ncia engajada</strong> &mdash; j&aacute; est&aacute; consolidado e &eacute; dif&iacute;cil de copiar. As fraquezas listadas (conta privada, falta de Reels, 0 destaques, baixa cad&ecirc;ncia) s&atilde;o todas <strong>estruturais e corrig&iacute;veis</strong>, n&atilde;o problemas de talento ou de p&uacute;blico. A alavanca de crescimento n&atilde;o &eacute; conquistar audi&ecirc;ncia nova a qualquer custo &mdash; &eacute; abrir o alcance, dar regularidade e construir um funil. Aten&ccedil;&atilde;o cont&iacute;nua &agrave;s regras de publicidade da OAB deve guiar o tom de todo conte&uacute;do de capta&ccedil;&atilde;o.</p>
+  </div>
+</div>
+  </section>
+
+  <section class="section" id="comparativo">
+    <div class="section-header">
+      <div class="section-num">9</div>
+      <h2>Hist&oacute;rico vs. Recente</h2>
+    </div>
+
+    <div class="vs-grid">
+      <div class="vs-card vs-ig">
+        <div class="vs-platform">&#128200; Posts hist&oacute;ricos (curtidas vis&iacute;veis)</div>
+        <div class="vs-metric"><span class="vs-metric-label">Amostra</span><span class="vs-metric-val">45 posts</span></div>
+        <div class="vs-metric"><span class="vs-metric-label">Curtidas m&eacute;dias</span><span class="vs-metric-val">240</span></div>
+        <div class="vs-metric"><span class="vs-metric-label">Coment&aacute;rios m&eacute;dios</span><span class="vs-metric-val">30,9</span></div>
+        <div class="vs-metric"><span class="vs-metric-label">ER m&eacute;dio</span><span class="vs-metric-val">2,45%</span></div>
+        <div class="vs-metric"><span class="vs-metric-label">Tra&ccedil;&atilde;o</span><span class="vs-metric-val">Forte</span></div>
+      </div>
+      <div class="vs-card vs-yt">
+        <div class="vs-platform">&#128340; &Uacute;ltimos 12 posts</div>
+        <div class="vs-metric"><span class="vs-metric-label">Amostra</span><span class="vs-metric-val">12 posts</span></div>
+        <div class="vs-metric"><span class="vs-metric-label">Curtidas</span><span class="vs-metric-val">Ocultas</span></div>
+        <div class="vs-metric"><span class="vs-metric-label">Coment&aacute;rios m&eacute;dios</span><span class="vs-metric-val">6,8</span></div>
+        <div class="vs-metric"><span class="vs-metric-label">Cad&ecirc;ncia 2026</span><span class="vs-metric-val">6 posts/ano</span></div>
+        <div class="vs-metric"><span class="vs-metric-label">Tra&ccedil;&atilde;o</span><span class="vs-metric-val">Em queda</span></div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Coment&aacute;rios M&eacute;dios: Hist&oacute;rico vs. Recente</h3>
+      <div class="chart-wrap">
+        <canvas id="chartComparativo"></canvas>
+      </div>
+    </div>
+<div class="insight bad">
+  <div class="insight-header"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+    O que isso significa para voc&ecirc;
+  </div>
+  <div class="insight-body">
+    <span class="verdict">&#9654; Diagn&oacute;stico importante</span>
+    <p>A queda de 30,9 para 6,8 coment&aacute;rios por post n&atilde;o significa que a audi&ecirc;ncia abandonou o Iuri &mdash; significa que a <strong>presen&ccedil;a diminuiu</strong>. Com apenas 6 posts em 2026 e curtidas ocultas, o algoritmo perde sinais para distribuir o conte&uacute;do e a comunidade tem menos oportunidades de interagir, criando um ciclo: menos posts &rarr; menos alcance &rarr; menos engajamento. A boa not&iacute;cia &eacute; que a base segue l&aacute;, fiel (o ER hist&oacute;rico de 2,45% prova isso). Retomar uma cad&ecirc;ncia semanal e reativar as curtidas vis&iacute;veis nos posts j&aacute; reverte boa parte dessa perda de tra&ccedil;&atilde;o.</p>
+  </div>
+</div>
+  </section>
+
+  <section class="section" id="recomendacoes">
+    <div class="section-header">
+      <div class="section-num">10</div>
+      <h2>Recomenda&ccedil;&otilde;es Estrat&eacute;gicas</h2>
+    </div>
+
+    <div class="rec-grid">
+      <div class="rec-card rec-short">
+        <h4>&#9889; Curto Prazo (0&ndash;3 meses)</h4>
+        <ul>
+          <li>Criar 4 destaques: Sobre, &Aacute;reas de atua&ccedil;&atilde;o, D&uacute;vidas e Contato</li>
+          <li>Definir estrat&eacute;gia p&uacute;blico/privado do perfil pessoal</li>
+          <li>Retomar cad&ecirc;ncia semanal (1&ndash;2 posts + Stories)</li>
+          <li>Padronizar CTAs nas legendas (hoje s&oacute; 12%)</li>
+          <li>Reativar curtidas vis&iacute;veis para dar sinais ao algoritmo</li>
+        </ul>
+      </div>
+      <div class="rec-card rec-mid">
+        <h4>&#128200; M&eacute;dio Prazo (3&ndash;12 meses)</h4>
+        <ul>
+          <li>S&eacute;rie de Reels &ldquo;Direito na pr&aacute;tica&rdquo; e mitos jur&iacute;dicos</li>
+          <li>Conte&uacute;do de autoridade: casos, direitos, novidades legais</li>
+          <li>Integrar perfil pessoal e @cavalcantereisadvs com pap&eacute;is claros</li>
+          <li>Bastidores do escrit&oacute;rio e apresenta&ccedil;&atilde;o da equipe</li>
+          <li>Relat&oacute;rio mensal conectando conte&uacute;do e contatos gerados</li>
+        </ul>
+      </div>
+      <div class="rec-card rec-long">
+        <h4>&#128301; Longo Prazo (12+ meses)</h4>
+        <ul>
+          <li>Posicionar Iuri como refer&ecirc;ncia em Direito Penal/Empresarial</li>
+          <li>Funil completo: conte&uacute;do &rarr; contato &rarr; consulta no escrit&oacute;rio</li>
+          <li>Cross-marketing estruturado com o agroneg&oacute;cio</li>
+          <li>Biblioteca de conte&uacute;do jur&iacute;dico permanente (destaques + salvos)</li>
+          <li>Presen&ccedil;a em pautas e imprensa para ampliar autoridade</li>
+        </ul>
+      </div>
+    </div>
+<div class="insight good">
+  <div class="insight-header"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+    O que isso significa para voc&ecirc;
+  </div>
+  <div class="insight-body">
+    <span class="verdict">&#9650; Plano acion&aacute;vel</span>
+    <p>As a&ccedil;&otilde;es de curto prazo t&ecirc;m impacto imediato e custo pr&oacute;ximo de zero: criar destaques, padronizar CTAs e retomar a cad&ecirc;ncia s&atilde;o mudan&ccedil;as de estrutura, n&atilde;o de produ&ccedil;&atilde;o pesada. <strong>O conte&uacute;do que o Iuri j&aacute; faz passa a render mais, e o lado jur&iacute;dico &mdash; hoje subaproveitado &mdash; entra como motor de autoridade.</strong> O m&eacute;dio prazo traz alcance via Reels e consist&ecirc;ncia; o longo prazo consolida Iuri como refer&ecirc;ncia, transformando uma marca pessoal querida em um canal real de capta&ccedil;&atilde;o para o escrit&oacute;rio.</p>
+  </div>
+</div>
+  </section>
+
+  <section class="section" id="resumo">
+    <div class="section-header">
+      <div class="section-num">11</div>
+      <h2>Resumo Executivo e Pontua&ccedil;&atilde;o</h2>
+    </div>
+
+    <div class="card">
+      <h3>Pontua&ccedil;&atilde;o Geral do Perfil Instagram</h3>
+      <div class="score-ring-wrap">
+        <div class="score-ring">
+          <div class="score-inner">
+            <div class="score-val">6,4</div>
+            <div class="score-max">/ 10</div>
+          </div>
+        </div>
+        <div class="score-labels">
+          <div class="score-item">
+            <span class="score-item-label">Autoridade</span>
+            <div class="score-bar-bg"><div class="score-bar" style="width:88%"></div></div>
+            <span class="score-item-val">8,8</span>
+          </div>
+          <div class="score-item">
+            <span class="score-item-label">Audi&ecirc;ncia</span>
+            <div class="score-bar-bg"><div class="score-bar" style="width:75%"></div></div>
+            <span class="score-item-val">7,5</span>
+          </div>
+          <div class="score-item">
+            <span class="score-item-label">Conte&uacute;do</span>
+            <div class="score-bar-bg"><div class="score-bar" style="width:65%"></div></div>
+            <span class="score-item-val">6,5</span>
+          </div>
+          <div class="score-item">
+            <span class="score-item-label">Engajamento recente</span>
+            <div class="score-bar-bg"><div class="score-bar" style="width:40%"></div></div>
+            <span class="score-item-val">4,0</span>
+          </div>
+          <div class="score-item">
+            <span class="score-item-label">Convers&atilde;o</span>
+            <div class="score-bar-bg"><div class="score-bar" style="width:35%"></div></div>
+            <span class="score-item-val">3,5</span>
+          </div>
+          <div class="score-item">
+            <span class="score-item-label">Alcance / descoberta</span>
+            <div class="score-bar-bg"><div class="score-bar" style="width:42%"></div></div>
+            <span class="score-item-val">4,2</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="callout primary">
+      <strong>&#127919; Diagn&oacute;stico Final</strong>
+      O <strong>Instagram @iuricavalcantereis</strong> j&aacute; tem o ativo mais dif&iacute;cil de construir: autoridade jur&iacute;dica verificada e uma audi&ecirc;ncia fiel que engaja de verdade (ER de 2,45%). O perfil documenta muito bem a pessoa, mas quase nunca o advogado &mdash; e &eacute; justamente o conte&uacute;do jur&iacute;dico que falta para transformar reputa&ccedil;&atilde;o em clientes.
+      <br><br>
+      Os <strong>maiores pontos de melhoria</strong> s&atilde;o estruturais e r&aacute;pidos de resolver: abrir alcance (Reels e estrat&eacute;gia de privacidade), retomar cad&ecirc;ncia, criar destaques e montar um funil de contato. Nada disso exige reinventar a marca &mdash; exige dar-lhe estrutura.
+    </div>
+
+    <div class="card">
+      <h3>Estimativa de Oportunidade Comercial</h3>
+      <div class="tbl-wrap">
+        <table>
+          <tr><th>M&eacute;trica</th><th>Estimativa</th></tr>
+          <tr><td>Ativo principal</td><td>Autoridade verificada + audi&ecirc;ncia qualificada (jur&iacute;dico, pol&iacute;tico, agro)</td></tr>
+          <tr><td>Principal gargalo</td><td>Conta privada, falta de Reels/destaques e aus&ecirc;ncia de funil</td></tr>
+          <tr><td>Ganhos esperados</td><td>Mais alcance, novos seguidores qualificados e contatos para o escrit&oacute;rio</td></tr>
+          <tr><td>Prioridade de ROI</td><td><span class="badge badge-green">Conte&uacute;do jur&iacute;dico em Reels + funil de contato</span></td></tr>
+        </table>
+      </div>
+    </div>
+<div class="insight purple">
+  <div class="insight-header"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+    O que isso significa para voc&ecirc;
+  </div>
+  <div class="insight-body">
+    <span class="verdict">&#9733; Vis&atilde;o consolidada</span>
+    <p>Iuri tem o que muitos advogados levam d&eacute;cadas para conquistar: credenciais de elite, selo verificado e uma comunidade que confia nele. <strong>A pr&oacute;xima fase n&atilde;o &eacute; de constru&ccedil;&atilde;o de reputa&ccedil;&atilde;o &mdash; &eacute; de convers&atilde;o dessa reputa&ccedil;&atilde;o em alcance e neg&oacute;cios.</strong> Com o perfil aberto ou integrado ao do escrit&oacute;rio, cad&ecirc;ncia regular, Reels de conte&uacute;do jur&iacute;dico e um funil de contato claro, o Instagram pode deixar de ser um di&aacute;rio pessoal querido para se tornar o principal canal de capta&ccedil;&atilde;o do Cavalcante Reis Advogados. O potencial j&aacute; existe; falta estrutura para captur&aacute;-lo.</p>
+  </div>
+</div>
+  </section>
+
+</div><!-- /page -->
+
+<footer>
+  <strong>Iuri Cavalcante Reis &mdash; An&aacute;lise de Instagram @iuricavalcantereis</strong><br>
+  An&aacute;lise realizada em 19 de junho de 2026 com coleta via API interna do Instagram (sess&atilde;o autenticada / Playwright).<br><br>
+  <a href="https://instagram.com/iuricavalcantereis">@iuricavalcantereis no Instagram</a> &middot;
+  <a href="https://www.cavalcantereis.adv.br/">Cavalcante Reis Advogados</a><br><br>
+  <span style="opacity:.5;font-size:.75rem;">Preparado pela Or&aacute;culo Tecnologia &middot; An&aacute;lise de Redes Sociais</span>
+</footer>
+
+</div><!-- /page-wrap -->
+
+<script>
+const navLinks = document.querySelectorAll('.nav a');
+const sections = document.querySelectorAll('section[id]');
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      navLinks.forEach(a => a.classList.remove('active'));
+      const a = document.querySelector('.nav a[href="#' + e.target.id + '"]');
+      if (a) { a.classList.add('active'); a.scrollIntoView({block:'nearest',inline:'center',behavior:'smooth'}); }
+    }
+  });
+}, { threshold: 0.4 });
+sections.forEach(s => observer.observe(s));
+
+const PRI  = '#1d4ed8';
+const BLUE = '#3b82f6';
+const GRN  = '#16a34a';
+const AMB  = '#d97706';
+const PUR  = '#7c3aed';
+
+new Chart(document.getElementById('chartAudiencia'), {
+  type: 'bar',
+  data: {
+    labels: ['Carrossel', 'Reel', 'Imagem', 'Meta desejada'],
+    datasets: [{
+      label: 'Taxa de engajamento (%)',
+      data: [2.53, 1.74, 1.59, 3.5],
+      backgroundColor: [PRI, BLUE, AMB, GRN],
+      borderRadius: 8,
+    }]
+  },
+  options: {
+    responsive: true, maintainAspectRatio: false,
+    plugins: { legend: { display: false }, tooltip: { callbacks: { label: ctx => ' ' + ctx.raw + '% de ER (posts com curtidas vis\u00edveis)' } } },
+    scales: {
+      y: { beginAtZero: true, max: 4, ticks: { callback: v => v + '%' }, grid: { color: '#f3f4f6' } },
+      x: { grid: { display: false } }
+    }
+  }
+});
+
+new Chart(document.getElementById('chartFormatos'), {
+  type: 'doughnut',
+  data: {
+    labels: ['Carross\u00e9is', 'Imagens', 'Reels'],
+    datasets: [{
+      data: [60, 9, 3],
+      backgroundColor: [PRI, AMB, BLUE],
+      borderWidth: 2,
+      borderColor: '#fff',
+    }]
+  },
+  options: {
+    responsive: true, maintainAspectRatio: false,
+    cutout: '65%',
+    plugins: { legend: { position: 'bottom', labels: { padding: 12, font: { size: 11 } } } }
+  }
+});
+
+new Chart(document.getElementById('chartEngajamento'), {
+  type: 'bar',
+  data: {
+    labels: ['Nascimento\nMaria Vit\u00f3ria', 'Tudo no tempo\nde Deus', 'Posse da\nirm\u00e3', 'Estrada /\nadvocacia', 'Mestre em\nDireito Penal'],
+    datasets: [
+      { label: 'Curtidas', data: [555, 503, 439, 370, 362], backgroundColor: PRI, borderRadius: 6 },
+      { label: 'Coment\u00e1rios', data: [217, 221, 58, 60, 118], backgroundColor: AMB, borderRadius: 6 }
+    ]
+  },
+  options: {
+    responsive: true, maintainAspectRatio: false,
+    plugins: { legend: { position: 'bottom' } },
+    scales: { y: { beginAtZero: true, grid: { color: '#f3f4f6' } }, x: { grid: { display: false } } }
+  }
+});
+
+new Chart(document.getElementById('chartAudienciaSegmentos'), {
+  type: 'bar',
+  indexAxis: 'y',
+  data: {
+    labels: ['Amigos e c\u00edrculo pr\u00f3ximo', 'Colegas do Direito', 'Clientes potenciais', 'P\u00fablico do agro', 'Comunidade local'],
+    datasets: [{
+      label: 'Relev\u00e2ncia estimada (%)',
+      data: [32, 24, 20, 12, 12],
+      backgroundColor: [PRI, BLUE, GRN, AMB, PUR],
+      borderRadius: 6,
+    }]
+  },
+  options: {
+    responsive: true, maintainAspectRatio: false,
+    plugins: { legend: { display: false }, tooltip: { callbacks: { label: ctx => ' ' + ctx.raw + '% da audi\u00eancia estimada' } } },
+    scales: {
+      x: { beginAtZero: true, max: 40, ticks: { callback: v => v + '%' }, grid: { color: '#f3f4f6' } },
+      y: { grid: { display: false } }
+    }
+  }
+});
+
+new Chart(document.getElementById('chartComparativo'), {
+  type: 'bar',
+  data: {
+    labels: ['Hist\u00f3rico (45 posts)', '\u00daltimos 12 posts'],
+    datasets: [
+      { label: 'Coment\u00e1rios m\u00e9dios', data: [30.9, 6.8], backgroundColor: PRI, borderRadius: 6 }
+    ]
+  },
+  options: {
+    responsive: true, maintainAspectRatio: false,
+    plugins: { legend: { position: 'bottom' } },
+    scales: { y: { beginAtZero: true, grid: { color: '#f3f4f6' } }, x: { grid: { display: false } } }
+  }
+});
+</script>
+</body>
+</html>

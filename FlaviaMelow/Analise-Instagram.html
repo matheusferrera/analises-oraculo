@@ -1,0 +1,1806 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Análise de Instagram — Dra. Flávia Melo | Oráculo</title>
+
+<meta property="og:type"        content="website"/>
+<meta property="og:title"       content="Análise de Instagram — Dra. Flávia Melo | Oráculo"/>
+<meta property="og:description" content="Análise completa do perfil @flaviamelow no Instagram: métricas, conteúdo, engajamento e recomendações estratégicas para advocacia de causas maternas."/>
+<meta property="og:image"        content="https://analises-oraculo.vercel.app/FlaviaMelow/og-instagram.png"/>
+<meta property="og:image:width"  content="1200"/>
+<meta property="og:image:height" content="630"/>
+<meta property="og:url"          content="https://analises-oraculo.vercel.app/FlaviaMelow/Analise-Instagram.html"/>
+<meta property="og:site_name"    content="Oráculo Tecnologia"/>
+<meta name="twitter:card"        content="summary_large_image"/>
+<meta name="twitter:image"       content="https://analises-oraculo.vercel.app/FlaviaMelow/og-instagram.png"/>
+<meta name="description"        content="Análise completa do perfil @flaviamelow no Instagram. Preparado pela Oráculo Tecnologia."/>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --primary:      #1d4ed8;
+    --primary-soft: #eff6ff;
+    --primary-mid:  #bfdbfe;
+    --bg:           #f5f6f8;
+    --surface:      #ffffff;
+    --border:       #e4e7ec;
+    --text:         #1a1d23;
+    --text-2:       #4b5563;
+    --text-3:       #9ca3af;
+    --green:        #16a34a;
+    --green-bg:     #f0fdf4;
+    --green-bdr:    #bbf7d0;
+    --amber:        #d97706;
+    --amber-bg:     #fffbeb;
+    --amber-bdr:    #fde68a;
+    --blue:         #1d4ed8;
+    --blue-bg:      #eff6ff;
+    --blue-bdr:     #bfdbfe;
+    --purple:       #7c3aed;
+    --purple-bg:    #f5f3ff;
+    --purple-bdr:   #ddd6fe;
+    --ig-grad:      linear-gradient(135deg,#f09433,#e6683c,#dc2743,#cc2366,#bc1888);
+    --radius:       12px;
+    --shadow:       0 1px 4px rgba(0,0,0,.06), 0 1px 2px rgba(0,0,0,.04);
+    --shadow-md:    0 4px 16px rgba(0,0,0,.08), 0 2px 6px rgba(0,0,0,.04);
+  }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    font-size: 16px;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+    width: 100%;
+    overflow-x: hidden;
+    padding-top: calc(48px + env(safe-area-inset-top));
+  }
+
+  .page-wrap { overflow-x: hidden; width: 100%; }
+
+  /* ── COVER ── */
+  .cover {
+    background: #0f0a1e;
+    color: #fff;
+    padding: 48px 20px 60px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    border-bottom: 1px solid rgba(29,78,216,0.2);
+  }
+  .cover-dot-grid {
+    position: absolute; inset: 0;
+    background-image: radial-gradient(circle, rgba(29,78,216,0.2) 1px, transparent 1px);
+    background-size: 32px 32px;
+    pointer-events: none;
+    mask-image: linear-gradient(to bottom, transparent, black 18%, black 82%, transparent);
+    -webkit-mask-image: linear-gradient(to bottom, transparent, black 18%, black 82%, transparent);
+  }
+  .cover-glow {
+    position: absolute; top: -10rem; left: 50%; transform: translateX(-50%);
+    width: 60rem; height: 40rem; border-radius: 50%;
+    background: radial-gradient(circle, rgba(29,78,216,0.22) 0%, transparent 62%);
+    pointer-events: none;
+  }
+  .cover::after {
+    content: '';
+    position: absolute;
+    bottom: -1px; left: 0; right: 0;
+    height: 40px;
+    background: var(--bg);
+    clip-path: ellipse(55% 100% at 50% 100%);
+  }
+  .cover-label {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: rgba(29,78,216,0.18);
+    border: 1px solid rgba(29,78,216,0.4);
+    border-radius: 100px;
+    padding: 4px 14px 4px 8px;
+    font-size: .72rem;
+    font-weight: 700;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: #60a5fa;
+  }
+  .cover-label-orb {
+    width: 8px; height: 8px; border-radius: 50%;
+    background: var(--ig-grad);
+    box-shadow: 0 0 8px rgba(29,78,216,0.8);
+    flex-shrink: 0;
+  }
+  .cover h1 {
+    font-size: clamp(2rem, 6vw, 3.2rem);
+    font-weight: 800;
+    letter-spacing: -.03em;
+    line-height: 1.1;
+    margin-bottom: 12px;
+    color: #f1f5f9;
+  }
+  .cover h1 .hl {
+    background: var(--ig-grad);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .cover-sub {
+    font-size: 1.05rem;
+    color: #94a3b8;
+    max-width: 520px;
+    margin: 0 auto 32px;
+  }
+  .cover-meta {
+    display: inline-flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: .85rem;
+    color: #93c5fd;
+  }
+  .cover-meta span { display: flex; align-items: center; gap: 6px; }
+  .ig-badge {
+    display: inline-flex; align-items: center; gap: 6px;
+    background: var(--ig-grad); border-radius: 100px;
+    padding: 4px 14px; font-size: .75rem; font-weight: 700;
+    color: #fff; margin-bottom: 16px;
+  }
+
+  /* ── NAV ── */
+  .nav {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 100;
+    background: rgba(255,255,255,0.97);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border-bottom: 1px solid var(--border);
+    padding: 0 24px;
+    padding-top: env(safe-area-inset-top);
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    overflow-x: auto;
+    scrollbar-width: none;
+    box-shadow: 0 2px 12px rgba(0,0,0,.07);
+  }
+  .nav::-webkit-scrollbar { display: none; }
+  .nav a {
+    display: block;
+    padding: 14px 14px;
+    font-size: .8rem;
+    font-weight: 600;
+    color: #4b5563;
+    text-decoration: none;
+    white-space: nowrap;
+    border-bottom: 2px solid transparent;
+    transition: color .15s, border-color .15s;
+  }
+  .nav a:hover { color: var(--primary); border-bottom-color: var(--primary); }
+  .nav a.active {
+    color: var(--primary);
+    border-bottom-color: var(--primary);
+    background: var(--primary-soft);
+    border-radius: 6px 6px 0 0;
+  }
+
+  /* ── LAYOUT ── */
+  .page { max-width: 900px; margin: 0 auto; padding: 60px 16px 90px; }
+
+  /* ── KPI STRIP ── */
+  .kpi-row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    margin-bottom: 32px;
+  }
+  .kpi {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 16px 12px;
+    box-shadow: var(--shadow);
+    text-align: center;
+  }
+  .kpi-val {
+    font-size: 1.7rem;
+    font-weight: 800;
+    color: var(--primary);
+    line-height: 1;
+    letter-spacing: -.03em;
+  }
+  .kpi-val.ig { color: var(--primary); }
+  .kpi-label {
+    font-size: .78rem;
+    color: var(--text-2);
+    margin-top: 6px;
+    font-weight: 500;
+  }
+  .kpi-delta {
+    display: inline-block;
+    font-size: .7rem;
+    font-weight: 700;
+    margin-top: 4px;
+    padding: 2px 6px;
+    border-radius: 6px;
+  }
+  .delta-up   { background: #f0fdf4; color: #16a34a; }
+  .delta-warn { background: #fffbeb; color: #d97706; }
+
+  /* ── SECTION HEADER ── */
+  .section-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 20px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--border);
+  }
+  .section-num {
+    width: 32px; height: 32px;
+    border-radius: 8px;
+    background: var(--primary-soft);
+    color: var(--primary);
+    font-size: .8rem;
+    font-weight: 800;
+    display: flex; align-items: center; justify-content: center;
+    flex-shrink: 0;
+  }
+  .section-header h2 {
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: var(--text);
+    letter-spacing: -.02em;
+  }
+  .section { margin-bottom: 48px; }
+
+  /* ── CARD ── */
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 16px;
+    box-shadow: var(--shadow);
+    margin-bottom: 16px;
+  }
+  .card h3 {
+    font-size: .95rem;
+    font-weight: 700;
+    color: var(--text);
+    margin-bottom: 14px;
+  }
+
+  /* ── TABLE ── */
+  .tbl-wrap { overflow-x: auto; }
+  table { width: 100%; border-collapse: collapse; font-size: .88rem; }
+  th {
+    background: var(--primary-soft);
+    color: var(--primary);
+    font-size: .72rem;
+    font-weight: 700;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    padding: 10px 12px;
+    text-align: left;
+  }
+  td { padding: 10px 12px; border-bottom: 1px solid var(--border); color: var(--text-2); vertical-align: top; }
+  tr:last-child td { border-bottom: none; }
+  tr:hover td { background: var(--bg); }
+  td strong { color: var(--text); font-weight: 600; }
+
+  /* ── CALLOUT ── */
+  .callout {
+    border-radius: var(--radius);
+    padding: 16px 18px;
+    margin-bottom: 16px;
+    font-size: .9rem;
+    border-left: 3px solid;
+  }
+  .callout strong { display: block; font-size: .72rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; margin-bottom: 6px; }
+  .callout.green  { background: var(--green-bg);  border-color: var(--green);  color: #166534; }
+  .callout.green strong { color: var(--green); }
+  .callout.amber  { background: var(--amber-bg);  border-color: var(--amber);  color: #92400e; }
+  .callout.amber strong { color: var(--amber); }
+  .callout.blue   { background: var(--blue-bg);   border-color: var(--blue);   color: #1e3a8a; }
+  .callout.blue strong  { color: var(--blue); }
+  .callout.purple { background: var(--purple-bg); border-color: var(--purple); color: #4c1d95; }
+  .callout.purple strong{ color: var(--purple); }
+  .callout.primary{ background: var(--primary-soft); border-color: var(--primary); color: #1e3a8a; }
+  .callout.primary strong { color: var(--primary); }
+
+  /* ── BADGE ── */
+  .badge {
+    display: inline-block;
+    font-size: .72rem;
+    font-weight: 700;
+    padding: 2px 8px;
+    border-radius: 6px;
+  }
+  .badge-green  { background: var(--green-bg);  color: var(--green);  border: 1px solid var(--green-bdr); }
+  .badge-amber  { background: var(--amber-bg);  color: var(--amber);  border: 1px solid var(--amber-bdr); }
+  .badge-blue   { background: var(--blue-bg);   color: var(--blue);   border: 1px solid var(--blue-bdr); }
+  .badge-primary{ background: var(--primary-soft); color: var(--primary); border: 1px solid var(--primary-mid); }
+  .badge-ig { background: var(--ig-grad); color: #fff; border: none; }
+
+  /* ── SWOT ── */
+  .swot-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 12px;
+    margin-top: 12px;
+  }
+  .swot-cell { border-radius: var(--radius); padding: 14px; }
+  .swot-cell h4 { font-size: .8rem; font-weight: 800; letter-spacing: .07em; text-transform: uppercase; margin-bottom: 10px; }
+  .swot-cell ul { padding-left: 1.1rem; }
+  .swot-cell li { font-size: .84rem; margin-bottom: 5px; line-height: 1.5; }
+  .swot-s { background: var(--green-bg);  border: 1px solid var(--green-bdr); }
+  .swot-s h4 { color: var(--green); }
+  .swot-s li  { color: #166534; }
+  .swot-w { background: var(--primary-soft); border: 1px solid var(--primary-mid); }
+  .swot-w h4 { color: var(--primary); }
+  .swot-w li  { color: #1e3a8a; }
+  .swot-o { background: var(--blue-bg);   border: 1px solid var(--blue-bdr); }
+  .swot-o h4 { color: var(--blue); }
+  .swot-o li  { color: #1e3a8a; }
+  .swot-t { background: var(--amber-bg);  border: 1px solid var(--amber-bdr); }
+  .swot-t h4 { color: var(--amber); }
+  .swot-t li  { color: #92400e; }
+
+  /* ── RECOMENDAÇÕES ── */
+  .rec-grid { display: grid; grid-template-columns: 1fr; gap: 16px; }
+  .rec-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 20px; box-shadow: var(--shadow); }
+  .rec-card h4 { font-size: .8rem; font-weight: 800; letter-spacing: .06em; text-transform: uppercase; margin-bottom: 12px; padding-bottom: 8px; border-bottom: 2px solid; }
+  .rec-card ul { padding-left: 1rem; }
+  .rec-card li { font-size: .84rem; color: var(--text-2); margin-bottom: 8px; line-height: 1.5; }
+  .rec-card li::marker { color: var(--primary); }
+  .rec-short h4 { color: var(--primary); border-color: var(--primary-mid); }
+  .rec-mid   h4 { color: var(--blue);    border-color: var(--blue-bdr); }
+  .rec-long  h4 { color: var(--purple);  border-color: var(--purple-bdr); }
+
+  /* ── ENGAGEMENT SAMPLE ── */
+  .post-row {
+    display: flex; align-items: center; gap: 12px;
+    padding: 12px 0; border-bottom: 1px solid var(--border);
+  }
+  .post-row:last-child { border-bottom: none; }
+  .post-icon {
+    width: 40px; height: 40px; border-radius: 8px; flex-shrink: 0;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 1.2rem;
+  }
+  .post-title { font-size: .87rem; font-weight: 600; color: var(--text); }
+  .post-meta  { font-size: .76rem; color: var(--text-3); margin-top: 2px; }
+  .post-stats { margin-left: auto; text-align: right; flex-shrink: 0; }
+  .post-likes { font-size: 1rem; font-weight: 800; color: var(--primary); }
+  .post-cmts  { font-size: .75rem; color: var(--text-3); }
+
+  /* ── HASHTAG CLOUD ── */
+  .tag-cloud { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+  .tag {
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 100px;
+    font-size: .78rem;
+    font-weight: 600;
+    border: 1px solid var(--border);
+    color: var(--text-2);
+    background: var(--surface);
+  }
+  .tag.high  { background: var(--primary-soft); color: var(--primary); border-color: var(--primary-mid); }
+  .tag.mid   { background: var(--blue-bg); color: var(--blue); border-color: var(--blue-bdr); }
+  .tag.low   { background: var(--bg); color: var(--text-3); }
+
+  /* ── FUNNEL DIAGRAM ── */
+  .funnel { display: flex; flex-direction: column; gap: 0; margin: 16px 0; }
+  .funnel-step {
+    padding: 14px 20px;
+    font-size: .88rem; font-weight: 600;
+    color: #fff;
+    position: relative;
+    clip-path: polygon(0 0, 100% 0, 95% 100%, 5% 100%);
+    margin-bottom: 4px;
+    text-align: center;
+  }
+  .f1 { background: #1d4ed8; width: 100%; }
+  .f2 { background: #2563eb; width: 85%; align-self: center; }
+  .f3 { background: #d97706; width: 68%; align-self: center; }
+  .f4 { background: #16a34a; width: 50%; align-self: center; clip-path: polygon(0 0, 100% 0, 92% 100%, 8% 100%); }
+
+  /* ── CHART ── */
+  .chart-wrap { position: relative; height: 260px; margin-top: 12px; }
+
+  /* ── SCORE RING ── */
+  .score-ring-wrap { display: flex; align-items: center; gap: 20px; flex-wrap: wrap; flex-direction: column; }
+  .score-ring {
+    flex-shrink: 0;
+    width: 120px; height: 120px; border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    flex-direction: column;
+    background: conic-gradient(#1d4ed8 0% 72%, #e4e7ec 72% 100%);
+  }
+  .score-inner {
+    width: 86px; height: 86px; border-radius: 50%;
+    background: var(--surface);
+    display: flex; align-items: center; justify-content: center; flex-direction: column;
+  }
+  .score-val { font-size: 1.8rem; font-weight: 800; color: var(--primary); line-height: 1; }
+  .score-max { font-size: .7rem; color: var(--text-3); }
+  .score-labels { flex: 1; }
+  .score-item { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; }
+  .score-bar-bg { flex: 1; height: 6px; background: var(--border); border-radius: 3px; }
+  .score-bar    { height: 6px; border-radius: 3px; background: var(--primary); }
+  .score-item-label { font-size: .78rem; color: var(--text-2); width: 120px; flex-shrink: 0; }
+  .score-item-val   { font-size: .78rem; font-weight: 700; color: var(--text); width: 28px; text-align: right; flex-shrink: 0; }
+
+  /* ── COMPARISON ── */
+  .vs-grid { display: grid; grid-template-columns: 1fr; gap: 16px; }
+  .vs-card { border-radius: var(--radius); padding: 20px; border: 1px solid; }
+  .vs-ig { background: var(--primary-soft); border-color: var(--primary-mid); }
+  .vs-yt { background: var(--blue-bg); border-color: var(--blue-bdr); }
+  .vs-platform { font-size: .7rem; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; margin-bottom: 12px; }
+  .vs-ig .vs-platform { color: var(--primary); }
+  .vs-yt .vs-platform { color: var(--blue); }
+  .vs-metric { display: flex; justify-content: space-between; font-size: .84rem; padding: 6px 0; border-bottom: 1px solid rgba(0,0,0,.06); }
+  .vs-metric:last-child { border-bottom: none; }
+  .vs-metric-label { color: var(--text-2); }
+  .vs-metric-val { font-weight: 700; }
+  .vs-ig .vs-metric-val { color: var(--primary); }
+  .vs-yt .vs-metric-val { color: var(--blue); }
+
+  /* ── COLLAB CARDS ── */
+  .collab-grid { display: grid; grid-template-columns: 1fr; gap: 16px; margin-top: 12px; }
+  .collab-card {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: var(--radius); padding: 18px;
+    display: flex; align-items: center; gap: 14px;
+    box-shadow: var(--shadow);
+  }
+  .collab-avatar {
+    width: 48px; height: 48px; border-radius: 50%;
+    background: var(--ig-grad); display: flex; align-items: center;
+    justify-content: center; font-size: 1.4rem; flex-shrink: 0;
+  }
+  .collab-handle { font-size: .9rem; font-weight: 700; color: var(--text); }
+  .collab-desc   { font-size: .78rem; color: var(--text-3); margin-top: 2px; }
+
+  /* ── FOOTER ── */
+  footer {
+    background: #0f0a1e;
+    color: #94a3b8;
+    padding: 40px 24px;
+    text-align: center;
+    font-size: .84rem;
+    margin-bottom: 64px;
+  }
+  footer strong { color: #f1f5f9; }
+  footer a { color: #60a5fa; text-decoration: none; }
+
+  /* ── DIAGNÓSTICO EXECUTIVO ── */
+  .diag-wrap {
+    background: #1d4ed8;
+    border-radius: var(--radius);
+    padding: 24px 20px;
+    margin-bottom: 40px;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+  }
+  .diag-wrap::before {
+    content: '';
+    position: absolute; inset: 0;
+    background-image: radial-gradient(circle, rgba(255,255,255,0.12) 1px, transparent 1px);
+    background-size: 28px 28px;
+    pointer-events: none;
+  }
+  .diag-title {
+    font-size: 1.1rem;
+    font-weight: 800;
+    color: #ffffff;
+    margin-bottom: 4px;
+    position: relative;
+  }
+  .diag-sub {
+    font-size: .82rem;
+    color: rgba(255,255,255,0.75);
+    margin-bottom: 20px;
+    position: relative;
+  }
+  .diag-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    margin-bottom: 24px;
+    position: relative;
+  }
+  .diag-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    background: rgba(255,255,255,0.12);
+    border-radius: 10px;
+    padding: 12px 14px;
+    border: 1px solid rgba(255,255,255,0.18);
+  }
+  .diag-dot {
+    width: 10px; height: 10px; border-radius: 50%;
+    flex-shrink: 0; margin-top: 5px;
+  }
+  .diag-dot.green  { background: #4ade80; box-shadow: 0 0 6px #4ade80; }
+  .diag-dot.yellow { background: #fbbf24; box-shadow: 0 0 6px #fbbf24; }
+  .diag-dot.red    { background: #f87171; box-shadow: 0 0 6px #f87171; }
+  .diag-item-title { font-size: .88rem; font-weight: 700; color: #ffffff; line-height: 1.3; }
+  .diag-item-desc  { font-size: .78rem; color: rgba(255,255,255,0.72); margin-top: 2px; line-height: 1.4; }
+  .diag-legend {
+    display: flex; gap: 16px; flex-wrap: wrap;
+    font-size: .72rem; color: rgba(255,255,255,0.65);
+    margin-bottom: 20px; position: relative;
+  }
+  .diag-legend span { display: flex; align-items: center; gap: 5px; }
+  .diag-cta-label {
+    font-size: .68rem; font-weight: 800; letter-spacing: .1em;
+    text-transform: uppercase; color: rgba(255,255,255,0.9);
+    margin-bottom: 10px; position: relative;
+  }
+  .oraculo-pills {
+    display: flex; flex-wrap: wrap; gap: 8px; position: relative;
+  }
+  .oraculo-pill {
+    display: inline-flex; align-items: center; gap: 6px;
+    background: rgba(255,255,255,0.15);
+    border: 1px solid rgba(255,255,255,0.28);
+    border-radius: 100px;
+    padding: 6px 12px;
+    font-size: .78rem; font-weight: 600; color: #ffffff;
+  }
+  .oraculo-pill .pill-icon { font-size: .9rem; }
+
+  /* ── INTRO DIAGNÓSTICO ── */
+  .intro-diag { margin-bottom: 28px; }
+  .intro-diag-greeting {
+    font-size: .78rem; font-weight: 700; text-transform: uppercase;
+    letter-spacing: .1em; color: var(--text-3); margin-bottom: 6px;
+  }
+  .intro-diag-title {
+    font-size: clamp(1.4rem, 4vw, 2rem); font-weight: 800; color: var(--text);
+    letter-spacing: -.03em; line-height: 1.2; margin-bottom: 10px;
+  }
+  .intro-diag-title span { color: var(--primary); }
+  .intro-diag-lead {
+    font-size: 1rem; color: var(--text-2); max-width: 680px;
+    line-height: 1.7; margin-bottom: 28px;
+  }
+
+  /* ── SCORE CARD ── */
+  .score-block {
+    display: grid; grid-template-columns: auto 1fr;
+    gap: 24px; align-items: center;
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: var(--radius); padding: 28px;
+    box-shadow: var(--shadow-md); margin-bottom: 20px;
+  }
+  .score-circle {
+    width: 110px; height: 110px; border-radius: 50%;
+    background: conic-gradient(var(--primary) 0% 64%, #e4e7ec 64% 100%);
+    display: flex; align-items: center; justify-content: center;
+    position: relative; flex-shrink: 0;
+  }
+  .score-diag-inner {
+    width: 80px; height: 80px; border-radius: 50%;
+    background: var(--surface);
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+  }
+  .score-num {
+    font-size: 1.7rem; font-weight: 900; color: var(--primary);
+    line-height: 1; letter-spacing: -.04em;
+  }
+  .score-den { font-size: .65rem; font-weight: 700; color: var(--text-3); letter-spacing: .04em; }
+  .score-info h3 {
+    font-size: 1.15rem; font-weight: 800; color: var(--text);
+    margin-bottom: 6px; margin-top: 0; border: none; padding: 0;
+  }
+  .score-info p { font-size: .9rem; color: var(--text-2); margin-bottom: 14px; }
+  .score-bars { display: flex; flex-direction: column; gap: 8px; }
+  .score-bar-row { display: flex; align-items: center; gap: 10px; font-size: .8rem; }
+  .score-bar-label { width: 140px; color: var(--text-2); font-weight: 500; flex-shrink: 0; }
+  .score-bar-track { flex: 1; height: 7px; background: #f0f2f5; border-radius: 4px; overflow: hidden; }
+  .score-bar-fill  { height: 100%; border-radius: 4px; }
+  .score-bar-val { width: 30px; text-align: right; font-weight: 700; color: var(--text); font-size: .78rem; }
+
+  /* ── SITUAÇÃO + COMO AJUDAMOS ── */
+  .sithelp-grid { display: grid; grid-template-columns: 1fr; gap: 16px; margin-bottom: 32px; }
+  .sit-card, .help-card { border-radius: var(--radius); padding: 22px; border: 1px solid; }
+  .sit-card  { background: var(--amber-bg); border-color: var(--amber-bdr); }
+  .help-card { background: var(--green-bg); border-color: var(--green-bdr); }
+  .sithelp-head {
+    display: flex; align-items: center; gap: 10px;
+    font-size: .75rem; font-weight: 800; text-transform: uppercase; letter-spacing: .09em;
+    margin-bottom: 14px;
+  }
+  .sit-card  .sithelp-head { color: var(--amber); }
+  .help-card .sithelp-head { color: var(--green); }
+  .sithelp-head-icon {
+    width: 28px; height: 28px; border-radius: 8px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: .85rem; flex-shrink: 0;
+  }
+  .sit-card  .sithelp-head-icon { background: rgba(180,83,9,.12); }
+  .help-card .sithelp-head-icon { background: rgba(21,128,61,.12); }
+  .sithelp-list { list-style: none; padding: 0; }
+  .sithelp-list li {
+    font-size: .86rem; padding: 7px 0;
+    border-bottom: 1px solid rgba(0,0,0,.06);
+    display: flex; align-items: flex-start; gap: 8px; line-height: 1.5;
+  }
+  .sithelp-list li:last-child { border-bottom: none; padding-bottom: 0; }
+  .sithelp-list li::before { font-weight: 800; flex-shrink: 0; margin-top: 1px; }
+  .sit-card  .sithelp-list li { color: #92400e; }
+  .sit-card  .sithelp-list li::before { content: '–'; color: var(--amber); }
+  .help-card .sithelp-list li { color: #166534; }
+  .help-card .sithelp-list li::before { content: '✓'; color: var(--green); }
+
+  /* ── FORMAT GRID (mobile: empilhado, desktop: lado a lado) ── */
+  .format-grid { display: grid; grid-template-columns: 1fr; gap: 16px; align-items: center; }
+
+  /* ── TABLET (≥ 600px) ── */
+  @media (min-width: 600px) {
+    .diag-grid   { grid-template-columns: 1fr 1fr; }
+    .kpi-row     { grid-template-columns: repeat(3, 1fr); gap: 16px; }
+    .kpi         { padding: 18px 14px; }
+    .kpi-val     { font-size: 1.9rem; }
+    .collab-grid { grid-template-columns: 1fr 1fr; }
+    .vs-grid     { grid-template-columns: 1fr 1fr; }
+    .sithelp-grid { grid-template-columns: 1fr 1fr; }
+    .score-block  { grid-template-columns: auto 1fr; text-align: left; }
+    .score-circle { margin: 0; }
+    .score-bar-row { flex-wrap: nowrap; }
+    .score-bar-label { width: 120px; }
+  }
+
+  /* ── DESKTOP (≥ 768px) ── */
+  @media (min-width: 768px) {
+    .format-grid { grid-template-columns: 1fr 1fr; }
+    .cover       { padding: 64px 32px 72px; }
+    .page        { padding: 56px 24px 100px; }
+    .kpi-row     { grid-template-columns: repeat(5, 1fr); margin-bottom: 40px; }
+    .kpi-val     { font-size: 2rem; }
+    .kpi         { padding: 20px 18px; }
+    .card        { padding: 24px; }
+    .swot-grid   { grid-template-columns: 1fr 1fr; }
+    .swot-cell   { padding: 18px; }
+    .rec-grid    { grid-template-columns: repeat(3, 1fr); }
+    .score-ring-wrap { flex-direction: row; gap: 28px; }
+    .score-block  { padding: 28px; gap: 24px; }
+    .score-circle { width: 110px; height: 110px; }
+    .score-num    { font-size: 1.7rem; }
+    .score-bar-label { width: 140px; font-size: .8rem; }
+    .score-bar-track { height: 7px; }
+    .sit-card, .help-card { padding: 22px; }
+    .sithelp-list li { font-size: .86rem; }
+  }
+
+  /* ── SCROLL ANCHORS (compensa a nav fixa) ── */
+  .section,
+  #diagnostico {
+    scroll-margin-top: calc(52px + env(safe-area-inset-top));
+  }
+
+  /* ── TOUCH / MOBILE UX ── */
+  .nav a,
+  a,
+  button {
+    touch-action: manipulation;
+  }
+  .nav a {
+    -webkit-tap-highlight-color: rgba(29,78,216,0.12);
+  }
+
+  /* ── MOBILE BASE (≤ 479px) ── */
+  @media (max-width: 479px) {
+    /* nav */
+    .nav {
+      padding: 0 4px;
+      padding-top: env(safe-area-inset-top);
+      gap: 0;
+      min-height: 44px;
+    }
+    .nav a {
+      padding: 10px 8px;
+      font-size: .72rem;
+      flex-shrink: 0;
+      min-height: 44px;
+      display: flex;
+      align-items: center;
+    }
+
+    /* page */
+    .page { padding: 32px 14px calc(72px + env(safe-area-inset-bottom)); }
+
+    /* cover */
+    .cover { padding: 36px 16px 50px; }
+    .cover h1 { font-size: clamp(1.5rem, 6vw, 2.6rem); }
+    .cover-sub { font-size: .88rem; max-width: 100%; }
+    .cover-meta { font-size: .76rem; gap: 8px; flex-direction: column; }
+
+    /* kpi */
+    .kpi-val { font-size: 1.4rem; }
+    .kpi { padding: 13px 10px; }
+    .kpi-label { font-size: .72rem; }
+    .kpi-delta { font-size: .65rem; }
+
+    /* section */
+    .section { margin-bottom: 32px; }
+    .section-header { margin-bottom: 14px; }
+    .section-header h2 { font-size: 1rem; }
+
+    /* diag */
+    .diag-wrap { padding: 18px 14px; }
+    .diag-title { font-size: .97rem; }
+    .diag-item { padding: 10px 11px; gap: 10px; }
+    .diag-item-title { font-size: .84rem; }
+    .diag-item-desc  { font-size: .74rem; }
+    .oraculo-pill { font-size: .72rem; padding: 5px 10px; }
+
+    /* score block */
+    .score-block { grid-template-columns: 1fr; text-align: center; padding: 16px; gap: 16px; }
+    .score-circle { width: 90px; height: 90px; margin: 0 auto; }
+    .score-num { font-size: 1.4rem; }
+    .score-bar-row { flex-wrap: wrap; gap: 4px; }
+    .score-bar-label { width: 100%; font-size: .74rem; }
+    .score-bar-track { flex: 1; min-width: 0; height: 6px; }
+    .score-bar-val { width: auto; font-size: .72rem; }
+    .score-info h3 { font-size: 1rem; }
+    .score-info p  { font-size: .83rem; }
+
+    /* sithelp */
+    .sithelp-grid { grid-template-columns: 1fr; gap: 12px; }
+    .sit-card, .help-card { padding: 14px; }
+    .sithelp-list li { font-size: .8rem; }
+    .intro-diag-title { font-size: 1.3rem; }
+    .intro-diag-lead  { font-size: .88rem; margin-bottom: 18px; }
+
+    /* cards */
+    .card { padding: 14px 13px; }
+    .rec-card { padding: 14px; }
+    .rec-card li { font-size: .8rem; }
+    .collab-card { padding: 14px; gap: 10px; }
+
+    /* chart */
+    .chart-wrap { height: 200px; }
+
+    /* score */
+    .score-ring { width: 100px; height: 100px; }
+    .score-inner { width: 72px; height: 72px; }
+    .score-val { font-size: 1.5rem; }
+    .score-item-label { width: 90px; font-size: .72rem; }
+
+    /* footer */
+    footer { padding: 28px 16px; font-size: .78rem; margin-bottom: 0; }
+  }
+
+  /* ── MOBILE 480–599px ── */
+  @media (min-width: 480px) and (max-width: 599px) {
+    .nav { padding: 0 16px; gap: 2px; }
+    .nav a { padding: 12px 10px; font-size: .76rem; }
+    .page { padding: 36px 20px 80px; }
+    .kpi-row { grid-template-columns: repeat(3, 1fr); }
+  }
+
+  /* ── OVERFLOW HORIZONTAL GLOBAL ── */
+  img, canvas, iframe, video, svg { max-width: 100%; }
+
+  /* ── INSIGHT "O QUE ISSO SIGNIFICA PARA VOCÊ" ── */
+  .insight {
+    margin-top: 20px;
+    border-radius: var(--radius);
+    border: 1.5px solid var(--border);
+    overflow: hidden;
+    box-shadow: var(--shadow);
+  }
+  .insight-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 11px 18px;
+    font-size: .72rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+  }
+  .insight-header svg { flex-shrink: 0; }
+  .insight-body {
+    padding: 16px 18px;
+    font-size: .9rem;
+    line-height: 1.65;
+    background: var(--surface);
+    color: var(--text-2);
+  }
+  .insight-body strong { color: var(--text); }
+  .insight-body .verdict {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: 700;
+    font-size: .78rem;
+    text-transform: uppercase;
+    letter-spacing: .07em;
+    margin-bottom: 8px;
+    padding: 3px 10px;
+    border-radius: 100px;
+  }
+  .insight.good   .insight-header { background: var(--green-bg);    color: var(--green);   border-bottom: 1px solid var(--green-bdr); }
+  .insight.good   .verdict        { background: var(--green-bg);    color: var(--green); }
+  .insight.warn   .insight-header { background: var(--amber-bg);    color: var(--amber);   border-bottom: 1px solid var(--amber-bdr); }
+  .insight.warn   .verdict        { background: var(--amber-bg);    color: var(--amber); }
+  .insight.bad    .insight-header { background: var(--primary-soft);color: var(--primary); border-bottom: 1px solid var(--primary-mid); }
+  .insight.bad    .verdict        { background: var(--primary-soft);color: var(--primary); }
+  .insight.info   .insight-header { background: var(--blue-bg);     color: var(--blue);    border-bottom: 1px solid var(--blue-bdr); }
+  .insight.info   .verdict        { background: var(--blue-bg);     color: var(--blue); }
+  .insight.purple .insight-header { background: var(--purple-bg);   color: var(--purple);  border-bottom: 1px solid var(--purple-bdr); }
+  .insight.purple .verdict        { background: var(--purple-bg);   color: var(--purple); }
+
+  @media (max-width: 479px) {
+    .insight-header { padding: 9px 13px; font-size: .66rem; }
+    .insight-body   { padding: 12px 13px; font-size: .84rem; }
+  }
+</style>
+<style>
+  :root { --ig-grad: linear-gradient(135deg,#7c3aed,#db2777,#f472b6); }
+</style>
+</head>
+<body>
+<div class="page-wrap">
+
+<!-- ── COVER ── -->
+<div class="cover">
+  <div class="cover-dot-grid"></div>
+  <div class="cover-glow"></div>
+  <div class="ig-badge">📸 Instagram @flaviamelow</div>
+  <div class="cover-label">
+    <span class="cover-label-orb"></span>
+    Oráculo Tecnologia · Análise de Redes Sociais
+  </div>
+  <h1>Dra. Flávia Melo no <span class="hl">Instagram</span></h1>
+  <p class="cover-sub">Análise completa do perfil @flaviamelow — métricas, conteúdo, engajamento, posts mais curtidos e estratégia de crescimento para advocacia de causas maternas</p>
+  <div class="cover-meta">
+    <span>📅 7 de julho de 2026</span>
+    <span>👥 2.674 seguidores</span>
+    <span>📷 25 posts</span>
+    <span>✅ Conta verificada</span>
+  </div>
+</div>
+
+<!-- ── NAV ── -->
+<nav class="nav">
+  <a href="#diagnostico">Diagnóstico</a>
+  <a href="#visao-geral">Visão Geral</a>
+  <a href="#metricas">Métricas</a>
+  <a href="#conteudo">Conteúdo</a>
+  <a href="#engajamento">Engajamento</a>
+  <a href="#collabs">Prova Social</a>
+  <a href="#audiencia">Audiência</a>
+  <a href="#swot">SWOT</a>
+  <a href="#comparativo">Comparativo</a>
+  <a href="#recomendacoes">Recomendações</a>
+  <a href="#resumo">Resumo</a>
+</nav>
+
+<!-- ── PAGE ── -->
+<div class="page">
+
+  <!-- DIAGNÓSTICO EXECUTIVO -->
+  <section class="section" id="diagnostico">
+    <div class="intro-diag">
+      <div class="intro-diag-greeting">Preparado exclusivamente para Dra. Flávia Melo</div>
+      <h1 class="intro-diag-title">Seu conteúdo já encontrou o público.<br><span>Agora o perfil precisa se apresentar como advogada.</span></h1>
+      <p class="intro-diag-lead">
+        Fizemos uma análise completa e imparcial do perfil @flaviamelow no Instagram. A coleta foi feita via Playwright em 07/07/2026 com sessão autenticada: extraímos os dados do perfil e todos os 25 posts publicados, com curtidas, comentários, visualizações de Reels, datas e legendas.
+      </p>
+
+      <div class="score-block">
+        <div class="score-circle" style="background: conic-gradient(var(--primary) 0% 54%, #e4e7ec 54% 100%);">
+          <div class="score-diag-inner">
+            <span class="score-num">5,4</span>
+            <span class="score-den">/ 10</span>
+          </div>
+        </div>
+        <div class="score-info">
+          <h3>Saúde geral do perfil: Em transição, com engajamento raro de se ver</h3>
+          <p>A base é pequena, mas responde muito: 6,99% de engajamento médio e um Reel jurídico que alcançou quase 6 vezes o número de seguidores. O que puxa a nota para baixo é estrutural: a bio não diz que a Flávia é advogada, não há link, CTA nem cadência — o perfil ainda se comporta como conta pessoal.</p>
+          <div class="score-bars">
+            <div class="score-bar-row">
+              <span class="score-bar-label">Conexão e autenticidade</span>
+              <div class="score-bar-track"><div class="score-bar-fill" style="width:90%;background:#15803d"></div></div>
+              <span class="score-bar-val" style="color:#15803d">9,0</span>
+            </div>
+            <div class="score-bar-row">
+              <span class="score-bar-label">Engajamento da base</span>
+              <div class="score-bar-track"><div class="score-bar-fill" style="width:84%;background:#15803d"></div></div>
+              <span class="score-bar-val" style="color:#15803d">8,4</span>
+            </div>
+            <div class="score-bar-row">
+              <span class="score-bar-label">Alcance dos Reels</span>
+              <div class="score-bar-track"><div class="score-bar-fill" style="width:75%;background:#15803d"></div></div>
+              <span class="score-bar-val" style="color:#15803d">7,5</span>
+            </div>
+            <div class="score-bar-row">
+              <span class="score-bar-label">Cadência de publicação</span>
+              <div class="score-bar-track"><div class="score-bar-fill" style="width:35%;background:#b45309"></div></div>
+              <span class="score-bar-val" style="color:#b45309">3,5</span>
+            </div>
+            <div class="score-bar-row">
+              <span class="score-bar-label">Posicionamento profissional</span>
+              <div class="score-bar-track"><div class="score-bar-fill" style="width:32%;background:#b45309"></div></div>
+              <span class="score-bar-val" style="color:#b45309">3,2</span>
+            </div>
+            <div class="score-bar-row">
+              <span class="score-bar-label">Estrutura de conversão</span>
+              <div class="score-bar-track"><div class="score-bar-fill" style="width:24%;background:#b45309"></div></div>
+              <span class="score-bar-val" style="color:#b45309">2,4</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="sithelp-grid">
+        <div class="sit-card">
+          <div class="sithelp-head">
+            <div class="sithelp-head-icon">&#9888;</div>
+            Situação atual do perfil
+          </div>
+          <ul class="sithelp-list">
+            <li>2.674 seguidores, conta verificada e engajamento médio de 6,99% — a base é pequena, mas muito quente</li>
+            <li>Apenas 25 posts em 7 anos; em 2026 a cadência subiu para cerca de 1,2 post por mês</li>
+            <li>O Reel sobre salário-maternidade alcançou 15.742 visualizações — 5,9 vezes a base de seguidores</li>
+            <li>A bio não menciona advocacia, OAB, causas maternas nem tem link ou botão de contato</li>
+            <li>Só 1 dos 25 posts tem chamada para ação; a conta ainda é pessoal, sem categoria profissional nem métricas</li>
+          </ul>
+        </div>
+        <div class="help-card">
+          <div class="sithelp-head">
+            <div class="sithelp-head-icon">&#9670;</div>
+            Como a Oráculo pode ajudar
+          </div>
+          <ul class="sithelp-list">
+            <li>Reposicionar bio, categoria e link como advogada de causas maternas</li>
+            <li>Transformar os Reels jurídicos em série fixa com cadência semanal</li>
+            <li>Criar funil de triagem via WhatsApp para transformar alcance em consultas</li>
+            <li>Reorganizar destaques por jornada: direitos da mãe, famílias atípicas, como funciona</li>
+            <li>Migrar para conta profissional e acompanhar métricas mensalmente</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="diag-wrap">
+      <div class="diag-title">📋 Diagnóstico Rápido — @flaviamelow no Instagram</div>
+      <div class="diag-sub">Visão geral da saúde do perfil em 3 dimensões: o que está funcionando, o que precisa de atenção e o que está custando conversão agora.</div>
+
+      <div class="diag-legend">
+        <span><span class="diag-dot green" style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4ade80;"></span> Ponto forte</span>
+        <span><span class="diag-dot yellow" style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#fbbf24;"></span> Atenção</span>
+        <span><span class="diag-dot red" style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#f87171;"></span> Oportunidade perdida</span>
+      </div>
+
+      <div class="diag-grid">
+        <div class="diag-item">
+          <div class="diag-dot green"></div>
+          <div>
+            <div class="diag-item-title">Engajamento de 6,99% — muito acima da média</div>
+            <div class="diag-item-desc">Perfis de advocacia costumam operar entre 1% e 3%. A audiência da Flávia responde, comenta e acompanha de verdade.</div>
+          </div>
+        </div>
+        <div class="diag-item">
+          <div class="diag-dot green"></div>
+          <div>
+            <div class="diag-item-title">Reel jurídico com 15.742 visualizações</div>
+            <div class="diag-item-desc">O conteúdo sobre salário-maternidade alcançou 5,9 vezes a base de seguidores — prova de que o nicho tem demanda real.</div>
+          </div>
+        </div>
+        <div class="diag-item">
+          <div class="diag-dot green"></div>
+          <div>
+            <div class="diag-item-title">Autenticidade que ninguém copia</div>
+            <div class="diag-item-desc">Flávia é mãe e advogada. Os posts da maternidade real são os mais curtidos do perfil — conexão pronta com o público que ela quer atender.</div>
+          </div>
+        </div>
+        <div class="diag-item">
+          <div class="diag-dot yellow"></div>
+          <div>
+            <div class="diag-item-title">Cadência de publicação irregular</div>
+            <div class="diag-item-desc">25 posts em 7 anos; cerca de 1,2 por mês em 2026. O algoritmo premia constância — hoje cada post recomeça do zero.</div>
+          </div>
+        </div>
+        <div class="diag-item">
+          <div class="diag-dot yellow"></div>
+          <div>
+            <div class="diag-item-title">Identidade dividida entre pessoal e profissional</div>
+            <div class="diag-item-desc">O feed alterna viagens, família e direito sem uma linha editorial. Quem chega pelo Reel jurídico não entende de imediato o que o perfil oferece.</div>
+          </div>
+        </div>
+        <div class="diag-item">
+          <div class="diag-dot red"></div>
+          <div>
+            <div class="diag-item-title">A bio não diz que a Flávia é advogada</div>
+            <div class="diag-item-desc">Sem menção à advocacia, sem OAB, sem nicho, sem link e sem categoria profissional. O primeiro contato não comunica o serviço.</div>
+          </div>
+        </div>
+        <div class="diag-item">
+          <div class="diag-dot red"></div>
+          <div>
+            <div class="diag-item-title">Alcance sem destino: 1 CTA em 25 posts</div>
+            <div class="diag-item-desc">Quase 50 mil visualizações somadas nos Reels e nenhum caminho para consulta: quem se interessa não sabe o que fazer em seguida.</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="diag-cta-label">🚀 Onde a Oráculo pode acelerar os resultados</div>
+      <div class="oraculo-pills">
+        <span class="oraculo-pill"><span class="pill-icon">🪪</span> Reposicionamento de bio e perfil</span>
+        <span class="oraculo-pill"><span class="pill-icon">🗓️</span> Calendário editorial jurídico</span>
+        <span class="oraculo-pill"><span class="pill-icon">🎬</span> Roteiros de Reels de direitos maternos</span>
+        <span class="oraculo-pill"><span class="pill-icon">🔗</span> Link e funil de triagem no WhatsApp</span>
+        <span class="oraculo-pill"><span class="pill-icon">📌</span> Destaques por jornada da cliente</span>
+        <span class="oraculo-pill"><span class="pill-icon">📊</span> Relatórios de performance</span>
+        <span class="oraculo-pill"><span class="pill-icon">⚖️</span> Compliance com a publicidade da OAB</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- KPI STRIP -->
+  <div class="kpi-row">
+    <div class="kpi">
+      <div class="kpi-val ig">2.674</div>
+      <div class="kpi-label">Seguidores</div>
+      <span class="kpi-delta delta-up">Conta verificada</span>
+    </div>
+    <div class="kpi">
+      <div class="kpi-val">25</div>
+      <div class="kpi-label">Posts publicados</div>
+      <span class="kpi-delta delta-warn">Cadência a construir</span>
+    </div>
+    <div class="kpi">
+      <div class="kpi-val">25</div>
+      <div class="kpi-label">Posts analisados</div>
+      <span class="kpi-delta delta-up">Cobertura total</span>
+    </div>
+    <div class="kpi">
+      <div class="kpi-val">299</div>
+      <div class="kpi-label">Maior post em likes</div>
+      <span class="kpi-delta delta-up">11% da base</span>
+    </div>
+    <div class="kpi">
+      <div class="kpi-val">5,31%</div>
+      <div class="kpi-label">ER recente</div>
+      <span class="kpi-delta delta-up">Muito acima do nicho</span>
+    </div>
+  </div>
+
+  <section class="section" id="visao-geral">
+    <div class="section-header">
+      <div class="section-num">1</div>
+      <h2>Identidade e Posicionamento</h2>
+    </div>
+
+    <div class="card">
+      <h3>Perfil Público</h3>
+      <div class="tbl-wrap">
+        <table>
+          <tr><th>Campo</th><th>Valor</th></tr>
+          <tr><td>Handle</td><td><strong>@flaviamelow</strong></td></tr>
+          <tr><td>Nome exibido</td><td><strong>Flavinha</strong></td></tr>
+          <tr><td>Verificação</td><td><span class="badge badge-green">✅ Conta verificada</span></td></tr>
+          <tr><td>Bio</td><td>📍Brasília 🇧🇷 · ⚖️📖 · &ldquo;Só vive o propósito quem suporta o processo.&rdquo; 🕊️</td></tr>
+          <tr><td>Seguidores</td><td><strong>2.674</strong></td></tr>
+          <tr><td>Seguindo</td><td>1.193</td></tr>
+          <tr><td>Total de posts</td><td><strong>25</strong></td></tr>
+          <tr><td>Categoria profissional</td><td><span class="badge badge-amber">⚠️ Nenhuma — conta pessoal</span></td></tr>
+          <tr><td>Link na bio</td><td><span class="badge badge-amber">⚠️ Nenhum</span></td></tr>
+          <tr><td>Destaques</td><td>⚖️ (14 itens), MV ♡ (78 itens), 26 ✨ (13 itens), 2025 ✨ (30 itens)</td></tr>
+        </table>
+      </div>
+    </div>
+
+    <div class="callout primary">
+      <strong>🎯 Posicionamento no Instagram</strong>
+      Hoje o perfil se apresenta como uma conta pessoal: nome de exibição &ldquo;Flavinha&rdquo;, bio poética e destaques de família. A balança ⚖️ e o livro 📖 são as únicas pistas da advocacia. Para quem chega pelos Reels de direitos maternos, <strong>falta a confirmação imediata de que ali existe uma advogada de causas maternas atendendo</strong> — nome profissional, OAB, nicho e canal de contato.
+    </div>
+
+    <div class="card">
+      <h3>Branding Visual</h3>
+      <div class="tbl-wrap">
+        <table>
+          <tr><th>Elemento</th><th>Descrição</th></tr>
+          <tr><td>Foto de perfil</td><td>Retrato pessoal, sem elementos que remetam à advocacia</td></tr>
+          <tr><td>Padrão do feed</td><td>Mistura de família, viagens, fé e, desde abril de 2026, Reels jurídicos com identidade do escritório</td></tr>
+          <tr><td>Reels jurídicos</td><td>Produção em coautoria com @iuricavalcantereis, com linguagem didática e temas de alto interesse</td></tr>
+          <tr><td>Tom de marca</td><td>Afetivo, próximo e de fé — combina com o universo materno, falta ancorar na autoridade jurídica</td></tr>
+          <tr><td>Risco visual</td><td>Sem linha editorial, o visitante não distingue perfil pessoal de perfil profissional</td></tr>
+        </table>
+      </div>
+    </div>
+
+    <div class="insight bad">
+      <div class="insight-header">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+        O que isso significa para você
+      </div>
+      <div class="insight-body">
+        <span class="verdict">&#9654; Diagnóstico importante</span>
+        <p>O maior gargalo do perfil não é conteúdo nem engajamento — é apresentação. <strong>Quando o Reel de salário-maternidade alcança 15 mil pessoas e elas visitam o perfil, encontram &ldquo;Flavinha&rdquo;, uma frase de fé e nenhum caminho de contato.</strong> A visita termina sem saber que ali existe uma advogada especializada em causas maternas. Corrigir bio, nome de exibição, categoria e link é a mudança de maior impacto e menor custo de toda esta análise: ela faz todo o alcance que já existe começar a trabalhar a favor da advocacia.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="metricas">
+    <div class="section-header">
+      <div class="section-num">2</div>
+      <h2>Métricas Principais</h2>
+    </div>
+
+    <div class="card">
+      <h3>Dados do Perfil e da Amostra</h3>
+      <div class="tbl-wrap">
+        <table>
+          <tr><th>Métrica</th><th>Valor</th><th>Avaliação</th></tr>
+          <tr><td>Seguidores</td><td><strong>2.674</strong></td><td><span class="badge badge-amber">⚠️ Base a construir</span></td></tr>
+          <tr><td>Posts analisados</td><td><strong>25 de 25</strong></td><td><span class="badge badge-green">✅ Cobertura total</span></td></tr>
+          <tr><td>Posts com curtidas visíveis</td><td><strong>20 de 25</strong></td><td><span class="badge badge-blue">5 posts com curtidas ocultas</span></td></tr>
+          <tr><td>Média da amostra</td><td>159 curtidas · 26 comentários por post</td><td><span class="badge badge-green">✅ Forte para a base</span></td></tr>
+          <tr><td>ER médio da amostra</td><td><strong>6,99%</strong></td><td><span class="badge badge-green">✅ Excelente</span></td></tr>
+          <tr><td>ER recente (últimos 12 posts)</td><td><strong>5,31%</strong></td><td><span class="badge badge-green">✅ Acima do nicho</span></td></tr>
+          <tr><td>Visualizações somadas dos Reels</td><td><strong>49.556</strong> em 11 Reels</td><td><span class="badge badge-green">✅ Média de 4.505 por Reel</span></td></tr>
+          <tr><td>Cadência de publicação</td><td>~1,2 post/mês em 2026</td><td><span class="badge badge-amber">⚠️ Abaixo do necessário</span></td></tr>
+        </table>
+      </div>
+    </div>
+
+    <div class="callout green">
+      <strong>🏆 Destaque da coleta</strong>
+      O Reel sobre <strong>salário-maternidade para MEIs, autônomas e desempregadas</strong> (20/05/2026) alcançou <strong>15.742 visualizações</strong> — quase 6 vezes o número de seguidores. É o sinal mais claro da análise: o público materno procura exatamente esse tipo de orientação jurídica.
+    </div>
+
+    <div class="insight warn">
+      <div class="insight-header">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+        O que isso significa para você
+      </div>
+      <div class="insight-body">
+        <span class="verdict">&#9654; Atenção necessária</span>
+        <p><strong>Um ER de 6,99% é um luxo que a maioria dos perfis jurídicos não tem — advocacia costuma operar entre 1% e 3%.</strong> Isso significa que cada post seu vale mais do que o de um concorrente com 10 vezes mais seguidores. O ponto de atenção: 5 dos posts recentes estão com curtidas ocultas, o que apaga a prova social justamente nos conteúdos jurídicos que mais alcançam gente nova. Reexibir as curtidas e sustentar a cadência são ajustes simples que protegem esse ativo.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Comparativo de Engajamento Público</h3>
+      <div class="chart-wrap">
+        <canvas id="chartAudiencia"></canvas>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="conteudo">
+    <div class="section-header">
+      <div class="section-num">3</div>
+      <h2>Estratégia de Conteúdo</h2>
+    </div>
+
+    <div class="card">
+      <h3>Mix de Formatos da Amostra</h3>
+      <div class="format-grid">
+        <div class="chart-wrap" style="height:220px;">
+          <canvas id="chartFormatos"></canvas>
+        </div>
+        <div>
+          <div class="tbl-wrap">
+            <table>
+              <tr><th>Formato</th><th>Função Principal</th></tr>
+              <tr><td><strong>Carrosséis</strong> (13 posts)</td><td>Vida pessoal e família — concentram as maiores curtidas</td></tr>
+              <tr><td><strong>Reels</strong> (11 posts)</td><td>Alcance: é onde está todo o conteúdo jurídico de 2026</td></tr>
+              <tr><td><strong>Imagem única</strong> (1 post)</td><td>Post antigo de 2019</td></tr>
+              <tr><td><strong>Destaques</strong></td><td>4 pastas, sendo apenas 1 (⚖️) dedicada à advocacia</td></tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Temas de Conteúdo Identificados</h3>
+      <div class="tbl-wrap">
+        <table>
+          <tr><th>#</th><th>Tema</th><th>Exemplos</th><th>Peso estratégico</th></tr>
+          <tr><td><strong>1</strong></td><td>Direitos maternos</td><td>Salário-maternidade para MEI, autônoma, desempregada e adoção</td><td><span class="badge badge-primary">Muito alto</span></td></tr>
+          <tr><td><strong>2</strong></td><td>Famílias atípicas</td><td>Isenção de IPVA para TEA, fibromialgia reconhecida como deficiência</td><td><span class="badge badge-primary">Muito alto</span></td></tr>
+          <tr><td><strong>3</strong></td><td>Educação jurídica geral</td><td>Provas no processo, direito trabalhista (Reel da Cinderela)</td><td><span class="badge badge-blue">Alto</span></td></tr>
+          <tr><td><strong>4</strong></td><td>Maternidade real</td><td>Mesversários da Mavi, parto, primeiro Natal, Dia das Mães</td><td><span class="badge badge-blue">Alto — conexão</span></td></tr>
+          <tr><td><strong>5</strong></td><td>Fé e propósito</td><td>Aniversário 12.12, frases de propósito</td><td><span class="badge badge-amber">Médio</span></td></tr>
+          <tr><td><strong>6</strong></td><td>Lifestyle e viagens</td><td>Bahia, Aquiraz, João Pessoa</td><td><span class="badge badge-amber">Baixo peso comercial</span></td></tr>
+        </table>
+      </div>
+    </div>
+
+    <div class="callout primary">
+      <strong>💡 Leitura estratégica</strong>
+      O pivô aconteceu em abril de 2026: desde então, 5 dos 7 posts são Reels jurídicos em coautoria com @iuricavalcantereis — e a soma entre direitos maternos e famílias atípicas forma um nicho coeso e pouco disputado: <strong>a advogada das mães</strong>. O que falta não é tema, é sistema: série nomeada, cadência semanal e CTA em todo post.
+    </div>
+
+    <div class="insight warn">
+      <div class="insight-header">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+        O que isso significa para você
+      </div>
+      <div class="insight-body">
+        <span class="verdict">&#9654; Situação mista</span>
+        <p>O conteúdo jurídico recente acerta em cheio no tema e no formato: Reels didáticos, dúvidas reais, linguagem simples. <strong>Mas 3 meses de conteúdo bom não constroem autoridade — constância constrói.</strong> Com 1,2 post por mês, cada Reel recomeça a conversa do zero. A combinação vencedora já está visível nos seus próprios dados: Reels jurídicos para alcançar mães novas + conteúdo de maternidade real para gerar identificação. Falta transformar isso em calendário com dia fixo e série nomeada, para o público criar hábito de acompanhar.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="engajamento">
+    <div class="section-header">
+      <div class="section-num">4</div>
+      <h2>Engajamento e Posts Mais Curtidos</h2>
+    </div>
+
+    <div class="card">
+      <h3>Ranking dos Posts Mais Curtidos na Amostra</h3>
+      <div class="tbl-wrap">
+        <table>
+          <tr><th>#</th><th>Post/Reel</th><th>Data</th><th>Curtidas</th><th>Comentários</th><th>Leitura estratégica</th></tr>
+          <tr><td>1</td><td>Aniversário 12.12</td><td>12/12/2022</td><td><strong>299</strong></td><td>75</td><td>Fé + celebração pessoal — pico de conexão da base</td></tr>
+          <tr><td>2</td><td>Mesversário da Mavi</td><td>02/06/2024</td><td><strong>219</strong></td><td>75</td><td>Maternidade real com comentários em peso</td></tr>
+          <tr><td>3</td><td>Reel do parto</td><td>10/05/2024</td><td><strong>216</strong></td><td>43</td><td>Storytelling emocional + 3.818 visualizações</td></tr>
+          <tr><td>4</td><td>Frase de identidade</td><td>31/05/2019</td><td><strong>211</strong></td><td>59</td><td>Post mais antigo segue entre os maiores</td></tr>
+          <tr><td>5</td><td>Primeiro Natal da Mavi</td><td>24/12/2024</td><td><strong>198</strong></td><td>47</td><td>Família + datas sazonais funcionam</td></tr>
+          <tr><td>6</td><td>Com advogada não tem conversa, tem argumentação</td><td>16/03/2023</td><td><strong>185</strong></td><td>21</td><td>Único post antigo de advocacia — e performou bem</td></tr>
+          <tr><td>7</td><td>1 ano da Mavi</td><td>04/05/2025</td><td><strong>181</strong></td><td>17</td><td>Nascimento de uma mãe — narrativa central da marca</td></tr>
+          <tr><td>8</td><td>Reel Cinderela trabalhista</td><td>10/04/2026</td><td><strong>115</strong></td><td>42</td><td>Jurídico criativo: mais comentários que muitos posts pessoais</td></tr>
+        </table>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Engajamento por Post de Referência</h3>
+      <div class="chart-wrap">
+        <canvas id="chartEngajamento"></canvas>
+      </div>
+    </div>
+
+    <div class="callout amber">
+      <strong>⚠️ Padrão observado</strong>
+      Os posts pessoais geram as maiores curtidas (audiência que já conhece a Flávia). Os Reels jurídicos geram o maior alcance — média de 5.120 visualizações — e comentários de gente nova. <strong>São dois motores diferentes: um de confiança, outro de aquisição.</strong> Hoje nenhum dos dois desagua em um pedido de contato.
+    </div>
+
+    <div class="insight good">
+      <div class="insight-header">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+        O que isso significa para você
+      </div>
+      <div class="insight-body">
+        <span class="verdict">&#9650; Bom sinal</span>
+        <p>O Reel da Cinderela trabalhista mostra o caminho: conteúdo jurídico com criatividade gerou 42 comentários — mais que quase todos os posts pessoais. <strong>Sua audiência não engaja só com a vida pessoal; ela engaja com direito bem contado.</strong> A fórmula replicável já apareceu nos dados: dúvida real do universo materno + narrativa criativa + resposta prática. Cada Reel nesse padrão é uma porta de entrada para clientes; falta apenas colocar a maçaneta — o CTA e o destino no WhatsApp.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="collabs">
+    <div class="section-header">
+      <div class="section-num">5</div>
+      <h2>Destaques, Prova Social e Conversão</h2>
+    </div>
+
+    <div class="card">
+      <h3>Destaques Atuais</h3>
+      <div class="tbl-wrap">
+        <table>
+          <tr><th>Destaque</th><th>Conteúdo</th><th>Avaliação</th></tr>
+          <tr><td>⚖️</td><td>14 itens de advocacia — único destaque profissional</td><td><span class="badge badge-blue">Bom começo, título ilegível para novos visitantes</span></td></tr>
+          <tr><td>MV ♡</td><td>78 itens da maternidade da Mavi</td><td><span class="badge badge-green">Forte para conexão</span></td></tr>
+          <tr><td>26 ✨</td><td>13 itens do ano corrente</td><td><span class="badge badge-amber">Pessoal, sem função na jornada</span></td></tr>
+          <tr><td>2025 ✨</td><td>30 itens de memórias</td><td><span class="badge badge-amber">Pessoal, sem função na jornada</span></td></tr>
+        </table>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Parcerias e Coautorias Identificadas</h3>
+      <div class="collab-grid">
+        <div class="collab-card">
+          <div class="collab-avatar">⚖️</div>
+          <div>
+            <div class="collab-handle">@iuricavalcantereis</div>
+            <div class="collab-desc">Coautor dos 5 Reels jurídicos de 2026 — dobra o alcance de cada post</div>
+          </div>
+        </div>
+        <div class="collab-card">
+          <div class="collab-avatar">🏛️</div>
+          <div>
+            <div class="collab-handle">@cavalcantereisadvs</div>
+            <div class="collab-desc">Escritório marcado nos posts de advocacia — base para co-marketing</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Funil Recomendado para Destaques</h3>
+      <div class="funnel">
+        <div class="funnel-step f1">👋 Comece aqui — quem é a Dra. Flávia e o que é advocacia de causas maternas</div>
+        <div class="funnel-step f2">🤱 Direitos da mãe — salário-maternidade, gestante no trabalho, adoção</div>
+        <div class="funnel-step f3">💙 Famílias atípicas — TEA, BPC, isenções e o que a lei garante</div>
+        <div class="funnel-step f4">📲 Fale comigo — como funciona a consulta e triagem no WhatsApp</div>
+      </div>
+    </div>
+
+    <div class="insight warn">
+      <div class="insight-header">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+        O que isso significa para você
+      </div>
+      <div class="insight-body">
+        <span class="verdict">&#9654; Oportunidade clara</span>
+        <p>O destaque ⚖️ com 14 itens prova que já existe material profissional acumulado — mas um título de emoji não convida ninguém a tocar. <strong>Visitante que chega de um Reel decide em segundos se fica: destaques nomeados por dúvida (&ldquo;Salário-maternidade&rdquo;, &ldquo;Filho atípico&rdquo;, &ldquo;Como funciona&rdquo;) seguram essa visita e a conduzem até o contato.</strong> A coautoria com o escritório é outro ativo subaproveitado: cada Reel em collab aparece para as duas audiências, e hoje isso acontece sem estratégia definida de tema ou frequência.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-header">
+      <div class="section-num">6</div>
+      <h2>Temas, Palavras-Chave e CTAs</h2>
+    </div>
+
+    <div class="card">
+      <h3>Temas com Maior Potencial</h3>
+      <div class="tbl-wrap">
+        <table>
+          <tr><th>Tema</th><th>Por que importa</th><th>CTA sugerido</th></tr>
+          <tr><td>Salário-maternidade (MEI/autônoma)</td><td>Maior alcance do perfil: 15.742 visualizações</td><td>&ldquo;Comente MÃE que eu envio o passo a passo&rdquo;</td></tr>
+          <tr><td>Salário-maternidade na adoção</td><td>Dúvida pouco respondida na internet</td><td>&ldquo;Compartilhe com quem está adotando&rdquo;</td></tr>
+          <tr><td>Isenções para TEA</td><td>Reel já validado; famílias atípicas engajam muito</td><td>&ldquo;Comente TEA e receba a lista de direitos&rdquo;</td></tr>
+          <tr><td>Fibromialgia como deficiência</td><td>Lei recente, alto interesse de busca</td><td>&ldquo;Salve para não esquecer seus direitos&rdquo;</td></tr>
+          <tr><td>Gestante e trabalho</td><td>Une o nicho materno ao trabalhista já testado</td><td>&ldquo;Você passou por isso? Me conta nos comentários&rdquo;</td></tr>
+          <tr><td>BPC/LOAS para filho atípico</td><td>Tema de maior dor e maior ticket consultivo</td><td>&ldquo;Chame no WhatsApp para avaliar seu caso&rdquo;</td></tr>
+        </table>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Hashtags e Menções na Amostra</h3>
+      <div class="tag-cloud">
+        <span class="tag high">@iuricavalcantereis (7 posts)</span>
+        <span class="tag mid">@cavalcantereisadvs (2 posts)</span>
+        <span class="tag low">#advocacia (1 post)</span>
+        <span class="tag low">#job (1 post)</span>
+        <span class="tag low">#MV7 (1 post)</span>
+        <span class="tag low">#merrychristmas (1 post)</span>
+      </div>
+    </div>
+
+    <div class="insight info">
+      <div class="insight-header">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+        O que isso significa para você
+      </div>
+      <div class="insight-body">
+        <span class="verdict">&#9733; Oportunidade estratégica</span>
+        <p>Só 1 dos 25 posts pede alguma ação — e as hashtags praticamente não existem. <strong>Isso significa que todo o alcance conquistado até aqui foi orgânico puro, sem nenhuma otimização.</strong> Cada linha da tabela acima é um Reel pronto para existir, com CTA que gera comentário, e comentário que ativa automação de DM. No nicho materno isso funciona especialmente bem: mãe compartilha com mãe, e o mesmo Reel que informa uma seguidora chega ao grupo do WhatsApp da escola dela. É aquisição passiva trabalhando 24h.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="audiencia">
+    <div class="section-header">
+      <div class="section-num">7</div>
+      <h2>Análise de Audiência</h2>
+    </div>
+
+    <div class="card">
+      <h3>Segmentos Estimados da Audiência</h3>
+      <div class="chart-wrap">
+        <canvas id="chartAudienciaSegmentos"></canvas>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Características da Audiência</h3>
+      <div class="tbl-wrap">
+        <table>
+          <tr><th>Segmento</th><th>Comportamento observado</th></tr>
+          <tr><td>Mães e gestantes</td><td>Engajam com a maternidade da Mavi e comentam nos Reels de salário-maternidade</td></tr>
+          <tr><td>Famílias atípicas</td><td>Chegam pelos Reels de TEA e fibromialgia — audiência nova, com dor concreta</td></tr>
+          <tr><td>Rede pessoal de Brasília</td><td>Base histórica que sustenta as curtidas dos posts de família e fé</td></tr>
+          <tr><td>Colegas do direito</td><td>Conectados via escritório e coautorias — validam autoridade</td></tr>
+          <tr><td>Alcance frio dos Reels</td><td>Milhares de visualizações de não-seguidores, ainda sem caminho de conversão</td></tr>
+        </table>
+      </div>
+    </div>
+
+    <div class="insight good">
+      <div class="insight-header">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+        O que isso significa para você
+      </div>
+      <div class="insight-body">
+        <span class="verdict">&#9650; Audiência qualificada</span>
+        <p>A audiência atual é pequena, mas é exatamente a certa: <strong>mães que confiam na Flávia como pessoa antes de precisarem dela como advogada.</strong> No direito de família e previdenciário, essa confiança prévia é o fator número 1 de contratação — ninguém entrega a causa do filho a um estranho. O segmento que mais cresce (famílias atípicas vindas dos Reels) é também o de maior recorrência de demandas: BPC, isenções, plano de saúde, escola. Conteúdo segmentado consegue atender os dois públicos sem perder nenhum.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="swot">
+    <div class="section-header">
+      <div class="section-num">8</div>
+      <h2>Análise SWOT do Instagram</h2>
+    </div>
+
+    <div class="card">
+      <div class="swot-grid">
+        <div class="swot-cell swot-s">
+          <h4>💪 Forças</h4>
+          <ul>
+            <li>ER de 6,99% — 2 a 5 vezes acima do padrão jurídico</li>
+            <li>Autenticidade real: mãe falando com mães</li>
+            <li>Reels jurídicos com alcance de até 5,9x a base</li>
+            <li>Conta verificada gera confiança imediata</li>
+            <li>Coautoria com escritório estabelecido (Cavalcante Reis)</li>
+            <li>Nicho coeso: direitos maternos + famílias atípicas</li>
+          </ul>
+        </div>
+        <div class="swot-cell swot-w">
+          <h4>⚠️ Fraquezas</h4>
+          <ul>
+            <li>Bio sem advocacia, OAB, nicho, link ou contato</li>
+            <li>Cadência de ~1,2 post/mês — sem presença constante</li>
+            <li>Conta pessoal: sem categoria, métricas ou botão de contato</li>
+            <li>Curtidas ocultas em 5 posts apagam a prova social</li>
+            <li>Apenas 1 CTA em 25 posts — alcance sem destino</li>
+          </ul>
+        </div>
+        <div class="swot-cell swot-o">
+          <h4>🚀 Oportunidades</h4>
+          <ul>
+            <li>Nicho &ldquo;advogada das mães&rdquo; pouco disputado em Brasília</li>
+            <li>Série fixa semanal de direitos maternos</li>
+            <li>Lead magnet: guia do salário-maternidade</li>
+            <li>Co-marketing estruturado com @cavalcantereisadvs</li>
+            <li>Demanda crescente: TEA, BPC e leis recentes (fibromialgia)</li>
+          </ul>
+        </div>
+        <div class="swot-cell swot-t">
+          <h4>⚡ Ameaças</h4>
+          <ul>
+            <li>Perfis jurídicos grandes já produzem conteúdo do nicho em escala</li>
+            <li>Publicidade advocatícia tem limites (Provimento 205/2021 da OAB)</li>
+            <li>Algoritmo pune a inconstância — o ganho recente pode evaporar</li>
+            <li>Sem funil, o alcance vira audiência de concorrentes com CTA</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="insight info">
+      <div class="insight-header">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+        O que isso significa para você
+      </div>
+      <div class="insight-body">
+        <span class="verdict">&#9733; Visão clara</span>
+        <p>As forças são difíceis de copiar (autenticidade, confiança, nicho vivido na pele); as fraquezas são fáceis de corrigir (bio, link, cadência, conta profissional). <strong>Essa é a melhor combinação possível em um diagnóstico</strong> — o inverso seria grave. O relógio importa: o nicho de conteúdo para famílias atípicas está crescendo rápido, e a janela de se posicionar como referência regional ainda está aberta. Sobre a OAB, o caminho é seguro: conteúdo educativo é permitido; o cuidado está em evitar promessa de resultado e captação direta — exatamente o que um calendário revisado garante.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="comparativo">
+    <div class="section-header">
+      <div class="section-num">9</div>
+      <h2>Conteúdo Jurídico vs. Conteúdo Pessoal</h2>
+    </div>
+
+    <div class="vs-grid">
+      <div class="vs-card vs-ig">
+        <div class="vs-platform">⚖️ Reels jurídicos (2026)</div>
+        <div class="vs-metric"><span class="vs-metric-label">Amostra</span><span class="vs-metric-val">5 Reels</span></div>
+        <div class="vs-metric"><span class="vs-metric-label">Visualizações médias</span><span class="vs-metric-val">5.120</span></div>
+        <div class="vs-metric"><span class="vs-metric-label">Comentários médios</span><span class="vs-metric-val">21</span></div>
+        <div class="vs-metric"><span class="vs-metric-label">Tema dominante</span><span class="vs-metric-val">Direitos maternos</span></div>
+        <div class="vs-metric"><span class="vs-metric-label">Papel no funil</span><span class="vs-metric-val">Alcance / autoridade</span></div>
+      </div>
+      <div class="vs-card vs-yt">
+        <div class="vs-platform">🏡 Posts pessoais</div>
+        <div class="vs-metric"><span class="vs-metric-label">Amostra</span><span class="vs-metric-val">18 posts</span></div>
+        <div class="vs-metric"><span class="vs-metric-label">Curtidas médias</span><span class="vs-metric-val">178</span></div>
+        <div class="vs-metric"><span class="vs-metric-label">Comentários médios</span><span class="vs-metric-val">28</span></div>
+        <div class="vs-metric"><span class="vs-metric-label">Tema dominante</span><span class="vs-metric-val">Família e fé</span></div>
+        <div class="vs-metric"><span class="vs-metric-label">Papel no funil</span><span class="vs-metric-val">Conexão / confiança</span></div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Comparativo de Interações</h3>
+      <div class="chart-wrap">
+        <canvas id="chartComparativo"></canvas>
+      </div>
+    </div>
+
+    <div class="insight bad">
+      <div class="insight-header">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+        O que isso significa para você
+      </div>
+      <div class="insight-body">
+        <span class="verdict">&#9654; Diagnóstico importante</span>
+        <p>Os dois tipos de conteúdo não competem — se completam. <strong>O Reel jurídico traz a mãe nova pelo alcance; o post pessoal faz essa mãe confiar; e hoje falta o terceiro elo, que é o convite para conversar.</strong> Repare que os Reels jurídicos alcançam milhares de pessoas mas convertem pouco desse alcance em seguidores (a base cresceu pouco), porque o perfil que as recebe não confirma a promessa do conteúdo. Alinhar o perfil ao conteúdo é o que faz os dois motores finalmente girarem juntos.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="recomendacoes">
+    <div class="section-header">
+      <div class="section-num">10</div>
+      <h2>Recomendações Estratégicas</h2>
+    </div>
+
+    <div class="rec-grid">
+      <div class="rec-card rec-short">
+        <h4>⚡ Curto Prazo (0–3 meses)</h4>
+        <ul>
+          <li>Reescrever bio: advogada de causas maternas + OAB + cidade + link</li>
+          <li>Migrar para conta profissional com categoria e botão de contato</li>
+          <li>Reexibir contagem de curtidas nos posts jurídicos</li>
+          <li>Renomear destaques por dúvida da cliente e criar &ldquo;Comece aqui&rdquo;</li>
+          <li>Incluir CTA padrão em todo post novo (comentário-gatilho ou WhatsApp)</li>
+        </ul>
+      </div>
+      <div class="rec-card rec-mid">
+        <h4>📈 Médio Prazo (3–12 meses)</h4>
+        <ul>
+          <li>Série semanal fixa: &ldquo;Direitos que toda mãe precisa conhecer&rdquo;</li>
+          <li>Calendário 2x/semana: 1 Reel jurídico + 1 conteúdo de conexão</li>
+          <li>Lead magnet: guia do salário-maternidade para MEI e autônoma</li>
+          <li>Automação de DM para comentários-gatilho (MÃE, TEA, BPC)</li>
+          <li>Co-marketing mensal estruturado com @cavalcantereisadvs</li>
+        </ul>
+      </div>
+      <div class="rec-card rec-long">
+        <h4>🔭 Longo Prazo (12+ meses)</h4>
+        <ul>
+          <li>Consolidar a marca &ldquo;advogada das mães&rdquo; de Brasília</li>
+          <li>Landing page de triagem por tipo de causa</li>
+          <li>Remarketing educativo para quem assistiu aos Reels</li>
+          <li>Biblioteca permanente de direitos maternos e famílias atípicas</li>
+          <li>Expansão de autoridade: imprensa local, parcerias com maternidades e grupos de mães</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="insight good">
+      <div class="insight-header">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+        O que isso significa para você
+      </div>
+      <div class="insight-body">
+        <span class="verdict">&#9650; Plano acionável</span>
+        <p>Tudo no curto prazo é ajuste de estrutura, não de produção: <strong>bio, conta profissional, destaques e CTA podem ser corrigidos em uma semana e mudam o destino de cada visualização que os Reels já geram.</strong> O médio prazo constrói o sistema — série fixa, cadência e automação — que transforma alcance em conversas de triagem. O longo prazo é onde o jogo muda de patamar: quando &ldquo;advogada das mães&rdquo; virar a associação automática do seu nome em Brasília, o Instagram deixa de ser vitrine e vira o principal canal de captação do escritório.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="resumo">
+    <div class="section-header">
+      <div class="section-num">11</div>
+      <h2>Resumo Executivo e Pontuação</h2>
+    </div>
+
+    <div class="card">
+      <h3>Pontuação Geral do Perfil Instagram</h3>
+      <div class="score-ring-wrap">
+        <div class="score-ring" style="background: conic-gradient(#1d4ed8 0% 54%, #e4e7ec 54% 100%);">
+          <div class="score-inner">
+            <div class="score-val">5,4</div>
+            <div class="score-max">/ 10</div>
+          </div>
+        </div>
+        <div class="score-labels">
+          <div class="score-item">
+            <span class="score-item-label">Autenticidade</span>
+            <div class="score-bar-bg"><div class="score-bar" style="width:90%"></div></div>
+            <span class="score-item-val">9,0</span>
+          </div>
+          <div class="score-item">
+            <span class="score-item-label">Engajamento</span>
+            <div class="score-bar-bg"><div class="score-bar" style="width:84%"></div></div>
+            <span class="score-item-val">8,4</span>
+          </div>
+          <div class="score-item">
+            <span class="score-item-label">Alcance</span>
+            <div class="score-bar-bg"><div class="score-bar" style="width:75%"></div></div>
+            <span class="score-item-val">7,5</span>
+          </div>
+          <div class="score-item">
+            <span class="score-item-label">Cadência</span>
+            <div class="score-bar-bg"><div class="score-bar" style="width:35%"></div></div>
+            <span class="score-item-val">3,5</span>
+          </div>
+          <div class="score-item">
+            <span class="score-item-label">Posicionamento</span>
+            <div class="score-bar-bg"><div class="score-bar" style="width:32%"></div></div>
+            <span class="score-item-val">3,2</span>
+          </div>
+          <div class="score-item">
+            <span class="score-item-label">Conversão</span>
+            <div class="score-bar-bg"><div class="score-bar" style="width:24%"></div></div>
+            <span class="score-item-val">2,4</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="callout primary">
+      <strong>🎯 Diagnóstico Final</strong>
+      O <strong>Instagram @flaviamelow</strong> tem o que não se compra: uma audiência que confia, um engajamento de 6,99% e um nicho — causas maternas — validado pelo próprio alcance dos Reels. O que falta é o que se constrói rápido: posicionamento explícito de advogada, cadência de publicação e um funil que transforme visualização em consulta.
+      <br><br>
+      O <strong>maior ponto de melhoria</strong> é a apresentação do perfil: hoje, as quase 16 mil pessoas que o melhor Reel alcançou chegaram a um perfil que não diz quem é a Flávia profissionalmente nem como contratá-la. Corrigir isso destrava todo o restante da estratégia.
+    </div>
+
+    <div class="card">
+      <h3>Estimativa de Oportunidade Comercial</h3>
+      <div class="tbl-wrap">
+        <table>
+          <tr><th>Métrica</th><th>Estimativa</th></tr>
+          <tr><td>Demanda já visível</td><td>Reels de salário-maternidade, TEA e fibromialgia somam mais de 20 mil visualizações em 3 meses</td></tr>
+          <tr><td>Principal gargalo</td><td>Alcance sem destino: perfil sem posicionamento, link ou CTA</td></tr>
+          <tr><td>Ganhos esperados</td><td>Consultas de triagem vindas do Instagram, crescimento de base qualificada e marca regional de nicho</td></tr>
+          <tr><td>Prioridade de ROI</td><td><span class="badge badge-green">Reposicionamento do perfil + série fixa com CTA</span></td></tr>
+        </table>
+      </div>
+    </div>
+
+    <div class="insight purple">
+      <div class="insight-header">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+        O que isso significa para você
+      </div>
+      <div class="insight-body">
+        <span class="verdict">&#9733; Visão consolidada</span>
+        <p>Perfis grandes gastam anos (e muito dinheiro) tentando construir o que este perfil já tem: conexão genuína e um nicho com dor real. <strong>A fase que começa agora não é de criar audiência — é de estruturar a que existe e capturar a que os Reels já alcançam.</strong> Com o perfil reposicionado, cadência sustentada e funil ativo, o caminho de 2.674 para 10 mil seguidoras qualificadas é realista em 12 meses — e, mais importante, cada etapa desse crescimento já gera consultas no WhatsApp, porque o sistema de conversão estará ligado desde a primeira semana.</p>
+      </div>
+    </div>
+  </section>
+
+</div><!-- /page -->
+
+<footer>
+  <strong>Dra. Flávia Melo — Análise de Instagram @flaviamelow</strong><br>
+  Análise realizada em 7 de julho de 2026 com coleta via Playwright e sessão autenticada.<br><br>
+  <a href="https://instagram.com/flaviamelow">@flaviamelow no Instagram</a> ·
+  <a href="https://www.oab.org.br/publicacoes/AbrirPDF?LivroDigitalPublicacaoId=57">Provimento 205/2021 — Publicidade na Advocacia</a><br><br>
+  <span style="opacity:.5;font-size:.75rem;">Preparado pela Oráculo Tecnologia · Análise de Redes Sociais</span>
+</footer>
+
+</div><!-- /page-wrap -->
+
+<script>
+const navLinks = document.querySelectorAll('.nav a');
+const sections = document.querySelectorAll('section[id]');
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      navLinks.forEach(a => a.classList.remove('active'));
+      const a = document.querySelector('.nav a[href="#' + e.target.id + '"]');
+      if (a) { a.classList.add('active'); a.scrollIntoView({block:'nearest',inline:'center',behavior:'smooth'}); }
+    }
+  });
+}, { threshold: 0.4 });
+sections.forEach(s => observer.observe(s));
+
+const RED  = '#1d4ed8';
+const BLUE = '#3b82f6';
+const GRN  = '#16a34a';
+const AMB  = '#d97706';
+const PUR  = '#7c3aed';
+
+new Chart(document.getElementById('chartAudiencia'), {
+  type: 'bar',
+  data: {
+    labels: ['Amostra completa\n(20 posts visíveis)', 'Recentes\n(últimos 12 posts)', 'Média típica\nde advocacia'],
+    datasets: [{
+      label: 'Taxa de engajamento (%)',
+      data: [6.99, 5.31, 2.0],
+      backgroundColor: [RED, BLUE, AMB],
+      borderRadius: 8,
+    }]
+  },
+  options: {
+    responsive: true, maintainAspectRatio: false,
+    plugins: { legend: { display: false }, tooltip: { callbacks: { label: ctx => ' ' + ctx.raw + '% de engajamento sobre a base' } } },
+    scales: {
+      y: { beginAtZero: true, max: 8, ticks: { callback: v => v + '%' }, grid: { color: '#f3f4f6' } },
+      x: { grid: { display: false } }
+    }
+  }
+});
+
+new Chart(document.getElementById('chartFormatos'), {
+  type: 'doughnut',
+  data: {
+    labels: ['Carrosséis', 'Reels', 'Imagem única'],
+    datasets: [{
+      data: [13, 11, 1],
+      backgroundColor: [RED, AMB, BLUE],
+      borderWidth: 2,
+      borderColor: '#fff',
+    }]
+  },
+  options: {
+    responsive: true, maintainAspectRatio: false,
+    cutout: '65%',
+    plugins: { legend: { position: 'bottom', labels: { padding: 12, font: { size: 11 } } } }
+  }
+});
+
+new Chart(document.getElementById('chartEngajamento'), {
+  type: 'bar',
+  data: {
+    labels: ['Aniversário\n12.12', 'Mesversário\nda Mavi', 'Reel do\nparto', 'Frase de\nidentidade', 'Natal da\nMavi'],
+    datasets: [
+      { label: 'Curtidas', data: [299, 219, 216, 211, 198], backgroundColor: RED, borderRadius: 6 },
+      { label: 'Comentários', data: [75, 75, 43, 59, 47], backgroundColor: AMB, borderRadius: 6 }
+    ]
+  },
+  options: {
+    responsive: true, maintainAspectRatio: false,
+    plugins: { legend: { position: 'bottom' } },
+    scales: { y: { beginAtZero: true, grid: { color: '#f3f4f6' } }, x: { grid: { display: false } } }
+  }
+});
+
+new Chart(document.getElementById('chartAudienciaSegmentos'), {
+  type: 'bar',
+  data: {
+    labels: ['Mães e gestantes', 'Famílias atípicas (TEA/PCD)', 'Rede pessoal de Brasília', 'Colegas do direito', 'Alcance frio dos Reels'],
+    datasets: [{
+      label: 'Relevância estimada (%)',
+      data: [34, 22, 20, 14, 10],
+      backgroundColor: [RED, BLUE, GRN, AMB, PUR],
+      borderRadius: 6,
+    }]
+  },
+  options: {
+    indexAxis: 'y',
+    responsive: true, maintainAspectRatio: false,
+    plugins: { legend: { display: false }, tooltip: { callbacks: { label: ctx => ' ' + ctx.raw + '% da audiência estimada' } } },
+    scales: {
+      x: { beginAtZero: true, max: 40, ticks: { callback: v => v + '%' }, grid: { color: '#f3f4f6' } },
+      y: { grid: { display: false } }
+    }
+  }
+});
+
+new Chart(document.getElementById('chartComparativo'), {
+  type: 'bar',
+  data: {
+    labels: ['Reels jurídicos 2026', 'Posts pessoais'],
+    datasets: [
+      { label: 'Curtidas médias (posts com curtidas visíveis)', data: [113, 178], backgroundColor: RED, borderRadius: 6 },
+      { label: 'Comentários médios', data: [21, 28], backgroundColor: AMB, borderRadius: 6 }
+    ]
+  },
+  options: {
+    responsive: true, maintainAspectRatio: false,
+    plugins: { legend: { position: 'bottom' }, tooltip: { callbacks: { footer: items => items[0].dataIndex === 0 ? 'Visualizações médias: 5.120 por Reel' : '' } } },
+    scales: { y: { beginAtZero: true, grid: { color: '#f3f4f6' } }, x: { grid: { display: false } } }
+  }
+});
+</script>
+</body>
+</html>
