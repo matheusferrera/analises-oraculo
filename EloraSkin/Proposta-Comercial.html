@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Proposta comercial para Elora Skin, elaborada pela Oráculo." />
+  <title>Proposta Comercial — Elora Skin | Oráculo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&amp;family=Fira+Sans:wght@400;500;600;700;800;900&amp;display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --night: #080d19;
+      --night-soft: #101a2d;
+      --blue: #1d4ed8;
+      --blue-light: #60a5fa;
+      --blue-pale: #dbeafe;
+      --ink: #0f172a;
+      --muted: #64748b;
+      --paper: #f8fbff;
+      --white: #fff;
+      --line: #dce5f2;
+      --green: #059669;
+      --sans: 'Fira Sans', Arial, sans-serif;
+      --mono: 'Fira Code', monospace;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { margin: 0; color: var(--ink); background: var(--paper); font-family: var(--sans); line-height: 1.55; }
+    a { color: inherit; }
+
+    nav {
+      position: sticky; top: 0; z-index: 4; min-height: 62px; padding: 0 5vw;
+      display: flex; align-items: center; justify-content: space-between;
+      background: rgba(8, 13, 25, .94); border-bottom: 1px solid rgba(255,255,255,.1);
+      backdrop-filter: blur(14px);
+    }
+    .brand { display: inline-flex; align-items: center; gap: 10px; color: #fff; font: 700 12px var(--mono); letter-spacing: .11em; text-transform: uppercase; text-decoration: none; }
+    .brand-mark { width: 10px; height: 10px; border-radius: 50%; background: var(--blue-light); box-shadow: 0 0 16px var(--blue-light); }
+    .nav-label { color: #b8c6dd; font-size: 13px; font-weight: 600; }
+
+    .hero { position: relative; overflow: hidden; padding: 112px 5vw 98px; color: #fff; background: var(--night); }
+    .hero::before { content: ''; position: absolute; inset: 0; background-image: radial-gradient(rgba(96,165,250,.23) 1px, transparent 1px); background-size: 28px 28px; mask-image: linear-gradient(120deg, #000, transparent 72%); }
+    .hero::after { content: ''; position: absolute; width: 620px; height: 620px; top: -370px; right: -180px; border-radius: 50%; background: rgba(29,78,216,.24); filter: blur(16px); }
+    .hero-inner { position: relative; z-index: 1; width: min(1120px, 100%); margin: auto; }
+    .eyebrow { display: inline-flex; gap: 9px; align-items: center; padding: 7px 13px; color: var(--blue-light); border: 1px solid rgba(96,165,250,.34); border-radius: 99px; font: 700 11px var(--mono); letter-spacing: .1em; text-transform: uppercase; }
+    .eyebrow i { width: 6px; height: 6px; border-radius: 50%; background: currentColor; }
+    h1 { max-width: 760px; margin: 25px 0 20px; font-size: clamp(46px, 7vw, 78px); line-height: .97; letter-spacing: -.055em; }
+    h1 span { color: var(--blue-light); }
+    .intro { max-width: 610px; margin: 0; color: #b4c0d4; font-size: 19px; line-height: 1.7; }
+
+    main { width: min(1120px, 100%); margin: auto; padding: 100px 5vw; }
+    .section-kicker { color: var(--blue); font: 700 11px var(--mono); letter-spacing: .12em; text-transform: uppercase; }
+    h2 { margin: 13px 0 14px; font-size: clamp(32px, 4vw, 48px); line-height: 1.05; letter-spacing: -.045em; }
+    .lead { max-width: 680px; margin: 0 0 46px; color: var(--muted); font-size: 17px; }
+
+    .services { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
+    .service { display: flex; flex-direction: column; min-height: 290px; padding: 30px; background: var(--white); border: 1px solid var(--line); border-radius: 16px; box-shadow: 0 13px 34px rgba(15,23,42,.05); }
+    .service.wide { grid-column: span 2; min-height: auto; }
+    .service-top { display: flex; align-items: flex-start; justify-content: space-between; gap: 20px; }
+    .service-number { color: var(--blue); font: 700 12px var(--mono); }
+    h3 { margin: 14px 0 0; font-size: 23px; line-height: 1.14; letter-spacing: -.03em; }
+    .price { flex: 0 0 auto; color: var(--blue); font-size: 20px; font-weight: 800; white-space: nowrap; letter-spacing: -.025em; }
+    .service ul { display: grid; gap: 10px; margin: 27px 0 0; padding: 0; list-style: none; color: #475569; font-size: 15px; }
+    .service li { position: relative; padding-left: 20px; }
+    .service li::before { content: '✓'; position: absolute; left: 0; color: var(--green); font-weight: 800; }
+    .media-note { margin: 22px 0 0; padding: 13px 15px; color: #375075; background: #eff6ff; border-left: 3px solid var(--blue); border-radius: 0 8px 8px 0; font-size: 13px; }
+
+    .closing { padding: 92px 0 8px; text-align: center; }
+    .closing h2 { max-width: 710px; margin-inline: auto; }
+    .closing p { max-width: 600px; margin: 20px auto 0; color: var(--muted); font-size: 17px; }
+    footer { margin-top: 90px; padding: 34px 5vw; color: #a3b0c3; background: var(--night); text-align: center; font: 600 11px var(--mono); letter-spacing: .07em; text-transform: uppercase; }
+
+    @media (max-width: 760px) {
+      nav { padding: 0 22px; } .nav-label { display: none; }
+      .hero { padding: 80px 22px 64px; }
+      h1 { font-size: clamp(43px, 15vw, 60px); } .intro { font-size: 17px; }
+      main { padding: 68px 22px; } .services { grid-template-columns: 1fr; } .service, .service.wide { grid-column: auto; min-height: 0; padding: 25px; }
+      .service-top { flex-direction: column; gap: 8px; }
+      .closing { padding-top: 70px; } footer { margin-top: 68px; }
+    }
+    @media print { nav { display: none; } .hero { padding-top: 60px; } body { background: #fff; } }
+  </style>
+</head>
+<body>
+  <nav aria-label="Navegação principal">
+    <a class="brand" href="#inicio"><span class="brand-mark" aria-hidden="true"></span>Oráculo</a>
+    <span class="nav-label">Proposta comercial · Elora Skin</span>
+  </nav>
+
+  <header class="hero" id="inicio">
+    <div class="hero-inner">
+      <div>
+        <div class="eyebrow"><i aria-hidden="true"></i>Proposta comercial</div>
+        <h1>Elora Skin,<br /><span>crescimento que conecta.</span></h1>
+        <p class="intro">Uma operação integrada de conteúdo, mídia e automação para transformar presença digital em relacionamento e oportunidades de venda.</p>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section aria-labelledby="servicos">
+      <div class="section-kicker">Escopo da parceria</div>
+      <h2 id="servicos">Estratégia em cada ponto de contato.</h2>
+      <p class="lead">Os serviços foram organizados para dar consistência à marca, ampliar o alcance das campanhas e estruturar a jornada dos leads.</p>
+
+      <div class="services">
+        <article class="service">
+          <div class="service-top"><div><div class="service-number">01 / Gestão mensal</div><h3>Gestão de Redes Sociais</h3></div><div class="price">R$ 2.000,00/mês</div></div>
+          <ul><li>Planejamento estratégico de conteúdo;</li><li>Criação e publicação de até 20 posts mensais;</li><li>Gestão e acompanhamento das redes sociais.</li></ul>
+        </article>
+
+        <article class="service">
+          <div class="service-top"><div><div class="service-number">02 / Gestão mensal</div><h3>Tráfego Pago<br />(Meta Ads) + Chatbot</h3></div><div class="price">R$ 1.500,00/mês</div></div>
+          <ul><li>Planejamento, criação e otimização das campanhas;</li><li>Monitoramento diário e análise de resultados;</li><li>Configuração e integração do chatbot para atendimento automatizado.</li></ul>
+          <p class="media-note">Investimento mínimo recomendado em anúncios: <strong>R$ 2.000,00/mês</strong>, pago diretamente à Meta.</p>
+        </article>
+
+        <article class="service">
+          <div class="service-top"><div><div class="service-number">03 / Gestão mensal</div><h3>Tráfego Pago<br />(TikTok Ads)</h3></div><div class="price">R$ 1.500,00/mês</div></div>
+          <ul><li>Criação e otimização de campanhas no TikTok;</li><li>Estratégias focadas em alcance, engajamento e geração de leads;</li><li>Monitoramento e otimização contínua.</li></ul>
+          <p class="media-note">Investimento mínimo recomendado em anúncios: <strong>R$ 2.000,00/mês</strong>, pago diretamente ao TikTok.</p>
+        </article>
+
+        <article class="service">
+          <div class="service-top"><div><div class="service-number">04 / Entrega avulsa</div><h3>Produção de Vídeos para Reels</h3></div><div class="price">R$ 800,00</div></div>
+          <ul><li>Entrega de 6 vídeos já editados;</li><li>Vídeos prontos para publicação nos Reels.</li></ul>
+        </article>
+
+        <article class="service wide">
+          <div class="service-top"><div><div class="service-number">05 / Configuração</div><h3>Rastreamento e Automação</h3></div><div class="price">R$ 500,00</div></div>
+          <ul><li>Configuração do rastreamento completo do site;</li><li>Integração com Kommo CRM;</li><li>Configuração do chatbot e de automações para captação e acompanhamento de leads.</li></ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="closing" aria-label="Encerramento">
+      <div class="section-kicker">Oráculo × Elora Skin</div>
+      <h2>Prontos para fazer a presença digital trabalhar pela marca.</h2>
+      <p>Esta proposta reúne conteúdo, performance e automação para construir uma operação de marketing conectada aos objetivos da Elora Skin.</p>
+    </section>
+  </main>
+
+  <footer>Oráculo Tecnologia · Proposta Comercial para Elora Skin</footer>
+</body>
+</html>
