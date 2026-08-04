@@ -1,0 +1,707 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Central de análises, propostas comerciais e materiais da Oráculo Tecnologia.">
+  <meta name="theme-color" content="#07111f">
+  <title>Central de Análises — Oráculo</title>
+  <link rel="icon" href="logo.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Manrope:wght@600;700;800&amp;display=swap" rel="stylesheet">
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #07111f;
+      --surface: rgba(14, 29, 49, .78);
+      --surface-hover: rgba(19, 39, 65, .94);
+      --line: rgba(151, 177, 211, .15);
+      --line-strong: rgba(151, 177, 211, .27);
+      --text: #f4f8ff;
+      --muted: #93a7c1;
+      --blue: #5d8fff;
+      --cyan: #55d5e8;
+      --green: #46d7a2;
+      --amber: #f0b85a;
+      --purple: #ae8cff;
+      --radius: 18px;
+      --shadow: 0 24px 70px rgba(0, 0, 0, .24);
+    }
+
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: "DM Sans", sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at 82% -5%, rgba(61, 107, 210, .22), transparent 34rem),
+        radial-gradient(circle at 2% 38%, rgba(41, 184, 189, .08), transparent 28rem),
+        var(--bg);
+    }
+
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      opacity: .16;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 140 140' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.18'/%3E%3C/svg%3E");
+      z-index: -1;
+    }
+
+    a { color: inherit; }
+
+    button, input { font: inherit; }
+
+    .shell {
+      width: min(1240px, calc(100% - 40px));
+      margin-inline: auto;
+    }
+
+    .topbar {
+      height: 78px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+      font-family: "Manrope", sans-serif;
+      font-weight: 800;
+      letter-spacing: -.03em;
+    }
+
+    .brand img {
+      width: 36px;
+      height: 36px;
+      object-fit: contain;
+      filter: drop-shadow(0 7px 12px rgba(48, 104, 226, .28));
+    }
+
+    .brand span { font-size: 1.05rem; }
+
+    .status {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      color: var(--muted);
+      font-size: .78rem;
+      font-weight: 600;
+      letter-spacing: .05em;
+      text-transform: uppercase;
+    }
+
+    .status::before {
+      content: "";
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: var(--green);
+      box-shadow: 0 0 0 5px rgba(70, 215, 162, .1), 0 0 16px rgba(70, 215, 162, .7);
+    }
+
+    .hero {
+      padding: 92px 0 48px;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      align-items: end;
+      gap: 48px;
+    }
+
+    .eyebrow {
+      margin: 0 0 17px;
+      color: var(--cyan);
+      font-size: .72rem;
+      font-weight: 700;
+      letter-spacing: .18em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      max-width: 820px;
+      margin: 0;
+      font-family: "Manrope", sans-serif;
+      font-size: clamp(2.8rem, 7vw, 6.5rem);
+      line-height: .94;
+      letter-spacing: -.07em;
+    }
+
+    h1 em {
+      color: transparent;
+      font-style: normal;
+      -webkit-text-stroke: 1.4px rgba(196, 217, 245, .65);
+    }
+
+    .hero-copy {
+      max-width: 620px;
+      margin: 28px 0 0;
+      color: var(--muted);
+      font-size: clamp(1rem, 1.6vw, 1.17rem);
+      line-height: 1.7;
+    }
+
+    .counter {
+      min-width: 180px;
+      padding: 22px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: linear-gradient(135deg, rgba(25, 50, 81, .8), rgba(11, 23, 39, .64));
+      box-shadow: var(--shadow);
+    }
+
+    .counter strong {
+      display: block;
+      font-family: "Manrope", sans-serif;
+      font-size: 2.5rem;
+      line-height: 1;
+      letter-spacing: -.06em;
+    }
+
+    .counter span {
+      display: block;
+      margin-top: 8px;
+      color: var(--muted);
+      font-size: .78rem;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+
+    .toolbar {
+      position: sticky;
+      top: 14px;
+      z-index: 10;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin: 28px 0 54px;
+      padding: 10px;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: rgba(8, 19, 33, .82);
+      box-shadow: 0 16px 48px rgba(0, 0, 0, .2);
+      backdrop-filter: blur(18px);
+    }
+
+    .search-wrap {
+      position: relative;
+      flex: 1 1 320px;
+    }
+
+    .search-wrap svg {
+      position: absolute;
+      top: 50%;
+      left: 15px;
+      width: 17px;
+      transform: translateY(-50%);
+      color: var(--muted);
+      pointer-events: none;
+    }
+
+    #search {
+      width: 100%;
+      min-height: 44px;
+      padding: 0 16px 0 43px;
+      border: 1px solid transparent;
+      border-radius: 11px;
+      outline: none;
+      color: var(--text);
+      background: rgba(255, 255, 255, .045);
+      transition: border-color .2s, background .2s;
+    }
+
+    #search::placeholder { color: #7186a1; }
+    #search:focus { border-color: rgba(93, 143, 255, .55); background: rgba(255, 255, 255, .065); }
+
+    .filters { display: flex; gap: 7px; overflow-x: auto; scrollbar-width: none; }
+    .filters::-webkit-scrollbar { display: none; }
+
+    .filter {
+      min-height: 38px;
+      padding: 0 14px;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      color: var(--muted);
+      background: transparent;
+      white-space: nowrap;
+      cursor: pointer;
+      transition: color .2s, border-color .2s, background .2s;
+    }
+
+    .filter:hover { color: var(--text); border-color: var(--line-strong); }
+    .filter.active { color: #06101d; border-color: #d9e8ff; background: #d9e8ff; font-weight: 700; }
+
+    .client-section { margin: 0 0 64px; }
+    .client-section[hidden], .route-card[hidden] { display: none; }
+
+    .client-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 18px;
+      margin-bottom: 80px;
+    }
+
+    .client-card {
+      overflow: hidden;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: var(--surface);
+      box-shadow: 0 12px 38px rgba(0, 0, 0, .1);
+      animation: rise .55s both;
+      animation-delay: calc(var(--order, 0) * 45ms);
+      transition: transform .28s cubic-bezier(.2,.7,.2,1), border-color .28s, background .28s, box-shadow .28s;
+    }
+
+    .client-card:hover {
+      transform: translateY(-6px);
+      border-color: rgba(108, 154, 255, .4);
+      background: var(--surface-hover);
+      box-shadow: 0 25px 60px rgba(0, 0, 0, .25);
+    }
+
+    .client-card[hidden], .client-action[hidden] { display: none; }
+
+    .client-cover {
+      position: relative;
+      aspect-ratio: 1200 / 630;
+      overflow: hidden;
+      background: linear-gradient(135deg, rgba(75, 126, 239, .35), transparent 48%), linear-gradient(315deg, rgba(72, 213, 221, .18), transparent 46%), #0f2036;
+    }
+
+    .client-cover img { width: 100%; height: 100%; display: block; object-fit: cover; transition: transform .5s cubic-bezier(.2,.7,.2,1), filter .4s; }
+    .client-card:hover .client-cover img { transform: scale(1.035); filter: saturate(1.08); }
+    .client-cover.no-image { display: grid; place-items: center; }
+    .client-cover.no-image::before { content: attr(data-monogram); font-family: "Manrope", sans-serif; font-size: clamp(2.5rem, 6vw, 4.5rem); font-weight: 800; letter-spacing: -.08em; color: rgba(230, 240, 255, .22); }
+
+    .folder-badge {
+      position: absolute;
+      top: 12px;
+      left: 12px;
+      padding: 7px 10px;
+      border: 1px solid rgba(255, 255, 255, .16);
+      border-radius: 8px;
+      color: #f5f9ff;
+      background: rgba(4, 12, 23, .72);
+      font-size: .64rem;
+      font-weight: 700;
+      letter-spacing: .08em;
+      backdrop-filter: blur(9px);
+    }
+
+    .client-content { padding: 21px; }
+    .client-number { margin: 0 0 6px; color: var(--cyan); font-size: .68rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
+    .client-content h2 { margin-bottom: 19px; font-size: 1.18rem; }
+    .client-actions { display: grid; gap: 9px; }
+
+    .client-action {
+      display: flex;
+      min-height: 44px;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      padding: 0 13px;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      color: #dce9fa;
+      background: rgba(255, 255, 255, .035);
+      font-size: .82rem;
+      font-weight: 600;
+      text-decoration: none;
+      transition: color .2s, border-color .2s, background .2s;
+    }
+
+    .client-action:hover { color: #07111f; border-color: #dce9fa; background: #dce9fa; }
+    .client-action:focus-visible { outline: 3px solid var(--blue); outline-offset: 2px; }
+    .client-action svg { width: 15px; flex: 0 0 auto; }
+
+    .client-empty {
+      min-height: 44px;
+      display: flex;
+      align-items: center;
+      gap: 9px;
+      color: var(--muted);
+      font-size: .78rem;
+    }
+
+    .client-empty::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: var(--amber); box-shadow: 0 0 10px rgba(240, 184, 90, .5); }
+
+    .section-head {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      margin-bottom: 19px;
+    }
+
+    .section-index {
+      display: grid;
+      width: 34px;
+      height: 34px;
+      place-items: center;
+      border: 1px solid var(--line-strong);
+      border-radius: 50%;
+      color: var(--muted);
+      font-family: "Manrope", sans-serif;
+      font-size: .68rem;
+      font-weight: 700;
+    }
+
+    h2 {
+      margin: 0;
+      font-family: "Manrope", sans-serif;
+      font-size: clamp(1.25rem, 2vw, 1.65rem);
+      letter-spacing: -.035em;
+    }
+
+    .section-head::after { content: ""; height: 1px; flex: 1; background: var(--line); }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 16px;
+    }
+
+    .route-card {
+      position: relative;
+      min-width: 0;
+      overflow: hidden;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      color: inherit;
+      background: var(--surface);
+      text-decoration: none;
+      box-shadow: 0 12px 38px rgba(0, 0, 0, .1);
+      transform: translateY(0);
+      transition: transform .28s cubic-bezier(.2,.7,.2,1), border-color .28s, background .28s, box-shadow .28s;
+      animation: rise .55s both;
+      animation-delay: calc(var(--order, 0) * 38ms);
+    }
+
+    .route-card:hover {
+      transform: translateY(-6px);
+      border-color: rgba(108, 154, 255, .48);
+      background: var(--surface-hover);
+      box-shadow: 0 25px 60px rgba(0, 0, 0, .25);
+    }
+
+    .route-card:focus-visible { outline: 3px solid var(--blue); outline-offset: 3px; }
+
+    .thumb {
+      position: relative;
+      aspect-ratio: 1200 / 630;
+      overflow: hidden;
+      background:
+        linear-gradient(135deg, rgba(75, 126, 239, .35), transparent 48%),
+        linear-gradient(315deg, rgba(72, 213, 221, .18), transparent 46%),
+        #0f2036;
+    }
+
+    .thumb img {
+      width: 100%;
+      height: 100%;
+      display: block;
+      object-fit: cover;
+      transition: transform .5s cubic-bezier(.2,.7,.2,1), filter .4s;
+    }
+
+    .route-card:hover .thumb img { transform: scale(1.035); filter: saturate(1.08); }
+
+    .thumb.no-image { display: grid; place-items: center; }
+    .thumb.no-image::before {
+      content: attr(data-monogram);
+      font-family: "Manrope", sans-serif;
+      font-size: clamp(2rem, 5vw, 4rem);
+      font-weight: 800;
+      letter-spacing: -.08em;
+      color: rgba(230, 240, 255, .22);
+    }
+
+    .type-badge {
+      position: absolute;
+      top: 12px;
+      left: 12px;
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      padding: 7px 9px;
+      border: 1px solid rgba(255, 255, 255, .16);
+      border-radius: 8px;
+      color: #f5f9ff;
+      background: rgba(4, 12, 23, .72);
+      font-size: .65rem;
+      font-weight: 700;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      backdrop-filter: blur(9px);
+    }
+
+    .type-badge::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: var(--accent, var(--blue)); box-shadow: 0 0 10px var(--accent, var(--blue)); }
+
+    .card-body { padding: 19px 20px 20px; }
+
+    .card-kicker {
+      margin: 0 0 7px;
+      color: var(--muted);
+      font-size: .7rem;
+      font-weight: 600;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+
+    .card-title-row { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+
+    h3 {
+      margin: 0;
+      font-family: "Manrope", sans-serif;
+      font-size: 1.05rem;
+      letter-spacing: -.025em;
+    }
+
+    .arrow {
+      display: grid;
+      flex: 0 0 35px;
+      width: 35px;
+      height: 35px;
+      place-items: center;
+      border: 1px solid var(--line);
+      border-radius: 50%;
+      color: var(--muted);
+      transition: color .25s, background .25s, transform .25s;
+    }
+
+    .arrow svg { width: 15px; }
+    .route-card:hover .arrow { color: #07111f; background: var(--text); transform: rotate(-7deg); }
+
+    .empty {
+      display: none;
+      margin: 30px 0 100px;
+      padding: 58px 24px;
+      border: 1px dashed var(--line-strong);
+      border-radius: var(--radius);
+      color: var(--muted);
+      text-align: center;
+    }
+
+    .empty.visible { display: block; }
+
+    footer {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      padding: 34px 0 46px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: .76rem;
+    }
+
+    @keyframes rise {
+      from { opacity: 0; transform: translateY(14px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
+    }
+
+    @media (max-width: 900px) {
+      .hero { grid-template-columns: 1fr; padding-top: 70px; gap: 24px; }
+      .counter { display: flex; align-items: baseline; gap: 10px; width: max-content; }
+      .counter span { margin-top: 0; }
+      .cards { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .client-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .toolbar { align-items: stretch; flex-direction: column; }
+      .search-wrap { flex-basis: auto; }
+    }
+
+    @media (max-width: 580px) {
+      .shell { width: min(100% - 24px, 1240px); }
+      .topbar { height: 66px; }
+      .status { font-size: 0; }
+      .status::after { content: "Online"; font-size: .68rem; }
+      .hero { padding-top: 54px; }
+      .hero-copy { margin-top: 20px; }
+      .toolbar { top: 8px; margin-bottom: 42px; }
+      .cards { grid-template-columns: 1fr; }
+      .client-grid { grid-template-columns: 1fr; }
+      .client-section { margin-bottom: 48px; }
+      footer { flex-direction: column; }
+    }
+  </style>
+</head>
+<body>
+  <header class="shell topbar">
+    <a class="brand" href="./" aria-label="Oráculo — página inicial">
+      <img src="logo.png" alt="" width="36" height="36">
+      <span>Oráculo</span>
+    </a>
+    <span class="status">Central de documentos</span>
+  </header>
+
+  <main class="shell">
+    <section class="hero" aria-labelledby="page-title">
+      <div>
+        <p class="eyebrow">Inteligência que orienta decisões</p>
+        <h1 id="page-title">Central de <em>análises.</em></h1>
+        <p class="hero-copy">Todos os diagnósticos, propostas e materiais estratégicos da Oráculo reunidos em um só lugar.</p>
+      </div>
+      <div class="counter" aria-label="Quantidade de documentos">
+        <strong id="route-count">9</strong>
+        <span>clientes</span>
+      </div>
+    </section>
+
+    <div class="toolbar" aria-label="Ferramentas de navegação">
+      <label class="search-wrap">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.8-3.8"></path></svg>
+        <span hidden>Buscar cliente</span>
+        <input id="search" type="search" placeholder="Buscar cliente…" autocomplete="off">
+      </label>
+      <div class="filters" role="group" aria-label="Filtrar por tipo">
+        <button class="filter active" type="button" data-filter="all">Todos</button>
+        <button class="filter" type="button" data-filter="analise">Análises</button>
+        <button class="filter" type="button" data-filter="proposta">Propostas</button>
+      </div>
+    </div>
+
+    <div class="client-grid" id="catalog">
+      <article class="client-card" data-client="Dra. Flávia Melo FlaviaMelow" style="--order: 0">
+        <div class="client-cover"><img src="FlaviaMelow/og-instagram.png" alt="Dra. Flávia Melo" loading="lazy"><span class="folder-badge">FlaviaMelow</span></div>
+        <div class="client-content"><p class="client-number">Cliente 01</p><h2>Dra. Flávia Melo</h2><div class="client-actions">
+          <a class="client-action" data-type="analise" href="FlaviaMelow/Analise-Instagram.html">Análise Instagram <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          <a class="client-action" data-type="proposta" href="FlaviaMelow/Proposta-Comercial.html">Proposta comercial <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        </div></div>
+      </article>
+
+      <article class="client-card" data-client="Grupo Sinfonya Turismo SinfonyaTurismo" style="--order: 1">
+        <div class="client-cover"><img src="SinfonyaTurismo/og-instagram.png" alt="Grupo Sinfonya Turismo" loading="lazy"><span class="folder-badge">SinfonyaTurismo</span></div>
+        <div class="client-content"><p class="client-number">Cliente 02</p><h2>Grupo Sinfonya Turismo</h2><div class="client-actions">
+          <a class="client-action" data-type="analise" href="SinfonyaTurismo/Analise-Instagram.html">Análise Instagram <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          <a class="client-action" data-type="proposta" href="SinfonyaTurismo/Proposta-Comercial.html">Proposta comercial <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        </div></div>
+      </article>
+
+      <article class="client-card" data-client="Elora Skin EloraSkin" style="--order: 2">
+        <div class="client-cover no-image" data-monogram="ES"><span class="folder-badge">EloraSkin</span></div>
+        <div class="client-content"><p class="client-number">Cliente 03</p><h2>Elora Skin</h2><div class="client-actions">
+          <a class="client-action" data-type="proposta" href="EloraSkin/Proposta-Comercial.html">Proposta comercial <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        </div></div>
+      </article>
+
+      <article class="client-card" data-client="Iuri Cavalcante Reis IuriCavalcante" style="--order: 3">
+        <div class="client-cover no-image" data-monogram="IC"><span class="folder-badge">IuriCavalcante</span></div>
+        <div class="client-content"><p class="client-number">Cliente 04</p><h2>Iuri Cavalcante Reis</h2><div class="client-actions">
+          <a class="client-action" data-type="analise" href="IuriCavalcante/Analise-Instagram.html">Análise Instagram <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        </div></div>
+      </article>
+
+      <article class="client-card" data-client="La Deguste Buffet LaDegusteBuffet" style="--order: 4">
+        <div class="client-cover"><img src="LaDegusteBuffet/og-instagram.png" alt="La Deguste Buffet" loading="lazy"><span class="folder-badge">LaDegusteBuffet</span></div>
+        <div class="client-content"><p class="client-number">Cliente 05</p><h2>La Deguste Buffet</h2><div class="client-actions">
+          <a class="client-action" data-type="analise" href="LaDegusteBuffet/Analise-Instagram.html">Análise Instagram <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          <a class="client-action" data-type="proposta" href="LaDegusteBuffet/Proposta-Comercial.html">Proposta comercial <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        </div></div>
+      </article>
+
+      <article class="client-card" data-client="Dra. Joana Tavares JoanaTavares" style="--order: 5">
+        <div class="client-cover"><img src="JoanaTavares/og-instagram.png" alt="Dra. Joana Tavares" loading="lazy"><span class="folder-badge">JoanaTavares</span></div>
+        <div class="client-content"><p class="client-number">Cliente 06</p><h2>Dra. Joana Tavares</h2><div class="client-actions">
+          <a class="client-action" data-type="analise" href="JoanaTavares/Analise-Instagram.html">Análise Instagram <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          <a class="client-action" data-type="proposta" href="JoanaTavares/Proposta-Comercial.html">Proposta comercial <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        </div></div>
+      </article>
+
+      <article class="client-card" data-client="Dr. Pedro Brandão DrPedroBrandaoCP" style="--order: 6">
+        <div class="client-cover"><img src="DrPedroBrandaoCP/og-instagram.png" alt="Dr. Pedro Brandão" loading="lazy"><span class="folder-badge">DrPedroBrandaoCP</span></div>
+        <div class="client-content"><p class="client-number">Cliente 07</p><h2>Dr. Pedro Brandão</h2><div class="client-actions">
+          <a class="client-action" data-type="analise" href="DrPedroBrandaoCP/Analise-Instagram.html">Análise Instagram <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          <a class="client-action" data-type="proposta" href="DrPedroBrandaoCP/Proposta-Comercial.html">Proposta comercial <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        </div></div>
+      </article>
+
+      <article class="client-card" data-client="PECBR Soluções em Agronegócio" style="--order: 7">
+        <div class="client-cover"><img src="PECBR/og-instagram.png" alt="PECBR" loading="lazy"><span class="folder-badge">PECBR</span></div>
+        <div class="client-content"><p class="client-number">Cliente 08</p><h2>PECBR</h2><div class="client-actions">
+          <a class="client-action" data-type="analise" href="PECBR/Analise-Instagram.html">Análise Instagram <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          <a class="client-action" data-type="analise" href="PECBR/Analise-YouTube.html">Análise YouTube <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          <a class="client-action" data-type="proposta" href="PECBR/Proposta-Comercial.html">Proposta comercial <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        </div></div>
+      </article>
+
+      <article class="client-card" data-client="Sinfonya Formaturas SinfonyaFormaturas" style="--order: 8">
+        <div class="client-cover"><img src="SinfonyaFormaturas/og-instagram.png" alt="Sinfonya Formaturas" loading="lazy"><span class="folder-badge">SinfonyaFormaturas</span></div>
+        <div class="client-content"><p class="client-number">Cliente 09</p><h2>Sinfonya Formaturas</h2><div class="client-actions">
+          <a class="client-action" data-type="analise" href="SinfonyaFormaturas/Analise-Instagram.html">Análise Instagram <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          <a class="client-action" data-type="proposta" href="SinfonyaFormaturas/Proposta-Comercial.html">Proposta comercial <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        </div></div>
+      </article>
+    </div>
+
+    <div class="empty" id="empty-state" role="status">Nenhum documento encontrado. Tente outro termo ou filtro.</div>
+  </main>
+
+  <footer class="shell">
+    <span>Oráculo Tecnologia © <span id="year">2026</span></span>
+    <span>Estratégia · Performance · Crescimento</span>
+  </footer>
+
+  <script>
+    (() => {
+      const search = document.querySelector('#search');
+      const filters = [...document.querySelectorAll('.filter')];
+      const cards = [...document.querySelectorAll('.client-card')];
+      const count = document.querySelector('#route-count');
+      const empty = document.querySelector('#empty-state');
+      let activeFilter = 'all';
+
+      const normalize = (value) => value
+        .normalize('NFD')
+        .replace(/[\u0300-\u036f]/g, '')
+        .toLowerCase()
+        .trim();
+
+      function updateCatalog() {
+        const term = normalize(search.value);
+        let visibleCount = 0;
+
+        cards.forEach((card) => {
+          const actions = [...card.querySelectorAll('.client-action')];
+          const matchesSearch = !term || normalize(card.dataset.client).includes(term);
+          const matchesType = activeFilter === 'all' || actions.some((action) => action.dataset.type === activeFilter);
+          const visible = matchesSearch && matchesType;
+
+          actions.forEach((action) => {
+            action.hidden = activeFilter !== 'all' && action.dataset.type !== activeFilter;
+          });
+
+          card.hidden = !visible;
+          if (visible) visibleCount += 1;
+        });
+
+        count.textContent = visibleCount;
+        empty.classList.toggle('visible', visibleCount === 0);
+      }
+
+      filters.forEach((button) => {
+        button.addEventListener('click', () => {
+          activeFilter = button.dataset.filter;
+          filters.forEach((item) => item.classList.toggle('active', item === button));
+          updateCatalog();
+        });
+      });
+
+      search.addEventListener('input', updateCatalog);
+      document.querySelector('#year').textContent = new Date().getFullYear();
+      count.textContent = cards.length;
+    })();
+  </script>
+</body>
+</html>

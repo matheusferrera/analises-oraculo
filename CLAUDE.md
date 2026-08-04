@@ -156,15 +156,32 @@ Personalizar:
 
 Usar `JoanaTavares/Banners-OG.html` como template. Ajustar textos e cores para o cliente.
 
-Abrir no browser e tirar screenshot de cada banner para gerar:
+Servir o projeto localmente e capturar cada card **pelo id** (`#og-instagram` e `#og-proposta`) com o Playwright — screenshot de elemento, não de viewport. O card renderiza 1201 px por arredondamento de subpixel; recortar para o tamanho exato com `sips -c 630 1200 <arquivo>.png` (o macOS não tem PIL instalado). Resultado:
 - `og-instagram.png` — 1200×630px
 - `og-proposta.png` — 1200×630px
+
+> Esta é a **única** etapa pós-build em que o Playwright abre o HTML gerado. Não aproveite a janela aberta para revisar o layout das páginas.
 
 ### 7. Atualizar OG tags
 
 Nas duas páginas HTML, atualizar:
 - `og:image` com a URL Vercel correta (`https://analises-oraculo.vercel.app/<NomeCliente>/...`)
 - `og:url` com a URL da página
+
+### 8. Adicionar o cliente ao `index.html` (obrigatório)
+
+**Todo relatório novo tem que entrar na central de análises em `index.html`.** Sem isso o material fica invisível na raiz do projeto.
+
+Duplicar um `<article class="client-card">` existente e ajustar:
+- `data-client="<Nome do Cliente> <NomePasta>"` — alimenta a busca; inclua as duas formas
+- `style="--order: N"` — próximo número livre na sequência
+- Capa: `<div class="client-cover"><img src="<NomePasta>/og-instagram.png" alt="<Nome do Cliente>" loading="lazy"><span class="folder-badge"><NomePasta></span></div>`
+  - Sem banner OG ainda, usar `<div class="client-cover no-image" data-monogram="XX">` com as iniciais
+- `<p class="client-number">Cliente NN</p>` e `<h2><Nome do Cliente></h2>`
+- Um `<a class="client-action">` por documento, com `data-type="analise"` ou `data-type="proposta"` — é o que os filtros do topo usam
+  - Enquanto os arquivos não existirem: `<span class="client-empty">Documentos em preparação</span>`
+
+O contador de clientes do topo é calculado em JS a partir dos cards; não precisa mexer nele.
 
 ---
 

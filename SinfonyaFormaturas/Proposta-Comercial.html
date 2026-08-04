@@ -1,0 +1,1782 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Proposta Comercial &mdash; Sinfonya Formaturas | Oráculo</title>
+  <meta property="og:type"         content="website"/>
+  <meta property="og:title"        content="Proposta Comercial — Sinfonya Formaturas | Oráculo"/>
+  <meta property="og:description"  content="Proposta estratégica para reativar o Instagram @sinfonyaformaturas — o perfil mais engajado do Grupo Sinfonya — e voltar a fechar turmas de formatura."/>
+  <meta property="og:image"        content="https://analises-oraculo.vercel.app/SinfonyaFormaturas/og-proposta.png"/>
+  <meta property="og:image:width"  content="1200"/>
+  <meta property="og:image:height" content="630"/>
+  <meta property="og:url"          content="https://analises-oraculo.vercel.app/SinfonyaFormaturas/Proposta-Comercial.html"/>
+  <meta property="og:site_name"    content="Oráculo Tecnologia"/>
+  <meta name="twitter:card"        content="summary_large_image"/>
+  <meta name="twitter:image"       content="https://analises-oraculo.vercel.app/SinfonyaFormaturas/og-proposta.png"/>
+  <meta name="description"         content="Proposta comercial exclusiva para a Sinfonya Formaturas. Elaborado pela Oráculo Tecnologia."/>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&family=Fira+Sans:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+<style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --ink:           #07080f;
+      --night:         #0a0f1e;
+      --night-2:       #0d1728;
+      --paper:         #fafbff;
+      --paper-2:       #f3f7ff;
+      --surface:       #ffffff;
+      --surface-2:     #eff6ff;
+      --border:        #dbe5f4;
+      --border-dark:   rgba(255,255,255,0.08);
+      --primary:       #1d4ed8;
+      --primary-deep:  #1e40af;
+      --primary-light: #60a5fa;
+      --gold:          #d97706;
+      --gold-2:        #f59e0b;
+      --green:         #059669;
+      --green-2:       #16a34a;
+      --red:           #dc2626;
+      --blue:          #1d4ed8;
+      --text:          #111827;
+      --muted:         #64748b;
+      --muted-2:       #94a3b8;
+      --mono:          'Fira Code', ui-monospace, SFMono-Regular, Menlo, monospace;
+      --sans:          'Fira Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      --shadow-soft:   0 16px 45px rgba(15,23,42,0.08);
+      --shadow-blue:   0 18px 50px rgba(29,78,216,0.22);
+    }
+
+    html { scroll-behavior: smooth; overflow-x: hidden; }
+
+    body {
+      font-family: var(--sans);
+      background:
+        linear-gradient(180deg, var(--night) 0, var(--night) 690px, var(--paper) 690px, var(--paper) 100%);
+      color: var(--text);
+      line-height: 1.6;
+      overflow-x: hidden;
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
+    }
+
+    h1, h2, h3, h4, p, a, span, strong {
+      overflow-wrap: break-word;
+    }
+
+    ::selection { background: rgba(96,165,250,0.28); }
+
+    :focus-visible {
+      outline: 3px solid rgba(96,165,250,0.8);
+      outline-offset: 3px;
+    }
+
+    /* ─── NAV ─── */
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      min-height: 56px;
+      padding: 0 40px;
+      padding-top: env(safe-area-inset-top);
+      display: flex; align-items: center; justify-content: space-between;
+      background: var(--primary);
+      border-bottom: 1px solid rgba(255,255,255,0.12);
+      box-shadow: 0 1px 14px rgba(2,6,23,0.18);
+      transition: background-color 220ms ease, box-shadow 220ms ease;
+    }
+    nav.is-scrolled {
+      background: rgba(29,78,216,0.96);
+      backdrop-filter: blur(18px);
+      -webkit-backdrop-filter: blur(18px);
+      box-shadow: 0 8px 28px rgba(2,6,23,0.22);
+    }
+    .nav-logo { display: flex; align-items: center; gap: 14px; min-width: 0; }
+    .nav-logo img { height: 24px; width: auto; display: block; }
+    .nav-logo-dot { width: 8px; height: 8px; border-radius: 50%; background: #bfdbfe; box-shadow: 0 0 14px rgba(191,219,254,0.7); }
+    .nav-logo-text {
+      color: rgba(255,255,255,0.86);
+      font: 700 12px/1 var(--mono);
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      white-space: nowrap;
+    }
+    .nav-links { display: flex; gap: 6px; }
+    .nav-links a {
+      color: rgba(255,255,255,0.74);
+      font-size: 13px; font-weight: 600;
+      text-decoration: none;
+      border-radius: 999px;
+      padding: 9px 12px;
+      transition: color 180ms ease, background-color 180ms ease;
+    }
+    .nav-links a:hover { color: #fff; background: rgba(255,255,255,0.1); }
+    .nav-cta {
+      background: #fff; color: var(--primary);
+      font-size: 13px; font-weight: 600;
+      min-height: 44px;
+      padding: 0 20px; border-radius: 999px;
+      text-decoration: none;
+      display: inline-flex; align-items: center; justify-content: center;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.16);
+      transition: filter 180ms ease, transform 180ms ease;
+    }
+    .nav-cta:hover { filter: brightness(1.04); transform: translateY(-1px); }
+
+    /* ─── SECTIONS ─── */
+    section { padding: 112px 40px; max-width: 1200px; margin: 0 auto; }
+    .section-full { max-width: 100%; padding: 112px 0; }
+    .inner-wrap { max-width: 1200px; margin: 0 auto; padding: 0 40px; }
+    .band {
+      position: relative;
+      overflow: hidden;
+      max-width: 100% !important;
+    }
+    .band::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      background-image: radial-gradient(circle, rgba(29,78,216,0.14) 1px, transparent 1px);
+      background-size: 32px 32px;
+      mask-image: linear-gradient(to bottom, transparent, black 16%, black 84%, transparent);
+      -webkit-mask-image: linear-gradient(to bottom, transparent, black 16%, black 84%, transparent);
+    }
+    .band > * { position: relative; z-index: 1; }
+    .band-soft { background: var(--paper-2); border-block: 1px solid #dbeafe; }
+    .band-dark {
+      background: var(--night);
+      color: var(--paper);
+      border-block: 1px solid var(--border-dark);
+    }
+
+    /* ─── HERO ─── */
+    .hero {
+      min-height: min(820px, 100dvh);
+      display: flex; align-items: center; justify-content: center;
+      text-align: left;
+      position: relative;
+      padding: calc(76px + env(safe-area-inset-top)) 40px 64px;
+      overflow: hidden;
+      color: var(--paper);
+    }
+    .hero-bg {
+      position: absolute; inset: 0; z-index: 0;
+      background:
+        linear-gradient(130deg, rgba(29,78,216,0.22) 0%, rgba(10,15,30,0) 42%),
+        linear-gradient(180deg, #0a0f1e 0%, #07080f 100%);
+    }
+    .hero-grid {
+      position: absolute; inset: 0; z-index: 0;
+      background-image: radial-gradient(circle, rgba(96,165,250,0.18) 1px, transparent 1px);
+      background-size: 32px 32px;
+      mask-image: linear-gradient(to bottom, transparent, black 14%, black 84%, transparent);
+      -webkit-mask-image: linear-gradient(to bottom, transparent, black 14%, black 84%, transparent);
+    }
+    .hero-content {
+      position: relative; z-index: 1;
+      width: 100%;
+      max-width: 1180px;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(280px, 360px);
+      gap: clamp(32px, 5vw, 72px);
+      align-items: center;
+    }
+    .hero-badge,
+    .hero h1,
+    .hero-sub,
+    .hero-ctas { grid-column: 1; }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 8px;
+      width: fit-content;
+      background: rgba(29,78,216,0.18); border: 1px solid rgba(96,165,250,0.34);
+      border-radius: 100px; padding: 6px 16px;
+      font: 700 11px/1 var(--mono); color: var(--primary-light);
+      letter-spacing: 0.12em; text-transform: uppercase;
+      margin-bottom: 32px;
+    }
+    .hero-badge-dot { width: 7px; height: 7px; border-radius: 50%; background: var(--primary-light); box-shadow: 0 0 12px rgba(96,165,250,0.82); animation: pulse 2s infinite; }
+    @keyframes pulse { 0%,100%{opacity:1;} 50%{opacity:0.4;} }
+    .hero h1 {
+      font-size: clamp(42px, 5.1vw, 70px);
+      font-weight: 900; line-height: 1.01;
+      letter-spacing: -0.035em;
+      margin-bottom: 24px;
+      max-width: 780px;
+    }
+    .hero h1 .accent { color: var(--primary-light); }
+    .mobile-line { display: none; }
+    .hero-sub {
+      font-size: clamp(16px, 1.7vw, 19px);
+      color: #94a3b8; max-width: 640px; margin: 0 0 36px;
+      font-weight: 400; line-height: 1.75;
+    }
+    .hero-stats {
+      grid-column: 2;
+      grid-row: 1 / span 4;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1px;
+      align-self: center;
+      min-height: 0;
+      margin-top: 0;
+      padding: 1px;
+      border: 1px solid var(--border-dark);
+      border-radius: 20px;
+      overflow: hidden;
+      background: var(--border-dark);
+      box-shadow: 0 24px 80px rgba(0,0,0,0.34);
+    }
+    .hero-stat {
+      text-align: left;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      min-height: 148px;
+      padding: 24px;
+      background: rgba(255,255,255,0.035);
+      transition: background-color 220ms ease;
+    }
+    .hero-stat:hover { background: rgba(29,78,216,0.16); }
+    .hero-stat-num {
+      font: 800 clamp(34px, 3vw, 44px)/0.95 var(--sans);
+      color: #fff; letter-spacing: -0.04em;
+    }
+    .hero-stat-num .unit { font-size: 20px; color: var(--primary-light); }
+    .hero-stat-label {
+      font-size: 12px; color: #94a3b8; font-weight: 600;
+      margin-top: 10px; letter-spacing: 0.04em; text-transform: uppercase;
+    }
+    .scroll-indicator {
+      position: absolute; bottom: 40px; left: 50%; transform: translateX(-50%);
+      display: flex; flex-direction: column; align-items: center; gap: 8px;
+      color: #64748b; font: 700 10px/1 var(--mono); letter-spacing: 0.16em; text-transform: uppercase;
+      animation: bounce 2s infinite;
+    }
+    @keyframes bounce { 0%,100%{transform:translateX(-50%) translateY(0);} 50%{transform:translateX(-50%) translateY(6px);} }
+    @keyframes bounce-y { 0%,100%{transform:translateY(0);} 50%{transform:translateY(6px);} }
+    .scroll-arrow { width: 18px; height: 18px; border-right: 2px solid #64748b; border-bottom: 2px solid #64748b; transform: rotate(45deg); margin-top: -4px; }
+
+    /* ─── SECTION HEADER ─── */
+    .section-header { text-align: left; margin-bottom: 60px; max-width: 780px; }
+    .section-header.centered { text-align: center; margin-left: auto; margin-right: auto; }
+    .section-eyebrow {
+      display: inline-block;
+      font: 700 11px/1 var(--mono); letter-spacing: 0.16em; text-transform: uppercase;
+      color: var(--primary); margin-bottom: 16px;
+    }
+    .section-title {
+      font-size: clamp(30px, 4.6vw, 56px);
+      font-weight: 900; letter-spacing: -0.035em; line-height: 1.03;
+      color: var(--text);
+    }
+    .section-title .dim { color: #8ca0b8; }
+    .section-desc {
+      font-size: 16px; color: var(--muted); margin-top: 16px;
+      max-width: 680px;
+      line-height: 1.75;
+    }
+    .band-dark .section-eyebrow { color: var(--primary-light); }
+    .band-dark .section-title { color: var(--paper); }
+    .band-dark .section-title .dim { color: var(--primary-light); }
+    .band-dark .section-desc { color: #94a3b8; }
+
+    /* ─── DIAGNOSTIC ─── */
+    .diagnostic-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: clamp(24px, 4vw, 44px);
+      position: relative;
+      overflow: hidden;
+      box-shadow: var(--shadow-soft);
+      display: grid;
+      gap: 28px;
+    }
+    .diagnostic-card::before {
+      content: '';
+      position: absolute; top: 0; left: 0; right: 0; height: 4px;
+      background: linear-gradient(90deg, var(--primary-deep), var(--primary-light), var(--gold-2));
+    }
+    .diagnostic-card > * { position: relative; z-index: 1; }
+    .diagnostic-card-header {
+      display: flex; align-items: flex-start; justify-content: space-between;
+      gap: 28px; flex-wrap: wrap;
+    }
+    .diagnostic-copy { max-width: 760px; }
+    .diagnostic-kicker {
+      font: 700 12px/1.2 var(--mono);
+      color: var(--primary);
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+    .diagnostic-card h3 {
+      font-size: clamp(24px, 3vw, 34px);
+      font-weight: 900;
+      line-height: 1.08;
+      letter-spacing: -0.03em;
+      color: var(--text);
+      margin-bottom: 14px;
+    }
+    .diagnostic-card p { color: #475569; font-size: 15px; line-height: 1.75; }
+    .diagnostic-metrics {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 1px;
+      background: var(--border);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      overflow: hidden;
+    }
+    .diagnostic-metric {
+      background: var(--surface);
+      text-align: center;
+      padding: 18px 12px;
+      min-width: 0;
+    }
+    .diagnostic-metric-value {
+      font-size: clamp(22px, 2.4vw, 30px);
+      font-weight: 900;
+      color: var(--primary);
+      line-height: 1;
+      letter-spacing: -0.02em;
+    }
+    .diagnostic-metric-label {
+      font: 700 10px/1.3 var(--mono);
+      color: var(--muted);
+      margin-top: 8px;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+    .diagnostic-metric-desc {
+      color: #64748b;
+      font-size: 12px;
+      line-height: 1.45;
+      margin: 10px auto 0;
+      max-width: 180px;
+    }
+    .diagnostic-points {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 16px;
+    }
+    .diagnostic-point {
+      background: var(--paper-2);
+      border: 1px solid #dbeafe;
+      border-radius: 14px;
+      padding: 18px;
+    }
+    .diagnostic-point strong {
+      display: block;
+      color: var(--text);
+      font-size: 14px;
+      line-height: 1.25;
+      margin-bottom: 8px;
+    }
+    .diagnostic-point span {
+      display: block;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.55;
+    }
+    .diagnostic-actions {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+    .diagnostic-note {
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.5;
+    }
+
+    /* ─── PROBLEMS ─── */
+    .problems-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+    .problem-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 18px; padding: 28px;
+      transition: transform 250ms ease, border-color 250ms ease, background-color 250ms ease;
+    }
+    .band-dark .problem-card {
+      background: rgba(255,255,255,0.035);
+      border-color: var(--border-dark);
+    }
+    .problem-card:hover { transform: translateY(-4px); border-color: rgba(96,165,250,0.4); }
+    .problem-card-icon {
+      width: 44px; height: 44px; border-radius: 10px;
+      background: rgba(29,78,216,0.1); border: 1px solid rgba(29,78,216,0.2);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 20px; margin-bottom: 16px;
+    }
+    .problem-card h3 { font-size: 16px; font-weight: 800; color: var(--text); margin-bottom: 8px; letter-spacing: -0.01em; }
+    .problem-card p { font-size: 13px; color: var(--muted); line-height: 1.65; }
+    .band-dark .problem-card h3 { color: var(--paper); }
+    .band-dark .problem-card p { color: #94a3b8; }
+    .band-dark .problem-card-icon { background: rgba(29,78,216,0.16); border-color: rgba(96,165,250,0.28); }
+    .band-dark .problem-card-icon svg { stroke: var(--primary-light); }
+
+    /* ─── RESULTS / DELIVERY ROADMAP ─── */
+    .delivery-section .section-header { max-width: 860px; }
+    .results-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px; }
+    .result-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 18px; padding: 24px;
+      text-align: left;
+      position: relative; overflow: hidden;
+      box-shadow: 0 12px 32px rgba(15,23,42,0.05);
+      display: flex;
+      flex-direction: column;
+      min-height: 250px;
+      transition: transform 240ms ease, border-color 240ms ease, box-shadow 240ms ease;
+    }
+    .result-card:hover { transform: translateY(-4px); border-color: #bfdbfe; box-shadow: 0 20px 48px rgba(29,78,216,0.11); }
+    .result-card::after {
+      content: '';
+      position: absolute; bottom: 0; left: 0; right: 0; height: 2px;
+      background: linear-gradient(90deg, var(--primary), var(--primary-light));
+    }
+    .result-kicker {
+      font: 700 10px/1.2 var(--mono);
+      color: var(--primary);
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      margin-bottom: 14px;
+    }
+    .result-num {
+      font-size: 46px; font-weight: 900; color: var(--primary);
+      letter-spacing: -0.04em; line-height: 1;
+      font-variant-numeric: tabular-nums;
+    }
+    .result-unit { font-size: 20px; color: var(--muted); }
+    .result-label { font-size: 14px; color: #334155; margin-top: 12px; font-weight: 800; line-height: 1.35; }
+    .result-detail { font-size: 13px; color: var(--muted); line-height: 1.55; margin-top: 10px; }
+    .result-track {
+      margin-top: auto;
+      padding-top: 16px;
+      font: 700 10px/1.45 var(--mono);
+      color: #64748b;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+
+    /* ─── PRICING ─── */
+    .pricing-wrap { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; align-items: start; }
+    .pricing-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 18px; padding: 34px;
+      position: relative; transition: transform 250ms ease, border-color 250ms ease, box-shadow 250ms ease;
+      box-shadow: 0 14px 34px rgba(15,23,42,0.06);
+    }
+    .pricing-card:hover { transform: translateY(-6px); box-shadow: 0 24px 64px rgba(15,23,42,0.1); }
+    .pricing-card.featured {
+      background: linear-gradient(180deg, #1e40af 0%, #1d4ed8 58%, #2563eb 100%);
+      border-color: rgba(191,219,254,0.48);
+      color: var(--paper);
+      box-shadow: 0 28px 80px rgba(29,78,216,0.28);
+    }
+    .pricing-card.featured::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      background-image:
+        linear-gradient(135deg, rgba(255,255,255,0.16), transparent 34%),
+        radial-gradient(circle, rgba(255,255,255,0.18) 1px, transparent 1px);
+      background-size: auto, 28px 28px;
+      opacity: 0.68;
+      border-radius: inherit;
+    }
+    .pricing-card.featured > * {
+      position: relative;
+      z-index: 1;
+    }
+    .pricing-badge {
+      position: absolute; top: -14px; left: 50%; transform: translateX(-50%);
+      background: var(--gold); color: #fff;
+      font: 700 11px/1 var(--mono); letter-spacing: 0.1em; text-transform: uppercase;
+      padding: 5px 16px; border-radius: 100px; white-space: nowrap;
+      box-shadow: 0 10px 28px rgba(180,83,9,0.26);
+    }
+    .pricing-plan { font: 700 12px/1 var(--mono); letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin-bottom: 10px; }
+    .pricing-name { font-size: 24px; font-weight: 900; color: var(--text); margin-bottom: 6px; letter-spacing: -0.02em; }
+    .pricing-desc { font-size: 13px; color: var(--muted); margin-bottom: 28px; line-height: 1.6; }
+    .pricing-price { margin-bottom: 8px; }
+    .pricing-price .currency { font-size: 20px; font-weight: 700; color: var(--muted); vertical-align: top; margin-top: 8px; display: inline-block; }
+    .pricing-price .amount {
+      font-size: 52px; font-weight: 900; color: var(--text); letter-spacing: -0.06em; line-height: 1;
+    }
+    .pricing-price .period { font-size: 14px; color: var(--muted); margin-left: 4px; }
+    .pricing-note { font-size: 12px; color: var(--muted-2); margin-bottom: 28px; }
+    .pricing-divider { height: 1px; background: var(--border); margin: 24px 0; }
+    .pricing-features { display: flex; flex-direction: column; gap: 12px; margin-bottom: 32px; }
+    .pricing-feature { display: flex; align-items: flex-start; gap: 10px; font-size: 13px; color: var(--muted); }
+    .feature-check {
+      width: 18px; height: 18px; border-radius: 50%; flex-shrink: 0;
+      display: flex; align-items: center; justify-content: center; margin-top: 1px; font-size: 10px;
+    }
+    .feature-check.yes { background: rgba(16,185,129,0.15); color: var(--green); }
+    .feature-check.no  { background: var(--surface-2); color: var(--muted-2); }
+    .pricing-feature.muted { color: var(--muted-2); }
+    .pricing-card.featured .pricing-plan,
+    .pricing-card.featured .pricing-desc,
+    .pricing-card.featured .pricing-price .currency,
+    .pricing-card.featured .pricing-price .period,
+    .pricing-card.featured .pricing-note,
+    .pricing-card.featured .pricing-feature { color: rgba(239,246,255,0.82); }
+    .pricing-card.featured .pricing-name,
+    .pricing-card.featured .pricing-price .amount { color: var(--paper); }
+    .pricing-card.featured .pricing-note { margin-bottom: 0; }
+    .pricing-card.featured .pricing-feature.muted { color: rgba(239,246,255,0.62); }
+    .pricing-card.featured .pricing-divider { background: rgba(255,255,255,0.18); }
+    .pricing-card.featured .feature-check.yes { background: rgba(255,255,255,0.18); color: #fff; }
+    .pricing-card.featured .feature-check.no { background: rgba(255,255,255,0.1); color: rgba(239,246,255,0.7); }
+    .pricing-fit {
+      margin: 22px 0 24px;
+      padding: 16px;
+      border-radius: 14px;
+      background: rgba(255,255,255,0.12);
+      border: 1px solid rgba(255,255,255,0.22);
+    }
+    .pricing-fit-title {
+      font: 700 11px/1.2 var(--mono);
+      color: #bfdbfe;
+      letter-spacing: 0.09em;
+      text-transform: uppercase;
+      margin-bottom: 8px;
+    }
+    .pricing-fit p {
+      color: rgba(255,255,255,0.9);
+      font-size: 13px;
+      line-height: 1.6;
+    }
+    .pricing-cta {
+      display: block; width: 100%; padding: 14px;
+      border-radius: 999px; text-align: center;
+      font-size: 14px; font-weight: 700;
+      text-decoration: none; cursor: pointer; border: none;
+      min-height: 48px;
+      transition: filter 200ms ease, transform 150ms ease, background-color 200ms ease;
+    }
+    .pricing-cta:hover { filter: brightness(1.04); transform: translateY(-1px); }
+    .pricing-cta.primary { background: var(--primary); color: #fff; }
+    .pricing-cta.outline { background: transparent; border: 1px solid var(--border); color: var(--text); }
+    .pricing-cta.outline:hover { border-color: #93c5fd; background: #eff6ff; }
+    .pricing-card.featured .pricing-cta.primary { background: #fff; color: var(--primary); }
+
+    /* ─── ADD-ONS ─── */
+    .addons-outer {
+      margin-top: 48px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 36px;
+      box-shadow: 0 14px 34px rgba(15,23,42,0.06);
+    }
+    .addons-head {
+      display: flex;
+      justify-content: space-between;
+      gap: 24px;
+      align-items: flex-start;
+      margin-bottom: 28px;
+    }
+    .addons-head h3 {
+      font-size: 22px;
+      font-weight: 900;
+      color: var(--text);
+      letter-spacing: -0.025em;
+    }
+    .addons-head p {
+      max-width: 520px;
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.65;
+    }
+    .addons-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+    .addon-card {
+      background: linear-gradient(180deg, #ffffff 0%, #f8fbff 100%);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 22px;
+      display: flex;
+      flex-direction: column;
+      min-height: 260px;
+      transition: transform 220ms ease, border-color 220ms ease, box-shadow 220ms ease;
+    }
+    .addon-card:hover {
+      transform: translateY(-3px);
+      border-color: #bfdbfe;
+      box-shadow: 0 16px 42px rgba(29,78,216,0.1);
+    }
+    .addon-meta {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 16px;
+      margin-bottom: 14px;
+    }
+    .addon-price {
+      font-size: 20px;
+      font-weight: 900;
+      color: var(--gold);
+      letter-spacing: -0.02em;
+      white-space: nowrap;
+    }
+    .addon-when {
+      font: 700 10px/1.3 var(--mono);
+      color: var(--primary);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      text-align: right;
+    }
+    .addon-card h4 {
+      font-size: 17px;
+      font-weight: 900;
+      color: var(--text);
+      line-height: 1.2;
+      margin-bottom: 8px;
+      letter-spacing: -0.015em;
+    }
+    .addon-card p {
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.6;
+      margin-bottom: 16px;
+    }
+    .addon-deliverables {
+      display: grid;
+      gap: 8px;
+      margin-top: auto;
+    }
+    .addon-deliverables span {
+      display: flex;
+      align-items: flex-start;
+      gap: 8px;
+      color: #475569;
+      font-size: 12px;
+      line-height: 1.45;
+    }
+    .addon-deliverables span::before {
+      content: '';
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: var(--primary);
+      flex-shrink: 0;
+      margin-top: 6px;
+    }
+
+    /* ─── TIMELINE ─── */
+    .delivery-block-title {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      margin-bottom: 32px;
+    }
+    .delivery-block-title h3 {
+      font-size: 22px;
+      font-weight: 900;
+      letter-spacing: -0.025em;
+      color: var(--text);
+    }
+    .delivery-block-label {
+      font: 700 11px/1 var(--mono);
+      color: var(--primary);
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      white-space: nowrap;
+    }
+    .timeline { position: relative; padding-left: 32px; }
+    .timeline::before {
+      content: ''; position: absolute; left: 8px; top: 8px; bottom: 8px;
+      width: 2px; background: var(--border);
+    }
+    .timeline-item { position: relative; margin-bottom: 40px; }
+    .timeline-item::before {
+      content: ''; position: absolute; left: -28px; top: 6px;
+      width: 12px; height: 12px; border-radius: 50%;
+      background: var(--primary); border: 2px solid var(--surface);
+      box-shadow: 0 0 0 3px rgba(29,78,216,0.15);
+    }
+    .timeline-phase {
+      font-size: 11px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase;
+      color: var(--primary); margin-bottom: 4px;
+    }
+    .timeline-title { font-size: 17px; font-weight: 800; color: var(--text); margin-bottom: 8px; }
+    .timeline-desc { font-size: 13px; color: var(--muted); line-height: 1.7; }
+    .timeline-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: 14px;
+    }
+    .timeline-tags span {
+      display: inline-flex;
+      align-items: center;
+      min-height: 30px;
+      padding: 6px 10px;
+      border-radius: 999px;
+      background: #eff6ff;
+      border: 1px solid #bfdbfe;
+      color: var(--primary-deep);
+      font: 700 11px/1.2 var(--mono);
+      letter-spacing: 0.02em;
+    }
+    .delivery-panel {
+      background: linear-gradient(180deg, #ffffff 0%, #f8fbff 100%);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 30px;
+      box-shadow: 0 16px 42px rgba(15,23,42,0.07);
+      position: sticky;
+      top: 92px;
+    }
+    .delivery-panel h3 {
+      font-size: 24px;
+      font-weight: 900;
+      letter-spacing: -0.03em;
+      color: var(--text);
+      margin: 8px 0 10px;
+    }
+    .delivery-panel-intro {
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.65;
+      margin-bottom: 24px;
+    }
+    .structure-list { display: grid; gap: 12px; }
+    .structure-item {
+      display: grid;
+      grid-template-columns: 36px 1fr;
+      gap: 12px;
+      padding: 16px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+    }
+    .structure-num {
+      width: 36px; height: 36px;
+      border-radius: 10px;
+      background: rgba(29,78,216,0.1);
+      color: var(--primary);
+      display: flex; align-items: center; justify-content: center;
+      font: 800 12px/1 var(--mono);
+    }
+    .structure-item strong {
+      display: block;
+      font-size: 14px;
+      color: var(--text);
+      line-height: 1.3;
+      margin-bottom: 4px;
+    }
+    .structure-item span {
+      display: block;
+      font-size: 12px;
+      color: var(--muted);
+      line-height: 1.55;
+    }
+    .delivery-signal {
+      margin-top: 18px;
+      padding: 18px;
+      border-radius: 14px;
+      background: linear-gradient(135deg, rgba(5,150,105,0.1), rgba(29,78,216,0.06));
+      border: 1px solid rgba(5,150,105,0.2);
+    }
+    .delivery-signal-label {
+      font: 700 10px/1.2 var(--mono);
+      color: var(--green);
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      margin-bottom: 8px;
+    }
+    .delivery-signal-value {
+      font-size: 24px;
+      font-weight: 900;
+      color: var(--green);
+      letter-spacing: -0.03em;
+      line-height: 1.05;
+    }
+    .delivery-signal-copy {
+      margin-top: 8px;
+      color: #64748b;
+      font-size: 12px;
+      line-height: 1.55;
+    }
+    .delivery-compliance {
+      margin-top: 18px;
+      padding-top: 18px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.6;
+    }
+
+    /* ─── WHY US ─── */
+    .why-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+    .why-card {
+      background: rgba(255,255,255,0.035); border: 1px solid var(--border-dark);
+      border-radius: 18px; padding: 28px;
+    }
+    .why-icon {
+      width: 42px; height: 42px; border-radius: 12px;
+      display: flex; align-items: center; justify-content: center;
+      margin-bottom: 18px;
+      color: var(--primary-light);
+      background: rgba(29,78,216,0.16);
+      border: 1px solid rgba(96,165,250,0.26);
+      font: 800 13px/1 var(--mono);
+    }
+    .why-icon svg { width: 20px; height: 20px; stroke: currentColor; }
+    .why-card h3 { font-size: 16px; font-weight: 800; color: var(--paper); margin-bottom: 8px; }
+    .why-card p { font-size: 13px; color: #94a3b8; line-height: 1.65; }
+
+    /* ─── CTA SECTION ─── */
+    .cta-section {
+      background: linear-gradient(135deg, var(--primary-deep) 0%, var(--primary) 58%, #4f46e5 100%);
+      border: 1px solid rgba(96,165,250,0.38);
+      border-radius: 24px;
+      padding: 80px 60px;
+      text-align: center;
+      position: relative; overflow: hidden;
+      color: #fff;
+      box-shadow: 0 24px 80px rgba(29,78,216,0.24);
+    }
+    .cta-section::before {
+      content: '';
+      position: absolute; inset: 0;
+      background-image: radial-gradient(circle, rgba(255,255,255,0.16) 1px, transparent 1px);
+      background-size: 34px 34px;
+      mask-image: linear-gradient(to bottom, black, transparent);
+      -webkit-mask-image: linear-gradient(to bottom, black, transparent);
+    }
+    .cta-section > * { position: relative; z-index: 1; }
+    .cta-section h2 { font-size: clamp(30px, 4vw, 50px); font-weight: 900; letter-spacing: -0.035em; line-height: 1.04; margin-bottom: 16px; }
+    .cta-section p { font-size: 16px; color: rgba(255,255,255,0.82); margin-bottom: 40px; max-width: 540px; margin-left: auto; margin-right: auto; }
+    .cta-buttons { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
+    .btn-primary {
+      background: var(--primary); color: #fff;
+      font-size: 15px; font-weight: 700;
+      padding: 0 28px; border-radius: 999px;
+      text-decoration: none; transition: filter 200ms ease, transform 150ms ease;
+      min-height: 48px;
+      display: inline-flex; align-items: center; justify-content: center;
+      box-shadow: var(--shadow-blue);
+    }
+    .btn-primary:hover { filter: brightness(1.06); transform: translateY(-2px); }
+    .btn-secondary {
+      background: #fff; color: var(--text);
+      font-size: 15px; font-weight: 600;
+      padding: 0 28px; border-radius: 999px;
+      border: 1px solid var(--border);
+      text-decoration: none; transition: border-color 200ms, background 200ms;
+      min-height: 48px;
+      display: inline-flex; align-items: center; justify-content: center;
+    }
+    .btn-secondary:hover { border-color: #93c5fd; background: #eff6ff; }
+    .hero .btn-secondary { background: transparent; color: #94a3b8; border-color: rgba(96,165,250,0.28); box-shadow: none; }
+    .hero .btn-secondary:hover { color: #fff; background: rgba(255,255,255,0.06); }
+    .cta-section .btn-primary { background: #fff; color: var(--primary); box-shadow: 0 10px 30px rgba(0,0,0,0.2); }
+    .cta-section .btn-secondary { background: transparent; color: #fff; border-color: rgba(255,255,255,0.42); }
+    .cta-section .btn-secondary:hover { background: rgba(255,255,255,0.1); }
+
+    /* ─── FOOTER ─── */
+    footer {
+      background: var(--ink);
+      border-top: 1px solid rgba(255,255,255,0.08);
+      padding: 40px;
+      display: flex; align-items: center; justify-content: space-between;
+      color: #64748b; font-size: 12px;
+    }
+    footer strong, footer [style*="font-weight:700"] { color: var(--paper) !important; }
+
+    /* ─── FADE IN ─── */
+    .fade-up {
+      opacity: 0; transform: translateY(30px);
+      transition: opacity 600ms ease, transform 600ms ease;
+    }
+    .fade-up.visible { opacity: 1; transform: translateY(0); }
+
+    /* ─── SCROLL ANCHORS (compensa nav fixa) ─── */
+    section[id], [id] { scroll-margin-top: 86px; }
+
+    /* ─── TOUCH UX ─── */
+    a, button, .pricing-cta, .btn-primary, .btn-secondary {
+      touch-action: manipulation;
+    }
+
+    /* ─── GLOBAL OVERFLOW ─── */
+    img, canvas, iframe, video, svg { max-width: 100%; }
+
+    /* ─── RESPONSIVE ─── */
+    /* ─── RESPONSIVE INNER WRAPPERS ─── */
+    .section-full { max-width: 100% !important; padding: 100px 0; }
+    .timeline-grid { margin-top: 72px; display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: start; }
+    .hero-ctas { display: flex; gap: 16px; justify-content: flex-start; flex-wrap: wrap; }
+    .cta-mini-stats { margin-top: 48px; display: flex; gap: 40px; justify-content: center; flex-wrap: wrap; }
+    .cta-section .cta-mini-stats [style*="color:var(--text)"] { color: #fff !important; }
+    .cta-section .cta-mini-stats [style*="color:var(--muted)"] { color: rgba(255,255,255,0.72) !important; }
+
+    @media (max-width: 900px) {
+      nav {
+        padding: 0 20px;
+        padding-top: env(safe-area-inset-top);
+        min-height: calc(52px + env(safe-area-inset-top));
+      }
+      .nav-links { display: none; }
+      section { padding: 80px 20px; }
+      .section-full { padding: 80px 0 !important; }
+      .diagnostic-metrics { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .diagnostic-points { grid-template-columns: 1fr; }
+      .problems-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .results-grid { grid-template-columns: 1fr 1fr; }
+      .delivery-panel { position: static; }
+      .pricing-wrap { grid-template-columns: 1fr; }
+      .why-grid { grid-template-columns: 1fr; }
+      .hero-content { grid-template-columns: 1fr; gap: 36px; }
+      .hero-stats { grid-column: 1; grid-row: auto; min-height: 0; }
+      .cta-section { padding: 48px 24px; }
+      footer { flex-direction: column; gap: 12px; text-align: center; }
+      .inner-wrap { padding: 0 20px; }
+      .timeline-grid { grid-template-columns: 1fr; gap: 32px; }
+      .addons-grid { grid-template-columns: 1fr 1fr; }
+    }
+
+    @media (max-width: 600px) {
+      nav {
+        padding: 0 16px;
+        padding-top: env(safe-area-inset-top);
+      }
+      .nav-logo-text { font-size: 14px; }
+      .nav-cta { display: none; }
+      .nav-logo img { height: 21px; }
+
+      /* hero */
+      .hero {
+        display: block;
+        padding: calc(72px + env(safe-area-inset-top)) 16px 40px;
+        min-height: auto;
+      }
+      .hero-content {
+        width: 100%;
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+      }
+      .hero h1 {
+        width: 100%;
+        max-width: 100%;
+        font-size: 38px;
+        line-height: 1.06;
+        letter-spacing: 0;
+        overflow-wrap: anywhere;
+        margin-bottom: 18px;
+      }
+      .desktop-line { display: none; }
+      .mobile-line { display: inline; }
+      .hero-sub {
+        max-width: 100%;
+        font-size: 15px;
+        line-height: 1.62;
+        margin-bottom: 24px;
+      }
+      .hero-badge {
+        max-width: 100%;
+        white-space: normal;
+        font-size: 10px;
+        line-height: 1.35;
+        margin-bottom: 18px;
+        padding: 6px 12px;
+      }
+      .hero-ctas { margin-bottom: 28px; }
+      .hero-stats {
+        width: 100%;
+        margin-top: 0;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        padding: 0;
+        border: 0;
+        border-radius: 0;
+        overflow: visible;
+        background: transparent;
+        box-shadow: none;
+      }
+      .hero-stat {
+        min-width: 0;
+        min-height: 112px;
+        padding: 16px;
+        border: 1px solid var(--border-dark);
+        border-radius: 14px;
+        background: rgba(255,255,255,0.045);
+      }
+      .hero-stat-num { font-size: 28px; letter-spacing: 0; }
+      .hero-stat-label { font-size: 10px; line-height: 1.35; letter-spacing: 0.03em; }
+
+      /* sections */
+      section { padding: 56px 16px; }
+      .section-full { padding: 56px 0 !important; }
+      .section-header { margin-bottom: 40px; }
+      .section-title {
+        font-size: 30px;
+        line-height: 1.08;
+        letter-spacing: 0;
+      }
+      .section-desc { font-size: 14px; }
+
+      /* hero ctas */
+      .hero-ctas { flex-direction: column; align-items: stretch; max-width: 100%; }
+
+      /* scroll indicator — flui naturalmente após os stats */
+      .scroll-indicator {
+        position: static;
+        transform: none;
+        left: auto;
+        margin-top: 32px;
+        animation: bounce-y 2s infinite;
+      }
+      .hero-ctas .btn-primary, .hero-ctas .btn-secondary { text-align: center; }
+
+      /* cards */
+      .diagnostic-card { padding: 20px; border-radius: 14px; gap: 22px; }
+      .diagnostic-card-header { gap: 18px; }
+      .diagnostic-metrics { grid-template-columns: 1fr; }
+      .diagnostic-metric { padding: 14px 10px; }
+      .diagnostic-metric-value { font-size: 22px; }
+      .diagnostic-actions { align-items: stretch; flex-direction: column; }
+      .diagnostic-actions .btn-primary { width: 100%; }
+      .problems-grid {
+        display: flex;
+        gap: 14px;
+        margin-inline: -16px;
+        padding: 2px 16px 18px;
+        overflow-x: auto;
+        overflow-y: visible;
+        scroll-snap-type: x mandatory;
+        scroll-padding-inline: 16px;
+        overscroll-behavior-x: contain;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-color: rgba(96,165,250,0.5) rgba(255,255,255,0.08);
+        scrollbar-width: thin;
+      }
+      .problems-grid::-webkit-scrollbar { height: 6px; }
+      .problems-grid::-webkit-scrollbar-track { background: rgba(255,255,255,0.08); border-radius: 999px; }
+      .problems-grid::-webkit-scrollbar-thumb { background: rgba(96,165,250,0.5); border-radius: 999px; }
+      .problem-card {
+        flex: 0 0 min(84vw, 320px);
+        min-height: 318px;
+        padding: 20px;
+        border-radius: 14px;
+        scroll-snap-align: start;
+      }
+      .problem-card:hover { transform: none; }
+      .problem-card h3 { font-size: 15px; line-height: 1.25; }
+      .problem-card p { font-size: 13px; line-height: 1.58; }
+      .why-card { padding: 20px; border-radius: 12px; }
+      .why-card h3 { font-size: 14px; }
+
+      /* results */
+      .result-card { padding: 20px; }
+      .result-num { font-size: 32px; letter-spacing: -1px; }
+      .result-unit { font-size: 16px; }
+      .results-grid { grid-template-columns: 1fr; gap: 12px; }
+      .result-card { min-height: 0; }
+      .delivery-block-title { align-items: flex-start; flex-direction: column; gap: 8px; margin-bottom: 24px; }
+      .delivery-block-title h3 { font-size: 19px; }
+      .timeline { padding-left: 28px; }
+      .timeline-item { margin-bottom: 32px; }
+      .timeline-tags span { width: 100%; justify-content: center; text-align: center; }
+      .delivery-panel { padding: 20px; border-radius: 14px; }
+      .structure-item { grid-template-columns: 1fr; }
+
+      /* pricing */
+      .pricing-card { padding: 24px; border-radius: 14px; }
+      .pricing-price .amount { font-size: 40px; letter-spacing: -2px; }
+      .pricing-cta { padding: 14px; min-height: 48px; }
+
+      /* cta */
+      .cta-section { padding: 36px 16px; border-radius: 16px; }
+      .cta-section h2 {
+        font-size: 28px;
+        line-height: 1.1;
+        letter-spacing: 0;
+      }
+      .btn-primary, .btn-secondary { padding: 14px 20px; font-size: 14px; min-height: 48px; }
+
+      /* footer */
+      footer { padding: 24px 16px; font-size: 11px; }
+      footer [style*="text-align:right"] { text-align: center !important; }
+
+      /* inner wrappers */
+      .inner-wrap { padding: 0 16px; }
+      .timeline-grid { margin-top: 40px; gap: 24px; }
+      .addons-outer { padding: 20px 16px; border-radius: 16px; }
+      .addons-head { flex-direction: column; gap: 10px; }
+      .addons-grid { grid-template-columns: 1fr; gap: 12px; }
+      .addon-card { min-height: 0; padding: 18px; }
+      .addon-meta { flex-direction: column; gap: 6px; }
+      .addon-when { text-align: left; }
+
+      /* cta mini stats */
+      .cta-mini-stats { gap: 20px; margin-top: 32px; }
+    }
+
+    @media (max-width: 380px) {
+      .hero h1 { font-size: 34px; }
+      .hero-stat { min-height: 104px; padding: 14px 12px; }
+      .hero-stat-num { font-size: 25px; }
+      .hero-stat-label { font-size: 9px; }
+      .section-title { font-size: 28px; }
+      .pricing-price .amount { font-size: 36px; }
+      .problem-card { flex-basis: 86vw; min-height: 336px; }
+    }
+
+    /* ─── NUMBER COUNTER ─── */
+    .counter { display: inline-block; }
+  </style>
+</head>
+<body>
+<nav>
+  <div class="nav-logo">
+    <img src="../logo.png" alt="Oráculo Tecnologia" />
+    <div class="nav-logo-dot"></div>
+    <span class="nav-logo-text">Proposta Comercial</span>
+  </div>
+  <div class="nav-links">
+    <a href="#diagnostico">Diagnóstico</a>
+    <a href="#problemas">Problemas</a>
+    <a href="#planos">Planos</a>
+    <a href="#contato">Contato</a>
+  </div>
+  <a href="#contato" class="nav-cta">Vamos Conversar</a>
+</nav>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-grid"></div>
+  <div class="hero-content">
+    <div class="hero-badge">
+      <span class="hero-badge-dot"></span>
+      Proposta Exclusiva · 4 de Agosto de 2026
+    </div>
+    <h1>
+      Um Reel de 63 mil views.<br/>
+      <span class="desktop-line">E um perfil parado desde</span>
+      <span class="mobile-line">E um perfil parado<br/>desde</span><br/>
+      <span class="accent">a última temporada</span>
+    </h1>
+    <p class="hero-sub">
+      Auditamos 180 posts do @sinfonyaformaturas publicados entre outubro de 2022 e julho de 2026. O engajamento aqui é 23 vezes maior que o da conta principal do grupo, os Reels alcançam 25% da base e o segundo post mais curtido da história do perfil é literalmente uma chamada de vaga. O problema não é o conteúdo: é que ele parou.
+    </p>
+    <div class="hero-ctas">
+      <a href="#diagnostico" class="btn-primary">Ver Resumo do Diagnóstico</a>
+      <a href="#planos" class="btn-secondary">Ver Planos e Preços</a>
+    </div>
+    <div class="hero-stats">
+      <div class="hero-stat">
+        <div class="hero-stat-num"><span class="counter" data-target="25821">0</span></div>
+        <div class="hero-stat-label">Seguidores no perfil</div>
+      </div>
+      <div class="hero-stat">
+        <div class="hero-stat-num"><span class="counter" data-target="180">0</span></div>
+        <div class="hero-stat-label">Posts auditados um a um</div>
+      </div>
+      <div class="hero-stat">
+        <div class="hero-stat-num"><span class="counter" data-target="6494">0</span></div>
+        <div class="hero-stat-label">Visualizações médias por Reel</div>
+      </div>
+      <div class="hero-stat">
+        <div class="hero-stat-num"><span class="counter" data-target="90">0</span></div>
+        <div class="hero-stat-label">Dias do primeiro ciclo</div>
+      </div>
+    </div>
+  </div>
+  <div class="scroll-indicator">
+    <span>Role para ver</span>
+    <div class="scroll-arrow"></div>
+  </div>
+</div>
+
+<!-- DIAGNÓSTICO -->
+<section id="diagnostico" class="fade-up">
+  <div class="section-header">
+    <span class="section-eyebrow">Auditoria Realizada</span>
+    <h2 class="section-title">Diagnóstico da <span class="dim">presença digital</span></h2>
+    <p class="section-desc">A auditoria de 04/08/2026 coletou, via sessão autenticada, 180 posts publicados entre 03/10/2022 e 28/07/2026 — quase quatro anos completos de operação, com curtidas, comentários, visualizações, locais, músicas e legendas.</p>
+  </div>
+  <div class="diagnostic-card fade-up">
+    <div class="diagnostic-card-header">
+      <div class="diagnostic-copy">
+        <div class="diagnostic-kicker">Resumo do diagnóstico · @sinfonyaformaturas</div>
+        <h3>Este é o melhor ativo digital do Grupo Sinfonya — e ele está desligado.</h3>
+        <p>Com metade dos seguidores da conta principal, este perfil entrega 23 vezes mais engajamento, 14 vezes mais curtidas por post e 7,6 vezes mais visualizações por Reel. Já produziu um vídeo com 63.552 visualizações e teve como segundo maior post uma chamada de vaga. Desde 2024, porém, o volume caiu 85%, as curtidas médias caíram 93% e o conteúdo recente nem fala mais de formatura.</p>
+      </div>
+    </div>
+
+    <div class="diagnostic-metrics">
+      <div class="diagnostic-metric">
+        <div class="diagnostic-metric-value">25.821</div>
+        <div class="diagnostic-metric-label">Seguidores</div>
+        <div class="diagnostic-metric-desc">Base qualificada e responsiva — metade da conta principal, com muito mais reação.</div>
+      </div>
+      <div class="diagnostic-metric">
+        <div class="diagnostic-metric-value" style="color:var(--green);">0,606%</div>
+        <div class="diagnostic-metric-label">ER da amostra</div>
+        <div class="diagnostic-metric-desc">23 vezes o engajamento da @sinfonyaturismo, que opera com 0,026%.</div>
+      </div>
+      <div class="diagnostic-metric">
+        <div class="diagnostic-metric-value" style="color:var(--green);">63,5K</div>
+        <div class="diagnostic-metric-label">Maior Reel</div>
+        <div class="diagnostic-metric-desc">Duas vezes e meia a base de seguidores, com 2.270 curtidas em um único vídeo.</div>
+      </div>
+      <div class="diagnostic-metric">
+        <div class="diagnostic-metric-value" style="color:var(--gold);">14%</div>
+        <div class="diagnostic-metric-label">Posts com CTA</div>
+        <div class="diagnostic-metric-desc">A conta que tem audiência quase não convida ninguém a agir. O principal gargalo.</div>
+      </div>
+    </div>
+
+    <div class="diagnostic-points">
+      <div class="diagnostic-point">
+        <strong>O formato certo já foi encontrado</strong>
+        <span>Reel rende mais que carrossel, que rende mais que foto — a hierarquia correta, e o inverso da conta principal.</span>
+      </div>
+      <div class="diagnostic-point">
+        <strong>Aqui vender é o que mais engaja</strong>
+        <span>Chamada de vagas rende 365,8 curtidas médias, mais que o dobro da média do perfil, e são só 6 posts em 180.</span>
+      </div>
+      <div class="diagnostic-point">
+        <strong>Cada temporada em silêncio custa uma turma</strong>
+        <span>A audiência se renova por completo todo ano. A turma que decide agora fecha nos próximos meses, com você ou com outro operador.</span>
+      </div>
+    </div>
+
+    <div class="diagnostic-actions">
+      <a href="Analise-Instagram.html" class="btn-primary">Ver diagnóstico completo</a>
+      <div class="diagnostic-note">Auditoria completa com os 180 posts, sazonalidade mês a mês, temas e comparativo entre os perfis do grupo.</div>
+    </div>
+  </div>
+</section>
+
+<!-- PROBLEMAS -->
+<section id="problemas" class="section-full band band-dark">
+  <div class="inner-wrap">
+    <div class="section-header fade-up">
+      <span class="section-eyebrow">O Que Está Travando a Sinfonya Formaturas</span>
+      <h2 class="section-title">6 problemas críticos <span class="dim">identificados</span></h2>
+      <p class="section-desc">Cada um saiu diretamente da auditoria dos 180 posts. Nenhum deles é falta de talento ou de produto — todos são consequência de o perfil ter parado de operar.</p>
+    </div>
+    <div class="problems-grid">
+      <div class="problem-card fade-up">
+        <div class="problem-card-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#1d4ed8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></div>
+        <h3>O Perfil Parou de Publicar</h3>
+        <p>Foram 68 posts em 2023, 39 em 2024, 10 em 2025 e 17 em 2026. Uma queda de 85% no volume. O Instagram reduz a entrega de contas inativas porque não tem sinal recente para avaliar — e foi exatamente isso que aconteceu.</p>
+      </div>
+      <div class="problem-card fade-up">
+        <div class="problem-card-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#1d4ed8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20V10"/><path d="M10 20V4"/><path d="M16 20v-6"/><path d="M22 20H2"/></svg></div>
+        <h3>Queda de 93% no Engajamento</h3>
+        <p>As curtidas médias saíram de 245,7 em 2022 para 17,4 em 2026. As visualizações médias dos Reels caíram de 9.614 para 874. As duas curvas acompanham, ponto a ponto, a queda no número de publicações.</p>
+      </div>
+      <div class="problem-card fade-up">
+        <div class="problem-card-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#1d4ed8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a4 4 0 0 1-4 4H7l-4 4V7a4 4 0 0 1 4-4h6"/><path d="M16 3h5v5"/><path d="m15 9 6-6"/></svg></div>
+        <h3>Audiência Sem Convite</h3>
+        <p>Apenas 14% dos posts pedem alguma ação — contra 80% na conta principal. O perfil alcança milhares de estudantes por Reel e quase nunca diz como fechar. É a correção de maior retorno e menor custo da auditoria.</p>
+      </div>
+      <div class="problem-card fade-up">
+        <div class="problem-card-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#1d4ed8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg></div>
+        <h3>Publicação na Época Errada</h3>
+        <p>Dezembro rende 262,5 curtidas médias e outubro 154,0. Junho e julho rendem menos de 33 — e é justamente em junho e julho que estão concentrados os posts de 2026. O perfil trabalha na baixa e silencia na alta temporada.</p>
+      </div>
+      <div class="problem-card fade-up">
+        <div class="problem-card-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#1d4ed8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m10 8 6 4-6 4V8z"/><rect x="2" y="4" width="20" height="16" rx="2"/></svg></div>
+        <h3>Creators Fora do Plano</h3>
+        <p>Sete posts com uma única influenciadora somaram 230 mil visualizações — 7,3 vezes o alcance dos demais Reels. A última colaboração foi em dezembro de 2023, e nenhuma creator voltou ao perfil desde então.</p>
+      </div>
+      <div class="problem-card fade-up">
+        <div class="problem-card-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#1d4ed8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="7" r="4"/><path d="M5.5 21a7.5 7.5 0 0 1 13 0"/><path d="M17 11l2 2 4-4"/></svg></div>
+        <h3>A Vitrine Congelou em 2023</h3>
+        <p>Metade dos destaques se refere a viagens de 2022 e 2023. Uma comissão pesquisando hoje para 2027 encontra como evidência mais recente uma viagem de quatro anos atrás — e a dúvida que isso cria é se a empresa ainda opera.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- RESULTADOS ESPERADOS -->
+<section class="section-full band band-soft delivery-section">
+  <div class="inner-wrap">
+    <div class="section-header fade-up">
+      <span class="section-eyebrow">Plano de Evolução</span>
+      <h2 class="section-title">O que vamos reativar <span class="dim">em 90 dias</span></h2>
+      <p class="section-desc">O ciclo começa em agosto e desemboca na temporada de decisão das turmas. As metas abaixo são de alcance, audiência e conversas qualificadas — não prometemos número de turmas fechadas.</p>
+    </div>
+    <div class="results-grid fade-up">
+      <div class="result-card fade-up">
+        <div class="result-kicker">Meta de alcance</div>
+        <div class="result-num"><span class="counter" data-target="9" data-suffix="K">0</span></div>
+        <div class="result-label">visualizações médias por Reel</div>
+        <p class="result-detail">Recuperar o patamar de 2023, quando o perfil operava com 9.614 views médias — hoje está em 874.</p>
+        <div class="result-track">Acompanhamento: views médias por Reel</div>
+      </div>
+      <div class="result-card fade-up">
+        <div class="result-kicker">Meta de engajamento</div>
+        <div class="result-num"><span class="counter" data-target="7" data-suffix="×">0</span></div>
+        <div class="result-label">evolução perseguida na taxa de engajamento</div>
+        <p class="result-detail">Sair de 0,107% rumo aos 0,7% de 2023 — patamar que este perfil já sustentou por um ano inteiro.</p>
+        <div class="result-track">Acompanhamento: curtidas, comentários e salvamentos</div>
+      </div>
+      <div class="result-card fade-up">
+        <div class="result-kicker">Meta de conversão</div>
+        <div class="result-num"><span class="counter" data-target="60" data-suffix="%">0</span></div>
+        <div class="result-label">dos posts com chamada para ação</div>
+        <p class="result-detail">Subir de 14% para 60%, com convite claro em todo post de viagem e link rastreável por turma.</p>
+        <div class="result-track">Acompanhamento: cliques + conversas de comissões</div>
+      </div>
+      <div class="result-card fade-up">
+        <div class="result-kicker">Meta de conteúdo</div>
+        <div class="result-num"><span class="counter" data-target="16" data-suffix="+">0</span></div>
+        <div class="result-label">peças por mês na temporada de decisão</div>
+        <p class="result-detail">Sair de 3,8 posts por mês para uma grade sazonal que se intensifica de setembro a dezembro.</p>
+        <div class="result-track">Acompanhamento: calendário editorial publicado</div>
+      </div>
+    </div>
+
+    <!-- Timeline -->
+    <div class="timeline-grid fade-up">
+      <div>
+        <div class="delivery-block-title">
+          <h3>Cronograma de execução</h3>
+          <span class="delivery-block-label">Implantação guiada</span>
+        </div>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-phase">Mês 1 · Reativação</div>
+            <div class="timeline-title">Tirar o Perfil do Silêncio</div>
+            <div class="timeline-desc">Migrar para conta empresarial, devolver o foco ao nicho de formatura, atualizar destaques por ano de turma e criar o destaque da viagem 2027 com datas, destinos e como a comissão fecha.</div>
+            <div class="timeline-tags">
+              <span>Conta empresarial</span>
+              <span>Foco no nicho</span>
+              <span>Destaques por turma</span>
+              <span>Viagem 2027</span>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-phase">Mês 2 · Retomada do formato</div>
+            <div class="timeline-title">Voltar ao Que Já Viralizou</div>
+            <div class="timeline-desc">Reativar a série de contagem de vagas, retomar creator na temporada, publicar line-up das festas como conteúdo de antecipação e trazer o Gigi Responde para o feed com as dúvidas reais da comissão.</div>
+            <div class="timeline-tags">
+              <span>Contagem de vagas</span>
+              <span>Creator por temporada</span>
+              <span>Line-up das festas</span>
+              <span>Gigi Responde</span>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-phase">Mês 3 · Conversão</div>
+            <div class="timeline-title">Da Turma Interessada à Comissão na Mesa</div>
+            <div class="timeline-desc">CTA em todo post de viagem, link rastreável por turma, automação de DM para dúvidas frequentes, conteúdo dedicado a pais e responsáveis e anúncios segmentados por escola e região.</div>
+            <div class="timeline-tags">
+              <span>CTA em 60% dos posts</span>
+              <span>Link por turma</span>
+              <span>Conteúdo para pais</span>
+              <span>Anúncios por escola</span>
+            </div>
+          </div>
+          <div class="timeline-item" style="margin-bottom:0;">
+            <div class="timeline-phase">Temporada · Dezembro</div>
+            <div class="timeline-title">Cobertura Total da Viagem</div>
+            <div class="timeline-desc">Dezembro é o mês de 262,5 curtidas médias. Cobertura ao vivo em série numerada, formando protagonista, kit de gravação com a equipe em campo — e todo esse acervo virando material de venda para a turma seguinte.</div>
+            <div class="timeline-tags">
+              <span>Vlog em série</span>
+              <span>Formando protagonista</span>
+              <span>Kit de gravação</span>
+              <span>Acervo para 2028</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <aside class="delivery-panel">
+        <span class="delivery-block-label">Ao final do ciclo</span>
+        <h3>O que fica estruturado</h3>
+        <p class="delivery-panel-intro">A entrega não é só voltar a postar. É deixar o perfil operando no calendário certo, com o formato que já provou resultado e um caminho claro até a comissão de formatura.</p>
+        <div class="structure-list">
+          <div class="structure-item">
+            <div class="structure-num">01</div>
+            <div>
+              <strong>Perfil reposicionado</strong>
+              <span>Conta empresarial, categoria definida, destaques por ano de turma e vitrine atualizada.</span>
+            </div>
+          </div>
+          <div class="structure-item">
+            <div class="structure-num">02</div>
+            <div>
+              <strong>Calendário sazonal</strong>
+              <span>Grade que acompanha o ciclo real de decisão: prospecção, venda, contagem regressiva e cobertura.</span>
+            </div>
+          </div>
+          <div class="structure-item">
+            <div class="structure-num">03</div>
+            <div>
+              <strong>Formato campeão retomado</strong>
+              <span>Cobertura em série, creator por temporada, line-up e contagem de vagas — tudo já validado nos dados.</span>
+            </div>
+          </div>
+          <div class="structure-item">
+            <div class="structure-num">04</div>
+            <div>
+              <strong>Funil até a comissão</strong>
+              <span>CTA, link por turma, automação de DM e painel ligando post publicado a conversa aberta.</span>
+            </div>
+          </div>
+        </div>
+        <div class="delivery-signal">
+          <div class="delivery-signal-label">Potencial monitorado</div>
+          <div class="delivery-signal-value">30-60 comissões/temporada</div>
+          <div class="delivery-signal-copy">Estimativa de fluxo de conversas qualificadas com comissões após a reativação. Mede oportunidade gerada, não turma fechada.</div>
+        </div>
+        <div class="delivery-compliance">Todas as metas são de processo, alcance e qualificação de contato. O fechamento da turma depende da negociação comercial da Sinfonya com cada comissão.</div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- PLANOS E PREÇOS -->
+<section id="planos" class="fade-up">
+  <div class="section-header">
+    <span class="section-eyebrow">Planos e Investimento</span>
+    <h2 class="section-title">Escolha o plano <span class="dim">certo para a temporada</span></h2>
+    <p class="section-desc">Três níveis de atuação. O plano Crescimento concentra o ciclo recomendado de 90 dias: reativação do perfil, retomada do formato campeão, CTA em todo post e mídia paga segmentada por escola e região. Sem taxas ocultas.</p>
+  </div>
+  <div class="pricing-wrap">
+
+    <!-- Plano Essencial -->
+    <div class="pricing-card fade-up">
+      <div class="pricing-plan">Plano 01</div>
+      <div class="pricing-name">Essencial</div>
+      <div class="pricing-desc">Para tirar o perfil do silêncio, devolver o foco ao nicho e voltar a publicar no calendário certo da temporada.</div>
+      <div class="pricing-price">
+        <span class="currency">R$</span>
+        <span class="amount">2.000</span>
+        <span class="period">/mês</span>
+      </div>
+      <div class="pricing-note">+ Imposto, sem fidelidade no 1° mês</div>
+      <div class="pricing-divider"></div>
+      <div class="pricing-features">
+        <div class="pricing-feature"><div class="feature-check yes">✓</div><span>Gestão completa do Instagram</span></div>
+        <div class="pricing-feature"><div class="feature-check yes">✓</div><span>Migração para conta empresarial e reposicionamento da bio</span></div>
+        <div class="pricing-feature"><div class="feature-check yes">✓</div><span>Grade editorial sazonal, alinhada ao ciclo de decisão das turmas</span></div>
+        <div class="pricing-feature"><div class="feature-check yes">✓</div><span>Série de contagem de vagas — o tema campeão do perfil</span></div>
+        <div class="pricing-feature"><div class="feature-check yes">✓</div><span>Destaques reorganizados por ano de turma e jornada da comissão</span></div>
+        <div class="pricing-feature"><div class="feature-check yes">✓</div><span>Relatório mensal de métricas</span></div>
+        <div class="pricing-feature muted"><div class="feature-check no">–</div><span>Tráfego pago (Meta Ads)</span></div>
+        <div class="pricing-feature muted"><div class="feature-check no">–</div><span>Chatbot e automação de DM</span></div>
+        <div class="pricing-feature muted"><div class="feature-check no">–</div><span>Tráfego pago (TikTok Ads)</span></div>
+        <div class="pricing-feature muted"><div class="feature-check no">–</div><span>Reunião estratégica mensal</span></div>
+      </div>
+      <a href="#contato" class="pricing-cta outline">Começar com Essencial</a>
+    </div>
+
+    <!-- Plano Crescimento (Destaque) -->
+    <div class="pricing-card featured fade-up">
+      <div class="pricing-badge">Mais indicado · 90 dias</div>
+      <div class="pricing-plan">Plano 02</div>
+      <div class="pricing-name">Crescimento</div>
+      <div class="pricing-desc">O plano recomendado para executar o ciclo completo: retomar o formato que viralizou, chamar creator na temporada e levar a turma até a mesa da comissão.</div>
+      <div class="pricing-price">
+        <span class="currency">R$</span>
+        <span class="amount">3.500</span>
+        <span class="period">/mês</span>
+      </div>
+      <div class="pricing-note">+ Imposto · Verba de mídia separada</div>
+      <div class="pricing-fit">
+        <div class="pricing-fit-title">Por que este plano faz sentido</div>
+        <p>Cobre exatamente o que a auditoria apontou como prioridade: retomar o formato que já rendeu Reels de 63 mil visualizações, publicar no calendário que rende, subir a taxa de CTA de 14% para 60% e alcançar as turmas certas por escola e região.</p>
+      </div>
+      <div class="pricing-divider"></div>
+      <div class="pricing-features">
+        <div class="pricing-feature"><div class="feature-check yes">✓</div><span>Tudo do Plano Essencial</span></div>
+        <div class="pricing-feature"><div class="feature-check yes">✓</div><span>Gestão de tráfego pago no Meta Ads (Instagram e Facebook)</span></div>
+        <div class="pricing-feature"><div class="feature-check yes">✓</div><span>Chatbot e automação de DM por comentário-gatilho</span></div>
+        <div class="pricing-feature"><div class="feature-check yes">✓</div><span>Campanhas segmentadas por escola, região e faixa etária</span></div>
+        <div class="pricing-feature"><div class="feature-check yes">✓</div><span>Roteiros de Reel nativo e cobertura da viagem em série numerada</span></div>
+        <div class="pricing-feature"><div class="feature-check yes">✓</div><span>Link rastreável por turma e scripts de atendimento à comissão</span></div>
+        <div class="pricing-feature"><div class="feature-check yes">✓</div><span>Uma parceria com creator por temporada, no padrão que rendeu 230 mil views</span></div>
+        <div class="pricing-feature"><div class="feature-check yes">✓</div><span>Reunião estratégica mensal</span></div>
+        <div class="pricing-feature"><div class="feature-check yes">✓</div><span>Relatório com insights de conversão</span></div>
+        <div class="pricing-feature muted"><div class="feature-check no">–</div><span>Tráfego pago (TikTok Ads)</span></div>
+      </div>
+      <a href="#contato" class="pricing-cta primary">Começar com Crescimento</a>
+    </div>
+
+    <!-- Plano Autoridade -->
+    <div class="pricing-card fade-up">
+      <div class="pricing-plan">Plano 03</div>
+      <div class="pricing-name">Autoridade</div>
+      <div class="pricing-desc">Para dominar a temporada inteira, somando TikTok, cobertura presencial da viagem e dashboard próprio de comissões.</div>
+      <div class="pricing-price">
+        <span class="currency">R$</span>
+        <span class="amount">5.000</span>
+        <span class="period">/mês</span>
+      </div>
+      <div class="pricing-note">+ Imposto · Verba de mídia separada</div>
+      <div class="pricing-divider"></div>
+      <div class="pricing-features">
+        <div class="pricing-feature"><div class="feature-check yes">✓</div><span>Tudo do Plano Crescimento</span></div>
+        <div class="pricing-feature"><div class="feature-check yes">✓</div><span>Gestão de tráfego pago no TikTok Ads</span></div>
+        <div class="pricing-feature"><div class="feature-check yes">✓</div><span>Gestão integrada com a conta principal do grupo</span></div>
+        <div class="pricing-feature"><div class="feature-check yes">✓</div><span>Cobertura presencial da viagem, com equipe em campo</span></div>
+        <div class="pricing-feature"><div class="feature-check yes">✓</div><span>Dashboard de conteúdo, cliques e comissões em negociação</span></div>
+        <div class="pricing-feature"><div class="feature-check yes">✓</div><span>Campanhas sazonais para o pico de setembro a dezembro</span></div>
+        <div class="pricing-feature"><div class="feature-check yes">✓</div><span>Reunião estratégica quinzenal</span></div>
+        <div class="pricing-feature"><div class="feature-check yes">✓</div><span>Suporte prioritário via WhatsApp</span></div>
+      </div>
+      <a href="#contato" class="pricing-cta outline">Começar com Autoridade</a>
+    </div>
+  </div>
+
+  <!-- Add-ons -->
+  <div class="addons-outer fade-up">
+    <div class="addons-head">
+      <div>
+        <span class="section-eyebrow">Extensões estratégicas</span>
+        <h3>Serviços que entram quando fizer sentido escalar</h3>
+      </div>
+      <p>Os add-ons não são obrigatórios para começar. Eles entram quando houver demanda validada, campanha sazonal específica ou necessidade de automatizar o atendimento.</p>
+    </div>
+    <div class="addons-grid">
+      <div class="addon-card">
+        <div class="addon-meta">
+          <div class="addon-price">R$ 800</div>
+          <div class="addon-when">Por pacote de vídeos</div>
+        </div>
+        <h4>Produção de vídeos para Reels</h4>
+        <p>Edição de Reel nativo a partir do material bruto da viagem — o formato que gerou os seis maiores posts da história deste perfil.</p>
+        <div class="addon-deliverables">
+          <span>Roteiro com gancho nos 2 primeiros segundos</span>
+          <span>Edição com legenda, trilha e corte dinâmico</span>
+          <span>Versões para feed, stories e reaproveitamento no TikTok</span>
+        </div>
+      </div>
+      <div class="addon-card">
+        <div class="addon-meta">
+          <div class="addon-price">R$ 500</div>
+          <div class="addon-when">Configuração única</div>
+        </div>
+        <h4>Rastreamento e automação</h4>
+        <p>Instalação da estrutura que hoje não existe: saber qual post, turma e campanha originou cada conversa com uma comissão de formatura.</p>
+        <div class="addon-deliverables">
+          <span>Links rastreáveis por turma, escola e campanha</span>
+          <span>Eventos de clique e conversa configurados</span>
+          <span>Fluxo de automação de DM por comentário-gatilho</span>
+        </div>
+      </div>
+      <div class="addon-card">
+        <div class="addon-meta">
+          <div class="addon-price">A combinar</div>
+          <div class="addon-when">Para banco de conteúdo</div>
+        </div>
+        <h4>Captação presencial na viagem</h4>
+        <p>Equipe em campo durante a viagem para gravar cobertura, depoimentos e bastidores — o acervo que vende a temporada seguinte.</p>
+        <div class="addon-deliverables">
+          <span>Lista de cenas e roteiro por dia de viagem</span>
+          <span>Direção presencial para vlog em série, stories e cortes</span>
+          <span>Banco de conteúdo para toda a temporada seguinte</span>
+        </div>
+      </div>
+      <div class="addon-card">
+        <div class="addon-meta">
+          <div class="addon-price">A combinar</div>
+          <div class="addon-when">Quando houver volume</div>
+        </div>
+        <h4>Base própria de escolas e comissões</h4>
+        <p>Estrutura para captar turma antes da concorrência: histórico por escola, calendário de decisão e contato direto com as coordenações.</p>
+        <div class="addon-deliverables">
+          <span>Cadastro por escola, ano de turma e estágio da negociação</span>
+          <span>Réguas de contato no início de cada ciclo de decisão</span>
+          <span>Programa de embaixadores com formandos das turmas anteriores</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- POR QUE NÓS -->
+<section class="section-full band band-dark">
+  <div class="inner-wrap">
+    <div class="section-header fade-up">
+      <span class="section-eyebrow">Por Que Trabalhar Conosco</span>
+      <h2 class="section-title">Estratégia baseada em <span class="dim">dados reais do seu perfil</span></h2>
+      <p class="section-desc">Esta proposta não começou em uma reunião de briefing. Começou na leitura de 180 posts, um a um, cobrindo quase quatro anos de operação — antes de qualquer conversa sobre preço.</p>
+    </div>
+    <div class="why-grid fade-up">
+      <div class="why-card">
+        <div class="why-icon">01</div>
+        <h3>Diagnóstico Antes da Proposta</h3>
+        <p>Auditamos 74% de todo o histórico da conta antes de sugerir qualquer serviço. Cada recomendação desta proposta aponta para um número específico apurado no seu próprio perfil.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon">02</div>
+        <h3>Não Vamos Reinventar o Que Já Funciona</h3>
+        <p>A auditoria mostrou qual formato viraliza, qual mês rende e qual tema converte neste perfil. Nosso trabalho é retomar o que já deu certo, não impor um manual genérico de agência.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon">03</div>
+        <h3>Conteúdo Que Nasce da Viagem</h3>
+        <p>A viagem de formatura é, por natureza, o melhor conteúdo que existe: turma reunida, festa com nome próprio e emoção real. Nosso trabalho é registrar e transformar isso na venda da temporada seguinte.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon">04</div>
+        <h3>Velocidade de Execução</h3>
+        <p>Onboarding em 7 dias: conta empresarial migrada, destaques atualizados por turma, link rastreável no ar e a primeira grade da temporada aprovada.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon">05</div>
+        <h3>Rastreio do Post à Comissão</h3>
+        <p>Instalamos a estrutura que responde à pergunta que hoje não tem resposta: qual post, escola e campanha colocou uma comissão de formatura na mesa de negociação.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon">06</div>
+        <h3>Parceiro de Longo Prazo</h3>
+        <p>Trabalhamos como extensão do time comercial ao longo de toda a temporada: prospecção, venda, cobertura da viagem e acervo para o ciclo seguinte, com leitura mensal e ajuste imediato.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA FINAL -->
+<section id="contato">
+  <div class="cta-section fade-up">
+    <div style="display:inline-flex;align-items:center;gap:8px;background:#eff6ff;border:1px solid #bfdbfe;border-radius:100px;padding:6px 16px;font-size:12px;font-weight:700;color:var(--primary);letter-spacing:0.8px;text-transform:uppercase;margin-bottom:24px;">
+      <span style="width:6px;height:6px;border-radius:50%;background:var(--primary);animation:pulse 2s infinite;display:inline-block;"></span>
+      Próximo passo · Reunião estratégica
+    </div>
+    <h2>Pronto para reativar o melhor perfil<br/>do Grupo Sinfonya?</h2>
+    <p>Agende uma conversa de 30 minutos para ajustar escopo, calendário da temporada, produção de conteúdo e metas de captação de turmas.</p>
+    <div class="cta-buttons">
+      <a href="https://wa.me/5561995647260" class="btn-primary">
+        Solicitar Reunião
+      </a>
+      <a href="Analise-Instagram.html" class="btn-secondary">
+        Rever Auditoria
+      </a>
+    </div>
+    <div class="cta-mini-stats">
+      <div style="text-align:center;">
+        <div style="font-size:24px;font-weight:800;color:var(--text);">30 min</div>
+        <div style="font-size:12px;color:var(--muted);margin-top:4px;">Reunião de alinhamento</div>
+      </div>
+      <div style="text-align:center;">
+        <div style="font-size:24px;font-weight:800;color:var(--text);">7 dias</div>
+        <div style="font-size:12px;color:var(--muted);margin-top:4px;">Para onboarding completo</div>
+      </div>
+      <div style="text-align:center;">
+        <div style="font-size:24px;font-weight:800;color:var(--text);">90 dias</div>
+        <div style="font-size:12px;color:var(--muted);margin-top:4px;">Até a temporada de dezembro</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div>
+    <div style="font-weight:700;color:var(--text);margin-bottom:4px;">Proposta Comercial · Sinfonya Formaturas</div>
+    <div>Auditoria realizada em 4 de agosto de 2026 · 180 posts do Instagram @sinfonyaformaturas</div>
+  </div>
+  <div style="text-align:right;">
+    <div>Esta proposta é confidencial e destinada exclusivamente à Sinfonya Formaturas.</div>
+    <div style="margin-top:4px;">Válida por 30 dias a partir da data de envio.</div>
+  </div>
+</footer>
+
+<script>
+  // ─── Intersection Observer para fade-up ───
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry, i) => {
+      if (entry.isIntersecting) {
+        setTimeout(() => {
+          entry.target.classList.add('visible');
+        }, 80);
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.08 });
+
+  document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
+
+  // ─── Counter Animation ───
+  function animateCounter(el) {
+    const target = parseInt(el.dataset.target, 10);
+    const suffix = el.dataset.suffix || '';
+    const duration = 1600;
+    const step = 16;
+    const total = Math.ceil(duration / step);
+    let current = 0;
+    const inc = target / total;
+
+    const timer = setInterval(() => {
+      current = Math.min(current + inc, target);
+      if (target >= 1000) {
+        el.textContent = Math.floor(current).toLocaleString('pt-BR') + suffix;
+      } else {
+        el.textContent = Math.floor(current) + suffix;
+      }
+      if (current >= target) {
+        clearInterval(timer);
+        if (target >= 1000) {
+          el.textContent = target.toLocaleString('pt-BR') + suffix;
+        } else {
+          el.textContent = target + suffix;
+        }
+      }
+    }, step);
+  }
+
+  const counterObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        animateCounter(entry.target);
+        counterObserver.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.3 });
+
+  document.querySelectorAll('.counter').forEach(el => counterObserver.observe(el));
+
+  // ─── Nav scroll opacity ───
+  const nav = document.querySelector('nav');
+  window.addEventListener('scroll', () => {
+    nav.classList.toggle('is-scrolled', window.scrollY > 80);
+  }, { passive: true });
+
+  // ─── Staggered children fade ───
+  document.querySelectorAll('.problems-grid, .pricing-wrap, .results-grid, .why-grid').forEach(grid => {
+    const children = grid.querySelectorAll('.fade-up');
+    const gridObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          children.forEach((child, i) => {
+            setTimeout(() => child.classList.add('visible'), i * 100);
+          });
+          gridObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.05 });
+    gridObserver.observe(grid);
+  });
+
+  // ─── prefers-reduced-motion ───
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    document.querySelectorAll('.fade-up').forEach(el => {
+      el.style.opacity = '1';
+      el.style.transform = 'none';
+      el.style.transition = 'none';
+    });
+  }
+</script>
+</body>
+</html>
