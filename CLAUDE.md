@@ -86,6 +86,10 @@ Usar `JoanaTavares/Analise-Instagram.html` como template base. Substituir todos 
 
 > **Técnica de build (recomendada):** o `<style>` é enorme (~30 KB) e nunca muda. Em vez de editá-lo, extraia o bloco `<style>…</style>` do template e reaproveite-o; monte o `<head>`, cover, seções e o `<script>` dos gráficos como strings em um script Python e concatene. Isso evita corromper o CSS e mantém o design system intacto. Ajuste só `--ig-grad` no `:root` (override) para a identidade do cliente — `--primary` segue sempre o azul Oráculo `#1d4ed8`. **Antes de salvar, valide com Python:** zero resquícios do cliente-template (ex: `Joana`, handle antigo, telefone, termos do nicho antigo) e zero aspas curvas dentro de tags (`<[^>]*[”“][^>]*>` deve dar 0; aspas curvas só no texto visível). O mesmo vale para a Proposta e os Banners — lembre da `<meta name="description">` no head, fácil de esquecer.
 
+> **⚠️ Não abrir o HTML gerado no Playwright para conferir o visual.** O Playwright é só para a coleta de dados do Instagram (passo 2). Depois de salvar o HTML e passar na validação em Python, o trabalho está encerrado — nada de servir em `localhost`, tirar screenshot da página ou revisar o layout no browser. O valor do entregável está na **profundidade da análise do perfil**, não na inspeção visual do HTML; o design system do template já é conhecido e estável. Cuidados de markup que a validação Python deve cobrir (aprendidos na análise da Sinfonya Turismo):
+> - `.sithelp-list li` é `display:flex` — um `<strong>` solto vira flex-item e quebra a linha. Envolva o conteúdo de cada `<li>` desses cartões em um `<span>`.
+> - `.callout strong` é o **título** do bloco (`display:block`, caixa alta). Negrito no corpo do callout precisa ser `<b>`, senão vira um segundo cabeçalho no meio do texto.
+
 **Estrutura obrigatória da página (na ordem):**
 
 | # | ID | Título |

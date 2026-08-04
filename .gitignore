@@ -9,9 +9,6 @@
 # Playwright MCP cache
 .playwright-mcp/
 
-# Claude Code
-.claude/
-
 # Images / assets grandes (capturas de tela e referências)
 mobile-full.png
 

@@ -1,0 +1,2000 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Análise de Instagram &mdash; Grupo Sinfonya Turismo | Oráculo</title>
+
+<meta property="og:type"        content="website"/>
+<meta property="og:title"       content="Análise de Instagram — Grupo Sinfonya Turismo | Oráculo"/>
+<meta property="og:description" content="Análise completa do perfil @sinfonyaturismo no Instagram: 168 posts auditados, métricas de alcance, engajamento real da base de 50 mil seguidores e plano de recuperação."/>
+<meta property="og:image"        content="https://analises-oraculo.vercel.app/SinfonyaTurismo/og-instagram.png"/>
+<meta property="og:image:width"  content="1200"/>
+<meta property="og:image:height" content="630"/>
+<meta property="og:url"          content="https://analises-oraculo.vercel.app/SinfonyaTurismo/Analise-Instagram.html"/>
+<meta property="og:site_name"    content="Oráculo Tecnologia"/>
+<meta name="twitter:card"        content="summary_large_image"/>
+<meta name="twitter:image"       content="https://analises-oraculo.vercel.app/SinfonyaTurismo/og-instagram.png"/>
+<meta name="description"        content="Análise completa do perfil @sinfonyaturismo no Instagram. Preparado pela Oráculo Tecnologia."/>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --primary:      #1d4ed8;
+    --primary-soft: #eff6ff;
+    --primary-mid:  #bfdbfe;
+    --bg:           #f5f6f8;
+    --surface:      #ffffff;
+    --border:       #e4e7ec;
+    --text:         #1a1d23;
+    --text-2:       #4b5563;
+    --text-3:       #9ca3af;
+    --green:        #16a34a;
+    --green-bg:     #f0fdf4;
+    --green-bdr:    #bbf7d0;
+    --amber:        #d97706;
+    --amber-bg:     #fffbeb;
+    --amber-bdr:    #fde68a;
+    --blue:         #1d4ed8;
+    --blue-bg:      #eff6ff;
+    --blue-bdr:     #bfdbfe;
+    --purple:       #7c3aed;
+    --purple-bg:    #f5f3ff;
+    --purple-bdr:   #ddd6fe;
+    --ig-grad:      linear-gradient(135deg,#f09433,#e6683c,#dc2743,#cc2366,#bc1888);
+    --radius:       12px;
+    --shadow:       0 1px 4px rgba(0,0,0,.06), 0 1px 2px rgba(0,0,0,.04);
+    --shadow-md:    0 4px 16px rgba(0,0,0,.08), 0 2px 6px rgba(0,0,0,.04);
+  }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    font-size: 16px;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+    width: 100%;
+    overflow-x: hidden;
+    padding-top: calc(48px + env(safe-area-inset-top));
+  }
+
+  .page-wrap { overflow-x: hidden; width: 100%; }
+
+  /* ── COVER ── */
+  .cover {
+    background: #0f0a1e;
+    color: #fff;
+    padding: 48px 20px 60px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    border-bottom: 1px solid rgba(29,78,216,0.2);
+  }
+  .cover-dot-grid {
+    position: absolute; inset: 0;
+    background-image: radial-gradient(circle, rgba(29,78,216,0.2) 1px, transparent 1px);
+    background-size: 32px 32px;
+    pointer-events: none;
+    mask-image: linear-gradient(to bottom, transparent, black 18%, black 82%, transparent);
+    -webkit-mask-image: linear-gradient(to bottom, transparent, black 18%, black 82%, transparent);
+  }
+  .cover-glow {
+    position: absolute; top: -10rem; left: 50%; transform: translateX(-50%);
+    width: 60rem; height: 40rem; border-radius: 50%;
+    background: radial-gradient(circle, rgba(29,78,216,0.22) 0%, transparent 62%);
+    pointer-events: none;
+  }
+  .cover::after {
+    content: '';
+    position: absolute;
+    bottom: -1px; left: 0; right: 0;
+    height: 40px;
+    background: var(--bg);
+    clip-path: ellipse(55% 100% at 50% 100%);
+  }
+  .cover-label {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: rgba(29,78,216,0.18);
+    border: 1px solid rgba(29,78,216,0.4);
+    border-radius: 100px;
+    padding: 4px 14px 4px 8px;
+    font-size: .72rem;
+    font-weight: 700;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: #60a5fa;
+  }
+  .cover-label-orb {
+    width: 8px; height: 8px; border-radius: 50%;
+    background: var(--ig-grad);
+    box-shadow: 0 0 8px rgba(29,78,216,0.8);
+    flex-shrink: 0;
+  }
+  .cover h1 {
+    font-size: clamp(2rem, 6vw, 3.2rem);
+    font-weight: 800;
+    letter-spacing: -.03em;
+    line-height: 1.1;
+    margin-bottom: 12px;
+    color: #f1f5f9;
+  }
+  .cover h1 .hl {
+    background: var(--ig-grad);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .cover-sub {
+    font-size: 1.05rem;
+    color: #94a3b8;
+    max-width: 520px;
+    margin: 0 auto 32px;
+  }
+  .cover-meta {
+    display: inline-flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: .85rem;
+    color: #93c5fd;
+  }
+  .cover-meta span { display: flex; align-items: center; gap: 6px; }
+  .ig-badge {
+    display: inline-flex; align-items: center; gap: 6px;
+    background: var(--ig-grad); border-radius: 100px;
+    padding: 4px 14px; font-size: .75rem; font-weight: 700;
+    color: #fff; margin-bottom: 16px;
+  }
+
+  /* ── NAV ── */
+  .nav {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 100;
+    background: rgba(255,255,255,0.97);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border-bottom: 1px solid var(--border);
+    padding: 0 24px;
+    padding-top: env(safe-area-inset-top);
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    overflow-x: auto;
+    scrollbar-width: none;
+    box-shadow: 0 2px 12px rgba(0,0,0,.07);
+  }
+  .nav::-webkit-scrollbar { display: none; }
+  .nav a {
+    display: block;
+    padding: 14px 14px;
+    font-size: .8rem;
+    font-weight: 600;
+    color: #4b5563;
+    text-decoration: none;
+    white-space: nowrap;
+    border-bottom: 2px solid transparent;
+    transition: color .15s, border-color .15s;
+  }
+  .nav a:hover { color: var(--primary); border-bottom-color: var(--primary); }
+  .nav a.active {
+    color: var(--primary);
+    border-bottom-color: var(--primary);
+    background: var(--primary-soft);
+    border-radius: 6px 6px 0 0;
+  }
+
+  /* ── LAYOUT ── */
+  .page { max-width: 900px; margin: 0 auto; padding: 60px 16px 90px; }
+
+  /* ── KPI STRIP ── */
+  .kpi-row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    margin-bottom: 32px;
+  }
+  .kpi {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 16px 12px;
+    box-shadow: var(--shadow);
+    text-align: center;
+  }
+  .kpi-val {
+    font-size: 1.7rem;
+    font-weight: 800;
+    color: var(--primary);
+    line-height: 1;
+    letter-spacing: -.03em;
+  }
+  .kpi-val.ig { color: var(--primary); }
+  .kpi-label {
+    font-size: .78rem;
+    color: var(--text-2);
+    margin-top: 6px;
+    font-weight: 500;
+  }
+  .kpi-delta {
+    display: inline-block;
+    font-size: .7rem;
+    font-weight: 700;
+    margin-top: 4px;
+    padding: 2px 6px;
+    border-radius: 6px;
+  }
+  .delta-up   { background: #f0fdf4; color: #16a34a; }
+  .delta-warn { background: #fffbeb; color: #d97706; }
+
+  /* ── SECTION HEADER ── */
+  .section-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 20px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--border);
+  }
+  .section-num {
+    width: 32px; height: 32px;
+    border-radius: 8px;
+    background: var(--primary-soft);
+    color: var(--primary);
+    font-size: .8rem;
+    font-weight: 800;
+    display: flex; align-items: center; justify-content: center;
+    flex-shrink: 0;
+  }
+  .section-header h2 {
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: var(--text);
+    letter-spacing: -.02em;
+  }
+  .section { margin-bottom: 48px; }
+
+  /* ── CARD ── */
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 16px;
+    box-shadow: var(--shadow);
+    margin-bottom: 16px;
+  }
+  .card h3 {
+    font-size: .95rem;
+    font-weight: 700;
+    color: var(--text);
+    margin-bottom: 14px;
+  }
+
+  /* ── TABLE ── */
+  .tbl-wrap { overflow-x: auto; }
+  table { width: 100%; border-collapse: collapse; font-size: .88rem; }
+  th {
+    background: var(--primary-soft);
+    color: var(--primary);
+    font-size: .72rem;
+    font-weight: 700;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    padding: 10px 12px;
+    text-align: left;
+  }
+  td { padding: 10px 12px; border-bottom: 1px solid var(--border); color: var(--text-2); vertical-align: top; }
+  tr:last-child td { border-bottom: none; }
+  tr:hover td { background: var(--bg); }
+  td strong { color: var(--text); font-weight: 600; }
+
+  /* ── CALLOUT ── */
+  .callout {
+    border-radius: var(--radius);
+    padding: 16px 18px;
+    margin-bottom: 16px;
+    font-size: .9rem;
+    border-left: 3px solid;
+  }
+  .callout strong { display: block; font-size: .72rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; margin-bottom: 6px; }
+  .callout.green  { background: var(--green-bg);  border-color: var(--green);  color: #166534; }
+  .callout.green strong { color: var(--green); }
+  .callout.amber  { background: var(--amber-bg);  border-color: var(--amber);  color: #92400e; }
+  .callout.amber strong { color: var(--amber); }
+  .callout.blue   { background: var(--blue-bg);   border-color: var(--blue);   color: #1e3a8a; }
+  .callout.blue strong  { color: var(--blue); }
+  .callout.purple { background: var(--purple-bg); border-color: var(--purple); color: #4c1d95; }
+  .callout.purple strong{ color: var(--purple); }
+  .callout.primary{ background: var(--primary-soft); border-color: var(--primary); color: #1e3a8a; }
+  .callout.primary strong { color: var(--primary); }
+
+  /* ── BADGE ── */
+  .badge {
+    display: inline-block;
+    font-size: .72rem;
+    font-weight: 700;
+    padding: 2px 8px;
+    border-radius: 6px;
+  }
+  .badge-green  { background: var(--green-bg);  color: var(--green);  border: 1px solid var(--green-bdr); }
+  .badge-amber  { background: var(--amber-bg);  color: var(--amber);  border: 1px solid var(--amber-bdr); }
+  .badge-blue   { background: var(--blue-bg);   color: var(--blue);   border: 1px solid var(--blue-bdr); }
+  .badge-primary{ background: var(--primary-soft); color: var(--primary); border: 1px solid var(--primary-mid); }
+  .badge-ig { background: var(--ig-grad); color: #fff; border: none; }
+
+  /* ── SWOT ── */
+  .swot-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 12px;
+    margin-top: 12px;
+  }
+  .swot-cell { border-radius: var(--radius); padding: 14px; }
+  .swot-cell h4 { font-size: .8rem; font-weight: 800; letter-spacing: .07em; text-transform: uppercase; margin-bottom: 10px; }
+  .swot-cell ul { padding-left: 1.1rem; }
+  .swot-cell li { font-size: .84rem; margin-bottom: 5px; line-height: 1.5; }
+  .swot-s { background: var(--green-bg);  border: 1px solid var(--green-bdr); }
+  .swot-s h4 { color: var(--green); }
+  .swot-s li  { color: #166534; }
+  .swot-w { background: var(--primary-soft); border: 1px solid var(--primary-mid); }
+  .swot-w h4 { color: var(--primary); }
+  .swot-w li  { color: #1e3a8a; }
+  .swot-o { background: var(--blue-bg);   border: 1px solid var(--blue-bdr); }
+  .swot-o h4 { color: var(--blue); }
+  .swot-o li  { color: #1e3a8a; }
+  .swot-t { background: var(--amber-bg);  border: 1px solid var(--amber-bdr); }
+  .swot-t h4 { color: var(--amber); }
+  .swot-t li  { color: #92400e; }
+
+  /* ── RECOMENDAÇÕES ── */
+  .rec-grid { display: grid; grid-template-columns: 1fr; gap: 16px; }
+  .rec-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 20px; box-shadow: var(--shadow); }
+  .rec-card h4 { font-size: .8rem; font-weight: 800; letter-spacing: .06em; text-transform: uppercase; margin-bottom: 12px; padding-bottom: 8px; border-bottom: 2px solid; }
+  .rec-card ul { padding-left: 1rem; }
+  .rec-card li { font-size: .84rem; color: var(--text-2); margin-bottom: 8px; line-height: 1.5; }
+  .rec-card li::marker { color: var(--primary); }
+  .rec-short h4 { color: var(--primary); border-color: var(--primary-mid); }
+  .rec-mid   h4 { color: var(--blue);    border-color: var(--blue-bdr); }
+  .rec-long  h4 { color: var(--purple);  border-color: var(--purple-bdr); }
+
+  /* ── ENGAGEMENT SAMPLE ── */
+  .post-row {
+    display: flex; align-items: center; gap: 12px;
+    padding: 12px 0; border-bottom: 1px solid var(--border);
+  }
+  .post-row:last-child { border-bottom: none; }
+  .post-icon {
+    width: 40px; height: 40px; border-radius: 8px; flex-shrink: 0;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 1.2rem;
+  }
+  .post-title { font-size: .87rem; font-weight: 600; color: var(--text); }
+  .post-meta  { font-size: .76rem; color: var(--text-3); margin-top: 2px; }
+  .post-stats { margin-left: auto; text-align: right; flex-shrink: 0; }
+  .post-likes { font-size: 1rem; font-weight: 800; color: var(--primary); }
+  .post-cmts  { font-size: .75rem; color: var(--text-3); }
+
+  /* ── HASHTAG CLOUD ── */
+  .tag-cloud { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+  .tag {
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 100px;
+    font-size: .78rem;
+    font-weight: 600;
+    border: 1px solid var(--border);
+    color: var(--text-2);
+    background: var(--surface);
+  }
+  .tag.high  { background: var(--primary-soft); color: var(--primary); border-color: var(--primary-mid); }
+  .tag.mid   { background: var(--blue-bg); color: var(--blue); border-color: var(--blue-bdr); }
+  .tag.low   { background: var(--bg); color: var(--text-3); }
+
+  /* ── FUNNEL DIAGRAM ── */
+  .funnel { display: flex; flex-direction: column; gap: 0; margin: 16px 0; }
+  .funnel-step {
+    padding: 14px 20px;
+    font-size: .88rem; font-weight: 600;
+    color: #fff;
+    position: relative;
+    clip-path: polygon(0 0, 100% 0, 95% 100%, 5% 100%);
+    margin-bottom: 4px;
+    text-align: center;
+  }
+  .f1 { background: #1d4ed8; width: 100%; }
+  .f2 { background: #2563eb; width: 85%; align-self: center; }
+  .f3 { background: #d97706; width: 68%; align-self: center; }
+  .f4 { background: #16a34a; width: 50%; align-self: center; clip-path: polygon(0 0, 100% 0, 92% 100%, 8% 100%); }
+
+  /* ── CHART ── */
+  .chart-wrap { position: relative; height: 260px; margin-top: 12px; }
+
+  /* ── SCORE RING ── */
+  .score-ring-wrap { display: flex; align-items: center; gap: 20px; flex-wrap: wrap; flex-direction: column; }
+  .score-ring {
+    flex-shrink: 0;
+    width: 120px; height: 120px; border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    flex-direction: column;
+    background: conic-gradient(#1d4ed8 0% 72%, #e4e7ec 72% 100%);
+  }
+  .score-inner {
+    width: 86px; height: 86px; border-radius: 50%;
+    background: var(--surface);
+    display: flex; align-items: center; justify-content: center; flex-direction: column;
+  }
+  .score-val { font-size: 1.8rem; font-weight: 800; color: var(--primary); line-height: 1; }
+  .score-max { font-size: .7rem; color: var(--text-3); }
+  .score-labels { flex: 1; }
+  .score-item { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; }
+  .score-bar-bg { flex: 1; height: 6px; background: var(--border); border-radius: 3px; }
+  .score-bar    { height: 6px; border-radius: 3px; background: var(--primary); }
+  .score-item-label { font-size: .78rem; color: var(--text-2); width: 120px; flex-shrink: 0; }
+  .score-item-val   { font-size: .78rem; font-weight: 700; color: var(--text); width: 28px; text-align: right; flex-shrink: 0; }
+
+  /* ── COMPARISON ── */
+  .vs-grid { display: grid; grid-template-columns: 1fr; gap: 16px; }
+  .vs-card { border-radius: var(--radius); padding: 20px; border: 1px solid; }
+  .vs-ig { background: var(--primary-soft); border-color: var(--primary-mid); }
+  .vs-yt { background: var(--blue-bg); border-color: var(--blue-bdr); }
+  .vs-platform { font-size: .7rem; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; margin-bottom: 12px; }
+  .vs-ig .vs-platform { color: var(--primary); }
+  .vs-yt .vs-platform { color: var(--blue); }
+  .vs-metric { display: flex; justify-content: space-between; font-size: .84rem; padding: 6px 0; border-bottom: 1px solid rgba(0,0,0,.06); }
+  .vs-metric:last-child { border-bottom: none; }
+  .vs-metric-label { color: var(--text-2); }
+  .vs-metric-val { font-weight: 700; }
+  .vs-ig .vs-metric-val { color: var(--primary); }
+  .vs-yt .vs-metric-val { color: var(--blue); }
+
+  /* ── COLLAB CARDS ── */
+  .collab-grid { display: grid; grid-template-columns: 1fr; gap: 16px; margin-top: 12px; }
+  .collab-card {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: var(--radius); padding: 18px;
+    display: flex; align-items: center; gap: 14px;
+    box-shadow: var(--shadow);
+  }
+  .collab-avatar {
+    width: 48px; height: 48px; border-radius: 50%;
+    background: var(--ig-grad); display: flex; align-items: center;
+    justify-content: center; font-size: 1.4rem; flex-shrink: 0;
+  }
+  .collab-handle { font-size: .9rem; font-weight: 700; color: var(--text); }
+  .collab-desc   { font-size: .78rem; color: var(--text-3); margin-top: 2px; }
+
+  /* ── FOOTER ── */
+  footer {
+    background: #0f0a1e;
+    color: #94a3b8;
+    padding: 40px 24px;
+    text-align: center;
+    font-size: .84rem;
+    margin-bottom: 64px;
+  }
+  footer strong { color: #f1f5f9; }
+  footer a { color: #60a5fa; text-decoration: none; }
+
+  /* ── DIAGNÓSTICO EXECUTIVO ── */
+  .diag-wrap {
+    background: #1d4ed8;
+    border-radius: var(--radius);
+    padding: 24px 20px;
+    margin-bottom: 40px;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+  }
+  .diag-wrap::before {
+    content: '';
+    position: absolute; inset: 0;
+    background-image: radial-gradient(circle, rgba(255,255,255,0.12) 1px, transparent 1px);
+    background-size: 28px 28px;
+    pointer-events: none;
+  }
+  .diag-title {
+    font-size: 1.1rem;
+    font-weight: 800;
+    color: #ffffff;
+    margin-bottom: 4px;
+    position: relative;
+  }
+  .diag-sub {
+    font-size: .82rem;
+    color: rgba(255,255,255,0.75);
+    margin-bottom: 20px;
+    position: relative;
+  }
+  .diag-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    margin-bottom: 24px;
+    position: relative;
+  }
+  .diag-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    background: rgba(255,255,255,0.12);
+    border-radius: 10px;
+    padding: 12px 14px;
+    border: 1px solid rgba(255,255,255,0.18);
+  }
+  .diag-dot {
+    width: 10px; height: 10px; border-radius: 50%;
+    flex-shrink: 0; margin-top: 5px;
+  }
+  .diag-dot.green  { background: #4ade80; box-shadow: 0 0 6px #4ade80; }
+  .diag-dot.yellow { background: #fbbf24; box-shadow: 0 0 6px #fbbf24; }
+  .diag-dot.red    { background: #f87171; box-shadow: 0 0 6px #f87171; }
+  .diag-item-title { font-size: .88rem; font-weight: 700; color: #ffffff; line-height: 1.3; }
+  .diag-item-desc  { font-size: .78rem; color: rgba(255,255,255,0.72); margin-top: 2px; line-height: 1.4; }
+  .diag-legend {
+    display: flex; gap: 16px; flex-wrap: wrap;
+    font-size: .72rem; color: rgba(255,255,255,0.65);
+    margin-bottom: 20px; position: relative;
+  }
+  .diag-legend span { display: flex; align-items: center; gap: 5px; }
+  .diag-cta-label {
+    font-size: .68rem; font-weight: 800; letter-spacing: .1em;
+    text-transform: uppercase; color: rgba(255,255,255,0.9);
+    margin-bottom: 10px; position: relative;
+  }
+  .oraculo-pills {
+    display: flex; flex-wrap: wrap; gap: 8px; position: relative;
+  }
+  .oraculo-pill {
+    display: inline-flex; align-items: center; gap: 6px;
+    background: rgba(255,255,255,0.15);
+    border: 1px solid rgba(255,255,255,0.28);
+    border-radius: 100px;
+    padding: 6px 12px;
+    font-size: .78rem; font-weight: 600; color: #ffffff;
+  }
+  .oraculo-pill .pill-icon { font-size: .9rem; }
+
+  /* ── INTRO DIAGNÓSTICO ── */
+  .intro-diag { margin-bottom: 28px; }
+  .intro-diag-greeting {
+    font-size: .78rem; font-weight: 700; text-transform: uppercase;
+    letter-spacing: .1em; color: var(--text-3); margin-bottom: 6px;
+  }
+  .intro-diag-title {
+    font-size: clamp(1.4rem, 4vw, 2rem); font-weight: 800; color: var(--text);
+    letter-spacing: -.03em; line-height: 1.2; margin-bottom: 10px;
+  }
+  .intro-diag-title span { color: var(--primary); }
+  .intro-diag-lead {
+    font-size: 1rem; color: var(--text-2); max-width: 680px;
+    line-height: 1.7; margin-bottom: 28px;
+  }
+
+  /* ── SCORE CARD ── */
+  .score-block {
+    display: grid; grid-template-columns: auto 1fr;
+    gap: 24px; align-items: center;
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: var(--radius); padding: 28px;
+    box-shadow: var(--shadow-md); margin-bottom: 20px;
+  }
+  .score-circle {
+    width: 110px; height: 110px; border-radius: 50%;
+    background: conic-gradient(var(--primary) 0% 64%, #e4e7ec 64% 100%);
+    display: flex; align-items: center; justify-content: center;
+    position: relative; flex-shrink: 0;
+  }
+  .score-diag-inner {
+    width: 80px; height: 80px; border-radius: 50%;
+    background: var(--surface);
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+  }
+  .score-num {
+    font-size: 1.7rem; font-weight: 900; color: var(--primary);
+    line-height: 1; letter-spacing: -.04em;
+  }
+  .score-den { font-size: .65rem; font-weight: 700; color: var(--text-3); letter-spacing: .04em; }
+  .score-info h3 {
+    font-size: 1.15rem; font-weight: 800; color: var(--text);
+    margin-bottom: 6px; margin-top: 0; border: none; padding: 0;
+  }
+  .score-info p { font-size: .9rem; color: var(--text-2); margin-bottom: 14px; }
+  .score-bars { display: flex; flex-direction: column; gap: 8px; }
+  .score-bar-row { display: flex; align-items: center; gap: 10px; font-size: .8rem; }
+  .score-bar-label { width: 140px; color: var(--text-2); font-weight: 500; flex-shrink: 0; }
+  .score-bar-track { flex: 1; height: 7px; background: #f0f2f5; border-radius: 4px; overflow: hidden; }
+  .score-bar-fill  { height: 100%; border-radius: 4px; }
+  .score-bar-val { width: 30px; text-align: right; font-weight: 700; color: var(--text); font-size: .78rem; }
+
+  /* ── SITUAÇÃO + COMO AJUDAMOS ── */
+  .sithelp-grid { display: grid; grid-template-columns: 1fr; gap: 16px; margin-bottom: 32px; }
+  .sit-card, .help-card { border-radius: var(--radius); padding: 22px; border: 1px solid; }
+  .sit-card  { background: var(--amber-bg); border-color: var(--amber-bdr); }
+  .help-card { background: var(--green-bg); border-color: var(--green-bdr); }
+  .sithelp-head {
+    display: flex; align-items: center; gap: 10px;
+    font-size: .75rem; font-weight: 800; text-transform: uppercase; letter-spacing: .09em;
+    margin-bottom: 14px;
+  }
+  .sit-card  .sithelp-head { color: var(--amber); }
+  .help-card .sithelp-head { color: var(--green); }
+  .sithelp-head-icon {
+    width: 28px; height: 28px; border-radius: 8px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: .85rem; flex-shrink: 0;
+  }
+  .sit-card  .sithelp-head-icon { background: rgba(180,83,9,.12); }
+  .help-card .sithelp-head-icon { background: rgba(21,128,61,.12); }
+  .sithelp-list { list-style: none; padding: 0; }
+  .sithelp-list li {
+    font-size: .86rem; padding: 7px 0;
+    border-bottom: 1px solid rgba(0,0,0,.06);
+    display: flex; align-items: flex-start; gap: 8px; line-height: 1.5;
+  }
+  .sithelp-list li:last-child { border-bottom: none; padding-bottom: 0; }
+  .sithelp-list li::before { font-weight: 800; flex-shrink: 0; margin-top: 1px; }
+  .sit-card  .sithelp-list li { color: #92400e; }
+  .sit-card  .sithelp-list li::before { content: '–'; color: var(--amber); }
+  .help-card .sithelp-list li { color: #166534; }
+  .help-card .sithelp-list li::before { content: '✓'; color: var(--green); }
+
+  /* ── FORMAT GRID (mobile: empilhado, desktop: lado a lado) ── */
+  .format-grid { display: grid; grid-template-columns: 1fr; gap: 16px; align-items: center; }
+
+  /* ── TABLET (≥ 600px) ── */
+  @media (min-width: 600px) {
+    .diag-grid   { grid-template-columns: 1fr 1fr; }
+    .kpi-row     { grid-template-columns: repeat(3, 1fr); gap: 16px; }
+    .kpi         { padding: 18px 14px; }
+    .kpi-val     { font-size: 1.9rem; }
+    .collab-grid { grid-template-columns: 1fr 1fr; }
+    .vs-grid     { grid-template-columns: 1fr 1fr; }
+    .sithelp-grid { grid-template-columns: 1fr 1fr; }
+    .score-block  { grid-template-columns: auto 1fr; text-align: left; }
+    .score-circle { margin: 0; }
+    .score-bar-row { flex-wrap: nowrap; }
+    .score-bar-label { width: 120px; }
+  }
+
+  /* ── DESKTOP (≥ 768px) ── */
+  @media (min-width: 768px) {
+    .format-grid { grid-template-columns: 1fr 1fr; }
+    .cover       { padding: 64px 32px 72px; }
+    .page        { padding: 56px 24px 100px; }
+    .kpi-row     { grid-template-columns: repeat(5, 1fr); margin-bottom: 40px; }
+    .kpi-val     { font-size: 2rem; }
+    .kpi         { padding: 20px 18px; }
+    .card        { padding: 24px; }
+    .swot-grid   { grid-template-columns: 1fr 1fr; }
+    .swot-cell   { padding: 18px; }
+    .rec-grid    { grid-template-columns: repeat(3, 1fr); }
+    .score-ring-wrap { flex-direction: row; gap: 28px; }
+    .score-block  { padding: 28px; gap: 24px; }
+    .score-circle { width: 110px; height: 110px; }
+    .score-num    { font-size: 1.7rem; }
+    .score-bar-label { width: 140px; font-size: .8rem; }
+    .score-bar-track { height: 7px; }
+    .sit-card, .help-card { padding: 22px; }
+    .sithelp-list li { font-size: .86rem; }
+  }
+
+  /* ── SCROLL ANCHORS (compensa a nav fixa) ── */
+  .section,
+  #diagnostico {
+    scroll-margin-top: calc(52px + env(safe-area-inset-top));
+  }
+
+  /* ── TOUCH / MOBILE UX ── */
+  .nav a,
+  a,
+  button {
+    touch-action: manipulation;
+  }
+  .nav a {
+    -webkit-tap-highlight-color: rgba(29,78,216,0.12);
+  }
+
+  /* ── MOBILE BASE (≤ 479px) ── */
+  @media (max-width: 479px) {
+    /* nav */
+    .nav {
+      padding: 0 4px;
+      padding-top: env(safe-area-inset-top);
+      gap: 0;
+      min-height: 44px;
+    }
+    .nav a {
+      padding: 10px 8px;
+      font-size: .72rem;
+      flex-shrink: 0;
+      min-height: 44px;
+      display: flex;
+      align-items: center;
+    }
+
+    /* page */
+    .page { padding: 32px 14px calc(72px + env(safe-area-inset-bottom)); }
+
+    /* cover */
+    .cover { padding: 36px 16px 50px; }
+    .cover h1 { font-size: clamp(1.5rem, 6vw, 2.6rem); }
+    .cover-sub { font-size: .88rem; max-width: 100%; }
+    .cover-meta { font-size: .76rem; gap: 8px; flex-direction: column; }
+
+    /* kpi */
+    .kpi-val { font-size: 1.4rem; }
+    .kpi { padding: 13px 10px; }
+    .kpi-label { font-size: .72rem; }
+    .kpi-delta { font-size: .65rem; }
+
+    /* section */
+    .section { margin-bottom: 32px; }
+    .section-header { margin-bottom: 14px; }
+    .section-header h2 { font-size: 1rem; }
+
+    /* diag */
+    .diag-wrap { padding: 18px 14px; }
+    .diag-title { font-size: .97rem; }
+    .diag-item { padding: 10px 11px; gap: 10px; }
+    .diag-item-title { font-size: .84rem; }
+    .diag-item-desc  { font-size: .74rem; }
+    .oraculo-pill { font-size: .72rem; padding: 5px 10px; }
+
+    /* score block */
+    .score-block { grid-template-columns: 1fr; text-align: center; padding: 16px; gap: 16px; }
+    .score-circle { width: 90px; height: 90px; margin: 0 auto; }
+    .score-num { font-size: 1.4rem; }
+    .score-bar-row { flex-wrap: wrap; gap: 4px; }
+    .score-bar-label { width: 100%; font-size: .74rem; }
+    .score-bar-track { flex: 1; min-width: 0; height: 6px; }
+    .score-bar-val { width: auto; font-size: .72rem; }
+    .score-info h3 { font-size: 1rem; }
+    .score-info p  { font-size: .83rem; }
+
+    /* sithelp */
+    .sithelp-grid { grid-template-columns: 1fr; gap: 12px; }
+    .sit-card, .help-card { padding: 14px; }
+    .sithelp-list li { font-size: .8rem; }
+    .intro-diag-title { font-size: 1.3rem; }
+    .intro-diag-lead  { font-size: .88rem; margin-bottom: 18px; }
+
+    /* cards */
+    .card { padding: 14px 13px; }
+    .rec-card { padding: 14px; }
+    .rec-card li { font-size: .8rem; }
+    .collab-card { padding: 14px; gap: 10px; }
+
+    /* chart */
+    .chart-wrap { height: 200px; }
+
+    /* score */
+    .score-ring { width: 100px; height: 100px; }
+    .score-inner { width: 72px; height: 72px; }
+    .score-val { font-size: 1.5rem; }
+    .score-item-label { width: 90px; font-size: .72rem; }
+
+    /* footer */
+    footer { padding: 28px 16px; font-size: .78rem; margin-bottom: 0; }
+  }
+
+  /* ── MOBILE 480–599px ── */
+  @media (min-width: 480px) and (max-width: 599px) {
+    .nav { padding: 0 16px; gap: 2px; }
+    .nav a { padding: 12px 10px; font-size: .76rem; }
+    .page { padding: 36px 20px 80px; }
+    .kpi-row { grid-template-columns: repeat(3, 1fr); }
+  }
+
+  /* ── OVERFLOW HORIZONTAL GLOBAL ── */
+  img, canvas, iframe, video, svg { max-width: 100%; }
+
+  /* ── INSIGHT "O QUE ISSO SIGNIFICA PARA VOCÊ" ── */
+  .insight {
+    margin-top: 20px;
+    border-radius: var(--radius);
+    border: 1.5px solid var(--border);
+    overflow: hidden;
+    box-shadow: var(--shadow);
+  }
+  .insight-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 11px 18px;
+    font-size: .72rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+  }
+  .insight-header svg { flex-shrink: 0; }
+  .insight-body {
+    padding: 16px 18px;
+    font-size: .9rem;
+    line-height: 1.65;
+    background: var(--surface);
+    color: var(--text-2);
+  }
+  .insight-body strong { color: var(--text); }
+  .insight-body .verdict {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: 700;
+    font-size: .78rem;
+    text-transform: uppercase;
+    letter-spacing: .07em;
+    margin-bottom: 8px;
+    padding: 3px 10px;
+    border-radius: 100px;
+  }
+  .insight.good   .insight-header { background: var(--green-bg);    color: var(--green);   border-bottom: 1px solid var(--green-bdr); }
+  .insight.good   .verdict        { background: var(--green-bg);    color: var(--green); }
+  .insight.warn   .insight-header { background: var(--amber-bg);    color: var(--amber);   border-bottom: 1px solid var(--amber-bdr); }
+  .insight.warn   .verdict        { background: var(--amber-bg);    color: var(--amber); }
+  .insight.bad    .insight-header { background: var(--primary-soft);color: var(--primary); border-bottom: 1px solid var(--primary-mid); }
+  .insight.bad    .verdict        { background: var(--primary-soft);color: var(--primary); }
+  .insight.info   .insight-header { background: var(--blue-bg);     color: var(--blue);    border-bottom: 1px solid var(--blue-bdr); }
+  .insight.info   .verdict        { background: var(--blue-bg);     color: var(--blue); }
+  .insight.purple .insight-header { background: var(--purple-bg);   color: var(--purple);  border-bottom: 1px solid var(--purple-bdr); }
+  .insight.purple .verdict        { background: var(--purple-bg);   color: var(--purple); }
+
+  @media (max-width: 479px) {
+    .insight-header { padding: 9px 13px; font-size: .66rem; }
+    .insight-body   { padding: 12px 13px; font-size: .84rem; }
+  }
+</style>
+<style>
+  :root { --ig-grad: linear-gradient(135deg,#0369a1,#0891b2,#38bdf8); }
+</style>
+</head>
+<body>
+<div class="page-wrap">
+
+<!-- ── COVER ── -->
+<div class="cover">
+  <div class="cover-dot-grid"></div>
+  <div class="cover-glow"></div>
+  <div class="ig-badge">📸 Instagram @sinfonyaturismo</div>
+  <div class="cover-label">
+    <span class="cover-label-orb"></span>
+    Oráculo Tecnologia · Análise de Redes Sociais
+  </div>
+  <h1>Grupo Sinfonya Turismo no <span class="hl">Instagram</span></h1>
+  <p class="cover-sub">Auditoria completa do perfil @sinfonyaturismo — 168 posts analisados um a um, alcance real dos Reels, engajamento efetivo da base de 50 mil seguidores e plano de recuperação comercial</p>
+  <div class="cover-meta">
+    <span>📅 4 de agosto de 2026</span>
+    <span>👥 50.393 seguidores</span>
+    <span>📷 283 posts</span>
+    <span>🔍 168 posts auditados</span>
+  </div>
+</div>
+
+<!-- ── NAV ── -->
+<nav class="nav">
+  <a href="#diagnostico">Diagnóstico</a>
+  <a href="#visao-geral">Visão Geral</a>
+  <a href="#metricas">Métricas</a>
+  <a href="#conteudo">Conteúdo</a>
+  <a href="#engajamento">Engajamento</a>
+  <a href="#collabs">Prova Social</a>
+  <a href="#temas">Temas e CTAs</a>
+  <a href="#audiencia">Audiência</a>
+  <a href="#swot">SWOT</a>
+  <a href="#comparativo">Comparativo</a>
+  <a href="#recomendacoes">Recomendações</a>
+  <a href="#resumo">Resumo</a>
+</nav>
+
+<!-- ── PAGE ── -->
+<div class="page">
+
+  <!-- DIAGNÓSTICO EXECUTIVO -->
+  <section class="section" id="diagnostico">
+    <div class="intro-diag">
+      <div class="intro-diag-greeting">Preparado exclusivamente para o Grupo Sinfonya Turismo</div>
+      <h1 class="intro-diag-title">Você publica duas vezes por dia para 50 mil seguidores.<br><span>Na prática, está conversando com cerca de 1.300 pessoas.</span></h1>
+      <p class="intro-diag-lead">
+        Fizemos uma auditoria completa e imparcial do perfil @sinfonyaturismo. A coleta foi feita via Playwright em 04/08/2026 com sessão autenticada: extraímos os dados do perfil e <strong>168 posts publicados entre 13/05/2026 e 03/08/2026</strong>, com curtidas, comentários, visualizações de Reels, datas, marcações, hashtags e legendas completas. Nenhum número desta página é estimativa de terceiros — todos vieram direto da API do Instagram.
+      </p>
+
+      <div class="score-block">
+        <div class="score-circle" style="background: conic-gradient(var(--primary) 0% 38%, #e4e7ec 38% 100%);">
+          <div class="score-diag-inner">
+            <span class="score-num">3,8</span>
+            <span class="score-den">/ 10</span>
+          </div>
+        </div>
+        <div class="score-info">
+          <h3>Saúde geral do perfil: esforço alto, retorno quase nulo</h3>
+          <p>A Sinfonya faz o que a maioria das agências não consegue: publica todo dia, tem 15 anos de história, prova social acumulada e um portfólio real de destinos. O problema é que <strong>esse esforço está sendo entregue a uma base que não responde</strong>. O engajamento médio é de 0,026% — cerca de 35 vezes abaixo do padrão do setor de turismo. A nota não é baixa por falta de trabalho; é baixa porque o trabalho não está chegando a ninguém.</p>
+          <div class="score-bars">
+            <div class="score-bar-row">
+              <span class="score-bar-label">Consistência de publicação</span>
+              <div class="score-bar-track"><div class="score-bar-fill" style="width:90%;background:#15803d"></div></div>
+              <span class="score-bar-val" style="color:#15803d">9,0</span>
+            </div>
+            <div class="score-bar-row">
+              <span class="score-bar-label">Prova social acumulada</span>
+              <div class="score-bar-track"><div class="score-bar-fill" style="width:75%;background:#15803d"></div></div>
+              <span class="score-bar-val" style="color:#15803d">7,5</span>
+            </div>
+            <div class="score-bar-row">
+              <span class="score-bar-label">Portfólio de destinos e ofertas</span>
+              <div class="score-bar-track"><div class="score-bar-fill" style="width:70%;background:#15803d"></div></div>
+              <span class="score-bar-val" style="color:#15803d">7,0</span>
+            </div>
+            <div class="score-bar-row">
+              <span class="score-bar-label">Estrutura de conversão</span>
+              <div class="score-bar-track"><div class="score-bar-fill" style="width:32%;background:#b45309"></div></div>
+              <span class="score-bar-val" style="color:#b45309">3,2</span>
+            </div>
+            <div class="score-bar-row">
+              <span class="score-bar-label">Alcance e distribuição</span>
+              <div class="score-bar-track"><div class="score-bar-fill" style="width:18%;background:#1e3a8a"></div></div>
+              <span class="score-bar-val" style="color:#1e3a8a">1,8</span>
+            </div>
+            <div class="score-bar-row">
+              <span class="score-bar-label">Qualidade da base e engajamento</span>
+              <div class="score-bar-track"><div class="score-bar-fill" style="width:9%;background:#1e3a8a"></div></div>
+              <span class="score-bar-val" style="color:#1e3a8a">0,9</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="sithelp-grid">
+        <div class="sit-card">
+          <div class="sithelp-head">
+            <div class="sithelp-head-icon">&#9888;</div>
+            Situação atual do perfil
+          </div>
+          <ul class="sithelp-list">
+            <li><span><strong>50.393 seguidores</strong>, mas engajamento médio de <strong>0,026%</strong> — agências de turismo saudáveis operam entre 0,7% e 1,5%</span></li>
+            <li><span>168 posts em 82 dias (2,05 por dia), com <strong>mediana de apenas 6,5 curtidas</strong> por publicação</span></li>
+            <li><span>Os Reels alcançam em média <strong>853 visualizações</strong> — 1,7% da própria base de seguidores</span></li>
+            <li><span>41% dos posts ficaram com 5 curtidas ou menos e <strong>55% não receberam nenhum comentário</strong></span></li>
+            <li><span>Julho teve 88 posts (4x o volume de maio) e o engajamento não subiu — os últimos 12 posts caíram para 0,010%</span></li>
+            <li><span>A conta está classificada como <strong>perfil pessoal</strong>, sem Instagram Business, sem métricas nativas e sem botão de contato</span></li>
+          </ul>
+        </div>
+        <div class="help-card">
+          <div class="sithelp-head">
+            <div class="sithelp-head-icon">&#9670;</div>
+            Como a Oráculo pode ajudar
+          </div>
+          <ul class="sithelp-list">
+            <li><span>Diagnosticar a base: quantos dos 50 mil são reais, ativos e compradores — e reconstruir o alcance a partir disso</span></li>
+            <li><span>Trocar volume por relevância: de 2 posts/dia sem retorno para uma grade semanal com função comercial definida</span></li>
+            <li><span>Transformar os 88 clientes já registrados nos destaques no principal motor de conteúdo</span></li>
+            <li><span>Reformular os Reels: de flyer animado para vídeo nativo, que é o que o algoritmo distribui</span></li>
+            <li><span>Migrar para conta profissional e instalar rastreio de WhatsApp — saber qual post gerou qual orçamento</span></li>
+            <li><span>Separar as duas audiências hoje misturadas: excursão rodoviária e viagem internacional de alto ticket</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="diag-wrap">
+      <div class="diag-title">📋 Diagnóstico Rápido — @sinfonyaturismo no Instagram</div>
+      <div class="diag-sub">Visão geral da saúde do perfil: o que já funciona, o que precisa de atenção e o que está custando venda agora.</div>
+
+      <div class="diag-legend">
+        <span><span class="diag-dot green" style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4ade80;"></span> Ponto forte</span>
+        <span><span class="diag-dot yellow" style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#fbbf24;"></span> Atenção</span>
+        <span><span class="diag-dot red" style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#f87171;"></span> Oportunidade perdida</span>
+      </div>
+
+      <div class="diag-grid">
+        <div class="diag-item">
+          <div class="diag-dot green"></div>
+          <div>
+            <div class="diag-item-title">Disciplina de publicação rara no setor</div>
+            <div class="diag-item-desc">2,05 posts por dia durante três meses seguidos. A maior parte das agências de turismo não posta 3 vezes por semana. A máquina de produção existe — falta direcioná-la.</div>
+          </div>
+        </div>
+        <div class="diag-item">
+          <div class="diag-dot green"></div>
+          <div>
+            <div class="diag-item-title">Prova social já catalogada: 88 clientes em destaques</div>
+            <div class="diag-item-desc">O destaque &ldquo;⭐ Clientes&rdquo; tem 88 itens e o de &ldquo;💬 Feedbacks&rdquo; mais 8. É o ativo mais valioso do perfil, e é justamente o tipo de conteúdo que mais performa no feed.</div>
+          </div>
+        </div>
+        <div class="diag-item">
+          <div class="diag-dot green"></div>
+          <div>
+            <div class="diag-item-title">O que funciona já está visível nos dados</div>
+            <div class="diag-item-desc">Posts com cliente real rendem 28,4 curtidas em média — 2,6 vezes a média geral do perfil. O post da cliente Edna no Makai Resort fez 132 curtidas e 20 comentários.</div>
+          </div>
+        </div>
+        <div class="diag-item">
+          <div class="diag-dot yellow"></div>
+          <div>
+            <div class="diag-item-title">Reels performam pior que fotos estáticas</div>
+            <div class="diag-item-desc">Imagem única: 19,1 curtidas médias. Reel: 8,4. Em um perfil saudável o inverso é a regra — o sinal é claro de que os Reels são flyers animados, não vídeo nativo.</div>
+          </div>
+        </div>
+        <div class="diag-item">
+          <div class="diag-dot yellow"></div>
+          <div>
+            <div class="diag-item-title">Sábado é o melhor dia e quase não é usado</div>
+            <div class="diag-item-desc">6 posts no sábado renderam 24,5 curtidas médias, o dobro dos outros dias. Domingo — o dia em que as pessoas planejam viagem — teve <strong>zero posts</strong> em 82 dias.</div>
+          </div>
+        </div>
+        <div class="diag-item">
+          <div class="diag-dot yellow"></div>
+          <div>
+            <div class="diag-item-title">Duas audiências incompatíveis no mesmo feed</div>
+            <div class="diag-item-desc">Excursão rodoviária a Caldas Novas (14,2 curtidas médias) convive com Maldivas e Six Senses Seychelles (6,1). São públicos, tickets e linguagens diferentes disputando o mesmo espaço.</div>
+          </div>
+        </div>
+        <div class="diag-item">
+          <div class="diag-dot red"></div>
+          <div>
+            <div class="diag-item-title">1,7% da base vê os Reels</div>
+            <div class="diag-item-desc">853 visualizações médias contra 50.393 seguidores. Um perfil com base saudável entrega entre 25% e 60% aos próprios seguidores. A conta está falando para uma plateia vazia.</div>
+          </div>
+        </div>
+        <div class="diag-item">
+          <div class="diag-dot red"></div>
+          <div>
+            <div class="diag-item-title">Nenhum link além do WhatsApp e zero rastreio</div>
+            <div class="diag-item-desc">A bio tem só um link de WhatsApp, sem site, sem catálogo e sem parâmetro de origem. É impossível saber qual post, destino ou campanha gerou cada conversa — e portanto impossível otimizar.</div>
+          </div>
+        </div>
+        <div class="diag-item">
+          <div class="diag-dot red"></div>
+          <div>
+            <div class="diag-item-title">Hashtags que ninguém procura</div>
+            <div class="diag-item-desc">As 6 hashtags mais usadas são todas de marca própria (#sinfonyateleva em 127 posts, #sinfo2k26 em 60). Destinos que geram busca real aparecem pouco: #caldasnovas em 9 posts, #gramado em 8.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- KPI STRIP -->
+  <div class="kpi-row">
+    <div class="kpi">
+      <div class="kpi-val ig">50.393</div>
+      <div class="kpi-label">Seguidores</div>
+      <span class="kpi-delta delta-warn">Base pouco responsiva</span>
+    </div>
+    <div class="kpi">
+      <div class="kpi-val">283</div>
+      <div class="kpi-label">Posts publicados</div>
+      <span class="kpi-delta delta-up">2,05 posts/dia</span>
+    </div>
+    <div class="kpi">
+      <div class="kpi-val">168</div>
+      <div class="kpi-label">Posts analisados</div>
+      <span class="kpi-delta delta-up">13/mai a 03/ago</span>
+    </div>
+    <div class="kpi">
+      <div class="kpi-val">204</div>
+      <div class="kpi-label">Maior post em likes</div>
+      <span class="kpi-delta delta-warn">0,4% da base</span>
+    </div>
+    <div class="kpi">
+      <div class="kpi-val">0,010%</div>
+      <div class="kpi-label">ER recente</div>
+      <span class="kpi-delta delta-warn">Muito abaixo do setor</span>
+    </div>
+  </div>
+
+  <section class="section" id="visao-geral">
+    <div class="section-header">
+      <div class="section-num">1</div>
+      <h2>Identidade e Posicionamento</h2>
+    </div>
+
+    <div class="card">
+      <h3>Perfil Público</h3>
+      <div class="tbl-wrap">
+        <table>
+          <tr><th>Campo</th><th>Valor</th></tr>
+          <tr><td>Handle</td><td><strong>@sinfonyaturismo</strong></td></tr>
+          <tr><td>Nome exibido</td><td><strong>Grupo Sinfonya Turismo</strong></td></tr>
+          <tr><td>Categoria</td><td>Agência de turismo</td></tr>
+          <tr><td>Tipo de conta</td><td><span class="badge badge-amber">⚠️ Perfil pessoal — sem Instagram Business</span></td></tr>
+          <tr><td>Verificação</td><td><span class="badge badge-amber">⚠️ Não verificada</span></td></tr>
+          <tr><td>Bio</td><td>Transformando sonhos em realidade! ✨ · 🎓 @sinfonyaformaturas · 💍 @sinfonyaweeding · ✈️ @sinfonyaturismo_patosdeminas · ⛪️ @sinfonya_cristao</td></tr>
+          <tr><td>Seguidores</td><td><strong>50.393</strong></td></tr>
+          <tr><td>Seguindo</td><td>172</td></tr>
+          <tr><td>Total de posts</td><td><strong>283</strong></td></tr>
+          <tr><td>Link na bio</td><td>1 link — WhatsApp (61) 98405-5939 <span class="badge badge-amber">⚠️ Sem site, catálogo ou rastreio</span></td></tr>
+          <tr><td>E-mail público</td><td>reservas3.sinfonya@gmail.com <span class="badge badge-amber">⚠️ Gmail, não domínio próprio</span></td></tr>
+          <tr><td>Destaques</td><td>8 pastas: ⭐ Clientes (88), 📌 Nossa Empresa (18), 👨‍👩‍👧‍👦 Grupos (14), ✈️ Viagens (12), ⛪️ Cristão (10), 🏆 Premiações (9), 💬 Feedbacks (8), 🚢 Cruzeiro (5)</td></tr>
+        </table>
+      </div>
+    </div>
+
+    <div class="callout amber">
+      <strong>🎯 O problema central do posicionamento</strong>
+      A bio da conta principal funciona hoje como um <b>índice de outras contas</b>: quatro das cinco linhas são links para os perfis satélite. Quem chega em @sinfonyaturismo não descobre em 3 segundos o que a agência vende, de onde saem as viagens, para quem ela é, nem por que confiar. &ldquo;Transformando sonhos em realidade&rdquo; é uma frase que qualquer uma das 20 mil agências do Brasil poderia usar. <b>Não há nenhuma menção aos 15 anos de operação, à sede em Brasília, às premiações ou ao volume de clientes atendidos</b> — exatamente os ativos que diferenciam a Sinfonya.
+    </div>
+
+    <div class="card">
+      <h3>O Ecossistema de Contas</h3>
+      <div class="tbl-wrap">
+        <table>
+          <tr><th>Conta</th><th>Função</th><th>Observação da auditoria</th></tr>
+          <tr><td><strong>@sinfonyaturismo</strong></td><td>Conta principal — viagens em grupo, excursões e pacotes</td><td>50.393 seguidores; marcada em 74 dos 168 posts</td></tr>
+          <tr><td>@sinfonyaturismo_patosdeminas</td><td>Filial de Patos de Minas (MG)</td><td><span class="badge badge-amber">Marcada em 94 posts — mais que a própria conta principal</span></td></tr>
+          <tr><td>@sinfonyaformaturas</td><td>Formaturas e viagens de turma</td><td>Marcada em 14 posts</td></tr>
+          <tr><td>@sinfonya_cristao</td><td>Turismo religioso</td><td>Marcada em 10 posts; 1 destaque dedicado</td></tr>
+          <tr><td>@sinfonyaweeding</td><td>Casamentos e lua de mel</td><td><span class="badge badge-amber">Marcada em 1 único post em 82 dias</span></td></tr>
+        </table>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Branding Visual e Tom de Marca</h3>
+      <div class="tbl-wrap">
+        <table>
+          <tr><th>Elemento</th><th>Leitura</th></tr>
+          <tr><td>Padrão do feed</td><td>Predominância de arte publicitária: flyers de pacote com preço, lista de inclusos e logo. Baixa presença de fotografia real de viagem</td></tr>
+          <tr><td>Reels</td><td>Na maioria, o mesmo flyer com movimento ou stock footage genérico de destino — formato que o algoritmo distribui mal</td></tr>
+          <tr><td>Legendas</td><td>Média de <strong>770 caracteres</strong> por post: a oferta completa (roteiro, inclusos, parcelamento) escrita na legenda, sem gancho nas duas primeiras linhas</td></tr>
+          <tr><td>Tom</td><td>Comercial e direto, com forte apelo emocional (&ldquo;sonhos&rdquo;, &ldquo;inesquecível&rdquo;, &ldquo;extraordinário&rdquo;) — mas repetido em quase todos os posts, o que anula o efeito</td></tr>
+          <tr><td>Geolocalização</td><td><span class="badge badge-amber">⚠️ Apenas 3 dos 168 posts têm local marcado</span> — uma agência de turismo abrindo mão da busca por destino</td></tr>
+        </table>
+      </div>
+    </div>
+
+    <div class="insight bad">
+      <div class="insight-header">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+        O que isso significa para você
+      </div>
+      <div class="insight-body">
+        <span class="verdict">&#9654; Atenção</span>
+        <p>O maior gargalo do perfil não é falta de trabalho — é falta de identidade comercial. <strong>Um visitante que chega hoje ao perfil não descobre onde a Sinfonya fica, de onde saem os ônibus e voos, há quanto tempo ela existe, nem quantas pessoas já viajaram com ela.</strong> Encontra uma bio que aponta para outros quatro perfis e um feed de flyers. Enquanto isso, os dados mostram que os posts institucionais sobre os 15 anos de história foram alguns dos que mais engajaram — a história vende, e ela está guardada nos destaques em vez de estar na vitrine. Corrigir bio, categoria profissional, link com catálogo e marcação de destinos é a mudança de maior impacto e menor custo desta análise inteira.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="metricas">
+    <div class="section-header">
+      <div class="section-num">2</div>
+      <h2>Métricas Principais</h2>
+    </div>
+
+    <div class="card">
+      <h3>Dados do Perfil e da Amostra Auditada</h3>
+      <div class="tbl-wrap">
+        <table>
+          <tr><th>Métrica</th><th>Valor apurado</th><th>Avaliação</th></tr>
+          <tr><td>Seguidores</td><td><strong>50.393</strong></td><td><span class="badge badge-blue">Base grande</span></td></tr>
+          <tr><td>Posts auditados</td><td><strong>168</strong> (13/05 a 03/08/2026)</td><td><span class="badge badge-green">✅ 59% de todo o histórico da conta</span></td></tr>
+          <tr><td>Cadência</td><td><strong>2,05 posts por dia</strong></td><td><span class="badge badge-green">✅ Consistência alta</span></td></tr>
+          <tr><td>Curtidas somadas</td><td>1.834 em 168 posts</td><td><span class="badge badge-amber">⚠️ 10,9 por post</span></td></tr>
+          <tr><td>Mediana de curtidas</td><td><strong>6,5 por post</strong></td><td><span class="badge badge-amber">⚠️ Metade dos posts fica abaixo disso</span></td></tr>
+          <tr><td>Comentários somados</td><td>361 — dos quais 121 vieram de um único sorteio</td><td><span class="badge badge-amber">⚠️ 55% dos posts com zero comentários</span></td></tr>
+          <tr><td>ER médio da amostra</td><td><strong>0,026%</strong></td><td><span class="badge badge-amber">⚠️ ~35x abaixo do setor</span></td></tr>
+          <tr><td>ER recente (últimos 12 posts)</td><td><strong>0,010%</strong></td><td><span class="badge badge-amber">⚠️ Piorando</span></td></tr>
+          <tr><td>Visualizações médias dos Reels</td><td><strong>853</strong> em 77 Reels</td><td><span class="badge badge-amber">⚠️ 1,7% da base</span></td></tr>
+          <tr><td>Conversão visualização → curtida</td><td><strong>0,98%</strong></td><td><span class="badge badge-amber">⚠️ Saudável seria 3% a 5%</span></td></tr>
+        </table>
+      </div>
+    </div>
+
+    <div class="callout amber">
+      <strong>🔍 A conta matemática que muda tudo</strong>
+      Cada post da Sinfonya gera, em média, <b>13,1 interações</b> (curtidas + comentários). Se essa base tivesse o engajamento normal de uma agência de turismo (cerca de 1%), esse número corresponderia a uma audiência real de aproximadamente <b>1.300 pessoas</b> — ou seja, <b>2,6% dos 50.393 seguidores</b>. Se aplicássemos um padrão de 3%, comum em contas bem geridas, a base efetiva seria de apenas 436 pessoas.
+      <br><br>
+      Em outras palavras: o número que aparece no perfil é 50 mil, mas <b>o público que de fato recebe e reage ao conteúdo cabe em um ônibus de excursão — algumas dezenas de vezes</b>. Toda a estratégia atual está sendo dimensionada para uma audiência que não existe.
+    </div>
+
+    <div class="card">
+      <h3>Engajamento da Sinfonya vs. Referências do Setor</h3>
+      <div class="chart-wrap">
+        <canvas id="chartAudiencia"></canvas>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Evolução Mês a Mês</h3>
+      <div class="tbl-wrap">
+        <table>
+          <tr><th>Mês</th><th>Posts</th><th>Curtidas médias</th><th>ER</th><th>Views médias dos Reels</th></tr>
+          <tr><td>Maio/2026 (a partir de 13/05)</td><td>22</td><td>11,6</td><td>0,0245%</td><td>975</td></tr>
+          <tr><td>Junho/2026</td><td>55</td><td>11,6</td><td>0,0308%</td><td>583</td></tr>
+          <tr><td>Julho/2026</td><td><strong>88</strong></td><td>10,6</td><td>0,0239%</td><td>967</td></tr>
+          <tr><td>Agosto/2026 (até 03/08)</td><td>3</td><td><strong>3,0</strong></td><td>0,0066%</td><td>864</td></tr>
+        </table>
+      </div>
+    </div>
+
+    <div class="insight bad">
+      <div class="insight-header">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+        O que isso significa para você
+      </div>
+      <div class="insight-body">
+        <span class="verdict">&#9654; Atenção</span>
+        <p>Julho teve <strong>quatro vezes mais posts que maio e um engajamento médio menor</strong>. Esse é o dado mais importante desta seção, porque ele desmonta a hipótese mais comum quando um perfil não vende: &ldquo;precisamos postar mais&rdquo;. A Sinfonya já testou isso na prática, por três meses, e o resultado foi negativo. Quando o volume sobe e o retorno cai, o problema não é frequência — é distribuição e relevância. O algoritmo do Instagram funciona por teste: ele mostra o post a uma pequena fração da base e, se essa fração não reage, interrompe a entrega. Com uma base que quase não reage, cada novo post reforça para o algoritmo que o conteúdo não merece alcance. <strong>Sem uma intervenção estrutural, publicar mais só acelera a queda.</strong></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="conteudo">
+    <div class="section-header">
+      <div class="section-num">3</div>
+      <h2>Estratégia de Conteúdo</h2>
+    </div>
+
+    <div class="card">
+      <h3>Mix de Formatos — 168 posts auditados</h3>
+      <div class="format-grid">
+        <div class="chart-wrap" style="height:240px;">
+          <canvas id="chartFormatos"></canvas>
+        </div>
+        <div>
+          <div class="tbl-wrap">
+            <table>
+              <tr><th>Formato</th><th>Volume</th><th>Curtidas médias</th><th>ER</th></tr>
+              <tr><td><strong>Reels</strong></td><td>77 (45,8%)</td><td>8,4</td><td>0,0195%</td></tr>
+              <tr><td><strong>Carrosséis</strong></td><td>59 (35,1%)</td><td>9,8</td><td>0,0226%</td></tr>
+              <tr><td><strong>Imagem única</strong></td><td>32 (19,0%)</td><td><strong>19,1</strong></td><td><strong>0,0475%</strong></td></tr>
+            </table>
+          </div>
+          <div class="callout primary" style="margin-top:16px;">
+            <strong>⚠️ Inversão anormal</strong>
+            A imagem estática rende <b>2,3 vezes mais</b> que o Reel neste perfil. Em contas saudáveis acontece o contrário, porque o Reel é o formato que o Instagram mais distribui. Quando o Reel perde para a foto, o diagnóstico é quase sempre o mesmo: o vídeo não é conteúdo nativo, é anúncio em movimento — e o algoritmo trata como tal.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Desempenho por Tema (168 posts classificados)</h3>
+      <div class="tbl-wrap">
+        <table>
+          <tr><th>Tema</th><th>Posts</th><th>Curtidas médias</th><th>Comentários médios</th><th>Leitura</th></tr>
+          <tr><td><strong>Sorteio / interação</strong></td><td>3</td><td>26,0</td><td><strong>40,7</strong></td><td><span class="badge badge-green">Dispara comentário — subutilizado</span></td></tr>
+          <tr><td><strong>Prova social (cliente real)</strong></td><td>18</td><td><strong>28,4</strong></td><td>2,7</td><td><span class="badge badge-green">O melhor conteúdo do perfil</span></td></tr>
+          <tr><td>Bastidores / famtour</td><td>3</td><td>12,7</td><td>5,0</td><td><span class="badge badge-blue">Bom retorno, pouco explorado</span></td></tr>
+          <tr><td>Excursão em grupo</td><td>27</td><td>11,6</td><td>1,3</td><td><span class="badge badge-blue">Acima da média do perfil</span></td></tr>
+          <tr><td>Data comemorativa</td><td>4</td><td>10,8</td><td>2,3</td><td><span class="badge badge-blue">Na média</span></td></tr>
+          <tr><td>Cruzeiro</td><td>7</td><td>9,3</td><td>0,3</td><td><span class="badge badge-amber">Alcance, sem conversa</span></td></tr>
+          <tr><td>Oferta / pacote com preço</td><td>4</td><td>9,0</td><td>0,3</td><td><span class="badge badge-amber">Abaixo da média</span></td></tr>
+          <tr><td>Institucional sobre a empresa</td><td>18</td><td>5,8</td><td>0,6</td><td><span class="badge badge-amber">Texto corporativo não engaja</span></td></tr>
+          <tr><td>Resort / all inclusive</td><td>13</td><td><strong>4,8</strong></td><td>1,8</td><td><span class="badge badge-amber">Pior tema do perfil</span></td></tr>
+        </table>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Quando a Sinfonya Publica — e Quando Deveria</h3>
+      <div class="tbl-wrap">
+        <table>
+          <tr><th>Dia da semana</th><th>Posts</th><th>Curtidas médias</th><th>Leitura</th></tr>
+          <tr><td><strong>Sábado</strong></td><td>6</td><td><strong>24,5</strong></td><td><span class="badge badge-green">✅ Melhor dia — e o menos usado</span></td></tr>
+          <tr><td>Sexta</td><td>40</td><td>11,6</td><td>Volume alto, retorno médio</td></tr>
+          <tr><td>Segunda</td><td>14</td><td>11,1</td><td>Na média</td></tr>
+          <tr><td>Quinta</td><td>40</td><td>11,0</td><td>Volume alto, retorno médio</td></tr>
+          <tr><td>Quarta</td><td><strong>50</strong></td><td>9,5</td><td><span class="badge badge-amber">⚠️ Dia de maior volume e retorno abaixo da média</span></td></tr>
+          <tr><td>Terça</td><td>18</td><td>8,6</td><td>Abaixo da média</td></tr>
+          <tr><td><strong>Domingo</strong></td><td><strong>0</strong></td><td>—</td><td><span class="badge badge-amber">⚠️ Nenhum post em 82 dias</span></td></tr>
+        </table>
+      </div>
+      <div class="callout primary" style="margin-top:16px;">
+        <strong>🕐 Sobre o horário</strong>
+        63 dos 168 posts saíram entre 14h e 15h — o pico de produção da equipe, não o pico de consumo do público. Os poucos posts publicados às 9h (19,2 curtidas médias), 20h (15,7) e 21h (14,2) tiveram desempenho bem acima da média do perfil. <b>Fim de tarde, noite e fim de semana são as janelas em que as pessoas realmente sonham com viagem</b> — e são justamente as menos ocupadas hoje.
+      </div>
+    </div>
+
+    <div class="insight warn">
+      <div class="insight-header">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+        O que isso significa para você
+      </div>
+      <div class="insight-body">
+        <span class="verdict">&#9654; Atenção</span>
+        <p>Os dados apontam um caminho concreto e barato: <strong>a Sinfonya está publicando mais do tipo de conteúdo que menos funciona e menos do tipo que mais funciona.</strong> Resort e all inclusive (4,8 curtidas) e institucional corporativo (5,8) somam 31 posts. Prova social com cliente real (28,4) e bastidores (12,7) somam 21. Se essa proporção fosse invertida, o mesmo esforço de produção geraria de duas a três vezes mais engajamento — sem contratar ninguém, sem investir em mídia. Some a isso o deslocamento de parte da grade para sábado, domingo e horários de noite, e você tem o primeiro ganho mensurável em menos de 30 dias.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="engajamento">
+    <div class="section-header">
+      <div class="section-num">4</div>
+      <h2>Engajamento e Posts Mais Curtidos</h2>
+    </div>
+
+    <div class="card">
+      <h3>Ranking dos Posts Mais Curtidos (amostra de 168)</h3>
+      <div class="tbl-wrap">
+        <table>
+          <tr><th>#</th><th>Post</th><th>Data</th><th>Formato</th><th>Curtidas</th><th>Comentários</th><th>Por que funcionou</th></tr>
+          <tr><td>1</td><td>15 anos da Sinfonya — &ldquo;desde 31 de agosto de 2011&rdquo;</td><td>10/07</td><td>Imagem</td><td><strong>204</strong></td><td>0</td><td>História e legado: o conteúdo mais humano do trimestre</td></tr>
+          <tr><td>2</td><td>Cliente Edna no Makai Resort All Inclusive</td><td>16/07</td><td>Carrossel</td><td><strong>132</strong></td><td>20</td><td>Pessoa real, com nome, vivendo a viagem</td></tr>
+          <tr><td>3</td><td>Palpite Premiado da Copa (sorteio de mala)</td><td>13/06</td><td>Imagem</td><td>64</td><td><strong>121</strong></td><td>Incentivo + regra simples: 33% de todos os comentários do trimestre</td></tr>
+          <tr><td>4</td><td>&ldquo;Viver é diferente de estar vivo&rdquo;</td><td>22/07</td><td>Imagem</td><td>51</td><td>7</td><td>Frase curta, sem oferta — respirou no meio do catálogo</td></tr>
+          <tr><td>5</td><td>Melhores momentos no Makai</td><td>22/07</td><td>Imagem</td><td>51</td><td>12</td><td>Continuação da narrativa do cliente real</td></tr>
+          <tr><td>6</td><td>Excursão Caldas Novas — Julho 2026</td><td>03/06</td><td>Imagem</td><td>40</td><td>0</td><td>Destino popular, saída próxima, público certo</td></tr>
+          <tr><td>7</td><td>Casal em Maceió — viagem inesquecível</td><td>11/06</td><td>Carrossel</td><td>39</td><td>8</td><td>Prova social novamente no topo</td></tr>
+          <tr><td>8</td><td>Excursões 2026/2027 (post fixado)</td><td>27/06</td><td>Imagem</td><td>37</td><td>5</td><td>Calendário anual: conteúdo de referência, salvável</td></tr>
+        </table>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Interações nos Posts de Maior Alcance</h3>
+      <div class="chart-wrap">
+        <canvas id="chartEngajamento"></canvas>
+      </div>
+    </div>
+
+    <div class="callout amber">
+      <strong>⚠️ O paradoxo do Reel de 11.530 visualizações</strong>
+      O Reel de Punta Cana (01/07) foi o mais visto do trimestre: <b>11.530 visualizações</b>. Recebeu <b>14 curtidas e 3 comentários</b> — uma taxa de 0,12%. Não é um caso isolado: os Reels com mais de 1.500 visualizações convertem apenas 0,37% em curtida, enquanto os de menos de 400 visualizações convertem 1,78%.
+      <br><br>
+      A leitura é dura, mas útil: <b>quanto mais gente esse conteúdo alcança, menos gente reage</b>. Isso significa que o alcance grande não está vindo de pessoas interessadas em viajar com a Sinfonya — está vindo de entrega ampla e fria, para um público sem afinidade nenhuma com a marca. Alcance sem ressonância não vira orçamento; vira número bonito no relatório.
+    </div>
+
+    <div class="insight info">
+      <div class="insight-header">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+        O que isso significa para você
+      </div>
+      <div class="insight-body">
+        <span class="verdict">&#9733; Destaque</span>
+        <p>Olhe a lista dos 8 maiores posts: <strong>cinco deles não são ofertas.</strong> São a história da empresa, uma cliente chamada Edna, um sorteio, uma frase sobre viver e um casal em Maceió. O único pacote comercial que aparece bem colocado é a excursão a Caldas Novas — destino popular, saída próxima, ticket acessível. Enquanto isso, os posts de Maldivas, Seychelles e resorts de luxo ficaram com 1 a 3 curtidas. <strong>O seu público diz, todos os dias e com clareza, o que quer ver: gente de verdade viajando, destinos que ele consegue pagar e motivos para participar.</strong> A boa notícia é que esse conteúdo é o mais barato de produzir — ele já acontece em cada embarque. É só passar a registrar e publicar.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="collabs">
+    <div class="section-header">
+      <div class="section-num">5</div>
+      <h2>Destaques, Prova Social e Conversão</h2>
+    </div>
+
+    <div class="card">
+      <h3>Destaques Atuais — 164 itens catalogados</h3>
+      <div class="tbl-wrap">
+        <table>
+          <tr><th>Destaque</th><th>Itens</th><th>Avaliação estratégica</th></tr>
+          <tr><td>⭐ Clientes</td><td><strong>88</strong></td><td><span class="badge badge-green">✅ O ativo mais valioso do perfil — e está escondido nos stories</span></td></tr>
+          <tr><td>📌 Nossa Empresa</td><td>18</td><td><span class="badge badge-blue">Institucional: deveria alimentar a bio e o feed</span></td></tr>
+          <tr><td>👨‍👩‍👧‍👦 Grupos</td><td>14</td><td><span class="badge badge-green">Prova de operação real de excursões</span></td></tr>
+          <tr><td>✈️ Viagens</td><td>12</td><td><span class="badge badge-blue">Genérico — não diz qual viagem nem para quem</span></td></tr>
+          <tr><td>⛪️ Cristão</td><td>10</td><td><span class="badge badge-blue">Nicho com alta recorrência e ticket previsível</span></td></tr>
+          <tr><td>🏆 Premiações</td><td>9</td><td><span class="badge badge-green">Autoridade de mercado nunca mencionada na bio</span></td></tr>
+          <tr><td>💬 Feedbacks</td><td>8</td><td><span class="badge badge-green">Depoimento é o que fecha venda em turismo</span></td></tr>
+          <tr><td>🚢 Cruzeiro</td><td>5</td><td><span class="badge badge-amber">Produto de alto ticket com pouca sustentação</span></td></tr>
+        </table>
+      </div>
+      <div class="callout green" style="margin-top:16px;">
+        <strong>💎 96 provas sociais já registradas</strong>
+        Somando &ldquo;⭐ Clientes&rdquo; e &ldquo;💬 Feedbacks&rdquo;, a Sinfonya tem <b>96 registros de clientes reais</b> guardados em destaques que quase ninguém abre. Ao mesmo tempo, os posts de prova social no feed rendem <b>28,4 curtidas em média — 2,6 vezes a média do perfil</b>. O melhor conteúdo da agência já foi produzido; ele só está no lugar errado.
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Parcerias e Marcações Identificadas na Amostra</h3>
+      <div class="collab-grid">
+        <div class="collab-card">
+          <div class="collab-avatar">🚌</div>
+          <div>
+            <div class="collab-handle">@sinfonyaturismo_patosdeminas</div>
+            <div class="collab-desc">Marcada em 94 dos 168 posts — a filial aparece mais que a matriz no próprio conteúdo</div>
+          </div>
+        </div>
+        <div class="collab-card">
+          <div class="collab-avatar">✈️</div>
+          <div>
+            <div class="collab-handle">@boraviajarbaratooficial</div>
+            <div class="collab-desc">15 posts em coautoria — a parceria de maior volume da amostra</div>
+          </div>
+        </div>
+        <div class="collab-card">
+          <div class="collab-avatar">🎓</div>
+          <div>
+            <div class="collab-handle">@sinfonyaformaturas</div>
+            <div class="collab-desc">14 posts — público jovem, alto potencial de viralização ainda não explorado</div>
+          </div>
+        </div>
+        <div class="collab-card">
+          <div class="collab-avatar">🏛️</div>
+          <div>
+            <div class="collab-handle">@abav_df</div>
+            <div class="collab-desc">7 posts — vínculo com a ABAV-DF, selo de credibilidade nunca usado na bio</div>
+          </div>
+        </div>
+        <div class="collab-card">
+          <div class="collab-avatar">🏨</div>
+          <div>
+            <div class="collab-handle">@makairesort · @bwtoperadora · @pyreneusresidence</div>
+            <div class="collab-desc">Operadoras e resorts parceiros — co-marketing pontual, sem calendário definido</div>
+          </div>
+        </div>
+        <div class="collab-card">
+          <div class="collab-avatar">🤝</div>
+          <div>
+            <div class="collab-handle">@executivananylima · @defebibc</div>
+            <div class="collab-desc">Perfis citados repetidamente nas legendas — rede de indicação já ativa</div>
+          </div>
+        </div>
+      </div>
+      <div class="callout primary" style="margin-top:16px;">
+        <strong>📊 O dado que justifica investir em parceria</strong>
+        Posts publicados em coautoria receberam <b>3,41 comentários em média</b>, contra 0,79 dos posts solo — <b>4,3 vezes mais conversa</b>. Coautoria coloca o post no feed das duas audiências e é, hoje, a alavanca de alcance mais barata disponível para a Sinfonya. Ainda assim, ela acontece sem calendário, sem meta e sem escolha estratégica de parceiro.
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Funil Recomendado para os Destaques</h3>
+      <div class="funnel">
+        <div class="funnel-step f1">👋 Comece aqui — quem é a Sinfonya, 15 anos, sede, ABAV-DF e como funciona uma viagem em grupo</div>
+        <div class="funnel-step f2">🗓️ Próximas saídas — calendário de excursões com data, origem e vagas restantes</div>
+        <div class="funnel-step f3">💬 Quem já foi — depoimentos e fotos reais dos 96 clientes já registrados</div>
+        <div class="funnel-step f4">❓ Dúvidas frequentes — pagamento, bagagem, documentação, seguro e cancelamento</div>
+        <div class="funnel-step f4">📲 Fale com um consultor — como pedir orçamento e o que enviar no WhatsApp</div>
+      </div>
+    </div>
+
+    <div class="insight good">
+      <div class="insight-header">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+        O que isso significa para você
+      </div>
+      <div class="insight-body">
+        <span class="verdict">&#9650; Bom</span>
+        <p>Este é o ponto mais animador da auditoria: <strong>a Sinfonya não precisa criar autoridade do zero — ela já tem, apenas guardada no lugar errado.</strong> São 15 anos de operação, vínculo com a ABAV-DF, 9 premiações, 96 clientes documentados e uma rede de operadoras parceiras. Nada disso aparece na bio, no feed ou no primeiro contato de quem chega. Um visitante hoje vê flyers; ele deveria ver uma agência premiada, com 15 anos de estrada e centenas de viajantes satisfeitos. Reorganizar os destaques em jornada e trazer a prova social para o feed é trabalho de semanas, não de meses — e mexe diretamente na taxa de fechamento de quem já chega ao WhatsApp.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="temas">
+    <div class="section-header">
+      <div class="section-num">6</div>
+      <h2>Temas, Palavras-Chave e CTAs</h2>
+    </div>
+
+    <div class="card">
+      <h3>Hashtags Mais Usadas na Amostra</h3>
+      <div class="tag-cloud">
+        <span class="tag high">#sinfonyateleva (127 posts)</span>
+        <span class="tag high">#sinfonyaturismo (106)</span>
+        <span class="tag high">#viagemdossonhos (64)</span>
+        <span class="tag mid">#experienciasingular (60)</span>
+        <span class="tag mid">#sinfo2k26 (60)</span>
+        <span class="tag mid">#destinosextraordinarios (40)</span>
+        <span class="tag mid">#destinosextraordinários (35)</span>
+        <span class="tag low">#experiencias (18)</span>
+        <span class="tag low">#experienciassingulares (11)</span>
+        <span class="tag low">#caldasnovas (9)</span>
+        <span class="tag low">#viagem (9)</span>
+        <span class="tag low">#gramado (8)</span>
+        <span class="tag low">#turismo (8)</span>
+        <span class="tag low">#natalluz (7)</span>
+        <span class="tag low">#viralreeĺ (7)</span>
+        <span class="tag low">#famtour (6)</span>
+        <span class="tag low">#abavdf (5)</span>
+      </div>
+      <div class="callout amber" style="margin-top:16px;">
+        <strong>🏷️ Três problemas concretos nas hashtags</strong>
+        <br><br>
+        <b>1. Só marca própria no topo.</b> As 6 hashtags mais usadas são inventadas pela agência. Ninguém busca #sinfonyateleva no Instagram — elas só funcionam para organizar o acervo interno, não para atrair gente nova.
+        <br><br>
+        <b>2. A mesma tag escrita de duas formas.</b> #destinosextraordinarios (40 posts) e #destinosextraordinários (35 posts) são hashtags <b>diferentes</b> para o Instagram. A força de 75 posts está dividida ao meio por causa de um acento.
+        <br><br>
+        <b>3. Hashtag quebrada.</b> #viralreeĺ aparece em 7 posts com um caractere acentuado incorreto no lugar do L. Essa hashtag não existe, não é indexada e não entrega nada. São 7 posts que tentaram alcance e não tiveram nenhum.
+        <br><br>
+        Enquanto isso, as tags que geram busca real de quem quer viajar — <b>#caldasnovas (9), #gramado (8), #natalluz (7)</b> — aparecem em menos de 6% dos posts.
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Chamadas para Ação (CTAs) — 168 posts analisados</h3>
+      <div class="tbl-wrap">
+        <table>
+          <tr><th>Tipo de CTA</th><th>Posts</th><th>%</th><th>Avaliação</th></tr>
+          <tr><td>Convite a agendar / reservar / garantir vaga</td><td>132</td><td>79%</td><td><span class="badge badge-green">✅ Presente na maioria</span></td></tr>
+          <tr><td>Telefone ou WhatsApp escrito na legenda</td><td>129</td><td>77%</td><td><span class="badge badge-amber">⚠️ Número digitado: o usuário precisa copiar à mão</span></td></tr>
+          <tr><td>Preço explícito na legenda</td><td>30</td><td>18%</td><td><span class="badge badge-blue">Pode ser filtro ou barreira</span></td></tr>
+          <tr><td>&ldquo;Chama no direct&rdquo; / DM</td><td>4</td><td>2%</td><td><span class="badge badge-amber">⚠️ Quase inexistente</span></td></tr>
+          <tr><td>&ldquo;Link na bio&rdquo;</td><td>0</td><td><strong>0%</strong></td><td><span class="badge badge-amber">⚠️ Nenhum post direciona para a bio</span></td></tr>
+          <tr><td>Comentário-gatilho (&ldquo;comente X&rdquo;)</td><td>3</td><td>2%</td><td><span class="badge badge-amber">⚠️ O que mais gera comentário é o menos usado</span></td></tr>
+          <tr><td>Site próprio</td><td>0</td><td><strong>0%</strong></td><td><span class="badge badge-amber">⚠️ A agência não tem site divulgado</span></td></tr>
+        </table>
+      </div>
+      <div class="callout primary" style="margin-top:16px;">
+        <strong>💡 O CTA existe, mas o caminho tem atrito</strong>
+        79% dos posts pedem alguma ação — isso é bom e incomum. O problema é o <b>destino</b>: o número de WhatsApp aparece digitado dentro de uma legenda de 770 caracteres, o que obriga o interessado a selecionar, copiar, abrir outro aplicativo e colar. Cada etapa dessas derruba a conversão. E como não há link rastreável em nenhum post, <b>é impossível saber qual destino, qual formato ou qual dia gerou cada orçamento</b> — a agência está vendendo às cegas.
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Temas com Maior Potencial Comercial (baseados nos seus próprios dados)</h3>
+      <div class="tbl-wrap">
+        <table>
+          <tr><th>Tema</th><th>Por que funciona para a Sinfonya</th><th>CTA sugerido</th></tr>
+          <tr><td><strong>&ldquo;Quem foi com a gente&rdquo;</strong> — cliente real por nome</td><td>28,4 curtidas médias: o melhor desempenho do perfil</td><td>&ldquo;Quer viver isso também? Toque em Enviar mensagem&rdquo;</td></tr>
+          <tr><td><strong>Excursão com data e origem</strong> (Caldas Novas, Maceió, Gramado)</td><td>Destinos populares: 14,2 curtidas médias contra 6,1 dos internacionais</td><td>&ldquo;Comente CALDAS e receba o roteiro completo&rdquo;</td></tr>
+          <tr><td><strong>Bastidor de embarque e famtour</strong></td><td>5,0 comentários médios — quase 2,5x a média do perfil</td><td>&ldquo;Marque quem você levaria nessa&rdquo;</td></tr>
+          <tr><td><strong>Sorteio com regra simples</strong></td><td>Um único sorteio gerou 121 comentários — 33% do trimestre</td><td>&ldquo;Siga, comente o destino e marque 2 amigos&rdquo;</td></tr>
+          <tr><td><strong>Bastidores da agência e dos 15 anos</strong></td><td>O post de aniversário foi o maior do trimestre: 204 curtidas</td><td>&ldquo;15 anos levando gente pra viajar. Bora ser o próximo?&rdquo;</td></tr>
+          <tr><td><strong>Educação do viajante</strong> (documentação, bagagem, seguro)</td><td>Conteúdo salvável e compartilhável — o que o algoritmo mais premia</td><td>&ldquo;Salve para a sua próxima viagem&rdquo;</td></tr>
+          <tr><td><strong>Vagas restantes / grupo esgotado</strong></td><td>Escassez real: a agência já publica &ldquo;data esgotada&rdquo; sem explorar o gatilho</td><td>&ldquo;Restam 6 vagas — chame agora&rdquo;</td></tr>
+        </table>
+      </div>
+    </div>
+
+    <div class="insight info">
+      <div class="insight-header">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+        O que isso significa para você
+      </div>
+      <div class="insight-body">
+        <span class="verdict">&#9733; Destaque</span>
+        <p>Existe um item nesta seção que resume o estado da operação: <strong>a hashtag #viralreeĺ, usada em 7 posts, tem um caractere errado e simplesmente não existe no Instagram.</strong> Ninguém revisou. É um detalhe pequeno, mas ele conta a história toda — há muita produção acontecendo e pouca revisão estratégica em cima dela. O mesmo vale para os 75 posts com a hashtag dividida por um acento e para os 129 posts que pedem WhatsApp sem oferecer um caminho de um toque. <strong>Nada disso exige aumentar o orçamento; exige alguém olhando os números toda semana e ajustando.</strong> É exatamente esse o trabalho que falta, e é o de retorno mais rápido em todo este documento.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="audiencia">
+    <div class="section-header">
+      <div class="section-num">7</div>
+      <h2>Análise de Audiência</h2>
+    </div>
+
+    <div class="card">
+      <h3>Composição Estimada da Base de 50.393 Seguidores</h3>
+      <div class="chart-wrap">
+        <canvas id="chartAudienciaSegmentos"></canvas>
+      </div>
+      <div class="callout amber" style="margin-top:16px;">
+        <strong>Como chegamos a esses números</strong>
+        A estimativa parte das interações reais medidas: 13,1 interações médias por post e 853 visualizações médias por Reel, contra uma base declarada de 50.393. Aplicando as taxas de engajamento típicas do setor de turismo, a fatia da base que se comporta como audiência viva fica entre <b>1% e 3% do total</b>. O restante são contas inativas, abandonadas, fora do perfil comercial ou que simplesmente nunca recebem o conteúdo.
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Comportamento Observado por Segmento</h3>
+      <div class="tbl-wrap">
+        <table>
+          <tr><th>Segmento</th><th>O que os dados mostram</th></tr>
+          <tr><td><strong>Núcleo ativo (~1.300 pessoas)</strong></td><td>É quem curte, comenta e responde. Reage principalmente a cliente real, excursão popular e sorteio</td></tr>
+          <tr><td><strong>Base dormente</strong></td><td>A maior parte dos 50 mil: não recebe ou não abre o conteúdo. Reduz a taxa de entrega de todo post novo</td></tr>
+          <tr><td><strong>Público de excursão rodoviária</strong></td><td>Caldas Novas, Maceió, Gramado, Porto Seguro: 14,2 curtidas médias. É o público que realmente compra</td></tr>
+          <tr><td><strong>Público de alto ticket internacional</strong></td><td>Maldivas, Seychelles, Punta Cana, Europa: 6,1 curtidas médias. Presente no feed, ausente na base</td></tr>
+          <tr><td><strong>Audiência de Patos de Minas (MG)</strong></td><td>A filial é marcada em 94 posts. Parte relevante da base é de Minas, enquanto o WhatsApp da bio é de Brasília (61)</td></tr>
+          <tr><td><strong>Alcance frio dos Reels</strong></td><td>Reels acima de 1.500 views convertem só 0,37% em curtida — entrega ampla para gente sem afinidade</td></tr>
+          <tr><td><strong>Turismo religioso e formaturas</strong></td><td>Nichos de alta recorrência e ticket previsível, hoje empurrados para contas satélite com pouca sustentação</td></tr>
+        </table>
+      </div>
+    </div>
+
+    <div class="insight bad">
+      <div class="insight-header">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+        O que isso significa para você
+      </div>
+      <div class="insight-body">
+        <span class="verdict">&#9654; Atenção</span>
+        <p>Este é o diagnóstico mais desconfortável da auditoria e também o mais importante: <strong>o número 50.393 está tomando decisões erradas pela Sinfonya.</strong> Ele passa a sensação de que a agência tem presença digital consolidada e que o problema é apenas conversão — quando na verdade o alcance real por publicação é de algumas centenas de pessoas. Todo o esforço de produzir 2 posts por dia está sendo dimensionado para uma audiência que não existe mais. A saída não é comprar mais seguidores nem postar mais: <strong>é reconstruir a base a partir do núcleo que ainda responde</strong>, com conteúdo que gere sinal positivo suficiente para o algoritmo voltar a distribuir. Mil seguidores que abrem, comentam e pedem orçamento valem mais, comercialmente, do que 50 mil que nunca viram o seu post.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="swot">
+    <div class="section-header">
+      <div class="section-num">8</div>
+      <h2>Análise SWOT do Instagram</h2>
+    </div>
+
+    <div class="card">
+      <div class="swot-grid">
+        <div class="swot-cell swot-s">
+          <h4>💪 Forças</h4>
+          <ul>
+            <li>15 anos de operação desde 2011 — longevidade rara no setor</li>
+            <li>Disciplina de publicação de 2,05 posts por dia</li>
+            <li>96 clientes e depoimentos já documentados em destaques</li>
+            <li>9 premiações registradas e vínculo com a ABAV-DF</li>
+            <li>Portfólio amplo: excursões, cruzeiros, resorts, formaturas e religioso</li>
+            <li>Estrutura multimarca com 5 perfis e filial em Patos de Minas</li>
+            <li>79% dos posts já trazem alguma chamada para ação</li>
+          </ul>
+        </div>
+        <div class="swot-cell swot-w">
+          <h4>⚠️ Fraquezas</h4>
+          <ul>
+            <li>ER de 0,026% — cerca de 35x abaixo do padrão do setor</li>
+            <li>Reels alcançam apenas 1,7% da própria base</li>
+            <li>Conta ainda é perfil pessoal: sem métricas nem botão de contato</li>
+            <li>Bio sem proposta de valor, sem cidade, sem site e sem prova social</li>
+            <li>Reels rendem menos que fotos — sinal de conteúdo não nativo</li>
+            <li>Legendas de 770 caracteres sem gancho nas primeiras linhas</li>
+            <li>Hashtags de marca própria; 75 posts divididos por um acento</li>
+            <li>Apenas 3 de 168 posts com geolocalização</li>
+            <li>Zero rastreio: impossível ligar post a orçamento</li>
+          </ul>
+        </div>
+        <div class="swot-cell swot-o">
+          <h4>🚀 Oportunidades</h4>
+          <ul>
+            <li>Prova social pronta: 96 registros esperando virar conteúdo de feed</li>
+            <li>Sábado rende 24,5 curtidas médias e domingo está totalmente livre</li>
+            <li>Coautoria gera 4,3x mais comentários — parceria com operadoras e resorts</li>
+            <li>Sorteio com regra simples: 121 comentários em um único post</li>
+            <li>Turismo religioso e formaturas: nichos de recorrência e ticket previsível</li>
+            <li>Busca por destino: #caldasnovas e #gramado quase não são usadas</li>
+            <li>Catálogo de saídas 2026/2027 pronto para virar landing page rastreável</li>
+            <li>Instagram Business + anúncios locais para DF e Patos de Minas</li>
+          </ul>
+        </div>
+        <div class="swot-cell swot-t">
+          <h4>⚡ Ameaças</h4>
+          <ul>
+            <li>Queda contínua de entrega: quanto mais posts sem reação, menor o alcance seguinte</li>
+            <li>Agências digitais nativas disputam o mesmo cliente com conteúdo de criador</li>
+            <li>OTAs (Booking, Decolar, 123milhas) capturam a busca direta por destino</li>
+            <li>Dependência total do WhatsApp, sem base de dados própria de clientes</li>
+            <li>Equipe produzindo 2 posts/dia sem retorno: risco de desgaste e desistência</li>
+            <li>Concentração de posts em Punta Cana/Maldivas atrai público sem poder de compra local</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="insight info">
+      <div class="insight-header">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+        O que isso significa para você
+      </div>
+      <div class="insight-body">
+        <span class="verdict">&#9733; Destaque</span>
+        <p>Repare na natureza das duas colunas de cima. <strong>As forças da Sinfonya são as difíceis de construir</strong> — 15 anos de operação, premiações, filial física, centenas de clientes atendidos, uma equipe que produz todo dia. Nenhum concorrente novo compra isso. <strong>As fraquezas são todas de execução digital</strong> — bio, formato de Reel, hashtag, geolocalização, tipo de conta, rastreio. Todas corrigíveis em semanas. Essa é a melhor combinação possível em um diagnóstico: o que falta é barato e o que existe é insubstituível. O inverso — engajamento alto sem operação real por trás — seria irrecuperável. O único fator que pesa contra é o relógio: cada mês publicando 60 posts sem reação treina o algoritmo a entregar menos ainda.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="comparativo">
+    <div class="section-header">
+      <div class="section-num">9</div>
+      <h2>Conteúdo de Gente vs. Conteúdo de Catálogo</h2>
+    </div>
+
+    <div class="vs-grid">
+      <div class="vs-card vs-ig">
+        <div class="vs-platform">👥 Conteúdo de gente</div>
+        <div class="vs-metric"><span class="vs-metric-label">Amostra</span><span class="vs-metric-val">24 posts</span></div>
+        <div class="vs-metric"><span class="vs-metric-label">Curtidas médias</span><span class="vs-metric-val">26,4</span></div>
+        <div class="vs-metric"><span class="vs-metric-label">Comentários médios</span><span class="vs-metric-val">3,1</span></div>
+        <div class="vs-metric"><span class="vs-metric-label">Maior post</span><span class="vs-metric-val">204 curtidas</span></div>
+        <div class="vs-metric"><span class="vs-metric-label">Custo de produção</span><span class="vs-metric-val">Quase zero</span></div>
+        <div class="vs-metric"><span class="vs-metric-label">Peso no feed hoje</span><span class="vs-metric-val">14%</span></div>
+      </div>
+      <div class="vs-card vs-yt">
+        <div class="vs-platform">📄 Conteúdo de catálogo</div>
+        <div class="vs-metric"><span class="vs-metric-label">Amostra</span><span class="vs-metric-val">48 posts</span></div>
+        <div class="vs-metric"><span class="vs-metric-label">Curtidas médias</span><span class="vs-metric-val">7,4</span></div>
+        <div class="vs-metric"><span class="vs-metric-label">Comentários médios</span><span class="vs-metric-val">1,1</span></div>
+        <div class="vs-metric"><span class="vs-metric-label">Maior post</span><span class="vs-metric-val">40 curtidas</span></div>
+        <div class="vs-metric"><span class="vs-metric-label">Custo de produção</span><span class="vs-metric-val">Alto (arte + copy)</span></div>
+        <div class="vs-metric"><span class="vs-metric-label">Peso no feed hoje</span><span class="vs-metric-val">29%</span></div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Desempenho Comparado por Tipo de Conteúdo</h3>
+      <div class="chart-wrap">
+        <canvas id="chartComparativo"></canvas>
+      </div>
+      <div class="callout primary" style="margin-top:16px;">
+        <strong>📐 Como os grupos foram formados</strong>
+        <b>Conteúdo de gente</b> reúne os posts com cliente real identificado, bastidor de embarque, famtour, equipe e história da empresa (24 posts). <b>Conteúdo de catálogo</b> reúne os posts de resort, all inclusive, pacote com preço e institucional corporativo (48 posts). A classificação foi feita por análise das 168 legendas completas.
+      </div>
+    </div>
+
+    <div class="insight bad">
+      <div class="insight-header">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+        O que isso significa para você
+      </div>
+      <div class="insight-body">
+        <span class="verdict">&#9654; Atenção</span>
+        <p>A conclusão é direta: <strong>a Sinfonya produz o dobro do conteúdo que rende um terço do resultado.</strong> Cada flyer de resort custa briefing, arte, revisão e agendamento — e entrega 7,4 curtidas. Cada foto de cliente embarcando custa um celular apontado no momento certo — e entrega 26,4. Não se trata de parar de divulgar pacote: catálogo é necessário para vender. Trata-se de <strong>inverter a proporção e mudar a embalagem</strong>: o mesmo pacote de Maceió apresentado através da Edna, que já foi, com foto real e depoimento, é ao mesmo tempo prova social e oferta. O post fica mais barato, engaja mais e vende melhor. Isso não é uma opinião de agência: são os seus próprios 168 posts dizendo isso.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="recomendacoes">
+    <div class="section-header">
+      <div class="section-num">10</div>
+      <h2>Recomendações Estratégicas</h2>
+    </div>
+
+    <div class="rec-grid">
+      <div class="rec-card rec-short">
+        <h4>⚡ Curto Prazo (0–3 meses)</h4>
+        <ul>
+          <li>Migrar para Instagram Business: métricas nativas, botão de contato e anúncios liberados</li>
+          <li>Reescrever a bio com proposta de valor, cidade, 15 anos, ABAV-DF e vínculo com as filiais</li>
+          <li>Trocar o link único por uma página de saídas rastreável, com WhatsApp de um toque por destino</li>
+          <li>Reduzir de 2 posts/dia para 5 por semana, cada um com objetivo comercial definido</li>
+          <li>Levar a prova social dos destaques para o feed: 2 posts de cliente real por semana</li>
+          <li>Corrigir a hashtag quebrada, unificar #destinosextraordinarios e montar blocos por destino</li>
+          <li>Marcar geolocalização em 100% dos posts de destino</li>
+          <li>Ocupar sábado e domingo e testar as janelas de 9h, 20h e 21h</li>
+        </ul>
+      </div>
+      <div class="rec-card rec-mid">
+        <h4>📈 Médio Prazo (3–12 meses)</h4>
+        <ul>
+          <li>Reconstruir o alcance: campanha de reengajamento e limpeza gradual da base inativa</li>
+          <li>Trocar o flyer animado por Reel nativo: câmera na mão, rosto, áudio em alta e gancho em 2 segundos</li>
+          <li>Série fixa semanal &ldquo;Quem foi com a gente&rdquo; com depoimento em vídeo dos viajantes</li>
+          <li>Calendário de coautoria com operadoras, resorts e a filial de Patos de Minas</li>
+          <li>Automação de DM por comentário-gatilho (CALDAS, GRAMADO, CRUZEIRO)</li>
+          <li>Anúncios segmentados por região: DF/Entorno e Alto Paranaíba (MG)</li>
+          <li>Separar as duas audiências: excursão popular no principal, alto ticket em linha própria</li>
+          <li>Painel mensal ligando post → clique → conversa no WhatsApp → orçamento fechado</li>
+        </ul>
+      </div>
+      <div class="rec-card rec-long">
+        <h4>🔭 Longo Prazo (12+ meses)</h4>
+        <ul>
+          <li>Base própria de clientes (CRM + lista) para não depender só do alcance do Instagram</li>
+          <li>Sinfonya como referência de viagem em grupo no Centro-Oeste, não como mais um flyer</li>
+          <li>Conteúdo gerado pelos viajantes: kit de gravação e incentivo em cada embarque</li>
+          <li>Catálogo digital permanente de saídas, com histórico e recompra</li>
+          <li>Programa de indicação estruturado com os 96 clientes já documentados</li>
+          <li>Consolidar formaturas e turismo religioso como linhas recorrentes de receita</li>
+          <li>Meta realista: 5.000 seguidores realmente ativos valem mais que 50.000 dormentes</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="insight good">
+      <div class="insight-header">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+        O que isso significa para você
+      </div>
+      <div class="insight-body">
+        <span class="verdict">&#9650; Bom</span>
+        <p>Nada no curto prazo exige aumentar investimento — exige <strong>redirecionar o esforço que já existe</strong>. A equipe que hoje produz 60 posts por mês passaria a produzir 20, com mais cuidado, mais prova social e destino rastreável. Sobra tempo, sobra orçamento e o retorno sobe. O médio prazo é onde a operação vira sistema: Reel nativo, automação de DM, anúncios locais e um painel que finalmente responde &ldquo;quanto o Instagram vendeu este mês&rdquo;. E o longo prazo muda a natureza do ativo: <strong>hoje a Sinfonya depende de um número de seguidores que não trabalha; amanhã ela terá uma base própria de clientes que recompra e indica.</strong> Esse é o ponto em que o marketing deixa de ser custo e passa a ser canal de venda.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="resumo">
+    <div class="section-header">
+      <div class="section-num">11</div>
+      <h2>Resumo Executivo e Pontuação</h2>
+    </div>
+
+    <div class="card">
+      <h3>Pontuação Geral do Perfil Instagram</h3>
+      <div class="score-ring-wrap">
+        <div class="score-ring" style="background: conic-gradient(#1d4ed8 0% 38%, #e4e7ec 38% 100%);">
+          <div class="score-inner">
+            <div class="score-val">3,8</div>
+            <div class="score-max">/ 10</div>
+          </div>
+        </div>
+        <div class="score-labels">
+          <div class="score-item">
+            <span class="score-item-label">Consistência</span>
+            <div class="score-bar-bg"><div class="score-bar" style="width:90%"></div></div>
+            <span class="score-item-val">9,0</span>
+          </div>
+          <div class="score-item">
+            <span class="score-item-label">Prova social</span>
+            <div class="score-bar-bg"><div class="score-bar" style="width:75%"></div></div>
+            <span class="score-item-val">7,5</span>
+          </div>
+          <div class="score-item">
+            <span class="score-item-label">Portfólio</span>
+            <div class="score-bar-bg"><div class="score-bar" style="width:70%"></div></div>
+            <span class="score-item-val">7,0</span>
+          </div>
+          <div class="score-item">
+            <span class="score-item-label">Conversão</span>
+            <div class="score-bar-bg"><div class="score-bar" style="width:32%"></div></div>
+            <span class="score-item-val">3,2</span>
+          </div>
+          <div class="score-item">
+            <span class="score-item-label">Alcance</span>
+            <div class="score-bar-bg"><div class="score-bar" style="width:18%"></div></div>
+            <span class="score-item-val">1,8</span>
+          </div>
+          <div class="score-item">
+            <span class="score-item-label">Engajamento</span>
+            <div class="score-bar-bg"><div class="score-bar" style="width:9%"></div></div>
+            <span class="score-item-val">0,9</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="callout primary">
+      <strong>🎯 Diagnóstico Final</strong>
+      O <b>Instagram @sinfonyaturismo</b> tem tudo o que não se compra: 15 anos de operação, premiações, filial física, uma equipe que publica todos os dias e 96 clientes reais já documentados. O que falta é o que se corrige rápido: <b>uma conta configurada como empresa, uma bio que venda, conteúdo com gente de verdade e um caminho rastreável até o WhatsApp</b>.
+      <br><br>
+      O <b>maior ponto de melhoria</b> é encarar o número de seguidores pelo que ele realmente representa. Com 0,026% de engajamento e 853 visualizações médias por Reel, a base de 50.393 se comporta como uma audiência de pouco mais de mil pessoas. Todo o planejamento atual está dimensionado para um público que não está lá. Reconstruir o alcance a partir do núcleo que ainda responde — e não postar mais para quem já não escuta — é a virada que destrava todo o resto.
+    </div>
+
+    <div class="card">
+      <h3>Estimativa de Oportunidade Comercial</h3>
+      <div class="tbl-wrap">
+        <table>
+          <tr><th>Métrica</th><th>Situação apurada</th></tr>
+          <tr><td>Esforço já investido</td><td>168 posts em 82 dias — uma máquina de produção funcionando em capacidade total</td></tr>
+          <tr><td>Retorno atual</td><td>1.834 curtidas e 361 comentários no trimestre, com 55% dos posts sem nenhum comentário</td></tr>
+          <tr><td>Principal gargalo</td><td>Base dormente + conteúdo de catálogo + zero rastreio entre post e orçamento</td></tr>
+          <tr><td>Ganho mais rápido</td><td>Inverter a proporção catálogo/prova social: os dados indicam 2 a 3x mais engajamento com o mesmo custo</td></tr>
+          <tr><td>Ganho estrutural</td><td>Conta Business + link rastreável: passar a saber quanto o Instagram gera de orçamento por mês</td></tr>
+          <tr><td>Prioridade de ROI</td><td><span class="badge badge-green">Reposicionamento do perfil + prova social no feed + rastreio de WhatsApp</span></td></tr>
+        </table>
+      </div>
+    </div>
+
+    <div class="insight purple">
+      <div class="insight-header">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+        O que isso significa para você
+      </div>
+      <div class="insight-body">
+        <span class="verdict">&#9733; Destaque</span>
+        <p>Vale registrar o que esta auditoria <strong>não</strong> encontrou: preguiça, falta de produto ou falta de empenho. Encontrou o contrário — uma agência com 15 anos de estrada publicando duas vezes por dia, com portfólio completo e centenas de clientes satisfeitos. <strong>O que falta não é trabalho; é direção.</strong> Cada um dos 168 posts analisados foi uma tentativa honesta de vender, feita sem os dados que diriam o que estava funcionando. A partir do momento em que essa mesma equipe passa a trabalhar com informação — qual formato entrega, qual tema converte, qual dia rende, qual post virou orçamento — o esforço deixa de ser desperdiçado. Não é preciso mudar quem a Sinfonya é. É preciso apenas parar de publicar no escuro.</p>
+      </div>
+    </div>
+  </section>
+
+</div><!-- /page -->
+
+<footer>
+  <strong>Grupo Sinfonya Turismo — Análise de Instagram @sinfonyaturismo</strong><br>
+  Auditoria realizada em 4 de agosto de 2026 com coleta via Playwright e sessão autenticada.<br>
+  Amostra: 168 posts publicados entre 13/05/2026 e 03/08/2026, com curtidas, comentários, visualizações, marcações e legendas completas.<br><br>
+  <a href="https://instagram.com/sinfonyaturismo">@sinfonyaturismo no Instagram</a> ·
+  <a href="https://wa.me/5561984055939">WhatsApp da agência</a><br><br>
+  <span style="opacity:.5;font-size:.75rem;">Preparado pela Oráculo Tecnologia · Análise de Redes Sociais</span>
+</footer>
+
+</div><!-- /page-wrap -->
+
+<script>
+const navLinks = document.querySelectorAll('.nav a');
+const sections = document.querySelectorAll('section[id]');
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      navLinks.forEach(a => a.classList.remove('active'));
+      const a = document.querySelector('.nav a[href="#' + e.target.id + '"]');
+      if (a) { a.classList.add('active'); a.scrollIntoView({block:'nearest',inline:'center',behavior:'smooth'}); }
+    }
+  });
+}, { threshold: 0.4 });
+sections.forEach(s => observer.observe(s));
+
+const RED  = '#1d4ed8';
+const BLUE = '#3b82f6';
+const GRN  = '#16a34a';
+const AMB  = '#d97706';
+const PUR  = '#7c3aed';
+
+new Chart(document.getElementById('chartAudiencia'), {
+  type: 'bar',
+  data: {
+    labels: ['Sinfonya\namostra (168 posts)', 'Sinfonya\núltimos 12 posts', 'Média de agências\nde turismo', 'Agência de turismo\nbem gerida'],
+    datasets: [{
+      label: 'Taxa de engajamento (%)',
+      data: [0.026, 0.010, 0.90, 1.50],
+      backgroundColor: [AMB, AMB, BLUE, GRN],
+      borderRadius: 8,
+    }]
+  },
+  options: {
+    responsive: true, maintainAspectRatio: false,
+    plugins: {
+      legend: { display: false },
+      tooltip: { callbacks: { label: ctx => ' ' + ctx.raw + '% de engajamento sobre a base de seguidores' } }
+    },
+    scales: {
+      y: { beginAtZero: true, max: 1.7, ticks: { callback: v => v + '%' }, grid: { color: '#f3f4f6' } },
+      x: { grid: { display: false } }
+    }
+  }
+});
+
+new Chart(document.getElementById('chartFormatos'), {
+  type: 'doughnut',
+  data: {
+    labels: ['Reels (77)', 'Carrosséis (59)', 'Imagem única (32)'],
+    datasets: [{
+      data: [77, 59, 32],
+      backgroundColor: [AMB, RED, BLUE],
+      borderWidth: 2,
+      borderColor: '#fff',
+    }]
+  },
+  options: {
+    responsive: true, maintainAspectRatio: false,
+    cutout: '65%',
+    plugins: {
+      legend: { position: 'bottom', labels: { padding: 12, font: { size: 11 } } },
+      tooltip: { callbacks: { footer: items => ['Curtidas médias: 8,4 (Reel) · 9,8 (Carrossel) · 19,1 (Imagem)'][0] } }
+    }
+  }
+});
+
+new Chart(document.getElementById('chartEngajamento'), {
+  type: 'bar',
+  data: {
+    labels: ['15 anos da\nSinfonya', 'Cliente Edna\nno Makai', 'Sorteio\nda Copa', 'Frase\n"Viver é..."', 'Momentos\nno Makai', 'Excursão\nCaldas Novas'],
+    datasets: [
+      { label: 'Curtidas', data: [204, 132, 64, 51, 51, 40], backgroundColor: RED, borderRadius: 6 },
+      { label: 'Comentários', data: [0, 20, 121, 7, 12, 0], backgroundColor: AMB, borderRadius: 6 }
+    ]
+  },
+  options: {
+    responsive: true, maintainAspectRatio: false,
+    plugins: {
+      legend: { position: 'bottom' },
+      tooltip: { callbacks: { footer: () => 'Média do perfil: 10,9 curtidas e 2,15 comentários' } }
+    },
+    scales: { y: { beginAtZero: true, grid: { color: '#f3f4f6' } }, x: { grid: { display: false } } }
+  }
+});
+
+new Chart(document.getElementById('chartAudienciaSegmentos'), {
+  type: 'bar',
+  data: {
+    labels: ['Base dormente ou inativa', 'Núcleo ativo que interage', 'Público de excursão popular', 'Audiência de Patos de Minas (MG)', 'Interessados em alto ticket'],
+    datasets: [{
+      label: 'Participação estimada na base (%)',
+      data: [92.0, 2.6, 2.4, 2.0, 1.0],
+      backgroundColor: [AMB, GRN, RED, BLUE, PUR],
+      borderRadius: 6,
+    }]
+  },
+  options: {
+    indexAxis: 'y',
+    responsive: true, maintainAspectRatio: false,
+    plugins: {
+      legend: { display: false },
+      tooltip: { callbacks: { label: ctx => ' ' + ctx.raw + '% dos 50.393 seguidores (estimativa a partir das interações reais)' } }
+    },
+    scales: {
+      x: { beginAtZero: true, max: 100, ticks: { callback: v => v + '%' }, grid: { color: '#f3f4f6' } },
+      y: { grid: { display: false } }
+    }
+  }
+});
+
+new Chart(document.getElementById('chartComparativo'), {
+  type: 'bar',
+  data: {
+    labels: ['Conteúdo de gente\n(24 posts)', 'Conteúdo de catálogo\n(48 posts)'],
+    datasets: [
+      { label: 'Curtidas médias', data: [26.4, 7.4], backgroundColor: RED, borderRadius: 6 },
+      { label: 'Comentários médios', data: [3.1, 1.1], backgroundColor: AMB, borderRadius: 6 }
+    ]
+  },
+  options: {
+    responsive: true, maintainAspectRatio: false,
+    plugins: {
+      legend: { position: 'bottom' },
+      tooltip: { callbacks: { footer: items => items[0].dataIndex === 0 ? 'Custo de produção: quase zero' : 'Custo de produção: arte + copy por peça' } }
+    },
+    scales: { y: { beginAtZero: true, grid: { color: '#f3f4f6' } }, x: { grid: { display: false } } }
+  }
+});
+</script>
+</body>
+</html>
