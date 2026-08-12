@@ -3,7 +3,8 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Banners OG — Dr. Pedro Brandão | Oráculo</title>
+<title>Banner OG: Dr. Pedro Brandão | Oráculo</title>
+<meta name="description" content="Banner OG da página de análise de presença digital do Dr. Pedro Brandão. Uso interno Oráculo Tecnologia."/>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
@@ -13,7 +14,7 @@
   :root {
     --blue:       #1d4ed8;
     --blue-glow:  rgba(29,78,216,0.35);
-    --ig-grad:    linear-gradient(135deg,#f09433,#e6683c,#dc2743,#cc2366,#bc1888);
+    --ig-grad:    linear-gradient(135deg,#1e3a8a,#1d4ed8,#3b82f6);
     --rose:       #e11d48;
     --rose-2:     #fb7185;
     --gold:       #d97706;
@@ -292,7 +293,8 @@
     color: var(--text);
     line-height: 1;
     margin-bottom: 4px;
-    user-select: text;
+    filter: blur(5px);
+    user-select: none;
   }
   .metric-key {
     font-size: .7rem;
@@ -311,6 +313,7 @@
     background: rgba(74,222,128,0.12);
     border-radius: 100px;
     padding: 2px 7px;
+    filter: blur(3px);
   }
 
   .plan-card {
@@ -441,27 +444,6 @@
   }
   .bottom-right strong { color: #60a5fa; font-weight: 700; }
   .og-card.pc .bottom-right strong { color: #fecdd3; }
-
-  body.capture {
-    padding: 0;
-    background: var(--bg-dark);
-    overflow: hidden;
-  }
-  body.capture .guide,
-  body.capture .section-label,
-  body.capture .card-wrap {
-    display: none;
-  }
-  body.capture .card-wrap.capture-active {
-    display: block;
-    max-width: none;
-    margin: 0;
-  }
-  body.capture .og-card {
-    border-radius: 0;
-    border: 0;
-    box-shadow: none;
-  }
 </style>
 </head>
 <body>
@@ -469,13 +451,13 @@
 <div class="guide">
   <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="#93c5fd" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
   <div>
-    <strong>Como usar:</strong> Tire um screenshot de cada card abaixo, exatamente 1200×630 px, e use como imagem OG nas páginas do Dr. Pedro.
+    <strong>Como usar:</strong> capture o card abaixo pelo id <code>#og-presenca</code>, exatamente 1200&times;630 px, e salve como <code>og-presenca.png</code> na pasta DrPedroBrandao.
   </div>
 </div>
 
-<div class="section-label"><span></span> Banner — Análise de Instagram <span></span></div>
+<div class="section-label"><span></span> Banner: Análise de Presença Digital <span></span></div>
 <div class="card-wrap">
-  <div class="og-card ig" id="og-instagram">
+  <div class="og-card ig" id="og-presenca">
     <div class="dot-grid"></div>
     <div class="glow-left"></div>
     <div class="glow-right"></div>
@@ -490,16 +472,16 @@
 
           <div class="platform-badge">
             <div class="badge-dot"></div>
-            Instagram
+            Presença Digital
           </div>
 
           <h1 class="card-headline">
-            Análise completa<br>do perfil
+            Auditoria dos quatro<br>canais de
             <span class="hl">@drpedrobrandaocp</span>
           </h1>
 
           <p class="card-desc">
-            Métricas, engajamento, conteúdo e recomendações estratégicas para transformar prova social em consultas qualificadas.
+            355 posts lidos um a um, busca no Google, Perfil da Empresa, site e diretórios médicos, comparados com três cirurgiões plásticos de Brasília.
           </p>
         </div>
 
@@ -507,45 +489,38 @@
           <div class="client-avatar">PB</div>
           <div>
             <div class="client-name">Dr. Pedro Brandão</div>
-            <div class="client-handle">Relatório exclusivo · Mai 2026</div>
+            <div class="client-handle">Cirurgia Plástica, Brasília DF · Ago 2026</div>
           </div>
         </div>
       </div>
 
       <div class="panel-right">
         <div>
-          <div class="metrics-label">Prévia dos dados analisados</div>
+          <div class="metrics-label">Prévia dos dados auditados</div>
           <div class="metrics-grid">
             <div class="metric-card">
-              <div class="metric-icon blue">
-                <svg width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="#60a5fa" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>
-              </div>
-              <div class="metric-change">base</div>
-              <div class="metric-value">16,4K</div>
-              <div class="metric-key">Seguidores</div>
+              <div class="metric-icon blue"><svg width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="#60a5fa" stroke-width="2"><path d="M23 7l-7 5 7 5V7z"/><rect x="1" y="5" width="15" height="14" rx="2"/></svg></div>
+              <div class="metric-change">9 meses</div>
+              <div class="metric-value">1,32 mi</div>
+              <div class="metric-key">Reproduções</div>
             </div>
             <div class="metric-card">
-              <div class="metric-icon green">
-                <svg width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="#4ade80" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
-              </div>
-              <div class="metric-change">ER</div>
-              <div class="metric-value">1,16%</div>
+              <div class="metric-icon green"><svg width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="#4ade80" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></div>
+              <div class="metric-change">acima do 2º</div>
+              <div class="metric-value">0,784%</div>
               <div class="metric-key">Engajamento</div>
             </div>
             <div class="metric-card">
-              <div class="metric-icon amber">
-                <svg width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="#fbbf24" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
-              </div>
-              <div class="metric-value">345</div>
-              <div class="metric-key">Posts</div>
+              <div class="metric-icon amber"><svg width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="#fbbf24" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg></div>
+              <div class="metric-change">busca local</div>
+              <div class="metric-value">Zero</div>
+              <div class="metric-key">Na 1ª página</div>
             </div>
             <div class="metric-card">
-              <div class="metric-icon purple">
-                <svg width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="#a78bfa" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
-              </div>
-              <div class="metric-change">top</div>
-              <div class="metric-value">640</div>
-              <div class="metric-key">Maior post</div>
+              <div class="metric-icon purple"><svg width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="#a78bfa" stroke-width="2"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div>
+              <div class="metric-change">1º do mapa: 199</div>
+              <div class="metric-value">17</div>
+              <div class="metric-key">Avaliações Google</div>
             </div>
           </div>
         </div>
@@ -555,8 +530,8 @@
             <svg width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="#93c5fd" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
           </div>
           <div class="lock-strip-text">
-            <div class="lock-strip-title">Análise completa disponível</div>
-            <div class="lock-strip-sub">Conteúdo, funil, destaques e próximos passos</div>
+            <div class="lock-strip-title">Auditoria completa disponível</div>
+            <div class="lock-strip-sub">Google, site, Instagram, diretórios e comparativo de concorrência</div>
           </div>
           <div class="lock-cta">Ver análise</div>
         </div>
@@ -571,7 +546,7 @@
         </div>
         <div class="bottom-tag">
           <svg width="12" height="12" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
-          Atualizado Mai 2026
+          Atualizado Ago 2026
         </div>
       </div>
       <div class="bottom-right">Preparado por <strong>Oráculo Tecnologia</strong></div>
@@ -579,138 +554,5 @@
   </div>
 </div>
 
-<div class="section-label"><span></span> Banner — Proposta Comercial <span></span></div>
-<div class="card-wrap">
-  <div class="og-card pc" id="og-proposta">
-    <div class="dot-grid"></div>
-    <div class="glow-left"></div>
-    <div class="glow-right"></div>
-    <div class="accent-line"></div>
-
-    <div class="card-inner">
-      <div class="panel-left">
-        <div>
-          <div class="og-logo">
-            <img src="../logo.png" alt="Oráculo Tecnologia"/>
-          </div>
-
-          <div class="platform-badge">
-            <div class="badge-dot"></div>
-            Proposta Comercial
-          </div>
-
-          <h1 class="card-headline">
-            Estratégia digital<br>exclusiva para o
-            <span class="hl">Dr. Pedro</span>
-          </h1>
-
-          <p class="card-desc">
-            Plano para transformar prova social, autoridade médica e desejo em jornada de educação, triagem e consultas qualificadas.
-          </p>
-        </div>
-
-        <div class="client-row">
-          <div class="client-avatar">PB</div>
-          <div>
-            <div class="client-name">Dr. Pedro Brandão</div>
-            <div class="client-handle">Proposta exclusiva · Mai 2026</div>
-          </div>
-        </div>
-      </div>
-
-      <div class="panel-right">
-        <div>
-          <div class="metrics-label">O que está incluso</div>
-          <div class="metrics-grid">
-            <div class="plan-card">
-              <div class="plan-card-icon gold">
-                <svg width="15" height="15" fill="none" viewBox="0 0 24 24" stroke="#fbbf24" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
-              </div>
-              <div class="plan-card-body">
-                <div class="plan-card-title">Pré-consulta</div>
-                <div class="plan-card-desc">Funil de triagem e respostas para dúvidas sensíveis</div>
-              </div>
-              <div class="plan-check">
-                <svg width="10" height="10" fill="none" viewBox="0 0 24 24" stroke="#4ade80" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
-              </div>
-            </div>
-            <div class="plan-card">
-              <div class="plan-card-icon green">
-                <svg width="15" height="15" fill="none" viewBox="0 0 24 24" stroke="#34d399" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 8h10M7 12h10M7 16h6"/></svg>
-              </div>
-              <div class="plan-card-body">
-                <div class="plan-card-title">Conteúdo FAQ</div>
-                <div class="plan-card-desc">Séries sobre segurança, função e expectativas realistas</div>
-              </div>
-              <div class="plan-check">
-                <svg width="10" height="10" fill="none" viewBox="0 0 24 24" stroke="#4ade80" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
-              </div>
-            </div>
-            <div class="plan-card">
-              <div class="plan-card-icon blue">
-                <svg width="15" height="15" fill="none" viewBox="0 0 24 24" stroke="#60a5fa" stroke-width="2"><path d="M18 20V10M12 20V4M6 20v-6"/></svg>
-              </div>
-              <div class="plan-card-body">
-                <div class="plan-card-title">Relatórios</div>
-                <div class="plan-card-desc">Performance conectada a perguntas, leads e consultas</div>
-              </div>
-              <div class="plan-check">
-                <svg width="10" height="10" fill="none" viewBox="0 0 24 24" stroke="#4ade80" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
-              </div>
-            </div>
-            <div class="plan-card">
-              <div class="plan-card-icon rose">
-                <svg width="15" height="15" fill="none" viewBox="0 0 24 24" stroke="#fda4af" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg>
-              </div>
-              <div class="plan-card-body">
-                <div class="plan-card-title">Compliance</div>
-                <div class="plan-card-desc">Revisão de linguagem para contexto médico e reputação</div>
-              </div>
-              <div class="plan-check">
-                <svg width="10" height="10" fill="none" viewBox="0 0 24 24" stroke="#4ade80" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="lock-strip">
-          <div class="lock-strip-icon">
-            <svg width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="#fecdd3" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
-          </div>
-          <div class="lock-strip-text">
-            <div class="lock-strip-title">Proposta completa disponível</div>
-            <div class="lock-strip-sub">Planos, investimento e próximos passos detalhados</div>
-          </div>
-          <div class="lock-cta">Ver proposta</div>
-        </div>
-      </div>
-    </div>
-
-    <div class="card-bottom">
-      <div class="bottom-left">
-        <div class="bottom-tag">
-          <svg width="12" height="12" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg>
-          Marketing Digital para Saúde
-        </div>
-        <div class="bottom-tag">
-          <svg width="12" height="12" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
-          Válida até Jun 2026
-        </div>
-      </div>
-      <div class="bottom-right">Elaborado por <strong>Oráculo Tecnologia</strong></div>
-    </div>
-  </div>
-</div>
-
-<script>
-  const captureTarget = new URLSearchParams(window.location.search).get('capture');
-  if (captureTarget) {
-    document.body.classList.add('capture');
-    const card = document.getElementById(captureTarget);
-    if (card && card.parentElement) {
-      card.parentElement.classList.add('capture-active');
-    }
-  }
-</script>
 </body>
 </html>

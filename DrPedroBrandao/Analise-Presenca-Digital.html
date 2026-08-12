@@ -1,0 +1,1874 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Análise de Presença Digital: Dr. Pedro Brandão | Oráculo</title>
+
+<meta property="og:type"         content="website"/>
+<meta property="og:title"        content="Análise de Presença Digital: Dr. Pedro Brandão | Oráculo"/>
+<meta property="og:description"  content="Auditoria dos quatro canais digitais do Dr. Pedro Brandão, cirurgião plástico em Brasília: Instagram com 355 posts analisados, busca no Google, Perfil da Empresa, site e diretórios médicos, com comparativo contra três concorrentes da praça."/>
+<meta property="og:image"        content="https://analises-oraculo.vercel.app/DrPedroBrandao/og-presenca.png"/>
+<meta property="og:image:width"  content="1200"/>
+<meta property="og:image:height" content="630"/>
+<meta property="og:url"          content="https://analises-oraculo.vercel.app/DrPedroBrandao/Analise-Presenca-Digital.html"/>
+<meta property="og:site_name"    content="Oráculo Tecnologia"/>
+<meta name="twitter:card"        content="summary_large_image"/>
+<meta name="twitter:image"       content="https://analises-oraculo.vercel.app/DrPedroBrandao/og-presenca.png"/>
+<meta name="description"         content="Auditoria completa da presença digital do Dr. Pedro Brandão, cirurgião plástico em Brasília: Instagram, busca no Google, Perfil da Empresa, site, diretórios médicos e comparativo com três concorrentes. Preparada pela Oráculo Tecnologia."/>
+
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Petrona:ital,wght@0,400..700;1,400..600&display=swap"/>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    /* ── Campo tinta: o azul Oráculo como superfície, não como acento ── */
+    --ink:        #1b2e73;
+    --ink-deep:   #131f4e;
+    --ink-soft:   #2c4193;
+    --on-ink:     #ffffff;
+    --on-ink-2:   #b3c0ea;
+    --on-ink-3:   #8b9bd4;
+
+    /* ── Papel: off-white puxado para o próprio azul, nunca para o creme ── */
+    --paper:      #fbfbfd;
+    --surface:    #ffffff;
+    --rule:       #dfe1ec;
+    --rule-soft:  #ebedf4;
+
+    --text:       #15182b;
+    --text-2:     #454b66;
+    --text-3:     #6b7186;
+
+    /* ── Azul interativo Oráculo ── */
+    --primary:    #1d4ed8;
+    --primary-bg: #eef2ff;
+
+    /* ── Semântica de leitura: significam algo, não decoram ── */
+    --good:       #15803d;
+    --good-bg:    #f1faf3;
+    --warn:       #8f4e07;
+    --warn-bg:    #fdf7ed;
+    --grave:      #1b2e73;
+    --grave-bg:   #eff1fa;
+
+    /* ── Escala tipográfica modular, razão 1,25 ── */
+    --t-xs:   0.75rem;
+    --t-sm:   0.8125rem;
+    --t-base: 0.9375rem;
+    --t-md:   1.0625rem;
+    --t-lg:   1.375rem;
+    --t-xl:   1.75rem;
+
+    --sans:  'Bricolage Grotesque', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    --serif: 'Petrona', Georgia, 'Times New Roman', serif;
+
+    --r:     4px;
+    --gut:   clamp(1.125rem, 5vw, 2.5rem);
+    --col:   68rem;
+
+    /* ── Escala z semântica ── */
+    --z-base:    1;
+    --z-sticky:  100;
+    --z-nav:     200;
+    --z-overlay: 300;
+
+    --nav-h: 2.9rem;
+  }
+
+  html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+
+  body {
+    font-family: var(--serif);
+    font-size: 16px;
+    line-height: 1.7;
+    background: var(--paper);
+    color: var(--text);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    width: 100%;
+    overflow-x: hidden;
+    padding-top: calc(var(--nav-h) + env(safe-area-inset-top));
+  }
+
+  .wrap { width: 100%; overflow-x: hidden; }
+
+  /* Números tabulares em toda medição: colunas alinham */
+  .num, td, th, .kpi-val, .score-val, .bar-val, table { font-variant-numeric: tabular-nums; }
+
+  /* ═══════════════════════════════════════════
+     CAPA: campo tinta cheio. A frase é a capa.
+     ═══════════════════════════════════════════ */
+  .cover {
+    background: var(--ink);
+    color: var(--on-ink);
+    padding: clamp(3.5rem, 12vw, 8rem) var(--gut) clamp(2.5rem, 7vw, 4.5rem);
+  }
+  .cover-inner { max-width: var(--col); margin: 0 auto; }
+
+  .cover-mark {
+    font-family: var(--sans);
+    font-size: var(--t-sm);
+    font-weight: 600;
+    color: var(--on-ink-2);
+    margin-bottom: clamp(2.5rem, 9vw, 5rem);
+  }
+  .cover-mark b { color: var(--on-ink); font-weight: 700; }
+
+  .cover h1 {
+    font-family: var(--sans);
+    font-size: clamp(2rem, 6.2vw, 4.25rem);
+    font-weight: 600;
+    letter-spacing: -0.035em;
+    line-height: 1.04;
+    max-width: 20ch;
+    text-wrap: balance;
+    margin-bottom: clamp(1.25rem, 3vw, 2rem);
+  }
+  .cover h1 em {
+    font-style: normal;
+    color: var(--on-ink-2);
+  }
+
+  .cover-sub {
+    font-size: var(--t-md);
+    line-height: 1.65;
+    color: var(--on-ink-2);
+    max-width: 46ch;
+  }
+
+  .cover-rule {
+    height: 1px;
+    background: rgba(255,255,255,0.22);
+    margin: clamp(2.5rem, 7vw, 4rem) 0 1.25rem;
+  }
+  .cover-foot {
+    font-family: var(--sans);
+    font-size: var(--t-sm);
+    color: var(--on-ink-3);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem 1.5rem;
+  }
+  .cover-foot b { color: var(--on-ink-2); font-weight: 600; }
+
+  /* ═══════════════════════════════════════════
+     FAIXA DE NÚMEROS: segunda dobra, sobre tinta funda
+     ═══════════════════════════════════════════ */
+  .kpi-band {
+    background: var(--ink-deep);
+    padding: clamp(2rem, 5vw, 2.75rem) var(--gut);
+  }
+  .kpi-row {
+    max-width: var(--col);
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1px;
+    background: rgba(255,255,255,0.14);
+    border: 1px solid rgba(255,255,255,0.14);
+  }
+  .kpi {
+    background: var(--ink-deep);
+    padding: 1.1rem 1.1rem 1.2rem;
+  }
+  .kpi-val {
+    font-family: var(--sans);
+    font-size: clamp(1.5rem, 5vw, 2.125rem);
+    font-weight: 600;
+    letter-spacing: -0.03em;
+    line-height: 1.05;
+    color: var(--on-ink);
+  }
+  .kpi-label {
+    font-family: var(--sans);
+    font-size: var(--t-xs);
+    font-weight: 600;
+    color: var(--on-ink-2);
+    margin-top: 0.35rem;
+  }
+  .kpi-note {
+    font-family: var(--sans);
+    font-size: var(--t-xs);
+    color: var(--on-ink-3);
+    margin-top: 0.15rem;
+    line-height: 1.35;
+  }
+
+  /* ═══════════════════════════════════════════
+     NAVEGAÇÃO
+     ═══════════════════════════════════════════ */
+  .nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: calc(var(--nav-h) + env(safe-area-inset-top));
+    z-index: var(--z-nav);
+    background: var(--paper);
+    border-bottom: 1px solid var(--rule);
+    padding: 0 var(--gut);
+    padding-top: env(safe-area-inset-top);
+    display: flex;
+    align-items: stretch;
+    gap: 0;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scrollbar-width: none;
+    font-family: var(--sans);
+  }
+  .nav::-webkit-scrollbar { display: none; }
+  .nav a {
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    padding: 0 0.7rem;
+    font-size: var(--t-sm);
+    font-weight: 500;
+    color: var(--text-3);
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    margin-bottom: -1px;
+    white-space: nowrap;
+    transition: color .18s cubic-bezier(.22,1,.36,1);
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .nav a:hover { color: var(--text); }
+  .nav a.active { color: var(--ink); font-weight: 700; border-bottom-color: var(--ink); }
+  @media print { .nav { display: none; } body { padding-top: 0; } }
+
+  /* ═══════════════════════════════════════════
+     PÁGINA
+     ═══════════════════════════════════════════ */
+  /* A coluna de texto tem a mesma largura em todas as faixas:
+     capa, KPIs, página, diagnóstico, fechamento e rodapé alinham. */
+  .page {
+    max-width: calc(var(--col) + 2 * var(--gut));
+    margin: 0 auto;
+    padding: clamp(2rem, 4vw, 3rem) var(--gut) clamp(3rem, 6vw, 4.5rem);
+  }
+
+  section { scroll-margin-top: calc(var(--nav-h) + env(safe-area-inset-top) + 0.75rem); }
+
+  /* Cabeçalho de seção: régua e título. Sem número, sem chip. */
+  .sec-head {
+    border-top: 1px solid var(--text);
+    padding-top: 0.85rem;
+    margin: clamp(2.25rem, 5vw, 3.25rem) 0 clamp(1rem, 2.5vw, 1.5rem);
+  }
+  section:first-of-type .sec-head { margin-top: 0; }
+  .sec-head h2 {
+    font-family: var(--sans);
+    font-size: clamp(1.375rem, 3.6vw, 2rem);
+    font-weight: 600;
+    letter-spacing: -0.028em;
+    line-height: 1.15;
+    text-wrap: balance;
+  }
+  .sec-head p {
+    font-size: var(--t-base);
+    color: var(--text-3);
+    margin-top: 0.35rem;
+    max-width: 62ch;
+  }
+
+  h3 {
+    font-family: var(--sans);
+    font-size: var(--t-md);
+    font-weight: 600;
+    letter-spacing: -0.015em;
+    margin: clamp(1.4rem, 3vw, 1.9rem) 0 0.7rem;
+    text-wrap: balance;
+  }
+  .blk > h3:first-child { margin-top: 0; }
+
+  p { max-width: 72ch; }
+  .lead {
+    font-size: var(--t-md);
+    line-height: 1.68;
+    color: var(--text-2);
+    max-width: 66ch;
+    margin-bottom: 1.25rem;
+    text-wrap: pretty;
+  }
+  strong, b { font-weight: 700; color: var(--text); }
+  a { color: var(--primary); }
+
+  /* ═══════════════════════════════════════════
+     TABELAS: a estrutura primária deste documento
+     ═══════════════════════════════════════════ */
+  .tbl { overflow-x: auto; margin-top: 0.5rem; }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: var(--sans);
+    font-size: var(--t-base);
+    min-width: 100%;
+  }
+  th {
+    font-size: var(--t-xs);
+    font-weight: 700;
+    color: var(--text-3);
+    text-align: left;
+    padding: 0 0.85rem 0.5rem 0;
+    border-bottom: 1px solid var(--text);
+    white-space: nowrap;
+  }
+  td {
+    padding: 0.7rem 0.85rem 0.7rem 0;
+    border-bottom: 1px solid var(--rule-soft);
+    color: var(--text-2);
+    vertical-align: top;
+    line-height: 1.5;
+  }
+  th:last-child, td:last-child { padding-right: 0; }
+  tbody tr:last-child td { border-bottom: 1px solid var(--rule); }
+  td strong { color: var(--text); }
+
+  /* Marca de leitura: cor no texto, sem pílula, sem borda */
+  .mk { font-weight: 600; }
+  .mk-good  { color: var(--good); }
+  .mk-warn  { color: var(--warn); }
+  .mk-grave { color: var(--grave); }
+  .mk-flat  { color: var(--text-3); font-weight: 400; }
+
+  /* ═══════════════════════════════════════════
+     CALLOUT: fundo tingido, título em sentença, sem faixa lateral
+     ═══════════════════════════════════════════ */
+  .callout {
+    background: var(--grave-bg);
+    border: 1px solid var(--rule);
+    border-radius: var(--r);
+    padding: clamp(1rem, 2.5vw, 1.4rem);
+    margin: 1.15rem 0;
+  }
+  .callout > h4 {
+    font-family: var(--sans);
+    font-size: var(--t-base);
+    font-weight: 700;
+    color: var(--grave);
+    margin-bottom: 0.5rem;
+    letter-spacing: -0.01em;
+  }
+  .callout p { font-size: var(--t-base); color: var(--text-2); max-width: 70ch; }
+  .callout p + p { margin-top: 0.85rem; }
+  .callout.warn { background: var(--warn-bg); border-color: #eddcc0; }
+  .callout.warn > h4 { color: var(--warn); }
+  .callout.good { background: var(--good-bg); border-color: #cfe6d6; }
+  .callout.good > h4 { color: var(--good); }
+
+  .callout ol { margin: 0.75rem 0 0 1.1rem; }
+  .callout ol li { font-size: var(--t-base); color: var(--text-2); margin-bottom: 0.6rem; padding-left: 0.25rem; }
+  .callout ol li::marker { font-family: var(--sans); font-weight: 700; color: var(--text); }
+
+  /* ═══════════════════════════════════════════
+     NOTA DE ANÁLISE: cada uma com manchete própria
+     ═══════════════════════════════════════════ */
+  .note {
+    margin: clamp(1.25rem, 3vw, 1.75rem) 0 0;
+    padding: clamp(1rem, 2.5vw, 1.35rem) 0 0;
+    border-top: 1px solid var(--rule);
+  }
+  .note-lead {
+    font-family: var(--sans);
+    font-size: clamp(1.125rem, 3vw, 1.5rem);
+    font-weight: 600;
+    line-height: 1.25;
+    letter-spacing: -0.022em;
+    max-width: 26ch;
+    text-wrap: balance;
+    margin-bottom: 0.85rem;
+  }
+  .note p { font-size: var(--t-md); line-height: 1.68; color: var(--text-2); max-width: 68ch; text-wrap: pretty; }
+  .note-good  .note-lead { color: var(--good); }
+  .note-warn  .note-lead { color: var(--warn); }
+  .note-grave .note-lead { color: var(--grave); }
+
+  /* ═══════════════════════════════════════════
+     RAMPA DE ENTRADA: o valor inteiro em 90 segundos.
+     Quem parar aqui já foi servido. Quem seguir, escolheu.
+     ═══════════════════════════════════════════ */
+  .quick { counter-reset: q; margin-top: 0.5rem; }
+  .quick li {
+    counter-increment: q;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1.75rem 1fr;
+    gap: 0.9rem;
+    padding: 1.1rem 0;
+    border-top: 1px solid var(--rule);
+    align-items: baseline;
+  }
+  .quick li::before {
+    content: counter(q);
+    font-family: var(--sans);
+    font-size: var(--t-md);
+    font-weight: 600;
+    color: var(--ink);
+  }
+  .quick b {
+    font-family: var(--sans);
+    font-size: var(--t-md);
+    font-weight: 600;
+    letter-spacing: -0.015em;
+    display: block;
+    margin-bottom: 0.1rem;
+  }
+  .quick span { font-size: var(--t-base); color: var(--text-2); }
+  .quick-next {
+    font-size: var(--t-base);
+    color: var(--text-2);
+    margin-top: 1.3rem;
+    padding-top: 1.1rem;
+    border-top: 1px solid var(--text);
+    max-width: none;
+  }
+  .quick-next > span { display: block; max-width: 62ch; }
+
+  /* ═══════════════════════════════════════════
+     PONTUAÇÃO
+     ═══════════════════════════════════════════ */
+  .score {
+    background: var(--surface);
+    border: 1px solid var(--rule);
+    border-radius: var(--r);
+    padding: clamp(1.1rem, 3vw, 1.75rem);
+    margin: 1.25rem 0;
+  }
+  .score-head {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 0.35rem 0.9rem;
+    padding-bottom: clamp(0.85rem, 2.5vw, 1.15rem);
+    margin-bottom: clamp(0.85rem, 2.5vw, 1.15rem);
+    border-bottom: 1px solid var(--rule);
+  }
+  .score-val {
+    font-family: var(--sans);
+    font-size: clamp(3.25rem, 12vw, 5rem);
+    font-weight: 600;
+    letter-spacing: -0.05em;
+    line-height: 0.85;
+    color: var(--ink);
+  }
+  .score-den { font-family: var(--sans); font-size: var(--t-md); font-weight: 600; color: var(--text-3); }
+  .score-verdict {
+    font-family: var(--sans);
+    font-size: var(--t-md);
+    font-weight: 600;
+    letter-spacing: -0.015em;
+    line-height: 1.3;
+    flex: 1 1 16ch;
+    text-wrap: balance;
+  }
+
+  .bars { display: flex; flex-direction: column; gap: 0.8rem; }
+  .bar-row {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 0.35rem 0.75rem;
+    align-items: baseline;
+  }
+  .bar-label { font-family: var(--sans); font-size: var(--t-sm); color: var(--text-2); }
+  .bar-val { font-family: var(--sans); font-size: var(--t-sm); font-weight: 700; text-align: right; }
+  .bar-track {
+    grid-column: 1 / -1;
+    height: 5px;
+    background: var(--rule-soft);
+    border-radius: 3px;
+    overflow: hidden;
+  }
+  .bar-fill {
+    height: 100%;
+    border-radius: 3px;
+    width: var(--w);
+    transform-origin: left center;
+  }
+  .bar-good  { background: var(--good); }
+  .bar-row.is-good  .bar-val { color: var(--good); }
+  .bar-warn  { background: var(--warn); }
+  .bar-grave { background: var(--ink); }
+  .bar-row.is-warn  .bar-val { color: var(--warn); }
+  .bar-row.is-grave .bar-val { color: var(--ink); }
+
+  /* Preenchimento animado: as barras são medições enchendo. Só isso se move. */
+  @media (prefers-reduced-motion: no-preference) {
+    .bars.js-ready .bar-fill { transform: scaleX(0); transition: transform .9s cubic-bezier(.16,1,.3,1); }
+    .bars.js-ready.is-in .bar-fill { transform: scaleX(1); }
+    .bars.js-ready .bar-row:nth-child(2) .bar-fill { transition-delay: .06s; }
+    .bars.js-ready .bar-row:nth-child(3) .bar-fill { transition-delay: .12s; }
+    .bars.js-ready .bar-row:nth-child(4) .bar-fill { transition-delay: .18s; }
+    .bars.js-ready .bar-row:nth-child(5) .bar-fill { transition-delay: .24s; }
+    .bars.js-ready .bar-row:nth-child(6) .bar-fill { transition-delay: .30s; }
+  }
+
+  /* ═══════════════════════════════════════════
+     SITUAÇÃO / COMO AJUDAMOS
+     ═══════════════════════════════════════════ */
+  .duo { display: grid; grid-template-columns: 1fr; gap: clamp(1.25rem, 3vw, 2rem); margin: 1.5rem 0; }
+  .duo-col h3 { margin-top: 0; }
+  .dsit-wrap { grid-template-columns: 1fr; margin: 0.5rem 0 0; }
+  .duo-col h3 .duo-mark { display: block; font-size: var(--t-xs); font-weight: 700; margin-bottom: 0.3rem; }
+  .duo-sit h3 .duo-mark { color: var(--warn); }
+  .duo-help h3 .duo-mark { color: var(--good); }
+  .duo ul { list-style: none; }
+  .duo li {
+    font-size: var(--t-base);
+    color: var(--text-2);
+    padding: 0.6rem 0 0.6rem 1.35rem;
+    border-bottom: 1px solid var(--rule-soft);
+    position: relative;
+    line-height: 1.55;
+  }
+  .duo li:last-child { border-bottom: none; }
+  .duo li::before {
+    position: absolute;
+    left: 0;
+    top: 0.6rem;
+    font-family: var(--sans);
+    font-weight: 700;
+    line-height: 1.55;
+  }
+  .duo-sit  li::before { content: '·'; color: var(--warn); font-size: 1.4em; line-height: 1.1; }
+  .duo-help li::before { content: '→'; color: var(--good); font-size: .85em; }
+
+  /* ═══════════════════════════════════════════
+     DIAGNÓSTICO RÁPIDO: campo tinta cheio
+     ═══════════════════════════════════════════ */
+  .diag {
+    background: var(--ink);
+    color: var(--on-ink);
+    padding: clamp(1.4rem, 3.5vw, 2.25rem) var(--gut);
+    margin: clamp(1.75rem, 4vw, 2.5rem) calc(-1 * var(--gut)) 0;
+  }
+  .diag-inner { max-width: var(--col); margin: 0 auto; }
+  .diag h3 {
+    font-family: var(--sans);
+    font-size: clamp(1.25rem, 3.2vw, 1.625rem);
+    font-weight: 600;
+    letter-spacing: -0.025em;
+    color: var(--on-ink);
+    margin: 0 0 0.4rem;
+  }
+  .diag > .diag-inner > p {
+    font-size: var(--t-base);
+    color: var(--on-ink-2);
+    max-width: 60ch;
+    margin-bottom: 1.75rem;
+  }
+  .diag-grid { display: grid; grid-template-columns: 1fr; gap: 0; }
+  .diag-item {
+    padding: 0.9rem 0;
+    border-top: 1px solid rgba(255,255,255,0.16);
+  }
+  .diag-item h4 {
+    font-family: var(--sans);
+    font-size: var(--t-base);
+    font-weight: 600;
+    color: var(--on-ink);
+    margin-bottom: 0.25rem;
+    display: flex;
+    gap: 0.55rem;
+    align-items: baseline;
+    letter-spacing: -0.01em;
+  }
+  .diag-item h4::before {
+    font-size: var(--t-xs);
+    font-weight: 700;
+    flex-shrink: 0;
+    letter-spacing: 0;
+  }
+  .diag-item.is-good  h4::before { content: 'FORÇA';         color: #6ee7a4; }
+  .diag-item.is-warn  h4::before { content: 'ATENÇÃO';       color: #fbc46a; }
+  .diag-item.is-grave h4::before { content: 'CUSTANDO VENDA'; color: #ff9d9d; }
+  .diag-item p { font-size: var(--t-sm); color: var(--on-ink-2); line-height: 1.6; max-width: 56ch; }
+  .diag-item p strong { color: var(--on-ink); }
+
+
+  /* ═══════════════════════════════════════════
+     PROVA SOB DEMANDA: a conclusão fica à vista,
+     a tabela que a sustenta abre se o cliente quiser.
+     ═══════════════════════════════════════════ */
+  .finding {
+    font-size: var(--t-md);
+    line-height: 1.65;
+    color: var(--text-2);
+    max-width: 66ch;
+    text-wrap: pretty;
+  }
+  .more { margin-top: 0.9rem; }
+  .more > summary {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-family: var(--sans);
+    font-size: var(--t-sm);
+    font-weight: 600;
+    color: var(--primary);
+    cursor: pointer;
+    list-style: none;
+    padding: 0.35rem 0;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  .more > summary::-webkit-details-marker { display: none; }
+  .more > summary::after {
+    content: '';
+    width: 0.42rem;
+    height: 0.42rem;
+    border-right: 1.5px solid currentColor;
+    border-bottom: 1.5px solid currentColor;
+    transform: translateY(-2px) rotate(45deg);
+    transition: transform .22s cubic-bezier(.16,1,.3,1);
+    flex-shrink: 0;
+  }
+  .more[open] > summary::after { transform: translateY(1px) rotate(-135deg); }
+  .more > summary:hover { color: var(--ink); }
+  .more > summary:focus-visible {
+    outline: 2px solid var(--primary);
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+  .more[open] > summary { margin-bottom: 0.35rem; }
+  @media print { .more > summary { display: none; } }
+
+  /* ═══════════════════════════════════════════
+     GRÁFICOS
+     ═══════════════════════════════════════════ */
+  .chart { position: relative; height: 14rem; margin: 0.85rem 0 0.4rem; }
+  .chart-src {
+    font-family: var(--sans);
+    font-size: var(--t-xs);
+    color: var(--text-3);
+    margin-top: 0.6rem;
+  }
+
+  /* ═══════════════════════════════════════════
+     SWOT
+     ═══════════════════════════════════════════ */
+  .swot { display: grid; grid-template-columns: 1fr; gap: 0; margin-top: 1rem; }
+  .swot-cell { padding: 1.1rem 0; border-top: 1px solid var(--rule); }
+  .swot-cell h4 {
+    font-family: var(--sans);
+    font-size: var(--t-base);
+    font-weight: 700;
+    margin-bottom: 0.7rem;
+  }
+  .swot-s h4 { color: var(--good); }
+  .swot-w h4 { color: var(--grave); }
+  .swot-o h4 { color: var(--primary); }
+  .swot-t h4 { color: var(--warn); }
+  .swot-cell ul { list-style: none; }
+  .swot-cell li {
+    font-size: var(--t-base);
+    color: var(--text-2);
+    line-height: 1.55;
+    padding: 0.3rem 0 0.3rem 0.95rem;
+    position: relative;
+  }
+  .swot-cell li::before {
+    content: '';
+    position: absolute;
+    left: 0; top: 0.85rem;
+    width: 4px; height: 1px;
+    background: var(--text-3);
+  }
+
+  /* ═══════════════════════════════════════════
+     COMPARATIVO
+     ═══════════════════════════════════════════ */
+  .vs { display: grid; grid-template-columns: 1fr; gap: 0; margin-top: 1rem; }
+  .vs-col { padding: 1.35rem 0; border-top: 1px solid var(--rule); }
+  .vs-col h4 { font-family: var(--sans); font-size: var(--t-md); font-weight: 700; margin-bottom: 0.8rem; letter-spacing: -0.015em; }
+  .vs-gente h4 { color: var(--good); }
+  .vs-cat h4 { color: var(--warn); }
+  .vs-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    font-family: var(--sans);
+    font-size: var(--t-base);
+    padding: 0.45rem 0;
+    border-bottom: 1px solid var(--rule-soft);
+  }
+  .vs-row:last-child { border-bottom: none; }
+  .vs-row span:first-child { color: var(--text-3); }
+  .vs-row span:last-child { font-weight: 700; text-align: right; }
+
+  /* ═══════════════════════════════════════════
+     JORNADA DOS DESTAQUES
+     ═══════════════════════════════════════════ */
+  .journey { counter-reset: step; margin-top: 1rem; }
+  .journey li {
+    counter-increment: step;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 2rem 1fr;
+    gap: 0.9rem;
+    padding: 0.95rem 0;
+    border-top: 1px solid var(--rule);
+    align-items: baseline;
+  }
+  .journey li::before {
+    content: counter(step);
+    font-family: var(--sans);
+    font-size: var(--t-md);
+    font-weight: 600;
+    color: var(--ink);
+  }
+  .journey b { font-family: var(--sans); font-size: var(--t-base); display: block; }
+  .journey span { font-size: var(--t-base); color: var(--text-2); }
+
+  /* ═══════════════════════════════════════════
+     PARCERIAS
+     ═══════════════════════════════════════════ */
+  .partners { margin-top: 1rem; }
+  .partner {
+    padding: 0.9rem 0;
+    border-top: 1px solid var(--rule-soft);
+  }
+  .partner:first-child { border-top: 1px solid var(--rule); }
+  .partner b { font-family: var(--sans); font-size: var(--t-base); font-weight: 700; display: block; word-break: break-word; }
+  .partner span { font-size: var(--t-base); color: var(--text-2); }
+
+  /* ═══════════════════════════════════════════
+     HASHTAGS
+     ═══════════════════════════════════════════ */
+  .tags { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 1rem; font-family: var(--sans); }
+  .tag {
+    font-size: var(--t-sm);
+    padding: 0.25rem 0.6rem;
+    border: 1px solid var(--rule);
+    border-radius: 2px;
+    color: var(--text-3);
+    background: var(--surface);
+    white-space: nowrap;
+  }
+  .tag b { font-weight: 600; color: var(--text-2); }
+  .tag.hi { border-color: #c3ccf0; background: var(--grave-bg); color: var(--grave); }
+  .tag.hi b { color: var(--grave); }
+  .tag.bad { border-color: #eddcc0; background: var(--warn-bg); color: var(--warn); }
+  .tag.bad b { color: var(--warn); }
+
+  /* ═══════════════════════════════════════════
+     RECOMENDAÇÕES
+     ═══════════════════════════════════════════ */
+  .recs { display: grid; grid-template-columns: 1fr; gap: 0; margin-top: 1rem; }
+  .rec { padding: 1.2rem 0; border-top: 1px solid var(--text); }
+  .rec h4 {
+    font-family: var(--sans);
+    font-size: var(--t-md);
+    font-weight: 600;
+    letter-spacing: -0.015em;
+    margin-bottom: 0.15rem;
+  }
+  .rec-when { font-family: var(--sans); font-size: var(--t-xs); color: var(--text-3); display: block; margin-bottom: 0.9rem; }
+  .rec ul { list-style: none; }
+  .rec li {
+    font-size: var(--t-base);
+    color: var(--text-2);
+    line-height: 1.55;
+    padding: 0.4rem 0 0.4rem 0.95rem;
+    position: relative;
+  }
+  .rec li::before {
+    content: '';
+    position: absolute;
+    left: 0; top: 0.95rem;
+    width: 4px; height: 1px;
+    background: var(--text-3);
+  }
+
+  /* ═══════════════════════════════════════════
+     FECHAMENTO
+     ═══════════════════════════════════════════ */
+  .closing {
+    background: var(--ink);
+    color: var(--on-ink);
+    padding: clamp(2.5rem, 7vw, 4.5rem) var(--gut);
+  }
+  .closing-inner { max-width: var(--col); margin: 0 auto; }
+  .closing h3 {
+    font-family: var(--sans);
+    font-size: clamp(1.5rem, 4vw, 2.25rem);
+    font-weight: 600;
+    letter-spacing: -0.03em;
+    line-height: 1.15;
+    color: var(--on-ink);
+    max-width: 22ch;
+    text-wrap: balance;
+    margin: 0 0 1.25rem;
+  }
+  .closing p { font-size: var(--t-md); color: var(--on-ink-2); max-width: 62ch; line-height: 1.68; text-wrap: pretty; }
+  .closing p + p { margin-top: 1rem; }
+  .closing p strong { color: var(--on-ink); }
+
+  footer {
+    background: var(--ink-deep);
+    color: var(--on-ink-3);
+    padding: clamp(2rem, 5vw, 3rem) var(--gut);
+    font-family: var(--sans);
+    font-size: var(--t-sm);
+    line-height: 1.7;
+  }
+  .footer-inner { max-width: var(--col); margin: 0 auto; }
+  footer b { color: var(--on-ink); font-weight: 600; }
+  footer a { color: var(--on-ink-2); text-decoration: none; border-bottom: 1px solid rgba(255,255,255,0.28); }
+  footer a:hover { color: var(--on-ink); }
+  .footer-meta { margin-top: 1.25rem; padding-top: 1.25rem; border-top: 1px solid rgba(255,255,255,0.16); }
+
+  img, canvas, iframe, video, svg { max-width: 100%; }
+
+  /* ═══════════════════════════════════════════
+     ≥ 640px
+     ═══════════════════════════════════════════ */
+  @media (min-width: 640px) {
+    .kpi-row  { grid-template-columns: repeat(3, 1fr); }
+    .duo      { grid-template-columns: 1fr 1fr; gap: 2.5rem; }
+    .diag-grid{ grid-template-columns: 1fr 1fr; column-gap: 2.5rem; }
+    .swot     { grid-template-columns: 1fr 1fr; column-gap: 2.5rem; }
+    .vs       { grid-template-columns: 1fr 1fr; column-gap: 2.5rem; }
+    .recs     { grid-template-columns: 1fr 1fr; column-gap: 2.5rem; }
+    .chart    { height: 15.5rem; }
+  }
+
+  /* ═══════════════════════════════════════════
+     ≥ 900px
+     ═══════════════════════════════════════════ */
+  @media (min-width: 900px) {
+    .kpi-row  { grid-template-columns: repeat(5, 1fr); }
+    .kpi      { padding: 1.35rem 1.25rem 1.5rem; }
+    .recs     { grid-template-columns: repeat(3, 1fr); column-gap: 2.5rem; }
+    .chart    { height: 17rem; }
+    .journey li { grid-template-columns: 2.5rem 1fr; }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after {
+      animation-duration: .01ms !important;
+      transition-duration: .01ms !important;
+    }
+  }
+
+  @media print {
+    .nav { display: none; }
+    .cover, .diag, .closing, footer, .kpi-band { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header class="cover">
+  <div class="cover-inner">
+    <div class="cover-mark"><b>Oráculo Tecnologia</b> · Auditoria de presença digital</div>
+    <h1>Seus Reels foram vistos 1,32 milhão de vezes em nove meses. <em>Quem pesquisa &ldquo;cirurgião plástico em Brasília&rdquo; no Google não encontra você.</em></h1>
+    <p class="cover-sub">Auditoria dos quatro canais que sustentam a captação de um cirurgião plástico: Instagram, busca no Google, site próprio e diretórios médicos. Os 355 posts do histórico foram lidos um a um, e o resultado foi comparado com três concorrentes da mesma praça.</p>
+    <div class="cover-rule"></div>
+    <div class="cover-foot">
+      <span>Preparado para o <b>Dr. Pedro Brandão</b>, CRM-DF 15.499 / RQE 14.130</span>
+      <span><b>6 de agosto de 2026</b></span>
+    </div>
+  </div>
+</header>
+
+<div class="kpi-band">
+  <div class="kpi-row">
+    <div class="kpi">
+      <div class="kpi-val">1,32 mi</div>
+      <div class="kpi-label">Reproduções em 9 meses</div>
+      <div class="kpi-note">80 vezes o tamanho da base</div>
+    </div>
+    <div class="kpi">
+      <div class="kpi-val">0,784%</div>
+      <div class="kpi-label">Engajamento no Instagram</div>
+      <div class="kpi-note">Acima do concorrente de 51 mil seguidores</div>
+    </div>
+    <div class="kpi">
+      <div class="kpi-val">16.414</div>
+      <div class="kpi-label">Seguidores</div>
+      <div class="kpi-note">A menor base entre os quatro perfis</div>
+    </div>
+    <div class="kpi">
+      <div class="kpi-val">Zero</div>
+      <div class="kpi-label">Posições na 1ª página do Google</div>
+      <div class="kpi-note">Busca por cirurgião plástico em Brasília</div>
+    </div>
+    <div class="kpi">
+      <div class="kpi-val">550</div>
+      <div class="kpi-label">Dias sem publicar</div>
+      <div class="kpi-note">Entre maio de 2024 e novembro de 2025</div>
+    </div>
+  </div>
+</div>
+
+<nav class="nav" aria-label="Seções da análise">
+  <a href="#essencial">Essencial</a>
+  <a href="#diagnostico">Diagnóstico</a>
+  <a href="#google">Google</a>
+  <a href="#site">Site</a>
+  <a href="#instagram">Instagram</a>
+  <a href="#conteudo">Conteúdo</a>
+  <a href="#diretorios">Diretórios e redes</a>
+  <a href="#concorrencia">Concorrência</a>
+  <a href="#conversao">Conversão</a>
+  <a href="#swot">SWOT</a>
+  <a href="#recomendacoes">Recomendações</a>
+  <a href="#resumo">Resumo</a>
+</nav>
+
+<main class="page">
+
+  <section id="essencial">
+    <div class="sec-head">
+      <h2>Se for ler uma coisa só, leia isto</h2>
+      <p>Noventa segundos. Todo o resto deste documento é a prova de cada afirmação abaixo.</p>
+    </div>
+    <ol class="quick">
+      <li><span><b>O conteúdo já está no ponto. A distribuição fora do Instagram é que não existe.</b>Seu engajamento de 0,784% supera o do @dr.andrejardim, que tem 51 mil seguidores contra os seus 16 mil. A mediana de reproduções por Reel, 11.843, também é maior que a dele, 9.280.</span></li>
+      <li><span><b>O Google não sabe que você é cirurgião plástico.</b>Sua ficha no Perfil da Empresa está classificada como &ldquo;Médico&rdquo;, categoria genérica. É por isso que você não aparece no mapa de quem pesquisa pela especialidade, enquanto três concorrentes ocupam as três vagas.</span></li>
+      <li><span><b>O endereço oficial na internet é uma página em branco.</b>O domínio drpedrobrandao.com.br exibe &ldquo;Coming Soon&rdquo;, o template padrão da hospedagem. É esse endereço que o seu Facebook indica aos visitantes.</span></li>
+      <li><span><b>Não existe caminho medido entre o interesse e a consulta.</b>Nenhuma das 39 legendas publicadas desde novembro cita WhatsApp, o botão do perfil está configurado para ligação telefônica e o link da bio passa por um Linktree antes de chegar à página de agendamento.</span></li>
+    </ol>
+    <p class="quick-next"><span>A nota geral da presença digital é <b>3,6 de 10</b>. Ela é baixa por infraestrutura, não por conteúdo: as duas notas mais altas do diagnóstico são justamente as do material que você já publica. Se quiser ver como chegamos a cada número, o diagnóstico completo começa logo abaixo.</span></p>
+  </section>
+
+  <section id="diagnostico">
+    <div class="sec-head">
+      <h2>Diagnóstico executivo</h2>
+      <p>O que a auditoria encontrou em cada canal, em ordem de urgência comercial.</p>
+    </div>
+
+    <p class="lead">A coleta foi feita em 06/08/2026. Os dados do Instagram vieram da API interna da plataforma, com sessão autenticada, e cobrem o <strong>histórico integral de 355 publicações, de outubro de 2016 a agosto de 2026</strong>, com curtidas, comentários, reproduções, duração, marcações, geolocalização e legendas completas. Os dados de busca vieram de consultas ao Google Brasil e ao Google Maps. Os dados de site vieram de requisições diretas aos dois domínios. Nenhum acesso interno a Google Analytics, Search Console ou Meta Business foi utilizado, portanto tudo aqui é observável de fora, exatamente como um paciente em potencial veria.</p>
+
+    <div class="score">
+      <div class="score-head">
+        <span class="score-val">3,6</span>
+        <span class="score-den">/ 10</span>
+        <p class="score-verdict">Conteúdo competitivo apoiado em uma infraestrutura que não existe. As duas maiores notas são do material publicado; as quatro menores são de canais que ninguém montou.</p>
+      </div>
+      <div class="bars" id="scoreBars">
+        <div class="bar-row is-good">
+          <span class="bar-label">Alcance orgânico dos Reels</span>
+          <span class="bar-val">7,5</span>
+          <span class="bar-track"><span class="bar-fill bar-good" style="--w:75%"></span></span>
+        </div>
+        <div class="bar-row is-good">
+          <span class="bar-label">Engajamento da base</span>
+          <span class="bar-val">7,0</span>
+          <span class="bar-track"><span class="bar-fill bar-good" style="--w:70%"></span></span>
+        </div>
+        <div class="bar-row is-warn">
+          <span class="bar-label">Prova social acumulada</span>
+          <span class="bar-val">5,0</span>
+          <span class="bar-track"><span class="bar-fill bar-warn" style="--w:50%"></span></span>
+        </div>
+        <div class="bar-row is-warn">
+          <span class="bar-label">Consistência de publicação</span>
+          <span class="bar-val">3,5</span>
+          <span class="bar-track"><span class="bar-fill bar-warn" style="--w:35%"></span></span>
+        </div>
+        <div class="bar-row is-grave">
+          <span class="bar-label">Estrutura de conversão</span>
+          <span class="bar-val">2,5</span>
+          <span class="bar-track"><span class="bar-fill bar-grave" style="--w:25%"></span></span>
+        </div>
+        <div class="bar-row is-grave">
+          <span class="bar-label">Diretórios médicos e redes secundárias</span>
+          <span class="bar-val">2,0</span>
+          <span class="bar-track"><span class="bar-fill bar-grave" style="--w:20%"></span></span>
+        </div>
+        <div class="bar-row is-grave">
+          <span class="bar-label">Presença na busca do Google</span>
+          <span class="bar-val">1,5</span>
+          <span class="bar-track"><span class="bar-fill bar-grave" style="--w:15%"></span></span>
+        </div>
+        <div class="bar-row is-grave">
+          <span class="bar-label">Site próprio</span>
+          <span class="bar-val">1,0</span>
+          <span class="bar-track"><span class="bar-fill bar-grave" style="--w:10%"></span></span>
+        </div>
+      </div>
+    </div>
+
+    <details class="more">
+      <summary>ver como a nota de 3,6 foi calculada</summary>
+      <div class="tbl">
+        <table>
+          <thead><tr><th scope="col">Pilar</th><th scope="col">Nota</th><th scope="col">Peso</th><th scope="col">O que sustenta a nota</th></tr></thead>
+          <tbody>
+            <tr><td>Presença na busca do Google</td><td>1,5</td><td>20%</td><td>Ausente da 1ª página e do pacote local para a busca principal da especialidade</td></tr>
+            <tr><td>Alcance orgânico dos Reels</td><td>7,5</td><td>15%</td><td>1.324.704 reproduções em 39 posts, mediana de 11.843</td></tr>
+            <tr><td>Site próprio</td><td>1,0</td><td>15%</td><td>Domínio raiz em página de espera; landing page hospedada em subdomínio de terceiro</td></tr>
+            <tr><td>Estrutura de conversão</td><td>2,5</td><td>15%</td><td>Botão de perfil em ligação, Linktree intermediando, nenhuma legenda com WhatsApp</td></tr>
+            <tr><td>Engajamento da base</td><td>7,0</td><td>10%</td><td>0,784% na fase atual, o dobro dos 0,389% da fase anterior</td></tr>
+            <tr><td>Consistência de publicação</td><td>3,5</td><td>10%</td><td>4,3 posts por mês, depois de 550 dias praticamente parado</td></tr>
+            <tr><td>Prova social acumulada</td><td>5,0</td><td>10%</td><td>Nota 5,0 no Google com apenas 17 avaliações; Doctoralia parado desde 2022</td></tr>
+            <tr><td>Diretórios médicos e redes secundárias</td><td>2,0</td><td>5%</td><td>Facebook apontando para domínio morto, sem YouTube e sem TikTok</td></tr>
+          </tbody>
+        </table>
+        <p class="chart-src">Média ponderada: 3,60. Os pesos refletem o peso comercial de cada canal para um cirurgião plástico, cuja demanda nasce majoritariamente de busca local e indicação.</p>
+      </div>
+    </details>
+
+    <div class="diag">
+      <div class="diag-inner">
+        <h3>Onze achados, em ordem de custo</h3>
+        <p>O que já funciona, o que precisa de atenção e o que está custando consulta agora.</p>
+        <div class="diag-grid">
+          <div class="diag-item is-good">
+            <h4>Os Reels alcançam muito além da base</h4>
+            <p>As 39 publicações desde novembro somaram <strong>1.324.704 reproduções</strong>, cerca de 80 vezes o número de seguidores. A mediana por Reel é de 11.843, maior que a do concorrente com o triplo de seguidores.</p>
+          </div>
+          <div class="diag-item is-good">
+            <h4>O engajamento dobrou depois da retomada</h4>
+            <p>A fase atual entrega 0,784% contra 0,389% do período de janeiro de 2023 a maio de 2024. A mudança de mão na produção de conteúdo teve efeito medível.</p>
+          </div>
+          <div class="diag-item is-good">
+            <h4>Conteúdo de segurança e técnica é o que mais engaja</h4>
+            <p>Os 23 posts que falam de planejamento, anestesia, técnica ou pós-operatório entregam <strong>1,018% de engajamento</strong>, acima da média do perfil. É o tema que sustenta ticket alto.</p>
+          </div>
+          <div class="diag-item is-good">
+            <h4>Geolocalização marcada em quase todo post</h4>
+            <p>37 das 39 publicações carregam o ponto da clínica. É um sinal local correto, e um dos poucos ativos de SEO local que já está de pé.</p>
+          </div>
+          <div class="diag-item is-warn">
+            <h4>Cadência de 4,3 posts por mês, a menor do grupo</h4>
+            <p>O @cplasticabrasilia publica 11,5 por mês, o @dr.andrejardim 9,0 e o @drfernandomarinho 5,3. Com o melhor alcance por peça do grupo, o volume baixo é o que limita o total.</p>
+          </div>
+          <div class="diag-item is-warn">
+            <h4>Carrossel rende 3,9 vezes menos que Reel</h4>
+            <p>Reels entregam 0,866% de engajamento e carrosséis 0,222%, e ainda assim os carrosséis ocupam 5 das 39 publicações da fase atual.</p>
+          </div>
+          <div class="diag-item is-warn">
+            <h4>A hashtag de marca está dividida em cinco grafias</h4>
+            <p>Aparecem #pedrobrandãocp, #pedrobrandaocp, #drpedrobrandão, #drpedrobrandaocp e, em uma publicação, #drpesrobtandocp com erro de digitação. Cinco arquivos separados no lugar de um.</p>
+          </div>
+          <div class="diag-item is-grave">
+            <h4>A ficha do Google está na categoria errada</h4>
+            <p>&ldquo;Clínica Cirurgia Plástica Dr. Pedro Brandão&rdquo; está classificada como <strong>Médico</strong>, e não como Cirurgião plástico. Essa única escolha o remove do mapa em toda busca pela especialidade.</p>
+          </div>
+          <div class="diag-item is-grave">
+            <h4>A ficha aparenta não estar reivindicada</h4>
+            <p>O Google exibe &ldquo;É proprietário desta empresa?&rdquo; e &ldquo;Adicionar website&rdquo; na sua listagem. Sem posse da ficha, não há resposta a avaliação, publicação, foto do proprietário nem estatística.</p>
+          </div>
+          <div class="diag-item is-grave">
+            <h4>O domínio oficial é uma página de espera</h4>
+            <p>drpedrobrandao.com.br devolve o template &ldquo;Coming Soon&rdquo; da hospedagem, com 1.963 bytes e sem sitemap. Toda autoridade construída em dez anos aponta para o vazio.</p>
+          </div>
+          <div class="diag-item is-grave">
+            <h4>Doctoralia parado desde agosto de 2022</h4>
+            <p>Duas avaliações no perfil, a última há quatro anos, sem agendamento online habilitado. É o terceiro resultado quando alguém busca o seu nome.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="google">
+    <div class="sec-head">
+      <h2>Google: busca e Perfil da Empresa</h2>
+      <p>Onde nasce a maior parte da demanda de um cirurgião plástico, e onde a sua presença é mais frágil.</p>
+    </div>
+
+    <h3>Na busca pela especialidade, você não aparece em nenhuma posição da primeira página</h3>
+    <p class="finding">Consulta a &ldquo;cirurgião plástico Brasília&rdquo; no Google Brasil, em 06/08/2026: o nome Pedro Brandão não consta do pacote local, dos resultados orgânicos nem dos blocos de vídeo e perguntas relacionadas.</p>
+    <p>As três vagas do mapa, que concentram a maior parte dos cliques em busca local, estão ocupadas por CPlástica Brasília, Dra. Thamara Vasconcelos e Dr. Ricardo Rezende. Nos resultados orgânicos aparecem Doctoralia, Rede D'Or, Hospital Daher, dois perfis de Instagram de concorrentes e quatro sites próprios de cirurgiões da praça. A busca é o canal onde o paciente já decidiu operar e está escolhendo com quem, e é exatamente ali que você está ausente.</p>
+
+    <details class="more">
+      <summary>ver quem ocupa a primeira página da busca principal</summary>
+      <div class="tbl">
+        <table>
+          <thead><tr><th scope="col">Posição</th><th scope="col">Quem ocupa</th><th scope="col">Tipo de resultado</th><th scope="col">Avaliações no Google</th></tr></thead>
+          <tbody>
+            <tr><td>Mapa 1</td><td>CPlástica Brasília</td><td>Perfil da Empresa</td><td>4,9 com 199</td></tr>
+            <tr><td>Mapa 2</td><td>Dra. Thamara Vasconcelos</td><td>Perfil da Empresa</td><td>5,0 com 19</td></tr>
+            <tr><td>Mapa 3</td><td>Dr. Ricardo Rezende</td><td>Perfil da Empresa</td><td>4,9 com 32</td></tr>
+            <tr><td>Orgânico 1</td><td>Doctoralia, lista dos 20 mais recomendados</td><td>Diretório</td><td>Não se aplica</td></tr>
+            <tr><td>Orgânico 2</td><td>@dr.andrejardim</td><td>Perfil de Instagram</td><td>Não se aplica</td></tr>
+            <tr><td>Orgânico 3</td><td>Rede D'Or São Luiz</td><td>Site de rede hospitalar</td><td>Não se aplica</td></tr>
+            <tr><td>Orgânico 4</td><td>Hospital Daher Lago Sul</td><td>Site hospitalar</td><td>Não se aplica</td></tr>
+            <tr><td>Orgânico 5</td><td>cplasticabrasilia.com.br</td><td>Site próprio</td><td>Não se aplica</td></tr>
+            <tr><td>Orgânico 6</td><td>drlucianochaves.com.br</td><td>Site próprio</td><td>Não se aplica</td></tr>
+            <tr><td>Orgânico 7</td><td>@drfernandomarinho</td><td>Perfil de Instagram</td><td>Não se aplica</td></tr>
+            <tr><td>Orgânico 8</td><td>Hospital Brasília</td><td>Site hospitalar</td><td>Não se aplica</td></tr>
+            <tr><td>Orgânico 9</td><td>drsilviomesquita.com.br</td><td>Site próprio</td><td>Não se aplica</td></tr>
+          </tbody>
+        </table>
+        <p class="chart-src">Consulta em 06/08/2026, Google Brasil, região Brasília, sem sessão autenticada, 20 resultados solicitados.</p>
+      </div>
+    </details>
+
+    <div class="callout">
+      <h4>A causa está em um campo só</h4>
+      <p>A ficha &ldquo;Clínica Cirurgia Plástica Dr. Pedro Brandão&rdquo; existe, tem nota <b>5,0 com 17 avaliações</b> e fica no Capital Financial Center. O que ela não tem é a categoria certa: o Google a classifica como <b>Médico</b>. O pacote local de &ldquo;cirurgião plástico Brasília&rdquo; só considera fichas cuja categoria principal é Cirurgião plástico, que é justamente a das três concorrentes que aparecem no mapa. Nota 5,0 não compensa categoria errada, porque a ficha nem entra no sorteio.</p>
+      <p>Somam-se a isso dois sinais de que a ficha não está sob controle: o Google oferece publicamente &ldquo;É proprietário desta empresa?&rdquo; e &ldquo;Adicionar website&rdquo; na listagem. O campo de site está vazio, então a ficha mais visitada da sua marca não leva a lugar nenhum.</p>
+    </div>
+
+    <h3>Você tem 17 avaliações. O concorrente que domina a busca tem 199.</h3>
+    <div class="chart"><canvas id="chartGoogle"></canvas></div>
+    <p class="chart-src">Contagens lidas no Google Maps em 06/08/2026. A altura da barra é o volume de avaliações; todos os quatro perfis têm nota entre 4,9 e 5,0.</p>
+    <p>A qualidade da sua reputação não está em questão: 17 avaliações, todas somando 5,0, com pacientes citando equipe, segurança, empatia e gratidão. O problema é volume e ritmo. As três avaliações mais recentes têm quatro meses, seis meses e um ano. O Dr. Fernando Marinho, que aparece na primeira página da busca, tem menos avaliações que você, 11, e ainda assim está no mapa, porque a categoria da ficha dele está correta.</p>
+
+    <details class="more">
+      <summary>ver a comparação campo a campo entre as quatro fichas</summary>
+      <div class="tbl">
+        <table>
+          <thead><tr><th scope="col">Campo</th><th scope="col">Dr. Pedro Brandão</th><th scope="col">Dr. André Jardim</th><th scope="col">Dr. Fernando Marinho</th><th scope="col">CPlástica Brasília</th></tr></thead>
+          <tbody>
+            <tr><td>Categoria principal</td><td>Médico</td><td>Cirurgião plástico</td><td>Cirurgião plástico</td><td>Cirurgião plástico</td></tr>
+            <tr><td>Nota</td><td>5,0</td><td>5,0</td><td>5,0</td><td>4,9</td></tr>
+            <tr><td>Avaliações</td><td>17</td><td>177</td><td>11</td><td>199</td></tr>
+            <tr><td>Site vinculado à ficha</td><td>Nenhum</td><td>drandrejardim.com.br</td><td>drfernandomarinho.com.br</td><td>cplasticabrasilia.com.br</td></tr>
+            <tr><td>Ficha reivindicada</td><td>Aparenta que não</td><td>Sim</td><td>Sim</td><td>Sim</td></tr>
+            <tr><td>Foto do proprietário</td><td>Não identificada</td><td>Sim, atualizada há 6 dias</td><td>Sim</td><td>Sim</td></tr>
+            <tr><td>Aparece no pacote local</td><td>Não</td><td>Não nesta busca</td><td>Não nesta busca</td><td>Sim, 1ª posição</td></tr>
+          </tbody>
+        </table>
+        <p class="chart-src">Leitura direta das fichas no Google Maps em 06/08/2026. &ldquo;Aparenta que não&rdquo; reflete a exibição pública de &ldquo;É proprietário desta empresa?&rdquo;, sinal que o Google não mostra em fichas verificadas.</p>
+      </div>
+    </details>
+
+    <h3>Na busca pelo seu nome, quem responde por você são plataformas de terceiros</h3>
+    <p class="finding">Consulta a &ldquo;Dr Pedro Brandão cirurgião plástico Brasília&rdquo;: os seis primeiros resultados são Instagram, a landing page, Doctoralia, Facebook, Instagram novamente e LinkedIn.</p>
+    <p>Quando alguém já ouviu seu nome e vai conferir quem você é, o Google monta a resposta com o que encontra. Hoje isso significa um Doctoralia com duas avaliações de 2022, um Facebook que aponta para um domínio vazio e um LinkedIn com cerca de 510 seguidores. Um site próprio publicado no domínio raiz assumiria a primeira posição dessa busca e passaria a controlar a narrativa, além de habilitar o painel de conhecimento com dados que você define.</p>
+  </section>
+
+  <section id="site">
+    <div class="sec-head">
+      <h2>Site e landing page</h2>
+      <p>Dois endereços, um vazio e outro alugado.</p>
+    </div>
+
+    <h3>O domínio oficial devolve o template de fábrica da hospedagem</h3>
+    <p class="finding">drpedrobrandao.com.br responde com 1.963 bytes, título &ldquo;Coming Soon&rdquo; e a frase &ldquo;Future home of something quite cool&rdquo;, com link para o painel do cPanel.</p>
+    <p>Esse é o endereço que o seu Facebook informa como site oficial. É também o domínio que qualquer pessoa digita ao tentar te achar diretamente. Não há sitemap: a consulta a /sitemap.xml devolve 404. Enquanto isso, a página que de fato existe mora em l.drpedrobrandao.com.br, um subdomínio servido pela plataforma GreatPages. Todo sinal de autoridade que essa página acumula fica preso no subdomínio, e o domínio principal segue valendo zero para busca.</p>
+
+    <details class="more">
+      <summary>ver os 14 itens auditados nos dois endereços</summary>
+      <div class="tbl">
+        <table>
+          <thead><tr><th scope="col">Item</th><th scope="col">drpedrobrandao.com.br</th><th scope="col">l.drpedrobrandao.com.br</th></tr></thead>
+          <tbody>
+            <tr><td>Situação</td><td>Página de espera do cPanel</td><td>Landing page publicada</td></tr>
+            <tr><td>Título da página</td><td>Coming Soon</td><td>Cirurgião Plástico em Brasília, Dr. Pedro Brandão, CRM 15499</td></tr>
+            <tr><td>Meta description</td><td>Ausente</td><td>Presente e bem escrita</td></tr>
+            <tr><td>Peso do HTML</td><td>1.963 bytes</td><td>464 KB</td></tr>
+            <tr><td>Tempo até o primeiro byte</td><td>Não aplicável</td><td>0,11 s a 0,17 s</td></tr>
+            <tr><td>Sitemap</td><td>404</td><td>200</td></tr>
+            <tr><td>Quantidade de H1</td><td>Nenhum</td><td>Três, quando o correto é um</td></tr>
+            <tr><td>Título de compartilhamento</td><td>Ausente</td><td>&ldquo;Irradie a luz dos seus sonhos e autoestima por meio do seu templo&rdquo;</td></tr>
+            <tr><td>Google Analytics ou GTM</td><td>Não</td><td>Sim</td></tr>
+            <tr><td>Pixel da Meta</td><td>Não</td><td>Não</td></tr>
+            <tr><td>Verificação do Search Console</td><td>Não</td><td>Não</td></tr>
+            <tr><td>Dados estruturados de médico</td><td>Não</td><td>Não</td></tr>
+            <tr><td>Blog ou conteúdo indexável recorrente</td><td>Não</td><td>Não</td></tr>
+            <tr><td>Contato direto por WhatsApp no código</td><td>Não</td><td>Botão renderizado por script, sem link no HTML</td></tr>
+          </tbody>
+        </table>
+        <p class="chart-src">Requisições diretas aos dois domínios em 06/08/2026, com leitura do HTML retornado e três amostras de tempo de resposta.</p>
+      </div>
+    </details>
+
+    <div class="callout">
+      <h4>Três consertos de baixo custo na landing page</h4>
+      <p>A página é rápida, responde em cerca de 0,15 s, e o texto do título traz a palavra-chave certa. O que ela perde é reaproveitamento. O <b>título de compartilhamento</b> está configurado como &ldquo;Irradie a luz dos seus sonhos e autoestima por meio do seu templo&rdquo;, e é isso que aparece quando alguém envia o link no WhatsApp ou publica no Facebook, no lugar do nome e da especialidade.</p>
+      <p>Faltam também o <b>pixel da Meta</b>, sem o qual não há como reapresentar anúncio a quem visitou a página vindo do Instagram, e os <b>dados estruturados de médico</b>, o trecho de código que informa ao Google o CRM, a especialidade, o endereço e o horário, e que habilita a exibição de estrela e informação de consultório direto no resultado de busca.</p>
+    </div>
+
+    <h3>O link da bio passa por um intermediário antes de chegar ao agendamento</h3>
+    <p class="finding">O perfil do Instagram aponta para linktr.ee/drpedrobrandao. Cada toque a mais entre o interesse e a mensagem é uma perda medível de contato.</p>
+    <p>Entre os quatro perfis comparados, o @cplasticabrasilia é o único que envia direto para o WhatsApp, com mensagem já preenchida: &ldquo;Olá, vim do Instagram e gostaria de realizar minha transformação!&rdquo;. Isso cumpre duas funções ao mesmo tempo, encurta o caminho e identifica a origem do contato, permitindo saber quantos atendimentos nasceram do Instagram. Hoje, no seu caso, essa resposta não existe em lugar nenhum.</p>
+  </section>
+
+  <section id="instagram">
+    <div class="sec-head">
+      <h2>Instagram: o canal que já está funcionando</h2>
+      <p>O ativo mais forte da presença digital, e o mais subaproveitado pelo resto da estrutura.</p>
+    </div>
+
+    <h3>A retomada de novembro dobrou o engajamento do perfil</h3>
+    <p class="finding">Fase atual, 39 posts desde 11/11/2025: 0,784% de engajamento. Fase anterior, 100 posts entre janeiro de 2023 e maio de 2024: 0,389%.</p>
+    <p>Entre esses dois períodos existe um intervalo de 550 dias com uma única publicação, em 18/07/2025. A paginação da coleta foi verificada página a página para confirmar que o intervalo é real, e não falha de leitura. O que voltou em novembro é mensuravelmente melhor do que o que existia antes: legenda mais longa, foco em Reel, geolocalização marcada e temas de segurança cirúrgica.</p>
+
+    <div class="chart"><canvas id="chartCadencia"></canvas></div>
+    <p class="chart-src">Publicações por mês apuradas nos 355 posts do histórico integral, coleta de 06/08/2026.</p>
+
+    <h3>Cada Reel alcança 11.843 pessoas na mediana, com uma base de 16 mil seguidores</h3>
+    <p class="finding">As 39 publicações da fase atual somaram 1.324.704 reproduções, aproximadamente 80 vezes o tamanho da base de seguidores.</p>
+    <p>O conteúdo circula muito além de quem já segue o perfil, o que indica boa distribuição algorítmica. O ponto de atenção está no que acontece depois: a razão entre curtidas e reproduções fica em 0,54%, ou seja, muita gente assiste e poucas registram interesse. Costuma ser sinal de conteúdo que prende os primeiros segundos sem oferecer motivo claro de ação no final.</p>
+
+    <details class="more">
+      <summary>ver a dispersão entre o Reel de maior e o de menor alcance</summary>
+      <div class="tbl">
+        <table>
+          <thead><tr><th scope="col">Data</th><th scope="col">Tema</th><th scope="col">Reproduções</th><th scope="col">Curtidas</th><th scope="col">Comentários</th></tr></thead>
+          <tbody>
+            <tr><td>26/12/2025</td><td>Mamoplastia redutora e qualidade de vida</td><td>248.250</td><td>645</td><td>49</td></tr>
+            <tr><td>15/04/2026</td><td>Resultado com convite direto</td><td>164.274</td><td>437</td><td>30</td></tr>
+            <tr><td>07/05/2026</td><td>Abdominoplastia e excesso de pele</td><td>145.040</td><td>407</td><td>19</td></tr>
+            <tr><td>18/02/2026</td><td>Consulta online para paciente de fora</td><td>139.378</td><td>367</td><td>21</td></tr>
+            <tr><td>08/06/2026</td><td>Planejamento por trás do resultado</td><td>111.068</td><td>523</td><td>52</td></tr>
+            <tr><td>19/12/2025</td><td>Autoestima após mudanças no corpo</td><td>2.466</td><td>33</td><td>0</td></tr>
+            <tr><td>31/12/2025</td><td>Retrospectiva de 2025</td><td>2.303</td><td>40</td><td>5</td></tr>
+            <tr><td>09/12/2025</td><td>Autoestima e rotina</td><td>2.172</td><td>31</td><td>4</td></tr>
+            <tr><td>22/05/2026</td><td>Rinoplastia um ano depois</td><td>1.947</td><td>8</td><td>0</td></tr>
+            <tr><td>10/07/2026</td><td>Abdominoplastia com lipoescultura</td><td>1.437</td><td>12</td><td>0</td></tr>
+          </tbody>
+        </table>
+        <p class="chart-src">Cinco maiores e cinco menores reproduções entre os 34 Reels da fase atual. Mediana do conjunto: 11.843.</p>
+      </div>
+    </details>
+
+    <h3>Os cinco Reels de maior alcance carregam o resultado do trimestre</h3>
+    <div class="chart"><canvas id="chartEngajamento"></canvas></div>
+    <p class="chart-src">Curtidas e comentários dos oito posts de maior interação da fase atual. Mediana do perfil no período: 53 curtidas e 4 comentários.</p>
+    <p>Os cinco Reels acima de 100 mil reproduções respondem por 808 mil das 1,32 milhão de reproduções do período, mais de 60% do total com 15% das publicações. Os cinco têm um traço em comum: mostram um caso específico com uma queixa nomeada, dor nas costas, excesso de pele, papada, e não uma afirmação genérica sobre transformação.</p>
+  </section>
+
+  <section id="conteudo">
+    <div class="sec-head">
+      <h2>Formato, tema e cadência</h2>
+      <p>O que os próprios dados do perfil recomendam produzir.</p>
+    </div>
+
+    <h3>Reel rende 3,9 vezes mais que carrossel, e o carrossel continua no calendário</h3>
+    <div class="chart"><canvas id="chartFormatos"></canvas></div>
+    <p class="chart-src">Mix e desempenho apurados nas 39 publicações da fase atual, de 11/11/2025 a 05/08/2026.</p>
+    <p>Reels entregam 0,866% de engajamento contra 0,222% dos carrosséis. A diferença é grande o bastante para justificar transformar o conteúdo de carrossel, que costuma ser explicativo, em roteiro de vídeo. O material informativo não precisa sair do calendário; precisa mudar de formato.</p>
+
+    <h3>Reels acima de 35 segundos alcançam 3,5 vezes mais que os curtos</h3>
+    <p class="finding">Reels com mais de 35 segundos: mediana de 14.601 reproduções. Reels de até 35 segundos: 4.224.</p>
+    <p>O resultado contraria a intuição comum de encurtar tudo, e faz sentido no seu nicho. Um paciente que considera cirurgia plástica está pesquisando uma decisão cara e irreversível, e o vídeo que explica com calma retém mais do que o corte rápido. Vinte e quatro dos 34 Reels da fase atual já passam de 35 segundos, o que confirma o padrão em amostra razoável.</p>
+
+    <details class="more">
+      <summary>ver o desempenho por tema, formato e duração</summary>
+      <div class="tbl">
+        <table>
+          <thead><tr><th scope="col">Recorte</th><th scope="col">Publicações</th><th scope="col">Engajamento</th><th scope="col">Leitura</th></tr></thead>
+          <tbody>
+            <tr><td>Segurança, técnica e pós-operatório</td><td>23</td><td>1,018%</td><td>Melhor tema do perfil, e o que sustenta ticket alto</td></tr>
+            <tr><td>Mama, incluindo mamoplastia e mastopexia</td><td>11</td><td>0,970%</td><td>Segundo melhor tema, com o maior post do período</td></tr>
+            <tr><td>Face, rinoplastia e papada</td><td>3</td><td>0,918%</td><td>Desempenho alto em amostra pequena, vale ampliar</td></tr>
+            <tr><td>Abdômen e lipoaspiração</td><td>5</td><td>0,777%</td><td>Na média do perfil</td></tr>
+            <tr><td>Autoestima e mensagem motivacional</td><td>15</td><td>0,776%</td><td>Na média, e é o tema mais repetido</td></tr>
+            <tr><td>Reel</td><td>34</td><td>0,866%</td><td>Formato principal, corretamente</td></tr>
+            <tr><td>Carrossel</td><td>5</td><td>0,222%</td><td>Candidato a virar roteiro de vídeo</td></tr>
+            <tr><td>Reel acima de 35 segundos</td><td>24</td><td>Mediana de 14.601 reproduções</td><td>Formato de maior alcance</td></tr>
+            <tr><td>Reel de até 35 segundos</td><td>10</td><td>Mediana de 4.224 reproduções</td><td>Menor alcance</td></tr>
+          </tbody>
+        </table>
+        <p class="chart-src">Classificação por expressão regular sobre as legendas completas das 39 publicações da fase atual. Um post pode contar em mais de um tema.</p>
+      </div>
+    </details>
+
+    <h3>A hashtag da sua marca está dividida em cinco grafias</h3>
+    <div class="tags">
+      <span class="tag hi">#pedrobrandãocp <b>31</b></span>
+      <span class="tag bad">#pedrobrandaocp <b>5</b></span>
+      <span class="tag bad">#drpedrobrandão <b>4</b></span>
+      <span class="tag bad">#drpedrobrandaocp <b>1</b></span>
+      <span class="tag bad">#drpesrobtandocp <b>1</b></span>
+      <span class="tag">#cirurgiaplasticacorporal <b>28</b></span>
+      <span class="tag">#cirurgiaplastica <b>25</b></span>
+      <span class="tag">#cirurgiabrasilia <b>17</b></span>
+      <span class="tag">#brasilia <b>4</b></span>
+      <span class="tag">#mamoplastia <b>2</b></span>
+    </div>
+    <p class="chart-src">Contagem nas 39 legendas da fase atual. Em azul escuro, as variações que fragmentam a marca; a última é erro de digitação.</p>
+    <p>Uma hashtag de marca serve para reunir num só lugar tudo que já foi publicado, e para que paciente e imprensa encontrem o acervo. Dividida em cinco grafias, ela deixa de cumprir as duas funções. A correção é escolher uma forma, de preferência sem acento para evitar novas variações, e usar apenas ela daqui em diante.</p>
+
+    <h3>Domingo nunca recebe publicação, e sábado recebeu três em nove meses</h3>
+    <p class="finding">Distribuição das 39 publicações: sexta 10, segunda 9, quarta 9, terça 4, quinta 4, sábado 3, domingo nenhuma. Todas entre 8h e 18h.</p>
+    <p>O padrão revela uma agenda de expediente comercial, coerente com quem publica a partir da clínica. O público que pesquisa cirurgia plástica, porém, costuma fazer isso à noite e no fim de semana, quando tem tempo de pensar no assunto. Abrir uma janela noturna e ocupar o domingo são testes de custo zero, feitos com o mesmo material já produzido.</p>
+  </section>
+
+  <section id="diretorios">
+    <div class="sec-head">
+      <h2>Diretórios médicos, imprensa e redes secundárias</h2>
+      <p>Seis canais fora do Instagram, e o que cada um está fazendo pela sua captação hoje.</p>
+    </div>
+
+    <h3>Seu Facebook indica aos visitantes um site que não existe</h3>
+    <p class="finding">A página &ldquo;Cirurgia Plástica, Dr. Pedro Brandão&rdquo;, com 2.064 seguidores, lista drpedrobrandao.com.br como site oficial. Esse endereço mostra a página &ldquo;Coming Soon&rdquo;.</p>
+    <p>A página do Facebook está mais bem configurada que a ficha do Google em um ponto importante: a categoria ali é Cirurgião plástico, a correta. Ela também acumula 16 avaliações com 100% de recomendação. O telefone cadastrado, porém, aparece como +55 61 8531-7460, sem o nono dígito, e o conteúdo é repetição direta do Instagram. A publicação mais recente, a mesma peça sobre CPF e CNPJ, fez 3 curtidas no Facebook contra 38 no Instagram.</p>
+
+    <details class="more">
+      <summary>ver os seis canais auditados fora do Instagram</summary>
+      <div class="tbl">
+        <table>
+          <thead><tr><th scope="col">Canal</th><th scope="col">Situação em 06/08/2026</th><th scope="col">Custo de não cuidar</th></tr></thead>
+          <tbody>
+            <tr><td>Perfil da Empresa no Google</td><td>Nota 5,0 com 17 avaliações, categoria &ldquo;Médico&rdquo;, sem site, aparentemente não reivindicada</td><td>Ausência total do mapa na busca pela especialidade</td></tr>
+            <tr><td>Doctoralia</td><td>Duas avaliações, nota 5,0, última de 26/08/2022, sem agendamento online, mais de 50 procedimentos listados</td><td>Terceiro resultado na busca pelo seu nome, com prova social de quatro anos atrás</td></tr>
+            <tr><td>Facebook</td><td>2.064 seguidores, categoria correta, site apontando para domínio vazio, telefone sem o nono dígito</td><td>Quarto resultado na busca pelo nome, encaminhando visitante para página em branco</td></tr>
+            <tr><td>LinkedIn</td><td>Cerca de 510 seguidores, perfil com histórico no Hospital de Base desde 2014</td><td>Baixo impacto em captação de paciente, relevante para parceria e imprensa</td></tr>
+            <tr><td>YouTube</td><td>Sem canal ativo. Um vídeo localizado, publicado há dois anos, com 11 visualizações</td><td>Nenhum acervo indexável de vídeo, formato que o Google exibe na própria busca</td></tr>
+            <tr><td>TikTok</td><td>Nenhum perfil localizado nas variações do nome</td><td>Ausência em plataforma de forte consumo do público de estética</td></tr>
+          </tbody>
+        </table>
+        <p class="chart-src">Leitura direta de cada plataforma em 06/08/2026. A verificação do TikTok foi confirmada por busca indexada, já que a plataforma bloqueia consulta automatizada.</p>
+      </div>
+    </details>
+
+    <h3>A imprensa já te procurou, e o material está guardado onde ninguém acha</h3>
+    <p class="finding">Três aparições identificadas: entrevista ao portal Saúde Brasília em julho de 2025 sobre segurança em cirurgia plástica, além de matérias no G1 e no DFTV citadas na landing page.</p>
+    <p>A entrevista ao Saúde Brasília aparece na primeira página quando alguém busca o seu nome, e é o único resultado do conjunto que fala de autoridade técnica em vez de perfil de rede social. Esse material hoje vive fora do seu controle: existe um destaque no Instagram chamado &ldquo;Na Mídea&rdquo;, com três itens e com o nome grafado errado, e nada no domínio próprio. Uma página de imprensa no site resolveria as duas coisas.</p>
+
+    <details class="more">
+      <summary>ver os 6 parceiros de saúde já marcados no histórico</summary>
+      <div class="partners">
+      <div class="partner">
+        <b>@dra.marciamoreira</b>
+        <span>Oito marcações no histórico, a parceria de maior volume identificada na amostra.</span>
+      </div>
+      <div class="partner">
+        <b>@drmariosoares</b>
+        <span>Oito marcações. Rede de colegas médicos com potencial de encaminhamento mútuo.</span>
+      </div>
+      <div class="partner">
+        <b>@mmbmoreira</b>
+        <span>Seis marcações no histórico integral.</span>
+      </div>
+      <div class="partner">
+        <b>@danielasousa.fisio</b>
+        <span>Cinco marcações. Fisioterapia é o serviço mais buscado no pós-operatório.</span>
+      </div>
+      <div class="partner">
+        <b>@enfjoycecampos</b>
+        <span>Quatro marcações. Equipe de enfermagem, tema que aparece em 8 das 17 avaliações do Google.</span>
+      </div>
+      <div class="partner">
+        <b>@sbcpoficial</b>
+        <span>Duas marcações. Vínculo institucional com a Sociedade Brasileira de Cirurgia Plástica.</span>
+      </div>
+      </div>
+      <p class="chart-src">Marcações contadas nos 355 posts do histórico integral. Rede de apoio já existente e ainda não usada como canal de indicação.</p>
+    </details>
+  </section>
+
+  <section id="concorrencia">
+    <div class="sec-head">
+      <h2>Comparativo com três concorrentes de Brasília</h2>
+      <p>Os perfis escolhidos são os que ocupam hoje o espaço de busca que falta a você.</p>
+    </div>
+
+    <p class="lead">A seleção não foi por semelhança de porte, e sim por posição: @dr.andrejardim e @drfernandomarinho aparecem nos resultados orgânicos de &ldquo;cirurgião plástico Brasília&rdquo;, e o @cplasticabrasilia ocupa a primeira posição do pacote local com 199 avaliações. Os três foram medidos com o mesmo método e na mesma data que o seu perfil.</p>
+
+    <h3>Seu engajamento supera o de um perfil com o triplo de seguidores</h3>
+    <div class="chart"><canvas id="chartConcorrentes"></canvas></div>
+    <p class="chart-src">Engajamento apurado nas publicações de cada perfil desde 01/11/2025, coleta de 06/08/2026 pela API interna do Instagram. Amostra: 39 posts seus, 45 do @dr.andrejardim, 37 do @drfernandomarinho e 46 do @cplasticabrasilia.</p>
+    <p>O @cplasticabrasilia tem 218 mil seguidores e engajamento de 0,095%, cerca de oito vezes menor que o seu. Escala de base não se converte automaticamente em atenção. O @drfernandomarinho é a referência real de conteúdo do grupo, com 1,612%, e vale estudar o que ele faz de diferente.</p>
+
+    <h3>Seus Reels alcançam mais gente por peça do que os do concorrente com 51 mil seguidores</h3>
+    <div class="chart"><canvas id="chartAlcance"></canvas></div>
+    <p class="chart-src">Mediana de reproduções por Reel desde 01/11/2025, mesma coleta. A mediana foi preferida à média porque um único Reel viral distorce a média em todos os perfis.</p>
+    <p>Este é o dado mais importante do comparativo. Com 16.414 seguidores, você entrega mediana de 11.843 reproduções, acima dos 9.280 do @dr.andrejardim, que tem 51.145 seguidores. A capacidade de produzir vídeo que circula já está instalada. O que falta é volume de publicação e uma estrutura que capture quem assiste.</p>
+
+    <details class="more">
+      <summary>ver a tabela completa dos quatro perfis, com onze campos comparados</summary>
+      <div class="tbl">
+        <table>
+          <thead><tr><th scope="col">Campo</th><th scope="col">Dr. Pedro Brandão</th><th scope="col">@dr.andrejardim</th><th scope="col">@drfernandomarinho</th><th scope="col">@cplasticabrasilia</th></tr></thead>
+          <tbody>
+            <tr><td>Seguidores</td><td>16.414</td><td>51.145</td><td>59.517</td><td>218.340</td></tr>
+            <tr><td>Publicações no total</td><td>355</td><td>524</td><td>287</td><td>2.988</td></tr>
+            <tr><td>Selo de verificação</td><td>Não</td><td>Sim</td><td>Sim</td><td>Sim</td></tr>
+            <tr><td>Engajamento desde novembro</td><td>0,784%</td><td>0,732%</td><td>1,612%</td><td>0,095%</td></tr>
+            <tr><td>Curtidas na mediana</td><td>53</td><td>211</td><td>301</td><td>94</td></tr>
+            <tr><td>Reproduções na mediana</td><td>11.843</td><td>9.280</td><td>19.902</td><td>5.981</td></tr>
+            <tr><td>Publicações por mês</td><td>4,3</td><td>9,0</td><td>5,3</td><td>11,5</td></tr>
+            <tr><td>Destino do link da bio</td><td>Linktree</td><td>Linktree</td><td>Linktree</td><td>WhatsApp com mensagem pronta</td></tr>
+            <tr><td>Site próprio no ar</td><td>Não</td><td>drandrejardim.com.br</td><td>drfernandomarinho.com.br</td><td>cplasticabrasilia.com.br</td></tr>
+            <tr><td>Categoria da ficha no Google</td><td>Médico</td><td>Cirurgião plástico</td><td>Cirurgião plástico</td><td>Cirurgião plástico</td></tr>
+            <tr><td>Avaliações no Google</td><td>17</td><td>177</td><td>11</td><td>199</td></tr>
+          </tbody>
+        </table>
+        <p class="chart-src">Instagram: API interna com sessão autenticada, coleta de 06/08/2026, recorte de 01/11/2025 em diante. Google: leitura das fichas no Maps na mesma data. Curtidas ocultas em parte dos posts dos concorrentes foram tratadas como zero para o cálculo, o que subestima ligeiramente os números deles.</p>
+      </div>
+    </details>
+
+    <div class="vs">
+      <div class="vs-col vs-gente">
+        <h4>O que você já vence</h4>
+        <div class="vs-row"><span>Engajamento</span><span>Supera 2 dos 3</span></div>
+        <div class="vs-row"><span>Reproduções por peça</span><span>Supera 2 dos 3</span></div>
+        <div class="vs-row"><span>Nota no Google</span><span>5,0, a maior do grupo</span></div>
+        <div class="vs-row"><span>Alcance sobre a base</span><span>80x, o maior do grupo</span></div>
+        <div class="vs-row"><span>Geolocalização nos posts</span><span>37 de 39</span></div>
+        <div class="vs-row"><span>Custo para manter</span><span>Já está pago</span></div>
+      </div>
+      <div class="vs-col vs-cat">
+        <h4>O que falta montar</h4>
+        <div class="vs-row"><span>Site no domínio próprio</span><span>Os 3 têm, você não</span></div>
+        <div class="vs-row"><span>Categoria certa no Google</span><span>Os 3 têm, você não</span></div>
+        <div class="vs-row"><span>Selo de verificação</span><span>Os 3 têm, você não</span></div>
+        <div class="vs-row"><span>Volume de avaliações</span><span>17 contra 199 do 1º do mapa</span></div>
+        <div class="vs-row"><span>Cadência de publicação</span><span>4,3 por mês, a menor</span></div>
+        <div class="vs-row"><span>Contato de um toque</span><span>Só o @cplasticabrasilia tem</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="conversao">
+    <div class="sec-head">
+      <h2>O caminho entre a reprodução e a consulta</h2>
+      <p>Onde 1,32 milhão de reproduções encontram o fim da linha.</p>
+    </div>
+
+    <h3>Nenhuma das 39 legendas publicadas desde novembro menciona WhatsApp</h3>
+    <p class="finding">Dezoito das 39 publicações trazem alguma chamada para ação, 46% do total. Doze pedem para agendar, oito remetem ao link da bio, seis pedem mensagem. Nenhuma oferece um número, um link direto ou um toque só.</p>
+    <p>O botão de contato do perfil está configurado como ligação telefônica, o campo de WhatsApp do Instagram está vazio e o botão de ação não está habilitado. Um paciente que assiste ao Reel às 22h e decide agir precisa sair do vídeo, tocar no perfil, abrir o Linktree, escolher entre as opções e só então chegar ao canal de atendimento, que na prática funciona em horário comercial.</p>
+
+    <details class="more">
+      <summary>ver os sete pontos de perda mapeados no caminho até o agendamento</summary>
+      <div class="tbl">
+        <table>
+          <thead><tr><th scope="col">Etapa</th><th scope="col">Situação hoje</th><th scope="col">Correção sugerida</th></tr></thead>
+          <tbody>
+            <tr><td>Legenda do post</td><td>54% sem chamada para ação; nenhuma com contato direto</td><td>Encerrar todo Reel de caso com uma frase e um caminho de um toque</td></tr>
+            <tr><td>Botão do perfil</td><td>Configurado para ligação telefônica</td><td>Trocar por WhatsApp, canal que o público usa fora do expediente</td></tr>
+            <tr><td>Link da bio</td><td>Linktree, uma camada intermediária</td><td>Link direto para WhatsApp com mensagem preenchida e identificação de origem</td></tr>
+            <tr><td>Bio do perfil</td><td>Três linhas de credencial, sem cidade escrita e sem convite</td><td>Incluir Brasília por extenso e uma linha de convite ao agendamento</td></tr>
+            <tr><td>Ficha do Google</td><td>Campo de site vazio</td><td>Vincular o site próprio assim que publicado</td></tr>
+            <tr><td>Landing page</td><td>Sem pixel da Meta</td><td>Instalar o pixel para reapresentar anúncio a quem visitou</td></tr>
+            <tr><td>Medição de origem</td><td>Nenhuma forma de saber de onde veio o paciente</td><td>Parâmetros de origem no link e pergunta padrão no primeiro atendimento</td></tr>
+          </tbody>
+        </table>
+        <p class="chart-src">Configuração do perfil lida pela API do Instagram e legendas classificadas por expressão regular, coleta de 06/08/2026.</p>
+      </div>
+    </details>
+
+    <div class="callout">
+      <h4>A conta que dimensiona a oportunidade</h4>
+      <p>As 39 publicações desde novembro somaram <b>1.324.704 reproduções</b>. Se apenas 0,1% de quem assistiu tivesse tocado em um botão de WhatsApp disponível no próprio post, seriam cerca de <b>1.320 conversas iniciadas</b> em nove meses, algo em torno de 146 por mês. Nenhuma taxa de conversão precisa ser otimista para que o número seja relevante: o que existe hoje é a ausência do botão, não a ausência de audiência.</p>
+      <p>Essa estimativa é ilustrativa e serve para dimensionar a ordem de grandeza do que está sendo deixado na mesa. Sem acesso ao Meta Business e ao histórico de atendimento da clínica, não há como apurar a taxa real, e essa é justamente a primeira coisa que passa a existir quando a medição é instalada.</p>
+    </div>
+
+    <h3>As 17 avaliações do Google descrevem exatamente o que deveria estar no conteúdo</h3>
+    <p class="finding">Palavras que o Google identificou como recorrentes nas avaliações: equipe em 8, sucesso em 4, gratidão em 3, autoestima em 2, rinoplastia em 2, empatia em 2 e segurança em 2.</p>
+    <p>Quem já operou com você fala de equipe antes de falar de resultado. É um argumento de venda pronto, dito por terceiros, e que hoje não aparece em nenhuma das 39 publicações do período nem na estrutura da landing page. Trazer a equipe para dentro do conteúdo alinha o que os pacientes já valorizam com o que o perfil comunica.</p>
+  </section>
+
+  <section id="swot">
+    <div class="sec-head">
+      <h2>Análise SWOT da presença digital</h2>
+      <p>O quadro consolidado dos quatro canais auditados.</p>
+    </div>
+    <details class="more">
+      <summary>ver a matriz SWOT completa, com os 32 pontos levantados nos quatro canais</summary>
+      <div class="swot">
+        <div class="swot-cell swot-s">
+          <h4>Forças</h4>
+          <ul>
+            <li>1.324.704 reproduções em nove meses, 80 vezes a base de seguidores</li>
+            <li>Mediana de 11.843 reproduções por Reel, acima de dois dos três concorrentes</li>
+            <li>Engajamento de 0,784%, o dobro do período anterior</li>
+            <li>Nota 5,0 no Google, a maior entre os quatro perfis comparados</li>
+            <li>Credenciais fortes: SBCP, ASPS, fellowship no Instituto Ivo Pitanguy, dois RQE</li>
+            <li>Conteúdo de segurança cirúrgica engaja 1,018%, acima da média do perfil</li>
+            <li>Geolocalização marcada em 37 das 39 publicações</li>
+            <li>Rede de seis parceiros de saúde já marcados no histórico</li>
+            <li>Presença espontânea na imprensa, com Saúde Brasília, G1 e DFTV</li>
+          </ul>
+        </div>
+        <div class="swot-cell swot-w">
+          <h4>Fraquezas</h4>
+          <ul>
+            <li>Domínio oficial exibindo página de espera da hospedagem</li>
+            <li>Ficha do Google na categoria &ldquo;Médico&rdquo; e aparentemente não reivindicada</li>
+            <li>Ausência total da primeira página na busca pela especialidade</li>
+            <li>Nenhuma legenda com contato direto por WhatsApp</li>
+            <li>Botão do perfil configurado para ligação telefônica</li>
+            <li>Cadência de 4,3 publicações por mês, a menor do grupo comparado</li>
+            <li>Hashtag de marca dividida em cinco grafias</li>
+            <li>Doctoralia com duas avaliações, a última de agosto de 2022</li>
+            <li>Facebook indicando um site que não existe</li>
+            <li>Sem pixel da Meta e sem dados estruturados de médico na landing page</li>
+          </ul>
+        </div>
+        <div class="swot-cell swot-o">
+          <h4>Oportunidades</h4>
+          <ul>
+            <li>Três vagas do mapa acessíveis com uma correção de categoria</li>
+            <li>Reels longos performam 3,5 vezes mais, e o acervo de casos já existe</li>
+            <li>Consulta online já testada, com um Reel de 139 mil reproduções sobre o tema</li>
+            <li>Paciente internacional citado em publicação, mercado de ticket elevado</li>
+            <li>Domingo e horário noturno ainda sem nenhuma publicação</li>
+            <li>Equipe é o assunto mais citado nas avaliações e não aparece no conteúdo</li>
+            <li>Fisioterapia e enfermagem parceiras como canal de indicação cruzada</li>
+          </ul>
+        </div>
+        <div class="swot-cell swot-t">
+          <h4>Ameaças</h4>
+          <ul>
+            <li>@cplasticabrasilia com 199 avaliações e primeira posição consolidada no mapa</li>
+            <li>@dr.andrejardim atualizando fotos da ficha do Google a cada poucos dias</li>
+            <li>Concorrentes com site próprio acumulando autoridade a cada mês</li>
+            <li>Dependência de um único canal, com regras que mudam sem aviso</li>
+            <li>Perfil sem verificação, exposto a conta falsa em nicho visado por golpe</li>
+            <li>Doctoralia desatualizado sendo o terceiro resultado da busca pelo nome</li>
+          </ul>
+        </div>
+      </div>
+    </details>
+  </section>
+
+  <section id="recomendacoes">
+    <div class="sec-head">
+      <h2>Recomendações</h2>
+      <p>Em ordem de retorno sobre esforço, começando pelo que se resolve em uma semana.</p>
+    </div>
+    <div class="recs">
+      <div class="rec">
+        <h4>Destravar o que já está pronto</h4>
+        <span class="rec-when">Primeiras 4 semanas</span>
+        <ul>
+          <li>Reivindicar a ficha do Google e trocar a categoria principal de &ldquo;Médico&rdquo; para &ldquo;Cirurgião plástico&rdquo;</li>
+          <li>Preencher a ficha por inteiro: site, serviços, horários, fotos do consultório e da equipe</li>
+          <li>Publicar o site no domínio raiz, ainda que seja o conteúdo atual da landing page migrado</li>
+          <li>Corrigir o título de compartilhamento da landing page para nome e especialidade</li>
+          <li>Trocar o botão do perfil de ligação para WhatsApp e substituir o Linktree por link direto</li>
+          <li>Reescrever a bio com Brasília por extenso e um convite claro ao agendamento</li>
+          <li>Corrigir o site indicado no Facebook e o telefone sem o nono dígito</li>
+          <li>Unificar a hashtag de marca em uma única grafia sem acento</li>
+        </ul>
+      </div>
+      <div class="rec">
+        <h4>Construir a máquina de captação</h4>
+        <span class="rec-when">2 a 6 meses</span>
+        <ul>
+          <li>Instalar pixel da Meta, Search Console e dados estruturados de médico</li>
+          <li>Subir a cadência de 4,3 para 8 publicações por mês, mantendo o Reel como formato principal</li>
+          <li>Converter o conteúdo de carrossel em roteiro de vídeo acima de 35 segundos</li>
+          <li>Criar rotina de solicitação de avaliação no pós-operatório, com meta de 10 por mês no Google</li>
+          <li>Reativar o Doctoralia com fotos, preços de consulta e agendamento online habilitado</li>
+          <li>Publicar página de imprensa no site reunindo Saúde Brasília, G1 e DFTV</li>
+          <li>Abrir janela noturna e de domingo com o material já produzido</li>
+          <li>Levar a equipe para dentro do conteúdo, tema mais citado nas avaliações</li>
+        </ul>
+      </div>
+      <div class="rec">
+        <h4>Ocupar o espaço de busca</h4>
+        <span class="rec-when">6 a 18 meses</span>
+        <ul>
+          <li>Criar páginas de procedimento no site próprio, uma para cada cirurgia principal</li>
+          <li>Publicar conteúdo recorrente que responda às dúvidas que hoje viram Reel</li>
+          <li>Solicitar o selo de verificação do Instagram, único do grupo comparado sem ele</li>
+          <li>Abrir canal no YouTube com os Reels acima de 35 segundos reeditados</li>
+          <li>Estruturar o atendimento a paciente de fora, tema que já rendeu 139 mil reproduções</li>
+          <li>Montar programa de indicação com a rede de parceiros de fisioterapia e enfermagem</li>
+          <li>Medir origem de cada agendamento e passar a decidir investimento por dado</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="resumo">
+    <div class="sec-head">
+      <h2>Resumo executivo</h2>
+      <p>Onde está o retorno mais rápido.</p>
+    </div>
+
+    <h3>Quatro correções de uma semana valem mais que qualquer investimento novo</h3>
+    <details class="more">
+      <summary>ver as 8 ações do quadro de oportunidade, ordenadas por retorno sobre esforço</summary>
+      <div class="tbl">
+        <table>
+          <thead><tr><th scope="col">Ação</th><th scope="col">Esforço</th><th scope="col">O que muda</th></tr></thead>
+          <tbody>
+            <tr><td>Trocar a categoria da ficha do Google</td><td>Uma tarde</td><td>Passa a concorrer pelas três vagas do mapa na busca da especialidade</td></tr>
+            <tr><td>Trocar o botão do perfil para WhatsApp</td><td>Cinco minutos</td><td>Abre caminho de contato fora do horário comercial</td></tr>
+            <tr><td>Substituir o Linktree por link direto</td><td>Uma hora</td><td>Remove uma camada entre o interesse e a mensagem</td></tr>
+            <tr><td>Corrigir o site indicado no Facebook</td><td>Cinco minutos</td><td>Para de enviar visitante para página em branco</td></tr>
+            <tr><td>Publicar o site no domínio raiz</td><td>Semanas</td><td>Assume o primeiro resultado da busca pelo próprio nome</td></tr>
+            <tr><td>Rotina de avaliação no pós-operatório</td><td>Contínuo</td><td>Fecha a distância de 17 para 199 avaliações em cerca de 18 meses</td></tr>
+            <tr><td>Subir a cadência para 8 posts por mês</td><td>Contínuo</td><td>Quase dobra o alcance mensal mantendo o desempenho por peça</td></tr>
+            <tr><td>Instalar pixel e medição de origem</td><td>Dias</td><td>Torna possível saber quanto o digital gera de consulta</td></tr>
+          </tbody>
+        </table>
+        <p class="chart-src">Estimativas de esforço consideram execução por uma equipe de marketing, sem necessidade de desenvolvimento sob medida.</p>
+      </div>
+    </details>
+
+    <div class="callout">
+      <h4>A assimetria central desta auditoria</h4>
+      <p>Você tem o melhor desempenho por publicação entre quatro cirurgiões plásticos de Brasília e a menor estrutura para aproveitá-lo. O @cplasticabrasilia tem treze vezes mais seguidores e oito vezes menos engajamento; ainda assim, ocupa a primeira vaga do mapa, porque montou a ficha, o site e o caminho de contato. Conteúdo bom sem infraestrutura é alcance que evapora.</p>
+      <p>O inverso também é verdadeiro, e é o que torna este caso incomum: <b>a parte cara já está feita</b>. Produzir vídeo que circula é o que a maioria dos consultórios não consegue comprar, e você já produz. O que falta custa pouco e se resolve em semanas.</p>
+    </div>
+  </section>
+
+</main>
+
+<div class="closing">
+  <div class="closing-inner">
+    <h3>O que esta auditoria não encontrou: falta de reputação, falta de técnica ou conteúdo ruim.</h3>
+    <p>Encontrou o contrário. Nota 5,0 em todas as avaliações públicas, credenciais que poucos cirurgiões da praça reúnem, e um perfil que entrega mais alcance por publicação do que concorrentes com o triplo de seguidores. Os 355 posts lidos nesta auditoria mostram um trabalho que melhorou de forma clara desde novembro de 2025.</p>
+    <p>O que falta é a camada que transforma atenção em agenda. Uma ficha do Google na categoria certa, um site no próprio domínio e um caminho de um toque até o WhatsApp. Três coisas que não exigem talento novo, apenas execução.</p>
+    <p><strong>A audiência já existe e já assiste. Ela só não tem para onde ir.</strong></p>
+  </div>
+</div>
+
+<footer>
+  <div class="footer-inner">
+    <b>Dr. Pedro Brandão, análise de presença digital</b><br>
+    Auditoria realizada em 6 de agosto de 2026, sem acesso a ferramenta interna do cliente.<br>
+    Instagram: 355 publicações de 21/10/2016 a 05/08/2026, coletadas pela API interna da plataforma com sessão autenticada, com curtidas, comentários, reproduções, duração, marcações, geolocalização e legendas completas.<br>
+    Google: consultas à busca e ao Maps na região de Brasília. Site: requisições diretas aos dois domínios. Concorrentes: mesma metodologia e mesma data.
+    <div class="footer-meta">
+      <a href="https://instagram.com/drpedrobrandaocp">@drpedrobrandaocp no Instagram</a> ·
+      <a href="https://l.drpedrobrandao.com.br/">Landing page atual</a><br>
+      Preparado pela Oráculo Tecnologia · Análise de presença digital
+    </div>
+  </div>
+</footer>
+
+</div><!-- /wrap -->
+
+<script>
+(function () {
+  'use strict';
+
+  var INK   = '#1b2e73';
+  var BLUE  = '#1d4ed8';
+  var SKY   = '#7d97ef';
+  var GOOD  = '#15803d';
+  var WARN  = '#b45309';
+  var MUTE  = '#c9cee1';
+  var GRID  = '#ebedf4';
+  var LABEL = '#6b7186';
+
+  /* Navegacao: destaca a secao visivel */
+  var navLinks = document.querySelectorAll('.nav a');
+  var sections = document.querySelectorAll('main section[id]');
+  if ('IntersectionObserver' in window && sections.length) {
+    var navObs = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (!e.isIntersecting) return;
+        navLinks.forEach(function (a) { a.classList.remove('active'); });
+        var link = document.querySelector('.nav a[href="#' + e.target.id + '"]');
+        if (link) {
+          link.classList.add('active');
+          link.scrollIntoView({ block: 'nearest', inline: 'center', behavior: 'smooth' });
+        }
+      });
+    }, { threshold: 0.15, rootMargin: '-20% 0px -60% 0px' });
+    sections.forEach(function (s) { navObs.observe(s); });
+  }
+
+  /* Barras de pontuacao: enchem ao entrar em tela. */
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var barGroups = document.querySelectorAll('.bars');
+  if (!reduce && 'IntersectionObserver' in window) {
+    barGroups.forEach(function (g) { g.classList.add('js-ready'); });
+    var barObs = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (e.isIntersecting) {
+          e.target.classList.add('is-in');
+          barObs.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.3 });
+    barGroups.forEach(function (g) { barObs.observe(g); });
+    setTimeout(function () {
+      barGroups.forEach(function (g) { g.classList.add('is-in'); });
+    }, 4000);
+    window.addEventListener('beforeprint', function () {
+      barGroups.forEach(function (g) { g.classList.remove('js-ready'); });
+    });
+  }
+
+  /* Impressao e PDF saem com o documento inteiro, sem nada recolhido. */
+  window.addEventListener('beforeprint', function () {
+    var all = document.querySelectorAll('details.more');
+    Array.prototype.forEach.call(all, function (d) { d.open = true; });
+  });
+
+  if (typeof Chart === 'undefined') return;
+
+  Chart.defaults.font.family = "'Bricolage Grotesque', -apple-system, BlinkMacSystemFont, sans-serif";
+  Chart.defaults.font.size = 12;
+  Chart.defaults.color = LABEL;
+  Chart.defaults.plugins.legend.labels.boxWidth = 10;
+  Chart.defaults.plugins.legend.labels.boxHeight = 10;
+  Chart.defaults.plugins.legend.labels.padding = 14;
+  Chart.defaults.plugins.tooltip.backgroundColor = INK;
+  Chart.defaults.plugins.tooltip.padding = 10;
+  Chart.defaults.plugins.tooltip.cornerRadius = 3;
+  Chart.defaults.plugins.tooltip.titleFont = { weight: '600' };
+  Chart.defaults.animation.duration = reduce ? 0 : 700;
+  Chart.defaults.animation.easing = 'easeOutQuart';
+
+  var axisY = { grid: { color: GRID, drawTicks: false }, border: { display: false }, ticks: { padding: 8 } };
+  var axisX = { grid: { display: false }, border: { color: GRID }, ticks: { padding: 6 } };
+
+  /* 1. Avaliacoes no Google */
+  new Chart(document.getElementById('chartGoogle'), {
+    type: 'bar',
+    data: {
+      labels: [['Dr. Pedro', 'Brandao'], ['@dr.andrejardim'], ['@drfernando', 'marinho'], ['CPlastica', 'Brasilia']],
+      datasets: [{
+        label: 'Avaliacoes no Google',
+        data: [17, 177, 11, 199],
+        backgroundColor: [WARN, SKY, SKY, INK],
+        borderRadius: 2,
+        maxBarThickness: 78
+      }]
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      plugins: {
+        legend: { display: false },
+        tooltip: { callbacks: {
+          label: function (c) { return ' ' + c.raw + ' avaliacoes'; },
+          footer: function (items) {
+            var n = ['Nota 5,0 . categoria "Medico"', 'Nota 5,0 . categoria correta', 'Nota 5,0 . categoria correta', 'Nota 4,9 . 1o lugar no mapa'];
+            return n[items[0].dataIndex];
+          }
+        } }
+      },
+      scales: { y: Object.assign({}, axisY, { beginAtZero: true }), x: axisX }
+    }
+  });
+
+  /* 2. Cadencia mensal e o hiato */
+  new Chart(document.getElementById('chartCadencia'), {
+    type: 'bar',
+    data: {
+      labels: ['2023', '1o sem 2024', '2o sem 2024', '1o sem 2025', '2o sem 2025', '2026 ate agosto'],
+      datasets: [{
+        label: 'Publicacoes no periodo',
+        data: [59, 41, 0, 1, 11, 28],
+        backgroundColor: [SKY, SKY, WARN, WARN, GOOD, GOOD],
+        borderRadius: 2,
+        maxBarThickness: 64
+      }]
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      plugins: {
+        legend: { display: false },
+        tooltip: { callbacks: {
+          label: function (c) { return ' ' + c.raw + ' publicacoes'; },
+          footer: function (items) {
+            var i = items[0].dataIndex;
+            if (i === 2 || i === 3) { return '550 dias com uma unica publicacao'; }
+            return '';
+          }
+        } }
+      },
+      scales: { y: Object.assign({}, axisY, { beginAtZero: true }), x: axisX }
+    }
+  });
+
+  /* 3. Posts de maior interacao */
+  new Chart(document.getElementById('chartEngajamento'), {
+    type: 'bar',
+    data: {
+      labels: [['Mamoplastia', 'redutora'], ['Planejamento', 'por tras'], ['Resultado', 'com convite'], ['Abdomino', 'plastia'], ['Consulta', 'online'], ['Papada e', 'contorno'], ['Transformacao', 'nos detalhes'], ['Menos exagero,', 'mais elegancia']],
+      datasets: [
+        { label: 'Curtidas', data: [645, 523, 437, 407, 367, 353, 312, 139], backgroundColor: INK, borderRadius: 2, maxBarThickness: 34 },
+        { label: 'Comentarios', data: [49, 52, 30, 19, 21, 15, 4, 8], backgroundColor: SKY, borderRadius: 2, maxBarThickness: 34 }
+      ]
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      plugins: {
+        legend: { position: 'bottom' },
+        tooltip: { callbacks: { footer: function () { return 'Mediana do perfil no periodo: 53 curtidas e 4 comentarios'; } } }
+      },
+      scales: { y: Object.assign({}, axisY, { beginAtZero: true }), x: axisX }
+    }
+  });
+
+  /* 4. Mix de formatos */
+  new Chart(document.getElementById('chartFormatos'), {
+    type: 'doughnut',
+    data: {
+      labels: ['Reels (34)', 'Carrosseis (5)'],
+      datasets: [{
+        data: [34, 5],
+        backgroundColor: [INK, MUTE],
+        borderWidth: 2,
+        borderColor: '#fbfbfd'
+      }]
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      cutout: '62%',
+      plugins: {
+        legend: { position: 'bottom' },
+        tooltip: { callbacks: { footer: function () { return 'Engajamento: 0,866% no Reel . 0,222% no carrossel'; } } }
+      }
+    }
+  });
+
+  /* 5. Engajamento contra os concorrentes */
+  new Chart(document.getElementById('chartConcorrentes'), {
+    type: 'bar',
+    data: {
+      labels: [['Dr. Pedro Brandao', '16.414 seguidores'], ['@dr.andrejardim', '51.145 seguidores'], ['@drfernandomarinho', '59.517 seguidores'], ['@cplasticabrasilia', '218.340 seguidores']],
+      datasets: [{
+        label: 'Taxa de engajamento (%)',
+        data: [0.784, 0.732, 1.612, 0.095],
+        backgroundColor: [GOOD, SKY, INK, MUTE],
+        borderRadius: 2,
+        maxBarThickness: 78
+      }]
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      plugins: {
+        legend: { display: false },
+        tooltip: { callbacks: { label: function (c) { return ' ' + String(c.raw).replace('.', ',') + '% de engajamento sobre a base'; } } }
+      },
+      scales: {
+        y: Object.assign({}, axisY, { beginAtZero: true, ticks: { padding: 8, callback: function (v) { return v + '%'; } } }),
+        x: axisX
+      }
+    }
+  });
+
+  /* 6. Alcance mediano por Reel */
+  new Chart(document.getElementById('chartAlcance'), {
+    type: 'bar',
+    data: {
+      labels: ['Dr. Pedro Brandao', '@dr.andrejardim', '@drfernandomarinho', '@cplasticabrasilia'],
+      datasets: [{
+        label: 'Reproducoes na mediana por Reel',
+        data: [11843, 9280, 19902, 5981],
+        backgroundColor: [GOOD, SKY, INK, MUTE],
+        borderRadius: 2,
+        maxBarThickness: 26
+      }]
+    },
+    options: {
+      indexAxis: 'y',
+      responsive: true, maintainAspectRatio: false,
+      plugins: {
+        legend: { display: false },
+        tooltip: { callbacks: {
+          label: function (c) { return ' ' + c.raw.toLocaleString('pt-BR') + ' reproducoes na mediana'; },
+          footer: function (items) {
+            var f = ['16.414 seguidores', '51.145 seguidores', '59.517 seguidores', '218.340 seguidores'];
+            return f[items[0].dataIndex];
+          }
+        } }
+      },
+      scales: {
+        x: { beginAtZero: true, grid: { color: GRID, drawTicks: false }, border: { display: false }, ticks: { padding: 6, callback: function (v) { return (v / 1000) + ' mil'; } } },
+        y: { grid: { display: false }, border: { color: GRID }, ticks: { padding: 6 } }
+      }
+    }
+  });
+})();
+</script>
+</body>
+</html>

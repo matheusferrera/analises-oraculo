@@ -1,0 +1,252 @@
+{
+  "meta": {
+    "cliente": "Grupo Sinfonya Turismo e Formaturas",
+    "documento": "Auditoria de presenca digital",
+    "coleta": "2026-08-06",
+    "autor": "Oraculo Tecnologia",
+    "observacao": "Complementa a Auditoria de Marketing de 06/08/2026. Onde os dois documentos divergem, vale este, que e posterior e usou consulta por nome de marca em vez de termo comercial."
+  },
+
+  "dominio": {
+    "fonte": "dig A/NS/MX e whois registro.br, 06/08/2026",
+    "verificados": [
+      { "dominio": "sinfonyaturismo.com.br", "registro_a": null, "ns": null, "mx": null, "whois": "No match", "situacao": "nao registrado, disponivel" },
+      { "dominio": "sinfonya.com.br", "registro_a": null, "ns": null, "mx": null, "whois": "No match", "situacao": "nao registrado, disponivel" },
+      { "dominio": "gruposinfonya.com.br", "registro_a": null, "ns": null, "mx": null, "whois": "No match", "situacao": "nao registrado, disponivel" },
+      { "dominio": "sinfonyaformaturas.com.br", "registro_a": null, "ns": null, "mx": null, "whois": "No match", "situacao": "nao registrado, disponivel" },
+      { "dominio": "sinfonyaweeding.com.br", "registro_a": null, "situacao": "nao registrado" },
+      { "dominio": "sinfonyaturismo.com", "registro_a": null, "situacao": "sem registro A" }
+    ],
+    "conclusao": "Nenhum dominio da marca esta registrado. Os dois que a empresa declara publicamente como site oficial estao livres para registro por terceiros."
+  },
+
+  "contas_instagram": {
+    "fonte": "API interna do Instagram, sessao autenticada, endpoint /api/v1/users/{pk}/info/, 06/08/2026",
+    "contas": [
+      {
+        "handle": "sinfonyaturismo", "pk": "5655497519", "nome": "Grupo Sinfonya Turismo",
+        "categoria": "Agencia de turismo", "seguidores": 50386, "posts": 284,
+        "tipo_conta": "business", "link_bio": "wa.me/5561984055939", "tipo_link": "whatsapp",
+        "email_publico": "reservas3.sinfonya@gmail.com", "telefone_publico": "61984055939",
+        "endereco_estruturado": null, "cidade_estruturada": null, "lat_lng": [0, 0],
+        "metodo_contato": "CALL", "whatsapp_vinculado": true, "destaques": 8,
+        "site_na_bio": false
+      },
+      {
+        "handle": "sinfonyaformaturas", "pk": "53790922695", "nome": "Sinfonya Formaturas",
+        "categoria": null, "seguidores": 25823, "posts": 235,
+        "tipo_conta": "professional (criador), NAO business", "link_bio": "linktr.ee/gruposinfonyaturismo", "tipo_link": "external",
+        "email_publico": null, "telefone_publico": null,
+        "endereco_estruturado": null, "cidade_estruturada": null,
+        "metodo_contato": "CALL", "whatsapp_vinculado": false, "destaques": 9,
+        "site_na_bio": false
+      },
+      {
+        "handle": "sinfonyaweeding", "pk": "39454949424", "nome": "Sinfonya Weeding & Lua de Mel",
+        "categoria": "Agencia de viagens", "seguidores": 16438, "posts": 41,
+        "tipo_conta": "business", "link_bio": "docs.google.com/forms/d/e/1FAIpQLSf9_CPtB-lR7K-4zuoFT11HwBPlYQwETvcXeSe0JeU7daHXhg/viewform", "tipo_link": "Google Forms",
+        "email_publico": null, "telefone_publico": null,
+        "endereco_estruturado": null, "cidade_estruturada": null,
+        "metodo_contato": "UNKNOWN", "whatsapp_vinculado": false,
+        "site_na_bio": false
+      },
+      {
+        "handle": "sinfonya_cristao", "pk": "42997033949", "nome": "Sinfonya Cristao",
+        "categoria": "Agencia de viagens", "seguidores": 1943, "posts": 6,
+        "tipo_conta": "business", "link_bio": null, "tipo_link": null,
+        "email_publico": null, "telefone_publico": null,
+        "endereco_estruturado": null, "cidade_estruturada": null,
+        "metodo_contato": "UNKNOWN", "whatsapp_vinculado": false,
+        "site_na_bio": false,
+        "nota": "Vende Israel 2027, o produto de maior ticket do grupo, sem nenhum link, e-mail ou telefone no perfil."
+      },
+      {
+        "handle": "sinfonyaturismo_patosdeminas", "pk": "25265091548", "nome": "Sinfonya Turismo Patos de Minas",
+        "categoria": "Agencia de turismo", "seguidores": 552, "posts": 138,
+        "tipo_conta": "business", "link_bio": "wa.me/5534992016523", "tipo_link": "external",
+        "email_publico": null, "telefone_publico": null,
+        "endereco_estruturado": null, "cidade_estruturada": null,
+        "metodo_contato": "UNKNOWN", "whatsapp_vinculado": false,
+        "site_na_bio": false,
+        "nota": "Endereco aparece so como texto na bio, nao no campo estruturado."
+      }
+    ],
+    "resumo": {
+      "contas": 5,
+      "seguidores_somados": 95142,
+      "com_endereco_estruturado": 0,
+      "com_site_na_bio": 0,
+      "com_email_publico": 1,
+      "sem_nenhum_link": 1,
+      "classificadas_como_empresa": 4
+    }
+  },
+
+  "pontos_de_contato": {
+    "fonte": "varredura por regex de 428 legendas e bios das cinco contas (SinfonyaTurismo/data, SinfonyaFormaturas/data e grupo-marcas.json), 04 e 06/08/2026",
+    "legendas_varridas": 428,
+    "legendas_com_telefone": 163,
+    "percentual_com_telefone": 38,
+    "urls_fora_do_instagram": 0,
+    "emails_em_legenda": 0,
+    "numeros_distintos": 7,
+    "numeros": [
+      { "numero": "(61) 98405-5939", "ocorrencias": 309, "contas": ["sinfonyaturismo", "sinfonyaformaturas", "sinfonya_cristao", "sinfonyaturismo_patosdeminas"] },
+      { "numero": "(34) 99201-6523", "ocorrencias": 138, "contas": ["sinfonyaturismo", "sinfonyaformaturas", "sinfonya_cristao", "sinfonyaturismo_patosdeminas"] },
+      { "numero": "(34) 99198-9798", "ocorrencias": 20, "contas": ["sinfonyaturismo"] },
+      { "numero": "(61) 3336-5827", "ocorrencias": 2, "contas": ["sinfonyaformaturas"] },
+      { "numero": "(61) 98345-4530", "ocorrencias": 2, "contas": ["sinfonyaformaturas"] },
+      { "numero": "(34) 99293-1838", "ocorrencias": 2, "contas": ["sinfonyaformaturas"] },
+      { "numero": "(34) 99963-7172", "ocorrencias": 1, "contas": ["sinfonyaturismo_patosdeminas"] }
+    ],
+    "mais_um_numero_fora_das_legendas": { "numero": "(61) 3575-0044", "onde": "cadastro do Reclame Aqui" }
+  },
+
+  "identidade_divergente": {
+    "fonte": "leitura direta de cada canal, 06/08/2026",
+    "linhas": [
+      { "canal": "Perfil da Empresa no Google", "site_declarado": "sinfonyaturismo.com.br", "site_existe": false, "telefone": "(61) 3336-5827", "endereco": "St. D Sul QSD 05 CL Lote 04, Ed. Spazio Duo, Sala 302, Taguatinga Sul, 72020-111", "situacao": "listagem nao reivindicada" },
+      { "canal": "Reclame Aqui", "site_declarado": "sinfonya.com.br", "site_existe": false, "telefone": "(61) 3575-0044", "endereco": null, "situacao": "empresa nao verificada, no RA ha 10 anos" },
+      { "canal": "Linktree", "site_declarado": "sinfonyaturismo.com.br", "site_existe": false, "telefone": "wa.me/5561984055939", "endereco": null, "situacao": "ativo, 5 links, 2 quebrados" },
+      { "canal": "Instagram @sinfonyaturismo", "site_declarado": null, "site_existe": null, "telefone": "(61) 98405-5939", "endereco": "Setor D Sul, Lote 04, Sala 303, Ed. Spazzio Duo (so no texto da legenda)", "situacao": "business sem endereco estruturado" }
+    ],
+    "observacao": "Google diz Sala 302, Instagram diz Sala 303. Tres canais declaram tres combinacoes diferentes de site e telefone, e os dois sites declarados nao existem."
+  },
+
+  "linktree": {
+    "fonte": "linktr.ee/gruposinfonyaturismo, leitura de 06/08/2026",
+    "bio": "Melhor que viajar, e compartilhar esses momentos com pessoas especiais.",
+    "links": [
+      { "texto": "Nosso Whatsapp", "url": "https://wa.me/5561984055939", "funciona": true },
+      { "texto": "Insta Sinfonya FORMATURAS", "url": "https://www.instagram.com/sinfonyaformaturas", "funciona": true },
+      { "texto": "Insta Sinfonya Turismo", "url": "https://www.instagram.com/sinfonyaturismo/", "funciona": true },
+      { "texto": "Insta Sinfonya Cristao", "url": "https://www.instagram.com/sinfonyacristao/", "funciona": false, "motivo": "handle correto e sinfonya_cristao, com underline. A URL do Linktree abre 'Pagina nao encontrada' no Instagram." },
+      { "texto": "Site Grupo Sinfonya Turismo", "url": "https://sinfonyaturismo.com.br/", "funciona": false, "motivo": "dominio nao registrado" }
+    ],
+    "resumo": "5 links proprios, 2 quebrados. Omite @sinfonyaweeding e @sinfonyaturismo_patosdeminas."
+  },
+
+  "google": {
+    "fonte": "google.com.br, hl=pt-BR, gl=br, 06/08/2026",
+    "perfil_da_empresa": {
+      "existe": true,
+      "reivindicado": false,
+      "sinal": "o painel exibe 'E proprietario desta empresa?' com link para business.google.com/create",
+      "nome": "Sinfonya Turismo",
+      "categoria": "Agencia de turismo no Distrito Federal",
+      "nota": 4.6,
+      "avaliacoes": 55,
+      "telefone": "(61) 3336-5827",
+      "endereco": "St. D Sul QSD 05 CL Lote 04, Edificio Spazio Duo, Sala 302, Taguatinga Sul, Brasilia DF, 72020-111",
+      "botao_site": "https://sinfonyaturismo.com.br/",
+      "botao_site_funciona": false,
+      "horario": "publicado, fecha as 18:00",
+      "descricao_exibida": "Com mais de 500 mil passageiros transportados, a Sinfonya Turismo e uma das empresas que mais cresce no Brasil no ramo de Viagens. Com especializacao em Turismo, Lazer Cristao e Producao de eventos.",
+      "amostras_de_avaliacao": [
+        "Atendimento muito bom, e varios pacotes de viagem com precos acessiveis.",
+        "Hospedagem super confortavel, as festas... tudo perfeito!",
+        "A equipe da Sinfonya Turismo e super atenciosa e profissional."
+      ]
+    },
+    "busca_por_marca": {
+      "consulta": "\"Sinfonya Turismo\"",
+      "posicoes": [
+        { "n": 1, "titulo": "Grupo Sinfonya Turismo (@sinfonyaturismo)", "dominio": "instagram.com" },
+        { "n": 2, "titulo": "Sinfonya Turismo e Eventos", "dominio": "reclameaqui.com.br" },
+        { "n": 3, "titulo": "Grupo Sinfonya Turismo, reels", "dominio": "instagram.com" },
+        { "n": 4, "titulo": "Sinfonya Turismo e Eventos - Processos", "dominio": "jusbrasil.com.br" },
+        { "n": 5, "titulo": "Sinfonya Turismo e Eventos em Brasilia, DF", "dominio": "econodata.com.br" },
+        { "n": 6, "titulo": "Lista de reclamacoes: Sinfonya Turismo e Eventos", "dominio": "reclameaqui.com.br" },
+        { "n": 7, "titulo": "Sinfonya Turismo", "dominio": "facebook.com" },
+        { "n": 8, "titulo": "Sinfonya Turismo E Eventos em Brasilia, DF", "dominio": "solutudo.com.br" }
+      ],
+      "leitura": "Nenhum resultado da primeira pagina e um canal que a empresa controla e edita. O segundo lugar e o Reclame Aqui."
+    },
+    "busca_de_confianca": {
+      "consulta": "Sinfonya Turismo e confiavel",
+      "posicoes_1_2_4": "Reclame Aqui",
+      "leitura": "Quem faz a pesquisa de checagem antes de comprar encontra tres resultados de reclamacao entre os quatro primeiros."
+    },
+    "buscas_comerciais": {
+      "consultas_testadas": 5,
+      "aparicoes_da_sinfonya": 0,
+      "detalhe": [
+        { "consulta": "excursao Caldas Novas saindo de Brasilia", "sinfonya": "ausente", "quem_ocupa": ["excursao_caldas (Instagram)", "brasiliatour.com.br", "brasiliatourviagens (Instagram)", "dfviagens.com.br", "privecaldasnovas.com.br", "expressomanini.com.br", "mondialturismo.com.br"] },
+        { "consulta": "viagem de formatura Brasilia DF agencia", "sinfonya": "ausente", "quem_ocupa": ["ourobrasil.tur.br", "supremaviagens.com.br", "supremaviagens_ (Instagram)", "formaturismo.com.br", "boraturismo.com"] },
+        { "consulta": "agencia de viagem Taguatinga", "sinfonya": "ausente", "quem_ocupa": ["dfviagens.com.br", "comandoturismo (Instagram)", "3sviagens.com.br", "passagem-escurcao-e-turismo.ueniweb.com"] },
+        { "consulta": "pacote Porto Seguro saindo de Brasilia", "sinfonya": "ausente", "quem_ocupa": ["cvc.com.br", "decolar.com", "kayak.com.br", "latamairlines.com"] },
+        { "consulta": "viagem para Israel 2027 agencia brasileira", "sinfonya": "ausente", "quem_ocupa": ["israelcomaline.com.br", "terrasantaviagens.com.br", "viajarturismobrasil.com.br", "ustravel.com.br", "vpiturismo.com.br", "prlucinho.com.br"] }
+      ],
+      "leitura": "A Sinfonya nao aparece em nenhuma das cinco. Praticamente todo concorrente que ocupa essas buscas tem site proprio."
+    },
+    "perfis_de_terceiros_que_rankeiam": [
+      "facebook.com/p/Sinfonya-Turismo-100093541484915",
+      "facebook.com/sinfonya.patos (Sinfonya Tur)",
+      "br.pinterest.com/sinfonyaformaturas",
+      "agenciasdeviagens.org/pt-br/i/145477-sinfonya-turismo",
+      "solutudo.com.br",
+      "econodata.com.br",
+      "jusbrasil.com.br",
+      "cnpj.biz/14275276000278 (Sinfonya Eventos, filial Patos de Minas)"
+    ]
+  },
+
+  "reclame_aqui": {
+    "fonte": "reclameaqui.com.br/empresa/sinfonya-turismo-e-eventos, 06/08/2026",
+    "perfil": "Sinfonya Turismo e Eventos",
+    "tempo_de_cadastro": "10 anos",
+    "verificada": false,
+    "reputacao": "sem reputacao definida (precisa de 10 reclamacoes avaliadas)",
+    "visualizacoes": 737,
+    "janela_dos_indicadores": "01/02/2026 a 31/07/2026",
+    "reclamacoes_na_janela": 6,
+    "percentual_respondidas": 16.7,
+    "aguardando_resposta": 5,
+    "reclamacoes_avaliadas": 1,
+    "tempo_medio_de_resposta": "20 dias e 19 horas",
+    "reclamacoes_ativas_no_total": 16,
+    "site_cadastrado": "sinfonya.com.br",
+    "telefone_cadastrado": "(61) 3575-0044",
+    "tema_das_reclamacoes": "reembolso de viagem cancelada",
+    "amostra": [
+      { "titulo": "Empresa nao realiza reembolso de viagem cancelada, mesmo apos promessas de pagamento e descumprimento de prazos", "status": "Nao respondida", "data": "02/06/2026" },
+      { "titulo": "Reembolso de viagem nao realizado integralmente apos cancelamento e acordo de parcelamento", "status": "Nao respondida", "data": "07/05/2026" },
+      { "titulo": "NAO ME PAGARAM O REEMBOLSO", "status": "Respondida", "data": "ha 3 meses" },
+      { "titulo": "Empresa nao paga o reembolso e sao pessimos para contatar", "status": "Respondida", "data": "ha 3 meses" },
+      { "titulo": "Descumprimento de contrato e falta de suporte, solicito reembolso urgente", "status": "Resolvido", "data": "ha 3 meses" }
+    ],
+    "correcao_da_auditoria_anterior": "A Auditoria de Marketing registrou zero reclamacoes entre marco e agosto de 2025. A leitura de hoje, na janela de fevereiro a julho de 2026, mostra 6 reclamacoes, 5 delas sem resposta."
+  },
+
+  "atendimento": {
+    "fonte": "comentarios das 15 publicacoes mais comentadas de @sinfonyaturismo e @sinfonyaformaturas e das 3 de @sinfonyaweeding, com as respostas encadeadas, 06/08/2026",
+    "por_conta": [
+      { "conta": "sinfonyaturismo", "posts_auditados": 15, "comentarios_lidos": 56, "respostas_da_marca": 8, "percentual_resposta": 14.3, "posts_com_comentario_e_zero_resposta": 9 },
+      { "conta": "sinfonyaformaturas", "posts_auditados": 15, "comentarios_lidos": 161, "respostas_da_marca": 19, "percentual_resposta": 11.8, "posts_com_comentario_e_zero_resposta": 7 },
+      { "conta": "sinfonyaweeding", "posts_auditados": 3, "comentarios_lidos": 4, "respostas_da_marca": 0, "percentual_resposta": 0, "posts_com_comentario_e_zero_resposta": 3 }
+    ],
+    "latencia_medida": [
+      { "tipo": "pergunta comercial", "pergunta": "Com ingresso? Gostaria de mais informacoes", "horas_ate_resposta": 1.9 },
+      { "tipo": "pergunta comercial", "pergunta": "Com o ingresso?", "horas_ate_resposta": 2.3 },
+      { "tipo": "pergunta comercial", "pergunta": "Qual valor em agosto", "horas_ate_resposta": 0.2 },
+      { "tipo": "pergunta comercial", "pergunta": "Quero o aereo", "horas_ate_resposta": 14.1 },
+      { "tipo": "acusacao publica", "pergunta": "Ingresso? Esse golpe ta diferente", "horas_ate_resposta": 5.5 },
+      { "tipo": "relacionamento", "pergunta": "Partiu buzios", "horas_ate_resposta": 0.0 },
+      { "tipo": "relacionamento", "pergunta": "Adorei, partiu caldas", "horas_ate_resposta": 0.1 },
+      { "tipo": "relacionamento", "pergunta": "Boraaaaa", "horas_ate_resposta": 1.3 },
+      { "tipo": "relacionamento", "pergunta": "emoji de aprovacao", "horas_ate_resposta": 1.3 }
+    ],
+    "perguntas_sem_resposta": [
+      { "conta": "sinfonyaformaturas", "post": "DWZ1I5DiSLB", "autor": "ladjanefc", "texto": "preciso de informacoes", "data": "19/04/2026" },
+      { "conta": "sinfonyaformaturas", "post": "DWZ1I5DiSLB", "autor": "ladjanefc", "texto": "ainda tem pacote com ingressos?", "data": "19/04/2026" },
+      { "conta": "sinfonyaformaturas", "post": "DWZ1I5DiSLB", "autor": "jozyribeiro23", "texto": "Eu quero", "data": "16/04/2026" }
+    ],
+    "leitura": "Comentario de relacionamento e respondido em media mais rapido que pergunta de preco. A mesma pessoa perguntou duas vezes no mesmo post e nao foi respondida nenhuma das duas."
+  },
+
+  "reputacao_no_feed": {
+    "fonte": "comentario publico no post DWZ1I5DiSLB de @sinfonyaformaturas, abril de 2026",
+    "caso": "Um seguidor escreveu 'Ingresso? Esse golpe ta diferente' em uma publicacao de oferta. A empresa respondeu 5,5 horas depois defendendo-se: 'nao somos empresa de golpe, somos uma agencia'.",
+    "leitura": "A acusacao publica de golpe convive com ausencia de site, perfil do Google nao reivindicado e Reclame Aqui nao respondido. Nao ha nenhum ativo que a empresa controle para desmentir a suspeita."
+  }
+}

@@ -1,0 +1,724 @@
+{
+  "handle": "drpedrobrandaocp",
+  "nome": "Dr. Pedro Brandão | Cirurgia Plástica",
+  "categoriaInstagram": "Saúde/beleza",
+  "seguidores": 16414,
+  "posts": 355,
+  "seguindo": 275,
+  "verificado": false,
+  "contaBusiness": true,
+  "bio": "▪️Há mais de uma década realizando sonhos \n▪️Especialista em contorno corporal e face\n▪️CRM-DF 15.499/ RQE 14.130",
+  "linkBio": "https://linktr.ee/drpedrobrandao",
+  "metodoDeContato": "CALL",
+  "whatsappConfigurado": false,
+  "botaoCTA": false,
+  "emailPublico": "pedrobrandaocirurgia@gmail.com",
+  "telefonePublico": "6133444664",
+  "endereco": "Capital Financial Center- SIG Q.4, Bl. B, Sala 105, Brasília, Brazil 70610440",
+  "destaques": [
+    {
+      "title": "Transformações",
+      "count": 13,
+      "created": 1765933311
+    },
+    {
+      "title": "Dúvidas",
+      "count": 4,
+      "created": 1706124085
+    },
+    {
+      "title": "Na Mídea",
+      "count": 3,
+      "created": 1765933506
+    }
+  ],
+  "coletadoEm": "2026-08-06",
+  "fonteColeta": "API interna do Instagram (/api/v1/feed/user + /users/info) com sessão autenticada via Playwright; 30 páginas, histórico integral",
+  "amostra": {
+    "totalPosts": 355,
+    "de": "2016-10-21",
+    "ate": "2026-08-05"
+  },
+  "faseAtual": {
+    "de": "2025-11-11",
+    "ate": "2026-08-05",
+    "n": 39,
+    "er": 0.784,
+    "likesMediana": 53,
+    "comentariosMediana": 4,
+    "playsTotal": 1324704,
+    "playsMediana": 11843.0,
+    "cadenciaMes": 4.3
+  },
+  "faseAnterior": {
+    "de": "2023-01-05",
+    "ate": "2024-05-10",
+    "n": 100,
+    "er": 0.389,
+    "likesMediana": 38.0
+  },
+  "hiato": {
+    "de": "2024-05-10",
+    "ate": "2025-11-11",
+    "diasSemPostar": 550,
+    "postsNoPeriodo": 1,
+    "observacao": "Um único post em 18/07/2025 quebra o intervalo. Paginação verificada como contínua."
+  },
+  "erPorFormato": {
+    "Reel": 0.866,
+    "Carrossel": 0.222
+  },
+  "mixFormatos": {
+    "Carrossel": 5,
+    "Reel": 34
+  },
+  "postDetails": [
+    {
+      "code": "DbqtO3jEeCd",
+      "tipo": "Carrossel",
+      "data": "2026-08-05",
+      "likes": 38,
+      "comentarios": 3,
+      "plays": null,
+      "duracaoSeg": null,
+      "geotag": "Cirurgia Plástica - Dr. Pedro Brandão",
+      "tags": [
+        "#pedrobrandaocp",
+        "#cirurgiaplastica",
+        "#cnpjxcpf"
+      ],
+      "legenda": "CPF x CNPJ.\n\nEntre o jaleco e as boas histórias.\nCada versão tem seu momento.\n\n#pedrobrandaocp #cirurgiaplastica #cnpjxcpf"
+    },
+    {
+      "code": "DbGCtevxQ3E",
+      "tipo": "Reel",
+      "data": "2026-07-22",
+      "likes": 24,
+      "comentarios": 0,
+      "plays": 4393,
+      "duracaoSeg": 33,
+      "geotag": "Cirurgia Plástica - Dr. Pedro Brandão",
+      "tags": [
+        "#pedrobrandãocp",
+        "#cirurgiaplasticacorporal",
+        "#cirurgiabrasilia"
+      ],
+      "legenda": "Existem resultados que chamam a atenção. E existem aqueles que realmente surpreendem.\n\nA diferença está em um planejamento cirúrgico individualizado, na técnica aplicada e no respeito à anatomia de cada paciente.\n\nMeu compromisso é oferecer resultados naturais, seguros e em harmonia com cada pessoa, sempre priorizando a saúde e a excelência em cada detalhe.\n\nCada cirurgia é única. Cada paciente ta"
+    },
+    {
+      "code": "Da3CFkOxKJi",
+      "tipo": "Reel",
+      "data": "2026-07-16",
+      "likes": 36,
+      "comentarios": 4,
+      "plays": 4261,
+      "duracaoSeg": 35,
+      "geotag": "Cirurgia Plástica - Dr. Pedro Brandão",
+      "tags": [
+        "#drpesrobtandocp",
+        "#cirurgiaplastica"
+      ],
+      "legenda": "Antes da cirurgia, existia um sonho. Depois dela, uma nova fase.\n\nReceber pacientes de diferentes países é motivo de orgulho e uma grande responsabilidade. Cada viagem até o Brasil representa confiança, expectativa e a busca por um resultado que transforma não apenas a aparência, mas também a autoestima.\n\nObrigado por nos escolher para fazer parte dessa história. Seja bem-vindo(a) à sua melhor ver"
+    },
+    {
+      "code": "Dan-GZQSp-W",
+      "tipo": "Reel",
+      "data": "2026-07-10",
+      "likes": 13,
+      "comentarios": 0,
+      "plays": 1437,
+      "duracaoSeg": 25,
+      "geotag": "Cirurgia Plástica - Dr. Pedro Brandão",
+      "tags": [
+        "#pedrobrandãocp",
+        "#cirurgiaplasticacorporal",
+        "#cirurgiabrasilia",
+        "#drpedrobrandão"
+      ],
+      "legenda": "Mais do que transformar o contorno do corpo, essa cirurgia devolve firmeza, harmonia e confiança.\n\n✨ Abdominoplastia + lipoescultura: a combinação que remove o excesso de pele, redefine a cintura e valoriza as curvas de forma natural.\n\nCada procedimento é planejado de forma individual, respeitando a anatomia e os objetivos de cada paciente.\n\n#pedrobrandãocp #cirurgiaplasticacorporal #cirurgiabrasi"
+    },
+    {
+      "code": "DaXzUwrRuh8",
+      "tipo": "Reel",
+      "data": "2026-07-04",
+      "likes": 32,
+      "comentarios": 2,
+      "plays": 4166,
+      "duracaoSeg": 58,
+      "geotag": "Cirurgia Plástica - Dr. Pedro Brandão",
+      "tags": [
+        "#pedrobrandãocp",
+        "#cirurgiaplasticacorporal",
+        "#cirurgiaplastica",
+        "#cirurgiabrasilia"
+      ],
+      "legenda": "Nesta paciente, o procedimento foi realizado para corrigir a falta de volume e a flacidez dos glúteos, proporcionando um contorno mais projetado, firme e harmonioso, sempre respeitando a anatomia e as proporções do seu corpo.\n\n#pedrobrandãocp #cirurgiaplasticacorporal #cirurgiaplastica\n#cirurgiabrasilia"
+    },
+    {
+      "code": "DaK7pYeQYDY",
+      "tipo": "Reel",
+      "data": "2026-06-29",
+      "likes": 312,
+      "comentarios": 4,
+      "plays": 107492,
+      "duracaoSeg": 39,
+      "geotag": "Cirurgia Plástica - Dr. Pedro Brandão",
+      "tags": [
+        "#pedrobrandãocp",
+        "#cirurgiaplasticacorporal",
+        "#cirurgiaplastica"
+      ],
+      "legenda": "Uma transformação que impressiona nos detalhes e mostra como cada escolha faz diferença no resultado final. \n\n#pedrobrandãocp #cirurgiaplasticacorporal #cirurgiaplastica"
+    },
+    {
+      "code": "DZ4x6guRhF-",
+      "tipo": "Reel",
+      "data": "2026-06-22",
+      "likes": 32,
+      "comentarios": 1,
+      "plays": 4188,
+      "duracaoSeg": 32,
+      "geotag": "Cirurgia Plástica - Dr. Pedro Brandão",
+      "tags": [
+        "#pedrobrandãocp",
+        "#cirurgiaplasticacorporal",
+        "#cirurgiaplastica",
+        "#cirurgiabrasilia"
+      ],
+      "legenda": "Uma transformação que valoriza a beleza natural e devolve a confiança que muitas pessoas procuram.\n\nAgende sua consulta através do link da Bio! \n\n#pedrobrandãocp #cirurgiaplasticacorporal #cirurgiaplastica #cirurgiabrasilia"
+    },
+    {
+      "code": "DZnCuSYR5wY",
+      "tipo": "Reel",
+      "data": "2026-06-15",
+      "likes": 63,
+      "comentarios": 7,
+      "plays": 14133,
+      "duracaoSeg": 57,
+      "geotag": "Cirurgia Plástica - Dr. Pedro Brandão",
+      "tags": [
+        "#pedrobrandãocp",
+        "#cirurgiaplasticacorporal",
+        "#cirurgiabrasilia"
+      ],
+      "legenda": "Será que o Dr. consegue acertar o tamanho e o modelo da prótese apenas no toque, sem olhar? 😱\n\nDê o play e descubra se a experiência falou mais alto! 👀💉\n\n#pedrobrandãocp #cirurgiaplasticacorporal #cirurgiabrasilia"
+    },
+    {
+      "code": "DZVjiaCS4aM",
+      "tipo": "Reel",
+      "data": "2026-06-08",
+      "likes": 523,
+      "comentarios": 52,
+      "plays": 111068,
+      "duracaoSeg": 101,
+      "geotag": "Cirurgia Plástica - Dr. Pedro Brandão",
+      "tags": [
+        "#pedrobrandãocp",
+        "#cirurgiaplasticacorporal",
+        "#cirurgiaplastica",
+        "#cirurgiabrasilia"
+      ],
+      "legenda": "Um resultado incrível não acontece por acaso.\n\nPor trás de cada transformação existe um planejamento minucioso, estudo detalhado da anatomia, técnica apurada e, acima de tudo, segurança em cada etapa do processo.\n\nA cirurgia plástica vai muito além da estética: é sobre alcançar resultados naturais, respeitando a individualidade de cada paciente e priorizando sempre sua saúde e bem-estar.\n\nResultad"
+    },
+    {
+      "code": "DZDJV9XxtbU",
+      "tipo": "Reel",
+      "data": "2026-06-01",
+      "likes": 18,
+      "comentarios": 4,
+      "plays": 3569,
+      "duracaoSeg": 25,
+      "geotag": null,
+      "tags": [
+        "#pedrobrandãocp",
+        "#cirurgiaplasticacorporal",
+        "#cirurgiaplastica",
+        "#cirurgiabrasilia",
+        "#drpedrobrandão"
+      ],
+      "legenda": "Um resultado desses não acontece por acaso.\n\nPor trás dessa transformação existe planejamento, técnica, experiência e um olhar atento aos detalhes.\n\nVer a satisfação de cada paciente é o que torna esse trabalho tão especial.\n\nSe você também sonha com uma mudança como essa, agende sua avaliação.\n\n#pedrobrandãocp #cirurgiaplasticacorporal #cirurgiaplastica #cirurgiabrasilia #drpedrobrandão"
+    },
+    {
+      "code": "DYpMC1ZRnSo",
+      "tipo": "Reel",
+      "data": "2026-05-22",
+      "likes": 8,
+      "comentarios": 0,
+      "plays": 1947,
+      "duracaoSeg": 26,
+      "geotag": "Cirurgia Plástica - Dr. Pedro Brandão",
+      "tags": [
+        "#drpedrobrandão",
+        "#drpedrobrandaocp",
+        "#cirurgiaplastica",
+        "#cirurgiaplasticafacial",
+        "#cirurgiabrasilia"
+      ],
+      "legenda": "1 ano depois e o resultado continua impressionando… ✨\n\nSem mudar a essência ou o tamanho do nariz, ajustamos apenas o que realmente incomodava a paciente: a giba nasal, aquele “ossinho” mais evidente no perfil.\n\nO mais bonito em casos assim é ver uma mudança delicada, natural e que mantém totalmente a identidade da paciente. Resultado leve, harmônico e atemporal. 🤍\n\nO que vocês acharam dessa trans"
+    },
+    {
+      "code": "DYexCfzEbec",
+      "tipo": "Carrossel",
+      "data": "2026-05-18",
+      "likes": 20,
+      "comentarios": 0,
+      "plays": null,
+      "duracaoSeg": null,
+      "geotag": "Cirurgia Plástica - Dr. Pedro Brandão",
+      "tags": [
+        "#pedrobrandaocp",
+        "#mastopexia",
+        "#cirurgiaplasticacomsegurança"
+      ],
+      "legenda": "Nem sempre é sobre aumentar. Muitas vezes, é sobre devolver sustentação, firmeza e equilíbrio às mamas. \n\nA mastopexia com prótese é indicada para mulheres que se incomodam com a flacidez, perda de volume no colo ou aspecto “caído” dos seios após gravidez, amamentação, emagrecimento ou mudanças naturais do corpo.\n\nO resultado busca mamas mais elevadas, estruturadas e naturais. \nValorizando sua sil"
+    },
+    {
+      "code": "DYP-3luRqWJ",
+      "tipo": "Reel",
+      "data": "2026-05-12",
+      "likes": 51,
+      "comentarios": 2,
+      "plays": 14807,
+      "duracaoSeg": 23,
+      "geotag": "Cirurgia Plástica - Dr. Pedro Brandão",
+      "tags": [
+        "#pedrobrandãocp",
+        "#cirurgiaplasticacorporal",
+        "#cirurgiabrasilia"
+      ],
+      "legenda": "Cada detalhe pensado para valorizar o contorno, proporção e naturalidade do resultado. ✨\n\nA mamoplastia vai além da estética: também pode trazer mais conforto, autoestima e bem-estar no dia a dia.\nNesse caso, o resultado ficou harmônico, respeitando as características e desejos da paciente.\n\nCada corpo é único, por isso todo planejamento cirúrgico deve ser individualizado e realizado com segurança"
+    },
+    {
+      "code": "DYDXd5ixpqM",
+      "tipo": "Reel",
+      "data": "2026-05-07",
+      "likes": 407,
+      "comentarios": 19,
+      "plays": 145040,
+      "duracaoSeg": 54,
+      "geotag": "Cirurgia Plástica - Dr. Pedro Brandão",
+      "tags": [
+        "#pedrobrandãocp",
+        "#cirurgiaplasticacorporal",
+        "#cirurgiaplastica"
+      ],
+      "legenda": "A flacidez e o excesso de pele podem impactar não só a estética, mas também a forma como você se sente no dia a dia.\n\nEm muitos casos, a abdominoplastia pode ser a solução para devolver contorno, firmeza e autoestima ao abdômen. \n\nCada corpo tem sua história, e cada procedimento deve ser planejado de forma individualizada, com segurança e naturalidade. \n\n#pedrobrandãocp #cirurgiaplasticacorporal #"
+    },
+    {
+      "code": "DX69pjExJOC",
+      "tipo": "Reel",
+      "data": "2026-05-04",
+      "likes": 51,
+      "comentarios": 8,
+      "plays": 23871,
+      "duracaoSeg": 47,
+      "geotag": "Cirurgia Plástica - Dr. Pedro Brandão",
+      "tags": [
+        "#pedrobrandãocp",
+        "#cirurgiaplasticacorporal",
+        "#cirurgiabrasilia"
+      ],
+      "legenda": "Resultado imediato que já impressiona… mas aqui a gente respeita cada fase do processo.\n\nO pós-operatório é só o começo de uma transformação que ainda vai evoluir muito nos próximos dias. Inchaço, adaptação e recuperação fazem parte — e cada detalhe é acompanhado de perto.\n\nMais do que estética, é sobre cuidado, segurança e um resultado construído com responsabilidade\n\n#pedrobrandãocp #cirurgiapla"
+    },
+    {
+      "code": "DXbxIb7EZyS",
+      "tipo": "Reel",
+      "data": "2026-04-22",
+      "likes": 353,
+      "comentarios": 15,
+      "plays": 52028,
+      "duracaoSeg": 25,
+      "geotag": "Cirurgia Plástica - Dr. Pedro Brandão",
+      "tags": [
+        "#pedrobrandãocp",
+        "#cirurgiaplasticacorporal",
+        "#papada"
+      ],
+      "legenda": "A papada não é só estética, ela mexe com a forma como a gente se vê todos os dias no espelho.\n\nNesse caso, o resultado ficou incrível. O contorno ficou mais definido, o perfil mais marcado e o rosto ganhou uma leveza que faz toda diferença.\n\nTudo feito com muito cuidado, planejamento e pensando sempre na naturalidade.\n\n#pedrobrandãocp #cirurgiaplasticacorporal #papada"
+    },
+    {
+      "code": "DXJ-UggkceG",
+      "tipo": "Reel",
+      "data": "2026-04-15",
+      "likes": 437,
+      "comentarios": 30,
+      "plays": 164274,
+      "duracaoSeg": 22,
+      "geotag": "Cirurgia Plástica - Dr. Pedro Brandão",
+      "tags": [
+        "#pedrobrandãocp",
+        "#cirurgiaplastica",
+        "#cirurgiaplasticacorporal",
+        "#cirurgiabrasilia",
+        "#mamoplastia"
+      ],
+      "legenda": "Olha esse resultado… agora imagine em você! \n\nCom cuidado, segurança e alta qualidade, a transformação acontece de forma leve e natural.\nVocê está pronta para isso? \n\nFale conosco pelo link da bio\n\n#pedrobrandãocp #cirurgiaplastica #cirurgiaplasticacorporal #cirurgiabrasilia #mamoplastia"
+    },
+    {
+      "code": "DW1TeotkU7J",
+      "tipo": "Carrossel",
+      "data": "2026-04-07",
+      "likes": 23,
+      "comentarios": 2,
+      "plays": null,
+      "duracaoSeg": null,
+      "geotag": "Cirurgia Plástica - Dr. Pedro Brandão",
+      "tags": [
+        "#pedrobrandaocp",
+        "#cirurgiaplastica",
+        "#cirurgiacombinada"
+      ],
+      "legenda": "Você sabia que dá para realizar mais de um procedimento na mesma cirurgia, com planejamento e segurança?\n\nA plástica combinada permite otimizar o tempo, ter uma única recuperação e alcançar resultados mais harmônicos, pensados em conjunto.\n\nMas tudo depende de uma avaliação individual e criteriosa.\n\nQuer entender se é para você? Fale com a gente pelo link da bio. 💬\n\n#pedrobrandaocp #cirurgiaplasti"
+    },
+    {
+      "code": "DWKI0HIkdZY",
+      "tipo": "Reel",
+      "data": "2026-03-21",
+      "likes": 44,
+      "comentarios": 1,
+      "plays": 4925,
+      "duracaoSeg": 49,
+      "geotag": "Cirurgia Plástica - Dr. Pedro Brandão",
+      "tags": [
+        "#pedrobrandãocp",
+        "#cirurgiaplasticacorporal",
+        "#cirurgiaplastica"
+      ],
+      "legenda": "Todo mundo tem aquele “um dia”…\n\nUm dia eu faço.\nUm dia eu vejo isso.\nUm dia eu resolvo.\n\nMas o “um dia” nunca tem data.\n\nE enquanto isso, a vontade vai ficando ali… quietinha, mas constante.\n\nHoje pode ser seu dia de dar o primeiro passo para a realização do seu sonho! \n\nFale conosco pelo link da Bio \n\n#pedrobrandãocp #cirurgiaplasticacorporal #cirurgiaplastica"
+    },
+    {
+      "code": "DV0034nESvp",
+      "tipo": "Reel",
+      "data": "2026-03-13",
+      "likes": 123,
+      "comentarios": 1,
+      "plays": 18935,
+      "duracaoSeg": 55,
+      "geotag": "Cirurgia Plástica - Dr. Pedro Brandão",
+      "tags": [
+        "#pedrobrandãocp",
+        "#cirurgiaplastica",
+        "#cirurgiaplasticacorporal"
+      ],
+      "legenda": "O sonho da cirurgia plástica existe… mas o medo da anestesia ainda trava muita gente.\n\nA boa notícia é que hoje os procedimentos contam com tecnologia avançada, equipe especializada e protocolos de segurança que tornam tudo muito mais tranquilo.\n\n#pedrobrandãocp #cirurgiaplastica #cirurgiaplasticacorporal"
+    },
+    {
+      "code": "DVqjtcpEW7D",
+      "tipo": "Reel",
+      "data": "2026-03-09",
+      "likes": 62,
+      "comentarios": 9,
+      "plays": 10040,
+      "duracaoSeg": 52,
+      "geotag": "Cirurgia Plástica - Dr. Pedro Brandão",
+      "tags": [
+        "#pedrobrandãocp",
+        "#cirurgiaplastica",
+        "#cirurgiaplasticasegura",
+        "#medicinaestetica"
+      ],
+      "legenda": "Muita gente acredita que o resultado da cirurgia plástica depende apenas do procedimento. Mas a verdade é que o estilo de vida do paciente tem grande influência no resultado final.\n\nCuidados com alimentação, sono, evitar cigarro e seguir corretamente as orientações médicas fazem parte de todo o processo.\n\nCirurgia plástica é planejamento, responsabilidade e cuidado com a saúde.\n\nQuer entender melh"
+    },
+    {
+      "code": "DVYfK0OEan1",
+      "tipo": "Reel",
+      "data": "2026-03-02",
+      "likes": 92,
+      "comentarios": 2,
+      "plays": 19996,
+      "duracaoSeg": 38,
+      "geotag": "Cirurgia Plástica - Dr. Pedro Brandão",
+      "tags": [
+        "#pedrobrandãocp",
+        "#cirurgiaplasticacorporal",
+        "#cirurgiaplastica",
+        "#cirurgiabrasilia"
+      ],
+      "legenda": "Decisões que impactam diretamente o resultado da sua prótese\n\n#pedrobrandãocp #cirurgiaplasticacorporal #cirurgiaplastica #cirurgiabrasilia"
+    },
+    {
+      "code": "DVLoWW8kQG6",
+      "tipo": "Reel",
+      "data": "2026-02-25",
+      "likes": 59,
+      "comentarios": 2,
+      "plays": 13646,
+      "duracaoSeg": 51,
+      "geotag": "Cirurgia Plástica - Dr. Pedro Brandão",
+      "tags": [
+        "#pedrobrandãocp",
+        "#cirurgiaplasticacorporal",
+        "#cirurgiabrasilia",
+        "#cirurgiaplastica40mais"
+      ],
+      "legenda": "Tenho mais de 40 anos. O que muda no pré e no pós?\nNada muda quando você escolhe viver sua melhor fase.\nTudo é pensado para sua segurança e para um bom resultado.\nA idade é só mais um detalhe no seu cuidado.\nSe esse é o seu momento, agende sua consulta.\n\nCRM/DF 15.499 / RQE 14.130\n\n#pedrobrandãocp #cirurgiaplasticacorporal #cirurgiabrasilia #cirurgiaplastica40mais"
+    },
+    {
+      "code": "DU_rSpIkTLc",
+      "tipo": "Reel",
+      "data": "2026-02-20",
+      "likes": 123,
+      "comentarios": 2,
+      "plays": 64739,
+      "duracaoSeg": 53,
+      "geotag": "Cirurgia Plástica - Dr. Pedro Brandão",
+      "tags": [
+        "#pedrobrandãocp",
+        "#cirurgiaplastica",
+        "#cirurgiabrasilia"
+      ],
+      "legenda": "Escolher um cirurgião dá medo, né?\nÉ o seu corpo, sua saúde, sua autoestima… não é pouca coisa.\n\nPor isso, essa escolha não pode ser feita só pelo preço ou por promessas de “antes e depois”.\nO que realmente importa é quem vai te acompanhar nesse processo: a formação, a equipe, o cuidado e a segurança em cada decisão.\n\nAqui, você não é só um procedimento.\nCada plano é pensado pra você, com técnica,"
+    },
+    {
+      "code": "DU58wXNkSVi",
+      "tipo": "Reel",
+      "data": "2026-02-18",
+      "likes": 367,
+      "comentarios": 21,
+      "plays": 139378,
+      "duracaoSeg": 72,
+      "geotag": "Cirurgia Plástica - Dr. Pedro Brandão",
+      "tags": [
+        "#pedrobrandãocp",
+        "#cirurgiaplasticacorporal",
+        "#cirurgiainternacional"
+      ],
+      "legenda": "Mesmo morando fora, você pode iniciar o planejamento da sua cirurgia com segurança.\nNa consulta online, você recebe todas as orientações: indicação cirúrgica, valores, exames, hospital, anestesista e logística do procedimento.\n\nTire suas dúvidas, entenda cada etapa e comece seu planejamento com clareza.\nAgende sua consulta e dê o primeiro passo.\n\n#pedrobrandãocp #cirurgiaplasticacorporal #cirurgia"
+    },
+    {
+      "code": "DUJIftIEdZp",
+      "tipo": "Carrossel",
+      "data": "2026-01-30",
+      "likes": 41,
+      "comentarios": 0,
+      "plays": null,
+      "duracaoSeg": null,
+      "geotag": "Cirurgia Plástica - Dr. Pedro Brandão",
+      "tags": [
+        "#mamoplastiaredutora",
+        "#saudedamulher",
+        "#pedrobrandaocp",
+        "#cirurgiaplastica"
+      ],
+      "legenda": "Dores constantes nas costas, ombros ou pescoço\nMarcas profundas do sutiã na pele\nDificuldade para praticar exercícios ou para encontrar roupas confortáveis\n\nEsses podem ser sinais de que o peso das mamas está sobrecarregando o seu corpo.\n\nA mamoplastia redutora não é apenas estética. Em muitos casos, ela ajuda a aliviar dores, melhorar a postura e aumentar a qualidade de vida.\n\nSe você se identifi"
+    },
+    {
+      "code": "DT0uiqTkXyF",
+      "tipo": "Carrossel",
+      "data": "2026-01-22",
+      "likes": 53,
+      "comentarios": 2,
+      "plays": null,
+      "duracaoSeg": null,
+      "geotag": "Cirurgia Plástica - Dr. Pedro Brandão",
+      "tags": [
+        "#pedrobrandaocp",
+        "#cirurgiaplástica",
+        "#brasilia",
+        "#suamelhorversao"
+      ],
+      "legenda": "Você sabia que dá pra modelar o corpo com a própria gordura?\n\nE os resultados são incríveis! \n\nCRM/DF 15.499 / RQE 14.130\n\n#pedrobrandaocp #cirurgiaplástica #brasilia #suamelhorversao"
+    },
+    {
+      "code": "DTOC5a_EYhN",
+      "tipo": "Reel",
+      "data": "2026-01-07",
+      "likes": 76,
+      "comentarios": 4,
+      "plays": 83990,
+      "duracaoSeg": 90,
+      "geotag": "Cirurgia Plástica - Dr. Pedro Brandão",
+      "tags": [
+        "#pedrobrandãocp",
+        "#cirurgiaplasticacorporal",
+        "#cirurgiaplastica",
+        "#cirurgiabrasilia"
+      ],
+      "legenda": "Silicone ou sem silicone? 🤔\nTudo depende do seu objetivo.\nSe a ideia é aumentar o volume e valorizar o colo, a prótese pode ser indicada.\nSe você quer levantar e remodelar, sem mudar o tamanho, a mastopexia pode resolver.\n\nCada corpo é único, e a escolha certa começa com uma boa avaliação. ✨\nAgende sua consulta e descubra o melhor caminho para você.\n\n#pedrobrandãocp #cirurgiaplasticacorporal #ciru"
+    },
+    {
+      "code": "DS7sisVkQyg",
+      "tipo": "Reel",
+      "data": "2025-12-31",
+      "likes": 40,
+      "comentarios": 5,
+      "plays": 2303,
+      "duracaoSeg": 105,
+      "geotag": "Cirurgia Plástica - Dr. Pedro Brandão",
+      "tags": [
+        "#recap",
+        "#pedrobrandãocp",
+        "#cirurgiaplasticacorporal",
+        "#felizanonovo"
+      ],
+      "legenda": "2025 em poucos segundos.\nMuito trabalho, evolução real e histórias que marcaram.\n\nDesejo a todos um feliz ano novo! ✨\nQue 2026 venha cheio de paz, saúde e momentos marcantes! 🤍\n\n#recap #pedrobrandãocp #cirurgiaplasticacorporal #felizanonovo"
+    },
+    {
+      "code": "DSvfoGckkEf",
+      "tipo": "Reel",
+      "data": "2025-12-26",
+      "likes": 645,
+      "comentarios": 49,
+      "plays": 248250,
+      "duracaoSeg": 65,
+      "geotag": "Cirurgia Plástica - Dr. Pedro Brandão",
+      "tags": [
+        "#pedrobrandãocp",
+        "#cirurgiaplasticacorporal",
+        "#cirurgiaplastica",
+        "#mamoplastia"
+      ],
+      "legenda": "Dores nas costas, marcas do sutiã e desconforto no dia a dia não devem ser normalizados.\nA mamoplastia redutora é indicada para mulheres que sofrem com o excesso de volume nas mamas e buscam mais leveza, conforto e bem-estar.\nMais do que estética, é qualidade de vida.\n\n▪️CRM/DF 15.499 / RQE 14.130\n\n#pedrobrandãocp #cirurgiaplasticacorporal #cirurgiaplastica #mamoplastia"
+    },
+    {
+      "code": "DSc348dERYF",
+      "tipo": "Reel",
+      "data": "2025-12-19",
+      "likes": 33,
+      "comentarios": 0,
+      "plays": 2466,
+      "duracaoSeg": 32,
+      "geotag": "Cirurgia Plástica - Dr. Pedro Brandão",
+      "tags": [
+        "#pedrobrandãocp",
+        "#cirurgiaplasticacorporal",
+        "#cirurgiabrasilia",
+        "#drpedrobrandão"
+      ],
+      "legenda": "Perfeito. Aqui vai uma versão mais curta e emocional:\n\nVocê mudou. Seu corpo também.\nE está tudo bem querer se sentir melhor ao se olhar no espelho.\n\nA cirurgia plástica não é sobre padrões, é sobre autoestima, cuidado e bem estar.\nCada história é única, e existe um procedimento certo para você.\n\nVocê não está sozinha.\nPara saber mais, acesse o link da bio.\n\n▪️CRM/DF 15.499 / RQE 14.130\n\n#pedrobra"
+    },
+    {
+      "code": "DSXMMK3EcYM",
+      "tipo": "Reel",
+      "data": "2025-12-17",
+      "likes": 39,
+      "comentarios": 6,
+      "plays": 7233,
+      "duracaoSeg": 88,
+      "geotag": null,
+      "tags": [
+        "#pedrobrandãocp",
+        "#cirurgiaplasticacorporal",
+        "#cirurgiaplastica",
+        "#cirurgiabrasilia",
+        "#abdominoplastia",
+        "#cirurgiadasmamas"
+      ],
+      "legenda": "Mudar algo no corpo vai muito além da estética. Envolve confiança, segurança e acolhimento.\n\nPor isso, escolher um profissional experiente faz toda a diferença em cada etapa do processo, da primeira conversa ao pós-operatório.\n\nAqui, cada paciente é tratado de forma única, com técnicas modernas, cuidado humano e foco em resultados naturais, sempre priorizando a saúde e o bem-estar.\n\nSe você pensa "
+    },
+    {
+      "code": "DSNCrWgEaWL",
+      "tipo": "Reel",
+      "data": "2025-12-13",
+      "likes": 76,
+      "comentarios": 0,
+      "plays": 15467,
+      "duracaoSeg": 69,
+      "geotag": "Cirurgia Plástica - Dr. Pedro Brandão",
+      "tags": [
+        "#pedrobrandãocp",
+        "#rinoplastica",
+        "#brasilia",
+        "#cirurgiaplástica"
+      ],
+      "legenda": "Às vezes, não é sobre mudar quem você é\nÉ sobre se olhar no espelho e se reconhecer ainda mais ✨\n\nPequenos ajustes no nariz podem trazer mais leveza, equilíbrio e confiança, sempre respeitando seus traços e sua essência\n\nA rinoplastia pode ser o caminho para quem busca se sentir melhor de forma natural e personalizada\n\nSe essa ideia já passou pela sua cabeça, talvez seja o momento de conversar, ti"
+    },
+    {
+      "code": "DSC1WhNEZ6h",
+      "tipo": "Reel",
+      "data": "2025-12-09",
+      "likes": 31,
+      "comentarios": 4,
+      "plays": 2172,
+      "duracaoSeg": 49,
+      "geotag": "Cirurgia Plástica - Dr. Pedro Brandão",
+      "tags": [
+        "#cirurgiaplastica",
+        "#vivasuamelhorversao"
+      ],
+      "legenda": "Já pensou como uma melhora na autoestima pode mudar sua rotina? ✨\n\nAqui na clínica, vejo que a maioria das pacientes não busca “consertar” algo, mas sentir mais confiança, se enxergar melhor no espelho e viver com mais leveza.\n\nCom uma orientação segura e uma equipe preparada, essa transformação se torna possível, e muito mais tranquila.\n\nQuer descobrir o que pode ser feito no seu caso? Agende sua"
+    },
+    {
+      "code": "DR4dG_ckYS_",
+      "tipo": "Reel",
+      "data": "2025-12-05",
+      "likes": 55,
+      "comentarios": 8,
+      "plays": 4208,
+      "duracaoSeg": 60,
+      "geotag": "Cirurgia Plástica - Dr. Pedro Brandão",
+      "tags": [
+        "#pedrobrandãocp",
+        "#cirurgiaplasticacorporal",
+        "#brasília"
+      ],
+      "legenda": "O mommy makeover é um procedimento que ajuda a tratar a flacidez, ajustar o contorno da barriga e cintura e melhorar o formato das mamas após a gestação.\nExplicando de forma simples: ele combina soluções que se completam para deixar tudo mais harmônico.\n\nFicou curiosa para saber como isso é montado para cada mãe?\n\nFale conosco através do nosso link da Bio. \n\n▪️CRM/DF 15.499 / RQE 14.130\n\n#pedrobra"
+    },
+    {
+      "code": "DRkFSdUEevC",
+      "tipo": "Reel",
+      "data": "2025-11-27",
+      "likes": 91,
+      "comentarios": 0,
+      "plays": 15069,
+      "duracaoSeg": 78,
+      "geotag": "Cirurgia Plástica - Dr. Pedro Brandão",
+      "tags": [
+        "#pedrobrandãocp",
+        "#cirurgiaplasticacorporal",
+        "#cirurgiaplastica"
+      ],
+      "legenda": "Muita gente quer um abdômen mais marcado, mas sem aquele efeito artificial que ninguém gosta.\nA média definição vem exatamente para isso: realçar as linhas naturais do seu corpo, sem exagero e sem perder a naturalidade.\n\nCada pessoa tem um limite e um formato diferente, e o resultado bonito é aquele que respeita isso.\nNão é sobre mudar quem você é, mas sobre harmonizar o que você já tem.\n\nSe você "
+    },
+    {
+      "code": "DRUhCChEXaq",
+      "tipo": "Reel",
+      "data": "2025-11-21",
+      "likes": 44,
+      "comentarios": 5,
+      "plays": 2467,
+      "duracaoSeg": 65,
+      "geotag": "Cirurgia Plástica - Dr. Pedro Brandão",
+      "tags": [
+        "#pedrobrandãocp",
+        "#cirurgiaplasticacorporal",
+        "#brasilia",
+        "#cirurgiaplastica"
+      ],
+      "legenda": "Pensando em cirurgia plástica?\n\nO passo mais importante é escolher o cirurgião certo.\nNa nossa clínica, você encontra segurança, experiência e acompanhamento completo em cada etapa.\n\nQuer saber mais ou tirar suas dúvidas?\nAgende sua consulta conosco. 💬✨\n\n#pedrobrandãocp #cirurgiaplasticacorporal #brasilia #cirurgiaplastica"
+    },
+    {
+      "code": "DRCoQikkSQ1",
+      "tipo": "Reel",
+      "data": "2025-11-14",
+      "likes": 139,
+      "comentarios": 8,
+      "plays": 9999,
+      "duracaoSeg": 63,
+      "geotag": "Cirurgia Plástica - Dr. Pedro Brandão",
+      "tags": [
+        "#pedrobrandãocp",
+        "#cirurgiaplasticacorporal",
+        "#cirurgiaplastica"
+      ],
+      "legenda": "Menos exagero, mais elegância.\nPlástica é equilíbrio entre forma, função e bom gosto.\nSiga para saber mais!\n\n🎥: @start.comunicacao_ \n\n#pedrobrandãocp #cirurgiaplasticacorporal #cirurgiaplastica"
+    },
+    {
+      "code": "DQ7I29DEf2N",
+      "tipo": "Reel",
+      "data": "2025-11-11",
+      "likes": 54,
+      "comentarios": 6,
+      "plays": 2747,
+      "duracaoSeg": 72,
+      "geotag": "Cirurgia Plástica - Dr. Pedro Brandão",
+      "tags": [
+        "#pedrobrandãocp",
+        "#cirurgiaplastica",
+        "#brasilia",
+        "#cirurgiaplasticacorporal"
+      ],
+      "legenda": "Fim de ano chegando e o desejo é o mesmo: se sentir bem e confiante pra começar 2026! \n\nProcedimentos com recuperação rápida são uma ótima opção para quem quer cuidar de si com segurança e aproveitar o recesso.\n\nQuer saber qual é o ideal pra você?\n\nEnvie uma mensagem e agende sua consulta.\n\n🎥: @start.comunicacao_ \n\n#pedrobrandãocp #cirurgiaplastica #brasilia #cirurgiaplasticacorporal"
+    }
+  ]
+}
