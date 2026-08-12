@@ -1,0 +1,48 @@
+{
+  "coletadoEm": "2026-08-12",
+  "marca": {
+    "nome": "Debem e Santos Advogados Associados",
+    "fundacaoDeclarada": 2006,
+    "localidadesDeclaradas": ["Palhoça/SC - Centro", "Palhoça/SC - Pagani", "Florianópolis/SC - Centro", "Brasília/DF - Asa Sul"],
+    "site": "https://debemesantos.com.br/"
+  },
+  "google": {
+    "buscaDeMarca": "Site oficial em primeiro lugar, seguido por Instagram, Facebook, Serasa, LinkedIn e outros diretórios",
+    "perfilEmpresa": {"nota": 5.0, "avaliacoes": 22, "categoria": "Advogado em Palhoça, Santa Catarina"},
+    "buscaSemMarca": "Visível na primeira página orgânica para 'advogado previdenciário Palhoça', mas fora do pacote local de três empresas observado"
+  },
+  "site": {
+    "cms": "WordPress + Elementor",
+    "idiomaHtml": "pt-PT",
+    "htmlBytesHome": 137908,
+    "ttfbObservadoSegundos": 0.191,
+    "tempoTotalObservadoSegundos": 0.291,
+    "h1Home": 0,
+    "metaDescriptionHome": false,
+    "openGraphHome": false,
+    "schemaJsonLdHome": false,
+    "paginasNoSitemap": 11,
+    "postsNoSitemap": 1,
+    "problemasIndexaveis": ["Hello world!", "Post 1", "Post 2", "Post 3", "Post 4"],
+    "conversao": ["Formulário de contato", "Botão de WhatsApp"],
+    "observacaoPerformance": "PageSpeed Insights indisponível por limite de cota; tempos de rede são observações pontuais, não um teste Lighthouse"
+  },
+  "consistenciaNAP": {
+    "instagram": "Rua José Maria da Luz, 2896 - Sala 01 - Centro, Palhoça 88131000",
+    "google": "R. José Maria da Luz, 2896 - Centro, Palhoça - SC, 88131-000 | (48) 3033-3668",
+    "siteCentro": "Rua José Maria da Luz, 2.896, Sala 101 - Centro, Palhoça/SC, CEP 88.138-430",
+    "telefonesSite": ["(48) 3033-3668", "(48) 98424-3895", "(48) 99135-5195", "(48) 99853-1188"]
+  },
+  "concorrentesGoogleLocal": [
+    {"nome":"Advocacia Bublitz","nota":5.0,"avaliacoesAproximadas":1800,"site":"https://advocaciabublitz.com.br/"},
+    {"nome":"Siqueira Advogados","nota":5.0,"avaliacoesAproximadas":186,"site":"https://siqueiraadvocacia.adv.br/"},
+    {"nome":"Salvador Advogados","nota":4.9,"avaliacoesAproximadas":283,"site":"https://salvadoradvogados.com/"}
+  ],
+  "fontes": [
+    "Instagram @debemesantos",
+    "Google Search e painel público da empresa",
+    "debemesantos.com.br e WordPress REST API",
+    "robots.txt e wp-sitemap.xml",
+    "sites públicos dos concorrentes"
+  ]
+}

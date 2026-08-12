@@ -1,0 +1,60 @@
+{
+  "handle": "debemesantos",
+  "nome": "Debem e Santos Advogados Associados",
+  "categoriaInstagram": "Jurídico",
+  "seguidores": 1919,
+  "posts": 91,
+  "seguindo": 1755,
+  "bio": "20 anos de experiência sólida em Direito. Soluções estratégicas com ética e resultado.",
+  "linkBio": "https://www.debemesantos.com.br/",
+  "enderecoInstagram": "Rua José Maria da Luz, 2896 - Sala 01 - Centro, Palhoça 88131000",
+  "destaques": ["2.0", "Dia a Dia", "Dicas", "Eventos", "Projuris Summit", "Livro"],
+  "coletadoEm": "2026-08-12",
+  "fonteColeta": "Dados públicos incorporados nas páginas do Instagram, com sessão autenticada no navegador",
+  "amostra": {
+    "totalPosts": 18,
+    "de": "2025-10-22",
+    "ate": "2026-08-11",
+    "likes": 423,
+    "comentarios": 79,
+    "erMedioPercentual": 1.453,
+    "medianaLikes": 7,
+    "medianaComentarios": 0.5,
+    "postsComCTA": 3,
+    "postsComHashtags": 4
+  },
+  "erPorFormato": {
+    "Imagem": 0.738,
+    "Reel": 4.351,
+    "Carrossel": 2.15
+  },
+  "mixFormatos": {
+    "Imagem": 12,
+    "Reel": 2,
+    "Carrossel": 4
+  },
+  "hiatos": [
+    {"de": "2025-12-19", "ate": "2026-05-19", "dias": 151},
+    {"de": "2026-05-19", "ate": "2026-08-01", "dias": 74}
+  ],
+  "postDetails": [
+    {"code":"Db5ciyyITAM","tipo":"Imagem","data":"2026-08-11","likes":20,"comentarios":2,"tema":"Dia do Advogado"},
+    {"code":"Db3pjJso3TG","tipo":"Reel","data":"2026-08-10","likes":138,"comentarios":25,"tema":"Nova sede em Brasília"},
+    {"code":"Dbfy2_7IFfN","tipo":"Imagem","data":"2026-08-01","likes":21,"comentarios":0,"tema":"Debem e Santos 2.0 na imprensa"},
+    {"code":"DYhkSQ-nBNn","tipo":"Carrossel","data":"2026-05-19","likes":9,"comentarios":0,"tema":"Benefícios por incapacidade"},
+    {"code":"DSclYGMEaAK","tipo":"Reel","data":"2025-12-19","likes":3,"comentarios":1,"tema":"Institucional"},
+    {"code":"DSTAckyjnqN","tipo":"Imagem","data":"2025-12-15","likes":3,"comentarios":0,"tema":"MEI e salário mínimo"},
+    {"code":"DSKpMisj6hc","tipo":"Imagem","data":"2025-12-12","likes":2,"comentarios":0,"tema":"Violência de gênero"},
+    {"code":"DR48eXTj4JW","tipo":"Imagem","data":"2025-12-05","likes":5,"comentarios":0,"tema":"Criptoativos e Receita Federal"},
+    {"code":"DR2mqL6AY4r","tipo":"Imagem","data":"2025-12-04","likes":3,"comentarios":0,"tema":"Legado de Ary Oswaldo Mattos Filho"},
+    {"code":"DRkCowvkV4f","tipo":"Carrossel","data":"2025-11-27","likes":30,"comentarios":6,"tema":"Summit Empresarial"},
+    {"code":"DRhUSllDKvx","tipo":"Imagem","data":"2025-11-26","likes":20,"comentarios":4,"tema":"Perfil do sócio Daniel Debem"},
+    {"code":"DRR3ik1DskK","tipo":"Imagem","data":"2025-11-20","likes":3,"comentarios":0,"tema":"Guarda compartilhada"},
+    {"code":"DRKPR8LlKtL","tipo":"Imagem","data":"2025-11-17","likes":3,"comentarios":0,"tema":"Trabalho remoto e plataformas"},
+    {"code":"DQ7xvEHF1op","tipo":"Imagem","data":"2025-11-11","likes":3,"comentarios":22,"tema":"Perfil profissional previdenciário"},
+    {"code":"DQbyDlNDhhs","tipo":"Carrossel","data":"2025-10-30","likes":23,"comentarios":2,"tema":"Bastidores do escritório"},
+    {"code":"DQUcaefkqc9","tipo":"Imagem","data":"2025-10-27","likes":48,"comentarios":8,"tema":"Posicionamento institucional"},
+    {"code":"DQKaMN6iYFE","tipo":"Carrossel","data":"2025-10-23","likes":86,"comentarios":9,"tema":"Livro e autoridade jurídica"},
+    {"code":"DQINpxrgYjI","tipo":"Imagem","data":"2025-10-22","likes":3,"comentarios":0,"tema":"Negativas de benefício por incapacidade"}
+  ]
+}

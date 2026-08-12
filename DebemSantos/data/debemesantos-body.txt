@@ -1,0 +1,56 @@
+DEBEM E SANTOS ADVOGADOS ASSOCIADOS — COLETA PÚBLICA
+Data da coleta: 12/08/2026
+
+INSTAGRAM
+Handle: @debemesantos
+Categoria: Jurídico
+Seguidores: 1.919
+Seguindo: 1.755
+Posts no perfil: 91
+Bio: 20 anos de experiência sólida em Direito. Soluções estratégicas com ética e resultado.
+Link: https://www.debemesantos.com.br/
+Endereço exibido: Rua José Maria da Luz - 2896 - Sala 01 - Centro, Palhoça 88131000
+Destaques: 2.0; Dia a Dia; Dicas; Eventos; Projuris Summit; Livro
+
+AMOSTRA DO INSTAGRAM
+Período: 22/10/2025 a 11/08/2026
+Posts analisados: 18
+Curtidas: 423
+Comentários: 79
+Engajamento médio por seguidores: 1,453%
+Mediana: 7 curtidas e 0,5 comentário
+Mix: 12 imagens, 4 carrosséis e 2 Reels
+ER por formato: imagem 0,738%; carrossel 2,150%; Reel 4,351%
+Maior post: Reel da nova sede em Brasília — 138 curtidas e 25 comentários
+Hiatos observados: 151 dias e 74 dias
+
+GOOGLE
+Busca de marca: site oficial em primeiro lugar; Instagram, Facebook, Serasa e LinkedIn também visíveis.
+Perfil da Empresa: nota 5,0; 22 avaliações; categoria “Advogado em Palhoça, Santa Catarina”.
+Busca “advogado previdenciário Palhoça”: site visível na primeira página orgânica e fora do pacote local de três empresas observado.
+
+SITE
+URL canônica: https://debemesantos.com.br/
+CMS observado: WordPress + Elementor
+Idioma do HTML: pt-PT
+Home: sem H1, meta description, Open Graph ou JSON-LD.
+Sitemap: 11 páginas e 1 post.
+Páginas públicas genéricas: Hello world!, Post 1, Post 2, Post 3 e Post 4.
+Conversão: formulário e botão de WhatsApp presentes.
+Resposta pontual de rede: 0,191 s até o primeiro byte; 0,291 s total; 137.908 bytes de HTML.
+Observação: a API PageSpeed Insights estava sem cota; os tempos acima não substituem Lighthouse ou Core Web Vitals.
+
+CONSISTÊNCIA LOCAL
+Instagram: Sala 01; CEP 88131-000.
+Google: número 2896, sem sala; CEP 88131-000; telefone (48) 3033-3668.
+Site: Sala 101; CEP 88.138-430.
+Telefones encontrados no site: (48) 3033-3668; (48) 98424-3895; (48) 99135-5195; (48) 99853-1188.
+Unidade Brasília anunciada no Instagram em agosto de 2026 e ausente da estrutura principal do site coletada.
+
+CONCORRENTES NO PACOTE LOCAL — “ESCRITÓRIO DE ADVOCACIA PALHOÇA SC”
+Advocacia Bublitz: nota 5,0; aproximadamente 1,8 mil avaliações.
+Siqueira Advogados: nota 5,0; 186 avaliações.
+Salvador Advogados: nota 4,9; 283 avaliações.
+
+FONTES
+Instagram @debemesantos; Google Search; painel público do Perfil da Empresa; debemesantos.com.br; WordPress REST API; robots.txt; sitemap; sites públicos dos concorrentes.

@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Análise de Presença Digital: Debem e Santos | Oráculo</title>
+<meta name="description" content="Auditoria completa da presença digital da Debem e Santos Advogados Associados: Instagram, Google, Perfil da Empresa, site, diretórios, reputação, concorrência e plano estratégico de 180 dias."/>
+<meta property="og:type" content="website"/>
+<meta property="og:title" content="Análise de Presença Digital: Debem e Santos | Oráculo"/>
+<meta property="og:description" content="Diagnóstico executivo dos canais digitais da Debem e Santos, com comparativo regional e plano estratégico de 180 dias."/>
+<meta property="og:image" content="https://analises-oraculo.vercel.app/DebemSantos/og-presenca.png"/>
+<meta property="og:image:width" content="1200"/>
+<meta property="og:image:height" content="630"/>
+<meta property="og:url" content="https://analises-oraculo.vercel.app/DebemSantos/Analise-Presenca-Digital.html"/>
+<meta property="og:site_name" content="Oráculo Tecnologia"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://analises-oraculo.vercel.app/DebemSantos/og-presenca.png"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous"/>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&amp;family=Petrona:ital,wght@0,400..700;1,400..600&amp;display=swap"/>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+  *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+  :root{
+    --ink:#1b2e73;--ink-deep:#131f4e;--ink-soft:#2c4193;--on-ink:#fff;--on-ink-2:#b3c0ea;--on-ink-3:#8b9bd4;
+    --paper:#fbfbfd;--surface:#fff;--rule:#dfe1ec;--rule-soft:#ebedf4;--text:#15182b;--text-2:#454b66;--text-3:#6b7186;
+    --primary:#1d4ed8;--primary-bg:#eef2ff;--good:#15803d;--good-bg:#f1faf3;--warn:#8f4e07;--warn-bg:#fdf7ed;--grave:#1b2e73;--grave-bg:#eff1fa;--purple:#6d28d9;--purple-bg:#f5f3ff;
+    --sans:'Bricolage Grotesque',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;--serif:'Petrona',Georgia,'Times New Roman',serif;
+    --gut:clamp(1.125rem,5vw,2.5rem);--col:68rem;--nav-h:2.9rem;
+  }
+  html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+  body{font-family:var(--serif);font-size:16px;line-height:1.7;background:var(--paper);color:var(--text);-webkit-font-smoothing:antialiased;padding-top:var(--nav-h);overflow-x:hidden}
+  .num,td,th,.kpi-val,.score-val,.metric-value{font-variant-numeric:tabular-nums}
+  .cover{background:var(--ink);color:var(--on-ink);padding:clamp(3.5rem,12vw,8rem) var(--gut) clamp(2.5rem,7vw,4.5rem)}
+  .cover-inner,.kpi-row,.closing-inner,footer{max-width:var(--col);margin:0 auto}
+  .cover-mark{font-family:var(--sans);font-size:.8125rem;font-weight:600;color:var(--on-ink-2);margin-bottom:clamp(2.5rem,9vw,5rem)}
+  .cover-mark b{color:#fff}
+  .cover h1{font-family:var(--sans);font-size:clamp(2rem,6.2vw,4.25rem);font-weight:600;letter-spacing:-.035em;line-height:1.04;max-width:20ch;text-wrap:balance;margin-bottom:1.5rem}
+  .cover h1 em{font-style:normal;color:var(--on-ink-2)}
+  .cover-sub{font-size:clamp(1rem,2vw,1.0625rem);line-height:1.65;color:var(--on-ink-2);max-width:54ch}
+  .cover-rule{height:1px;background:rgba(255,255,255,.22);margin:clamp(2.5rem,7vw,4rem) 0 1.25rem}
+  .cover-foot{font-family:var(--sans);font-size:.8125rem;color:var(--on-ink-3);display:flex;flex-wrap:wrap;gap:.4rem 1.5rem}
+  .cover-foot b{color:var(--on-ink-2)}
+  .kpi-band{background:var(--ink-deep);padding:clamp(2rem,5vw,2.75rem) var(--gut)}
+  .kpi-row{display:grid;grid-template-columns:repeat(5,1fr);gap:1px;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.14)}
+  .kpi{background:var(--ink-deep);padding:1.1rem 1rem 1.2rem;min-width:0}
+  .kpi-val{font-family:var(--sans);font-size:clamp(1.4rem,3vw,2.125rem);font-weight:600;letter-spacing:-.03em;line-height:1.05;color:#fff}
+  .kpi-label{font-family:var(--sans);font-size:.75rem;font-weight:600;color:var(--on-ink-2);margin-top:.35rem}
+  .kpi-note{font-family:var(--sans);font-size:.7rem;color:var(--on-ink-3);margin-top:.15rem;line-height:1.35}
+  .nav{position:fixed;top:0;left:0;right:0;height:var(--nav-h);z-index:50;background:var(--paper);border-bottom:1px solid var(--rule);padding:0 var(--gut);display:flex;align-items:stretch;overflow-x:auto;scrollbar-width:none;font-family:var(--sans)}
+  .nav::-webkit-scrollbar{display:none}.nav a{flex-shrink:0;display:flex;align-items:center;padding:0 .68rem;font-size:.78rem;font-weight:500;color:var(--text-3);text-decoration:none;border-bottom:2px solid transparent;white-space:nowrap}.nav a:hover,.nav a.active{color:var(--ink)}.nav a.active{font-weight:700;border-bottom-color:var(--ink)}
+  .page{max-width:calc(var(--col) + 2 * var(--gut));margin:0 auto;padding:clamp(2rem,4vw,3rem) var(--gut) clamp(3rem,6vw,4.5rem)}
+  section{scroll-margin-top:calc(var(--nav-h) + .75rem)}
+  .sec-head{border-top:1px solid var(--text);padding-top:.85rem;margin:clamp(2.5rem,6vw,4rem) 0 1.4rem}.sec-head h2{font-family:var(--sans);font-size:clamp(1.4rem,3.6vw,2rem);font-weight:600;letter-spacing:-.028em;line-height:1.15}.sec-head p{font-size:.9375rem;color:var(--text-3);margin-top:.35rem;max-width:66ch}
+  section:first-child .sec-head{margin-top:0}
+  h3{font-family:var(--sans);font-size:1.08rem;line-height:1.3;margin:1.7rem 0 .65rem}p+p{margin-top:.8rem}.lede{font-size:clamp(1.08rem,2vw,1.28rem);line-height:1.65;max-width:68ch}.muted{color:var(--text-3)}
+  .grid-2,.grid-3,.grid-4{display:grid;gap:1rem}.grid-2{grid-template-columns:repeat(2,minmax(0,1fr))}.grid-3{grid-template-columns:repeat(3,minmax(0,1fr))}.grid-4{grid-template-columns:repeat(4,minmax(0,1fr))}
+  .card{background:var(--surface);border:1px solid var(--rule);padding:1.15rem}.card h3{margin:0 0 .55rem;font-size:1rem}.card p{font-size:.9rem;color:var(--text-2)}
+  .eyebrow{font-family:var(--sans);font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.12em;color:var(--primary);margin-bottom:.45rem}
+  .essential{display:grid;grid-template-columns:1.25fr .75fr;gap:1.25rem}.essential-main{border-left:4px solid var(--ink);padding:.2rem 0 .2rem 1.2rem}.essential-list{list-style:none}.essential-list li{border-bottom:1px solid var(--rule-soft);padding:.6rem 0;font-size:.9rem}.essential-list li:last-child{border-bottom:0}
+  .score{background:var(--ink);color:#fff;padding:clamp(1.3rem,4vw,2rem);display:grid;grid-template-columns:13rem 1fr;gap:2rem;align-items:center}.score-number{display:flex;align-items:baseline}.score-val{font-family:var(--sans);font-size:4.6rem;font-weight:650;line-height:1;letter-spacing:-.06em}.score-den{font-family:var(--sans);color:var(--on-ink-2);font-size:1rem;margin-left:.35rem}.score-verdict{color:var(--on-ink-2);font-size:1.05rem}.score-verdict b{color:#fff;font-family:var(--sans)}
+  .score-grid{margin-top:1px;display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--rule)}.score-item{background:#fff;padding:1rem}.score-item-head{display:flex;justify-content:space-between;gap:.75rem;font-family:var(--sans);font-size:.8rem;font-weight:650}.score-track{height:5px;background:var(--rule-soft);margin-top:.6rem}.score-fill{height:100%;background:var(--ink)}
+  .diag{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--rule);border:1px solid var(--rule);margin-top:1.25rem}.diag-col{background:#fff;padding:1.15rem}.diag-col ul{padding-left:1.15rem;font-size:.9rem;color:var(--text-2)}.diag-col li+li{margin-top:.45rem}
+  .metric-strip{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--rule);margin:1.2rem 0}.metric{padding:1rem;border-right:1px solid var(--rule)}.metric:last-child{border-right:0}.metric-value{font-family:var(--sans);font-size:1.55rem;font-weight:650;letter-spacing:-.035em}.metric-label{font-family:var(--sans);font-size:.72rem;color:var(--text-3);margin-top:.2rem}
+  .chart{background:#fff;border:1px solid var(--rule);padding:1rem;margin:1rem 0;min-height:280px;position:relative}.chart.sm{min-height:235px}.chart canvas{max-height:320px}
+  table{width:100%;border-collapse:collapse;background:#fff;border:1px solid var(--rule);font-family:var(--sans);font-size:.8rem;margin:1rem 0}th,td{text-align:left;padding:.72rem;border-bottom:1px solid var(--rule-soft);vertical-align:top}th{font-size:.66rem;text-transform:uppercase;letter-spacing:.08em;color:var(--text-3);background:#f7f8fb}tbody tr:last-child td{border-bottom:0}.right{text-align:right}.status{font-size:.66rem;font-weight:700;padding:.2rem .42rem;background:var(--primary-bg);color:var(--primary);white-space:nowrap}.status.good{background:var(--good-bg);color:var(--good)}.status.warn{background:var(--warn-bg);color:var(--warn)}
+  .insight{border-left:3px solid var(--primary);background:var(--primary-bg);padding:1rem 1.1rem;margin:1.25rem 0}.insight.good{border-color:var(--good);background:var(--good-bg)}.insight.warn{border-color:var(--warn);background:var(--warn-bg)}.insight.purple{border-color:var(--purple);background:var(--purple-bg)}.insight-header{font-family:var(--sans);font-size:.68rem;font-weight:750;letter-spacing:.1em;text-transform:uppercase;color:var(--primary);margin-bottom:.4rem}.insight.good .insight-header{color:var(--good)}.insight.warn .insight-header{color:var(--warn)}.insight.purple .insight-header{color:var(--purple)}.insight-body{display:flex;gap:.75rem}.verdict{font-family:var(--sans);font-size:.7rem;font-weight:700;white-space:nowrap}.insight p{font-size:.9rem;color:var(--text-2)}
+  .callout{border:1px solid var(--rule);background:#fff;padding:1rem 1.1rem;margin:1rem 0}.callout>strong{display:block;font-family:var(--sans);font-size:.7rem;text-transform:uppercase;letter-spacing:.1em;color:var(--ink);margin-bottom:.4rem}.callout p,.callout li{font-size:.9rem;color:var(--text-2)}
+  .swot{display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:var(--rule);border:1px solid var(--rule)}.swot-cell{background:#fff;padding:1.15rem}.swot-cell h3{margin:0 0 .6rem}.swot-cell ul{padding-left:1rem;font-size:.9rem;color:var(--text-2)}.swot-cell li+li{margin-top:.35rem}
+  .roadmap{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem}.phase{border-top:4px solid var(--ink);background:#fff;border-left:1px solid var(--rule);border-right:1px solid var(--rule);border-bottom:1px solid var(--rule);padding:1.15rem}.phase:nth-child(2){border-top-color:var(--primary)}.phase:nth-child(3){border-top-color:var(--purple)}.phase-time{font-family:var(--sans);font-size:.7rem;font-weight:750;letter-spacing:.1em;text-transform:uppercase;color:var(--text-3)}.phase h3{margin:.45rem 0 .8rem}.phase ol{padding-left:1.1rem;font-size:.88rem;color:var(--text-2)}.phase li+li{margin-top:.45rem}.phase-kpi{border-top:1px solid var(--rule);margin-top:1rem;padding-top:.8rem;font-family:var(--sans);font-size:.72rem;color:var(--ink)}
+  .priority{display:grid;grid-template-columns:4rem 1fr auto;gap:1rem;align-items:center;padding:.9rem 0;border-bottom:1px solid var(--rule)}.priority:last-child{border-bottom:0}.priority-num{font-family:var(--sans);font-size:1.8rem;font-weight:650;color:var(--ink)}.priority h3{margin:0;font-size:.95rem}.priority p{font-size:.85rem;color:var(--text-3)}
+  .closing{background:var(--ink-deep);color:#fff;padding:clamp(2.5rem,7vw,4.5rem) var(--gut)}.closing h2{font-family:var(--sans);font-size:clamp(1.7rem,4vw,2.8rem);letter-spacing:-.035em;line-height:1.1;max-width:20ch}.closing p{color:var(--on-ink-2);max-width:58ch;margin-top:1rem}.closing-meta{font-family:var(--sans);font-size:.75rem;color:var(--on-ink-3);margin-top:2rem}
+  footer{padding:1.5rem var(--gut);font-family:var(--sans);font-size:.72rem;color:var(--text-3);display:flex;justify-content:space-between;gap:1rem}
+  @media(max-width:850px){.kpi-row{grid-template-columns:repeat(2,1fr)}.kpi:last-child{grid-column:span 2}.grid-3,.grid-4,.roadmap{grid-template-columns:1fr 1fr}.essential{grid-template-columns:1fr}.score{grid-template-columns:1fr}.score-grid{grid-template-columns:1fr 1fr}.diag{grid-template-columns:1fr}.metric-strip{grid-template-columns:1fr 1fr}.metric:nth-child(2){border-right:0}.metric:nth-child(-n+2){border-bottom:1px solid var(--rule)}}
+  @media(max-width:580px){body{font-size:15px}.grid-2,.grid-3,.grid-4,.roadmap,.swot{grid-template-columns:1fr}.score-grid{grid-template-columns:1fr}.insight-body{display:block}.verdict{display:block;margin-bottom:.3rem}.priority{grid-template-columns:2.5rem 1fr}.priority .status{grid-column:2}.table-wrap{overflow-x:auto;margin:1rem calc(-1 * var(--gut));padding:0 var(--gut)}table{min-width:620px}.cover h1{max-width:16ch}footer{display:block}footer span{display:block}.kpi-row{grid-template-columns:1fr}.kpi:last-child{grid-column:auto}}
+  @media print{.nav{display:none}body{padding-top:0}.cover,.kpi-band,.score,.closing{print-color-adjust:exact;-webkit-print-color-adjust:exact}.page{max-width:none}.chart{break-inside:avoid}section{break-inside:auto}}
+</style>
+</head>
+<body>
+<header class="cover">
+  <div class="cover-inner">
+    <div class="cover-mark"><b>Oráculo Tecnologia</b> · Auditoria de presença digital</div>
+    <h1>A reputação existe. <em>A distribuição ainda não acompanha.</em></h1>
+    <p class="cover-sub">Auditoria dos canais que sustentam a descoberta e a confiança de um escritório jurídico: Instagram, busca no Google, Perfil da Empresa, site, diretórios e reputação. A leitura foi comparada com três concorrentes da mesma praça e convertida em um plano de 180 dias.</p>
+    <div class="cover-rule"></div>
+    <div class="cover-foot"><span><b>Debem e Santos Advogados Associados</b></span><span>Palhoça · Florianópolis · Brasília</span><span>12 de agosto de 2026</span></div>
+  </div>
+</header>
+
+<div class="kpi-band">
+  <div class="kpi-row">
+    <div class="kpi"><div class="kpi-val">5,0</div><div class="kpi-label">Nota no Google</div><div class="kpi-note">22 avaliações públicas</div></div>
+    <div class="kpi"><div class="kpi-val">1.919</div><div class="kpi-label">Seguidores no Instagram</div><div class="kpi-note">91 publicações no perfil</div></div>
+    <div class="kpi"><div class="kpi-val">1,453%</div><div class="kpi-label">Engajamento da amostra</div><div class="kpi-note">18 posts · 423 likes · 79 comentários</div></div>
+    <div class="kpi"><div class="kpi-val">4,351%</div><div class="kpi-label">ER médio de Reels</div><div class="kpi-note">5,9 vezes o ER das imagens</div></div>
+    <div class="kpi"><div class="kpi-val">151</div><div class="kpi-label">Dias no maior hiato</div><div class="kpi-note">Entre dezembro de 2025 e maio de 2026</div></div>
+  </div>
+</div>
+
+<nav class="nav" aria-label="Seções da análise">
+  <a href="#essencial">Essencial</a><a href="#diagnostico">Diagnóstico</a><a href="#google">Google</a><a href="#site">Site</a><a href="#instagram">Instagram</a><a href="#conteudo">Conteúdo</a><a href="#diretorios">Diretórios</a><a href="#concorrencia">Concorrência</a><a href="#conversao">Conversão</a><a href="#swot">SWOT</a><a href="#recomendacoes">180 dias</a><a href="#resumo">Resumo</a>
+</nav>
+
+<main class="page">
+  <section id="essencial">
+    <div class="sec-head"><h2>O essencial em dois minutos</h2><p>O que a presença atual comunica, onde ela perde força e qual movimento muda o cenário.</p></div>
+    <div class="essential">
+      <div class="essential-main">
+        <p class="eyebrow">Leitura central</p>
+        <p class="lede">A Debem e Santos tem os ativos difíceis de construir — <b>20 anos de história, expansão física, equipe, autoridade institucional e nota máxima</b>. O gargalo não é credibilidade. É transformar essa credibilidade em descoberta recorrente, prova social em escala e caminhos de contato coerentes.</p>
+      </div>
+      <div class="card"><p class="eyebrow">Decisão prioritária</p><p>Tratar Google, site e Instagram como um único sistema: cada tema publicado deve responder a uma busca, reforçar uma especialidade e conduzir a uma página ou contato mensurável.</p></div>
+    </div>
+    <div class="grid-3" style="margin-top:1rem">
+      <div class="card"><p class="eyebrow">O que funciona</p><h3>Marca e reputação</h3><p>Busca de marca dominada, nota 5,0 e sinais consistentes de história, equipe e expansão.</p></div>
+      <div class="card"><p class="eyebrow">O que trava</p><h3>Infraestrutura de descoberta</h3><p>Site sem H1, descrição, Open Graph ou dados estruturados; blog parado e páginas genéricas indexadas.</p></div>
+      <div class="card"><p class="eyebrow">O que destrava</p><h3>Especialidades como produtos</h3><p>Páginas e séries próprias para Previdenciário, Trabalhista, Família e demandas empresariais, ligadas às unidades.</p></div>
+    </div>
+    <div class="insight warn"><div class="insight-header">O que isso significa para você</div><div class="insight-body"><span class="verdict">▶ Atenção</span><p>O escritório não precisa parecer maior; precisa fazer sua escala real aparecer de forma coerente. Hoje, a operação cresceu mais rápido do que a infraestrutura digital.</p></div></div>
+  </section>
+
+  <section id="diagnostico">
+    <div class="sec-head"><h2>Diagnóstico executivo</h2><p>Pontuação baseada em sinais públicos, consistência entre canais e capacidade de converter interesse em contato.</p></div>
+    <div class="score">
+      <div><div class="score-number"><span class="score-val">4,8</span><span class="score-den">/ 10</span></div></div>
+      <p class="score-verdict"><b>Uma marca sólida apoiada por uma infraestrutura digital incompleta.</b><br/>As maiores notas vêm de posicionamento e reputação; as menores, de SEO técnico, consistência de dados e cadência.</p>
+    </div>
+    <div class="score-grid">
+      <div class="score-item"><div class="score-item-head"><span>Posicionamento</span><span>7,2</span></div><div class="score-track"><div class="score-fill" style="width:72%"></div></div></div>
+      <div class="score-item"><div class="score-item-head"><span>Google local</span><span>5,1</span></div><div class="score-track"><div class="score-fill" style="width:51%"></div></div></div>
+      <div class="score-item"><div class="score-item-head"><span>Instagram</span><span>5,8</span></div><div class="score-track"><div class="score-fill" style="width:58%"></div></div></div>
+      <div class="score-item"><div class="score-item-head"><span>Site e SEO</span><span>3,2</span></div><div class="score-track"><div class="score-fill" style="width:32%"></div></div></div>
+      <div class="score-item"><div class="score-item-head"><span>Reputação</span><span>5,0</span></div><div class="score-track"><div class="score-fill" style="width:50%"></div></div></div>
+      <div class="score-item"><div class="score-item-head"><span>Conversão e dados</span><span>2,7</span></div><div class="score-track"><div class="score-fill" style="width:27%"></div></div></div>
+    </div>
+    <div class="diag">
+      <div class="diag-col"><p class="eyebrow">Situação</p><ul><li>Marca aparece bem em buscas pelo próprio nome.</li><li>Instagram retomou atividade em agosto.</li><li>Site apresenta estrutura e equipe, mas não organiza a demanda por intenção.</li></ul></div>
+      <div class="diag-col"><p class="eyebrow">Impacto</p><ul><li>Boa confiança para quem já conhece.</li><li>Baixa captura de quem ainda está pesquisando.</li><li>Volume de avaliações deixa a empresa atrás do pacote local.</li></ul></div>
+      <div class="diag-col"><p class="eyebrow">Resposta</p><ul><li>Corrigir base técnica e dados locais.</li><li>Construir páginas por especialidade e praça.</li><li>Operar conteúdo e reputação com cadência.</li></ul></div>
+    </div>
+    <div class="insight"><div class="insight-header">O que isso significa para você</div><div class="insight-body"><span class="verdict">★ Destaque</span><p>O ganho mais rápido virá menos de “postar mais” e mais de conectar os ativos existentes: autoridade da equipe, avaliações, especialidades, unidades e conteúdo jurídico pesquisável.</p></div></div>
+  </section>
+
+  <section id="google">
+    <div class="sec-head"><h2>Google e presença local</h2><p>A marca domina a busca pelo próprio nome, mas enfrenta uma diferença grande de prova social nas pesquisas de descoberta.</p></div>
+    <div class="metric-strip">
+      <div class="metric"><div class="metric-value">1º</div><div class="metric-label">site na busca de marca</div></div>
+      <div class="metric"><div class="metric-value">5,0</div><div class="metric-label">nota pública</div></div>
+      <div class="metric"><div class="metric-value">22</div><div class="metric-label">avaliações</div></div>
+      <div class="metric"><div class="metric-value">fora do top 3</div><div class="metric-label">pacote local previdenciário observado</div></div>
+    </div>
+    <div class="grid-2">
+      <div class="chart sm"><canvas id="chartGoogle"></canvas></div>
+      <div>
+        <h3>Busca de marca: cobertura saudável</h3><p>O site oficial ocupa a primeira posição e é acompanhado por Instagram, Facebook, Serasa, LinkedIn e outros resultados. Para quem já conhece o escritório, há confirmação suficiente de legitimidade.</p>
+        <h3>Busca sem marca: descoberta parcial</h3><p>Na consulta “advogado previdenciário Palhoça”, o site apareceu na primeira página orgânica, depois do pacote local e de outros resultados especializados. Há indexação, mas a empresa não foi uma das três exibidas no mapa.</p>
+      </div>
+    </div>
+    <div class="callout"><strong>Limite da medição</strong><p>Resultados de busca variam por localização, histórico e dispositivo. A leitura registra o cenário público observado em 12/08/2026 e deve ser acompanhada por Search Console, Perfil da Empresa e uma grade fixa de palavras-chave.</p></div>
+    <div class="insight warn"><div class="insight-header">O que isso significa para você</div><div class="insight-body"><span class="verdict">▶ Atenção</span><p>Nota máxima ajuda, mas 22 avaliações não sustentam o mesmo peso competitivo de empresas com 186, 283 ou aproximadamente 1,8 mil. O programa de reputação é uma prioridade comercial, não cosmética.</p></div></div>
+  </section>
+
+  <section id="site">
+    <div class="sec-head"><h2>Site, SEO e experiência</h2><p>O site explica a empresa, porém deixa sinais básicos de indexação, confiança e conversão incompletos.</p></div>
+    <div class="table-wrap"><table>
+      <thead><tr><th>Camada</th><th>Achado público</th><th>Impacto</th><th>Status</th></tr></thead>
+      <tbody>
+        <tr><td>Semântica</td><td>Página inicial sem H1</td><td>Reduz clareza do tema principal para busca e acessibilidade</td><td><span class="status warn">Corrigir</span></td></tr>
+        <tr><td>Metadados</td><td>Sem meta description e sem Open Graph</td><td>Snippets e compartilhamentos ficam sem controle editorial</td><td><span class="status warn">Corrigir</span></td></tr>
+        <tr><td>Dados estruturados</td><td>Nenhum bloco JSON-LD na home</td><td>Perde contexto de organização, unidades, serviços e profissionais</td><td><span class="status warn">Corrigir</span></td></tr>
+        <tr><td>Idioma</td><td><code>lang="pt-PT"</code> em site brasileiro</td><td>Sinal técnico inconsistente com o público e a localização</td><td><span class="status warn">Ajustar</span></td></tr>
+        <tr><td>Indexação</td><td>“Hello world!” e páginas “Post 1–4” públicas</td><td>Conteúdo genérico pode ser indexado e diluir qualidade percebida</td><td><span class="status warn">Remover</span></td></tr>
+        <tr><td>Conteúdo</td><td>Sitemap com 11 páginas e apenas 1 post</td><td>Baixa cobertura de dúvidas e especialidades pesquisadas</td><td><span class="status warn">Expandir</span></td></tr>
+        <tr><td>Conversão</td><td>Formulário e WhatsApp presentes</td><td>Existe caminho de contato, mas sem proposta específica por intenção</td><td><span class="status good">Base útil</span></td></tr>
+      </tbody>
+    </table></div>
+    <div class="grid-3">
+      <div class="card"><p class="eyebrow">Estrutura</p><h3>137,9 KB de HTML</h3><p>A home é construída em WordPress e Elementor. O volume não é uma nota de velocidade; apenas sinaliza uma base que merece medição técnica contínua.</p></div>
+      <div class="card"><p class="eyebrow">Rede observada</p><h3>0,19 s até o primeiro byte</h3><p>Resposta pontual favorável na coleta. Não substitui Core Web Vitals nem um teste Lighthouse em mobile.</p></div>
+      <div class="card"><p class="eyebrow">Conteúdo</p><h3>Blog desatualizado</h3><p>Os artigos visíveis tratam principalmente de temas trabalhistas ligados à pandemia e não acompanham a expansão atual.</p></div>
+    </div>
+    <div class="insight warn"><div class="insight-header">O que isso significa para você</div><div class="insight-body"><span class="verdict">▶ Atenção</span><p>O site confirma a existência do escritório, mas ainda não funciona como uma biblioteca de especialidades nem como máquina de descoberta local. O primeiro mês deve corrigir o básico antes de ampliar mídia ou conteúdo.</p></div></div>
+  </section>
+
+  <section id="instagram">
+    <div class="sec-head"><h2>Instagram: alcance potencial, cadência instável</h2><p>A amostra de 18 posts mostra que formatos com narrativa e prova institucional superam conteúdos estáticos informativos.</p></div>
+    <div class="grid-2">
+      <div class="chart"><canvas id="chartFormatos"></canvas></div>
+      <div class="chart"><canvas id="chartMix"></canvas></div>
+    </div>
+    <div class="grid-2">
+      <div class="chart"><canvas id="chartCadencia"></canvas></div>
+      <div>
+        <h3>O melhor post recente</h3><p>O Reel sobre a nova sede em Brasília registrou <b>138 curtidas e 25 comentários</b>, concentrando 32,5% das curtidas de toda a amostra. O tema combina novidade concreta, expansão e prova de trajetória.</p>
+        <h3>O padrão vencedor</h3><p>Reels tiveram ER médio de 4,351%; carrosséis, 2,150%; imagens, 0,738%. Mesmo com amostra pequena de Reels, a distância é suficiente para justificar novos testes.</p>
+        <h3>O problema operacional</h3><p>Doze dos 18 posts eram imagens. Houve um hiato de 151 dias e outro de 74 dias, o que impede aprendizado contínuo e enfraquece a distribuição.</p>
+      </div>
+    </div>
+    <div class="insight good"><div class="insight-header">O que isso significa para você</div><div class="insight-body"><span class="verdict">▲ Bom</span><p>Existe resposta quando a marca publica acontecimentos reais, pessoas e marcos. O Instagram não precisa virar um mural diário de notícias jurídicas; precisa documentar autoridade, explicar decisões e mostrar a operação com ritmo.</p></div></div>
+  </section>
+
+  <section id="conteudo">
+    <div class="sec-head"><h2>Conteúdo e posicionamento</h2><p>O perfil se apresenta como full service, enquanto a tração revela maior interesse por expansão, bastidores, pessoas e ativos de autoridade.</p></div>
+    <div class="grid-4">
+      <div class="card"><p class="eyebrow">Pilar 01</p><h3>Previdenciário claro</h3><p>Documentos, prazos, negativas e critérios em linguagem acessível.</p></div>
+      <div class="card"><p class="eyebrow">Pilar 02</p><h3>Empresa protegida</h3><p>Contratos, trabalho, compliance e risco para gestores.</p></div>
+      <div class="card"><p class="eyebrow">Pilar 03</p><h3>Autoridade em ação</h3><p>OAB, eventos, livro, imprensa, decisões e repertório dos profissionais.</p></div>
+      <div class="card"><p class="eyebrow">Pilar 04</p><h3>Debem e Santos por dentro</h3><p>Equipe, unidades, bastidores, tecnologia e cultura de atendimento.</p></div>
+    </div>
+    <div class="table-wrap"><table>
+      <thead><tr><th>Indicador</th><th>Resultado</th><th>Leitura</th></tr></thead>
+      <tbody>
+        <tr><td>Posts com CTA identificável</td><td>3 de 18</td><td>A maior parte informa, mas não orienta o próximo passo.</td></tr>
+        <tr><td>Posts com hashtags</td><td>4 de 18</td><td>Uso esporádico; SEO social depende mais de texto, tema e consistência do que de listas genéricas.</td></tr>
+        <tr><td>Melhor formato</td><td>Reel</td><td>A média é puxada por uma novidade forte; validar com pelo menos oito novos Reels.</td></tr>
+        <tr><td>Melhor ativo recorrente</td><td>Pessoas e marcos</td><td>Perfis profissionais, eventos, livro, imprensa e expansão criam confiança.</td></tr>
+      </tbody>
+    </table></div>
+    <div class="callout"><strong>Guardrail editorial jurídico</strong><p>Todo conteúdo deve preservar sobriedade, caráter informativo e análise individual de cada caso. A proposta é aumentar clareza e autoridade, não prometer resultado nem transformar comunicação jurídica em oferta agressiva.</p></div>
+    <div class="insight"><div class="insight-header">O que isso significa para você</div><div class="insight-body"><span class="verdict">★ Destaque</span><p>O posicionamento “20 anos + soluções estratégicas” é forte, mas amplo. A comunicação precisa traduzir “estratégicas” em problemas concretos, especialidades reconhecíveis e provas verificáveis.</p></div></div>
+  </section>
+
+  <section id="diretorios">
+    <div class="sec-head"><h2>Diretórios, reputação e consistência</h2><p>A busca de marca encontra diversos sinais legítimos, mas nome, endereço, telefone e unidades não estão sincronizados.</p></div>
+    <div class="grid-2">
+      <div>
+        <h3>Ecossistema público encontrado</h3>
+        <div class="table-wrap"><table><thead><tr><th>Canal</th><th>Papel</th><th>Leitura</th></tr></thead><tbody>
+          <tr><td>Instagram</td><td>Conteúdo e marca</td><td>Ativo, com seis destaques e retomada recente.</td></tr>
+          <tr><td>Facebook</td><td>Presença histórica</td><td>Aparece na busca, com base pública pequena.</td></tr>
+          <tr><td>LinkedIn</td><td>Marca empregadora</td><td>Presença encontrada, mas com apenas 8 seguidores no snippet observado.</td></tr>
+          <tr><td>Serasa/CNPJá</td><td>Validação cadastral</td><td>Reforça existência empresarial e CNPJ.</td></tr>
+          <tr><td>Câmara de Palhoça</td><td>Autoridade institucional</td><td>Resultado menciona sociedade sênior e 20 anos de atuação.</td></tr>
+        </tbody></table></div>
+      </div>
+      <div>
+        <h3>Inconsistências críticas</h3>
+        <div class="callout"><strong>Endereço Centro</strong><p>Instagram mostra “Sala 01” e CEP 88131-000; o site mostra “Sala 101” e CEP 88.138-430; o Google mostra o número 2896 sem sala. É necessário validar o dado oficial e padronizá-lo.</p></div>
+        <div class="callout"><strong>Telefones</strong><p>O site exibe o fixo (48) 3033-3668 e diferentes números de plantão em páginas distintas, incluindo finais 3895, 5195 e 1188.</p></div>
+        <div class="callout"><strong>Expansão</strong><p>A unidade Brasília foi anunciada no Instagram em agosto de 2026, mas ainda não aparece na estrutura principal do site coletada.</p></div>
+      </div>
+    </div>
+    <div class="insight warn"><div class="insight-header">O que isso significa para você</div><div class="insight-body"><span class="verdict">▶ Atenção</span><p>Antes de criar novas listagens, é preciso definir uma fonte oficial para cada unidade. Consistência de NAP — nome, endereço e telefone — é fundamento de SEO local e reduz fricção no atendimento.</p></div></div>
+  </section>
+
+  <section id="concorrencia">
+    <div class="sec-head"><h2>Comparativo competitivo regional</h2><p>Concorrentes selecionados por presença no pacote local para “escritório de advocacia Palhoça SC”.</p></div>
+    <div class="grid-2">
+      <div class="chart"><canvas id="chartConcorrentes"></canvas></div>
+      <div class="chart"><canvas id="chartRadar"></canvas></div>
+    </div>
+    <div class="table-wrap"><table>
+      <thead><tr><th>Marca</th><th>Nota</th><th class="right">Avaliações</th><th>Site observado</th><th>Vantagem pública</th></tr></thead>
+      <tbody>
+        <tr><td>Advocacia Bublitz</td><td>5,0</td><td class="right">≈ 1.800</td><td>H1 presente</td><td>Escala de reputação e Instagram com 26,6 mil seguidores no snippet.</td></tr>
+        <tr><td>Salvador Advogados</td><td>4,9</td><td class="right">283</td><td>H1 presente</td><td>Volume de avaliações e presença no pacote local.</td></tr>
+        <tr><td>Siqueira Advogados</td><td>5,0</td><td class="right">186</td><td>H1, descrição e schema</td><td>SEO técnico mais completo e presença local.</td></tr>
+        <tr><td><b>Debem e Santos</b></td><td><b>5,0</b></td><td class="right"><b>22</b></td><td>Sem H1, descrição ou schema</td><td>20 anos, três unidades históricas e expansão para Brasília.</td></tr>
+      </tbody>
+    </table></div>
+    <div class="callout"><strong>Critério de comparação</strong><p>O comparativo não atribui qualidade jurídica. Mede sinais públicos de descoberta, reputação e infraestrutura digital observados na mesma data.</p></div>
+    <div class="insight warn"><div class="insight-header">O que isso significa para você</div><div class="insight-body"><span class="verdict">▶ Atenção</span><p>A Debem e Santos tem uma história mais longa do que parte dos concorrentes, mas essa vantagem não aparece no volume de avaliações nem na maturidade técnica do site. O objetivo dos próximos seis meses é reduzir essa diferença.</p></div></div>
+  </section>
+
+  <section id="conversao">
+    <div class="sec-head"><h2>Conversão e mensuração</h2><p>Os canais oferecem contato, porém ainda não formam um funil rastreável por área, unidade e origem.</p></div>
+    <div class="grid-3">
+      <div class="card"><p class="eyebrow">Entrada</p><h3>Busca e conteúdo</h3><p>Organizar palavras-chave, posts, páginas e Perfil da Empresa por problema jurídico e praça.</p></div>
+      <div class="card"><p class="eyebrow">Decisão</p><h3>Página específica</h3><p>Explicar escopo, processo de atendimento, equipe, unidade e dúvidas frequentes sem promessa de resultado.</p></div>
+      <div class="card"><p class="eyebrow">Contato</p><h3>Origem mensurável</h3><p>Links com UTM, eventos de formulário/WhatsApp e registro de área e unidade no CRM.</p></div>
+    </div>
+    <div class="priority"><div class="priority-num">01</div><div><h3>Definir conversões principais</h3><p>Envio de formulário, clique no WhatsApp, clique no telefone e solicitação de rota.</p></div><span class="status warn">Alta prioridade</span></div>
+    <div class="priority"><div class="priority-num">02</div><div><h3>Separar demanda por área</h3><p>Previdenciário, Trabalhista, Família/Civil, Penal e Empresarial precisam de rotas próprias.</p></div><span class="status">Fundação</span></div>
+    <div class="priority"><div class="priority-num">03</div><div><h3>Registrar praça e origem</h3><p>Palhoça, Florianópolis e Brasília devem aparecer no atendimento e nos relatórios.</p></div><span class="status">Mensuração</span></div>
+    <div class="insight"><div class="insight-header">O que isso significa para você</div><div class="insight-body"><span class="verdict">★ Destaque</span><p>Sem eventos e origem padronizados, o escritório pode aumentar alcance sem descobrir o que gera atendimento qualificado. Mensuração vem antes de escala.</p></div></div>
+  </section>
+
+  <section id="swot">
+    <div class="sec-head"><h2>Análise SWOT</h2><p>Síntese da posição atual, separando ativos internos e pressões do ambiente competitivo.</p></div>
+    <div class="swot">
+      <div class="swot-cell"><p class="eyebrow">Forças</p><h3>Base difícil de copiar</h3><ul><li>20 anos de trajetória declarada.</li><li>Nota 5,0 no Google.</li><li>Equipe e sócios com participação institucional.</li><li>Expansão física e presença em novas praças.</li><li>Reels e carrosséis demonstram potencial de tração.</li></ul></div>
+      <div class="swot-cell"><p class="eyebrow">Fraquezas</p><h3>Infraestrutura fragmentada</h3><ul><li>Baixo volume de avaliações.</li><li>Site sem fundamentos importantes de SEO.</li><li>Dados locais e telefones inconsistentes.</li><li>Cadência irregular no Instagram.</li><li>Poucas páginas e artigos por especialidade.</li></ul></div>
+      <div class="swot-cell"><p class="eyebrow">Oportunidades</p><h3>Autoridade pesquisável</h3><ul><li>Transformar dúvidas recorrentes em páginas e séries.</li><li>Associar especialidades às quatro unidades.</li><li>Ativar clientes satisfeitos para reputação ética.</li><li>Usar livro, OAB, imprensa e eventos como prova.</li><li>Conectar perfis dos profissionais à marca.</li></ul></div>
+      <div class="swot-cell"><p class="eyebrow">Ameaças</p><h3>Concorrentes com distribuição maior</h3><ul><li>Pacote local dominado por volumes de avaliações superiores.</li><li>Especialistas ocupam buscas de alta intenção.</li><li>Conteúdo jurídico genérico virou commodity.</li><li>Informações desatualizadas podem gerar perda de confiança.</li><li>Expansão sem governança aumenta inconsistências.</li></ul></div>
+    </div>
+    <div class="insight purple"><div class="insight-header">O que isso significa para você</div><div class="insight-body"><span class="verdict">★ Visão</span><p>A melhor estratégia não é competir por volume genérico. É tornar a combinação “trajetória + equipe + especialidades + presença regional” mais fácil de encontrar, entender e verificar.</p></div></div>
+  </section>
+
+  <section id="recomendacoes">
+    <div class="sec-head"><h2>Plano estratégico de 180 dias</h2><p>Três ciclos com dependências claras: corrigir a base, construir autoridade e então escalar o que demonstrar resultado.</p></div>
+    <div class="roadmap">
+      <div class="phase"><div class="phase-time">Dias 1–30</div><h3>Fundação e coerência</h3><ol><li>Validar e padronizar NAP de todas as unidades.</li><li>Corrigir H1, idioma, descrição, Open Graph e schema.</li><li>Remover páginas genéricas e revisar sitemap.</li><li>Configurar GA4, Search Console e eventos de conversão.</li><li>Criar calendário com dois posts semanais e um Reel quinzenal.</li><li>Implantar rotina ética de solicitação de avaliações.</li></ol><div class="phase-kpi">KPIs: 100% do NAP validado · 4 conversões medidas · zero páginas-placeholder indexáveis</div></div>
+      <div class="phase"><div class="phase-time">Dias 31–90</div><h3>Autoridade e descoberta</h3><ol><li>Publicar páginas para as principais especialidades.</li><li>Criar páginas locais para Palhoça, Florianópolis e Brasília.</li><li>Publicar 8 conteúdos de busca com autoria profissional.</li><li>Testar 8 Reels e 8 carrosséis com quatro pilares.</li><li>Atualizar perfis institucionais e profissionais.</li><li>Responder avaliações e consolidar prova social no site.</li></ol><div class="phase-kpi">KPIs: +30 avaliações · 16 conteúdos sociais · 8 páginas/artigos · baseline de leads por origem</div></div>
+      <div class="phase"><div class="phase-time">Dias 91–180</div><h3>Escala e diferenciação</h3><ol><li>Expandir clusters que gerarem impressões e contatos.</li><li>Transformar eventos, livro e imprensa em ativos permanentes.</li><li>Criar estudos e guias informativos por especialidade.</li><li>Otimizar páginas com dados de busca e conversão.</li><li>Estruturar co-marketing institucional compatível com as regras.</li><li>Consolidar dashboard mensal por canal, área e praça.</li></ol><div class="phase-kpi">KPIs: +60 avaliações acumuladas · 6 meses sem hiato · crescimento de impressões e contatos qualificados</div></div>
+    </div>
+    <h3>Sequência que protege o investimento</h3>
+    <div class="priority"><div class="priority-num">1</div><div><h3>Governança de dados locais</h3><p>Sem endereço e telefone oficiais, todo esforço posterior amplifica inconsistências.</p></div><span class="status warn">Agora</span></div>
+    <div class="priority"><div class="priority-num">2</div><div><h3>Base técnica e mensuração</h3><p>Corrigir o site e medir antes de aumentar distribuição.</p></div><span class="status warn">Agora</span></div>
+    <div class="priority"><div class="priority-num">3</div><div><h3>Reputação e páginas por intenção</h3><p>Atacar simultaneamente o pacote local e a busca orgânica.</p></div><span class="status">30–90 dias</span></div>
+    <div class="priority"><div class="priority-num">4</div><div><h3>Conteúdo com cadência</h3><p>Usar formatos vencedores e transformar autoridade em séries recorrentes.</p></div><span class="status">30–180 dias</span></div>
+    <div class="insight purple"><div class="insight-header">O que isso significa para você</div><div class="insight-body"><span class="verdict">★ Visão</span><p>Em seis meses, o sucesso não é apenas “mais seguidores”. É uma operação capaz de provar de onde vieram as oportunidades, quais especialidades respondem melhor e em quais praças a marca está ganhando descoberta.</p></div></div>
+  </section>
+
+  <section id="resumo">
+    <div class="sec-head"><h2>Resumo executivo e pontuação</h2><p>O que preservar, o que corrigir e como reconhecer progresso real.</p></div>
+    <div class="grid-2">
+      <div><p class="lede">A Debem e Santos já tem <b>história, operação e reputação</b>. O próximo salto depende de fazer esses ativos trabalharem juntos.</p><p>A prioridade é padronizar unidades e contatos, corrigir a base técnica do site, ampliar prova social e operar conteúdo por intenção — não por calendário vazio. A expansão para Brasília torna essa governança ainda mais urgente.</p></div>
+      <div class="chart sm"><canvas id="chartScore"></canvas></div>
+    </div>
+    <div class="grid-3" style="margin-top:1rem">
+      <div class="card"><p class="eyebrow">Preservar</p><h3>Trajetória e proximidade</h3><p>São os ativos mais humanos e defensáveis da marca.</p></div>
+      <div class="card"><p class="eyebrow">Corrigir</p><h3>Base e consistência</h3><p>SEO, NAP, páginas indexadas, mensuração e cadência.</p></div>
+      <div class="card"><p class="eyebrow">Escalar</p><h3>Formatos e temas vencedores</h3><p>Reels, carrosséis, pessoas, marcos e especialidades.</p></div>
+    </div>
+    <div class="insight good"><div class="insight-header">O que isso significa para você</div><div class="insight-body"><span class="verdict">▲ Bom</span><p>O diagnóstico é favorável à execução: os problemas centrais são corrigíveis em 180 dias e não exigem reconstruir a marca. Exigem disciplina, governança e ligação entre canais.</p></div></div>
+  </section>
+</main>
+
+<div class="closing"><div class="closing-inner"><h2>A autoridade já foi construída. Agora ela precisa ser encontrada.</h2><p>Esta auditoria transforma sinais públicos em uma ordem prática de trabalho. Métricas privadas de alcance, leads, contratos, Search Console e Perfil da Empresa devem ser incorporadas ao dashboard assim que houver acesso.</p><div class="closing-meta">Oráculo Tecnologia · Presença digital · Agosto de 2026</div></div></div>
+<footer><span>Oráculo Tecnologia © 2026</span><span>Fontes públicas coletadas em 12/08/2026 · Instagram, Google e sites institucionais</span></footer>
+
+<script>
+(() => {
+  const ink='#1b2e73', primary='#1d4ed8', soft='#b3c0ea', rule='#dfe1ec', good='#15803d', purple='#6d28d9';
+  Chart.defaults.font.family="'Bricolage Grotesque', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif";
+  Chart.defaults.color='#6b7186';
+  Chart.defaults.plugins.legend.labels.usePointStyle=true;
+  Chart.defaults.plugins.legend.labels.boxWidth=7;
+  const grid={color:'#ebedf4'};
+  new Chart(document.getElementById('chartGoogle'),{type:'bar',data:{labels:['Debem e Santos','Siqueira','Salvador','Bublitz'],datasets:[{label:'Avaliações no Google',data:[22,186,283,1800],backgroundColor:[primary,soft,soft,ink],borderRadius:2}]},options:{responsive:true,maintainAspectRatio:false,indexAxis:'y',plugins:{legend:{display:false},title:{display:true,text:'Volume público de avaliações'}},scales:{x:{grid,ticks:{callback:v=>v>=1000?(v/1000).toFixed(1)+' mil':v}},y:{grid:{display:false}}}}});
+  new Chart(document.getElementById('chartFormatos'),{type:'bar',data:{labels:['Imagem','Carrossel','Reel'],datasets:[{label:'ER médio (%)',data:[0.738,2.150,4.351],backgroundColor:[soft,primary,ink],borderRadius:2}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false},title:{display:true,text:'Engajamento por formato · amostra de 18 posts'}},scales:{y:{beginAtZero:true,grid,ticks:{callback:v=>v.toFixed(1)+'%'}},x:{grid:{display:false}}}}});
+  new Chart(document.getElementById('chartMix'),{type:'doughnut',data:{labels:['Imagem · 12','Carrossel · 4','Reel · 2'],datasets:[{data:[12,4,2],backgroundColor:[soft,primary,ink],borderColor:'#fff',borderWidth:3}]},options:{responsive:true,maintainAspectRatio:false,cutout:'64%',plugins:{title:{display:true,text:'Mix de formatos na amostra'}}}});
+  new Chart(document.getElementById('chartCadencia'),{type:'bar',data:{labels:['out/25','nov/25','dez/25','jan–abr/26','mai/26','jun–jul/26','ago/26'],datasets:[{label:'Posts da amostra',data:[4,6,5,0,1,0,3],backgroundColor:[primary,primary,primary,rule,soft,rule,ink],borderRadius:2}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false},title:{display:true,text:'Cadência observada e dois hiatos longos'}},scales:{y:{beginAtZero:true,grid,ticks:{stepSize:1}},x:{grid:{display:false}}}}});
+  new Chart(document.getElementById('chartConcorrentes'),{type:'bar',data:{labels:['Reputação','SEO técnico','Conteúdo social','Consistência local'],datasets:[{label:'Debem e Santos',data:[50,32,58,35],backgroundColor:primary},{label:'Referência observada',data:[90,80,82,78],backgroundColor:soft}]},options:{responsive:true,maintainAspectRatio:false,plugins:{title:{display:true,text:'Maturidade relativa · índice diagnóstico'}},scales:{y:{beginAtZero:true,max:100,grid},x:{grid:{display:false}}}}});
+  new Chart(document.getElementById('chartRadar'),{type:'radar',data:{labels:['Trajetória','Marca','Google local','Site/SEO','Instagram','Conversão'],datasets:[{label:'Debem e Santos',data:[9,7.2,5.1,3.2,5.8,2.7],borderColor:ink,backgroundColor:'rgba(27,46,115,.14)',pointBackgroundColor:ink}]},options:{responsive:true,maintainAspectRatio:false,plugins:{title:{display:true,text:'Perfil de maturidade atual'}},scales:{r:{beginAtZero:true,max:10,ticks:{display:false},grid:{color:rule},angleLines:{color:rule}}}}});
+  new Chart(document.getElementById('chartScore'),{type:'doughnut',data:{labels:['Maturidade atual','Espaço de evolução'],datasets:[{data:[4.8,5.2],backgroundColor:[ink,rule],borderWidth:0}]},options:{responsive:true,maintainAspectRatio:false,cutout:'72%',plugins:{legend:{position:'bottom'},title:{display:true,text:'Pontuação geral · 4,8 de 10'}}}});
+  const links=[...document.querySelectorAll('.nav a')];
+  const sections=links.map(a=>document.querySelector(a.getAttribute('href'))).filter(Boolean);
+  const observer=new IntersectionObserver(entries=>{entries.forEach(entry=>{if(entry.isIntersecting){links.forEach(a=>a.classList.toggle('active',a.getAttribute('href')==='#'+entry.target.id));}})},{rootMargin:'-25% 0px -65% 0px'});
+  sections.forEach(s=>observer.observe(s));
+})();
+</script>
+</body>
+</html>
