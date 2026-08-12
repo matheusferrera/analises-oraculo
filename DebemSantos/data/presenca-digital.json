@@ -6,10 +6,18 @@
     "localidadesDeclaradas": ["Palhoça/SC - Centro", "Palhoça/SC - Pagani", "Florianópolis/SC - Centro", "Brasília/DF - Asa Sul"],
     "site": "https://debemesantos.com.br/"
   },
+  "unidadeAuditada": {
+    "cidade": "Brasília/DF",
+    "enderecoAnunciado": "SHS Q. 6, Bloco A, Sala 501 - Asa Sul, Brasília/DF",
+    "situacao": "Nova unidade anunciada no Instagram em agosto de 2026",
+    "perfilEmpresaLocalEncontrado": false,
+    "paginaLocalNoSiteEncontrada": false
+  },
   "google": {
-    "buscaDeMarca": "Site oficial em primeiro lugar, seguido por Instagram, Facebook, Serasa, LinkedIn e outros diretórios",
-    "perfilEmpresa": {"nota": 5.0, "avaliacoes": 22, "categoria": "Advogado em Palhoça, Santa Catarina"},
-    "buscaSemMarca": "Visível na primeira página orgânica para 'advogado previdenciário Palhoça', mas fora do pacote local de três empresas observado"
+    "buscaDeMarcaBrasilia": "A consulta 'Debem e Santos Brasília' exibe o Perfil da Empresa de Palhoça; a nova unidade aparece principalmente por resultados do Instagram",
+    "perfilEmpresaMatriz": {"nota": 5.0, "avaliacoes": 22, "categoria": "Advogado em Palhoça, Santa Catarina"},
+    "perfilEmpresaBrasilia": null,
+    "buscaSemMarca": "A nova unidade não apareceu no pacote local observado para 'escritório advocacia previdenciária Asa Sul Brasília DF'"
   },
   "site": {
     "cms": "WordPress + Elementor",
@@ -33,10 +41,10 @@
     "siteCentro": "Rua José Maria da Luz, 2.896, Sala 101 - Centro, Palhoça/SC, CEP 88.138-430",
     "telefonesSite": ["(48) 3033-3668", "(48) 98424-3895", "(48) 99135-5195", "(48) 99853-1188"]
   },
-  "concorrentesGoogleLocal": [
-    {"nome":"Advocacia Bublitz","nota":5.0,"avaliacoesAproximadas":1800,"site":"https://advocaciabublitz.com.br/"},
-    {"nome":"Siqueira Advogados","nota":5.0,"avaliacoesAproximadas":186,"site":"https://siqueiraadvocacia.adv.br/"},
-    {"nome":"Salvador Advogados","nota":4.9,"avaliacoesAproximadas":283,"site":"https://salvadoradvogados.com/"}
+  "concorrentesBrasilia": [
+    {"nome":"Previ Fácil","nota":4.9,"avaliacoes":47,"local":"Asa Sul"},
+    {"nome":"Nascimento & Peixoto Advogados Associados","nota":5.0,"avaliacoes":313,"local":"SHS Quadra 6, Bloco C"},
+    {"nome":"Edmilson Ferreira Advogados Associados","nota":5.0,"avaliacoes":1371,"local":"Plano Piloto","fonte":"Snippet orgânico observado"}
   ],
   "fontes": [
     "Instagram @debemesantos",

@@ -24,10 +24,11 @@ ER por formato: imagem 0,738%; carrossel 2,150%; Reel 4,351%
 Maior post: Reel da nova sede em Brasília — 138 curtidas e 25 comentários
 Hiatos observados: 151 dias e 74 dias
 
-GOOGLE
-Busca de marca: site oficial em primeiro lugar; Instagram, Facebook, Serasa e LinkedIn também visíveis.
-Perfil da Empresa: nota 5,0; 22 avaliações; categoria “Advogado em Palhoça, Santa Catarina”.
-Busca “advogado previdenciário Palhoça”: site visível na primeira página orgânica e fora do pacote local de três empresas observado.
+GOOGLE — RECORTE BRASÍLIA
+Busca “Debem e Santos Brasília”: o Google ainda exibe o Perfil da Empresa de Palhoça; a nova unidade aparece principalmente pelo anúncio do Instagram.
+Perfil da Empresa da matriz: nota 5,0; 22 avaliações; categoria “Advogado em Palhoça, Santa Catarina”.
+Perfil local de Brasília: não encontrado na coleta pública.
+Busca “escritório advocacia previdenciária Asa Sul Brasília DF”: a nova unidade não apareceu no pacote local observado.
 
 SITE
 URL canônica: https://debemesantos.com.br/
@@ -47,10 +48,10 @@ Site: Sala 101; CEP 88.138-430.
 Telefones encontrados no site: (48) 3033-3668; (48) 98424-3895; (48) 99135-5195; (48) 99853-1188.
 Unidade Brasília anunciada no Instagram em agosto de 2026 e ausente da estrutura principal do site coletada.
 
-CONCORRENTES NO PACOTE LOCAL — “ESCRITÓRIO DE ADVOCACIA PALHOÇA SC”
-Advocacia Bublitz: nota 5,0; aproximadamente 1,8 mil avaliações.
-Siqueira Advogados: nota 5,0; 186 avaliações.
-Salvador Advogados: nota 4,9; 283 avaliações.
+CONCORRENTES OBSERVADOS — ASA SUL / PLANO PILOTO, BRASÍLIA
+Previ Fácil: nota 4,9; 47 avaliações; Asa Sul.
+Nascimento & Peixoto Advogados Associados: nota 5,0; 313 avaliações; SHS Quadra 6, Bloco C.
+Edmilson Ferreira Advogados Associados: nota 5,0; 1.371 avaliações no snippet orgânico observado; Plano Piloto.
 
 FONTES
 Instagram @debemesantos; Google Search; painel público do Perfil da Empresa; debemesantos.com.br; WordPress REST API; robots.txt; sitemap; sites públicos dos concorrentes.
