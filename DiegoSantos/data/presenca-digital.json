@@ -1,0 +1,111 @@
+{
+  "coletadoEm": "2026-08-13",
+  "pessoa": {
+    "nomeInstagram": "Diego Santos",
+    "nomeRegistrosPublicos": "Diego dos Santos",
+    "handle": "advdiegosantos",
+    "papeis": [
+      "Advogado sênior na Debem e Santos Advogados Associados",
+      "Chefe parlamentar na Câmara Municipal de Vereadores de Palhoça",
+      "Diretor da 29ª Subseção da OAB/SC (Palhoça)"
+    ],
+    "praca": "Palhoça e Grande Florianópolis/SC",
+    "observacaoNome": "O nome aparece grafado de três formas nos canais públicos: 'Diego Santos' no Instagram, 'Diego dos Santos' em registros oficiais e OAB, e 'advdiegosantos' como identificador de rede. Nenhum ativo indexado conecta as três grafias."
+  },
+  "instagram": {
+    "ver": "advdiegosantos-scan.json",
+    "resumo": "2.886 seguidores, 113 publicações, ER de 3,535% no histórico integral e 3,894% em 2026. Conta pessoal, sem link na bio, sem botão de contato e sem categoria profissional."
+  },
+  "google": {
+    "buscaDeNome": {
+      "consulta": "\"Diego Santos\" advogado Palhoça",
+      "achado": "O único ativo próprio na primeira página é o perfil do Instagram. Os demais resultados são homônimos e páginas do escritório.",
+      "homonimosNaPrimeiraPagina": [
+        "Diego Santos Vieira — 1.118 processos no Escavador, 858 em SC",
+        "Diego Santos Ferreira de Lima — 4 processos no Jusbrasil",
+        "Diego Santos da Paixão — 42 processos no Jusbrasil",
+        "Diego Santos de Lima — 158 processos no Jusbrasil",
+        "Diego Santos Porto — OAB 42433/SC, citado no Diário da Justiça",
+        "Diego Santos Moreira — OAB/SE 10539, citado no Diário Eletrônico da OAB"
+      ]
+    },
+    "buscaDeDemanda": {
+      "consulta": "advogado previdenciário Palhoça SC",
+      "achado": "O topo é ocupado por diretórios (Jusbrasil, Previdenciarista) e por escritórios com site especializado: Patrícia Dalla Vecchia Advocacia, ConsulPrev, Meurer Advocacia Previdenciária e Viviane Machado Advocacia. A Debem e Santos aparece pela home genérica. O perfil de Diego Santos não aparece."
+    },
+    "perfilDaEmpresaDoEscritorio": {
+      "nota": 5.0,
+      "avaliacoes": 22,
+      "categoria": "Advogado em Palhoça, Santa Catarina",
+      "observacao": "Ativo do escritório, coletado na auditoria da Debem e Santos em 12/08/2026. Não há perfil individual do advogado."
+    }
+  },
+  "diretoriosJuridicos": {
+    "jusbrasil": {"perfilProprio": false, "observacao": "Nenhum perfil de advogado localizado; apenas homônimos"},
+    "escavador": {"perfilProprio": false, "observacao": "Nenhum perfil localizado; apenas homônimos"},
+    "linkedin": {"perfilProprio": false, "observacao": "Nenhum perfil localizado. O sócio Daniel Domiciano de Bem tem perfil ativo como CEO da Debem e Santos, com mais de 50 seguidores"},
+    "previdenciarista": {"perfilProprio": false},
+    "listaAdvBr": {"perfilProprio": false, "observacao": "O diretório lista a Debem e Santos como escritório, não o advogado"},
+    "youtube": {"perfilProprio": false},
+    "facebook": {"perfilProprio": "Aparece marcado em publicações da OAB Palhoça, sem página profissional própria identificada"}
+  },
+  "site": {
+    "dominioDoEscritorio": "https://debemesantos.com.br/",
+    "paginaDoAdvogado": false,
+    "paginaDeEquipe": false,
+    "mencaoAoNomeDiego": {
+      "home": false,
+      "escritorio": false,
+      "nossoEscritorio": false,
+      "areasDeAtuacao": false,
+      "contatos": false
+    },
+    "paginasNoSitemap": 11,
+    "paginasGenericasPublicas": ["port-1", "post-2", "post-3", "post-4"],
+    "ttfbObservadoSegundos": 1.91,
+    "htmlBytesHome": 137908,
+    "observacao": "A verificação de /equipe/ e /sobre/ retornou 404. Nenhuma das cinco páginas institucionais coletadas cita o nome do advogado."
+  },
+  "registrosPublicos": [
+    {
+      "fonte": "Câmara Municipal de Palhoça/SC",
+      "documento": "Projeto de Lei nº 0494/2026",
+      "conteudo": "Concede a Medalha de Mérito Caetano Silveira de Mattos ao Dr. Diego dos Santos",
+      "autoria": "Vereador Edinho da Formiga (Eder Cristiano Rodrigues)",
+      "observacao": "Documento público da Câmara identifica o homenageado também como chefe parlamentar na Casa. A atribuição à mesma pessoa é inferida pelo cargo e pelo vínculo declarado no Instagram, e deve ser confirmada com o cliente."
+    },
+    {
+      "fonte": "Câmara Municipal de Palhoça/SC e registro em vídeo público",
+      "documento": "Homenagem de Cidadão Honorário de Palhoça",
+      "conteudo": "Título de Cidadão Honorário do Município de Palhoça, homenagem do vereador Edinho da Formiga nos 132 anos do município"
+    }
+  ],
+  "benchmarkInstagram": [
+    {"perfil": "@advocacia.bublitz", "praca": "Palhoça/SC", "seguidores": 27167, "publicacoes": 1075, "erUltimos12": 0.53, "ultimoPost": "2025-10-10", "linkNaBio": "WhatsApp e YouTube", "tipo": "Escritório"},
+    {"perfil": "@patriciadallavecchiaadv", "praca": "Previdenciário", "seguidores": 11150, "publicacoes": 879, "erUltimos12": 0.804, "ultimoPost": "2023-10-05", "linkNaBio": "Linktree", "tipo": "Advogada individual"},
+    {"perfil": "@oabpalhoca", "praca": "Palhoça/SC", "seguidores": 5456, "publicacoes": 2167, "erUltimos12": 1.136, "ultimoPost": "2026-07-23", "linkNaBio": "Linktree", "tipo": "Instituição"},
+    {"perfil": "@advdiegosantos", "praca": "Palhoça/SC", "seguidores": 2886, "publicacoes": 113, "erUltimos12": 3.37, "ultimoPost": "2026-08-10", "linkNaBio": null, "tipo": "Advogado individual"},
+    {"perfil": "@debemesantos", "praca": "Palhoça/SC", "seguidores": 1923, "publicacoes": 91, "erUltimos12": 4.719, "ultimoPost": "2026-08-11", "linkNaBio": "Site", "tipo": "Escritório"}
+  ],
+  "relacaoComOPerfilDoEscritorio": {
+    "erEscritorioUltimos12": 4.719,
+    "erEscritorioSemColaboracoes": 1.612,
+    "postsColaborativosEntreOsUltimos12": 3,
+    "somaDeInteracoesDasColaboracoes": 810,
+    "observacao": "As três publicações de maior desempenho do perfil do escritório em 2026 são colaborações assinadas em conjunto com o perfil pessoal, que tem audiência 1,5 vez maior. Excluindo as colaborações, o perfil do escritório cai de 4,719% para 1,612% de engajamento."
+  },
+  "perfilDuplicado": {
+    "handle": "@debemesantosadvogados",
+    "seguidores": 1,
+    "publicacoes": 0,
+    "observacao": "Perfil homônimo do escritório, vazio e público. Não é do advogado, mas divide a busca pela marca."
+  },
+  "fontes": [
+    "Instagram @advdiegosantos, API interna com sessão autenticada, coleta de 13/08/2026",
+    "Instagram @debemesantos, @advocacia.bublitz, @patriciadallavecchiaadv e @oabpalhoca, mesma data e mesmo método",
+    "Google Search em pt-BR, buscas de nome e de demanda, 13/08/2026",
+    "debemesantos.com.br, páginas institucionais e wp-sitemap.xml",
+    "Câmara Municipal de Palhoça/SC, cmp.sc.gov.br, projetos de lei de 2026",
+    "Jusbrasil, Escavador, LinkedIn, Serasa Experian e Reclame Aqui, resultados públicos indexados"
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "coletadoEm": "2026-08-13",
+  "pessoa": {
+    "nome": "Suziellen Aleixo",
+    "nomeCompletoRegistros": "Suziellen Aleixo Carvalho",
+    "handle": "dra.suziellen",
+    "atuacao": "Direito Previdenciário",
+    "vinculo": "Debem e Santos Advogados Associados",
+    "formacaoDeclarada": "Pós-graduanda em Direito Previdenciário e Processo Civil, Universidade do Sul (declarado no LinkedIn)",
+    "observacaoNome": "Diferente do caso de Diego Santos, o nome é raro: a busca por \"Suziellen Aleixo\" não devolve nenhum homônimo. É um ativo de identidade que a maioria dos advogados não tem."
+  },
+  "linhaDoTempo": [
+    {"data": "2025-12-11", "evento": "Inscrição no quadro de advogados da OAB/SC pela Subseção de Palhoça", "fonte": "Diário Eletrônico da OAB, edição de 11/12/2025"},
+    {"data": "2026-05-24", "evento": "Primeira publicação do perfil profissional, com texto de apresentação do escopo previdenciário", "fonte": "Instagram @dra.suziellen"},
+    {"data": "2026-05-29", "evento": "Conferência Estadual da Advocacia Catarinense em Blumenau, representando a Debem e Santos", "fonte": "Instagram @dra.suziellen"},
+    {"data": "2026-07-09", "evento": "Publicação de despedida de Florianópolis e publicação de gratidão à equipe da Debem e Santos", "fonte": "Instagram @dra.suziellen"},
+    {"data": "2026-08-06", "evento": "Reel em Brasília descrito como retorno à cidade natal, com marcações de Câmara dos Deputados, Senado Federal e Congresso Nacional", "fonte": "Instagram @dra.suziellen"},
+    {"data": "2026-08-10", "evento": "Coassinatura do anúncio da nova sede da Debem e Santos em Brasília/DF", "fonte": "Instagram @dra.suziellen e @advdiegosantos"}
+  ],
+  "inferenciaAConfirmar": {
+    "hipotese": "Suziellen Aleixo é a advogada da nova unidade da Debem e Santos em Brasília/DF",
+    "sinaisObservados": [
+      "Despedida pública de Florianópolis em 09/07/2026",
+      "Reel em Brasília em 06/08/2026 descrito como cidade natal",
+      "Coassinatura do anúncio da nova sede de Brasília em 10/08/2026",
+      "Dois CNPJs em nome de Suziellen Aleixo Carvalho com sede em Brasília/DF, registrados em 2011 e 2021, conforme consulta pública na Serasa Experian",
+      "Bio declara atendimento em todo o Brasil, sem cidade fixa"
+    ],
+    "status": "Inferência de sinais públicos. Precisa ser confirmada com o cliente antes de virar premissa de estratégia."
+  },
+  "instagram": {
+    "ver": "drasuziellen-scan.json",
+    "resumo": "1.700 seguidores e 30 publicações em 79 dias de perfil. Engajamento de 3,118% no histórico integral e 3,578% nos 12 posts mais recentes. Link de WhatsApp na bio, nenhum destaque publicado, conta ainda pessoal."
+  },
+  "google": {
+    "buscaDeNome": {
+      "consulta": "\"Suziellen Aleixo\"",
+      "homonimos": 0,
+      "ativosProprios": ["Perfil do Instagram @dra.suziellen", "Perfil no LinkedIn"],
+      "achado": "Apenas dois ativos próprios indexados, ambos de rede social. Não há site, página no domínio do escritório, perfil em diretório jurídico nem conteúdo autoral indexado."
+    },
+    "buscaDeDemanda": {
+      "consulta": "advogada previdenciária Brasília DF INSS BPC",
+      "achado": "O topo é ocupado por escritórios com site próprio especializado em previdenciário e pelo diretório Jusbrasil. O pacote local exibiu três empresas com endereço em Brasília, uma delas no SHS Quadra 6, Bloco C, o mesmo conjunto da nova sede da Debem e Santos.",
+      "concorrentesObservados": [
+        {"nome": "Edmilson Ferreira Advogados Associados", "nota": 5.0, "avaliacoes": 211, "sinal": "Página dedicada a aposentadoria em Brasília"},
+        {"nome": "Campos Pinho Advogados", "nota": 5.0, "avaliacoes": 26, "sinal": "Página de advogado previdenciário em Brasília"},
+        {"nome": "Maria Teixeira Advogados", "sinal": "Escritório especializado desde 2010, site próprio"},
+        {"nome": "Advocacia FG", "sinal": "Site com BPC/LOAS para idosos, PCD e autistas"},
+        {"nome": "Rosilene Pereira Advocacia Previdenciária", "sinal": "Site próprio por benefício"},
+        {"nome": "Dra. Ademila Teixeira", "sinal": "Site próprio, atendimento online e presencial"}
+      ],
+      "observacao": "Resultados de busca variam por localização, histórico e dispositivo. As avaliações citadas vêm dos snippets observados em 13/08/2026 e podem divergir da ficha completa no Maps."
+    }
+  },
+  "diretoriosERedes": {
+    "linkedin": {
+      "existe": true,
+      "seguidores": "mais de 40",
+      "titulo": "Advogada Pós-graduanda em Direito Previdenciário & Processo Civil",
+      "empresa": "Debem e Santos Advogados Associados",
+      "localidadeDeclarada": "São José, Santa Catarina, Brasil",
+      "observacao": "É o segundo ativo indexado do nome. A localidade declarada diverge dos sinais recentes de mudança para Brasília."
+    },
+    "jusbrasil": {"perfilDeAdvogada": false, "observacao": "O nome aparece apenas como parte em um processo no TJSC, não como profissional cadastrada"},
+    "escavador": {"perfilDeAdvogada": false},
+    "previdenciarista": {"perfilProprio": false},
+    "siteProprio": {"existe": false},
+    "youtube": {"existe": false},
+    "facebook": {"existe": false, "observacao": "Nenhuma página profissional localizada"},
+    "registroOAB": {
+      "fonte": "Diário Eletrônico da OAB, 11/12/2025",
+      "conteudo": "SUZIELLEN ALEIXO CARVALHO (PALHOÇA) consta na relação de inscrição no quadro de advogados do Conselho Seccional de Santa Catarina",
+      "observacao": "A Subseção de Palhoça também publicou as boas-vindas com entrega de credenciais no Instagram"
+    }
+  },
+  "siteDoEscritorio": {
+    "dominio": "https://debemesantos.com.br/",
+    "paginaDaAdvogada": false,
+    "paginaDeEquipe": false,
+    "mencaoAoNome": {"home": false, "escritorio": false, "nossoEscritorio": false, "areasDeAtuacao": false, "contatos": false, "blog": false},
+    "observacao": "Seis páginas coletadas, nenhuma cita o nome. O mesmo vale para o sócio Diego Santos, o que indica ausência de arquitetura de equipe no site e não uma exclusão individual."
+  },
+  "benchmarkInstagram": [
+    {"perfil": "@elvisribeiro.adv", "seguidores": 37543, "publicacoes": 191, "erUltimos12": 0.153, "ultimoPost": "2026-03-20", "linkNaBio": "WhatsApp", "tipo": "Previdenciarista, marca pessoal"},
+    {"perfil": "@simonelimaadvogada", "seguidores": 18448, "publicacoes": 1804, "erUltimos12": 1.492, "ultimoPost": "2022-12-15", "linkNaBio": "Agregador", "tipo": "Previdenciária, marca pessoal"},
+    {"perfil": "@ethyaneoliveira.adv", "seguidores": 4943, "publicacoes": 105, "erUltimos12": 2.965, "ultimoPost": "2025-12-23", "linkNaBio": "WhatsApp", "tipo": "Previdenciária, marca pessoal"},
+    {"perfil": "@dra.suziellen", "seguidores": 1700, "publicacoes": 30, "erUltimos12": 3.578, "ultimoPost": "2026-08-11", "linkNaBio": "WhatsApp", "tipo": "Previdenciária, marca pessoal"},
+    {"perfil": "@gisellepatricia.adv", "seguidores": 1376, "publicacoes": 34, "erUltimos12": 4.258, "ultimoPost": "2026-07-06", "linkNaBio": "WhatsApp", "tipo": "Advogada, marca pessoal"}
+  ],
+  "comparativoInterno": [
+    {"perfil": "@dra.suziellen", "seguidores": 1700, "posts": 30, "er": 3.118, "linkNaBio": true, "conteudoTecnico": 14, "destaques": 0},
+    {"perfil": "@advdiegosantos", "seguidores": 2886, "posts": 113, "er": 3.535, "linkNaBio": false, "conteudoTecnico": 0, "destaques": 7},
+    {"perfil": "@debemesantos", "seguidores": 1923, "posts": 91, "er": 1.612, "linkNaBio": true, "conteudoTecnico": null, "destaques": 6, "observacao": "Engajamento calculado sobre os últimos 12 posts, excluindo as três colaborações com o perfil pessoal de Diego Santos"}
+  ],
+  "fontes": [
+    "Instagram @dra.suziellen, API interna com sessão autenticada, coleta de 13/08/2026",
+    "Instagram @advdiegosantos, @debemesantos e quatro perfis de referência, mesma data e mesmo método",
+    "Google Search em pt-BR, buscas de nome e de demanda, 13/08/2026",
+    "Diário Eletrônico da OAB, edição de 11/12/2025",
+    "LinkedIn, perfil público",
+    "Serasa Experian, consulta pública de CNPJ",
+    "debemesantos.com.br, seis páginas institucionais"
+  ]
+}

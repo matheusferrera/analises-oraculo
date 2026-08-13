@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>An&aacute;lise de Presen&ccedil;a Digital: Diego Santos | Or&aacute;culo</title>
+<meta name="description" content="Auditoria da marca pessoal do advogado Diego Santos: Instagram, busca por nome, diret&oacute;rios jur&iacute;dicos, rela&ccedil;&atilde;o com o perfil do escrit&oacute;rio e plano de 180 dias."/>
+<meta property="og:type" content="website"/>
+<meta property="og:title" content="An&aacute;lise de Presen&ccedil;a Digital: Diego Santos | Or&aacute;culo"/>
+<meta property="og:description" content="A audi&ecirc;ncia j&aacute; existe e engaja seis vezes mais que a m&eacute;dia da pra&ccedil;a. Falta o caminho at&eacute; o advogado."/>
+<meta property="og:image" content="https://analises-oraculo.vercel.app/DiegoSantos/og-presenca.png"/>
+<meta property="og:image:width" content="1200"/>
+<meta property="og:image:height" content="630"/>
+<meta property="og:url" content="https://analises-oraculo.vercel.app/DiegoSantos/Analise-Presenca-Digital.html"/>
+<meta property="og:site_name" content="Or&aacute;culo Tecnologia"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://analises-oraculo.vercel.app/DiegoSantos/og-presenca.png"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous"/>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&amp;family=Petrona:ital,wght@0,400..700;1,400..600&amp;display=swap"/>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+  *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+  :root{
+    --ink:#1b2e73;--ink-deep:#131f4e;--ink-soft:#2c4193;--on-ink:#fff;--on-ink-2:#b3c0ea;--on-ink-3:#8b9bd4;
+    --paper:#fbfbfd;--surface:#fff;--rule:#dfe1ec;--rule-soft:#ebedf4;--text:#15182b;--text-2:#454b66;--text-3:#6b7186;
+    --primary:#1d4ed8;--primary-bg:#eef2ff;--good:#15803d;--good-bg:#f1faf3;--warn:#8f4e07;--warn-bg:#fdf7ed;--grave:#1b2e73;--grave-bg:#eff1fa;--purple:#6d28d9;--purple-bg:#f5f3ff;
+    --sans:'Bricolage Grotesque',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;--serif:'Petrona',Georgia,'Times New Roman',serif;
+    --gut:clamp(1.125rem,5vw,2.5rem);--col:68rem;--nav-h:2.9rem;
+  }
+  html{scroll-behavior:smooth;-webkit-text-size-adjust:100%;overflow-x:hidden;overflow-x:clip}
+  body{font-family:var(--serif);font-size:16px;line-height:1.7;background:var(--paper);color:var(--text);-webkit-font-smoothing:antialiased;padding-top:var(--nav-h);overflow-x:hidden;overflow-x:clip}
+  .num,td,th,.kpi-val,.score-val,.metric-value{font-variant-numeric:tabular-nums}
+  .cover{background:var(--ink);color:var(--on-ink);padding:clamp(3.5rem,12vw,8rem) var(--gut) clamp(2.5rem,7vw,4.5rem)}
+  .cover-inner,.kpi-row,.closing-inner,footer{max-width:var(--col);margin:0 auto}
+  .cover-mark{font-family:var(--sans);font-size:.8125rem;font-weight:600;color:var(--on-ink-2);margin-bottom:clamp(2.5rem,9vw,5rem)}
+  .cover-mark b{color:#fff}
+  .cover h1{font-family:var(--sans);font-size:clamp(2rem,6.2vw,4.25rem);font-weight:600;letter-spacing:-.035em;line-height:1.04;max-width:20ch;text-wrap:balance;margin-bottom:1.5rem}
+  .cover h1 em{font-style:normal;color:var(--on-ink-2)}
+  .cover-sub{font-size:clamp(1rem,2vw,1.0625rem);line-height:1.65;color:var(--on-ink-2);max-width:54ch}
+  .cover-rule{height:1px;background:rgba(255,255,255,.22);margin:clamp(2.5rem,7vw,4rem) 0 1.25rem}
+  .cover-foot{font-family:var(--sans);font-size:.8125rem;color:var(--on-ink-3);display:flex;flex-wrap:wrap;gap:.4rem 1.5rem}
+  .cover-foot b{color:var(--on-ink-2)}
+  .kpi-band{background:var(--ink-deep);padding:clamp(2rem,5vw,2.75rem) var(--gut)}
+  .kpi-row{display:grid;grid-template-columns:repeat(5,1fr);gap:1px;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.14)}
+  .kpi{background:var(--ink-deep);padding:1.1rem 1rem 1.2rem;min-width:0}
+  .kpi-val{font-family:var(--sans);font-size:clamp(1.4rem,3vw,2.125rem);font-weight:600;letter-spacing:-.03em;line-height:1.05;color:#fff}
+  .kpi-label{font-family:var(--sans);font-size:.75rem;font-weight:600;color:var(--on-ink-2);margin-top:.35rem}
+  .kpi-note{font-family:var(--sans);font-size:.7rem;color:var(--on-ink-3);margin-top:.15rem;line-height:1.35}
+  .nav{position:fixed;top:0;left:0;right:0;height:var(--nav-h);z-index:50;background:var(--paper);border-bottom:1px solid var(--rule);padding:0 var(--gut);display:flex;align-items:stretch;overflow-x:auto;scrollbar-width:none;font-family:var(--sans)}
+  .nav::-webkit-scrollbar{display:none}.nav a{flex-shrink:0;display:flex;align-items:center;padding:0 .68rem;font-size:.78rem;font-weight:500;color:var(--text-3);text-decoration:none;border-bottom:2px solid transparent;white-space:nowrap}.nav a:hover,.nav a.active{color:var(--ink)}.nav a.active{font-weight:700;border-bottom-color:var(--ink)}
+  .page{width:100%;max-width:calc(var(--col) + 2 * var(--gut));margin:0 auto;padding:clamp(2rem,4vw,3rem) var(--gut) clamp(3rem,6vw,4.5rem)}
+  section{min-width:0;scroll-margin-top:calc(var(--nav-h) + .75rem)}
+  .sec-head{border-top:1px solid var(--text);padding-top:.85rem;margin:clamp(2.5rem,6vw,4rem) 0 1.4rem}.sec-head h2{font-family:var(--sans);font-size:clamp(1.4rem,3.6vw,2rem);font-weight:600;letter-spacing:-.028em;line-height:1.15}.sec-head p{font-size:.9375rem;color:var(--text-3);margin-top:.35rem;max-width:66ch}
+  section:first-child .sec-head{margin-top:0}
+  h3{font-family:var(--sans);font-size:1.08rem;line-height:1.3;margin:1.7rem 0 .65rem}p+p{margin-top:.8rem}.lede{font-size:clamp(1.08rem,2vw,1.28rem);line-height:1.65;max-width:68ch}.muted{color:var(--text-3)}
+  .grid-2,.grid-3,.grid-4{display:grid;gap:1rem}.grid-2{grid-template-columns:repeat(2,minmax(0,1fr))}.grid-3{grid-template-columns:repeat(3,minmax(0,1fr))}.grid-4{grid-template-columns:repeat(4,minmax(0,1fr))}.grid-2>*,.grid-3>*,.grid-4>*,.essential>*,.score>*,.score-grid>*,.diag>*,.metric-strip>*,.swot>*,.roadmap>*{min-width:0}
+  .card{background:var(--surface);border:1px solid var(--rule);padding:1.15rem}.card h3{margin:0 0 .55rem;font-size:1rem}.card p{font-size:.9rem;color:var(--text-2)}
+  .eyebrow{font-family:var(--sans);font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.12em;color:var(--primary);margin-bottom:.45rem}
+  .essential{display:grid;grid-template-columns:1.25fr .75fr;gap:1.25rem}.essential-main{border-left:4px solid var(--ink);padding:.2rem 0 .2rem 1.2rem}.essential-list{list-style:none}.essential-list li{border-bottom:1px solid var(--rule-soft);padding:.6rem 0;font-size:.9rem}.essential-list li:last-child{border-bottom:0}
+  .score{background:var(--ink);color:#fff;padding:clamp(1.3rem,4vw,2rem);display:grid;grid-template-columns:13rem 1fr;gap:2rem;align-items:center}.score-number{display:flex;align-items:baseline}.score-val{font-family:var(--sans);font-size:4.6rem;font-weight:650;line-height:1;letter-spacing:-.06em}.score-den{font-family:var(--sans);color:var(--on-ink-2);font-size:1rem;margin-left:.35rem}.score-verdict{color:var(--on-ink-2);font-size:1.05rem}.score-verdict b{color:#fff;font-family:var(--sans)}
+  .score-grid{margin-top:1px;display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--rule)}.score-item{background:#fff;padding:1rem}.score-item-head{display:flex;justify-content:space-between;gap:.75rem;font-family:var(--sans);font-size:.8rem;font-weight:650}.score-track{height:5px;background:var(--rule-soft);margin-top:.6rem}.score-fill{height:100%;background:var(--ink)}
+  .diag{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--rule);border:1px solid var(--rule);margin-top:1.25rem}.diag-col{background:#fff;padding:1.15rem}.diag-col ul{padding-left:1.15rem;font-size:.9rem;color:var(--text-2)}.diag-col li+li{margin-top:.45rem}
+  .metric-strip{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--rule);margin:1.2rem 0}.metric{padding:1rem;border-right:1px solid var(--rule)}.metric:last-child{border-right:0}.metric-value{font-family:var(--sans);font-size:1.55rem;font-weight:650;letter-spacing:-.035em}.metric-label{font-family:var(--sans);font-size:.72rem;color:var(--text-3);margin-top:.2rem}
+  .chart{width:100%;min-width:0;overflow:hidden;background:#fff;border:1px solid var(--rule);padding:1rem;margin:1rem 0;min-height:280px;position:relative}.chart.sm{min-height:235px}.chart canvas{display:block;width:100%!important;max-width:100%!important;max-height:320px}
+  .table-wrap{width:100%;max-width:100%;min-width:0;overflow-x:auto;overscroll-behavior-inline:contain;-webkit-overflow-scrolling:touch}table{width:100%;border-collapse:collapse;background:#fff;border:1px solid var(--rule);font-family:var(--sans);font-size:.8rem;margin:1rem 0}th,td{text-align:left;padding:.72rem;border-bottom:1px solid var(--rule-soft);vertical-align:top}th{font-size:.66rem;text-transform:uppercase;letter-spacing:.08em;color:var(--text-3);background:#f7f8fb}tbody tr:last-child td{border-bottom:0}.right{text-align:right}.status{font-size:.66rem;font-weight:700;padding:.2rem .42rem;background:var(--primary-bg);color:var(--primary);white-space:nowrap}.status.good{background:var(--good-bg);color:var(--good)}.status.warn{background:var(--warn-bg);color:var(--warn)}
+  .insight{border-left:3px solid var(--primary);background:var(--primary-bg);padding:1rem 1.1rem;margin:1.25rem 0}.insight.good{border-color:var(--good);background:var(--good-bg)}.insight.warn{border-color:var(--warn);background:var(--warn-bg)}.insight.purple{border-color:var(--purple);background:var(--purple-bg)}.insight-header{font-family:var(--sans);font-size:.68rem;font-weight:750;letter-spacing:.1em;text-transform:uppercase;color:var(--primary);margin-bottom:.4rem}.insight.good .insight-header{color:var(--good)}.insight.warn .insight-header{color:var(--warn)}.insight.purple .insight-header{color:var(--purple)}.insight-body{display:flex;gap:.75rem}.verdict{font-family:var(--sans);font-size:.7rem;font-weight:700;white-space:nowrap}.insight p{font-size:.9rem;color:var(--text-2)}
+  .callout{border:1px solid var(--rule);background:#fff;padding:1rem 1.1rem;margin:1rem 0}.callout>strong{display:block;font-family:var(--sans);font-size:.7rem;text-transform:uppercase;letter-spacing:.1em;color:var(--ink);margin-bottom:.4rem}.callout p,.callout li{font-size:.9rem;color:var(--text-2)}
+  .swot{display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:var(--rule);border:1px solid var(--rule)}.swot-cell{background:#fff;padding:1.15rem}.swot-cell h3{margin:0 0 .6rem}.swot-cell ul{padding-left:1rem;font-size:.9rem;color:var(--text-2)}.swot-cell li+li{margin-top:.35rem}
+  .roadmap{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem}.phase{border-top:4px solid var(--ink);background:#fff;border-left:1px solid var(--rule);border-right:1px solid var(--rule);border-bottom:1px solid var(--rule);padding:1.15rem}.phase:nth-child(2){border-top-color:var(--primary)}.phase:nth-child(3){border-top-color:var(--purple)}.phase-time{font-family:var(--sans);font-size:.7rem;font-weight:750;letter-spacing:.1em;text-transform:uppercase;color:var(--text-3)}.phase h3{margin:.45rem 0 .8rem}.phase ol{padding-left:1.1rem;font-size:.88rem;color:var(--text-2)}.phase li+li{margin-top:.45rem}.phase-kpi{border-top:1px solid var(--rule);margin-top:1rem;padding-top:.8rem;font-family:var(--sans);font-size:.72rem;color:var(--ink)}
+  .priority{display:grid;grid-template-columns:4rem 1fr auto;gap:1rem;align-items:center;padding:.9rem 0;border-bottom:1px solid var(--rule)}.priority:last-child{border-bottom:0}.priority-num{font-family:var(--sans);font-size:1.8rem;font-weight:650;color:var(--ink)}.priority h3{margin:0;font-size:.95rem}.priority p{font-size:.85rem;color:var(--text-3)}
+  .closing{background:var(--ink-deep);color:#fff;padding:clamp(2.5rem,7vw,4.5rem) var(--gut)}.closing h2{font-family:var(--sans);font-size:clamp(1.7rem,4vw,2.8rem);letter-spacing:-.035em;line-height:1.1;max-width:20ch}.closing p{color:var(--on-ink-2);max-width:58ch;margin-top:1rem}.closing-meta{font-family:var(--sans);font-size:.75rem;color:var(--on-ink-3);margin-top:2rem}
+  footer{padding:1.5rem var(--gut);font-family:var(--sans);font-size:.72rem;color:var(--text-3);display:flex;justify-content:space-between;gap:1rem}
+  @media(max-width:850px){.kpi-row{grid-template-columns:repeat(2,minmax(0,1fr))}.kpi:last-child{grid-column:span 2}.grid-3,.grid-4,.roadmap{grid-template-columns:repeat(2,minmax(0,1fr))}.essential,.score,.diag{grid-template-columns:minmax(0,1fr)}.score-grid,.metric-strip{grid-template-columns:repeat(2,minmax(0,1fr))}.metric:nth-child(2){border-right:0}.metric:nth-child(-n+2){border-bottom:1px solid var(--rule)}}
+  @media(max-width:580px){.grid-2,.grid-3,.grid-4,.roadmap,.swot,.score-grid{grid-template-columns:minmax(0,1fr)}.insight-body{display:block}.verdict{display:block;margin-bottom:.3rem}.priority{grid-template-columns:2.5rem minmax(0,1fr)}.priority .status{grid-column:2}.table-wrap{width:auto;max-width:none;margin:1rem calc(-1 * var(--gut));padding:0 var(--gut)}table{min-width:620px}.cover h1{max-width:16ch}footer{display:block}footer span{display:block}.kpi-row{grid-template-columns:minmax(0,1fr)}.kpi:last-child{grid-column:auto}}
+  @media print{.nav{display:none}body{padding-top:0}.cover,.kpi-band,.score,.closing{print-color-adjust:exact;-webkit-print-color-adjust:exact}.page{max-width:none}.chart{break-inside:avoid}section{break-inside:auto}}
+</style>
+<style>
+  details.proof{border:1px solid var(--rule);background:#fff;margin:1rem 0}
+  details.proof>summary{font-family:var(--sans);font-size:.8rem;font-weight:650;color:var(--ink);padding:.8rem 1rem;cursor:pointer;list-style:none;display:flex;justify-content:space-between;gap:1rem;align-items:center}
+  details.proof>summary::-webkit-details-marker{display:none}
+  details.proof>summary::after{content:'+';font-size:1.1rem;color:var(--text-3);line-height:1}
+  details.proof[open]>summary::after{content:'\2212'}
+  details.proof>summary:hover{background:#f7f8fb}
+  details.proof>summary span{color:var(--text-3);font-weight:500}
+  details.proof .proof-body{border-top:1px solid var(--rule);padding:0 1rem .35rem}
+  details.proof table{border:0;margin:.25rem 0}
+  @media print{details.proof{break-inside:avoid}}
+</style>
+</head>
+<body>
+<header class="cover">
+  <div class="cover-inner">
+    <div class="cover-mark"><b>Or&aacute;culo Tecnologia</b> &middot; Auditoria de presen&ccedil;a digital</div>
+    <h1>A audi&ecirc;ncia j&aacute; existe. <em>O caminho at&eacute; o advogado, n&atilde;o.</em></h1>
+    <p class="cover-sub">Auditoria da marca pessoal de Diego Santos. O perfil engaja mais que qualquer outro perfil jur&iacute;dico medido na pra&ccedil;a de Palho&ccedil;a, mas n&atilde;o oferece nenhum caminho de contato, n&atilde;o aparece na busca por servi&ccedil;o jur&iacute;dico e n&atilde;o est&aacute; citado no site do pr&oacute;prio escrit&oacute;rio. A leitura foi comparada com quatro perfis da pra&ccedil;a na mesma data e convertida em um plano de 180 dias.</p>
+    <div class="cover-rule"></div>
+    <div class="cover-foot"><span><b>Diego Santos</b> &middot; @advdiegosantos</span><span>Advocacia &middot; Palho&ccedil;a e Grande Florian&oacute;polis/SC</span><span>13 de agosto de 2026</span></div>
+  </div>
+</header>
+
+<div class="kpi-band">
+  <div class="kpi-row">
+    <div class="kpi"><div class="kpi-val">2.886</div><div class="kpi-label">Seguidores</div><div class="kpi-note">113 publica&ccedil;&otilde;es desde 2015</div></div>
+    <div class="kpi"><div class="kpi-val">3,89%</div><div class="kpi-label">Engajamento em 2026</div><div class="kpi-note">35 posts em oito meses</div></div>
+    <div class="kpi"><div class="kpi-val">2</div><div class="kpi-label">Posts com chamada</div><div class="kpi-note">de 113 publica&ccedil;&otilde;es analisadas</div></div>
+    <div class="kpi"><div class="kpi-val">Zero</div><div class="kpi-label">Link ou contato no perfil</div><div class="kpi-note">conta pessoal, sem bot&atilde;o de contato</div></div>
+    <div class="kpi"><div class="kpi-val">180</div><div class="kpi-label">Dias de implanta&ccedil;&atilde;o</div><div class="kpi-note">convers&atilde;o, autoridade e busca</div></div>
+  </div>
+</div>
+
+<nav class="nav" aria-label="Se&ccedil;&otilde;es da an&aacute;lise">
+  <a href="#essencial">Essencial</a><a href="#diagnostico">Diagn&oacute;stico</a><a href="#audiencia">Audi&ecirc;ncia</a><a href="#conteudo">Conte&uacute;do</a><a href="#cadencia">Cad&ecirc;ncia</a><a href="#conversao">Convers&atilde;o</a><a href="#busca">Busca e diret&oacute;rios</a><a href="#escritorio">Pessoal x escrit&oacute;rio</a><a href="#swot">SWOT</a><a href="#recomendacoes">180 dias</a><a href="#resumo">Resumo</a>
+</nav>
+
+<main class="page">
+  <section id="essencial">
+    <div class="sec-head"><h2>O essencial em dois minutos</h2><p>Quatro achados que sustentam toda a auditoria. Quem parar aqui j&aacute; tem a decis&atilde;o na m&atilde;o.</p></div>
+    <div class="essential">
+      <div class="essential-main">
+        <p class="eyebrow">Leitura central</p>
+        <p class="lede">O perfil de Diego Santos tem o ativo mais caro de se construir e o mais raro na advocacia local: <b>aten&ccedil;&atilde;o real de uma audi&ecirc;ncia da pr&oacute;pria pra&ccedil;a</b>. O engajamento de 3,89% em 2026 &eacute; sete vezes o do maior perfil jur&iacute;dico de Palho&ccedil;a. O que falta &eacute; tudo o que vem depois da aten&ccedil;&atilde;o.</p>
+      </div>
+      <div class="card"><p class="eyebrow">Decis&atilde;o priorit&aacute;ria</p><p>Transformar o perfil pessoal em um ativo profissional com caminho de contato, prova de compet&ecirc;ncia t&eacute;cnica e identidade &uacute;nica na busca, sem perder o tom que gerou a audi&ecirc;ncia.</p></div>
+    </div>
+    <div class="priority"><div class="priority-num">01</div><div><h3>A audi&ecirc;ncia responde, e responde mais ao trabalho</h3><p>Os 13 posts sobre o escrit&oacute;rio t&ecirc;m engajamento de 5,38%, contra 3,18% dos 70 posts de fam&iacute;lia e f&eacute;. O conte&uacute;do profissional &eacute; o que mais engaja, e &eacute; o mais raro no perfil.</p></div><span class="status good">Ativo</span></div>
+    <div class="priority"><div class="priority-num">02</div><div><h3>N&atilde;o existe sa&iacute;da do perfil</h3><p>Nenhum link na bio, nenhum bot&atilde;o de contato, nenhum WhatsApp e duas chamadas para a&ccedil;&atilde;o em 113 publica&ccedil;&otilde;es. Quem se interessa n&atilde;o tem para onde ir.</p></div><span class="status warn">Cr&iacute;tico</span></div>
+    <div class="priority"><div class="priority-num">03</div><div><h3>O nome n&atilde;o pertence a ele na busca</h3><p>A consulta pelo nome devolve seis advogados hom&ocirc;nimos e nenhum ativo pr&oacute;prio al&eacute;m do Instagram. N&atilde;o h&aacute; perfil no Jusbrasil, no Escavador nem no LinkedIn.</p></div><span class="status warn">Cr&iacute;tico</span></div>
+    <div class="priority"><div class="priority-num">04</div><div><h3>O site do escrit&oacute;rio n&atilde;o cita o s&oacute;cio</h3><p>O nome n&atilde;o aparece em nenhuma das cinco p&aacute;ginas institucionais coletadas, e o site n&atilde;o tem p&aacute;gina de equipe. A refer&ecirc;ncia p&uacute;blica mais forte est&aacute; fora do dom&iacute;nio que o escrit&oacute;rio controla.</p></div><span class="status warn">Corrigir</span></div>
+<div class="insight warn"><div class="insight-header"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg> O que isso significa para voc&ecirc;</div><div class="insight-body"><span class="verdict">&#9654; Aten&ccedil;&atilde;o</span><p>O perfil est&aacute; na situa&ccedil;&atilde;o mais desconfort&aacute;vel poss&iacute;vel para um advogado: gera reconhecimento sem gerar oportunidade. Cada semana com esse volume de aten&ccedil;&atilde;o e sem caminho de contato &eacute; audi&ecirc;ncia paga em trabalho e n&atilde;o convertida em cliente.</p></div></div>
+  </section>
+
+  <section id="diagnostico">
+    <div class="sec-head"><h2>Diagn&oacute;stico executivo</h2><p>Pontua&ccedil;&atilde;o baseada em sinais p&uacute;blicos, capacidade de ser encontrado e capacidade de transformar interesse em contato.</p></div>
+    <div class="score">
+      <div><div class="score-number"><span class="score-val">3,5</span><span class="score-den">/ 10</span></div></div>
+      <p class="score-verdict"><b>Alta tra&ccedil;&atilde;o, infraestrutura ausente.</b><br/>A nota n&atilde;o mede o alcance do perfil, que &eacute; o ponto forte. Mede o quanto desse alcance chega a virar consulta, autoridade indexada e cliente.</p>
+    </div>
+    <div class="score-grid">
+      <div class="score-item"><div class="score-item-head"><span>Audi&ecirc;ncia e engajamento</span><span>7,8</span></div><div class="score-track"><div class="score-fill" style="width:78%"></div></div></div>
+      <div class="score-item"><div class="score-item-head"><span>Cad&ecirc;ncia e consist&ecirc;ncia</span><span>5,5</span></div><div class="score-track"><div class="score-fill" style="width:55%"></div></div></div>
+      <div class="score-item"><div class="score-item-head"><span>Posicionamento profissional</span><span>3,0</span></div><div class="score-track"><div class="score-fill" style="width:30%"></div></div></div>
+      <div class="score-item"><div class="score-item-head"><span>Conte&uacute;do jur&iacute;dico &uacute;til</span><span>2,0</span></div><div class="score-track"><div class="score-fill" style="width:20%"></div></div></div>
+      <div class="score-item"><div class="score-item-head"><span>Autoridade em busca</span><span>1,2</span></div><div class="score-track"><div class="score-fill" style="width:12%"></div></div></div>
+      <div class="score-item"><div class="score-item-head"><span>Convers&atilde;o</span><span>0,8</span></div><div class="score-track"><div class="score-fill" style="width:8%"></div></div></div>
+    </div>
+    <div class="diag">
+      <div class="diag-col"><p class="eyebrow">Situa&ccedil;&atilde;o</p><ul><li>2.886 seguidores e 3,89% de engajamento em 2026.</li><li>Conta pessoal, sem link, contato ou categoria profissional.</li><li>Nenhum ativo pr&oacute;prio indexado al&eacute;m do Instagram.</li></ul></div>
+      <div class="diag-col"><p class="eyebrow">Impacto</p><ul><li>Quem j&aacute; conhece acompanha e interage.</li><li>Quem se interessa n&atilde;o encontra como contratar.</li><li>Quem busca advogado pelo problema nunca chega ao perfil.</li></ul></div>
+      <div class="diag-col"><p class="eyebrow">Resposta</p><ul><li>Abrir o caminho de contato dentro do perfil.</li><li>Publicar ativos pr&oacute;prios que o Google possa indexar.</li><li>Manter o tom pessoal e somar prova t&eacute;cnica.</li></ul></div>
+    </div>
+    <details class="proof"><summary>Ver os seis crit&eacute;rios e os pesos usados na nota <span>tabela de pondera&ccedil;&atilde;o</span></summary>
+      <div class="proof-body"><div class="table-wrap"><table>
+        <thead><tr><th>Crit&eacute;rio</th><th class="right">Nota</th><th class="right">Peso</th><th>Base do julgamento</th></tr></thead>
+        <tbody>
+          <tr><td>Audi&ecirc;ncia e engajamento</td><td class="right">7,8</td><td class="right">20%</td><td>ER de 3,535% no hist&oacute;rico integral e 3,894% em 2026, o maior entre os cinco perfis medidos</td></tr>
+          <tr><td>Cad&ecirc;ncia e consist&ecirc;ncia</td><td class="right">5,5</td><td class="right">15%</td><td>35 posts em oito meses de 2026, com seis hiatos de 25 dias ou mais desde 2025</td></tr>
+          <tr><td>Posicionamento profissional</td><td class="right">3,0</td><td class="right">15%</td><td>Conta pessoal sem categoria; bio com tr&ecirc;s cargos e nenhuma &aacute;rea de atua&ccedil;&atilde;o; cinco dos sete destaques s&atilde;o de viagem</td></tr>
+          <tr><td>Conte&uacute;do jur&iacute;dico &uacute;til</td><td class="right">2,0</td><td class="right">15%</td><td>Seis publica&ccedil;&otilde;es de autoridade t&eacute;cnica em 113; nenhuma explica um direito ou um procedimento</td></tr>
+          <tr><td>Autoridade em busca</td><td class="right">1,2</td><td class="right">15%</td><td>Nenhum perfil em Jusbrasil, Escavador ou LinkedIn; seis hom&ocirc;nimos na primeira p&aacute;gina do nome</td></tr>
+          <tr><td>Convers&atilde;o</td><td class="right">0,8</td><td class="right">20%</td><td>Zero links, zero bot&otilde;es de contato e duas chamadas para a&ccedil;&atilde;o em 113 publica&ccedil;&otilde;es</td></tr>
+        </tbody>
+      </table></div>
+      <p class="muted" style="font-size:.8rem;padding:0 0 .8rem">Peso maior em convers&atilde;o e audi&ecirc;ncia porque o gargalo declarado do caso &eacute; a dist&acirc;ncia entre aten&ccedil;&atilde;o e contato. Fonte de todos os n&uacute;meros: coleta pr&oacute;pria de 13/08/2026.</p>
+      </div>
+    </details>
+<div class="insight"><div class="insight-header"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg> O que isso significa para voc&ecirc;</div><div class="insight-body"><span class="verdict">&#9733; Destaque</span><p>A nota baixa n&atilde;o &eacute; um julgamento do trabalho nem do perfil. &Eacute; a medida do que se perde entre a aten&ccedil;&atilde;o conquistada e a oportunidade gerada. Os dois crit&eacute;rios de menor nota, convers&atilde;o e busca, s&atilde;o tamb&eacute;m os mais r&aacute;pidos de corrigir.</p></div></div>
+  </section>
+
+  <section id="audiencia">
+    <div class="sec-head"><h2>Audi&ecirc;ncia e engajamento</h2><p>Cinco perfis jur&iacute;dicos da mesma pra&ccedil;a, medidos no mesmo dia e pelo mesmo m&eacute;todo.</p></div>
+    <div class="metric-strip">
+      <div class="metric"><div class="metric-value">3,54%</div><div class="metric-label">engajamento no hist&oacute;rico integral</div></div>
+      <div class="metric"><div class="metric-value">3,89%</div><div class="metric-label">engajamento em 2026</div></div>
+      <div class="metric"><div class="metric-value">10.554</div><div class="metric-label">curtidas acumuladas</div></div>
+      <div class="metric"><div class="metric-value">2.251</div><div class="metric-label">reprodu&ccedil;&otilde;es m&eacute;dias por Reel</div></div>
+    </div>
+    <div class="grid-2">
+      <div class="chart"><canvas id="chartBenchmark"></canvas></div>
+      <div>
+        <h3>O menor perfil &eacute; o que mais engaja</h3><p>O maior perfil jur&iacute;dico de Palho&ccedil;a, @advocacia.bublitz, tem 27.167 seguidores e engajamento de 0,53% nas &uacute;ltimas 12 publica&ccedil;&otilde;es. O perfil de Diego Santos tem dez vezes menos seguidores e <b>seis vezes mais engajamento proporcional</b>.</p>
+        <h3>E &eacute; o &uacute;nico ativo entre os grandes</h3><p>Dos quatro perfis com mais de 2.500 seguidores medidos na pra&ccedil;a, dois pararam de publicar: @advocacia.bublitz em outubro de 2025 e @patriciadallavecchiaadv em outubro de 2023. A audi&ecirc;ncia deles continua l&aacute;, sem ningu&eacute;m falando.</p>
+        <h3>O que a m&eacute;trica significa</h3><p>Engajamento alto em base pequena e local vale mais para advocacia do que alcance amplo e disperso. Cada intera&ccedil;&atilde;o vem de algu&eacute;m de Palho&ccedil;a que reconhece o nome e o cargo.</p>
+      </div>
+    </div>
+    <div class="callout"><strong>Como o engajamento foi calculado</strong><p>Soma de curtidas e coment&aacute;rios dividida pelo n&uacute;mero de publica&ccedil;&otilde;es multiplicado pelo n&uacute;mero de seguidores, em percentual. Para os perfis de refer&ecirc;ncia usamos as 12 publica&ccedil;&otilde;es mais recentes de cada um; para @advdiegosantos o hist&oacute;rico integral de 113 publica&ccedil;&otilde;es tamb&eacute;m foi calculado. Coleta de 13/08/2026, sem acesso a dados privados de alcance ou impress&otilde;es.</p></div>
+<div class="insight good"><div class="insight-header"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg> O que isso significa para voc&ecirc;</div><div class="insight-body"><span class="verdict">&#9650; Bom</span><p>Este &eacute; o ponto forte do caso e ele n&atilde;o se compra: uma base local que responde. A estrat&eacute;gia inteira deve partir da premissa de preservar esse comportamento, jamais de trocar o tom atual por um perfil institucional gen&eacute;rico que a audi&ecirc;ncia n&atilde;o reconhece.</p></div></div>
+  </section>
+
+  <section id="conteudo">
+    <div class="sec-head"><h2>Conte&uacute;do: o que a audi&ecirc;ncia responde</h2><p>Classifica&ccedil;&atilde;o das 113 publica&ccedil;&otilde;es por tema, com o engajamento de cada grupo.</p></div>
+    <div class="grid-2">
+      <div class="chart"><canvas id="chartTemas"></canvas></div>
+      <div class="chart"><canvas id="chartFormatos"></canvas></div>
+    </div>
+    <h3>O tema que mais engaja ocupa 11% do perfil</h3>
+    <p>As 13 publica&ccedil;&otilde;es sobre o escrit&oacute;rio somam engajamento de 5,381% e m&eacute;dia de 131 curtidas, o melhor resultado por tema. As 70 publica&ccedil;&otilde;es de fam&iacute;lia e f&eacute;, que ocupam 62% do perfil, ficam em 3,177% e 86 curtidas. A audi&ecirc;ncia pede mais do trabalho do que o perfil entrega.</p>
+    <h3>Carross&eacute;is entregam mais que Reels neste perfil</h3>
+    <p>O carrossel registra 5,131% de engajamento contra 3,834% do Reel e 2,289% da imagem &uacute;nica. &Eacute; o formato que sustenta narrativa longa, exatamente o que os melhores posts do perfil fazem: trajet&oacute;ria, marcos e explica&ccedil;&atilde;o.</p>
+    <h3>Falta a categoria que gera consulta</h3>
+    <p>Nenhuma das 113 publica&ccedil;&otilde;es explica um direito, um prazo, um documento ou um crit&eacute;rio de benef&iacute;cio. As seis publica&ccedil;&otilde;es de autoridade t&eacute;cnica registram presen&ccedil;a em eventos, congressos e f&oacute;runs, o que prova repert&oacute;rio mas n&atilde;o resolve d&uacute;vida de quem procura advogado.</p>
+    <details class="proof"><summary>Ver as dez publica&ccedil;&otilde;es de maior intera&ccedil;&atilde;o do perfil <span>10 linhas</span></summary>
+      <div class="proof-body"><div class="table-wrap"><table>
+        <thead><tr><th>Data</th><th>Tema</th><th>Formato</th><th class="right">Curtidas</th><th class="right">Coment&aacute;rios</th></tr></thead>
+        <tbody>
+          <tr><td>15/07/2024</td><td>Testemunho pessoal de anivers&aacute;rio</td><td>Carrossel</td><td class="right">317</td><td class="right">41</td></tr>
+          <tr><td>06/06/2026</td><td>20 anos da Debem e Santos</td><td>Reel</td><td class="right">276</td><td class="right">101</td></tr>
+          <tr><td>24/12/2024</td><td>Natal</td><td>Carrossel</td><td class="right">236</td><td class="right">4</td></tr>
+          <tr><td>07/06/2026</td><td>Debem e Santos 2.0</td><td>Reel</td><td class="right">234</td><td class="right">28</td></tr>
+          <tr><td>04/05/2026</td><td>Trajet&oacute;ria em Palho&ccedil;a</td><td>Carrossel</td><td class="right">215</td><td class="right">54</td></tr>
+          <tr><td>15/06/2025</td><td>Primeiro ano da filha</td><td>Reel</td><td class="right">196</td><td class="right">28</td></tr>
+          <tr><td>09/09/2024</td><td>Conquista do escrit&oacute;rio</td><td>Carrossel</td><td class="right">187</td><td class="right">8</td></tr>
+          <tr><td>21/05/2026</td><td>Palestra na Escola Frei Dami&atilde;o</td><td>Carrossel</td><td class="right">168</td><td class="right">20</td></tr>
+          <tr><td>08/07/2026</td><td>Lei Complementar e estrutura da Justi&ccedil;a</td><td>Imagem</td><td class="right">151</td><td class="right">16</td></tr>
+          <tr><td>10/08/2026</td><td>Nova sede em Bras&iacute;lia</td><td>Reel</td><td class="right">144</td><td class="right">27</td></tr>
+        </tbody>
+      </table></div></div>
+    </details>
+    <div class="callout"><strong>Guardrail edit&oacute;rial jur&iacute;dico</strong><p>Toda recomenda&ccedil;&atilde;o de conte&uacute;do aqui pressup&otilde;e car&aacute;ter informativo, sobriedade e an&aacute;lise individual de cada caso, conforme o C&oacute;digo de &Eacute;tica e Disciplina da OAB e o Provimento 205/2021. O objetivo &eacute; explicar direito, n&atilde;o prometer resultado nem captar clientela.</p></div>
+<div class="insight"><div class="insight-header"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg> O que isso significa para voc&ecirc;</div><div class="insight-body"><span class="verdict">&#9733; Destaque</span><p>A audi&ecirc;ncia j&aacute; demonstrou, com n&uacute;mero, que quer ver o advogado trabalhando. O ajuste n&atilde;o exige abandonar o conte&uacute;do pessoal que construiu a base: exige somar a ele uma linha t&eacute;cnica que hoje simplesmente n&atilde;o existe no perfil.</p></div></div>
+  </section>
+
+  <section id="cadencia">
+    <div class="sec-head"><h2>Cad&ecirc;ncia e hist&oacute;rico</h2><p>O perfil acelerou muito nos &uacute;ltimos dois anos, e ainda oscila em blocos.</p></div>
+    <div class="grid-2">
+      <div class="chart"><canvas id="chartCadencia"></canvas></div>
+      <div class="chart"><canvas id="chartMix"></canvas></div>
+    </div>
+    <h3>Dois anos concentram 56% de todo o hist&oacute;rico</h3>
+    <p>Entre 2015 e 2024 o perfil somou 50 publica&ccedil;&otilde;es. S&oacute; em 2025 e 2026 foram 63, sendo 35 nos oito primeiros meses de 2026. A decis&atilde;o de usar o perfil profissionalmente j&aacute; foi tomada; o que falta &eacute; m&eacute;todo.</p>
+    <h3>Seis interrup&ccedil;&otilde;es longas desde 2025</h3>
+    <p>Os intervalos de 44, 52, 38, 25, 44 e 30 dias aparecem sempre depois de sequ&ecirc;ncias intensas. O padr&atilde;o &eacute; de publica&ccedil;&atilde;o por evento, e n&atilde;o por calend&aacute;rio, o que impede o algoritmo de estabilizar entrega e impede o perfil de acumular aprendizado.</p>
+    <div class="callout"><strong>Refer&ecirc;ncia de leitura</strong><p>Maio de 2026 concentrou nove publica&ccedil;&otilde;es e abril, apenas uma. A m&eacute;dia de 4,4 posts por m&ecirc;s em 2026 esconde essa oscila&ccedil;&atilde;o, e por isso a m&eacute;trica que interessa acompanhar &eacute; semanas consecutivas com publica&ccedil;&atilde;o, n&atilde;o volume mensal.</p></div>
+<div class="insight warn"><div class="insight-header"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg> O que isso significa para voc&ecirc;</div><div class="insight-body"><span class="verdict">&#9654; Aten&ccedil;&atilde;o</span><p>Cad&ecirc;ncia irregular custa mais em um perfil com engajamento alto do que em um perfil grande e frio, porque cada semana em sil&ecirc;ncio desperdi&ccedil;a uma base que estava pronta para responder. Duas publica&ccedil;&otilde;es semanais fixas valem mais que nove em um m&ecirc;s e uma no seguinte.</p></div></div>
+  </section>
+
+  <section id="conversao">
+    <div class="sec-head"><h2>Convers&atilde;o: o perfil n&atilde;o tem sa&iacute;da</h2><p>O que acontece hoje com quem v&ecirc; uma publica&ccedil;&atilde;o, se interessa e quer falar com o advogado.</p></div>
+    <div class="table-wrap"><table>
+      <thead><tr><th>Elemento</th><th>Situa&ccedil;&atilde;o encontrada</th><th>Consequ&ecirc;ncia</th><th>Status</th></tr></thead>
+      <tbody>
+        <tr><td>Tipo de conta</td><td>Conta pessoal, sem categoria profissional</td><td>Sem bot&atilde;o de contato, sem dados de alcance e sem etiqueta de advogado no perfil</td><td><span class="status warn">Migrar</span></td></tr>
+        <tr><td>Link na bio</td><td>Nenhum</td><td>O interesse gerado por cada post termina no pr&oacute;prio post</td><td><span class="status warn">Criar</span></td></tr>
+        <tr><td>WhatsApp ou telefone</td><td>Nenhum no perfil</td><td>O contato depende de mensagem direta, que n&atilde;o &eacute; rastre&aacute;vel nem distribu&iacute;vel para a equipe</td><td><span class="status warn">Criar</span></td></tr>
+        <tr><td>Chamada nas legendas</td><td>2 publica&ccedil;&otilde;es de 113</td><td>Mesmo os posts de melhor desempenho n&atilde;o orientam pr&oacute;ximo passo</td><td><span class="status warn">Corrigir</span></td></tr>
+        <tr><td>Bio</td><td>Tr&ecirc;s cargos, nenhuma &aacute;rea de atua&ccedil;&atilde;o</td><td>Quem chega n&atilde;o descobre em que o advogado pode ajudar</td><td><span class="status warn">Reescrever</span></td></tr>
+        <tr><td>Destaques</td><td>7 destaques, 5 de viagem e lazer</td><td>O espa&ccedil;o mais nobre do perfil n&atilde;o guarda prova profissional</td><td><span class="status warn">Reorganizar</span></td></tr>
+        <tr><td>P&aacute;gina de destino</td><td>Sem p&aacute;gina pr&oacute;pria no site do escrit&oacute;rio</td><td>N&atilde;o existe endere&ccedil;o para onde um link poderia apontar</td><td><span class="status warn">Criar</span></td></tr>
+      </tbody>
+    </table></div>
+    <div class="grid-3">
+      <div class="card"><p class="eyebrow">Hoje</p><h3>O interesse morre no post</h3><p>A pessoa curte, comenta e sai. Nada no perfil indica como contratar ou sobre o que consultar.</p></div>
+      <div class="card"><p class="eyebrow">Primeiro passo</p><h3>Conta profissional e link</h3><p>Migra&ccedil;&atilde;o para conta profissional, categoria de advogado, bot&atilde;o de contato e link para p&aacute;gina pr&oacute;pria.</p></div>
+      <div class="card"><p class="eyebrow">Medi&ccedil;&atilde;o</p><h3>Origem identificada</h3><p>Par&acirc;metros de campanha no link e registro no CRM para separar o que veio do perfil pessoal do que veio do escrit&oacute;rio.</p></div>
+    </div>
+<div class="insight warn"><div class="insight-header"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg> O que isso significa para voc&ecirc;</div><div class="insight-body"><span class="verdict">&#9654; Aten&ccedil;&atilde;o</span><p>Esta &eacute; a corre&ccedil;&atilde;o de maior retorno e menor custo de todo o diagn&oacute;stico. As tr&ecirc;s primeiras linhas da tabela se resolvem em uma tarde e mudam imediatamente o que acontece depois de cada publica&ccedil;&atilde;o.</p></div></div>
+  </section>
+
+  <section id="busca">
+    <div class="sec-head"><h2>Busca, nome e diret&oacute;rios jur&iacute;dicos</h2><p>O que o Google devolve para quem procura o advogado pelo nome e para quem procura um advogado pelo problema.</p></div>
+    <div class="metric-strip">
+      <div class="metric"><div class="metric-value">1</div><div class="metric-label">ativo pr&oacute;prio indexado</div></div>
+      <div class="metric"><div class="metric-value">6</div><div class="metric-label">advogados hom&ocirc;nimos na 1&ordf; p&aacute;gina</div></div>
+      <div class="metric"><div class="metric-value">Zero</div><div class="metric-label">perfis em diret&oacute;rios jur&iacute;dicos</div></div>
+      <div class="metric"><div class="metric-value">Zero</div><div class="metric-label">men&ccedil;&otilde;es ao nome no site</div></div>
+    </div>
+    <h3>O nome disputa espa&ccedil;o com seis advogados diferentes</h3>
+    <p>A consulta pelo nome completo devolve, entre outros, um hom&ocirc;nimo com 1.118 processos registrados no Escavador, dos quais 858 em Santa Catarina. O &uacute;nico resultado que pertence de fato ao cliente na primeira p&aacute;gina &eacute; o perfil do Instagram.</p>
+    <h3>Tr&ecirc;s grafias, nenhum ativo que as conecte</h3>
+    <p>O nome aparece como &ldquo;Diego Santos&rdquo; no Instagram, como &ldquo;Diego dos Santos&rdquo; nos registros oficiais e da OAB, e como &ldquo;advdiegosantos&rdquo; no identificador de rede. Sem uma p&aacute;gina pr&oacute;pria que re&uacute;na as tr&ecirc;s formas junto do n&uacute;mero de inscri&ccedil;&atilde;o na OAB, o Google n&atilde;o tem como consolidar a identidade em uma pessoa s&oacute;.</p>
+    <h3>A busca por servi&ccedil;o pertence a quem tem p&aacute;gina</h3>
+    <p>Na consulta por advogado previdenci&aacute;rio em Palho&ccedil;a, o topo &eacute; ocupado por diret&oacute;rios e por escrit&oacute;rios com site especializado. Vale registrar a invers&atilde;o: esses concorrentes ganham na busca e est&atilde;o parados no Instagram, enquanto o cliente ganha no Instagram e est&aacute; ausente da busca.</p>
+    <details class="proof" open><summary>Ver os canais auditados um a um <span>7 diret&oacute;rios e redes</span></summary>
+      <div class="proof-body"><div class="table-wrap"><table>
+        <thead><tr><th>Canal</th><th>Papel para um advogado</th><th>Situa&ccedil;&atilde;o encontrada</th></tr></thead>
+        <tbody>
+          <tr><td>Jusbrasil</td><td>Diret&oacute;rio de maior tr&aacute;fego jur&iacute;dico do pa&iacute;s, ranqueia por &aacute;rea e cidade</td><td>Sem perfil pr&oacute;prio; apenas hom&ocirc;nimos</td></tr>
+          <tr><td>Escavador</td><td>Consolida atua&ccedil;&atilde;o processual e forma&ccedil;&atilde;o</td><td>Sem perfil pr&oacute;prio; apenas hom&ocirc;nimos</td></tr>
+          <tr><td>LinkedIn</td><td>Autoridade profissional e rela&ccedil;&atilde;o com clientes empresariais</td><td>Sem perfil pr&oacute;prio. O s&oacute;cio Daniel Domiciano de Bem mant&eacute;m perfil ativo</td></tr>
+          <tr><td>Previdencia&shy;rista</td><td>Diret&oacute;rio especializado que aparece no topo da busca da &aacute;rea</td><td>Sem perfil pr&oacute;prio</td></tr>
+          <tr><td>Site do escrit&oacute;rio</td><td>Dom&iacute;nio pr&oacute;prio, &uacute;nico canal totalmente control&aacute;vel</td><td>Nome ausente nas cinco p&aacute;ginas coletadas; n&atilde;o existe p&aacute;gina de equipe</td></tr>
+          <tr><td>YouTube</td><td>Segundo maior buscador, indexa v&iacute;deo explicativo</td><td>Sem canal pr&oacute;prio</td></tr>
+          <tr><td>Facebook</td><td>Alcance da faixa et&aacute;ria que mais consulta previdenci&aacute;rio</td><td>Aparece marcado em publica&ccedil;&otilde;es da OAB Palho&ccedil;a, sem p&aacute;gina profissional pr&oacute;pria</td></tr>
+        </tbody>
+      </table></div></div>
+    </details>
+    <div class="callout"><strong>Limite da medi&ccedil;&atilde;o</strong><p>Resultados de busca variam por localiza&ccedil;&atilde;o, hist&oacute;rico e dispositivo. O registro descreve o cen&aacute;rio p&uacute;blico observado em 13/08/2026, em pt-BR, e deve ser acompanhado por uma grade fixa de consultas medida m&ecirc;s a m&ecirc;s.</p></div>
+<div class="insight warn"><div class="insight-header"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg> O que isso significa para voc&ecirc;</div><div class="insight-body"><span class="verdict">&#9654; Aten&ccedil;&atilde;o</span><p>Um advogado sem p&aacute;gina pr&oacute;pria indexada delega a pr&oacute;pria reputa&ccedil;&atilde;o a quem tem o mesmo nome. Publicar uma &uacute;nica p&aacute;gina pessoal com biografia, n&uacute;mero de inscri&ccedil;&atilde;o na OAB, &aacute;reas e dados estruturados j&aacute; separa o cliente dos seis hom&ocirc;nimos.</p></div></div>
+  </section>
+
+  <section id="escritorio">
+    <div class="sec-head"><h2>Perfil pessoal e perfil do escrit&oacute;rio</h2><p>Como os dois ativos se relacionam hoje e quanto um j&aacute; sustenta o outro.</p></div>
+    <div class="grid-2">
+      <div class="chart"><canvas id="chartComparativo"></canvas></div>
+      <div>
+        <h3>O perfil pessoal carrega os melhores posts do escrit&oacute;rio</h3><p>Tr&ecirc;s das doze publica&ccedil;&otilde;es mais recentes de @debemesantos s&atilde;o colabora&ccedil;&otilde;es assinadas em conjunto com o perfil pessoal, e somam 810 intera&ccedil;&otilde;es. Sem elas, o engajamento do perfil do escrit&oacute;rio cai de 4,719% para <b>1,612%</b>.</p>
+        <h3>A audi&ecirc;ncia est&aacute; do lado pessoal</h3><p>O perfil pessoal tem 2.886 seguidores contra 1.923 do escrit&oacute;rio, uma vez e meia mais. Ele j&aacute; &eacute; o principal canal de distribui&ccedil;&atilde;o da marca, mesmo sem ter sido tratado como tal.</p>
+        <h3>E &eacute; o &uacute;nico que n&atilde;o converte</h3><p>O perfil do escrit&oacute;rio tem site na bio e bot&atilde;o de contato configurado. O perfil pessoal, que entrega mais audi&ecirc;ncia, n&atilde;o tem nenhum dos dois.</p>
+      </div>
+    </div>
+    <div class="callout"><strong>Achado adicional</strong><p>Existe um segundo perfil de Instagram com o nome do escrit&oacute;rio, @debemesantosadvogados, p&uacute;blico, com um seguidor e nenhuma publica&ccedil;&atilde;o. N&atilde;o pertence ao advogado, mas divide a busca pela marca e deve ser reivindicado ou removido.</p></div>
+<div class="insight good"><div class="insight-header"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg> O que isso significa para voc&ecirc;</div><div class="insight-body"><span class="verdict">&#9650; Bom</span><p>A rela&ccedil;&atilde;o entre os dois perfis j&aacute; funciona e n&atilde;o precisa ser inventada, apenas formalizada. Uma rotina fixa de colabora&ccedil;&atilde;o, com o perfil pessoal levando alcance e o perfil do escrit&oacute;rio levando o caminho de contato, aproveita o que a coleta mostrou espontaneamente.</p></div></div>
+  </section>
+
+  <section id="swot">
+    <div class="sec-head"><h2>An&aacute;lise SWOT</h2><p>S&iacute;ntese da posi&ccedil;&atilde;o atual, separando o que &eacute; ativo pr&oacute;prio do que &eacute; press&atilde;o do ambiente.</p></div>
+    <div class="swot">
+      <div class="swot-cell"><p class="eyebrow">For&ccedil;as</p><h3>Aten&ccedil;&atilde;o local real</h3><ul><li>Engajamento de 3,89% em 2026, o maior da pra&ccedil;a medida.</li><li>2.886 seguidores, uma vez e meia o perfil do escrit&oacute;rio.</li><li>Tr&ecirc;s cargos que geram pauta pr&oacute;pria: escrit&oacute;rio, OAB e C&acirc;mara.</li><li>Hist&oacute;ria pessoal de trajet&oacute;ria que a audi&ecirc;ncia responde com volume.</li><li>Registro p&uacute;blico de homenagem municipal ainda n&atilde;o usado.</li></ul></div>
+      <div class="swot-cell"><p class="eyebrow">Fraquezas</p><h3>Nenhuma infraestrutura</h3><ul><li>Zero links e zero bot&otilde;es de contato no perfil.</li><li>Duas chamadas para a&ccedil;&atilde;o em 113 publica&ccedil;&otilde;es.</li><li>Nenhum conte&uacute;do que explique um direito ou um procedimento.</li><li>Cinco dos sete destaques dedicados a viagem e lazer.</li><li>Nome ausente do site do pr&oacute;prio escrit&oacute;rio.</li></ul></div>
+      <div class="swot-cell"><p class="eyebrow">Oportunidades</p><h3>O espa&ccedil;o est&aacute; vago</h3><ul><li>Os dois maiores perfis jur&iacute;dicos da pra&ccedil;a est&atilde;o parados.</li><li>Nenhum advogado local ocupa a explica&ccedil;&atilde;o t&eacute;cnica em v&iacute;deo.</li><li>Diret&oacute;rios jur&iacute;dicos com cadastro gratuito e alta indexa&ccedil;&atilde;o.</li><li>Cargo na OAB e na C&acirc;mara gera pauta que nenhum concorrente tem.</li><li>Expans&atilde;o do escrit&oacute;rio a Imbituba e Bras&iacute;lia amplia a &aacute;rea de atua&ccedil;&atilde;o.</li></ul></div>
+      <div class="swot-cell"><p class="eyebrow">Amea&ccedil;as</p><h3>O nome pertence a outros</h3><ul><li>Seis advogados hom&ocirc;nimos indexados &agrave; frente do cliente.</li><li>Escrit&oacute;rios especializados dominam a busca por servi&ccedil;o.</li><li>Diret&oacute;rios capturam a demanda antes de qualquer perfil pessoal.</li><li>Perfil homonimo do escrit&oacute;rio dividindo a busca pela marca.</li><li>Restri&ccedil;&otilde;es &eacute;ticas limitam o discurso comercial direto.</li></ul></div>
+    </div>
+<div class="insight purple"><div class="insight-header"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg> O que isso significa para voc&ecirc;</div><div class="insight-body"><span class="verdict">&#9733; Vis&atilde;o</span><p>A combina&ccedil;&atilde;o mais rara desta auditoria &eacute; ter audi&ecirc;ncia ativa em uma pra&ccedil;a onde os maiores perfis pararam de publicar. Essa janela n&atilde;o depende de investimento em m&iacute;dia, depende de ocupar o espa&ccedil;o antes que algu&eacute;m volte a ocup&aacute;-lo.</p></div></div>
+  </section>
+
+  <section id="recomendacoes">
+    <div class="sec-head"><h2>Plano estrat&eacute;gico de 180 dias</h2><p>Tr&ecirc;s ciclos com depend&ecirc;ncia clara: abrir o caminho, construir autoridade indexada e escalar o que provar resultado.</p></div>
+    <div class="roadmap">
+      <div class="phase"><div class="phase-time">Dias 1 a 30</div><h3>Abrir o caminho</h3><ol><li>Migrar para conta profissional com categoria de advogado.</li><li>Reescrever a bio com &aacute;rea de atua&ccedil;&atilde;o, cidade e inscri&ccedil;&atilde;o na OAB.</li><li>Publicar a p&aacute;gina pessoal no site do escrit&oacute;rio e us&aacute;-la como destino do link.</li><li>Configurar bot&atilde;o de contato e WhatsApp com atendimento definido.</li><li>Reorganizar destaques com dois blocos profissionais no in&iacute;cio.</li><li>Fechar toda publica&ccedil;&atilde;o com uma orienta&ccedil;&atilde;o de pr&oacute;ximo passo.</li></ol><div class="phase-kpi">Indicadores: conta migrada, link ativo, p&aacute;gina indexada, contatos com origem registrada</div></div>
+      <div class="phase"><div class="phase-time">Dias 31 a 90</div><h3>Construir autoridade indexada</h3><ol><li>Criar perfis em Jusbrasil, Escavador e LinkedIn com a mesma reda&ccedil;&atilde;o.</li><li>Padronizar a grafia do nome em todos os canais e registrar a inscri&ccedil;&atilde;o na OAB.</li><li>Produzir 12 conte&uacute;dos que expliquem um direito, um prazo ou um documento.</li><li>Testar 8 carross&eacute;is t&eacute;cnicos, o formato de melhor engajamento do perfil.</li><li>Transformar cargos na OAB e na C&acirc;mara em s&eacute;rie recorrente de bastidor.</li><li>Formalizar a rotina de colabora&ccedil;&atilde;o com o perfil do escrit&oacute;rio.</li></ol><div class="phase-kpi">Indicadores: 3 perfis ativos em diret&oacute;rios, 12 conte&uacute;dos t&eacute;cnicos, nome consolidado na busca</div></div>
+      <div class="phase"><div class="phase-time">Dias 91 a 180</div><h3>Ocupar a busca</h3><ol><li>Publicar p&aacute;ginas por &aacute;rea priorit&aacute;ria com autoria assinada.</li><li>Abrir canal de v&iacute;deo com as d&uacute;vidas mais frequentes do atendimento.</li><li>Manter cad&ecirc;ncia de duas publica&ccedil;&otilde;es semanais sem interrup&ccedil;&atilde;o.</li><li>Acompanhar a grade fixa de consultas no Search Console.</li><li>Converter homenagens, palestras e imprensa em ativos permanentes.</li><li>Consolidar painel mensal de origem dos contatos.</li></ol><div class="phase-kpi">Indicadores: seis meses sem hiato, primeira p&aacute;gina pr&oacute;pria no nome, contatos por origem</div></div>
+    </div>
+    <h3>Sequ&ecirc;ncia que protege o investimento</h3>
+    <div class="priority"><div class="priority-num">1</div><div><h3>Conta profissional, link e contato</h3><p>Sem isso, todo alcance produzido nos pr&oacute;ximos meses continua terminando no post.</p></div><span class="status warn">Agora</span></div>
+    <div class="priority"><div class="priority-num">2</div><div><h3>P&aacute;gina pessoal no dom&iacute;nio do escrit&oacute;rio</h3><p>&Eacute; o destino do link, a prova de identidade contra os hom&ocirc;nimos e o ativo que o cliente controla.</p></div><span class="status warn">Agora</span></div>
+    <div class="priority"><div class="priority-num">3</div><div><h3>Conte&uacute;do t&eacute;cnico com cad&ecirc;ncia fixa</h3><p>A audi&ecirc;ncia j&aacute; demonstrou que responde ao trabalho; falta a linha que gera consulta.</p></div><span class="status">30 a 90 dias</span></div>
+    <div class="priority"><div class="priority-num">4</div><div><h3>Diret&oacute;rios e consolida&ccedil;&atilde;o do nome</h3><p>Ocupar as plataformas que j&aacute; ranqueiam para a demanda da &aacute;rea.</p></div><span class="status">30 a 180 dias</span></div>
+<div class="insight purple"><div class="insight-header"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg> O que isso significa para voc&ecirc;</div><div class="insight-body"><span class="verdict">&#9733; Vis&atilde;o</span><p>Em seis meses o sucesso n&atilde;o &eacute; ter mais seguidores, que o perfil j&aacute; conquista sozinho. &Eacute; conseguir dizer quantos atendimentos nasceram do perfil pessoal, de qual conte&uacute;do e de qual &aacute;rea, algo que hoje &eacute; imposs&iacute;vel de responder.</p></div></div>
+  </section>
+
+  <section id="resumo">
+    <div class="sec-head"><h2>Resumo executivo e pontua&ccedil;&atilde;o</h2><p>O que preservar, o que corrigir e como reconhecer progresso real.</p></div>
+    <div class="grid-2">
+      <div><p class="lede">O trabalho mais dif&iacute;cil j&aacute; est&aacute; feito: <b>existe uma audi&ecirc;ncia local que responde</b>. O que falta &eacute; a parte mec&acirc;nica, e ela &eacute; barata.</p><p>A prioridade &eacute; abrir o caminho de contato dentro do perfil e publicar uma p&aacute;gina pr&oacute;pria que o Google possa indexar. Depois disso, conte&uacute;do t&eacute;cnico e presen&ccedil;a em diret&oacute;rios ampliam a descoberta para quem ainda n&atilde;o conhece o nome.</p></div>
+      <div class="chart sm"><canvas id="chartScore"></canvas></div>
+    </div>
+    <div class="grid-3" style="margin-top:1rem">
+      <div class="card"><p class="eyebrow">Preservar</p><h3>O tom que construiu a base</h3><p>Trajet&oacute;ria, fam&iacute;lia, f&eacute; e vida na cidade s&atilde;o o que criou o v&iacute;nculo. Nada disso deve sair do perfil.</p></div>
+      <div class="card"><p class="eyebrow">Corrigir</p><h3>A aus&ecirc;ncia de sa&iacute;da</h3><p>Conta profissional, link, contato, chamada nas legendas e p&aacute;gina pr&oacute;pria indexada.</p></div>
+      <div class="card"><p class="eyebrow">Construir</p><h3>Autoridade t&eacute;cnica vis&iacute;vel</h3><p>Conte&uacute;do que explica direito, perfis em diret&oacute;rios e um nome que pertence a ele na busca.</p></div>
+    </div>
+    <div class="chart"><canvas id="chartRadar"></canvas></div>
+<div class="insight good"><div class="insight-header"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg> O que isso significa para voc&ecirc;</div><div class="insight-body"><span class="verdict">&#9650; Bom</span><p>Este &eacute; um caso de infraestrutura, n&atilde;o de audi&ecirc;ncia, e por isso o retorno aparece cedo. As corre&ccedil;&otilde;es dos primeiros 30 dias custam pouco e mudam o comportamento de um p&uacute;blico que j&aacute; est&aacute; prestando aten&ccedil;&atilde;o.</p></div></div>
+  </section>
+</main>
+
+<div class="closing"><div class="closing-inner"><h2>A aten&ccedil;&atilde;o j&aacute; foi conquistada. Falta abrir a porta.</h2><p>Esta auditoria organiza a convers&atilde;o da marca pessoal de um advogado que j&aacute; tem audi&ecirc;ncia. M&eacute;tricas privadas de alcance, atendimentos e origem de contatos devem ser incorporadas ao painel assim que houver acesso.</p><div class="closing-meta">Or&aacute;culo Tecnologia &middot; Diego Santos &middot; Agosto de 2026</div></div></div>
+<footer><span>Or&aacute;culo Tecnologia &copy; 2026</span><span>Fontes p&uacute;blicas coletadas em 13/08/2026 &middot; Instagram, Google, diret&oacute;rios jur&iacute;dicos e C&acirc;mara Municipal de Palho&ccedil;a</span></footer>
+<script>
+(() => {
+  const ink='#1b2e73', primary='#1d4ed8', soft='#b3c0ea', rule='#dfe1ec', good='#15803d', purple='#6d28d9';
+  Chart.defaults.font.family="'Bricolage Grotesque', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif";
+  Chart.defaults.color='#6b7186';
+  Chart.defaults.plugins.legend.labels.usePointStyle=true;
+  Chart.defaults.plugins.legend.labels.boxWidth=7;
+  const grid={color:'#ebedf4'};
+  const pct=v=>v.toFixed(2)+'%';
+  new Chart(document.getElementById('chartBenchmark'),{type:'bar',data:{labels:['@advdiegosantos · 2.886','@debemesantos · 1.923','@oabpalhoca · 5.456','@patriciadallavecchiaadv · 11.150','@advocacia.bublitz · 27.167'],datasets:[{label:'Engajamento nos últimos 12 posts (%)',data:[3.37,4.719,1.136,0.804,0.53],backgroundColor:[ink,soft,soft,soft,soft],borderRadius:2}]},options:{responsive:true,maintainAspectRatio:false,indexAxis:'y',plugins:{legend:{display:false},title:{display:true,text:'Engajamento por perfil jurídico da praça · coleta de 13/08/2026'},tooltip:{callbacks:{label:c=>pct(c.parsed.x)}}},scales:{x:{grid,beginAtZero:true,ticks:{callback:v=>v+'%'}},y:{grid:{display:false},ticks:{font:{size:10}}}}}});
+  new Chart(document.getElementById('chartTemas'),{type:'bar',data:{labels:['Escritório','OAB e advocacia','Vida pública','Família e fé','Autoridade técnica'],datasets:[{label:'Engajamento (%)',data:[5.381,3.772,3.361,3.177,2.968],backgroundColor:[ink,primary,soft,soft,soft],borderRadius:2,yAxisID:'y'},{label:'Publicações',type:'line',data:[13,21,3,70,6],borderColor:purple,backgroundColor:purple,pointRadius:3,tension:.25,yAxisID:'y1'}]},options:{responsive:true,maintainAspectRatio:false,plugins:{title:{display:true,text:'Engajamento por tema e volume publicado · 113 posts'}},scales:{y:{beginAtZero:true,grid,ticks:{callback:v=>v.toFixed(1)+'%'},title:{display:true,text:'Engajamento'}},y1:{position:'right',beginAtZero:true,grid:{display:false},title:{display:true,text:'Posts'}},x:{grid:{display:false}}}}});
+  new Chart(document.getElementById('chartFormatos'),{type:'bar',data:{labels:['Carrossel','Reel','Imagem'],datasets:[{label:'Engajamento (%)',data:[5.131,3.834,2.289],backgroundColor:[ink,primary,soft],borderRadius:2}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false},title:{display:true,text:'Engajamento por formato · histórico integral'},tooltip:{callbacks:{label:c=>pct(c.parsed.y)}}},scales:{y:{beginAtZero:true,grid,ticks:{callback:v=>v.toFixed(1)+'%'}},x:{grid:{display:false}}}}});
+  new Chart(document.getElementById('chartCadencia'),{type:'bar',data:{labels:['2019','2020','2021','2022','2023','2024','2025','2026'],datasets:[{label:'Publicações no ano',data:[5,5,5,6,6,9,28,35],backgroundColor:[soft,soft,soft,soft,soft,soft,primary,ink],borderRadius:2}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false},title:{display:true,text:'Publicações por ano · 2026 até agosto'}},scales:{y:{beginAtZero:true,grid},x:{grid:{display:false}}}}});
+  new Chart(document.getElementById('chartMix'),{type:'doughnut',data:{labels:['Reel · 47','Imagem · 42','Carrossel · 24'],datasets:[{data:[47,42,24],backgroundColor:[ink,soft,primary],borderColor:'#fff',borderWidth:3}]},options:{responsive:true,maintainAspectRatio:false,cutout:'64%',plugins:{title:{display:true,text:'Mix de formatos · 113 publicações'}}}});
+  new Chart(document.getElementById('chartComparativo'),{type:'bar',data:{labels:['Seguidores (centenas)','Engajamento (%)','Link na bio','Botão de contato'],datasets:[{label:'@advdiegosantos',data:[28.9,3.37,0,0],backgroundColor:ink},{label:'@debemesantos',data:[19.2,1.61,1,1],backgroundColor:soft}]},options:{responsive:true,maintainAspectRatio:false,plugins:{title:{display:true,text:'Perfil pessoal e perfil do escritório · engajamento do escritório sem colaborações'},tooltip:{callbacks:{label:c=>{const i=c.dataIndex;if(i===0)return c.dataset.label+': '+Math.round(c.parsed.y*100).toLocaleString('pt-BR')+' seguidores';if(i===1)return c.dataset.label+': '+pct(c.parsed.y);return c.dataset.label+': '+(c.parsed.y?'sim':'não')}}}},scales:{y:{beginAtZero:true,grid},x:{grid:{display:false}}}}});
+  new Chart(document.getElementById('chartRadar'),{type:'radar',data:{labels:['Audiência','Cadência','Posicionamento','Conteúdo técnico','Autoridade em busca','Conversão'],datasets:[{label:'Diego Santos hoje',data:[7.8,5.5,3.0,2.0,1.2,0.8],borderColor:ink,backgroundColor:'rgba(27,46,115,.14)',pointBackgroundColor:ink},{label:'Meta em 180 dias',data:[8.5,8.0,8.0,7.0,6.5,7.5],borderColor:primary,backgroundColor:'rgba(29,78,216,.08)',pointBackgroundColor:primary}]},options:{responsive:true,maintainAspectRatio:false,plugins:{title:{display:true,text:'Perfil de prontidão digital · situação atual e meta do plano'}},scales:{r:{beginAtZero:true,max:10,ticks:{display:false},grid:{color:rule},angleLines:{color:rule}}}}});
+  new Chart(document.getElementById('chartScore'),{type:'doughnut',data:{labels:['Prontidão atual','Espaço de implantação'],datasets:[{data:[3.5,6.5],backgroundColor:[ink,rule],borderWidth:0}]},options:{responsive:true,maintainAspectRatio:false,cutout:'72%',plugins:{legend:{position:'bottom'},title:{display:true,text:'Prontidão digital · 3,5 de 10'}}}});
+  const links=[...document.querySelectorAll('.nav a')];
+  const sections=links.map(a=>document.querySelector(a.getAttribute('href'))).filter(Boolean);
+  const observer=new IntersectionObserver(entries=>{entries.forEach(entry=>{if(entry.isIntersecting){links.forEach(a=>a.classList.toggle('active',a.getAttribute('href')==='#'+entry.target.id));}})},{rootMargin:'-25% 0px -65% 0px'});
+  sections.forEach(s=>observer.observe(s));
+  window.addEventListener('beforeprint',()=>document.querySelectorAll('details.proof').forEach(d=>d.open=true));
+})();
+</script>
+</body>
+</html>
