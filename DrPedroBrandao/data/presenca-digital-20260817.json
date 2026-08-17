@@ -1,0 +1,99 @@
+{
+  "coletaData": "2026-08-17",
+  "coletaAnterior": "2026-08-06",
+  "instagram": {
+    "handle": "drpedrobrandaocp",
+    "uid": "3569507855",
+    "followers": 15052,
+    "following": 278,
+    "media_count": 357,
+    "is_verified": false,
+    "category": "Saúde/beleza",
+    "business_contact_method": "CALL",
+    "has_whatsapp_field": false,
+    "cta_enabled": false,
+    "external_url": "https://linktr.ee/drpedrobrandao",
+    "bio": "▪️Há mais de uma década realizando sonhos\n▪️Especialista em contorno corporal e face\n▪️CRM-DF 15.499/ RQE 14.130",
+    "seguidores_06_08": 16414,
+    "variacao_seguidores": -1362,
+    "variacao_seguidores_pct": -8.3,
+    "hiatos": [
+      {"dias": 434, "de": "2024-05-10", "ate": "2025-07-18"},
+      {"dias": 116, "de": "2025-07-18", "ate": "2025-11-11"}
+    ],
+    "faseAnterior": {"count": 105, "de": "2022-12-07", "ate": "2024-05-10", "er": 0.432},
+    "faseAtual": {"count": 41, "de": "2025-11-11", "ate": "2026-08-13", "er": 0.831, "likes": 4834, "comments": 294, "plays": 1358391},
+    "mixFaseAtual": {"reels": 34, "carrosseis": 7, "imagens": 0},
+    "erPorFormato": {"reels": 0.96, "carrosseis": 0.205, "imagens": null},
+    "reelsDuracao": {
+      "acima35s": {"count": 24, "medianaPlays": 15074.5},
+      "ate35s": {"count": 10, "medianaPlays": 4938}
+    },
+    "hashtagMarca": {
+      "#pedrobrandãocp": 31, "#pedrobrandaocp": 6, "#drpedrobrandão": 4,
+      "#drpedrobrandaocp": 1, "#drpesrobtandocp": 1, "#drpedrobrandao": 1, "#clinicapedrobrandao": 1,
+      "totalVariantes": 7, "totalVariantes_06_08": 5
+    },
+    "cta": {"comCTA": 19, "total": 41, "pct": 46.3, "comWhatsApp": 0},
+    "weekday_dom_seg_ter_qua_qui_sex_sab": [0, 9, 4, 9, 5, 11, 3],
+    "topMencoes": [["drmariosoares", 8], ["dra.marciamoreira", 8], ["mmbmoreira", 6], ["danielasousa.fisio", 5], ["drpedrobrandaocp", 4], ["enfjoycecampos", 4], ["drfrancisteixeira", 3], ["popofreitas", 3]],
+    "temas": {
+      "Segurança/técnica/pós-op": {"n": 19, "er": 1.066},
+      "Mama": {"n": 8, "er": 1.286},
+      "Face/rinoplastia/papada": {"n": 3, "er": 1.005},
+      "Abdômen/lipo": {"n": 3, "er": 1.134},
+      "Autoestima/motivacional": {"n": 18, "er": 0.914}
+    },
+    "topPostsPorPlays": [
+      {"data": "2025-12-26", "plays": 248277, "likes": 645, "comments": 49},
+      {"data": "2026-04-15", "plays": 173912, "likes": 462, "comments": 33},
+      {"data": "2026-05-07", "plays": 148689, "likes": 429, "comments": 19},
+      {"data": "2026-02-18", "plays": 142731, "likes": 372, "comments": 21},
+      {"data": "2026-06-08", "plays": 111691, "likes": 529, "comments": 52},
+      {"data": "2026-06-29", "plays": 109836, "likes": 320, "comments": 4},
+      {"data": "2026-01-07", "plays": 84245, "likes": 77, "comments": 4}
+    ]
+  },
+  "google": {
+    "buscaEspecialidade": "cirurgião plástico Brasília",
+    "posicaoNaPrimeiraPagina": 0,
+    "localPack": [
+      {"pos": 1, "nome": "CPlástica Brasília", "nota": 4.9, "avaliacoes": 199},
+      {"pos": 2, "nome": "Dra. Thamara Vasconcelos", "nota": 5.0, "avaliacoes": 21, "avaliacoes_06_08": 19},
+      {"pos": 3, "nome": "Dr. Silvio Mesquita", "nota": 5.0, "avaliacoes": 150, "novo_no_pacote_local": true}
+    ],
+    "obs_ricardo_rezende": "Ainda aparece no mapa mas saiu do top 3 exibido em texto",
+    "fichaPedro": {
+      "nome": "Clínica Cirurgia Plástica Dr. Pedro Brandão",
+      "categoria": "Médico",
+      "categoriaCorreta": "Cirurgião plástico",
+      "nota": 5.0,
+      "avaliacoes": 18,
+      "avaliacoes_06_08": 17,
+      "siteVinculado": false,
+      "novoLinkReservarWhatsApp": "https://api.whatsapp.com/send?phone=5561985317460&text=...",
+      "novoLinkReservarWhatsApp_obs": "Ausente em 06/08/2026, presente em 17/08/2026 — sinal de gestão ativa da ficha desde a última auditoria",
+      "fotosDoProprietario": true
+    },
+    "concorrentesGoogle": {
+      "dr.andrejardim": {"nota": 5.0, "avaliacoes": 178, "avaliacoes_06_08": 177, "categoria": "Cirurgião plástico"},
+      "drfernandomarinho": {"nota": 5.0, "avaliacoes": 11, "categoria": "Cirurgião plástico"}
+    }
+  },
+  "site": {
+    "dominioRaiz": {"url": "https://drpedrobrandao.com.br", "status": 200, "bytes": 1963, "titulo": "Coming Soon", "sitemap_status": 404},
+    "landingPage": {"url": "https://l.drpedrobrandao.com.br", "status": 200, "bytes": 464877, "titulo": "Cirurgião Plástico em Brasília – Dr. Pedro Brandão | CRM 15499", "og_title_errado": "Irradie a luz dos seus sonhos e autoestima por meio do seu templo", "meta_description": "presente e adequada"}
+  },
+  "diretorios": {
+    "facebook": {"seguidores": "~2,1 mil", "seguidores_06_08": 2064, "recomendacao": "100%"},
+    "linkedin": {"seguidores": "510+", "obs": "Existe um homônimo 'Pedro Brandao - Plastic Surgeon' com 3,1 mil seguidores e formação em Uberlândia/UT Southwestern, perfil diferente do cliente — não confundir"},
+    "doctoralia": {"avaliacoes": 2, "categoria": "Cirurgião plástico", "ultimaAvaliacao": "2022-08-26"},
+    "youtube": {"videos": 1, "views": 11, "publicado": "há 2 anos", "canalAtivo": false},
+    "tiktok": {"perfilEncontrado": false}
+  },
+  "concorrentesInstagram": {
+    "dr.andrejardim": {"uid": "50253062", "followers": 51181, "media_count": 528, "verified": true, "postsDesde01_11": 93, "er": 0.68, "er_06_08": 0.732, "medianaPlaysReel": 7315, "medianaPlaysReel_06_08": 9280},
+    "drfernandomarinho": {"uid": "15917094", "followers": 60115, "media_count": 291, "verified": true, "postsDesde01_11": 29, "er": 1.949, "er_06_08": 1.612, "medianaPlaysReel": 22268, "medianaPlaysReel_06_08": 19902},
+    "cplasticabrasilia": {"uid": "2106694377", "followers": 219983, "media_count": 2997, "verified": true, "postsDesde01_11": 118, "er": 0.11, "er_06_08": 0.095, "medianaPlaysReel": 10407, "medianaPlaysReel_06_08": 5981}
+  }
+}
