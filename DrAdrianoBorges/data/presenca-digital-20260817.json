@@ -1,0 +1,130 @@
+{
+  "coletadoEm": "2026-08-17",
+  "cliente": {
+    "nome": "Dr. Adriano Borges",
+    "crm": "CRM-DF 16513",
+    "rqe": "RQE 15481 / RQE 15482",
+    "especialidade": "Cirurgião plástico, especialista em Deep Plane Facelift e cirurgia craniofacial (fellowship USP, único filiado à ABCCMF em Brasília)",
+    "cidade": "Brasília/DF"
+  },
+  "instagram": {
+    "handle": "dr.adrianoborges",
+    "uid": "6684634153",
+    "seguidores": 19900,
+    "seguindo": 2108,
+    "publicacoesTotal": 269,
+    "amostraColetada": 268,
+    "verificado": true,
+    "businessContactMethod": "CALL",
+    "ctaAtivado": false,
+    "primeiroPost": "2017-12-09",
+    "ultimoPost": "2026-08-13",
+    "destaques": ["Implante facial","Lifting Facial","Mommy Makeover","Quem sou eu?","Perguntas","Mamoplastia","Cola cirúrgica","Blefaroplastia","Prótese- formas","Expectativas"],
+    "faseAtual": {
+      "desde": "2025-09-01",
+      "posts": 86,
+      "engajamentoPct": 0.503,
+      "mixFormatos": {"reel": 58, "carrossel": 19, "imagem": 9},
+      "erPorFormato": {"reel": 0.619, "carrossel": 0.256, "imagem": 0.271},
+      "medianaPlaysReel": 3065
+    },
+    "tendenciaEngajamento": [
+      {"periodo": "2025-09 a 2026-04", "posts": 31, "engajamentoPct": 0.659, "leitura": "cadência baixa, 1 a 7 posts/mês"},
+      {"periodo": "2026-05 a 2026-08", "posts": 55, "engajamentoPct": 0.415, "leitura": "cadência alta, 14 a 19 posts/mês"},
+      {"periodo": "últimos 12 posts (2026-07-16 a 2026-08-13)", "posts": 12, "engajamentoPct": 0.174, "leitura": "pior recorte da amostra"}
+    ],
+    "cadenciaMensal": {"2025-09":5,"2025-10":6,"2025-11":5,"2025-12":2,"2026-01":3,"2026-02":1,"2026-03":7,"2026-04":2,"2026-05":16,"2026-06":19,"2026-07":14,"2026-08":6},
+    "hashtagMarca": {"tag": "#dradrianoborges", "usos": 18, "fragmentada": false},
+    "topHashtagsFaseAtual": [["#dradrianoborges",18],["#cirurgiaplastica",17],["#facelift",12],["#deepneck",7],["#frontoplastia",7],["#mentoplastia",6],["#rinoplastia",5]],
+    "ctaPctFaseAtual": 52.3,
+    "distribuicaoDiaSemana": {"domingo":4,"segunda":18,"terca":13,"quarta":16,"quinta":19,"sexta":15,"sabado":1},
+    "distribuicaoHorario": {"manha":43,"tarde":14,"noite":29,"madrugada":0},
+    "linktree": {
+      "url": "linktr.ee/dr.adrianoborges",
+      "linksReais": ["dradrianoborges.com.br/ig", "agendaragora.online/r/agendamentodradrianoborges (agendamento real)", "Google Maps (endereço)", "matéria patrocinada O Globo/Dino, mai/2025"],
+      "ofertasAfiliadosNaoRelacionadas": "aprox. 25 (Hulu, HelloFresh, Curology, Fabletics, Headspace, Ritual, etc., injetadas pelo plano gratuito do Linktree)"
+    }
+  },
+  "site": {
+    "dominio": "dradrianoborges.com.br",
+    "cms": "WordPress",
+    "httpStatus": 200,
+    "ttfbSegundos": 0.70,
+    "tempoTotalSegundos": 0.99,
+    "tamanhoBytes": 251579,
+    "h1": 1,
+    "metaDescription": false,
+    "openGraph": false,
+    "jsonLdMedico": false,
+    "ga4": "G-V48TBKWTSD",
+    "gtm": true,
+    "pixelMeta": false,
+    "whatsappNoHtml": "wa.me/5561995055947",
+    "sitemap": "https://dradrianoborges.com.br/wp-sitemap.xml",
+    "paginasReais": ["/", "/confirmacao/", "/politica-de-privacidade/", "/ig/"],
+    "residuoWordpressPadrao": ["hello-world (post padrão ainda publicado)", "category/uncategorized"]
+  },
+  "google": {
+    "buscaEspecialidade": {
+      "query": "cirurgião plástico facelift Brasília",
+      "pacoteLocal": [
+        {"nome": "Dra. Thamara Vasconcelos", "nota": 5.0, "avaliacoes": 21},
+        {"nome": "Dr. Ricardo Rezende", "nota": 4.9, "avaliacoes": 32},
+        {"nome": "Dr. Sérgio Morum", "nota": 4.9, "avaliacoes": 159},
+        {"nome": "Dr. Victor Hugo Cordeiro", "nota": 5.0, "avaliacoes": 18, "tipo": "patrocinado"}
+      ],
+      "adrianoBorgesNoPacoteLocal": false,
+      "siteProprioOrganico": true
+    },
+    "buscaMarca": {
+      "query": "Dr Adriano Borges cirurgião plástico Brasília",
+      "primeiroResultadoOrganico": "dradrianoborges.com.br"
+    },
+    "fichasFragmentadas": [
+      {"nome": "Dr. Adriano Borges - Cirurgião Plástico de Brasília", "categoria": "Médico", "nota": 4.8, "avaliacoes": 29, "endereco": "SGAS 610, Centro Médico Lucio Costa, Bloco 1 Sala 129", "telefone": "(61) 99505-5947", "temSite": true},
+      {"nome": "DR. ADRIANO BORGES CIRURGIA PLÁSTICADR", "categoria": "Cirurgião plástico", "nota": null, "avaliacoes": 0, "endereco": "St. de Habitações Individuais Sul QI 5, ICL Bloco E", "telefone": "(61) 3364-3300", "temSite": true},
+      {"nome": "Dr. Adriano Evangelista Borges, Cirurgião plástico", "categoria": "Cirurgião plástico", "nota": null, "avaliacoes": 0, "endereco": "SDN Conjunto Nacional, Torre Vermelha, Sala 5042", "temSite": true}
+    ]
+  },
+  "diretorios": {
+    "doctoralia": {"avaliacoes": 18, "notaGeral": "alta, todas positivas", "ultimaAvaliacao": "2021-11-30", "agendamentoOnline": false},
+    "facebook": {"nome": "Dr Adriano Borges | Brasília DF", "handle": "dradrianoborgescpl", "seguidores": 1443, "categoriaCorreta": true, "ativo": true, "ultimoPostObservado": "há poucos dias (17/08/2026)"},
+    "linkedin": {"encontrado": false},
+    "youtube": {"encontrado": false},
+    "tiktok": {"encontrado": false},
+    "imprensa": [
+      {"veiculo": "Jornal Nacional", "data": "2022-04", "tipo": "editorial (cobertura de atendimento de trauma no Hospital de Base)"},
+      {"veiculo": "O Globo (via Dino)", "data": "2025-05-14", "tipo": "conteúdo patrocinado sobre cirurgia facial", "url": "https://oglobo.globo.com/patrocinado/dino/noticia/2025/05/14/avancos-tornam-cirurgia-facial-mais-segura-e-eficaz.ghtml"}
+    ]
+  },
+  "concorrentes": [
+    {
+      "handle": "drricardocintra", "uid": "259847495", "seguidores": 52864, "publicacoesTotal": 652, "verificado": true,
+      "janelaComparavel": {"desde": "2025-08-25", "posts": 71, "engajamentoPct": 0.072, "medianaPlaysReel": 16316},
+      "site": "doutorricardocintra.com.br (anúncio pago no Google)", "bio": "Endoscopic Deep Plane Facelift, Expert Facial Rejuvenation, Founder @instituto.cintra, Lago Sul - Brasília"
+    },
+    {
+      "handle": "dr.andrejardim", "uid": "50253062", "seguidores": 51181, "publicacoesTotal": 529, "verificado": true,
+      "janelaComparavel": {"desde": "2025-07-14", "posts": 69, "engajamentoPct": 0.636, "medianaPlaysReel": 7332},
+      "site": "drandrejardim.com.br", "bio": "Referência em Lipoescultura & Lifting Facial, Deep Plane, Deep Neck, Endomidface"
+    },
+    {
+      "handle": "drtristaomauricio", "uid": "52952159", "seguidores": 96714, "publicacoesTotal": 1043, "verificado": true,
+      "janelaComparavel": {"desde": "2026-01-22", "ate": "2026-08-17", "posts": 130, "engajamentoPct": 0.358, "medianaPlaysReel": 6868, "observacao": "janela mais curta que os demais por cadência muito alta (~18,5 posts/mês)"},
+      "site": "drtristaomauricio.com", "bio": "Cirurgião Plástico, Deep Plane Facelift, CRM-DF 24573"
+    }
+  ],
+  "notaGeral": {
+    "valor": 4.3,
+    "escala": 10,
+    "pilares": {"instagram": 6.2, "cadencia": 4.3, "reputacaoEDiretorios": 3.8, "conversao": 3.4, "siteProprio": 4.2, "google": 3.0}
+  },
+  "fontes": [
+    "Instagram @dr.adrianoborges, API interna (x-ig-app-id), sessão autenticada, coleta 17/08/2026",
+    "Instagram @drricardocintra, @dr.andrejardim, @drtristaomauricio, mesma API, coleta 17/08/2026",
+    "Google Search (google.com/search?hl=pt-BR&gl=br) e Google Maps, coleta 17/08/2026",
+    "dradrianoborges.com.br via curl direto (headers, HTML, sitemap, robots.txt)",
+    "linktr.ee/dr.adrianoborges via curl e parsing do __NEXT_DATA__",
+    "Doctoralia e Facebook via navegação direta"
+  ]
+}
