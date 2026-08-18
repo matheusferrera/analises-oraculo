@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8"/>
+<title>Banner OG · Plano Natália Rinco</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous"/>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&amp;family=Petrona:ital,wght@0,400..700;1,400..600&amp;display=swap"/>
+<style>
+  *{margin:0;padding:0;box-sizing:border-box}
+  html,body{width:1200px;height:630px;overflow:hidden}
+  body{
+    font-family:'Bricolage Grotesque',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+    background:#0f1c48;
+    color:#fff;
+    display:flex;align-items:center;
+    position:relative;
+  }
+  body::before{
+    content:'';position:absolute;inset:0;
+    background:radial-gradient(120% 90% at 88% 12%, rgba(29,78,216,.55) 0%, rgba(15,28,72,0) 62%);
+  }
+  body::after{
+    content:'';position:absolute;right:-140px;bottom:-190px;
+    width:560px;height:560px;border-radius:50%;
+    border:1px solid rgba(179,192,234,.22);
+  }
+  .wrap{position:relative;padding:0 78px;max-width:1010px}
+  .mark{
+    font-size:15px;letter-spacing:.16em;text-transform:uppercase;
+    color:#b3c0ea;font-weight:600;margin-bottom:30px;
+    display:flex;align-items:center;gap:13px;
+  }
+  .mark span{width:34px;height:2px;background:#1d4ed8;display:inline-block}
+  h1{
+    font-family:'Petrona',Georgia,serif;
+    font-size:56px;line-height:1.1;font-weight:600;letter-spacing:-.015em;
+  }
+  h1 em{font-style:italic;color:#b3c0ea;display:block;margin-top:9px}
+  .rule{width:74px;height:3px;background:#1d4ed8;margin:34px 0 26px}
+  .foot{display:flex;gap:30px;align-items:baseline;font-size:17px;color:#c3cbe6}
+  .foot b{color:#fff;font-weight:600}
+  .foot .sep{color:#4a5c96}
+  .badge{
+    position:absolute;top:52px;right:78px;
+    border:1px solid rgba(179,192,234,.35);border-radius:999px;
+    padding:9px 20px;font-size:14px;letter-spacing:.05em;color:#cfd7ee;font-weight:600;
+  }
+</style>
+</head>
+<body>
+  <div class="badge">PSB 4055 · Goiás</div>
+  <div class="wrap">
+    <div class="mark"><span></span>Oráculo Tecnologia · Plano de execução até o primeiro turno</div>
+    <h1>São 47 dias até a urna.<em>E só 44 aceitam impulsionamento.</em></h1>
+    <div class="rule"></div>
+    <div class="foot">
+      <span><b>Natália Rinco</b></span>
+      <span class="sep">·</span>
+      <span>Plano de 5 fases · meta de 10.773 votos</span>
+      <span class="sep">·</span>
+      <span>18/08 a 04/10 de 2026</span>
+    </div>
+  </div>
+</body>
+</html>

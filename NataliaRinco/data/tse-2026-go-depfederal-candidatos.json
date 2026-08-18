@@ -1,0 +1,2572 @@
+[
+  {
+    "id": 90002547139,
+    "urna": "AAVA SANTIAGO",
+    "nome": "AAVA SANTIAGO AGUIAR",
+    "num": 4040,
+    "partido": "PSB",
+    "coligacao": "PSB",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002547092,
+    "urna": "ADAIR HENRIQUES VOVÔ DO JEEP",
+    "nome": "ADAIR HENRIQUES DA SILVA",
+    "num": 4545,
+    "partido": "PSDB",
+    "coligacao": "FEDERAÇÃO PSDB CIDADANIA(PSDB/CIDADANIA)",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002547403,
+    "urna": "ADEDY SANTANA",
+    "nome": "ADEDY DE SOUSA ALVES SANTANA",
+    "num": 4026,
+    "partido": "PSB",
+    "coligacao": "PSB",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002542612,
+    "urna": "ADÍLIA RORIZ",
+    "nome": "ADÍLIA RORIZ ORNELAS",
+    "num": 2280,
+    "partido": "PL",
+    "coligacao": "PL",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002550213,
+    "urna": "ADRIANO DA CASA DE APOIO",
+    "nome": "ADRIANO PEREIRA",
+    "num": 1201,
+    "partido": "PDT",
+    "coligacao": "PDT",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002543239,
+    "urna": "ADRIANO DO BALDY",
+    "nome": "ADRIANO ANTONIO AVELAR",
+    "num": 1111,
+    "partido": "PP",
+    "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(44-UNIÃO/11-PP)",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002547127,
+    "urna": "ALCILENA CARMO",
+    "nome": "ALCILENA DO CARMO SILVA",
+    "num": 4077,
+    "partido": "PSB",
+    "coligacao": "PSB",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002550205,
+    "urna": "ALESSANDRA CARMO",
+    "nome": "ALESSANDRA CARMO SOARES DOS SANTOS",
+    "num": 1292,
+    "partido": "PDT",
+    "coligacao": "PDT",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002547097,
+    "urna": "ALEXANDRE TOCANTINS",
+    "nome": "ALEXANDRE EDUARDO FELIPE TOCANTINS",
+    "num": 4522,
+    "partido": "PSDB",
+    "coligacao": "FEDERAÇÃO PSDB CIDADANIA(PSDB/CIDADANIA)",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002541703,
+    "urna": "ALINE LIMA",
+    "nome": "ALINE BERNARDO GOMES",
+    "num": 1428,
+    "partido": "MISSÃO",
+    "coligacao": "MISSÃO",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002551407,
+    "urna": "ALISSON BORGES",
+    "nome": "ALISSON SILVA BORGES",
+    "num": 2772,
+    "partido": "DC",
+    "coligacao": "DC",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002541701,
+    "urna": "ANASTÁCIA ALMEIDA",
+    "nome": "ANASTÁCIA ALMEIDA CAMPOS",
+    "num": 1472,
+    "partido": "MISSÃO",
+    "coligacao": "MISSÃO",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002541705,
+    "urna": "ANDER ALVES",
+    "nome": "ANDERSON ALVES DOS SANTOS",
+    "num": 1401,
+    "partido": "MISSÃO",
+    "coligacao": "MISSÃO",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002550209,
+    "urna": "ANDRE WALKER DA RÁDIO GARAVELO",
+    "nome": "WALDECY ANDRE DA SILVA",
+    "num": 1248,
+    "partido": "PDT",
+    "coligacao": "PDT",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002537636,
+    "urna": "ANGELITA DUARTE",
+    "nome": "ANGELITA DUARTE",
+    "num": 2045,
+    "partido": "PODE",
+    "coligacao": "PODE",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002543456,
+    "urna": "ANNA CLAUDIA DIAS",
+    "nome": "ANNA CLAUDIA DIAS MOURA",
+    "num": 5005,
+    "partido": "PSOL",
+    "coligacao": "FEDERAÇÃO PSOL REDE(PSOL/REDE)",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002547102,
+    "urna": "ARIANA FIDELIS",
+    "nome": "ARIANA FIDELIS ALVES SANTANA",
+    "num": 2345,
+    "partido": "CIDADANIA",
+    "coligacao": "FEDERAÇÃO PSDB CIDADANIA(PSDB/CIDADANIA)",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002551400,
+    "urna": "BAIANO DO PICOLÉ",
+    "nome": "GILMAR SOUZA DE ALMEIDA",
+    "num": 2788,
+    "partido": "DC",
+    "coligacao": "DC",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002543454,
+    "urna": "BARBARA BOMBOM",
+    "nome": "BARBARA BOMBOM ALVES DE OLIVEIRA",
+    "num": 5024,
+    "partido": "PSOL",
+    "coligacao": "FEDERAÇÃO PSOL REDE(PSOL/REDE)",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002543465,
+    "urna": "BETINHA DA LARANJA",
+    "nome": "MARIA ELIZABETE DO NASCIMENTO",
+    "num": 5550,
+    "partido": "PSD",
+    "coligacao": "PSD",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002543568,
+    "urna": "BILL GUERRA MOCHILINK",
+    "nome": "ACENIL GUERRA DA COSTA",
+    "num": 2580,
+    "partido": "PRD",
+    "coligacao": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA(25-PRD/77-SOLIDARIEDADE)",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002550540,
+    "urna": "BOMBEIRA LOUIZA",
+    "nome": "LOUIZA RAMIRO DA COSTA",
+    "num": 1593,
+    "partido": "MDB",
+    "coligacao": "MDB",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002543237,
+    "urna": "BRUNO PEIXOTO",
+    "nome": "BRUNNO REGIANY PEIXOTO PIMENTA",
+    "num": 4455,
+    "partido": "UNIÃO",
+    "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(44-UNIÃO/11-PP)",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002543567,
+    "urna": "CABO LORRANE",
+    "nome": "JENIFER LORRANE RIBEIRO MENDES",
+    "num": 2590,
+    "partido": "PRD",
+    "coligacao": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA(25-PRD/77-SOLIDARIEDADE)",
+    "situacao": "Renúncia",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002542622,
+    "urna": "CAMILA MONDARDO",
+    "nome": "ANDRESSA CAMILA BUSS MONDARDO",
+    "num": 2211,
+    "partido": "PL",
+    "coligacao": "PL",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002543244,
+    "urna": "CAMILA ROSA",
+    "nome": "CAMILA DA SILVA ROSA",
+    "num": 4450,
+    "partido": "UNIÃO",
+    "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(44-UNIÃO/11-PP)",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002543250,
+    "urna": "CAPITÃO RODOLDO SOUZA",
+    "nome": "RODOLFO DE SOUZA SILVA",
+    "num": 4422,
+    "partido": "UNIÃO",
+    "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(44-UNIÃO/11-PP)",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002548375,
+    "urna": "CARLIN DA OFICINA",
+    "nome": "CARLOS ROBERTO DE OLIVEIRA BRANQUINHO",
+    "num": 1040,
+    "partido": "REPUBLICANOS",
+    "coligacao": "REPUBLICANOS",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002551405,
+    "urna": "CARLOS BRANDAO",
+    "nome": "CARLOS CHAVES SOUZA",
+    "num": 2791,
+    "partido": "DC",
+    "coligacao": "DC",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002550217,
+    "urna": "CARLOS BRASIL",
+    "nome": "CARLOS ALBERTO GONCALVES",
+    "num": 1222,
+    "partido": "PDT",
+    "coligacao": "PDT",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002539145,
+    "urna": "CARLOS MARANHÃO",
+    "nome": "CARLOS HENRIQUE DA SILVA FERREIRA",
+    "num": 1378,
+    "partido": "PT",
+    "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(PT/PC do B/PV)",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002542615,
+    "urna": "CAROL MOLINARI",
+    "nome": "ANA CAROLINA CARVALHO ARAUJO SANTOS MOLINARI",
+    "num": 2232,
+    "partido": "PL",
+    "coligacao": "PL",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002551401,
+    "urna": "CATALÃO-ZIM",
+    "nome": "WELBER JOSE PEREIRA",
+    "num": 2700,
+    "partido": "DC",
+    "coligacao": "DC",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002539150,
+    "urna": "CATARINO SILVA",
+    "nome": "CATARINO JOSE DA SILVA",
+    "num": 1315,
+    "partido": "PT",
+    "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(PT/PC do B/PV)",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002543226,
+    "urna": "CÉLIO SILVEIRA",
+    "nome": "CELIO ANTONIO DA SILVEIRA",
+    "num": 1599,
+    "partido": "MDB",
+    "coligacao": "MDB",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002547107,
+    "urna": "CEPITA",
+    "nome": "MARCOS SANDER FAGUNDES",
+    "num": 4580,
+    "partido": "PSDB",
+    "coligacao": "FEDERAÇÃO PSDB CIDADANIA(PSDB/CIDADANIA)",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002543561,
+    "urna": "CHRISTOVAM MACHADO",
+    "nome": "CHRISTOVAM MACHADO DO ESPIRITO SANTO",
+    "num": 7755,
+    "partido": "SOLIDARIEDADE",
+    "coligacao": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA(25-PRD/77-SOLIDARIEDADE)",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002539146,
+    "urna": "CLAUDIA TRAJANO",
+    "nome": "ANTONIA CLAUDIA TRAJANO NASCIMENTO",
+    "num": 6513,
+    "partido": "PCDOB",
+    "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(PT/PC do B/PV)",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002547135,
+    "urna": "CLAUDIO MEIRELLES",
+    "nome": "CLAUDIO OLINTO MEIRELLES",
+    "num": 4045,
+    "partido": "PSB",
+    "coligacao": "PSB",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002543221,
+    "urna": "CORONEL BRAULIO",
+    "nome": "BRAULIO CANCADO FLORES",
+    "num": 1536,
+    "partido": "MDB",
+    "coligacao": "MDB",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002549181,
+    "urna": "CORONEL MAIA",
+    "nome": "MARCOS ROGÉRIO MAIA SILVA",
+    "num": 2000,
+    "partido": "PODE",
+    "coligacao": "PODE",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002543460,
+    "urna": "DAMIÃO DA MORADIA",
+    "nome": "DAMIAO SILVA DE OLIVEIRA",
+    "num": 1818,
+    "partido": "REDE",
+    "coligacao": "FEDERAÇÃO PSOL REDE(PSOL/REDE)",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002543473,
+    "urna": "DANIEL AGROBOM",
+    "nome": "DANIEL VIEIRA RAMOS",
+    "num": 5522,
+    "partido": "PSD",
+    "coligacao": "PSD",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002539158,
+    "urna": "DANIEL CAÇAPAVA",
+    "nome": "DANIEL RODRIGUES MARTINS FERREIRA",
+    "num": 1300,
+    "partido": "PT",
+    "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(PT/PC do B/PV)",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002540948,
+    "urna": "DANIEL SHAMAH",
+    "nome": "DANIEL DA SILVA SANTOS",
+    "num": 3045,
+    "partido": "NOVO",
+    "coligacao": "NOVO",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002548363,
+    "urna": "DANIELLE NAVA",
+    "nome": "DANIELLE PEREIRA NAVA",
+    "num": 1030,
+    "partido": "REPUBLICANOS",
+    "coligacao": "REPUBLICANOS",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002543569,
+    "urna": "DANILO FARIA",
+    "nome": "DANILO AVELINO DE FARIA",
+    "num": 7722,
+    "partido": "SOLIDARIEDADE",
+    "coligacao": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA(25-PRD/77-SOLIDARIEDADE)",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002539157,
+    "urna": "DELEGADA ADRIANA ACCORSI",
+    "nome": "ADRIANA SAUTHIER ACCORSI",
+    "num": 1331,
+    "partido": "PT",
+    "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(PT/PC do B/PV)",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002540944,
+    "urna": "DELEGADO HUMBERTO TEÓFILO",
+    "nome": "HUMBERTO TEÓFILO DE MENEZES NETO",
+    "num": 3011,
+    "partido": "NOVO",
+    "coligacao": "NOVO",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002543248,
+    "urna": "DELEGADO WALDIR",
+    "nome": "WALDIR SOARES DE OLIVEIRA",
+    "num": 4400,
+    "partido": "UNIÃO",
+    "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(44-UNIÃO/11-PP)",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002539148,
+    "urna": "DELÚBIO",
+    "nome": "DELUBIO SOARES DE CASTRO",
+    "num": 1390,
+    "partido": "PT",
+    "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(PT/PC do B/PV)",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002544115,
+    "urna": "DENES PEREIRA",
+    "nome": "DENES PEREIRA ALVES",
+    "num": 7777,
+    "partido": "SOLIDARIEDADE",
+    "coligacao": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA(25-PRD/77-SOLIDARIEDADE)",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002539160,
+    "urna": "DENISE SANTOS",
+    "nome": "DENISE SANTOS DE SOUZA",
+    "num": 4343,
+    "partido": "PV",
+    "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(PT/PC do B/PV)",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002551406,
+    "urna": "DOM VALDILEY",
+    "nome": "VALDILEY ABADIA DA SILVA",
+    "num": 2745,
+    "partido": "DC",
+    "coligacao": "DC",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002543229,
+    "urna": "DOMINGAS DA SAÚDE",
+    "nome": "DOMINGAS OLIVEIRA DE SOUSA",
+    "num": 1555,
+    "partido": "MDB",
+    "coligacao": "MDB",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002551415,
+    "urna": "DR PAULO DAHER",
+    "nome": "PAULO ROBERTO DAHER JUNIOR",
+    "num": 2727,
+    "partido": "DC",
+    "coligacao": "DC",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002541707,
+    "urna": "DR REILLER LOPES",
+    "nome": "REILLER LOPES DE SOUZA",
+    "num": 1433,
+    "partido": "MISSÃO",
+    "coligacao": "MISSÃO",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002544113,
+    "urna": "DR. ANTONIO",
+    "nome": "ANTONIO CARLOS CAETANO DE MORAES",
+    "num": 7799,
+    "partido": "SOLIDARIEDADE",
+    "coligacao": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA(25-PRD/77-SOLIDARIEDADE)",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002547138,
+    "urna": "DR. EZIZIO BARBOSA",
+    "nome": "EZIZIO ALVES BARBOSA",
+    "num": 4030,
+    "partido": "PSB",
+    "coligacao": "PSB",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002543471,
+    "urna": "DR. ISMAEL ALEXANDRINO",
+    "nome": "ISMAEL ALEXANDRINO JUNIOR",
+    "num": 5555,
+    "partido": "PSD",
+    "coligacao": "PSD",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002537639,
+    "urna": "DR. RICARDO CAIADO",
+    "nome": "RICARDO CAIADO VIANA FEITOSA",
+    "num": 2055,
+    "partido": "PODE",
+    "coligacao": "PODE",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002548366,
+    "urna": "DR. SAMUEL GEMUS",
+    "nome": "SAMUEL FAYAD GEMUS",
+    "num": 1000,
+    "partido": "REPUBLICANOS",
+    "coligacao": "REPUBLICANOS",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002542621,
+    "urna": "DR. WAGNER MIRANDA HOSP.CANCER",
+    "nome": "WAGNER MIRANDA",
+    "num": 2223,
+    "partido": "PL",
+    "coligacao": "PL",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002544114,
+    "urna": "DRA CRISTINA",
+    "nome": "CRISTINA LOPES AFONSO",
+    "num": 7710,
+    "partido": "SOLIDARIEDADE",
+    "coligacao": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA(25-PRD/77-SOLIDARIEDADE)",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002542619,
+    "urna": "DRA. ALESSANDRA JACOB",
+    "nome": "ALESSANDRA ROSE DE RESENDE JACOB",
+    "num": 2215,
+    "partido": "PL",
+    "coligacao": "PL",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002548369,
+    "urna": "DRA. ALINE LIMA",
+    "nome": "ALINE MARIA RODRIGUES DE LIMA",
+    "num": 1022,
+    "partido": "REPUBLICANOS",
+    "coligacao": "REPUBLICANOS",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002551413,
+    "urna": "DRA. FABRICIA SETTE",
+    "nome": "FABRICIA ROSA SETTE DE OLIVEIRA",
+    "num": 2707,
+    "partido": "DC",
+    "coligacao": "DC",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002547401,
+    "urna": "DRA. IVANE",
+    "nome": "IVANE CAMPOS MENDONÇA",
+    "num": 4004,
+    "partido": "PSB",
+    "coligacao": "PSB",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002543475,
+    "urna": "DRA. ZELI",
+    "nome": "ZELI FRITSCHE",
+    "num": 5566,
+    "partido": "PSD",
+    "coligacao": "PSD",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002539159,
+    "urna": "EDMOTOS",
+    "nome": "WEDER ANTONIO DA SILVA",
+    "num": 4333,
+    "partido": "PV",
+    "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(PT/PC do B/PV)",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002550212,
+    "urna": "EDSON CANDIDO",
+    "nome": "EDSON CANDIDO DE SOUZA",
+    "num": 1212,
+    "partido": "PDT",
+    "coligacao": "PDT",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002537393,
+    "urna": "ELAINE DA FLAGYN",
+    "nome": "ELAINE RODRIGUES SILVA",
+    "num": 2002,
+    "partido": "PODE",
+    "coligacao": "PODE",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002543572,
+    "urna": "ELIEL JUNIOR",
+    "nome": "ELIEL FLORES RORIZ JUNIOR",
+    "num": 7744,
+    "partido": "SOLIDARIEDADE",
+    "coligacao": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA(25-PRD/77-SOLIDARIEDADE)",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002547098,
+    "urna": "ELIETE PAIXÃO",
+    "nome": "ELIETE QUIRINO BARROS PAIXAO",
+    "num": 4577,
+    "partido": "PSDB",
+    "coligacao": "FEDERAÇÃO PSDB CIDADANIA(PSDB/CIDADANIA)",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002543224,
+    "urna": "ELISANGELA ARAUJO",
+    "nome": "ELISÂNGELA ARAÚJO DOS SANTOS",
+    "num": 1557,
+    "partido": "MDB",
+    "coligacao": "MDB",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002550206,
+    "urna": "ELISEU FRANCISCO",
+    "nome": "ELISEU FRANCISCO DA SILVA",
+    "num": 1203,
+    "partido": "PDT",
+    "coligacao": "PDT",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002551836,
+    "urna": "EMILY ELOÁ",
+    "nome": "EMILY ELOÁ DE ARAÚJO PEREIRA E PEREIRA",
+    "num": 8080,
+    "partido": "UP",
+    "coligacao": "UP",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002548368,
+    "urna": "EWERTON GARCIA",
+    "nome": "EWERTON CORTES GARCIA",
+    "num": 1080,
+    "partido": "REPUBLICANOS",
+    "coligacao": "REPUBLICANOS",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002542616,
+    "urna": "FÁBIO SOUSA",
+    "nome": "FABIO FERNANDES DE SOUSA",
+    "num": 2200,
+    "partido": "PL",
+    "coligacao": "PL",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002539161,
+    "urna": "FÁBIO TOKARSKI",
+    "nome": "FABIO TOKARSKI",
+    "num": 6565,
+    "partido": "PCDOB",
+    "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(PT/PC do B/PV)",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002549180,
+    "urna": "FABRÍCIO DA 44",
+    "nome": "FABRICIO MARQUES CHAVES",
+    "num": 2044,
+    "partido": "PODE",
+    "coligacao": "PODE",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002540934,
+    "urna": "FAGNER SKY",
+    "nome": "ELISSON FAGNER DE SOUZA LOPES",
+    "num": 3090,
+    "partido": "NOVO",
+    "coligacao": "NOVO",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002551835,
+    "urna": "FAUSTO ANDRÉ",
+    "nome": "FAUSTO ANDRE DE JESUS FILHO",
+    "num": 8000,
+    "partido": "UP",
+    "coligacao": "UP",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002547101,
+    "urna": "FELIPE CECÍLIO",
+    "nome": "FELIPE SOARES CECILIO",
+    "num": 4555,
+    "partido": "PSDB",
+    "coligacao": "FEDERAÇÃO PSDB CIDADANIA(PSDB/CIDADANIA)",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002543249,
+    "urna": "FELISBERTO TAVARES",
+    "nome": "FELISBERTO RODRIGUES TAVARES",
+    "num": 1155,
+    "partido": "PP",
+    "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(44-UNIÃO/11-PP)",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002547140,
+    "urna": "FELLIPE FONSECA",
+    "nome": "FELLIPE EDUARDO FARIA FONSECA",
+    "num": 4000,
+    "partido": "PSB",
+    "coligacao": "PSB",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002541698,
+    "urna": "FERNANDA BORGES",
+    "nome": "FERNANDA BORGES SILVEIRA LIMA",
+    "num": 1419,
+    "partido": "MISSÃO",
+    "coligacao": "MISSÃO",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002548377,
+    "urna": "FERNANDO CAOBRADOR",
+    "nome": "FERNANDO JOSE ROSA",
+    "num": 1088,
+    "partido": "REPUBLICANOS",
+    "coligacao": "REPUBLICANOS",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002543450,
+    "urna": "FERNANDO VIANA",
+    "nome": "FERNANDO VIANA COSTA",
+    "num": 5000,
+    "partido": "PSOL",
+    "coligacao": "FEDERAÇÃO PSOL REDE(PSOL/REDE)",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002548370,
+    "urna": "FERREIRA DO PORTAL NOTÍCIA",
+    "nome": "CLEUBER GOMES FERREIRA",
+    "num": 1072,
+    "partido": "REPUBLICANOS",
+    "coligacao": "REPUBLICANOS",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002547106,
+    "urna": "FLÁVIA DO MAGUITO",
+    "nome": "FLÁVIA MODESTO TELES",
+    "num": 4515,
+    "partido": "PSDB",
+    "coligacao": "FEDERAÇÃO PSDB CIDADANIA(PSDB/CIDADANIA)",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002543218,
+    "urna": "FLÁVIA MORAIS",
+    "nome": "FLAVIA CARREIRO ALBUQUERQUE MORAIS",
+    "num": 1515,
+    "partido": "MDB",
+    "coligacao": "MDB",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002539155,
+    "urna": "FLAVIANE SANTOS",
+    "nome": "FLAVIANE DOS SANTOS SILVA",
+    "num": 1399,
+    "partido": "PT",
+    "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(PT/PC do B/PV)",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002543461,
+    "urna": "FONTES LUCENA",
+    "nome": "ANTONIO LUCENA FONTES",
+    "num": 5077,
+    "partido": "PSOL",
+    "coligacao": "FEDERAÇÃO PSOL REDE(PSOL/REDE)",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002542618,
+    "urna": "FRED RODRIGUES",
+    "nome": "FREDERICO GUSTAVO RODRIGUES CUNHA",
+    "num": 2220,
+    "partido": "PL",
+    "coligacao": "PL",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002541702,
+    "urna": "GABRIEL MORSE MISSÃO",
+    "nome": "GABRIEL VERÍSSIMO CAETANO MORSE",
+    "num": 1477,
+    "partido": "MISSÃO",
+    "coligacao": "MISSÃO",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002540939,
+    "urna": "GABRIELA PUGLIESI",
+    "nome": "GABRIELA PUGLIESI FURTADO CALAÇA",
+    "num": 3003,
+    "partido": "NOVO",
+    "coligacao": "NOVO",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002537634,
+    "urna": "GABRIELA RODART",
+    "nome": "GABRIELA RODART LOPES",
+    "num": 2017,
+    "partido": "PODE",
+    "coligacao": "PODE",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002540935,
+    "urna": "GABRIELLA MACHADO",
+    "nome": "GABRIELLA SIQUEIRA DE SOUZA MACHADO",
+    "num": 3001,
+    "partido": "NOVO",
+    "coligacao": "NOVO",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002540933,
+    "urna": "GISELDA DA SAÚDE",
+    "nome": "GISELDA DA SILVA PEREIRA",
+    "num": 3000,
+    "partido": "NOVO",
+    "coligacao": "NOVO",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002537389,
+    "urna": "GISLAINE MAIA",
+    "nome": "GISLAINE SILVA MAIA FERREIRA",
+    "num": 2021,
+    "partido": "PODE",
+    "coligacao": "PODE",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002547105,
+    "urna": "GLAUCIA MELO",
+    "nome": "GLAUCIA APARECIDA FERNANDES DE MELO",
+    "num": 4546,
+    "partido": "PSDB",
+    "coligacao": "FEDERAÇÃO PSDB CIDADANIA(PSDB/CIDADANIA)",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002537390,
+    "urna": "GLAUSTIN DA FOKUS",
+    "nome": "GLAUSKSTON BATISTA RIOS",
+    "num": 2026,
+    "partido": "PODE",
+    "coligacao": "PODE",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002543228,
+    "urna": "GLEIMO MARTINS",
+    "nome": "GLEIMO MARTINS DOS ANJOS",
+    "num": 1530,
+    "partido": "MDB",
+    "coligacao": "MDB",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002541709,
+    "urna": "GUILHERME KHALIL",
+    "nome": "GUILHERME YUSIL MARIANO KHALIL",
+    "num": 1400,
+    "partido": "MISSÃO",
+    "coligacao": "MISSÃO",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002547133,
+    "urna": "HANSMULLER SALOME",
+    "nome": "HANSMULLER SALOME PEREIRA",
+    "num": 4013,
+    "partido": "PSB",
+    "coligacao": "PSB",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002547103,
+    "urna": "HENRIQUE ARANTES",
+    "nome": "HENRIQUE PAULISTA ARANTES",
+    "num": 4514,
+    "partido": "PSDB",
+    "coligacao": "FEDERAÇÃO PSDB CIDADANIA(PSDB/CIDADANIA)",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002542613,
+    "urna": "HENRIQUE VILELA",
+    "nome": "HENRIQUE VILELA DE OLIVEIRA NAVES",
+    "num": 2255,
+    "partido": "PL",
+    "coligacao": "PL",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002543457,
+    "urna": "HUMBERTO CHAVES",
+    "nome": "HUMBERTO RODRIGUES CHAVES",
+    "num": 5050,
+    "partido": "PSOL",
+    "coligacao": "FEDERAÇÃO PSOL REDE(PSOL/REDE)",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002537635,
+    "urna": "IGOR FRANCO",
+    "nome": "IGOR RECELLY FRANCO DE FREITAS",
+    "num": 2022,
+    "partido": "PODE",
+    "coligacao": "PODE",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002551408,
+    "urna": "IRMÃO RALFF ALERTA TOTAL",
+    "nome": "VALDILEI SENA",
+    "num": 2722,
+    "partido": "DC",
+    "coligacao": "DC",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002543468,
+    "urna": "ITAMAR BARRETO",
+    "nome": "ITAMAR SEBASTIAO BARRETO",
+    "num": 5567,
+    "partido": "PSD",
+    "coligacao": "PSD",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002547104,
+    "urna": "ITAMAR LEÃO",
+    "nome": "ITAMAR LEAO DO AMARAL",
+    "num": 4551,
+    "partido": "PSDB",
+    "coligacao": "FEDERAÇÃO PSDB CIDADANIA(PSDB/CIDADANIA)",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002544116,
+    "urna": "JAQUE MOURA",
+    "nome": "JAQUELINE SILVA MOURA",
+    "num": 2552,
+    "partido": "PRD",
+    "coligacao": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA(25-PRD/77-SOLIDARIEDADE)",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002547100,
+    "urna": "JEFERSON RODRIGUES",
+    "nome": "JEFERSON RODRIGUES LEMOS",
+    "num": 4556,
+    "partido": "PSDB",
+    "coligacao": "FEDERAÇÃO PSDB CIDADANIA(PSDB/CIDADANIA)",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002550208,
+    "urna": "JESSICA KAROLINE",
+    "nome": "JESSICA KAROLINE DO CARMO PEREIRA",
+    "num": 1219,
+    "partido": "PDT",
+    "coligacao": "PDT",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002541697,
+    "urna": "JHONE SANTOS",
+    "nome": "JHONE LENON SANTOS COTRIM",
+    "num": 1410,
+    "partido": "MISSÃO",
+    "coligacao": "MISSÃO",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002540936,
+    "urna": "JOÃO BATISTA",
+    "nome": "JOÃO BATISTA RIBEIRO DA SILVA",
+    "num": 3036,
+    "partido": "NOVO",
+    "coligacao": "NOVO",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002537640,
+    "urna": "JOÃO CAMPOS",
+    "nome": "JOAO CAMPOS DE ARAUJO",
+    "num": 2020,
+    "partido": "PODE",
+    "coligacao": "PODE",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002547095,
+    "urna": "JOÃO DA LUZ",
+    "nome": "JOAO CESAR ANTONIO PEREIRA",
+    "num": 2323,
+    "partido": "CIDADANIA",
+    "coligacao": "FEDERAÇÃO PSDB CIDADANIA(PSDB/CIDADANIA)",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002551416,
+    "urna": "JOÃO DADALTE",
+    "nome": "JOAO CARLOS DADALTE JUNIOR",
+    "num": 2730,
+    "partido": "DC",
+    "coligacao": "DC",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002541700,
+    "urna": "JOÃO NOLETO",
+    "nome": "JOAO VICTOR RIBEIRO NOLETO",
+    "num": 1414,
+    "partido": "MISSÃO",
+    "coligacao": "MISSÃO",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002543233,
+    "urna": "JOÃOZINHO GUIMARÃES",
+    "nome": "JOAO FERREIRA GUIMARAES",
+    "num": 1533,
+    "partido": "MDB",
+    "coligacao": "MDB",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002551402,
+    "urna": "JOELMA SILVA",
+    "nome": "JOELMA OLIVEIRA SILVA",
+    "num": 2789,
+    "partido": "DC",
+    "coligacao": "DC",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002542610,
+    "urna": "JORDANA FERREIRA",
+    "nome": "JORDANA APARECIDA SOUSA FERREIRA NEVES",
+    "num": 2212,
+    "partido": "PL",
+    "coligacao": "PL",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002543246,
+    "urna": "JOSE NELTO",
+    "nome": "JOSE NELTO LAGARES DAS MERCEZ",
+    "num": 4415,
+    "partido": "UNIÃO",
+    "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(44-UNIÃO/11-PP)",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002542609,
+    "urna": "JOSÉ OTÁVIO",
+    "nome": "JOSE OTAVIO CASTRO MORAIS",
+    "num": 2225,
+    "partido": "PL",
+    "coligacao": "PL",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002537392,
+    "urna": "JOSY FERRARI",
+    "nome": "JOSIANE DA SILVA FERREIRA BUENO",
+    "num": 2077,
+    "partido": "PODE",
+    "coligacao": "PODE",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002543563,
+    "urna": "JP ALMEIDINHA",
+    "nome": "JOÃO PEDRO ALMEIDA RIBEIRO",
+    "num": 7789,
+    "partido": "SOLIDARIEDADE",
+    "coligacao": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA(25-PRD/77-SOLIDARIEDADE)",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002551409,
+    "urna": "JUAREZ EXPLOSÃO",
+    "nome": "JUAREZ PEREIRA CARNEIRO",
+    "num": 2733,
+    "partido": "DC",
+    "coligacao": "DC",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002540937,
+    "urna": "JUIZ CUBAS",
+    "nome": "EDUARDO LUIZ ROCHA CUBAS",
+    "num": 3088,
+    "partido": "NOVO",
+    "coligacao": "NOVO",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002547128,
+    "urna": "JÚLIO BARRETO",
+    "nome": "JULIO CESAR BARRETO DE SOUSA",
+    "num": 4061,
+    "partido": "PSB",
+    "coligacao": "PSB",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002551404,
+    "urna": "JÚLIO CESAR",
+    "nome": "JULIO CESAR DA SERRA CAMPOS",
+    "num": 2711,
+    "partido": "DC",
+    "coligacao": "DC",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002548365,
+    "urna": "KELLY FERA",
+    "nome": "KELLY CRISTINA CONCEIÇÃO DA SILVA",
+    "num": 1060,
+    "partido": "REPUBLICANOS",
+    "coligacao": "REPUBLICANOS",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002540947,
+    "urna": "LAION",
+    "nome": "LAION YANAGU BARBOSA",
+    "num": 3012,
+    "partido": "NOVO",
+    "coligacao": "NOVO",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002548364,
+    "urna": "LÊDA BORGES",
+    "nome": "LEDA BORGES DE MOURA",
+    "num": 1020,
+    "partido": "REPUBLICANOS",
+    "coligacao": "REPUBLICANOS",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002537638,
+    "urna": "LEO MACHADO VERDADE",
+    "nome": "LEONE RESENDE MACHADO",
+    "num": 2027,
+    "partido": "PODE",
+    "coligacao": "PODE",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002547096,
+    "urna": "LEOZÃO",
+    "nome": "LEONARDO SILVA MENEZES",
+    "num": 4567,
+    "partido": "PSDB",
+    "coligacao": "FEDERAÇÃO PSDB CIDADANIA(PSDB/CIDADANIA)",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002550201,
+    "urna": "LETICIA DA LUZ",
+    "nome": "LETICIA BASILIO DE SOUZA DA LUZ",
+    "num": 1213,
+    "partido": "PDT",
+    "coligacao": "PDT",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002543458,
+    "urna": "LILIA MONTEIRO",
+    "nome": "LILIA DE FATIMA PENA MONTEIRO",
+    "num": 1810,
+    "partido": "REDE",
+    "coligacao": "FEDERAÇÃO PSOL REDE(PSOL/REDE)",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002543242,
+    "urna": "LILIANE COSTA",
+    "nome": "LILIANE DA COSTA MENDES",
+    "num": 4488,
+    "partido": "UNIÃO",
+    "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(44-UNIÃO/11-PP)",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002551414,
+    "urna": "LIS MARQUES",
+    "nome": "ELINES DA SILVA MARQUES",
+    "num": 2790,
+    "partido": "DC",
+    "coligacao": "DC",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002543565,
+    "urna": "LO FERREIRA",
+    "nome": "LORRAYNE FERREIRA DE PAULA",
+    "num": 2502,
+    "partido": "PRD",
+    "coligacao": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA(25-PRD/77-SOLIDARIEDADE)",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002547131,
+    "urna": "LORENA SILVA",
+    "nome": "LORENA MARIA SILVA",
+    "num": 4022,
+    "partido": "PSB",
+    "coligacao": "PSB",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002543245,
+    "urna": "LORRAYNE CASTRO",
+    "nome": "LORRAYNE DE FATIMA OLIVEIRA CASTRO",
+    "num": 4477,
+    "partido": "UNIÃO",
+    "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(44-UNIÃO/11-PP)",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002543241,
+    "urna": "LUANA RAIADO",
+    "nome": "LUANA DO PRADO ROCHA MELO",
+    "num": 1177,
+    "partido": "PP",
+    "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(44-UNIÃO/11-PP)",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002540946,
+    "urna": "LUCAS BRÁS",
+    "nome": "LUCAS BRAS DOS SANTOS",
+    "num": 3070,
+    "partido": "NOVO",
+    "coligacao": "NOVO",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002543566,
+    "urna": "LUCAS CALIL",
+    "nome": "LUCAS PINHEIRO BRANDAO CALIL",
+    "num": 2525,
+    "partido": "PRD",
+    "coligacao": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA(25-PRD/77-SOLIDARIEDADE)",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002543470,
+    "urna": "LUCAS DO VALE",
+    "nome": "LUCAS MARTINS DO VALE",
+    "num": 5544,
+    "partido": "PSD",
+    "coligacao": "PSD",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002543220,
+    "urna": "LUCAS VERGÍLIO",
+    "nome": "LUCAS DE CASTRO SANTOS",
+    "num": 1510,
+    "partido": "MDB",
+    "coligacao": "MDB",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002542614,
+    "urna": "LUCÉLIA RODRIGUES",
+    "nome": "LUCELIA RODRIGUES DA SILVA FERREIRA",
+    "num": 2210,
+    "partido": "PL",
+    "coligacao": "PL",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002537643,
+    "urna": "LUCIANA DA CULINÁRIA",
+    "nome": "LUCIANA CRISTINA SILVA FERREIRA DO SANTOS",
+    "num": 2033,
+    "partido": "PODE",
+    "coligacao": "PODE",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002540949,
+    "urna": "LUCIANO GUIMARÃES",
+    "nome": "LUCIANO JAYME GUIMARÃES",
+    "num": 3022,
+    "partido": "NOVO",
+    "coligacao": "NOVO",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002539152,
+    "urna": "MÃE ISABEL DE OXUM",
+    "nome": "ISABEL CRISTINE DIAS DOS SANTOS",
+    "num": 1307,
+    "partido": "PT",
+    "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(PT/PC do B/PV)",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002548854,
+    "urna": "MAELLA BETHÂNIA",
+    "nome": "MAELLA BETHÂNIA DE SOUSA LIMA",
+    "num": 1012,
+    "partido": "REPUBLICANOS",
+    "coligacao": "REPUBLICANOS",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002542624,
+    "urna": "MAGDA MOFATTO",
+    "nome": "MAGDA MOFATTO HON",
+    "num": 2222,
+    "partido": "PL",
+    "coligacao": "PL",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002543449,
+    "urna": "MAGNO CONSTANTINO",
+    "nome": "MAGNO HENRIQUE CONSTANTINO",
+    "num": 5015,
+    "partido": "PSOL",
+    "coligacao": "FEDERAÇÃO PSOL REDE(PSOL/REDE)",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002542626,
+    "urna": "MAJOR VITOR HUGO",
+    "nome": "VITOR HUGO DE ARAUJO ALMEIDA",
+    "num": 2201,
+    "partido": "PL",
+    "coligacao": "PL",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002539154,
+    "urna": "MAJU FERRARI",
+    "nome": "MARIA JULIA FERRARI DE ARAUJO",
+    "num": 1367,
+    "partido": "PT",
+    "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(PT/PC do B/PV)",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002540938,
+    "urna": "MANU PÁDUA",
+    "nome": "EMANUELE DE PADUA FARIA",
+    "num": 3010,
+    "partido": "NOVO",
+    "coligacao": "NOVO",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002540950,
+    "urna": "MARCELO PRADO",
+    "nome": "MARCELO PRADO",
+    "num": 3030,
+    "partido": "NOVO",
+    "coligacao": "NOVO",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002548372,
+    "urna": "MÁRCIA FOFA",
+    "nome": "MARCIA PIRES DE MORAIS",
+    "num": 1015,
+    "partido": "REPUBLICANOS",
+    "coligacao": "REPUBLICANOS",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002543452,
+    "urna": "MARIA VERÔNICA",
+    "nome": "MARIA VERÔNICA DA SILVA RIBEIRO",
+    "num": 5055,
+    "partido": "PSOL",
+    "coligacao": "FEDERAÇÃO PSOL REDE(PSOL/REDE)",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002548367,
+    "urna": "MARIANE STIVAL",
+    "nome": "MARIANE MORATO STIVAL BARRETO FONSECA",
+    "num": 1011,
+    "partido": "REPUBLICANOS",
+    "coligacao": "REPUBLICANOS",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002548376,
+    "urna": "MARUSSA BOLDRIN",
+    "nome": "MARUSSA CASSIA FAVARO BOLDRIN",
+    "num": 1055,
+    "partido": "REPUBLICANOS",
+    "coligacao": "REPUBLICANOS",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002551417,
+    "urna": "MAURICIO COMUNICATIVO LESTE",
+    "nome": "MAURICIO RICARDO DE SOUZA NETO",
+    "num": 2777,
+    "partido": "DC",
+    "coligacao": "DC",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002547132,
+    "urna": "MAX DA SAÚDE",
+    "nome": "MAX PAULINO DO NASCIMENTO",
+    "num": 4092,
+    "partido": "PSB",
+    "coligacao": "PSB",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002542620,
+    "urna": "MAYCON TOMBINI",
+    "nome": "MAYCON HENRIQUE TOMBINI",
+    "num": 2207,
+    "partido": "PL",
+    "coligacao": "PL",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002541706,
+    "urna": "MAYKEL CARVALHO",
+    "nome": "MAYKEL DE CARVALHO PASSOS",
+    "num": 1444,
+    "partido": "MISSÃO",
+    "coligacao": "MISSÃO",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002543223,
+    "urna": "MESTRE FRANCISCO TAEKWONDO",
+    "nome": "FRANCISCO DE ASSIS MAGALHAES DE SA JUNIOR",
+    "num": 1577,
+    "partido": "MDB",
+    "coligacao": "MDB",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002543225,
+    "urna": "MIRIÃ PIRES",
+    "nome": "MIRIÃ PIRES BARBOSA",
+    "num": 1517,
+    "partido": "MDB",
+    "coligacao": "MDB",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002550216,
+    "urna": "MISSIONÁRIA LUIZA",
+    "nome": "LUIZA APARECIDA DA CRUZ",
+    "num": 1221,
+    "partido": "PDT",
+    "coligacao": "PDT",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002543222,
+    "urna": "MIZAIR LEMES JR",
+    "nome": "MIZAIR JEFFERSON DA SILVA",
+    "num": 1500,
+    "partido": "MDB",
+    "coligacao": "MDB",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002541708,
+    "urna": "MÔNICA DE PAULA",
+    "nome": "MÔNICA DE PAULA RODRIGUES FERREIRA",
+    "num": 1488,
+    "partido": "MISSÃO",
+    "coligacao": "MISSÃO",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002551412,
+    "urna": "MÔNICA NASSER",
+    "nome": "MÔNICA SANTOS PENTEADO DAHER",
+    "num": 2780,
+    "partido": "DC",
+    "coligacao": "DC",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002548373,
+    "urna": "MORAES DA LANCHONETE",
+    "nome": "ELIO CABRAL DA SILVA",
+    "num": 1001,
+    "partido": "REPUBLICANOS",
+    "coligacao": "REPUBLICANOS",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002547134,
+    "urna": "MUCIO SANTANA",
+    "nome": "MUCIO SANTANA MARTINS",
+    "num": 4001,
+    "partido": "PSB",
+    "coligacao": "PSB",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002543232,
+    "urna": "NAILDE LIMA",
+    "nome": "NAILDE TEIXEIRA DE SOUZA E SILVA",
+    "num": 1588,
+    "partido": "MDB",
+    "coligacao": "MDB",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002547130,
+    "urna": "NATÁLIA RINCO",
+    "nome": "NATALIA BRAVIM RINCO",
+    "num": 4055,
+    "partido": "PSB",
+    "coligacao": "PSB",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002551410,
+    "urna": "NEIDE ALVES",
+    "nome": "GECINEIDE ALVES DE OLIVEIRA",
+    "num": 2710,
+    "partido": "DC",
+    "coligacao": "DC",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002543230,
+    "urna": "NICOLINA TIA NICOLA",
+    "nome": "NICOLINA MARIA DA COSTA PEREIRA",
+    "num": 1512,
+    "partido": "MDB",
+    "coligacao": "MDB",
+    "situacao": "Renúncia",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002547129,
+    "urna": "NIXON DAS CASINHAS",
+    "nome": "NIXON SOUZA LEITE",
+    "num": 4011,
+    "partido": "PSB",
+    "coligacao": "PSB",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002550204,
+    "urna": "ORLANDO ALVES",
+    "nome": "ORLANDO ALVES DE ALMEIDA",
+    "num": 1245,
+    "partido": "PDT",
+    "coligacao": "PDT",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002547099,
+    "urna": "OSMAR LISBOA",
+    "nome": "OSMAR DA CONCEICAO LISBOA",
+    "num": 4512,
+    "partido": "PSDB",
+    "coligacao": "FEDERAÇÃO PSDB CIDADANIA(PSDB/CIDADANIA)",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002541699,
+    "urna": "OZEIAS SOARES",
+    "nome": "OZEIAS SOARES DA SILVA",
+    "num": 1455,
+    "partido": "MISSÃO",
+    "coligacao": "MISSÃO",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002550211,
+    "urna": "PADRE ROBERTO",
+    "nome": "ROBERTO JOSE DA SILVA",
+    "num": 1230,
+    "partido": "PDT",
+    "coligacao": "PDT",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002543217,
+    "urna": "PAPACAPIM",
+    "nome": "CLAUDIO DOS SANTOS NOGUEIRA",
+    "num": 1520,
+    "partido": "MDB",
+    "coligacao": "MDB",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002543453,
+    "urna": "PASTOR CAMIONEIRO",
+    "nome": "SEBASTIAO SILVERIO DA SILVA",
+    "num": 1807,
+    "partido": "REDE",
+    "coligacao": "FEDERAÇÃO PSOL REDE(PSOL/REDE)",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002550215,
+    "urna": "PASTOR JUAREZ DA SAÚDE",
+    "nome": "JUAREZ PEREIRA",
+    "num": 1223,
+    "partido": "PDT",
+    "coligacao": "PDT",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002552720,
+    "urna": "PASTORA GIZELLE TELES",
+    "nome": "GIZELLE TELES SIMOES",
+    "num": 2030,
+    "partido": "PODE",
+    "coligacao": "PODE",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002550207,
+    "urna": "PATRICIA DA MOTA",
+    "nome": "PATRICIA CALIXTO DA MOTA",
+    "num": 1209,
+    "partido": "PDT",
+    "coligacao": "PDT",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002548374,
+    "urna": "PAULO DA FARMÁCIA",
+    "nome": "PAULO CESAR DA SILVA",
+    "num": 1070,
+    "partido": "REPUBLICANOS",
+    "coligacao": "REPUBLICANOS",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002543476,
+    "urna": "PAULO MARTINEZ",
+    "nome": "PAULO CESAR MARTINEZ CARNICER",
+    "num": 5556,
+    "partido": "PSD",
+    "coligacao": "PSD",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002543562,
+    "urna": "PEDRO CANEDO",
+    "nome": "PEDRO CHAVES CANEDO",
+    "num": 2522,
+    "partido": "PRD",
+    "coligacao": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA(25-PRD/77-SOLIDARIEDADE)",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002543467,
+    "urna": "PEDRO SALES",
+    "nome": "PEDRO HENRIQUE RAMOS SALES",
+    "num": 5599,
+    "partido": "PSD",
+    "coligacao": "PSD",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002540943,
+    "urna": "PHILIPPE ABNER",
+    "nome": "PHILIPPE ABNER MARTINS",
+    "num": 3050,
+    "partido": "NOVO",
+    "coligacao": "NOVO",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002542611,
+    "urna": "POLICIAL FEDERAL SUENDER",
+    "nome": "SUENDER TEODORO DA SILVA",
+    "num": 2233,
+    "partido": "PL",
+    "coligacao": "PL",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002550200,
+    "urna": "PROF. MOACIR",
+    "nome": "FRANCISCO MOACIR BARROS",
+    "num": 1233,
+    "partido": "PDT",
+    "coligacao": "PDT",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002547109,
+    "urna": "PROFESSOR ALCIDES",
+    "nome": "ALCIDES RIBEIRO FILHO",
+    "num": 4500,
+    "partido": "PSDB",
+    "coligacao": "FEDERAÇÃO PSDB CIDADANIA(PSDB/CIDADANIA)",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002543251,
+    "urna": "PROFESSOR ALEX MARTINS",
+    "nome": "ALEX DE ARAUJO MARTINS",
+    "num": 1100,
+    "partido": "PP",
+    "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(44-UNIÃO/11-PP)",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002539153,
+    "urna": "PROFESSOR EDWARD",
+    "nome": "EDWARD MADUREIRA BRASIL",
+    "num": 1310,
+    "partido": "PT",
+    "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(PT/PC do B/PV)",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002543466,
+    "urna": "PROFESSOR ÉLIO LIMA",
+    "nome": "ELIO ARMANDO NUNES DE LIMA",
+    "num": 5500,
+    "partido": "PSD",
+    "coligacao": "PSD",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002539149,
+    "urna": "PROFESSOR MAURÉLIO",
+    "nome": "MAURELIO MOREIRA DE ARAUJO",
+    "num": 1314,
+    "partido": "PT",
+    "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(PT/PC do B/PV)",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002543462,
+    "urna": "PROFESSORA CARMEM",
+    "nome": "CARMEM SANDRA ALVES DE OLIVEIRA",
+    "num": 5041,
+    "partido": "PSOL",
+    "coligacao": "FEDERAÇÃO PSOL REDE(PSOL/REDE)",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002543474,
+    "urna": "PROFESSORA FÁTIMA GAVIOLI",
+    "nome": "APARECIDA DE FÁTIMA GAVIOLI SOARES PEREIRA",
+    "num": 5515,
+    "partido": "PSD",
+    "coligacao": "PSD",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002539144,
+    "urna": "PROFESSORA RAILDA",
+    "nome": "MARIA RAILDA DA CONCEICAO OLIVEIRA",
+    "num": 1333,
+    "partido": "PT",
+    "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(PT/PC do B/PV)",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002542617,
+    "urna": "RAPHAEL BARRA",
+    "nome": "RAPHAEL ARANTES BARRA",
+    "num": 2238,
+    "partido": "PL",
+    "coligacao": "PL",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002547094,
+    "urna": "REBECA ROMERO",
+    "nome": "REBECA DE MATOS ROMERO JORGE",
+    "num": 4540,
+    "partido": "PSDB",
+    "coligacao": "FEDERAÇÃO PSDB CIDADANIA(PSDB/CIDADANIA)",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002543219,
+    "urna": "REGINA CÉLIA",
+    "nome": "REGINA CELIA",
+    "num": 1511,
+    "partido": "MDB",
+    "coligacao": "MDB",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002542625,
+    "urna": "RENATO RIBEIRO",
+    "nome": "RENATO RIBEIRO DOS SANTOS",
+    "num": 2230,
+    "partido": "PL",
+    "coligacao": "PL",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002548378,
+    "urna": "RICARDO QUIRINO",
+    "nome": "RICARDO QUIRINO DOS SANTOS",
+    "num": 1010,
+    "partido": "REPUBLICANOS",
+    "coligacao": "REPUBLICANOS",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002540945,
+    "urna": "ROBERTO GOMES",
+    "nome": "JOSÉ ROBERTO GOMES DOS SANTOS",
+    "num": 3033,
+    "partido": "NOVO",
+    "coligacao": "NOVO",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002541704,
+    "urna": "ROBERTO JUNIOR (RAVENGAAR)",
+    "nome": "PAULO ROBERTO DE SOUSA CARVALHO JUNIOR",
+    "num": 1467,
+    "partido": "MISSÃO",
+    "coligacao": "MISSÃO",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002547093,
+    "urna": "RODOLFO VALENTE",
+    "nome": "RODOLFO VALENTE LIMA",
+    "num": 4510,
+    "partido": "PSDB",
+    "coligacao": "FEDERAÇÃO PSDB CIDADANIA(PSDB/CIDADANIA)",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002540941,
+    "urna": "ROSA GONOLLI",
+    "nome": "ROSA MARIA RODRIGUES DE GODOI",
+    "num": 3091,
+    "partido": "NOVO",
+    "coligacao": "NOVO",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002551411,
+    "urna": "ROSALINA PROTEÇÃO ANIMAL",
+    "nome": "ROSALINA MARIA DA SILVA",
+    "num": 2737,
+    "partido": "DC",
+    "coligacao": "DC",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002537642,
+    "urna": "ROSANGELA DA HABITAÇÃO",
+    "nome": "ROSANGELA MUNIZ DE ARAUJO TOMAZ",
+    "num": 2010,
+    "partido": "PODE",
+    "coligacao": "PODE",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002543472,
+    "urna": "ROSELI DA SAÚDE E SOCIAL",
+    "nome": "ROSELI MARIA DE OLIVEIRA SILVEIRA",
+    "num": 5512,
+    "partido": "PSD",
+    "coligacao": "PSD",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002539151,
+    "urna": "RUBENS OTONI",
+    "nome": "RUBENS OTONI GOMIDE",
+    "num": 1313,
+    "partido": "PT",
+    "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(PT/PC do B/PV)",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002550202,
+    "urna": "RUBINHO DO POVÃO",
+    "nome": "HOOVER APARECIDO ROSA BARBOSA",
+    "num": 1210,
+    "partido": "PDT",
+    "coligacao": "PDT",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002543247,
+    "urna": "SALMA DA PESTALOZZI",
+    "nome": "SALMA BAHIA CARREIRO LEITE DA SILVEIRA",
+    "num": 4411,
+    "partido": "UNIÃO",
+    "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(44-UNIÃO/11-PP)",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002550210,
+    "urna": "SALMO CABRAL",
+    "nome": "SALMO ALVES CABRAL",
+    "num": 1234,
+    "partido": "PDT",
+    "coligacao": "PDT",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002537637,
+    "urna": "SAMUEL SANTOS",
+    "nome": "SAMUEL JOSE DOS SANTOS",
+    "num": 2090,
+    "partido": "PODE",
+    "coligacao": "PODE",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002543238,
+    "urna": "SANCHES DA FEDERAL",
+    "nome": "LUIZ FERNANDO NAVES SANCHES DE SIQUEIRA",
+    "num": 1122,
+    "partido": "PP",
+    "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(44-UNIÃO/11-PP)",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002540942,
+    "urna": "SANDRA AZEVEDO",
+    "nome": "SANDRA PEREIRA DOS SANTOS",
+    "num": 3020,
+    "partido": "NOVO",
+    "coligacao": "NOVO",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002543231,
+    "urna": "SANDRO PEDROSO",
+    "nome": "ELISSANDRO EDENIR PEDROSO",
+    "num": 1544,
+    "partido": "MDB",
+    "coligacao": "MDB",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002540940,
+    "urna": "SANTANA PIRES",
+    "nome": "ERCILEY PIRES SANTANA",
+    "num": 3028,
+    "partido": "NOVO",
+    "coligacao": "NOVO",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002550203,
+    "urna": "SARGENTO CARNEIRO",
+    "nome": "MURILO RENATO PARENTE CARNEIRO",
+    "num": 1290,
+    "partido": "PDT",
+    "coligacao": "PDT",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002543469,
+    "urna": "SARGENTO JOÉLCIO",
+    "nome": "JOÉLCIO MACEDO PEREIRA",
+    "num": 5551,
+    "partido": "PSD",
+    "coligacao": "PSD",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002553971,
+    "urna": "SARGENTO WIVIANE",
+    "nome": "WIVIANE DE CASSIA BORGES SPINDOLA",
+    "num": 2590,
+    "partido": "PRD",
+    "coligacao": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA(25-PRD/77-SOLIDARIEDADE)",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002547136,
+    "urna": "SÉRGIO BRAVO JR",
+    "nome": "SERGIO DE SOUZA BRAVO JUNIOR",
+    "num": 4033,
+    "partido": "PSB",
+    "coligacao": "PSB",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002543571,
+    "urna": "SILVIO VAZ",
+    "nome": "SILVIO LUIZ ALVES VAZ LEITE",
+    "num": 2500,
+    "partido": "PRD",
+    "coligacao": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA(25-PRD/77-SOLIDARIEDADE)",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002543243,
+    "urna": "SILVYE ALVES",
+    "nome": "SILVYE ALVES DA SILVA",
+    "num": 4444,
+    "partido": "UNIÃO",
+    "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(44-UNIÃO/11-PP)",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002543235,
+    "urna": "SUBTENENTE DENISE BRASIL",
+    "nome": "DENISE BRASIL MENEZES",
+    "num": 4440,
+    "partido": "UNIÃO",
+    "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(44-UNIÃO/11-PP)",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002543227,
+    "urna": "SUBTENENTE SÉRGIO",
+    "nome": "PAULO SERGIO DE SOUZA",
+    "num": 1522,
+    "partido": "MDB",
+    "coligacao": "MDB",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002543451,
+    "urna": "SULAMITA SANTOS",
+    "nome": "SULAMITA TAYSLANE SANTOS TRINDADE",
+    "num": 5076,
+    "partido": "PSOL",
+    "coligacao": "FEDERAÇÃO PSOL REDE(PSOL/REDE)",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002539147,
+    "urna": "SUZANA CARVALHO",
+    "nome": "SUZANA SOUSA CARVALHO FERREIRA",
+    "num": 1377,
+    "partido": "PT",
+    "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(PT/PC do B/PV)",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002547404,
+    "urna": "TALES DE CASTRO",
+    "nome": "TALES DE CASTRO CASSIANO",
+    "num": 4015,
+    "partido": "PSB",
+    "coligacao": "PSB",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002550214,
+    "urna": "TALITA LEMKE",
+    "nome": "TALITA SANTANA LEMKE",
+    "num": 1200,
+    "partido": "PDT",
+    "coligacao": "PDT",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002547402,
+    "urna": "TATIANA LEMOS",
+    "nome": "ELENIRA TATIANA LEMOS VIEIRA",
+    "num": 4044,
+    "partido": "PSB",
+    "coligacao": "PSB",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002543570,
+    "urna": "TATIELY SOUSA",
+    "nome": "TATIELY DE SOUSA PAULO",
+    "num": 7712,
+    "partido": "SOLIDARIEDADE",
+    "coligacao": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA(25-PRD/77-SOLIDARIEDADE)",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002551403,
+    "urna": "TELVES CUNHA",
+    "nome": "TELVES CUNHA GUIMARAES",
+    "num": 2770,
+    "partido": "DC",
+    "coligacao": "DC",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002547108,
+    "urna": "TENENTE EGLAI",
+    "nome": "EGLAI APARECIDA HIROSE",
+    "num": 4550,
+    "partido": "PSDB",
+    "coligacao": "FEDERAÇÃO PSDB CIDADANIA(PSDB/CIDADANIA)",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002543564,
+    "urna": "TENENTE RHAINNA",
+    "nome": "RHAINNA IANNARI GOMES LIMA DE QUEIROZ",
+    "num": 7770,
+    "partido": "SOLIDARIEDADE",
+    "coligacao": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA(25-PRD/77-SOLIDARIEDADE)",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002543459,
+    "urna": "THAÍS CASTRO",
+    "nome": "THAÍS CASTRO",
+    "num": 5013,
+    "partido": "PSOL",
+    "coligacao": "FEDERAÇÃO PSOL REDE(PSOL/REDE)",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002543240,
+    "urna": "VAL NASCIMENTO",
+    "nome": "VALDIRENE FERREIRA DO NASCIMENTO",
+    "num": 1199,
+    "partido": "PP",
+    "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(44-UNIÃO/11-PP)",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002543252,
+    "urna": "VALERIA PETTERSEN",
+    "nome": "VALERIA MENESES PETTERSEN",
+    "num": 1144,
+    "partido": "PP",
+    "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(44-UNIÃO/11-PP)",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002539156,
+    "urna": "VALÉRIO LUIZ",
+    "nome": "VALERIO LUIZ DE OLIVEIRA FILHO",
+    "num": 1312,
+    "partido": "PT",
+    "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(PT/PC do B/PV)",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002537641,
+    "urna": "VANESSA FARIAS",
+    "nome": "VANESSA SILVA DE SOUZA",
+    "num": 2015,
+    "partido": "PODE",
+    "coligacao": "PODE",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002543455,
+    "urna": "VICTOR VERDE",
+    "nome": "VICTOR HUGO NOGUEIRA GOMES",
+    "num": 5062,
+    "partido": "PSOL",
+    "coligacao": "FEDERAÇÃO PSOL REDE(PSOL/REDE)",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002548371,
+    "urna": "VIRGÍNIA DO SOCIAL",
+    "nome": "VIRGINIA GOMES PAULINO",
+    "num": 1033,
+    "partido": "REPUBLICANOS",
+    "coligacao": "REPUBLICANOS",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002543236,
+    "urna": "WEDERSON LOPES",
+    "nome": "WEDERSON CRISTIANO DA SILVA LOPES",
+    "num": 4412,
+    "partido": "UNIÃO",
+    "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(44-UNIÃO/11-PP)",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002547137,
+    "urna": "WESLEY COSTA",
+    "nome": "WESLEY PEREIRA DA COSTA",
+    "num": 4020,
+    "partido": "PSB",
+    "coligacao": "PSB",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002548379,
+    "urna": "WILLIARD PONTES",
+    "nome": "ANTONIO WILLIARD PONTES",
+    "num": 1077,
+    "partido": "REPUBLICANOS",
+    "coligacao": "REPUBLICANOS",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002543448,
+    "urna": "XAVIER",
+    "nome": "BERNARDO XAVIER DOS SANTOS",
+    "num": 5022,
+    "partido": "PSOL",
+    "coligacao": "FEDERAÇÃO PSOL REDE(PSOL/REDE)",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002542623,
+    "urna": "YVELÔNIA",
+    "nome": "MARIA YVELONIA DOS SANTOS ARAUJO BARBOSA",
+    "num": 2277,
+    "partido": "PL",
+    "coligacao": "PL",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  },
+  {
+    "id": 90002537391,
+    "urna": "ZÉ CAMELO",
+    "nome": "JOSE CAMELO NAVES JUNIOR",
+    "num": 2012,
+    "partido": "PODE",
+    "coligacao": "PODE",
+    "situacao": "Aguardando julgamento",
+    "totalizacao": "Concorrendo"
+  }
+]

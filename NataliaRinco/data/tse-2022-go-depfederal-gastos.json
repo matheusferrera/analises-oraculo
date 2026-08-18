@@ -1,0 +1,3912 @@
+[
+  {
+    "urna": "AAVA SANTIAGO",
+    "num": 4556,
+    "partido": "PSDB",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "ADALBERTO SADRAK",
+    "num": 1813,
+    "partido": "REDE",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Indeferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "ADEMILTON SANTOS",
+    "num": 7078,
+    "partido": "AVANTE",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "ADRIANO CASTRO",
+    "num": 7099,
+    "partido": "AVANTE",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "ADRIANO DO BALDY",
+    "num": 1111,
+    "partido": "PP",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Eleito por média",
+    "bens": null
+  },
+  {
+    "urna": "AFONSO FREITAS",
+    "num": 1830,
+    "partido": "REDE",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Indeferido",
+    "totalizacao": "Concorrendo",
+    "bens": null
+  },
+  {
+    "urna": "ALCIDES RODRIGUES",
+    "num": 5151,
+    "partido": "PATRIOTA",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "ALE ROCHA",
+    "num": 3026,
+    "partido": "NOVO",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "ALESSANDRA MINADAKIS",
+    "num": 5008,
+    "partido": "PSOL",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "ALEX ANTÔNIO",
+    "num": 3320,
+    "partido": "PMN",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "ALEX MEIRELLES",
+    "num": 3622,
+    "partido": "AGIR",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "ALISSON DIAS",
+    "num": 1007,
+    "partido": "REPUBLICANOS",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "ALYSSON LIMA",
+    "num": 4050,
+    "partido": "PSB",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "ANDRE ANTONIO",
+    "num": 9004,
+    "partido": "PROS",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Indeferido",
+    "totalizacao": "Concorrendo",
+    "bens": null
+  },
+  {
+    "urna": "ANDRÉ ANTÔNIO",
+    "num": 9004,
+    "partido": "PROS",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Renúncia",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "ANDRÉ DA AMAD",
+    "num": 9010,
+    "partido": "PROS",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "ANDRÉ DA AMAD",
+    "num": 9010,
+    "partido": "PROS",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Indeferido",
+    "totalizacao": "Concorrendo",
+    "bens": null
+  },
+  {
+    "urna": "ANDREZÃO DO POVO",
+    "num": 3311,
+    "partido": "PMN",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "ANDRIELE  QUALHATO",
+    "num": 2100,
+    "partido": "PCB",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "ANTONIO CARNEIRO DE SOUZA",
+    "num": 3678,
+    "partido": "AGIR",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "APÓSTOLA RAQUEL",
+    "num": 7012,
+    "partido": "AVANTE",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "ARACELLY CANTUARIO",
+    "num": 2750,
+    "partido": "DC",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "ARIEL LUZ",
+    "num": 1330,
+    "partido": "PT",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "ARQUIDONES",
+    "num": 1300,
+    "partido": "PT",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "ARTHUR RAMOS",
+    "num": 2121,
+    "partido": "PCB",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "ASTRIDE MAGALHAES",
+    "num": 5112,
+    "partido": "PATRIOTA",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "AURILENE MALTA",
+    "num": 2780,
+    "partido": "DC",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "BATIHÁ",
+    "num": 2808,
+    "partido": "PRTB",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "BILL GUERRA MOCHILINK",
+    "num": 7707,
+    "partido": "SOLIDARIEDADE",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "BRIGADEIRO BRAGANÇA",
+    "num": 4470,
+    "partido": "UNIÃO",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "BRUNO SANTIAGO",
+    "num": 7770,
+    "partido": "SOLIDARIEDADE",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "CABO VALÉRIO",
+    "num": 1909,
+    "partido": "PODE",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Indeferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "CAMILA COSTA ",
+    "num": 2825,
+    "partido": "PRTB",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "CAMILA ROSA",
+    "num": 5550,
+    "partido": "PSD",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "CAPITÃO CASTRO",
+    "num": 3090,
+    "partido": "NOVO",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "CAPITÃO TERCIO",
+    "num": 1499,
+    "partido": "PTB",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "CAPITÃO WAGÃO",
+    "num": 2822,
+    "partido": "PRTB",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "CARAPÔ",
+    "num": 9006,
+    "partido": "PROS",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Indeferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "CARLOS ANTONIO (RADIALISTA)",
+    "num": 4044,
+    "partido": "PSB",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "CARLOS BRANDÃO",
+    "num": 1807,
+    "partido": "REDE",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Indeferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "CARLOS LACERDA",
+    "num": 3647,
+    "partido": "AGIR",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "CARLOS MARANHÃO",
+    "num": 1420,
+    "partido": "PTB",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "CARLOS MORO",
+    "num": 1966,
+    "partido": "PODE",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Indeferido",
+    "totalizacao": "Concorrendo",
+    "bens": null
+  },
+  {
+    "urna": "CARLOS PEDROSA",
+    "num": 9080,
+    "partido": "PROS",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Renúncia",
+    "totalizacao": "Concorrendo",
+    "bens": null
+  },
+  {
+    "urna": "CARLOS PEDROSA",
+    "num": 9080,
+    "partido": "PROS",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Renúncia",
+    "totalizacao": "Concorrendo",
+    "bens": null
+  },
+  {
+    "urna": "CARLOS VEÍCULOS",
+    "num": 5545,
+    "partido": "PSD",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Renúncia",
+    "totalizacao": "Concorrendo",
+    "bens": null
+  },
+  {
+    "urna": "CAROLINA PEREIRA",
+    "num": 1015,
+    "partido": "REPUBLICANOS",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "CARPEGIANE SILVESTRE",
+    "num": 5155,
+    "partido": "PATRIOTA",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "CARREIRINHA CAMINHONEIRO",
+    "num": 5575,
+    "partido": "PSD",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "CÁTIA RODRIGUES",
+    "num": 5560,
+    "partido": "PSD",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "CÉLIO SILVEIRA",
+    "num": 1599,
+    "partido": "MDB",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Eleito por QP",
+    "bens": null
+  },
+  {
+    "urna": "CHARLY BARBOSA",
+    "num": 5577,
+    "partido": "PSD",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "CIDO DO MOTO TAXI",
+    "num": 3605,
+    "partido": "AGIR",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "CONCEIÇÃO",
+    "num": 2220,
+    "partido": "PL",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Renúncia",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "CORONEL ANÉSIO",
+    "num": 5190,
+    "partido": "PATRIOTA",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "CORONEL BENITO FRANCO",
+    "num": 2227,
+    "partido": "PL",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "CORONEL DIGUES",
+    "num": 1478,
+    "partido": "PTB",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "CORONEL EDSON RAIADO",
+    "num": 7090,
+    "partido": "AVANTE",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "CORONEL HELBINGEN",
+    "num": 1401,
+    "partido": "PTB",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "CORONEL LAERCIO",
+    "num": 1940,
+    "partido": "PODE",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "CORONEL WELLINGTON",
+    "num": 1901,
+    "partido": "PODE",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "CRISTIANO CUNHA",
+    "num": 4300,
+    "partido": "PV",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "CYNTHIA OLIVEIRA",
+    "num": 1800,
+    "partido": "REDE",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "DALGER JUNQUEIRA",
+    "num": 3307,
+    "partido": "PMN",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "DANI CRUZ",
+    "num": 1213,
+    "partido": "PDT",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "DANI MARQUES",
+    "num": 1412,
+    "partido": "PTB",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "DANIEL AGROBOM",
+    "num": 2255,
+    "partido": "PL",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Eleito por média",
+    "bens": null
+  },
+  {
+    "urna": "DANIEL CALDEIRA",
+    "num": 2800,
+    "partido": "PRTB",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "DANIEL MENDES",
+    "num": 1333,
+    "partido": "PT",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "DANIEL VITOR",
+    "num": 9016,
+    "partido": "PROS",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "DANIELA DIAS MULHERES VIRÃO",
+    "num": 5050,
+    "partido": "PSOL",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "DANNILLO PEREIRA",
+    "num": 5544,
+    "partido": "PSD",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "DANTE DO VÔLEI",
+    "num": 7718,
+    "partido": "SOLIDARIEDADE",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "DANYAU",
+    "num": 1222,
+    "partido": "PDT",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "DARIA CRISTINA",
+    "num": 1920,
+    "partido": "PODE",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "DAYANA MARTINS",
+    "num": 9091,
+    "partido": "PROS",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "DAYANA MARTINS",
+    "num": 9091,
+    "partido": "PROS",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Indeferido",
+    "totalizacao": "Concorrendo",
+    "bens": null
+  },
+  {
+    "urna": "DELEGADA ADRIANA ACCORSI",
+    "num": 1331,
+    "partido": "PT",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Eleito por QP",
+    "bens": null
+  },
+  {
+    "urna": "DELEGADO EDUARDO RODOVALHO",
+    "num": 9090,
+    "partido": "PROS",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "DELEGADO EDUARDO RODOVALHO",
+    "num": 9090,
+    "partido": "PROS",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Indeferido",
+    "totalizacao": "Concorrendo",
+    "bens": null
+  },
+  {
+    "urna": "DELEGADO FEDERAL HUMBERTO",
+    "num": 5101,
+    "partido": "PATRIOTA",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "DELEGADO HUMBERTO TEÓFILO",
+    "num": 5122,
+    "partido": "PATRIOTA",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "DELEGADO RAFAEL",
+    "num": 7717,
+    "partido": "SOLIDARIEDADE",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "DEMONTIER CAMELO",
+    "num": 3001,
+    "partido": "NOVO",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "DIDI  MATIAS",
+    "num": 5133,
+    "partido": "PATRIOTA",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "DINO MARIANO EXCURSÕES",
+    "num": 1530,
+    "partido": "MDB",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "DIRETOR DO TRIUNFO",
+    "num": 7710,
+    "partido": "SOLIDARIEDADE",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "DIVINA CASTRO",
+    "num": 1907,
+    "partido": "PODE",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "DONA JACQUES",
+    "num": 2020,
+    "partido": "PSC",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "DONA MARIA-CONSEG",
+    "num": 2044,
+    "partido": "PSC",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "DORIS",
+    "num": 3670,
+    "partido": "AGIR",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "DOUGLAS CARVALHO ",
+    "num": 5011,
+    "partido": "PSOL",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "DOUTOR ALANO",
+    "num": 3010,
+    "partido": "NOVO",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "DOUTOR BRENO LEITE",
+    "num": 1919,
+    "partido": "PODE",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "DOUTORA NATÁLIA",
+    "num": 1000,
+    "partido": "REPUBLICANOS",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "DR CARLOS RIOS",
+    "num": 3330,
+    "partido": "PMN",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "DR EBERSON DA SILVA",
+    "num": 3312,
+    "partido": "PMN",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Indeferido",
+    "totalizacao": "Concorrendo",
+    "bens": null
+  },
+  {
+    "urna": "DR EBERSON NASCIMENTO",
+    "num": 9020,
+    "partido": "PROS",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Indeferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "DR EURÍPEDES MOREIRA",
+    "num": 7080,
+    "partido": "AVANTE",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "DR ISMAEL ALEXANDRINO ",
+    "num": 5500,
+    "partido": "PSD",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Eleito por média",
+    "bens": null
+  },
+  {
+    "urna": "DR JOÃO BATISTA",
+    "num": 7040,
+    "partido": "AVANTE",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "DR PAULO FARIA",
+    "num": 2232,
+    "partido": "PL",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "DR REILLER",
+    "num": 7033,
+    "partido": "AVANTE",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "DR ZACHARIAS CALIL",
+    "num": 4480,
+    "partido": "UNIÃO",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Eleito por média",
+    "bens": null
+  },
+  {
+    "urna": "DR.  CEZAR",
+    "num": 3333,
+    "partido": "PMN",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "DR. ANISIO DE OLIVEIRA",
+    "num": 2812,
+    "partido": "PRTB",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "DR. DIONI",
+    "num": 3300,
+    "partido": "PMN",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "DR. HELIO DE SOUSA",
+    "num": 4567,
+    "partido": "PSDB",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "DR. MOISES MAGALHAES",
+    "num": 3637,
+    "partido": "AGIR",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Renúncia",
+    "totalizacao": "Concorrendo",
+    "bens": null
+  },
+  {
+    "urna": "DR. REINALDO",
+    "num": 4589,
+    "partido": "PSDB",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "DR. RUI",
+    "num": 1200,
+    "partido": "PDT",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "DRA CRISTINA",
+    "num": 1234,
+    "partido": "PDT",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "DRA FABIANNE LEÃO",
+    "num": 1105,
+    "partido": "PP",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "DRA GIZELDA",
+    "num": 7727,
+    "partido": "SOLIDARIEDADE",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "DRA NOÊMIA AIRES",
+    "num": 4080,
+    "partido": "PSB",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "DRA. ALAÍDES",
+    "num": 2818,
+    "partido": "PRTB",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "DRA. IVANE",
+    "num": 4004,
+    "partido": "PSB",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "DUDU GARCIA",
+    "num": 7007,
+    "partido": "AVANTE",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "EDEMUNDO DIAS",
+    "num": 4577,
+    "partido": "PSDB",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "EDIEL DUARTE",
+    "num": 7714,
+    "partido": "SOLIDARIEDADE",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "EDINHO DA ARANTINA",
+    "num": 2844,
+    "partido": "PRTB",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "EDNA MENDES",
+    "num": 1110,
+    "partido": "PP",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Renúncia",
+    "totalizacao": "Concorrendo",
+    "bens": null
+  },
+  {
+    "urna": "EDUARDINHO",
+    "num": 1900,
+    "partido": "PODE",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "EDUARDO MACEDO",
+    "num": 1477,
+    "partido": "PTB",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "ELAINE RODRIGUES",
+    "num": 1133,
+    "partido": "PP",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "ELIANA SARMENTO",
+    "num": 3007,
+    "partido": "NOVO",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "ELIANE MARIANO",
+    "num": 4433,
+    "partido": "UNIÃO",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "ELIANE MARTINS",
+    "num": 2710,
+    "partido": "DC",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "ELIAS CORREIA",
+    "num": 2001,
+    "partido": "PSC",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "ELIAS VAZ",
+    "num": 4040,
+    "partido": "PSB",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "ELISMAR FERNANDES",
+    "num": 1407,
+    "partido": "PTB",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Indeferido",
+    "totalizacao": "Concorrendo",
+    "bens": null
+  },
+  {
+    "urna": "ELLEN DE LIMA",
+    "num": 4022,
+    "partido": "PSB",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "EMERSON VAZ",
+    "num": 3611,
+    "partido": "AGIR",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Indeferido",
+    "totalizacao": "Concorrendo",
+    "bens": null
+  },
+  {
+    "urna": "ENFERMEIRO WAGNER SIQUEIRA",
+    "num": 4530,
+    "partido": "PSDB",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "ÊNIO TÁTICO",
+    "num": 1911,
+    "partido": "PODE",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Indeferido",
+    "totalizacao": "Concorrendo",
+    "bens": null
+  },
+  {
+    "urna": "FABIM CAMINHONEIRO",
+    "num": 1422,
+    "partido": "PTB",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "FABIO SOUSA",
+    "num": 2200,
+    "partido": "PL",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "FABRIÇÃO",
+    "num": 4000,
+    "partido": "PSB",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "FELIPE CECÍLIO",
+    "num": 1515,
+    "partido": "MDB",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "FERNANDO NETTO",
+    "num": 5100,
+    "partido": "PATRIOTA",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "FERNANDO SALES",
+    "num": 7750,
+    "partido": "SOLIDARIEDADE",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "FLAVIA DELMONDES",
+    "num": 9015,
+    "partido": "PROS",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Renúncia",
+    "totalizacao": "Concorrendo",
+    "bens": null
+  },
+  {
+    "urna": "FLAVIA DELMONDES",
+    "num": 9015,
+    "partido": "PROS",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Renúncia",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "FLAVIA MORAIS",
+    "num": 1212,
+    "partido": "PDT",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Eleito por média",
+    "bens": null
+  },
+  {
+    "urna": "FLAVIANA ESTEVES",
+    "num": 1001,
+    "partido": "REPUBLICANOS",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "FLAVIANE SCOPEL",
+    "num": 1020,
+    "partido": "REPUBLICANOS",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "FLÁVIO PAGOTTO",
+    "num": 3038,
+    "partido": "NOVO",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "FLORISVALDO PEREIRA",
+    "num": 4512,
+    "partido": "PSDB",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "FRANCISCO JR",
+    "num": 5555,
+    "partido": "PSD",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "GABRIELA RODART",
+    "num": 1414,
+    "partido": "PTB",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "GALEGA",
+    "num": 1922,
+    "partido": "PODE",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Renúncia",
+    "totalizacao": "Concorrendo",
+    "bens": null
+  },
+  {
+    "urna": "GALEGA DA DINIZ",
+    "num": 2833,
+    "partido": "PRTB",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "GCM ROMÁRIO POLICARPO",
+    "num": 5153,
+    "partido": "PATRIOTA",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Renúncia",
+    "totalizacao": "Concorrendo",
+    "bens": null
+  },
+  {
+    "urna": "GENIVAL FAGUNDES",
+    "num": 2212,
+    "partido": "PL",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "GERALDO ESPÍNDOLA",
+    "num": 1822,
+    "partido": "REDE",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "GERALDO SILVA",
+    "num": 2790,
+    "partido": "DC",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "GILMAR CARVALHO",
+    "num": 7044,
+    "partido": "AVANTE",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "GIVA FELIPE",
+    "num": 7788,
+    "partido": "SOLIDARIEDADE",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "GLAUSTIN DA FOKUS",
+    "num": 2022,
+    "partido": "PSC",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Eleito por média",
+    "bens": null
+  },
+  {
+    "urna": "GLEICY GUERRA",
+    "num": 7011,
+    "partido": "AVANTE",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "GUILHERME GRAUS",
+    "num": 1270,
+    "partido": "PDT",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "GUSTAVO GAYER",
+    "num": 2210,
+    "partido": "PL",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Eleito por QP",
+    "bens": null
+  },
+  {
+    "urna": "HAMILTON CARNEIRO",
+    "num": 5511,
+    "partido": "PSD",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "HELIO TELES",
+    "num": 7022,
+    "partido": "AVANTE",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "HELLEN MORAES",
+    "num": 4523,
+    "partido": "PSDB",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "HENRIQUE ARAUJO",
+    "num": 3033,
+    "partido": "NOVO",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "HILDO DO CANDANGO",
+    "num": 1011,
+    "partido": "REPUBLICANOS",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "HILVANY PINHEIRO",
+    "num": 1320,
+    "partido": "PT",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "HYLÁRIO DO GÁS",
+    "num": 7766,
+    "partido": "SOLIDARIEDADE",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "IGOR FRANCO",
+    "num": 2829,
+    "partido": "PRTB",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "ILLANA MATTOS",
+    "num": 2034,
+    "partido": "PSC",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "INACINHO DA FAZENDINHA",
+    "num": 3303,
+    "partido": "PMN",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "INDIO DE ASSIS",
+    "num": 3600,
+    "partido": "AGIR",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "IRACEMA CAETANO",
+    "num": 5152,
+    "partido": "PATRIOTA",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "IRMÃO WANDO",
+    "num": 1277,
+    "partido": "PDT",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Indeferido",
+    "totalizacao": "Concorrendo",
+    "bens": null
+  },
+  {
+    "urna": "ISABEL CRISTINA",
+    "num": 2225,
+    "partido": "PL",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "ISABEL CRISTINA ARAUJO",
+    "num": 3646,
+    "partido": "AGIR",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "ISABEL CRISTINE",
+    "num": 1307,
+    "partido": "PT",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "ISAQUE  BORGES",
+    "num": 2929,
+    "partido": "PCO",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Indeferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "ISMARLA BORGES",
+    "num": 7755,
+    "partido": "SOLIDARIEDADE",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "IVON EBER A JATO",
+    "num": 2700,
+    "partido": "DC",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "JACKELINE RUST",
+    "num": 9081,
+    "partido": "PROS",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "JAIR NUNES",
+    "num": 2823,
+    "partido": "PRTB",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "JEFERSON RODRIGUES",
+    "num": 1010,
+    "partido": "REPUBLICANOS",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Eleito por QP",
+    "bens": null
+  },
+  {
+    "urna": "JESUALDO CASTRO",
+    "num": 9094,
+    "partido": "PROS",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "JESUS CAMPOS",
+    "num": 2855,
+    "partido": "PRTB",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Renúncia",
+    "totalizacao": "Concorrendo",
+    "bens": null
+  },
+  {
+    "urna": "JOÃO DA LUZ",
+    "num": 2030,
+    "partido": "PSC",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "JOÃO REIS DE ARAÚJO",
+    "num": 4500,
+    "partido": "PSDB",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "JOCASTA OLIVEIRA",
+    "num": 9053,
+    "partido": "PROS",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Renúncia",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "JOHNATAS MESSIAS",
+    "num": 5123,
+    "partido": "PATRIOTA",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "JOMARI LEITE",
+    "num": 2890,
+    "partido": "PRTB",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "JORGE ANTONINI",
+    "num": 1356,
+    "partido": "PT",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "JOSÉ ELIAS",
+    "num": 4578,
+    "partido": "PSDB",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Renúncia",
+    "totalizacao": "Concorrendo",
+    "bens": null
+  },
+  {
+    "urna": "JOSÉ NELTO",
+    "num": 1123,
+    "partido": "PP",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Eleito por QP",
+    "bens": null
+  },
+  {
+    "urna": "JOSMAR MOURA",
+    "num": 2855,
+    "partido": "PRTB",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "JOVAIR",
+    "num": 1051,
+    "partido": "REPUBLICANOS",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "JOVANIO TRINDADE",
+    "num": 3310,
+    "partido": "PMN",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Indeferido",
+    "totalizacao": "Concorrendo",
+    "bens": null
+  },
+  {
+    "urna": "JULIANA DINIZ",
+    "num": 9001,
+    "partido": "PROS",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Indeferido",
+    "totalizacao": "Concorrendo",
+    "bens": null
+  },
+  {
+    "urna": "JULIANA DINIZ ",
+    "num": 9001,
+    "partido": "PROS",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Renúncia",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "JULIO PASCHOAL",
+    "num": 1112,
+    "partido": "PP",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "JULIO PROARMAS",
+    "num": 9045,
+    "partido": "PROS",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Indeferido",
+    "totalizacao": "Concorrendo",
+    "bens": null
+  },
+  {
+    "urna": "JÚLIO PROARMAS",
+    "num": 9045,
+    "partido": "PROS",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "JUNIO BOI E CIA",
+    "num": 4099,
+    "partido": "PSB",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "JÚNIOR BARATA",
+    "num": 1903,
+    "partido": "PODE",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "JÚNIOR CÉSAR SAPÃO",
+    "num": 7088,
+    "partido": "AVANTE",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "JURACI TESOURA DE OURO",
+    "num": 1012,
+    "partido": "REPUBLICANOS",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "KARINA MARQUES",
+    "num": 5014,
+    "partido": "PSOL",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "KARLÃO DO LEONARDO",
+    "num": 9000,
+    "partido": "PROS",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "KARLÃO DO LEONARDO",
+    "num": 9000,
+    "partido": "PROS",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Indeferido",
+    "totalizacao": "Concorrendo",
+    "bens": null
+  },
+  {
+    "urna": "KEDMA KAREN",
+    "num": 1312,
+    "partido": "PT",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "KEILA",
+    "num": 4320,
+    "partido": "PV",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "KELLE DUTRA",
+    "num": 9019,
+    "partido": "PROS",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Indeferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "KELLY",
+    "num": 1314,
+    "partido": "PT",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "KELLY CRISTINA",
+    "num": 4015,
+    "partido": "PSB",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "KEMMER KASSEM",
+    "num": 3630,
+    "partido": "AGIR",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "KENIA CUNHA",
+    "num": 3666,
+    "partido": "AGIR",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "LAIGTON ALMEIDA",
+    "num": 7077,
+    "partido": "AVANTE",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "LARISSA FERREIRA",
+    "num": 1110,
+    "partido": "PP",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "LARISSA LAFAIETE",
+    "num": 2023,
+    "partido": "PSC",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "LARYSSA SAMPAIO",
+    "num": 8080,
+    "partido": "UP",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Indeferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "LEANDRO MONTEIRO",
+    "num": 5588,
+    "partido": "PSD",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "LEANDRO RIBEIRO",
+    "num": 1144,
+    "partido": "PP",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "LEANDRO SENA",
+    "num": 2828,
+    "partido": "PRTB",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "LÊDA BORGES",
+    "num": 4545,
+    "partido": "PSDB",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Eleito por média",
+    "bens": null
+  },
+  {
+    "urna": "LÉLANDI",
+    "num": 3012,
+    "partido": "NOVO",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "LILIA MONTEIRO",
+    "num": 1810,
+    "partido": "REDE",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "LILIANE COSTA",
+    "num": 2888,
+    "partido": "PRTB",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "LOURDES SOHN",
+    "num": 9099,
+    "partido": "PROS",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "LU MONTENEGRO",
+    "num": 7002,
+    "partido": "AVANTE",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "LUCAS KITÃO",
+    "num": 5533,
+    "partido": "PSD",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "LUCAS VERGÍLIO",
+    "num": 7777,
+    "partido": "SOLIDARIEDADE",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "LUCELEIA PERPETUO",
+    "num": 7700,
+    "partido": "SOLIDARIEDADE",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "LUDYMILLA DAMATTA",
+    "num": 5510,
+    "partido": "PSD",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "LUIZ CARLOS PIMENTINHA",
+    "num": 7799,
+    "partido": "SOLIDARIEDADE",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "LUIZ CARLOS ZOIN",
+    "num": 3655,
+    "partido": "AGIR",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "LUIZ MACAÚBA",
+    "num": 4013,
+    "partido": "PSB",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "MAGAL",
+    "num": 5111,
+    "partido": "PATRIOTA",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "MAGDA MOFATTO",
+    "num": 2222,
+    "partido": "PL",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Eleito por média",
+    "bens": null
+  },
+  {
+    "urna": "MAGNO MESQUITA",
+    "num": 1444,
+    "partido": "PTB",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "MAJOR HUGO CHRISTIANI",
+    "num": 2201,
+    "partido": "PL",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "MAJÚ",
+    "num": 3325,
+    "partido": "PMN",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "MARCELO BRITES",
+    "num": 3635,
+    "partido": "AGIR",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "MARCELO CONRADO",
+    "num": 5102,
+    "partido": "PATRIOTA",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "MARCELO DO SACOLÃO",
+    "num": 3636,
+    "partido": "AGIR",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "MÁRCIA FOFA",
+    "num": 1522,
+    "partido": "MDB",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "MARCIA ROSA",
+    "num": 2770,
+    "partido": "DC",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "MARCILENE SILVA",
+    "num": 5556,
+    "partido": "PSD",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "MÁRCIO CORREA",
+    "num": 1510,
+    "partido": "MDB",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "MARCO AURELIO",
+    "num": 5024,
+    "partido": "PSOL",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "MARCO SÉRGIO / BOLSOLEITE",
+    "num": 2223,
+    "partido": "PL",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "MARCONI PIRACANJUBA",
+    "num": 3319,
+    "partido": "PMN",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Renúncia",
+    "totalizacao": "Concorrendo",
+    "bens": null
+  },
+  {
+    "urna": "MARGARETH SARMENTO",
+    "num": 3690,
+    "partido": "AGIR",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "MARIA BONITA DE GOIÁS",
+    "num": 3351,
+    "partido": "PMN",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "MARIA ILCA",
+    "num": 3344,
+    "partido": "PMN",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "MARIA JOSÉ COSTA",
+    "num": 4003,
+    "partido": "PSB",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "MARIA MACHADÃO",
+    "num": 7069,
+    "partido": "AVANTE",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "MARIANA LOPES",
+    "num": 5000,
+    "partido": "PSOL",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "MARINA TORRES",
+    "num": 3009,
+    "partido": "NOVO",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "MARISA MARTINS",
+    "num": 5530,
+    "partido": "PSD",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "MARTA QUEIROZ",
+    "num": 1888,
+    "partido": "REDE",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "MARUSSA BOLDRIN",
+    "num": 1555,
+    "partido": "MDB",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Eleito por média",
+    "bens": null
+  },
+  {
+    "urna": "MATEUS ANTÔNIO",
+    "num": 7722,
+    "partido": "SOLIDARIEDADE",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "MATEUS TOBIAS",
+    "num": 2097,
+    "partido": "PSC",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "MATHEUS RIBEIRO",
+    "num": 4555,
+    "partido": "PSDB",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "MAYSA CUNHA",
+    "num": 1100,
+    "partido": "PP",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "MEIRE CRUVINEL",
+    "num": 2202,
+    "partido": "PL",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "MEIRY DO BAZAR",
+    "num": 3621,
+    "partido": "AGIR",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "MICHEL RORIZ",
+    "num": 2323,
+    "partido": "CIDADANIA",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "MIRIAN ASSESSORA",
+    "num": 4580,
+    "partido": "PSDB",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "MISSIONÁRIA KEILA BIELISKI",
+    "num": 1423,
+    "partido": "PTB",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "MISSIONÁRIO GONÇALVES",
+    "num": 2733,
+    "partido": "DC",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "MÔNICA CARVALHO",
+    "num": 6555,
+    "partido": "PC do B",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "MÔNICA NASSER DAHER",
+    "num": 3370,
+    "partido": "PMN",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "MONICA VELOSO",
+    "num": 2244,
+    "partido": "PL",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "MORIELIO VIDAL",
+    "num": 1855,
+    "partido": "REDE",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "NAYARA BARCELOS",
+    "num": 2877,
+    "partido": "PRTB",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "NÉLIO FREITAS",
+    "num": 4599,
+    "partido": "PSDB",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "NELSON MEIRELES",
+    "num": 1988,
+    "partido": "PODE",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "NIXON DAS CASINHAS",
+    "num": 1155,
+    "partido": "PP",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "NOELI BIANCA",
+    "num": 1050,
+    "partido": "REPUBLICANOS",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "NOVA GERAÇÃO",
+    "num": 1525,
+    "partido": "MDB",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Indeferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "OZIEL GALVÃO",
+    "num": 1177,
+    "partido": "PP",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Indeferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "PASTOR WELITON",
+    "num": 2722,
+    "partido": "DC",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "PASTOR WENDEL GONÇALVES",
+    "num": 2727,
+    "partido": "DC",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "PASTORA GIOVANNA",
+    "num": 1008,
+    "partido": "REPUBLICANOS",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "PASTORA SHEILA FONSECA",
+    "num": 7733,
+    "partido": "SOLIDARIEDADE",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "PATRICIA ALENCAR",
+    "num": 1933,
+    "partido": "PODE",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Indeferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "PAULINELLY CARNEIRO",
+    "num": 4450,
+    "partido": "UNIÃO",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "PAULINHO",
+    "num": 9098,
+    "partido": "PROS",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Indeferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "PAULINHO",
+    "num": 9098,
+    "partido": "PROS",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Indeferido",
+    "totalizacao": "Concorrendo",
+    "bens": null
+  },
+  {
+    "urna": "PAULO DA REALIZA",
+    "num": 1199,
+    "partido": "PP",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "PAULO PEDRINHA",
+    "num": 1910,
+    "partido": "PODE",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "PAULO TRABALHO",
+    "num": 2290,
+    "partido": "PL",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "PAULO VITOR MARQUES",
+    "num": 3030,
+    "partido": "NOVO",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "PEDRO DAMIÃO",
+    "num": 1818,
+    "partido": "REDE",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "PERPETUA BARBOSA",
+    "num": 5177,
+    "partido": "PATRIOTA",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "PIETRA LAGE",
+    "num": 3022,
+    "partido": "NOVO",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "PISQUILA DA HORTA",
+    "num": 1260,
+    "partido": "PDT",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Indeferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "POLLY DO NOVO",
+    "num": 3000,
+    "partido": "NOVO",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "POLLYANA CHITA",
+    "num": 3699,
+    "partido": "AGIR",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "PR JOSÉ FAGUNDES",
+    "num": 1455,
+    "partido": "PTB",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "PRA IVONE MARTINS",
+    "num": 1955,
+    "partido": "PODE",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "PROF ELIETE PAIXÃO",
+    "num": 7778,
+    "partido": "SOLIDARIEDADE",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "PROF ISABEL MORENO",
+    "num": 2000,
+    "partido": "PSC",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "PROF. EDER BENTO",
+    "num": 3077,
+    "partido": "NOVO",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "PROFESSOR ALCIDES",
+    "num": 2250,
+    "partido": "PL",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Eleito por QP",
+    "bens": null
+  },
+  {
+    "urna": "PROFESSOR EDWARD",
+    "num": 1310,
+    "partido": "PT",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "PROFESSOR FLAVIANO",
+    "num": 4011,
+    "partido": "PSB",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "PROFESSOR MÁRCIO",
+    "num": 4007,
+    "partido": "PSB",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "PROFESSOR MOACIR",
+    "num": 1202,
+    "partido": "PDT",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "PROFESSOR RAILTON",
+    "num": 6565,
+    "partido": "PC do B",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "PROFESSORA LUCIA BATISTA",
+    "num": 4010,
+    "partido": "PSB",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "PROFESSORA LÚCIA VASCONCELOS",
+    "num": 4477,
+    "partido": "UNIÃO",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "PROFESSORA MEIRE",
+    "num": 3613,
+    "partido": "AGIR",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "PROFESSORA NAILDE",
+    "num": 4550,
+    "partido": "PSDB",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "PROFESSORA PATRÍCIA SOARES",
+    "num": 1999,
+    "partido": "PODE",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "RAFAEL GOUVEIA",
+    "num": 1022,
+    "partido": "REPUBLICANOS",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "REBECA ROMERO",
+    "num": 1500,
+    "partido": "MDB",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "RENATA VAZ",
+    "num": 5115,
+    "partido": "PATRIOTA",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "ROCHA",
+    "num": 5060,
+    "partido": "PSOL",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "RODNEY MIRANDA",
+    "num": 1077,
+    "partido": "REPUBLICANOS",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "RODRIGO VAZ",
+    "num": 1466,
+    "partido": "PTB",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "ROMUALDO PEQUENO",
+    "num": 2730,
+    "partido": "DC",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Indeferido",
+    "totalizacao": "Concorrendo",
+    "bens": null
+  },
+  {
+    "urna": "ROSI GUIMARÃES",
+    "num": 7000,
+    "partido": "AVANTE",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "RUBENS OTONI",
+    "num": 1313,
+    "partido": "PT",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Eleito por média",
+    "bens": null
+  },
+  {
+    "urna": "RUTH QUEIROZ",
+    "num": 2055,
+    "partido": "PSC",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "RUTH VALERY",
+    "num": 1103,
+    "partido": "PP",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "SABARÁ",
+    "num": 3610,
+    "partido": "AGIR",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "SABRINA GARCEZ",
+    "num": 1033,
+    "partido": "REPUBLICANOS",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "SAMUEL",
+    "num": 1567,
+    "partido": "MDB",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Indeferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "SAMUEL DUPLA DANIEL E SAMUEL",
+    "num": 2090,
+    "partido": "PSC",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "SANDES JUNIOR",
+    "num": 1122,
+    "partido": "PP",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "SANDRA CAPARROSA",
+    "num": 9044,
+    "partido": "PROS",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "SANDRA GADIA",
+    "num": 5545,
+    "partido": "PSD",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Renúncia",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "SARGENTO CIDA",
+    "num": 1440,
+    "partido": "PTB",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "SARGENTO DENISE BRASIL",
+    "num": 1540,
+    "partido": "MDB",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "SARGENTO MEIRE",
+    "num": 2211,
+    "partido": "PL",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "SARGENTO NELIA",
+    "num": 1411,
+    "partido": "PTB",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "SARGENTO SILVIA",
+    "num": 1193,
+    "partido": "PP",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "SÉRGIO CARDOSO",
+    "num": 1980,
+    "partido": "PODE",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "SERGIO LUCAS",
+    "num": 1188,
+    "partido": "PP",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "SGT MARUZAN",
+    "num": 3322,
+    "partido": "PMN",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "SILVIA MANDATA COLETIVA",
+    "num": 5055,
+    "partido": "PSOL",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "SILVYE ALVES",
+    "num": 4444,
+    "partido": "UNIÃO",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Eleito por QP",
+    "bens": null
+  },
+  {
+    "urna": "SÍRIO MIGUEL",
+    "num": 4540,
+    "partido": "PSDB",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "SUBTENENTE AURÉLIO",
+    "num": 1400,
+    "partido": "PTB",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "SUBTENENTE DA MATA",
+    "num": 3340,
+    "partido": "PMN",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "SUBTENENTE GILSON GOMES",
+    "num": 1345,
+    "partido": "PT",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "SUBTENENTE SOUZA",
+    "num": 4400,
+    "partido": "UNIÃO",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "SUELLEN FERNANDES",
+    "num": 7010,
+    "partido": "AVANTE",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "TALITTA DI MARTINO",
+    "num": 9077,
+    "partido": "PROS",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Indeferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "TELÊMACO BRANDÃO",
+    "num": 9050,
+    "partido": "PROS",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Indeferido",
+    "totalizacao": "Concorrendo",
+    "bens": null
+  },
+  {
+    "urna": "TELÊMACO BRANDÃO",
+    "num": 9050,
+    "partido": "PROS",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Renúncia",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "TELES JUNIOR",
+    "num": 1233,
+    "partido": "PDT",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "TERESA DAMASCENA",
+    "num": 5178,
+    "partido": "PATRIOTA",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "TERESA RIBEIRO",
+    "num": 1509,
+    "partido": "MDB",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "THALITA OLIVEIRA",
+    "num": 3377,
+    "partido": "PMN",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "THALYTA RAIFA",
+    "num": 9011,
+    "partido": "PROS",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Indeferido",
+    "totalizacao": "Concorrendo",
+    "bens": null
+  },
+  {
+    "urna": "THALYTA RAIFA ",
+    "num": 9011,
+    "partido": "PROS",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "THIALU GUIOTTI",
+    "num": 7070,
+    "partido": "AVANTE",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "THYAGO GALDENES",
+    "num": 2870,
+    "partido": "PRTB",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "TIANINHA",
+    "num": 1529,
+    "partido": "MDB",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "UGTON",
+    "num": 2233,
+    "partido": "PL",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "VALDECY DA SAÚDE",
+    "num": 1068,
+    "partido": "REPUBLICANOS",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "VALDIR DO MST",
+    "num": 1311,
+    "partido": "PT",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "VALDOMIRO FERRETO",
+    "num": 2345,
+    "partido": "CIDADANIA",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "VALERIANO ABREU",
+    "num": 2033,
+    "partido": "PSC",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "VALTYN DO BRAZIL",
+    "num": 1456,
+    "partido": "PTB",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "VANESSA RODRIGUES",
+    "num": 9022,
+    "partido": "PROS",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Renúncia",
+    "totalizacao": "Concorrendo",
+    "bens": null
+  },
+  {
+    "urna": "VANESSA RODRIGUES",
+    "num": 9022,
+    "partido": "PROS",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Renúncia",
+    "totalizacao": "Concorrendo",
+    "bens": null
+  },
+  {
+    "urna": "VAVÁ",
+    "num": 1388,
+    "partido": "PT",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "VERA FORMOSA",
+    "num": 3677,
+    "partido": "AGIR",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "VICTOR DIMBA",
+    "num": 2899,
+    "partido": "PRTB",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "VIGILANTE ASSUMAR BORGES",
+    "num": 2238,
+    "partido": "PL",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "VIVIANE MORGADO",
+    "num": 1519,
+    "partido": "MDB",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "VOVÔ WILSON COSTA",
+    "num": 4401,
+    "partido": "UNIÃO",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "WALKIRIA DOS ABRIGOS",
+    "num": 2324,
+    "partido": "CIDADANIA",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "WANDEIR DE OLIVEIRA",
+    "num": 7711,
+    "partido": "SOLIDARIEDADE",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "WANDER DAVID",
+    "num": 1977,
+    "partido": "PODE",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "WEMERSON QUEIROZ",
+    "num": 2040,
+    "partido": "PSC",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "WENNER PATRICK",
+    "num": 4077,
+    "partido": "PSB",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "WESLEY COSTA",
+    "num": 4020,
+    "partido": "PSB",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "WILSON RIBEIRO DA CULTURA",
+    "num": 4001,
+    "partido": "PSB",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "WORLEM KENEDY",
+    "num": 3031,
+    "partido": "NOVO",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "YURI TEJOTA",
+    "num": 1944,
+    "partido": "PODE",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "ZAIRA CAMINHONEIRA",
+    "num": 2821,
+    "partido": "PRTB",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "ZÉ ANTONIO",
+    "num": 1047,
+    "partido": "REPUBLICANOS",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "ZÉ CHAVEIRO",
+    "num": 4045,
+    "partido": "PSB",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  },
+  {
+    "urna": "ZÉ FRED",
+    "num": 1505,
+    "partido": "MDB",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Suplente",
+    "bens": null
+  },
+  {
+    "urna": "ZENIT VAZ",
+    "num": 2220,
+    "partido": "PL",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Renúncia",
+    "totalizacao": "Concorrendo",
+    "bens": null
+  },
+  {
+    "urna": "ZEZE DUTRA",
+    "num": 5160,
+    "partido": "PATRIOTA",
+    "gasto": 0,
+    "gasto1t": null,
+    "situacao": "Deferido",
+    "totalizacao": "Não eleito",
+    "bens": null
+  }
+]

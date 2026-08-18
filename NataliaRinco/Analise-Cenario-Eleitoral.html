@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Análise de Cenário Eleitoral: Natália Rinco 4055 | Oráculo</title>
+<meta name="description" content="Análise do cenário de campanha de Natália Rinco (PSB 4055), candidata a deputada federal por Goiás: registro no TSE, aritmética do quociente eleitoral, mapa de votos de 2022 na Chapada dos Veadeiros e no Nordeste Goiano, histórico integral do Instagram, mídia paga e comparativo com três referências. Preparada pela Oráculo Tecnologia."/>
+<meta property="og:type" content="website"/>
+<meta property="og:title" content="Análise de Cenário Eleitoral: Natália Rinco 4055 | Oráculo"/>
+<meta property="og:description" content="Análise do cenário de campanha de Natália Rinco (PSB 4055), candidata a deputada federal por Goiás: registro no TSE, aritmética do quociente eleitoral, mapa de votos de 2022 na Chapada dos Veadeiros e no Nordeste Goiano, histórico integral do Instagram, mídia paga e comparativo com três referências. Preparada pela Oráculo Tecnologia."/>
+<meta property="og:image" content="https://analises-oraculo.vercel.app/NataliaRinco/og-cenario.png"/>
+<meta property="og:image:width" content="1200"/>
+<meta property="og:image:height" content="630"/>
+<meta property="og:url" content="https://analises-oraculo.vercel.app/NataliaRinco/Analise-Cenario-Eleitoral.html"/>
+<meta property="og:site_name" content="Oráculo Tecnologia"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://analises-oraculo.vercel.app/NataliaRinco/og-cenario.png"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous"/>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&amp;family=Petrona:ital,wght@0,400..700;1,400..600&amp;display=swap"/>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+  *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+  :root{
+    --ink:#1b2e73;--ink-deep:#131f4e;--ink-soft:#2c4193;--on-ink:#fff;--on-ink-2:#b3c0ea;--on-ink-3:#8b9bd4;
+    --paper:#fbfbfd;--surface:#fff;--rule:#dfe1ec;--rule-soft:#ebedf4;--text:#15182b;--text-2:#454b66;--text-3:#6b7186;
+    --primary:#1d4ed8;--primary-bg:#eef2ff;--good:#15803d;--good-bg:#f1faf3;--warn:#8f4e07;--warn-bg:#fdf7ed;--grave:#1b2e73;--grave-bg:#eff1fa;--purple:#6d28d9;--purple-bg:#f5f3ff;
+    --sans:'Bricolage Grotesque',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;--serif:'Petrona',Georgia,'Times New Roman',serif;
+    --gut:clamp(1.125rem,5vw,2.5rem);--col:68rem;--nav-h:2.9rem;
+  }
+  html{scroll-behavior:smooth;-webkit-text-size-adjust:100%;overflow-x:hidden;overflow-x:clip}
+  body{font-family:var(--serif);font-size:16px;line-height:1.7;background:var(--paper);color:var(--text);-webkit-font-smoothing:antialiased;padding-top:var(--nav-h);overflow-x:hidden;overflow-x:clip}
+  .num,td,th,.kpi-val,.score-val,.metric-value{font-variant-numeric:tabular-nums}
+  .cover{background:var(--ink);color:var(--on-ink);padding:clamp(3.5rem,12vw,8rem) var(--gut) clamp(2.5rem,7vw,4.5rem)}
+  .cover-inner,.kpi-row,.closing-inner,footer{max-width:var(--col);margin:0 auto}
+  .cover-mark{font-family:var(--sans);font-size:.8125rem;font-weight:600;color:var(--on-ink-2);margin-bottom:clamp(2.5rem,9vw,5rem)}
+  .cover-mark b{color:#fff}
+  .cover h1{font-family:var(--sans);font-size:clamp(2rem,6.2vw,4.25rem);font-weight:600;letter-spacing:-.035em;line-height:1.04;max-width:20ch;text-wrap:balance;margin-bottom:1.5rem}
+  .cover h1 em{font-style:normal;color:var(--on-ink-2)}
+  .cover-sub{font-size:clamp(1rem,2vw,1.0625rem);line-height:1.65;color:var(--on-ink-2);max-width:54ch}
+  .cover-rule{height:1px;background:rgba(255,255,255,.22);margin:clamp(2.5rem,7vw,4rem) 0 1.25rem}
+  .cover-foot{font-family:var(--sans);font-size:.8125rem;color:var(--on-ink-3);display:flex;flex-wrap:wrap;gap:.4rem 1.5rem}
+  .cover-foot b{color:var(--on-ink-2)}
+  .kpi-band{background:var(--ink-deep);padding:clamp(2rem,5vw,2.75rem) var(--gut)}
+  .kpi-row{display:grid;grid-template-columns:repeat(5,1fr);gap:1px;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.14)}
+  .kpi{background:var(--ink-deep);padding:1.1rem 1rem 1.2rem;min-width:0}
+  .kpi-val{font-family:var(--sans);font-size:clamp(1.4rem,3vw,2.125rem);font-weight:600;letter-spacing:-.03em;line-height:1.05;color:#fff}
+  .kpi-label{font-family:var(--sans);font-size:.75rem;font-weight:600;color:var(--on-ink-2);margin-top:.35rem}
+  .kpi-note{font-family:var(--sans);font-size:.7rem;color:var(--on-ink-3);margin-top:.15rem;line-height:1.35}
+  .nav{position:fixed;top:0;left:0;right:0;height:var(--nav-h);z-index:50;background:var(--paper);border-bottom:1px solid var(--rule);padding:0 var(--gut);display:flex;align-items:stretch;overflow-x:auto;scrollbar-width:none;font-family:var(--sans)}
+  .nav::-webkit-scrollbar{display:none}.nav a{flex-shrink:0;display:flex;align-items:center;padding:0 .68rem;font-size:.78rem;font-weight:500;color:var(--text-3);text-decoration:none;border-bottom:2px solid transparent;white-space:nowrap}.nav a:hover,.nav a.active{color:var(--ink)}.nav a.active{font-weight:700;border-bottom-color:var(--ink)}
+  .page{width:100%;max-width:calc(var(--col) + 2 * var(--gut));margin:0 auto;padding:clamp(2rem,4vw,3rem) var(--gut) clamp(3rem,6vw,4.5rem)}
+  section{min-width:0;scroll-margin-top:calc(var(--nav-h) + .75rem)}
+  .sec-head{border-top:1px solid var(--text);padding-top:.85rem;margin:clamp(2.5rem,6vw,4rem) 0 1.4rem}.sec-head h2{font-family:var(--sans);font-size:clamp(1.4rem,3.6vw,2rem);font-weight:600;letter-spacing:-.028em;line-height:1.15}.sec-head p{font-size:.9375rem;color:var(--text-3);margin-top:.35rem;max-width:66ch}
+  section:first-child .sec-head{margin-top:0}
+  h3{font-family:var(--sans);font-size:1.08rem;line-height:1.3;margin:1.7rem 0 .65rem}p+p{margin-top:.8rem}.lede{font-size:clamp(1.08rem,2vw,1.28rem);line-height:1.65;max-width:68ch}.muted{color:var(--text-3)}
+  .grid-2,.grid-3,.grid-4{display:grid;gap:1rem}.grid-2{grid-template-columns:repeat(2,minmax(0,1fr))}.grid-3{grid-template-columns:repeat(3,minmax(0,1fr))}.grid-4{grid-template-columns:repeat(4,minmax(0,1fr))}.grid-2>*,.grid-3>*,.grid-4>*,.essential>*,.score>*,.score-grid>*,.diag>*,.metric-strip>*,.swot>*,.roadmap>*{min-width:0}
+  .card{background:var(--surface);border:1px solid var(--rule);padding:1.15rem}.card h3{margin:0 0 .55rem;font-size:1rem}.card p{font-size:.9rem;color:var(--text-2)}.card ul{padding-left:1.1rem;font-size:.9rem;color:var(--text-2)}.card li+li{margin-top:.35rem}
+  .eyebrow{font-family:var(--sans);font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.12em;color:var(--primary);margin-bottom:.45rem}
+  .essential{display:grid;grid-template-columns:1.25fr .75fr;gap:1.25rem}.essential-main{border-left:4px solid var(--ink);padding:.2rem 0 .2rem 1.2rem}.essential-list{list-style:none}.essential-list li{border-bottom:1px solid var(--rule-soft);padding:.6rem 0;font-size:.9rem}.essential-list li:last-child{border-bottom:0}
+  .score{background:var(--ink);color:#fff;padding:clamp(1.3rem,4vw,2rem);display:grid;grid-template-columns:13rem 1fr;gap:2rem;align-items:center}.score-number{display:flex;align-items:baseline}.score-val{font-family:var(--sans);font-size:4.6rem;font-weight:650;line-height:1;letter-spacing:-.06em}.score-den{font-family:var(--sans);color:var(--on-ink-2);font-size:1rem;margin-left:.35rem}.score-verdict{color:var(--on-ink-2);font-size:1.05rem}.score-verdict b{color:#fff;font-family:var(--sans)}
+  .score-grid{margin-top:1px;display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--rule)}.score-item{background:#fff;padding:1rem}.score-item-head{display:flex;justify-content:space-between;gap:.75rem;font-family:var(--sans);font-size:.8rem;font-weight:650}.score-track{height:5px;background:var(--rule-soft);margin-top:.6rem}.score-fill{height:100%;background:var(--ink)}
+  .diag{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--rule);border:1px solid var(--rule);margin-top:1.25rem}.diag-col{background:#fff;padding:1.15rem}.diag-col ul{padding-left:1.15rem;font-size:.9rem;color:var(--text-2)}.diag-col li+li{margin-top:.45rem}
+  .metric-strip{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--rule);margin:1.2rem 0}.metric{padding:1rem;border-right:1px solid var(--rule)}.metric:last-child{border-right:0}.metric-value{font-family:var(--sans);font-size:1.55rem;font-weight:650;letter-spacing:-.035em}.metric-label{font-family:var(--sans);font-size:.72rem;color:var(--text-3);margin-top:.2rem}
+  .chart{width:100%;min-width:0;overflow:hidden;background:#fff;border:1px solid var(--rule);padding:1rem;margin:1rem 0;min-height:280px;position:relative}.chart.sm{min-height:235px}.chart canvas{display:block;width:100%!important;max-width:100%!important;max-height:320px}
+  .table-wrap{width:100%;max-width:100%;min-width:0;overflow-x:auto;overscroll-behavior-inline:contain;-webkit-overflow-scrolling:touch}table{width:100%;border-collapse:collapse;background:#fff;border:1px solid var(--rule);font-family:var(--sans);font-size:.8rem;margin:1rem 0}th,td{text-align:left;padding:.72rem;border-bottom:1px solid var(--rule-soft);vertical-align:top}th{font-size:.66rem;text-transform:uppercase;letter-spacing:.08em;color:var(--text-3);background:#f7f8fb}tbody tr:last-child td{border-bottom:0}.right{text-align:right}.status{font-size:.66rem;font-weight:700;padding:.2rem .42rem;background:var(--primary-bg);color:var(--primary);white-space:nowrap}.status.good{background:var(--good-bg);color:var(--good)}.status.warn{background:var(--warn-bg);color:var(--warn)}
+  .insight{border-left:3px solid var(--primary);background:var(--primary-bg);padding:1rem 1.1rem;margin:1.25rem 0}.insight.good{border-color:var(--good);background:var(--good-bg)}.insight.warn{border-color:var(--warn);background:var(--warn-bg)}.insight.bad{border-color:var(--grave);background:var(--grave-bg)}.insight.purple{border-color:var(--purple);background:var(--purple-bg)}.insight-header{font-family:var(--sans);font-size:.68rem;font-weight:750;letter-spacing:.1em;text-transform:uppercase;color:var(--primary);margin-bottom:.4rem}.insight.good .insight-header{color:var(--good)}.insight.warn .insight-header{color:var(--warn)}.insight.bad .insight-header{color:var(--grave)}.insight.purple .insight-header{color:var(--purple)}.insight-body{display:flex;gap:.75rem}.verdict{font-family:var(--sans);font-size:.7rem;font-weight:700;white-space:nowrap}.insight p{font-size:.9rem;color:var(--text-2)}
+  .callout{border:1px solid var(--rule);background:#fff;padding:1rem 1.1rem;margin:1rem 0}.callout>strong{display:block;font-family:var(--sans);font-size:.7rem;text-transform:uppercase;letter-spacing:.1em;color:var(--ink);margin-bottom:.4rem}.callout p,.callout li{font-size:.9rem;color:var(--text-2)}
+  .swot{display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:var(--rule);border:1px solid var(--rule)}.swot-cell{background:#fff;padding:1.15rem}.swot-cell h3{margin:0 0 .6rem}.swot-cell ul{padding-left:1rem;font-size:.9rem;color:var(--text-2)}.swot-cell li+li{margin-top:.35rem}
+  .roadmap{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem}.phase{border-top:4px solid var(--ink);background:#fff;border-left:1px solid var(--rule);border-right:1px solid var(--rule);border-bottom:1px solid var(--rule);padding:1.15rem}.phase:nth-child(2){border-top-color:var(--primary)}.phase:nth-child(3){border-top-color:var(--purple)}.phase-time{font-family:var(--sans);font-size:.7rem;font-weight:750;letter-spacing:.1em;text-transform:uppercase;color:var(--text-3)}.phase h3{margin:.45rem 0 .8rem}.phase ol{padding-left:1.1rem;font-size:.88rem;color:var(--text-2)}.phase li+li{margin-top:.45rem}.phase-kpi{border-top:1px solid var(--rule);margin-top:1rem;padding-top:.8rem;font-family:var(--sans);font-size:.72rem;color:var(--ink)}
+  .priority{display:grid;grid-template-columns:4rem 1fr auto;gap:1rem;align-items:center;padding:.9rem 0;border-bottom:1px solid var(--rule)}.priority:last-child{border-bottom:0}.priority-num{font-family:var(--sans);font-size:1.8rem;font-weight:650;color:var(--ink)}.priority h3{margin:0;font-size:.95rem}.priority p{font-size:.85rem;color:var(--text-3)}
+  .closing{background:var(--ink-deep);color:#fff;padding:clamp(2.5rem,7vw,4.5rem) var(--gut)}.closing h2{font-family:var(--sans);font-size:clamp(1.7rem,4vw,2.8rem);letter-spacing:-.035em;line-height:1.1;max-width:22ch}.closing p{color:var(--on-ink-2);max-width:58ch;margin-top:1rem}.closing-meta{font-family:var(--sans);font-size:.75rem;color:var(--on-ink-3);margin-top:2rem}
+  footer{padding:1.5rem var(--gut);font-family:var(--sans);font-size:.72rem;color:var(--text-3);display:flex;justify-content:space-between;gap:1rem}
+  @media(max-width:850px){.kpi-row{grid-template-columns:repeat(2,minmax(0,1fr))}.kpi:last-child{grid-column:span 2}.grid-3,.grid-4,.roadmap{grid-template-columns:repeat(2,minmax(0,1fr))}.essential,.score,.diag{grid-template-columns:minmax(0,1fr)}.score-grid,.metric-strip{grid-template-columns:repeat(2,minmax(0,1fr))}.metric:nth-child(2){border-right:0}.metric:nth-child(-n+2){border-bottom:1px solid var(--rule)}}
+  @media(max-width:580px){.grid-2,.grid-3,.grid-4,.roadmap,.swot,.score-grid{grid-template-columns:minmax(0,1fr)}.insight-body{display:block}.verdict{display:block;margin-bottom:.3rem}.priority{grid-template-columns:2.5rem minmax(0,1fr)}.priority .status{grid-column:2}.table-wrap{width:auto;max-width:none;margin:1rem calc(-1 * var(--gut));padding:0 var(--gut)}table{min-width:620px}.cover h1{max-width:16ch}footer{display:block}footer span{display:block}.kpi-row{grid-template-columns:minmax(0,1fr)}.kpi:last-child{grid-column:auto}}
+  @media print{.nav{display:none}body{padding-top:0}.cover,.kpi-band,.score,.closing{print-color-adjust:exact;-webkit-print-color-adjust:exact}.page{max-width:none}.chart{break-inside:avoid}section{break-inside:auto}}
+</style>
+</head>
+<body>
+<header class="cover">
+  <div class="cover-inner">
+    <div class="cover-mark"><b>Oráculo Tecnologia</b> · Análise de cenário eleitoral</div>
+    <h1>Toda a Chapada dos Veadeiros votando em você daria 20.633 votos. <em>O último deputado federal eleito por Goiás precisou de 51.346.</em></h1>
+    <p class="cover-sub">Leitura do cenário da campanha de Natália Rinco a partir do que é observável de fora: o registro no TSE, o resultado de 2022 urna a urna nos 30 municípios do Nordeste Goiano, o histórico integral de 134 publicações do Instagram desde 2014, a mídia paga declarada na Biblioteca de Anúncios da Meta e o comparativo com três referências que disputam o mesmo espaço.</p>
+    <div class="cover-rule"></div>
+    <div class="cover-foot"><span><b>Natália Bravim Rinco</b></span><span>PSB 4055 · Deputada federal por Goiás · Alto Paraíso de Goiás</span><span>18 de agosto de 2026 · 1ª coleta</span></div>
+  </div>
+</header>
+
+<div class="kpi-band">
+  <div class="kpi-row">
+    <div class="kpi"><div class="kpi-val">51.346</div><div class="kpi-label">Votos do último eleito em 2022</div><div class="kpi-note">17 vagas, quociente eleitoral de 202.725</div></div>
+    <div class="kpi"><div class="kpi-val">20.633</div><div class="kpi-label">Votos que a Chapada inteira produz</div><div class="kpi-note">6 municípios, 30.157 eleitores em 2022</div></div>
+    <div class="kpi"><div class="kpi-val">2.714</div><div class="kpi-label">Seguidores no Instagram</div><div class="kpi-note">Aava Santiago, da mesma legenda, tem 740.903</div></div>
+    <div class="kpi"><div class="kpi-val">Zero</div><div class="kpi-label">Anúncios na Biblioteca da Meta</div><div class="kpi-note">As três referências têm anúncios ativos</div></div>
+    <div class="kpi"><div class="kpi-val">460</div><div class="kpi-label">Dias sem publicar</div><div class="kpi-note">De 26/12/2024 a 31/03/2026, o ano de 2025 inteiro</div></div>
+  </div>
+</div>
+
+<nav class="nav" aria-label="Seções da análise">
+  <a href="#essencial">Essencial</a><a href="#diagnostico">Diagnóstico</a><a href="#aritmetica">Aritmética</a><a href="#territorio">Território</a><a href="#registro">Registro</a><a href="#instagram">Instagram</a><a href="#conteudo">Conteúdo</a><a href="#vitrine">Vitrine</a><a href="#fora">Fora do Instagram</a><a href="#paga">Mídia paga</a><a href="#concorrencia">Concorrência</a><a href="#swot">SWOT</a><a href="#resumo">Resumo</a>
+</nav>
+
+<main class="page">
+  <section id="essencial">
+    <div class="sec-head"><h2>O essencial em dois minutos</h2><p>O que a candidatura tem, o que ela enfrenta e onde o número não fecha.</p></div>
+    <div class="essential">
+      <div class="essential-main">
+        <p class="eyebrow">Leitura central</p>
+        <p class="lede">O problema desta campanha não é qualidade de conteúdo. O engajamento do perfil é de <b>9,37%</b>, quinze vezes maior que o de Flávia Morais e sete vezes o de Magda Mofatto, as duas donas históricas da região. O problema é escala e aritmética: o PSB fez <b>77.221 votos nominais</b> em Goiás em 2022, o equivalente a <b>0,38 do quociente eleitoral</b>, e não elegeu ninguém. Para uma vaga em 2026, não basta a candidata ir bem: a legenda inteira precisaria quase triplicar de tamanho.</p>
+      </div>
+      <div class="card"><p class="eyebrow">O achado mais caro</p><p>O endereço de internet que a candidata declarou à Justiça Eleitoral, <b>instagram.com/nataliarincopsb</b>, está fora do ar. O perfil foi renomeado para <b>@nataliarinco4055</b> e o antigo devolve página de erro. Todo link já indexado pelo Google, citado em legendas e registrado no TSE leva hoje a lugar nenhum.</p></div>
+    </div>
+    <div class="grid-3" style="margin-top:1rem">
+      <div class="card"><p class="eyebrow">O que funciona</p><h3>Densidade de vínculo</h3><p>9,37% de engajamento e 4.104 reproduções médias por Reel, uma vez e meia a base de seguidores. A audiência que existe responde.</p></div>
+      <div class="card"><p class="eyebrow">O que trava</p><h3>Escala, cadência e dinheiro</h3><p>Um post por semana, 2.714 seguidores, R$ 3.690 arrecadados de 19 doadores e nenhum real declarado em impulsionamento.</p></div>
+      <div class="card"><p class="eyebrow">O que decide</p><h3>A conta do quociente</h3><p>A base geográfica inteira da candidata cabe dentro de 40% do que o último eleito de 2022 precisou. A vaga não sai da Chapada.</p></div>
+    </div>
+    <div class="insight warn"><div class="insight-header">O que isso significa para você</div><div class="insight-body"><span class="verdict">&#9654; Atenção</span><p>A candidatura tem o ativo mais difícil de construir, que é vínculo real com uma comunidade, e não tem nenhum dos ativos fáceis de comprar: alcance, cadência e mídia. Como o mandato depende primeiro do desempenho do partido inteiro, e o PSB está a menos de metade do quociente, o resultado individual dela em 2026 deve ser lido como construção de base, não como disputa de vaga.</p></div></div>
+  </section>
+  <section id="diagnostico">
+    <div class="sec-head"><h2>Diagnóstico executivo</h2><p>O que a coleta encontrou, em ordem de peso sobre o resultado da urna.</p></div>
+    <p class="lede" style="font-size:.95rem;max-width:none">Esta é a <b>primeira coleta</b>, feita em 18 de agosto de 2026, dois dias depois do início oficial do período de campanha. Os dados eleitorais vieram do sistema DivulgaCandContas do TSE e dos arquivos oficiais de resultado da eleição de 2022, baixados município a município para os <b>30 municípios do Nordeste Goiano e da Chapada dos Veadeiros</b>, mais o resultado da eleição municipal de 2024 em Alto Paraíso de Goiás. Os dados do Instagram vieram da API interna da plataforma, com sessão autenticada, e cobrem o <b>histórico integral de 134 publicações, de outubro de 2014 a agosto de 2026</b>, com curtidas, comentários, reproduções, marcações, geolocalização e legendas completas. A mídia paga veio da Biblioteca de Anúncios da Meta. Nenhum acesso ao Meta Business, a pesquisas registradas ou a bases internas da campanha foi utilizado: tudo aqui é observável de fora, exatamente como um eleitor, um adversário ou um jornalista veria.</p>
+    <div class="score">
+      <div><div class="score-number"><span class="score-val">3,4</span><span class="score-den">/ 10</span></div></div>
+      <p class="score-verdict"><b>Vínculo forte com uma base pequena demais para o cargo disputado.</b><br/>O conteúdo é o ponto alto e a aritmética eleitoral é o ponto cego.</p>
+    </div>
+    <div class="score-grid">
+      <div class="score-item"><div class="score-item-head"><span>Engajamento e vínculo</span><span>8,2</span></div><div class="score-track"><div class="score-fill" style="width:82%"></div></div></div>
+      <div class="score-item"><div class="score-item-head"><span>Narrativa e território</span><span>6,5</span></div><div class="score-track"><div class="score-fill" style="width:65%"></div></div></div>
+      <div class="score-item"><div class="score-item-head"><span>Alcance e escala</span><span>2,1</span></div><div class="score-track"><div class="score-fill" style="width:21%"></div></div></div>
+      <div class="score-item"><div class="score-item-head"><span>Cadência de campanha</span><span>1,8</span></div><div class="score-track"><div class="score-fill" style="width:18%"></div></div></div>
+      <div class="score-item"><div class="score-item-head"><span>Infraestrutura digital</span><span>1,5</span></div><div class="score-track"><div class="score-fill" style="width:15%"></div></div></div>
+      <div class="score-item"><div class="score-item-head"><span>Viabilidade aritmética</span><span>1,0</span></div><div class="score-track"><div class="score-fill" style="width:10%"></div></div></div>
+    </div>
+    <div class="diag">
+      <div class="diag-col"><p class="eyebrow">Situação</p><ul>
+        <li>PSB fez 0,38 do quociente eleitoral em Goiás em 2022 e não elegeu deputado federal</li>
+        <li>A Chapada dos Veadeiros inteira produziu 20.633 votos nominais para deputado federal em 2022</li>
+        <li>2.714 seguidores, 20 publicações em 138 dias, uma por semana</li>
+        <li>Zero anúncios políticos na Biblioteca de Anúncios da Meta</li>
+        <li>O endereço declarado ao TSE está fora do ar desde a troca de nome do perfil</li>
+      </ul></div>
+      <div class="diag-col"><p class="eyebrow">Impacto</p><ul>
+        <li>A vaga depende do desempenho da legenda inteira, não do desempenho individual</li>
+        <li>Mesmo 100% da base natural não chega a metade do necessário para eleger</li>
+        <li>O volume de conteúdo é cerca de 30 vezes menor que o das referências da região</li>
+        <li>Todo o alcance é orgânico, limitado ao tamanho atual da base</li>
+        <li>Quem procura a candidata pelo caminho oficial encontra uma página de erro</li>
+      </ul></div>
+      <div class="diag-col"><p class="eyebrow">O que a leitura sustenta</p><ul>
+        <li>O engajamento de 9,37% é real e é o maior do grupo comparado</li>
+        <li>Os Reels alcançam 1,5 vez a base de seguidores, sinal de distribuição fora dela</li>
+        <li>A narrativa de território é consistente e ancorada em fatos verificáveis</li>
+        <li>A rede de marcações mostra articulação partidária ativa, com 95 perfis distintos</li>
+        <li>A leitura é de construção de base, com resultado eleitoral improvável em 2026</li>
+      </ul></div>
+    </div>
+    <div class="insight bad"><div class="insight-header">O que isso significa para você</div><div class="insight-body"><span class="verdict">&#9654; Atenção</span><p>A nota geral é 3,4 de 10, e ela é puxada para baixo por dois eixos que não se resolvem com conteúdo: alcance e aritmética. Um relatório que olhasse só para o Instagram concluiria que a campanha vai bem, porque as métricas relativas são excelentes. Olhando para a urna, o quadro é o oposto: os números absolutos estão uma ordem de grandeza abaixo do necessário.</p></div></div>
+  </section>
+  <section id="aritmetica">
+    <div class="sec-head"><h2>A aritmética da vaga</h2><p>Quantos votos custa uma cadeira de deputado federal em Goiás, e de onde eles teriam que sair.</p></div>
+    <div class="metric-strip">
+      <div class="metric"><div class="metric-value">202.725</div><div class="metric-label">quociente eleitoral de Goiás em 2022</div></div>
+      <div class="metric"><div class="metric-value">51.346</div><div class="metric-label">votos do 17º e último eleito, Lêda Borges</div></div>
+      <div class="metric"><div class="metric-value">77.221</div><div class="metric-label">votos nominais de todo o PSB goiano em 2022</div></div>
+      <div class="metric"><div class="metric-value">0,38x</div><div class="metric-label">do quociente que o PSB alcançou</div></div>
+    </div>
+    <p>A eleição para deputado federal é proporcional, e isso muda inteiramente a leitura de uma candidatura. O primeiro filtro não é individual: é o partido. Em 2022, Goiás teve <b>3.446.324 votos válidos</b> para 17 vagas, o que fixou o quociente eleitoral em <b>202.725 votos</b>. Nenhum candidato entra na divisão de cadeiras se a sua legenda não atingir esse total somando votos nominais e de legenda. O PSB somou 77.221 votos nominais em todo o estado, com 18 candidatos. Ficou a menos de 40% do necessário e não elegeu ninguém.</p>
+    <div class="table-wrap"><table>
+      <thead><tr><th>Partido ou federação</th><th>Votos nominais 2022</th><th>Participação</th><th>Quocientes atingidos</th></tr></thead>
+      <tbody>
+        <tr><td>PL</td><td>556.679</td><td>16,15%</td><td>2,75x</td></tr>
+        <tr><td>UNIÃO</td><td>359.305</td><td>10,43%</td><td>1,77x</td></tr>
+        <tr><td>PP</td><td>281.377</td><td>8,16%</td><td>1,39x</td></tr>
+        <tr><td>REPUBLICANOS</td><td>268.377</td><td>7,79%</td><td>1,32x</td></tr>
+        <tr><td>MDB</td><td>265.386</td><td>7,70%</td><td>1,31x</td></tr>
+        <tr><td>Federação Brasil da Esperança (PT, PCdoB, PV)</td><td>263.139</td><td>7,64%</td><td>1,30x</td></tr>
+        <tr><td>PSD</td><td>177.565</td><td>5,15%</td><td>0,88x</td></tr>
+        <tr><td>Federação PSDB Cidadania</td><td>172.618</td><td>5,01%</td><td>0,85x</td></tr>
+        <tr><td>PDT</td><td>172.557</td><td>5,01%</td><td>0,85x</td></tr>
+        <tr><td><b>PSB</b> <span class="status warn">legenda da candidata</span></td><td><b>77.221</b></td><td>2,24%</td><td><b>0,38x</b></td></tr>
+      </tbody>
+    </table></div>
+    <div class="chart"><canvas id="chartQuociente"></canvas></div>
+    <p>O segundo filtro é geográfico, e é onde a conta fica mais dura. A candidatura se apresenta, com razão, como voz da Chapada dos Veadeiros e do Nordeste Goiano. A questão é o tamanho desse território medido em votos. Os seis municípios da microrregião da Chapada dos Veadeiros, que são Alto Paraíso de Goiás, Cavalcante, Colinas do Sul, Nova Roma, São João d&rsquo;Aliança e Teresina de Goiás, somavam <b>30.157 eleitores</b> em 2022 e produziram <b>20.633 votos nominais</b> para deputado federal. É o total, considerando todos os candidatos somados.</p>
+    <div class="callout"><strong>O teto da base natural</strong><p>Se a candidata recebesse <b>cada um dos votos</b> dos seis municípios da Chapada dos Veadeiros, sem exceção, chegaria a 20.633 votos, ou <b>40% do que o último eleito de 2022 precisou</b>. Em Alto Paraíso de Goiás, a cidade da família, o total de votos nominais para deputado federal em 2022 foi de 4.700, menos de <b>um décimo</b> do necessário. Para alcançar 51.346 votos dentro dos 30 municípios do Nordeste Goiano, seria preciso <b>22,3% de toda a região</b>, uma marca que nenhum candidato chegou perto de atingir: o maior votado regional, Flávia Morais, fez 9,61%.</p></div>
+    <div class="chart"><canvas id="chartTeto"></canvas></div>
+    <div class="insight bad"><div class="insight-header">O que isso significa para você</div><div class="insight-body"><span class="verdict">&#9654; Atenção</span><p>Essa é a conclusão mais importante do relatório, e ela não depende de nenhuma escolha de campanha. Para eleger, seria preciso que o PSB goiano quase triplicasse a votação de 2022 e que a candidata dominasse um território muito maior que a Chapada. Nenhuma das duas coisas está sob controle da campanha nos 47 dias que restam. O que está sob controle é o tamanho da votação pessoal que ela sai construindo, e é por essa régua que o resultado de outubro deve ser lido.</p></div></div>
+  </section>
+  <section id="territorio">
+    <div class="sec-head"><h2>O território e quem já manda nele</h2><p>Quem tirou voto na Chapada e no Nordeste Goiano em 2022, e quem voltou em 2026.</p></div>
+    <p>O eleitorado que a candidatura reivindica não está vago. Em 2022, os 30 municípios analisados reuniam <b>343.893 eleitores</b> e produziram <b>230.562 votos nominais</b> para deputado federal, com uma disputa já consolidada entre nomes de fora da região que mantêm estrutura local há anos. Na microrregião da Chapada especificamente, a liderança é de <b>Magda Mofatto</b>, que fez 3.186 votos ali, e de <b>Flávia Morais</b>, com 2.906. Ambas disputam de novo em 2026.</p>
+    <div class="table-wrap"><table>
+      <thead><tr><th>Nome</th><th>Votos na Chapada (6 mun.)</th><th>Votos no Nordeste Goiano (30 mun.)</th><th>Nº em 2022</th><th>Nº em 2026</th></tr></thead>
+      <tbody>
+        <tr><td>Magda Mofatto <span class="status warn">líder na Chapada</span></td><td>3.186</td><td>12.712</td><td>2222 (PL)</td><td>2222 (PL)</td></tr>
+        <tr><td>Flávia Morais <span class="status warn">líder na região</span></td><td>2.906</td><td>22.153</td><td>1212 (PDT)</td><td>1515 (MDB)</td></tr>
+        <tr><td>Professor Alcides</td><td>1.376</td><td>7.425</td><td>2250 (PL)</td><td>4500 (PSDB)</td></tr>
+        <tr><td>Lêda Borges</td><td>1.321</td><td>6.795</td><td>4545 (PSDB)</td><td>1020 (REPUBLICANOS)</td></tr>
+        <tr><td>Elias Vaz <span class="status">melhor PSB local em 2022</span></td><td>1.246</td><td>1.906</td><td>4040 (PSB)</td><td>não concorre</td></tr>
+        <tr><td>Lucas Vergílio</td><td>1.098</td><td>11.112</td><td>7777 (SOLIDARIEDADE)</td><td>1510 (MDB)</td></tr>
+        <tr><td>José Nelto</td><td>942</td><td>12.712</td><td>1123 (PP)</td><td>4415 (UNIÃO)</td></tr>
+        <tr><td>Paulo Trabalho</td><td>—</td><td>15.147</td><td>2290 (PL)</td><td>não localizado</td></tr>
+      </tbody>
+    </table></div>
+    <p>Duas leituras saem dessa tabela. A primeira é que <b>o teto histórico de um candidato na Chapada é de 15,44%</b> dos votos da microrregião, marca de Magda Mofatto em 2022. Nenhum nome jamais concentrou a região. A segunda é que <b>quatro dos sete principais nomes trocaram de número de urna entre 2022 e 2026</b>, o que abre uma janela real de confusão de recall no eleitorado local, já que o número impresso na memória de quem votou em 2022 não corresponde mais ao mesmo candidato.</p>
+    <div class="chart"><canvas id="chartChapada"></canvas></div>
+    <h3>Alto Paraíso de Goiás, a cidade da família</h3>
+    <p>O município tinha <b>6.941 eleitores</b> em 2022, com 76,27% de comparecimento e 4.700 votos nominais para deputado federal. Na eleição municipal de 2024, o resultado desenha o mapa de forças local com clareza:</p>
+    <div class="table-wrap"><table>
+      <thead><tr><th>Candidato a prefeito em 2024</th><th>Partido e composição</th><th>Votos</th><th>%</th><th>Resultado</th></tr></thead>
+      <tbody>
+        <tr><td>Marcus Rinco</td><td>UNIÃO (com MDB, PRD, PP)</td><td>2.819</td><td>51,38%</td><td>Eleito</td></tr>
+        <tr><td>Professora Nislene <span class="status">vice: Murillo Aleixo</span></td><td>PSB (com PSOL, REDE)</td><td>1.369</td><td>24,95%</td><td>Não eleita</td></tr>
+        <tr><td>Hugo Bites</td><td>PT (com PCdoB, PV)</td><td>576</td><td>10,50%</td><td>Não eleito</td></tr>
+        <tr><td>Martinho Mendes</td><td>PL</td><td>547</td><td>9,97%</td><td>Não eleito</td></tr>
+        <tr><td>Dr Vinholis</td><td>MOBILIZA</td><td>176</td><td>3,21%</td><td>Não eleito</td></tr>
+      </tbody>
+    </table></div>
+    <div class="callout"><strong>Leitura da prefeitura</strong><p>A prefeitura de Alto Paraíso está com o UNIÃO, e não com o grupo da candidata: <b>Marcus Rinco</b> foi reeleito em 2024 com 51,38%. O sobrenome, portanto, não é exclusividade de um único grupo político na cidade, e esta análise <b>não afirma vínculo familiar</b> entre os dois, porque nenhuma fonte consultada o documenta. O dado relevante e verificável é outro: a chapa apoiada pelo PSB local perdeu por 51% a 25%, e <b>1.369 votos é o piso concreto da estrutura partidária da candidata na sua própria cidade</b>. Vale registrar ainda que houve determinação de cassação do mandato pela Justiça Eleitoral noticiada em outubro de 2024, cujo desfecho não foi apurado nesta coleta.</p></div>
+    <div class="insight info"><div class="insight-header">O que isso significa para você</div><div class="insight-body"><span class="verdict">&#9654; Atenção</span><p>A narrativa de raiz local é verdadeira e verificável: Divaldo Wilian Rinco administrou Alto Paraíso três vezes e foi assassinado em 2010, com o autor condenado em 2017. Isso dá à candidatura uma história que nenhum adversário consegue copiar. O limite é que a cidade toda entrega 4.700 votos para deputado federal, e a estrutura do PSB ali vale 1.369 votos medidos em 2024. A história é um ativo de comunicação estadual, não uma base eleitoral suficiente.</p></div></div>
+  </section>
+  <section id="registro">
+    <div class="sec-head"><h2>O registro e o que ele expõe</h2><p>O que consta oficialmente no TSE, e o que isso já custa de tráfego.</p></div>
+    <div class="table-wrap"><table>
+      <thead><tr><th>Campo no DivulgaCandContas</th><th>Conteúdo</th></tr></thead>
+      <tbody>
+        <tr><td>Nome de urna e número</td><td>NATÁLIA RINCO · 4055</td></tr>
+        <tr><td>Cargo e unidade eleitoral</td><td>Deputada federal · Goiás</td></tr>
+        <tr><td>Partido e coligação</td><td>PSB, sem coligação declarada</td></tr>
+        <tr><td>Situação do registro</td><td>Aguardando julgamento <span class="status warn">ainda não deferido</span></td></tr>
+        <tr><td>Nome completo e nascimento</td><td>Natalia Bravim Rinco · 10/07/1984 · natural de Brasília, DF</td></tr>
+        <tr><td>Grau de instrução e ocupação</td><td>Superior completo · Outros</td></tr>
+        <tr><td>Patrimônio declarado</td><td>R$ 414.161,14 em 5 bens, com imóvel no Lago Sul e terras em Alto Paraíso</td></tr>
+        <tr><td>CNPJ de campanha</td><td>68.518.601/0001-24</td></tr>
+        <tr><td>Eleições anteriores</td><td>Nenhuma <span class="status">primeira candidatura</span></td></tr>
+        <tr><td>Endereços de internet declarados</td><td>instagram.com/nataliarincopsb <span class="status bad">fora do ar</span><br/>threads.com/@nataliarincopsb <span class="status bad">fora do ar</span></td></tr>
+      </tbody>
+    </table></div>
+    <div class="callout"><strong>O link quebrado que ninguém viu</strong><p>O perfil do Instagram foi renomeado de <b>@nataliarincopsb</b> para <b>@nataliarinco4055</b>, provavelmente na semana em que o número de urna saiu. A troca é defensável como estratégia de recall, mas ela quebrou tudo que apontava para o nome antigo. Hoje: o endereço registrado no TSE devolve &ldquo;Esta página não está disponível&rdquo;; o Google ainda indexa os posts sob o handle antigo, incluindo o de anúncio da candidatura; e a legenda da publicação de 2 de julho agradece a &ldquo;@nataliarincopsb&rdquo; num @ que não existe mais. O Instagram não redireciona nomes de usuário liberados, e o nome antigo fica disponível para qualquer pessoa registrar.</p></div>
+    <p>Um segundo detalhe do mesmo tipo aparece na publicação de <b>2 de julho</b>. A legenda começa com &ldquo;Obrigada, @nataliarincopsb, pelo seu apoio à nossa pré-candidatura ao Senado&rdquo;. É o texto do parceiro, publicado no perfil dela por colaboração, sem adaptação. No feed da candidata, a legenda fala dela em terceira pessoa e agradece a ela mesma.</p>
+    <div class="insight bad"><div class="insight-header">O que isso significa para você</div><div class="insight-body"><span class="verdict">&#9654; Atenção</span><p>Nenhum desses pontos custa dinheiro para corrigir, e todos eles são visíveis para qualquer adversário ou jornalista que abra a ficha no TSE. O registro ainda está como &ldquo;aguardando julgamento&rdquo;, o que é normal nesta altura do calendário, mas o endereço oficial apontando para uma página de erro é o tipo de detalhe que, num pedido de impugnação ou numa matéria, aparece como sinal de campanha desorganizada.</p></div></div>
+  </section>
+  <section id="instagram">
+    <div class="sec-head"><h2>Instagram: doze anos de conta, cinco meses de campanha</h2><p>O histórico integral de 134 publicações, de outubro de 2014 a agosto de 2026.</p></div>
+    <div class="metric-strip">
+      <div class="metric"><div class="metric-value">134</div><div class="metric-label">publicações no histórico integral</div></div>
+      <div class="metric"><div class="metric-value">460</div><div class="metric-label">dias sem publicar, entre 26/12/2024 e 31/03/2026</div></div>
+      <div class="metric"><div class="metric-value">2.714</div><div class="metric-label">seguidores, contra 2.976 perfis seguidos</div></div>
+      <div class="metric"><div class="metric-value">20</div><div class="metric-label">publicações na fase de campanha, desde 31/03/2026</div></div>
+    </div>
+    <p>A conta não foi criada para a campanha: ela existe desde <b>outubro de 2014</b> e acumulou 134 publicações em quase doze anos, num ritmo de perfil pessoal. O histórico mostra uma conta que sempre publicou pouco e com longos intervalos, e que <b>parou completamente por 460 dias</b>, cobrindo o ano de 2025 inteiro. A retomada foi em <b>31 de março de 2026</b>, com um post de luto por Dona Romilda, a avó, que é também a peça que abre a narrativa de origem da campanha.</p>
+    <div class="chart"><canvas id="chartHistorico"></canvas></div>
+    <p>O detalhe estrutural mais revelador é a razão entre seguir e ser seguido: <b>2.714 seguidores para 2.976 perfis seguidos</b>. Contas de campanha em crescimento saudável têm essa razão invertida com folga. Aqui ela indica que boa parte da base veio de reciprocidade, e não de interesse ativo pela candidatura, o que é coerente com uma conta pessoal reaproveitada.</p>
+    <div class="table-wrap"><table>
+      <thead><tr><th>Ano</th><th>Publicações</th><th>Observação</th></tr></thead>
+      <tbody>
+        <tr><td>2014 a 2018</td><td>43</td><td>Uso pessoal, com intervalos de até 225 dias</td></tr>
+        <tr><td>2019 e 2020</td><td>50</td><td>Pico histórico da conta</td></tr>
+        <tr><td>2021 a 2023</td><td>17</td><td>Queda acentuada, hiato de 284 dias em 2021 e 2022</td></tr>
+        <tr><td>2024</td><td>4</td><td>Última publicação em 26 de dezembro</td></tr>
+        <tr><td>2025</td><td>0</td><td>Ano inteiro em silêncio</td></tr>
+        <tr><td>2026</td><td>20</td><td>Retomada em 31 de março, uma publicação por semana</td></tr>
+      </tbody>
+    </table></div>
+    <div class="insight warn"><div class="insight-header">O que isso significa para você</div><div class="insight-body"><span class="verdict">&#9654; Atenção</span><p>Uma conta pessoal de doze anos reaproveitada como conta de campanha carrega duas heranças opostas. A boa é a autenticidade: os seguidores são pessoas que conhecem a candidata de verdade, o que explica o engajamento alto. A ruim é que a base foi construída para outra finalidade, tem tamanho de vida pessoal e traz um histórico de publicação intermitente que continua na fase de campanha.</p></div></div>
+  </section>
+  <section id="conteudo">
+    <div class="sec-head"><h2>O conteúdo da campanha</h2><p>Formatos, temas, chamadas para ação e a rede de marcações nas 20 publicações desde 31 de março.</p></div>
+    <div class="metric-strip">
+      <div class="metric"><div class="metric-value">9,37%</div><div class="metric-label">engajamento médio da fase de campanha</div></div>
+      <div class="metric"><div class="metric-value">1,0</div><div class="metric-label">publicação por semana, em 138 dias</div></div>
+      <div class="metric"><div class="metric-value">4.104</div><div class="metric-label">reproduções médias por Reel, 1,5x a base</div></div>
+      <div class="metric"><div class="metric-value">1 de 20</div><div class="metric-label">publicações que citam o número 4055</div></div>
+    </div>
+    <p>Vinte publicações em 138 dias dão uma cadência de <b>4,3 por mês</b>. Desde o início oficial do período de campanha, em 16 de agosto, houve <b>uma publicação em dois dias</b>. Para efeito de comparação, Flávia Morais e Magda Mofatto publicaram, cada uma, doze vezes nos últimos dois dias e meio, o que dá cerca de trinta publicações por semana. A diferença de volume é de aproximadamente <b>trinta vezes</b>.</p>
+    <div class="chart"><canvas id="chartFormatos"></canvas></div>
+    <p>O desempenho por formato contraria a intuição comum de campanha. Os <b>carrosséis</b> engajam mais que os Reels, com 11,27% contra 8,13%, e as imagens estáticas ficam em 10,38%. Os Reels, porém, são o único formato que entrega alcance <b>fora</b> da base: 4.104 reproduções médias contra 2.714 seguidores, ou seja, uma vez e meia a base. As duas publicações de maior engajamento são estáticas: a convenção estadual do PSB, em 4 de agosto, com 477 curtidas e 109 comentários, e o anúncio oficial da candidatura, em 8 de agosto, com 425 e 50.</p>
+    <div class="chart"><canvas id="chartEngajamento"></canvas></div>
+    <h3>Temas, hashtags e chamadas para ação</h3>
+    <p>As hashtags são consistentes e territoriais: <b>#chapadadosveadeiros</b> aparece 11 vezes, <b>#mulheresnapolitica</b> 6, <b>#goias</b> 5, <b>#nordestegoiano</b> 3. As localizações marcadas seguem a mesma linha, com Chapada dos Veadeiros em 6 publicações e Alto Paraíso em 2. A mensagem é coerente e não se dispersa.</p>
+    <p>As chamadas para ação, no entanto, quase não existem. Nas 20 publicações da fase de campanha:</p>
+    <div class="table-wrap"><table>
+      <thead><tr><th>Tipo de chamada</th><th>Publicações</th><th>Datas</th></tr></thead>
+      <tbody>
+        <tr><td>Pedido de doação ou vaquinha</td><td>2 de 20</td><td>29/07 e 31/07</td></tr>
+        <tr><td>Menção ao número 4055</td><td>1 de 20</td><td>16/08</td></tr>
+        <tr><td>Pedido de compartilhamento</td><td>1 de 20</td><td>16/08</td></tr>
+        <tr><td>&ldquo;Link na bio&rdquo;</td><td>1 de 20</td><td>29/07</td></tr>
+        <tr><td>Contato por WhatsApp na legenda</td><td>0 de 20</td><td>—</td></tr>
+        <tr><td>Pedido explícito de seguir o perfil</td><td>0 de 20</td><td>—</td></tr>
+      </tbody>
+    </table></div>
+    <div class="callout"><strong>A rede de marcações</strong><p>As 20 publicações somam <b>182 marcações em 95 perfis distintos</b>, uma média de 9 por post, com picos de 19 e 20. Os mais marcados são <b>@psbgoias</b> e <b>@psb.altoparaisogo</b>, com 12 cada, <b>@vitordoalto</b> com 10 e <b>@psbnacional40</b> com 7. Aparecem também <b>@joaocampos</b>, presidente nacional do partido, e <b>@carlossiqueira4040</b>. É uma rede de articulação partidária real e ativa, e é a evidência mais forte de que a candidatura tem estrutura política por trás. O contraponto é que a marcação em massa distribui a publicação sobretudo entre correligionários, ou seja, dentro do círculo que já vota, e não para eleitorado novo.</p></div>
+    <div class="insight warn"><div class="insight-header">O que isso significa para você</div><div class="insight-body"><span class="verdict">&#9733; Destaque</span><p>Existe aqui um paradoxo que define a campanha: o conteúdo é bom, o engajamento é o maior do grupo comparado e a mensagem é coerente, mas o número de urna apareceu em uma única legenda de vinte, e não há uma chamada para ação sequer que peça voto. Como a eleição é decidida por quem lembra do número na urna, e o perfil já se chama @nataliarinco4055, essa é a lacuna mais barata de fechar de todo o relatório.</p></div></div>
+  </section>
+  <section id="vitrine">
+    <div class="sec-head"><h2>A vitrine do perfil</h2><p>O que um eleitor que nunca ouviu falar da candidata vê nos primeiros cinco segundos.</p></div>
+    <p>A biografia cumpre a função básica e comunica território e bandeira: &ldquo;É tempo de renovação · Candidata a Dep Federal Goiás · Chapada dos Veadeiros e Nordeste Goiano · Mulheres e Coragem na política · Novas oportunidade&rdquo;. Ela não traz o número 4055, e a última linha está com erro de digitação, faltando o plural em &ldquo;oportunidade&rdquo;. Os dois links da bio funcionam e são bem escolhidos: a vaquinha eleitoral e um contato direto de WhatsApp.</p>
+    <div class="table-wrap"><table>
+      <thead><tr><th>Elemento da vitrine</th><th>Estado atual</th><th>Leitura</th></tr></thead>
+      <tbody>
+        <tr><td>Selo de verificação</td><td>Ativo</td><td>Reduz risco de perfil falso, importante em campanha</td></tr>
+        <tr><td>Categoria do perfil</td><td>Candidato político</td><td>Correta</td></tr>
+        <tr><td>Número 4055 na bio</td><td>Ausente</td><td>Está no nome de usuário, mas não no texto que o eleitor lê</td></tr>
+        <tr><td>Botão de contato configurado</td><td>Não</td><td>O WhatsApp existe como link, não como botão nativo</td></tr>
+        <tr><td>Links da bio</td><td>2, ambos funcionando</td><td>Vaquinha e WhatsApp direto</td></tr>
+        <tr><td>Destaques</td><td>14, sendo 1 de campanha</td><td>A vitrine é de vida pessoal</td></tr>
+      </tbody>
+    </table></div>
+    <div class="callout"><strong>Os destaques contam outra história</strong><p>Os 14 destaques fixados somam mais de 450 mídias, e apenas um deles, &ldquo;Minha história&rdquo;, com 2 mídias, é de campanha. Os demais são <b>treinos</b> com 85, <b>Chapada</b> com 68, <b>Quarentena</b> com 60, <b>Re-Encontros</b> com 38, <b>3.5</b> com 39, <b>Banda</b> com 27, <b>Canoa</b> com 21, <b>Europa</b> com 3 e <b>Bloco Badauê</b> com 8. O destaque &ldquo;Chapada&rdquo;, com 68 mídias, é o único que conversa com a narrativa territorial. Para quem chega pela primeira vez, a faixa de destaques, que fica logo abaixo da biografia, comunica uma vida pessoal, não uma candidatura.</p></div>
+    <h3>O financiamento coletivo</h3>
+    <p>A vaquinha eleitoral em queroapoiar.com.br, plataforma homologada pelo TSE, marcava <b>R$ 3.690,00 arrecadados de 19 doadores</b> na data desta coleta, com ticket médio de R$ 194. A página é bem construída, com posicionamento em pauta clara: turismo e comunidades, mulheres protagonistas, reciclagem, interior forte. Não há meta declarada.</p>
+    <div class="insight warn"><div class="insight-header">O que isso significa para você</div><div class="insight-body"><span class="verdict">&#9654; Atenção</span><p>A vitrine está desalinhada do objetivo. O selo de verificação e a categoria estão certos, os links funcionam e a bio comunica bandeira, mas a primeira coisa visível abaixo do texto são 14 destaques de vida pessoal, e o número que o eleitor precisa digitar na urna não aparece em lugar nenhum do texto do perfil. A vaquinha, com R$ 3.690, mostra que a conversão de audiência em apoio material ainda não começou.</p></div></div>
+  </section>
+  <section id="fora">
+    <div class="sec-head"><h2>Fora do Instagram</h2><p>O que existe da candidata nas outras redes e o que o Google mostra para quem procura o nome.</p></div>
+    <p>A busca por presença própria em outras plataformas não encontrou <b>nenhum canal ativo</b>. Não há perfil no TikTok, não há página de campanha no Facebook, não há canal no YouTube em uso e o Threads declarado ao TSE está sob o nome de usuário antigo. Toda a comunicação da campanha está concentrada em um único perfil de Instagram com 2.714 seguidores.</p>
+    <div class="table-wrap"><table>
+      <thead><tr><th>Canal</th><th>Situação</th><th>O que aparece</th></tr></thead>
+      <tbody>
+        <tr><td>Instagram</td><td>Ativo</td><td>@nataliarinco4055, 2.714 seguidores, único canal em operação</td></tr>
+        <tr><td>TikTok</td><td>Sem perfil</td><td>Só uma página agregadora de resultados, sem conta da candidata</td></tr>
+        <tr><td>Facebook</td><td>Sem página própria</td><td>O nome aparece apenas em publicações de terceiros, como a Fundação João Mangabeira e Carlos Siqueira</td></tr>
+        <tr><td>YouTube</td><td>Canal sem uso</td><td>Canal @nataliarinco2785 sem atividade de campanha</td></tr>
+        <tr><td>Threads</td><td>Declarado ao TSE, indisponível</td><td>Registrado sob o nome de usuário antigo</td></tr>
+        <tr><td>Site próprio</td><td>Não existe</td><td>Nenhum domínio de campanha localizado</td></tr>
+      </tbody>
+    </table></div>
+    <div class="callout"><strong>O que o Google devolve para &ldquo;Natália Rinco&rdquo;</strong><p>A primeira página é dominada por <b>agregadores automáticos de candidaturas</b>, que são ND Mais, Gazeta do Povo, Tribuna do Paraná, GZH e Agência Sertão, todos publicando a mesma ficha padronizada do TSE, sem nenhuma linha de conteúdo próprio da campanha. Aparecem também o perfil do Instagram sob o <b>nome de usuário antigo</b>, que leva a erro, e a vaquinha. Um resultado merece atenção específica: o conteúdo mais visto associado ao nome na internet é uma <b>entrevista de 2016 sobre aprovação em concurso da ANVISA</b>, no canal do Estratégia Concursos, com mais de 27,6 mil visualizações. Nenhuma peça de campanha chega perto disso.</p></div>
+    <div class="insight bad"><div class="insight-header">O que isso significa para você</div><div class="insight-body"><span class="verdict">&#9654; Atenção</span><p>Concentrar tudo em um canal de 2.714 seguidores significa que o alcance máximo da campanha é o alcance daquele perfil, e a ausência de TikTok é a lacuna mais cara: é a plataforma que mais distribui conteúdo político para fora da base já conquistada, exatamente o problema que esta campanha tem. No Google, quem procura o nome encontra fichas automáticas e um link quebrado, e a peça de maior audiência do nome é de 2016 e não tem relação com a candidatura.</p></div></div>
+  </section>
+  <section id="paga">
+    <div class="sec-head"><h2>Mídia paga</h2><p>O que a Biblioteca de Anúncios da Meta mostra sobre a candidata e sobre quem disputa o mesmo espaço.</p></div>
+    <p>A Biblioteca de Anúncios da Meta arquiva por sete anos todo anúncio sobre temas sociais, eleições ou política, com valor gasto, impressões, período e quem pagou. É a fonte pública que permite comparar investimento entre campanhas sem acesso a nenhuma conta.</p>
+    <div class="table-wrap"><table>
+      <thead><tr><th>Candidatura</th><th>Anúncios políticos em 2026</th><th>Ordem de grandeza observada</th></tr></thead>
+      <tbody>
+        <tr><td><b>Natália Rinco</b></td><td><b>Nenhum</b> <span class="status bad">zero</span></td><td>Busca pelo nome não retorna nenhum anúncio</td></tr>
+        <tr><td>Flávia Morais</td><td>Vários, como anunciante identificada</td><td>Peças individuais entre 100 mil e 150 mil impressões</td></tr>
+        <tr><td>Magda Mofatto</td><td>Cerca de 23</td><td>Peça de maior alcance entre 500 mil e 600 mil impressões, com gasto individual abaixo de R$ 200</td></tr>
+        <tr><td>Aava Santiago</td><td>Ativo na data da coleta</td><td>R$ 1.000 a R$ 1.500 para 60 mil a 70 mil impressões, entre 27/07 e 14/08</td></tr>
+      </tbody>
+    </table></div>
+    <div class="chart"><canvas id="chartMidiaPaga"></canvas></div>
+    <p>O caso de Magda Mofatto merece destaque analítico: uma única peça alcançou entre 500 e 600 mil impressões com gasto declarado abaixo de R$ 200. Isso significa que, na disputa por deputado federal em Goiás, o custo de alcance ainda é baixo o suficiente para que valores modestos comprem audiência de porte estadual. A campanha de Natália Rinco arrecadou R$ 3.690 na vaquinha e não converteu nenhum real em impulsionamento declarado.</p>
+    <div class="callout"><strong>Limite da medição</strong><p>A busca da Biblioteca de Anúncios é por palavra-chave e faz correspondência aproximada, o que traz resultados de anunciantes homônimos ou não relacionados. Os números acima descrevem ordem de grandeza observada, não totais auditados. O gasto de campanha declarado à Justiça Eleitoral não foi apurado: o campo de gasto no DivulgaCandContas retornou zero para todos os candidatos de 2022 consultados, porque essa informação vive no sistema de prestação de contas, fora do escopo desta coleta.</p></div>
+    <div class="insight bad"><div class="insight-header">O que isso significa para você</div><div class="insight-body"><span class="verdict">&#9654; Atenção</span><p>Zero em mídia paga é, ao mesmo tempo, o dado mais duro e o mais acionável do relatório. Toda a distribuição da campanha depende hoje de 2.714 seguidores e do alcance orgânico dos Reels. Enquanto isso, uma adversária compra meio milhão de impressões por menos de duzentos reais. A diferença entre as duas campanhas, neste eixo, não é de talento nem de mensagem: é de decisão de investimento.</p></div></div>
+  </section>
+  <section id="concorrencia">
+    <div class="sec-head"><h2>Comparativo com três referências</h2><p>Uma dona do território, uma dona da região e a puxadora da própria legenda, medidas com o mesmo método e na mesma data.</p></div>
+    <p>As três referências foram escolhidas pelo espaço que ocupam, e não por porte semelhante. <b>Magda Mofatto</b> lidera a Chapada dos Veadeiros e mantém o mesmo número de urna. <b>Flávia Morais</b> lidera o Nordeste Goiano inteiro e mudou de partido e de número. <b>Aava Santiago</b> é a candidata mais forte da mesma legenda, e portanto quem mais contribui para o PSB alcançar o quociente, ao mesmo tempo em que concorre pelos mesmos votos de legenda.</p>
+    <div class="table-wrap"><table>
+      <thead><tr><th>Perfil</th><th>Seguidores</th><th>Engajamento nos 12 últimos</th><th>Publicações por semana</th><th>Interações por publicação</th><th>Anúncios na Meta</th></tr></thead>
+      <tbody>
+        <tr><td><b>@nataliarinco4055</b> · PSB 4055</td><td>2.714</td><td><b>9,37%</b> <span class="status">maior do grupo</span></td><td>1,0</td><td>254</td><td>Nenhum</td></tr>
+        <tr><td>@aavasantiago · PSB 4040</td><td>740.903</td><td>1,24%</td><td>baixa, em rajadas</td><td>9.169</td><td>Sim</td></tr>
+        <tr><td>@flaviamorais1515 · MDB 1515</td><td>106.944</td><td>0,25%</td><td>cerca de 30</td><td>269</td><td>Sim</td></tr>
+        <tr><td>@magdamofatto.goias · PL 2222</td><td>105.714</td><td>0,53%</td><td>cerca de 30</td><td>560</td><td>Sim, cerca de 23</td></tr>
+        <tr><td>@marcusrinco · prefeito de Alto Paraíso</td><td>3.082</td><td>3,89%</td><td>baixa</td><td>120</td><td>Não verificado</td></tr>
+      </tbody>
+    </table></div>
+    <div class="chart"><canvas id="chartConcorrentes"></canvas></div>
+    <p>A tabela contém a armadilha mais comum da análise de redes em campanha. Medida em <b>taxa</b>, Natália Rinco vence com folga: 9,37% contra 1,24%, 0,53% e 0,25%. Medida em <b>volume absoluto</b>, que é o que se converte em voto, a ordem se inverte por completo. Cada publicação dela gera cerca de <b>254 interações</b>. Cada publicação de Aava Santiago gera cerca de <b>9.169</b>, ou seja, <b>36 vezes mais</b>. E Aava publica pouco, enquanto Flávia Morais e Magda Mofatto publicam cerca de trinta vezes por semana, multiplicando um número por publicação já maior.</p>
+    <div class="callout"><strong>A comparação interna que mais importa</strong><p>Aava Santiago tem <b>273 vezes</b> mais seguidores que Natália Rinco e disputa pela mesma legenda. Numa eleição proporcional isso é ambíguo, e vale entender os dois lados: os votos dela ajudam o PSB a se aproximar do quociente, o que beneficia todos os candidatos da lista, e ao mesmo tempo, se o partido atingir o quociente, é ela quem ocupa a primeira vaga. Como o PSB precisaria quase triplicar a votação de 2022 para chegar lá, o cenário realista é o de uma legenda cuja votação total ainda depende de crescer muito, com uma puxadora fazendo a maior parte do trabalho.</p></div>
+    <div class="insight purple"><div class="insight-header">O que isso significa para você</div><div class="insight-body"><span class="verdict">&#9733; Destaque</span><p>A leitura correta do comparativo é que a campanha tem qualidade e não tem escala. Um engajamento de 9,37% num universo de 2.714 pessoas não é um resultado de campanha estadual, é um resultado de comunidade. Ele prova que a mensagem funciona com quem a recebe, e não prova nada sobre a capacidade de alcançar os milhares de eleitores que ainda não sabem que a candidatura existe.</p></div></div>
+  </section>
+  <section id="swot">
+    <div class="sec-head"><h2>Análise SWOT</h2><p>O quadro consolidado do cenário da candidatura em 18 de agosto de 2026.</p></div>
+    <div class="swot">
+      <div class="swot-cell"><p class="eyebrow">Forças</p><h3>Vínculo, história e articulação</h3><ul>
+        <li>Engajamento de 9,37%, o maior entre todos os perfis comparados</li>
+        <li>Reels alcançando 1,5 vez a base de seguidores, sinal de distribuição fora dela</li>
+        <li>História de origem verificável e impossível de copiar, com três administrações e o assassinato de Divaldo Wilian Rinco em 2010</li>
+        <li>Rede de articulação partidária ativa, com 95 perfis marcados, incluindo o presidente nacional do PSB</li>
+        <li>Mensagem territorial coerente, sem dispersão temática</li>
+        <li>Perfil verificado e categoria correta</li>
+      </ul></div>
+      <div class="swot-cell"><p class="eyebrow">Fraquezas</p><h3>Escala, cadência e infraestrutura</h3><ul>
+        <li>2.714 seguidores para uma disputa que exige mais de 51 mil votos</li>
+        <li>Uma publicação por semana, contra cerca de trinta das referências</li>
+        <li>Endereço declarado ao TSE fora do ar, e Google indexando o nome antigo</li>
+        <li>Número 4055 em uma única legenda de vinte, e ausente da biografia</li>
+        <li>14 destaques fixados, dos quais apenas um é de campanha</li>
+        <li>Presença zero em TikTok, Facebook e YouTube</li>
+        <li>Legenda de 2 de julho publicada na voz de outra pessoa, sem adaptação</li>
+      </ul></div>
+      <div class="swot-cell"><p class="eyebrow">Oportunidades</p><h3>Espaço que ninguém ocupou</h3><ul>
+        <li>Nenhum candidato jamais concentrou a Chapada: o teto histórico é de 15,44%</li>
+        <li>Quatro dos sete maiores nomes da região trocaram de número entre 2022 e 2026, abrindo janela de confusão de recall</li>
+        <li>Custo de alcance ainda baixo em Goiás, com meio milhão de impressões por menos de R$ 200 no caso observado</li>
+        <li>Nenhum candidato local dispõe de biografia territorial equivalente</li>
+        <li>Pauta ambiental e de turismo comunitário sem disputa clara na região</li>
+      </ul></div>
+      <div class="swot-cell"><p class="eyebrow">Ameaças</p><h3>A aritmética e o calendário</h3><ul>
+        <li>PSB em 0,38 do quociente eleitoral, sem eleger em 2022</li>
+        <li>A base geográfica inteira vale 40% do necessário para a última vaga</li>
+        <li>Magda Mofatto e Flávia Morais mantêm estrutura local consolidada há anos</li>
+        <li>Aava Santiago, da mesma legenda, tem 273 vezes mais audiência</li>
+        <li>A prefeitura de Alto Paraíso está com outro grupo político desde 2024</li>
+        <li>47 dias até o primeiro turno, com registro ainda aguardando julgamento</li>
+      </ul></div>
+    </div>
+    <div class="insight info"><div class="insight-header">O que isso significa para você</div><div class="insight-body"><span class="verdict">&#9654; Atenção</span><p>As forças estão todas do lado da qualidade e as fraquezas todas do lado da escala, o que é o retrato típico de uma primeira candidatura sem estrutura de mídia. A ameaça dominante não é nenhum adversário em particular: é a aritmética proporcional, que decide antes de qualquer disputa de narrativa.</p></div></div>
+  </section>
+  <section id="resumo">
+    <div class="sec-head"><h2>Resumo executivo e pontuação</h2><p>Como cada eixo do cenário foi avaliado e o que sustenta a nota.</p></div>
+    <div class="chart"><canvas id="chartScore"></canvas></div>
+    <div class="table-wrap"><table>
+      <thead><tr><th>Eixo</th><th>Nota</th><th>O que sustenta a avaliação</th></tr></thead>
+      <tbody>
+        <tr><td>Engajamento e vínculo</td><td>8,2</td><td>9,37% de engajamento, o maior do grupo, com Reels alcançando 1,5 vez a base</td></tr>
+        <tr><td>Narrativa e território</td><td>6,5</td><td>Mensagem coerente e história verificável, mas a prefeitura da cidade natal está com outro grupo e a estrutura local do PSB vale 1.369 votos medidos em 2024</td></tr>
+        <tr><td>Alcance e escala</td><td>2,1</td><td>2.714 seguidores, 254 interações por publicação, 36 vezes menos que a referência da própria legenda</td></tr>
+        <tr><td>Cadência de campanha</td><td>1,8</td><td>Uma publicação por semana contra cerca de trinta das referências, e uma só desde o início oficial da campanha</td></tr>
+        <tr><td>Infraestrutura digital</td><td>1,5</td><td>Endereço do TSE fora do ar, canal único, sem site, sem TikTok, número de urna quase ausente das legendas</td></tr>
+        <tr><td>Viabilidade aritmética</td><td>1,0</td><td>PSB em 0,38 do quociente e base geográfica valendo 40% dos votos da última vaga</td></tr>
+      </tbody>
+    </table></div>
+    <p>A nota geral de <b>3,4 de 10</b> sai da média ponderada desses seis eixos, com peso maior para viabilidade aritmética e alcance, que são os que determinam resultado de urna numa eleição proporcional. Uma leitura que considerasse apenas a qualidade do conteúdo produziria uma nota muito mais alta e muito menos útil.</p>
+    <div class="callout"><strong>De onde veio cada número</strong><p>Resultados de 2022 e 2024, quociente eleitoral, eleitorado e votação por município: arquivos oficiais de resultado do TSE, baixados em 18/08/2026 para os 30 municípios do Nordeste Goiano e da Chapada dos Veadeiros. Registro, patrimônio, CNPJ de campanha e endereços declarados: DivulgaCandContas do TSE. Instagram: API interna da plataforma com sessão autenticada, histórico integral de 134 publicações de 12/10/2014 a 16/08/2026, com curtidas, comentários, reproduções, marcações, localização e legendas. Mídia paga: Biblioteca de Anúncios da Meta, categoria de temas sociais, eleições ou política, Brasil. Vaquinha: página pública em queroapoiar.com.br. Busca: Google Brasil em português. Concorrentes: mesma API do Instagram, mesma data, amostra das 12 publicações mais recentes de cada perfil.</p></div>
+    <div class="insight purple"><div class="insight-header">O que isso significa para você</div><div class="insight-body"><span class="verdict">&#9654; Atenção</span><p>O valor desta análise não está em dizer que a campanha vai mal. Está em separar o que é problema de comunicação, que tem solução em semanas, do que é limite estrutural, que não tem. O conteúdo, o vínculo e a narrativa estão resolvidos. O alcance, a cadência e a mídia estão zerados e são recuperáveis. A aritmética do quociente e o tamanho do território não são, e é por isso que o resultado de outubro deve ser lido pela votação pessoal construída, não pela vaga.</p></div></div>
+  </section>
+</main>
+
+<div class="closing"><div class="closing-inner"><h2>A mensagem já funciona. Ela só não chega a quem decide a eleição.</h2><p>Esta leitura não encontrou um problema de conteúdo, de história ou de coerência. Encontrou o contrário: um engajamento de 9,37% que nenhuma das três referências chega perto, uma narrativa territorial verificável e uma rede partidária ativa. O que ela encontrou foi um descompasso de escala. A campanha fala muito bem com 2.714 pessoas, num estado onde a última vaga custou 51.346 votos, sem investir um real em distribuição e sem existir na plataforma que mais distribui conteúdo político hoje. Entre esses dois fatos está toda a distância entre a candidatura que existe e a eleição que está em jogo.</p><div class="closing-meta">Oráculo Tecnologia · Cenário eleitoral · 1ª coleta · 18 de agosto de 2026</div></div></div>
+<script>
+(() => {
+  const ink='#1b2e73', primary='#1d4ed8', soft='#b3c0ea', rule='#dfe1ec', good='#15803d', purple='#6d28d9';
+  Chart.defaults.font.family="'Bricolage Grotesque', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif";
+  Chart.defaults.color='#6b7186';
+  Chart.defaults.plugins.legend.labels.usePointStyle=true;
+  Chart.defaults.plugins.legend.labels.boxWidth=7;
+  const grid={color:'#ebedf4'};
+
+  new Chart(document.getElementById('chartQuociente'),{type:'bar',data:{labels:['PL','UNIÃO','PP','REPUBLICANOS','MDB','Fed. Brasil da Esperança','PSD','Fed. PSDB Cidadania','PDT','PSB'],datasets:[{label:'Quocientes eleitorais atingidos em 2022',data:[2.75,1.77,1.39,1.32,1.31,1.30,0.88,0.85,0.85,0.38],backgroundColor:[soft,soft,soft,soft,soft,soft,rule,rule,rule,primary],borderRadius:2}]},options:{responsive:true,maintainAspectRatio:false,indexAxis:'y',plugins:{legend:{display:false},title:{display:true,text:'Quocientes atingidos em Goiás em 2022 · 1,00 é o mínimo para disputar vaga'}},scales:{x:{beginAtZero:true,grid},y:{grid:{display:false}}}}});
+
+  new Chart(document.getElementById('chartTeto'),{type:'bar',data:{labels:['Alto Paraíso de Goiás','Chapada dos Veadeiros (6 mun.)','Último eleito em 2022','Quociente eleitoral'],datasets:[{label:'Votos',data:[4700,20633,51346,202725],backgroundColor:[rule,primary,ink,soft],borderRadius:2}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false},title:{display:true,text:'Teto da base natural contra o custo real de uma vaga · em votos'}},scales:{y:{beginAtZero:true,grid},x:{grid:{display:false}}}}});
+
+  new Chart(document.getElementById('chartChapada'),{type:'bar',data:{labels:['Magda Mofatto','Flávia Morais','Prof. Alcides','Lêda Borges','Elias Vaz (PSB)','Lucas Vergílio','José Nelto'],datasets:[{label:'Votos na Chapada dos Veadeiros',data:[3186,2906,1376,1321,1246,1098,942],backgroundColor:ink,borderRadius:2},{label:'Votos no Nordeste Goiano',data:[12712,22153,7425,6795,1906,11112,12712],backgroundColor:soft,borderRadius:2}]},options:{responsive:true,maintainAspectRatio:false,plugins:{title:{display:true,text:'Quem tirou voto na base territorial em 2022'}},scales:{y:{beginAtZero:true,grid},x:{grid:{display:false}}}}});
+
+  new Chart(document.getElementById('chartHistorico'),{type:'bar',data:{labels:['2014-2018','2019-2020','2021-2023','2024','2025','2026 até ago'],datasets:[{label:'Publicações no período',data:[43,50,17,4,0,20],backgroundColor:[soft,soft,soft,rule,rule,primary],borderRadius:2}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false},title:{display:true,text:'Histórico integral do perfil · 460 dias parados cobrindo 2025 inteiro'}},scales:{y:{beginAtZero:true,grid},x:{grid:{display:false}}}}});
+
+  new Chart(document.getElementById('chartFormatos'),{type:'doughnut',data:{labels:['Reel','Carrossel','Imagem'],datasets:[{data:[11,5,4],backgroundColor:[primary,ink,soft],borderWidth:0}]},options:{responsive:true,maintainAspectRatio:false,cutout:'62%',plugins:{legend:{position:'bottom'},title:{display:true,text:'Mix de formatos na fase de campanha · 20 publicações'}}}});
+
+  new Chart(document.getElementById('chartEngajamento'),{type:'bar',data:{labels:['Convenção estadual 04/08','Anúncio oficial 08/08','4.2 anos 24/07','Luto Dona Romilda 31/03','Natália é 4055 16/08','Ocupar espaços 29/05'],datasets:[{label:'Curtidas',data:[477,425,322,321,285,277],backgroundColor:primary,borderRadius:2},{label:'Comentários',data:[109,50,64,49,34,40],backgroundColor:ink,borderRadius:2}]},options:{responsive:true,maintainAspectRatio:false,plugins:{title:{display:true,text:'As seis publicações de maior engajamento da campanha'}},scales:{y:{beginAtZero:true,grid},x:{grid:{display:false}}}}});
+
+  new Chart(document.getElementById('chartMidiaPaga'),{type:'bar',data:{labels:['Natália Rinco','Aava Santiago','Flávia Morais','Magda Mofatto'],datasets:[{label:'Maior alcance observado numa peça, em milhares de impressões',data:[0,70,150,600],backgroundColor:[primary,soft,soft,ink],borderRadius:2}]},options:{responsive:true,maintainAspectRatio:false,indexAxis:'y',plugins:{legend:{display:false},title:{display:true,text:'Mídia paga na Biblioteca de Anúncios da Meta · maior peça observada'}},scales:{x:{beginAtZero:true,grid},y:{grid:{display:false}}}}});
+
+  new Chart(document.getElementById('chartConcorrentes'),{type:'bar',data:{labels:['Natália Rinco','Aava Santiago','Flávia Morais','Magda Mofatto','Marcus Rinco'],datasets:[{label:'Interações por publicação',data:[254,9169,269,560,120],backgroundColor:[primary,ink,soft,soft,rule],borderRadius:2}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false},title:{display:true,text:'Volume absoluto por publicação · o que a taxa de engajamento esconde'}},scales:{y:{type:'logarithmic',grid},x:{grid:{display:false}}}}});
+
+  new Chart(document.getElementById('chartScore'),{type:'radar',data:{labels:['Engajamento e vínculo','Narrativa e território','Alcance e escala','Cadência','Infraestrutura','Viabilidade aritmética'],datasets:[{label:'Nota por eixo',data:[8.2,6.5,2.1,1.8,1.5,1.0],backgroundColor:'rgba(29,78,216,.14)',borderColor:primary,pointBackgroundColor:primary,borderWidth:2}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false},title:{display:true,text:'Pontuação por eixo · nota geral 3,4 de 10'}},scales:{r:{beginAtZero:true,max:10,grid:{color:'#ebedf4'},angleLines:{color:'#ebedf4'},pointLabels:{font:{size:11}}}}}});
+})();
+</script>
+<script>
+(() => {
+  const links=[...document.querySelectorAll('.nav a')];
+  const sections=links.map(a=>document.querySelector(a.getAttribute('href'))).filter(Boolean);
+  const observer=new IntersectionObserver(entries=>{entries.forEach(entry=>{if(entry.isIntersecting){links.forEach(a=>a.classList.toggle('active',a.getAttribute('href')==='#'+entry.target.id));}})},{rootMargin:'-25% 0px -65% 0px'});
+  sections.forEach(s=>observer.observe(s));
+})();
+</script>
+</body>
+</html>
