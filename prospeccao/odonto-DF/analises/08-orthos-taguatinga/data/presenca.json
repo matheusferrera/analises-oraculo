@@ -1,0 +1,283 @@
+{
+ "coletadoEm": "2026-08-19",
+ "cnpj": "11.438.103/0001-54",
+ "slug": "orthos-taguatinga",
+ "clinica": {
+  "nome": "Orthos Taguatinga",
+  "razaoSocial": "Orthos Taguatinga Odontologia Ltda",
+  "cnaeDescricao": "Atividade odontológica",
+  "fundacao": "2009-12-11",
+  "idadeAnos": 16,
+  "porte": "DEMAIS",
+  "regiao": "Areal (Aguas Claras)",
+  "endereco": "QUADRA QS 3 LOTES 03 A 09 LOJA, 06, AREAL (AGUAS CLARAS), CEP 71953000, Brasilia/DF",
+  "unidades": 1
+ },
+ "decisor": {
+  "nome": "Wells Moura Trigueiro",
+  "qualificacao": "Sócio-Administrador",
+  "decisaoCompartilhada": true,
+  "telefone": "(61) 3901-2015",
+  "telefoneTipo": "fixo",
+  "whatsapp": "+556139012015",
+  "email": "taguatinga@orthosonline.com.br",
+  "instagramPessoal": "wellstrigueiro",
+  "instagramPessoalConfianca": "alta",
+  "telefone2": "",
+  "emailEhDeContador": false,
+  "telefoneCompartilhado": false
+ },
+ "tecnologia": {
+  "site": "https://orthosonline.com.br/",
+  "httpStatus": 0,
+  "cms": null,
+  "https": null,
+  "ttfbSegundos": null,
+  "tempoTotalSegundos": null,
+  "tamanhoBytes": null,
+  "viewportMobile": null,
+  "h1": null,
+  "metaDescription": null,
+  "openGraph": null,
+  "jsonLdLocalBusiness": null,
+  "sitemap": null,
+  "paginasReais": [],
+  "residuoCMS": [],
+  "formulario": null,
+  "whatsappNoSite": null,
+  "agendamentoOnline": null,
+  "avisoCookies": null,
+  "dominiosDuplicados": [],
+  "propensaoBot": {
+   "nota": null,
+   "sinais": []
+  },
+  "erroColeta": "DNS nao resolve — confirmado em curl, Python e Chrome (18/08/2026)"
+ },
+ "instagram": {
+  "handle": "orthosbrasilia",
+  "uid": null,
+  "seguidores": 10734,
+  "seguindo": null,
+  "publicacoesTotal": 1106,
+  "amostraColetada": 120,
+  "verificado": null,
+  "businessContactMethod": null,
+  "ctaAtivado": null,
+  "bio": null,
+  "linkBio": null,
+  "destaques": [],
+  "primeiroPost": null,
+  "ultimoPost": null,
+  "hiatoDias": 84,
+  "cadenciaMensal": {},
+  "faseAtual": {
+   "posts": 2,
+   "engajamentoPct": 0.49,
+   "mixFormatos": {
+    "imagem": 59,
+    "reel": 35,
+    "carrossel": 26
+   },
+   "medianaPlaysReel": 1789
+  },
+  "tendenciaEngajamento": [],
+  "ctaPctFaseAtual": 18.3,
+  "topHashtags": [],
+  "topMencoes": [],
+  "erAmostra": 0.2,
+  "er90d": 0.49,
+  "postsUlt90d": 2
+ },
+ "ads": {
+  "metaAdLibrary": {
+   "anunciosAtivos": 0,
+   "criativos": 0,
+   "mesesNoAr": null,
+   "formatos": [],
+   "metodo": "Playwright (contexto isolado) em facebook.com/ads/library, país=BR, active_status=all, busca por \"Orthos\" (frase exata), \"orthosbrasilia\" e \"Orthos Brasília\"; as duas últimas retornaram \"Nenhum anúncio\" e a primeira só trouxe homônimos de outros estados",
+   "conseguiuLer": true,
+   "termosBuscados": [
+    "Orthos (frase exata)",
+    "orthosbrasilia",
+    "Orthos Brasília"
+   ]
+  },
+  "pixelMeta": null,
+  "pixelGoogleAds": null,
+  "gtm": null,
+  "ga4": null,
+  "leitura": "Não anuncia na Meta. Os vários 'Orthos' que aparecem anunciando são de fora do DF (Paranavaí/PR, Lauro de Freitas e Salvador/BA, Carmo do Cajuru/MG) e uma clínica de ortopedia — nenhum deles é a unidade de Águas Claras/Taguatinga."
+ },
+ "google": {
+  "perfilEncontrado": true,
+  "nome": "Orthos Odontologia",
+  "categoria": "Clinica odontologica",
+  "categoriaCorreta": true,
+  "nota": 4.5,
+  "avaliacoes": 223,
+  "recenciaUltimaAvaliacao": "3 semanas",
+  "respostasDoProprietario": false,
+  "fichasDuplicadas": [
+   {
+    "nome": "Orthos Odontologia",
+    "nota": 4.8,
+    "avaliacoes": 82,
+    "categoria": "Clinica odontologica",
+    "endereco": "QS 03 Lotes 03/05/07, Ed. Patio Capital, Sala 06 - Taguatinga",
+    "telefone": "(61) 3901-2001",
+    "placeId": "ChIJN56zACMzWpMRo49M7m0JFHI",
+    "observacao": "Ficha separada (place id distinto) com NOME EXATAMENTE IGUAL e MESMO TELEFONE da ficha de Aguas Claras. Ambas vistas por mim na mesma busca do Maps. Sao duas unidades reais, mas sem qualquer diferenciador no nome - o usuario nao consegue distinguir qual e qual no resultado de busca."
+   }
+  ],
+  "fotos": "galeria presente; aba 'Do proprietario' disponivel (ha fotos publicadas pelo proprietario). Contagem exata nao coletada. Foto mais recente: 8 dias atras.",
+  "siteVinculado": "orthosodonto.com.br (+ contate.me)",
+  "buscaMarca": "Maps 'Orthos odontologia Aguas Claras Taguatinga Brasilia' retornou as 2 fichas homonimas. Detalhei a de Aguas Claras (Shopping Estacao XVI, 223 avaliacoes).",
+  "buscaSemMarca": "'ortodontia Aguas Claras Brasilia' - a Orthos NAO aparece no pacote local.",
+  "pacoteLocal": [
+   {
+    "nome": "Dra. Marjore Viana Ortodontia",
+    "nota": 5.0,
+    "avaliacoes": 158,
+    "local": "Ed. e-Business, Av. Pau Brasil 6, Aguas Claras"
+   },
+   {
+    "nome": "Ortoestetica Aguas Claras",
+    "nota": 4.9,
+    "avaliacoes": 57,
+    "local": "R. Ipe Amarelo 08, Aguas Claras"
+   },
+   {
+    "nome": "Adriane Amorim Ortodontista Aguas Claras",
+    "nota": 5.0,
+    "avaliacoes": 17,
+    "local": "DF Plaza Shopping Torre A, R. Copaiba 01 Sl 217"
+   }
+  ]
+ },
+ "diretorios": {
+  "doctoralia": null,
+  "facebook": null,
+  "linkedin": "https://br.linkedin.com/company/orthos-odontologia-ltda",
+  "youtube": null,
+  "tiktok": null,
+  "outros": [
+   "dentistas.net.br (ficha da unidade Águas Claras): https://www.dentistas.net.br/sobre/orthos-odontologia-aguas-claras"
+  ]
+ },
+ "consistenciaNAP": {
+  "google": null,
+  "site": null,
+  "instagram": null,
+  "receita": null,
+  "divergencias": []
+ },
+ "concorrentes": [
+  {
+   "nome": "Dra. Marjore Viana Ortodontia",
+   "nota": 5.0,
+   "avaliacoes": 158,
+   "local": "Ed. e-Business, Av. Pau Brasil 6, Aguas Claras"
+  },
+  {
+   "nome": "Ortoestetica Aguas Claras",
+   "nota": 4.9,
+   "avaliacoes": 57,
+   "local": "R. Ipe Amarelo 08, Aguas Claras"
+  },
+  {
+   "nome": "Adriane Amorim Ortodontista Aguas Claras",
+   "nota": 5.0,
+   "avaliacoes": 17,
+   "local": "DF Plaza Shopping Torre A, R. Copaiba 01 Sl 217"
+  }
+ ],
+ "notaGeral": {
+  "valor": 2.8,
+  "escala": 10,
+  "pilares": {
+   "site": 0.5,
+   "instagram": 2.8,
+   "cadencia": 1.0,
+   "google": 5.0,
+   "reputacaoEDiretorios": 3.2,
+   "conversao": 4.0
+  }
+ },
+ "dores": [
+  {
+   "titulo": "O site não abre",
+   "evidencia": "O domínio https://orthosonline.com.br/ não responde. O DNS do domínio não resolve, verificado em três clientes independentes",
+   "custo": "Todo clique vindo da busca cai numa porta fechada",
+   "vertente": "tecnologia"
+  },
+  {
+   "titulo": "Fichas duplicadas no Google",
+   "evidencia": "Uma segunda ficha concorrente para o mesmo negócio",
+   "custo": "O Google divide avaliações e autoridade, e nenhuma acumula o suficiente",
+   "vertente": "tecnologia"
+  },
+  {
+   "titulo": "Avaliações sem resposta",
+   "evidencia": "Nenhuma resposta do proprietário nas avaliações visíveis",
+   "custo": "Resposta do dono é sinal de cuidado e pesa no ranqueamento local",
+   "vertente": "tecnologia"
+  },
+  {
+   "titulo": "Conta parada",
+   "evidencia": "84 dias desde a última publicação",
+   "custo": "O algoritmo reduz entrega de quem some, e recuperar custa mais que manter",
+   "vertente": "social"
+  },
+  {
+   "titulo": "Engajamento no chão",
+   "evidencia": "0,49% de engajamento nos últimos 90 dias",
+   "custo": "A maior parte dos seguidores já não vê o que é publicado",
+   "vertente": "social"
+  },
+  {
+   "titulo": "Mix de formatos invertido",
+   "evidencia": "59 dos 120 posts da amostra são imagem estática",
+   "custo": "O maior volume de esforço vai para o formato de menor entrega",
+   "vertente": "social"
+  },
+  {
+   "titulo": "Cadência insuficiente",
+   "evidencia": "2 publicações em 90 dias",
+   "custo": "Abaixo do mínimo para o algoritmo manter entrega estável",
+   "vertente": "social"
+  },
+  {
+   "titulo": "Não anuncia, ou anuncia sem rastrear",
+   "evidencia": "Nenhum pixel da Meta nem tag do Google Ads no site",
+   "custo": "Alcance limitado ao orgânico, que já está caindo",
+   "vertente": "trafego"
+  }
+ ],
+ "fontes": [
+  "Google Busca (google.com/search) - pacote local (Resultados locais), hl=pt-BR&gl=BR, sessao deslogada, 2026-08-19",
+  "Google Maps (google.com/maps) - leitura direta da ficha via Playwright, hl=pt-BR, sessao deslogada, 2026-08-19",
+  "Instagram @orthosbrasilia via API interna com sessao logada (19/08/2026), amostra de 120 posts",
+  "Quadro societário (tabela socios, mesmo snapshot)",
+  "Receita Federal via BigQuery basedosdados.br_me_cnpj (snapshot 2026-01-11)",
+  "WebSearch: \"Orthos Odontologia\" facebook.com Brasília -ortopedia",
+  "WebSearch: Orthos Taguatinga site oficial orthosonline",
+  "https://br.linkedin.com/company/orthos-odontologia-ltda",
+  "https://orthosonline.com.br/",
+  "https://orthosonline.com.br/unidades/",
+  "https://www.dentistas.net.br/sobre/orthos-odontologia-aguas-claras",
+  "https://www.instagram.com/orthosbrasilia/",
+  "https://www.instagram.com/wellstrigueiro/"
+ ],
+ "limitacoes": [
+  "As duas fichas correspondem a enderecos diferentes (Aguas Claras e Taguatinga), entao nao sao duplicata do mesmo ponto - o problema e o nome identico, sem sufixo de unidade.",
+  "Contagem exata de fotos nao coletada: o Google Maps nao exibe o total sem abrir a galeria foto a foto. Registrado apenas se existe ou nao a aba 'Do proprietario'.",
+  "Encontrei uma possível página do Facebook (facebook.com/orthosodontologiabsb, 'Orthos Ortodontia e Estética'), mas não consegui confirmar que corresponde a esta unidade específica — a rede tem várias unidades em Brasília com nomes semelhantes, então preferi não afirmar o vínculo sem confirmação",
+  "Nenhum site proprio localizado por busca web — CONFIRMAR no Chrome antes de afirmar ausencia",
+  "Nenhuma das 3 avaliacoes visiveis na ficha de Aguas Claras tinha resposta, incluindo uma negativa detalhada de 1 mes atras. Nao percorri as 223 avaliacoes.",
+  "Não localizei YouTube ou TikTok da clínica",
+  "Não localizei página Doctoralia específica da unidade Taguatinga/Águas Claras (só encontrei um 'Orthos Odontologia' homônimo em Parnamirim/RN, sem relação)",
+  "Recencia baseada nas avaliacoes visiveis na ordenacao padrao do Maps (relevancia), nao em ordenacao por data. E o piso da recencia real, nao o valor exato.",
+  "Site orthosonline.com.br fora do ar: DNS nao resolve em tres clientes independentes"
+ ]
+}

@@ -1,0 +1,82 @@
+{
+ "coletadoEm": "2026-08-19",
+ "google": {
+  "perfilEncontrado": true,
+  "nome": "Vital Implantes - Shopping Conjunto Nacional",
+  "categoria": "Clinica odontologica",
+  "categoriaCorreta": true,
+  "nota": 4.6,
+  "avaliacoes": 1123,
+  "recenciaUltimaAvaliacao": "1 mes (resposta do proprietario ha 4 semanas)",
+  "respostasDoProprietario": true,
+  "fichasDuplicadas": [],
+  "fotos": "galeria presente; aba 'Do proprietario' disponivel (ha fotos publicadas pelo proprietario). Contagem exata nao coletada. Abas: Tudo / Dente / Videos / Do proprietario / Street View.",
+  "siteVinculado": "vitalimplantes.com.br (+ link de WhatsApp)",
+  "buscaMarca": "Maps 'Vital Implantes e Tratamentos Dentarios Brasilia' abriu direto a ficha do Conjunto Nacional. Maps 'Vital Implantes Taguatinga Brasilia' abriu a 2a unidade. Post do proprietario publicado ha 2 dias nas duas fichas.",
+  "buscaSemMarca": "'implante dentario Asa Norte Brasilia' - a Vital NAO aparece no pacote local, apesar de 1.123 avaliacoes.",
+  "pacoteLocal": [
+   {
+    "nome": "Oral Sin Implantes Brasilia Asa Norte",
+    "nota": 4.9,
+    "avaliacoes": 202,
+    "local": "SHCGN CRN 710/711, Asa Norte"
+   },
+   {
+    "nome": "MAGNUS ODONTOLOGIA ESPECIALIZADA",
+    "nota": 5.0,
+    "avaliacoes": 215,
+    "local": "SRTVN Q 701 Conj C Bl A Sl 602, Asa Norte"
+   },
+   {
+    "nome": "Dentista Dra. Eleanor Sardenberg - Clinica Boca e Saude",
+    "nota": 5.0,
+    "avaliacoes": 179,
+    "local": "CLN 112 sala 103, Asa Norte"
+   }
+  ],
+  "unidadesAdicionais": [
+   {
+    "nome": "Vital Implantes - Alameda Shopping",
+    "nota": 4.6,
+    "avaliacoes": 294,
+    "categoria": "Clinica odontologica",
+    "endereco": "CSB 02 Lote 01/04 Bloco B Sala 220/222/224 - Taguatinga",
+    "telefone": "(61) 3030-5757",
+    "site": "vitalimplantes.com.br",
+    "recenciaUltimaAvaliacao": "2 semanas",
+    "respostasDoProprietario": true,
+    "observacao": "Segunda unidade legitimamente nomeada (sufixo do shopping). NAO e ficha duplicada."
+   }
+  ]
+ },
+ "concorrentes": [
+  {
+   "nome": "Oral Sin Implantes Brasilia Asa Norte",
+   "nota": 4.9,
+   "avaliacoes": 202,
+   "local": "SHCGN CRN 710/711, Asa Norte"
+  },
+  {
+   "nome": "MAGNUS ODONTOLOGIA ESPECIALIZADA",
+   "nota": 5.0,
+   "avaliacoes": 215,
+   "local": "SRTVN Q 701 Conj C Bl A Sl 602, Asa Norte"
+  },
+  {
+   "nome": "Dentista Dra. Eleanor Sardenberg - Clinica Boca e Saude",
+   "nota": 5.0,
+   "avaliacoes": 179,
+   "local": "CLN 112 sala 103, Asa Norte"
+  }
+ ],
+ "fontes": [
+  "Google Maps (google.com/maps) - leitura direta da ficha via Playwright, hl=pt-BR, sessao deslogada, 2026-08-19",
+  "Google Busca (google.com/search) - pacote local (Resultados locais), hl=pt-BR&gl=BR, sessao deslogada, 2026-08-19"
+ ],
+ "limitacoes": [
+  "Contagem exata de fotos nao coletada: o Google Maps nao exibe o total sem abrir a galeria foto a foto. Registrado apenas se existe ou nao a aba 'Do proprietario'.",
+  "Recencia baseada nas avaliacoes visiveis na ordenacao padrao do Maps (relevancia), nao em ordenacao por data. E o piso da recencia real, nao o valor exato.",
+  "As duas unidades usam o mesmo telefone (61) 3030-5757 na ficha; nao verifiquei se ha desvio por unidade.",
+  "Ha avaliacao negativa grave e recente (2 semanas) na unidade Taguatinga relatando tratamento pago e nao concluido - li o inicio do texto, nao a resposta completa da clinica."
+ ]
+}

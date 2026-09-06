@@ -1,0 +1,69 @@
+{
+ "coletadoEm": "2026-08-18",
+ "ads": {
+  "metaAdLibrary": {
+   "anunciosAtivos": 0,
+   "criativos": 0,
+   "mesesNoAr": null,
+   "formatos": [],
+   "metodo": "Playwright (contexto isolado) em facebook.com/ads/library, país=BR, active_status=all, busca por \"Patrícia Pizzo\" (frase exata), \"odontopatriciapizzo\" e \"Pizzo\"; as duas primeiras retornaram \"Nenhum anúncio\" e a terceira só trouxe homônimos sem relação (Doutora Katlin Pizzo, Hotel Pizzo Vogorno)",
+   "conseguiuLer": true,
+   "termosBuscados": [
+    "Patrícia Pizzo (frase exata)",
+    "odontopatriciapizzo",
+    "Pizzo"
+   ]
+  },
+  "leitura": "Não anuncia na Meta. Toda a captação depende hoje de orgânico e indicação — e em Águas Claras, onde concorrentes diretos já compram mídia, isso significa perder a fila de pacientes que decide pelo primeiro contato."
+ },
+ "diretorios": {
+  "doctoralia": null,
+  "doctoraliaNota": null,
+  "doctoraliaOpinioes": null,
+  "facebook": "https://www.facebook.com/odontopatriciapizzo/",
+  "linkedin": null,
+  "youtube": "https://www.youtube.com/channel/UCtgtdZSt4mTDv1Ksady2czA",
+  "tiktok": null,
+  "outros": [
+   {
+    "nome": "Instagram (conta oficial da clínica/decisora)",
+    "url": "https://www.instagram.com/odontopatriciapizzo/",
+    "observacao": "~10 mil seguidores segundo resultado de busca — já registrado como instagram.handle em presenca.json."
+   },
+   {
+    "nome": "Albany Medical Center (diretório do centro médico onde a clínica funciona)",
+    "url": "https://www.albanymedical.com.br/odontologo-aguas-claras/patricia-pizzo-clinica-odontologica/"
+   }
+  ]
+ },
+ "siteConfirmacao": {
+  "existe": true,
+  "url": "https://patriciapizzo.com.br/",
+  "conclusivo": true,
+  "observacao": "Site já confirmado ativo em presenca.json (HTTP 200, WordPress + Elementor, sitemap.xml funcional, dezenas de páginas institucionais e de blog indexadas). Não necessitava reverificação — incluído aqui apenas por completude."
+ },
+ "instagramDecisor": {
+  "handle": "odontopatriciapizzo",
+  "confianca": "alta",
+  "evidencia": "A conta @odontopatriciapizzo (https://www.instagram.com/odontopatriciapizzo/) tem nome de exibição 'Drª Patrícia Pizzo - Dentista', ortodontista/implantodontista/Invisalign, com CRO-DF 10020 mencionado em fontes relacionadas — bate com a decisora Patrícia Maria Pizzo Reis. É a conta oficial da clínica, mas funciona como vitrine pessoal/profissional dela mesma (clínica de sócia única). Não foi localizado um perfil pessoal dela separado desta conta (buscas por variações como @drapatriciapizzo e @patriciapizzo não retornaram perfil correspondente)."
+ },
+ "fontes": [
+  "https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=BR&q=Patricia%20Pizzo%20Ortodontia&search_type=keyword_unordered",
+  "https://www.facebook.com/odontopatriciapizzo/",
+  "https://www.instagram.com/odontopatriciapizzo/",
+  "https://www.youtube.com/channel/UCtgtdZSt4mTDv1Ksady2czA",
+  "https://www.albanymedical.com.br/odontologo-aguas-claras/patricia-pizzo-clinica-odontologica/",
+  "WebSearch: \"Patricia Pizzo Ortodontia Águas Claras Doctoralia opiniões\"",
+  "WebSearch: \"site:doctoralia.com.br 'Patrícia Pizzo'\"",
+  "WebSearch: \"Patricia Pizzo Ortodontia Facebook Águas Claras\"",
+  "WebSearch: \"site:facebook.com 'Patricia Pizzo'\"",
+  "WebSearch: \"Patricia Pizzo Ortodontia YouTube TikTok LinkedIn\"",
+  "WebSearch: \"Dra Patrícia Pizzo instagram pessoal @drapatriciapizzo OR @patriciapizzo\""
+ ],
+ "limitacoes": [
+  "Doctoralia não localizado para o nome 'Patricia Pizzo' apesar de busca direta no site (www.doctoralia.com.br/pesquisa?q=Patricia+Pizzo) — parece não ter perfil na plataforma, mas não é 100% conclusivo dado o volume de nomes semelhantes na base.",
+  "LinkedIn não localizado.",
+  "TikTok não localizado.",
+  "Instagram do decisor é a mesma conta de negócio/pessoal já usada pela clínica — não há perfil pessoal distinto identificado."
+ ]
+}

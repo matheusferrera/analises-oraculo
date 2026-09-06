@@ -1,0 +1,319 @@
+{
+ "coletadoEm": "2026-08-19",
+ "cnpj": "18.256.199/0001-89",
+ "slug": "claudio-pinho-odontologia",
+ "clinica": {
+  "nome": "Claudio Pinho Odontologia",
+  "razaoSocial": "Claudio Pinho Odontologia Estetica Ltda",
+  "cnaeDescricao": "Atividade odontológica",
+  "fundacao": "2013-05-16",
+  "idadeAnos": 13,
+  "porte": "DEMAIS",
+  "regiao": "Asa Sul",
+  "endereco": "SETOR SETOR DE GRANDES AREAS SUL QD 614, S/N, CONJ  C                   SALA  40, ASA SUL, CEP 70200740, Brasilia/DF",
+  "unidades": 1
+ },
+ "decisor": {
+  "nome": "Ticyane De Oliveira Frota Pinho",
+  "qualificacao": "Sócio-Administrador",
+  "decisaoCompartilhada": true,
+  "telefone": "(61) 3321-0999",
+  "telefoneTipo": "fixo",
+  "whatsapp": "+556133210999",
+  "email": "gerencia@drclaudiopinho.com.br",
+  "instagramPessoal": "claudio_pinho",
+  "instagramPessoalConfianca": "alta",
+  "telefone2": "",
+  "emailEhDeContador": false,
+  "telefoneCompartilhado": true
+ },
+ "tecnologia": {
+  "site": "http://www.drclaudiopinho.com.br/",
+  "httpStatus": 200,
+  "cms": "WordPress",
+  "https": false,
+  "ttfbSegundos": 1.529,
+  "tempoTotalSegundos": null,
+  "tamanhoBytes": 103570,
+  "viewportMobile": true,
+  "h1": 6,
+  "metaDescription": "Temos apenas uma única oportunidade de marcar a vida das pessoas. Um sorriso pode ser a melhor forma de se obter êxito. Existem centenas de explicações para a origem do sorriso. Cultural ou genética.",
+  "openGraph": true,
+  "jsonLdLocalBusiness": false,
+  "sitemap": "http://www.drclaudiopinho.com.br/sitemap.xml",
+  "paginasReais": [
+   "http://www.drclaudiopinho.com.br/convidado-a-palestrar-num-dos-maiores-congressos-do-brasil-no-ano-de-2017/",
+   "http://www.drclaudiopinho.com.br/curso-intensivo-da-integrato/",
+   "http://www.drclaudiopinho.com.br/curso-intensivo-de-4-dias-em-leiria/",
+   "http://www.drclaudiopinho.com.br/convidado-do-maior-evento-da-odontologia-estetica/",
+   "http://www.drclaudiopinho.com.br/clareamento-dental/",
+   "http://www.drclaudiopinho.com.br/intensivo-de-3-dias-do-dr-claudio-pinho-na-integrato/",
+   "http://www.drclaudiopinho.com.br/convite-da-universidade-da-florida/",
+   "http://www.drclaudiopinho.com.br/representacao-do-brasil-no-congresso-mundial/",
+   "http://www.drclaudiopinho.com.br/a-busca-por-um-sorriso-perfeito/",
+   "http://www.drclaudiopinho.com.br/10-anos-da-integrato/",
+   "http://www.drclaudiopinho.com.br/convite-especial-mocao-de-louvor/",
+   "http://www.drclaudiopinho.com.br/12-maiores-dentistas-do-brasil/",
+   "http://www.drclaudiopinho.com.br/curso-em-fevereiro/",
+   "http://www.drclaudiopinho.com.br/maior-congresso-do-mundo-o-ciosp/",
+   "http://www.drclaudiopinho.com.br/dr-claudio-pinho-recebeu-um-grande-convite-da-universidade-da-florida/",
+   "http://www.drclaudiopinho.com.br/10-dicas-para-cuidar-da-sua-gengiva/",
+   "http://www.drclaudiopinho.com.br",
+   "http://www.drclaudiopinho.com.br/",
+   "http://www.drclaudiopinho.com.br/blog/",
+   "http://www.drclaudiopinho.com.br/noticias-dr-claudio-pinho/",
+   "http://www.drclaudiopinho.com.br/tratamentos-dr-claudio-pinho/",
+   "http://www.drclaudiopinho.com.br/sobre/",
+   "http://www.drclaudiopinho.com.br/publicacoes-dr-claudio-pinho/",
+   "http://www.drclaudiopinho.com.br/contato-dr-claudio-pinho-dentista/",
+   "http://www.drclaudiopinho.com.br/a-clinica-dr-claudio-pinho/",
+   "http://www.drclaudiopinho.com.br/publicacoes/",
+   "http://www.drclaudiopinho.com.br/project/implantes-dr-claudio-pinho-dentista/",
+   "http://www.drclaudiopinho.com.br/project/odontologia-estetica-integrada-dr-claudio-pinho-dentista/",
+   "http://www.drclaudiopinho.com.br/project/cirurgia-plastica-gengival-dr-claudio-pinho-dentista/",
+   "http://www.drclaudiopinho.com.br/project/restauracoes-ceramicas-facetas-de-porcelana-lentes-de-contato-dr-claudio-pinho-dentista/",
+   "http://www.drclaudiopinho.com.br/project/restauracao-indireta-inlayonlay-dr-claudio-pinho-dentista/",
+   "http://www.drclaudiopinho.com.br/project/restauracao-com-resina-composta-em-dentes-posteriores-dr-claudio-pinho-dentista/",
+   "http://www.drclaudiopinho.com.br/project/restauracao-com-resina-composta-em-dentes-anteriores-dr-claudio-pinho-dentista/",
+   "http://www.drclaudiopinho.com.br/project/clareamento-dr-claudio-pinho-dentista/",
+   "http://www.drclaudiopinho.com.br/project/ortodontia/",
+   "http://www.drclaudiopinho.com.br/category/blog-claudio/",
+   "http://www.drclaudiopinho.com.br/category/noticias/",
+   "http://www.drclaudiopinho.com.br/portfolio/clareamento/",
+   "http://www.drclaudiopinho.com.br/portfolio/implantes/",
+   "http://www.drclaudiopinho.com.br/portfolio/odontologia-estetica/",
+   "http://www.drclaudiopinho.com.br/portfolio/ortodontia/",
+   "http://www.drclaudiopinho.com.br/portfolio/plastica-gengival/",
+   "http://www.drclaudiopinho.com.br/portfolio/restauracoes/"
+  ],
+  "residuoCMS": [],
+  "formulario": true,
+  "whatsappNoSite": true,
+  "agendamentoOnline": false,
+  "avisoCookies": true,
+  "dominiosDuplicados": [],
+  "propensaoBot": {
+   "nota": 65,
+   "sinais": [
+    "sem agendamento online: toda marcação passa por atendente humano",
+    "WhatsApp já é canal declarado — o volume existe, falta automatizar",
+    "site sem HTTPS reduz confiança justamente na hora de deixar contato"
+   ]
+  },
+  "urlFinal": "http://www.drclaudiopinho.com.br/",
+  "titulo": "Clínica Cláudio Pinho - Cirurgião Dentista - Asa Sul - DF",
+  "pixelMeta": false,
+  "pixelGoogleAds": false,
+  "gtm": false,
+  "ga4": false
+ },
+ "instagram": {
+  "handle": null,
+  "uid": null,
+  "seguidores": null,
+  "seguindo": null,
+  "publicacoesTotal": null,
+  "amostraColetada": null,
+  "verificado": null,
+  "businessContactMethod": null,
+  "ctaAtivado": null,
+  "bio": null,
+  "linkBio": null,
+  "destaques": [],
+  "primeiroPost": null,
+  "ultimoPost": null,
+  "hiatoDias": null,
+  "cadenciaMensal": {},
+  "faseAtual": {
+   "desde": null,
+   "posts": null,
+   "engajamentoPct": null,
+   "mixFormatos": {},
+   "erPorFormato": {},
+   "medianaPlaysReel": null
+  },
+  "tendenciaEngajamento": [],
+  "ctaPctFaseAtual": null,
+  "topHashtags": [],
+  "topMencoes": []
+ },
+ "ads": {
+  "metaAdLibrary": {
+   "anunciosAtivos": 0,
+   "criativos": null,
+   "mesesNoAr": null,
+   "formatos": [],
+   "metodo": "Playwright em facebook.com/ads/library. Busca por frase exata \"claudio_pinho\" (handle do Instagram) devolveu ~550 resultados, mas o topo é dominado por conteúdo não relacionado (ex: deputado estadual cearense também chamado Cláudio Pinho). Nova busca por \"Dr Claudio Pinho\" (entre aspas) devolveu ~10 resultados, todos de propaganda eleitoral 2022 de um Francisco Cláudio Pinto Pinho, deputado estadual do Ceará (PDT) — homônimo, sem relação com o dentista.",
+   "conseguiuLer": true
+  },
+  "pixelMeta": null,
+  "pixelGoogleAds": null,
+  "gtm": null,
+  "ga4": null,
+  "leitura": "Nenhum anúncio da clínica odontológica foi identificado — as buscas por nome esbarram em homônimos (um deputado estadual do Ceará com nome quase idêntico) que dominam os resultados. Não é possível afirmar com segurança que não existam anúncios ativos; apenas que não foram encontrados sob os termos testados."
+ },
+ "google": {
+  "perfilEncontrado": true,
+  "nome": "Claudio Pinho",
+  "categoria": "Clinica odontologica",
+  "categoriaCorreta": true,
+  "nota": null,
+  "avaliacoes": 0,
+  "recenciaUltimaAvaliacao": null,
+  "respostasDoProprietario": false,
+  "fichasDuplicadas": [],
+  "fotos": "galeria presente, mas SEM aba 'Do proprietario' - so fotos de clientes/Street View. Contagem exata nao coletada. Ficha sem qualquer foto do proprietario.",
+  "siteVinculado": "drclaudiopinho.com.br",
+  "buscaMarca": "Maps 'Claudio Pinho Odontologia Brasilia' e Maps '\"Claudio Pinho\" dentista SEPS 710 910 Brasilia' abriram a MESMA e unica ficha: 'Claudio Pinho', SGAS II SGAS 614 - Asa Sul, tel (61) 3443-9555. A ficha exibe 'Reivindicar esta empresa', ou seja, NAO esta reivindicada pelo dono. Nao ha nota, nao ha avaliacoes e nao ha secao de fotos do proprietario.",
+  "buscaSemMarca": "'implante dentario Asa Sul Brasilia' - a clinica NAO aparece no pacote local.",
+  "pacoteLocal": [
+   {
+    "nome": "Royal Implantes",
+    "nota": 5.0,
+    "avaliacoes": 152,
+    "local": "SCS Q 07 Ed Torre Patio Brasil Bl A Sl 1105/1107/1109"
+   },
+   {
+    "nome": "Clinica Odontologica CROE Odonto",
+    "nota": 5.0,
+    "avaliacoes": 2,
+    "local": "SGAS 902 Sul Ed Athenas"
+   },
+   {
+    "nome": "ImplantCenter Odontologia",
+    "nota": 5.0,
+    "avaliacoes": 127,
+    "local": "SEPS 710-910 Torre A loja 09 galeria Via Brasil"
+   }
+  ]
+ },
+ "diretorios": {
+  "doctoralia": null,
+  "facebook": "https://www.facebook.com/claudiopinhoestetica/",
+  "linkedin": null,
+  "youtube": null,
+  "tiktok": null,
+  "outros": [
+   {
+    "nome": "Ident.com.br",
+    "url": "https://www.ident.com.br/dr.claudiopinho",
+    "obs": "CRO-DF 4315, especialidade Dentística, sem nota/avaliações exibidas, sem menção a Ticyane"
+   }
+  ]
+ },
+ "consistenciaNAP": {
+  "google": null,
+  "site": null,
+  "instagram": null,
+  "receita": null,
+  "divergencias": []
+ },
+ "concorrentes": [
+  {
+   "nome": "Royal Implantes",
+   "nota": 5.0,
+   "avaliacoes": 152,
+   "local": "SCS Q 07 Ed Torre Patio Brasil Bl A Sl 1105/1107/1109"
+  },
+  {
+   "nome": "Clinica Odontologica CROE Odonto",
+   "nota": 5.0,
+   "avaliacoes": 2,
+   "local": "SGAS 902 Sul Ed Athenas"
+  },
+  {
+   "nome": "ImplantCenter Odontologia",
+   "nota": 5.0,
+   "avaliacoes": 127,
+   "local": "SEPS 710-910 Torre A loja 09 galeria Via Brasil"
+  }
+ ],
+ "notaGeral": {
+  "valor": 3.7,
+  "escala": 10,
+  "pilares": {
+   "site": 4.4,
+   "instagram": null,
+   "cadencia": null,
+   "google": 2.0,
+   "reputacaoEDiretorios": 3.2,
+   "conversao": 5.0
+  }
+ },
+ "dores": [
+  {
+   "titulo": "Site sem HTTPS",
+   "evidencia": "A home responde em HTTP puro",
+   "custo": "O navegador marca como não seguro e o Google rebaixa na busca",
+   "vertente": "tecnologia"
+  },
+  {
+   "titulo": "Sem schema de negócio local",
+   "evidencia": "Nenhum JSON-LD de LocalBusiness ou Dentist na home",
+   "custo": "Perde rich result na busca local, onde o paciente de implante procura",
+   "vertente": "tecnologia"
+  },
+  {
+   "titulo": "O site não mede nada",
+   "evidencia": "Sem GA4 e sem Tag Manager no HTML",
+   "custo": "Impossível saber de onde vem paciente, logo impossível investir com critério",
+   "vertente": "tecnologia"
+  },
+  {
+   "titulo": "Sem agendamento na página",
+   "evidencia": "Nenhum caminho de agendamento na home",
+   "custo": "Toda marcação depende de alguém atender no horário comercial",
+   "vertente": "tecnologia"
+  },
+  {
+   "titulo": "Ficha sem nenhuma avaliação",
+   "evidencia": "O Perfil da Empresa existe e não tem avaliação alguma",
+   "custo": "Reputação zero na vitrine que mais pesa na decisão local",
+   "vertente": "tecnologia"
+  },
+  {
+   "titulo": "Avaliações sem resposta",
+   "evidencia": "Nenhuma resposta do proprietário nas avaliações visíveis",
+   "custo": "Resposta do dono é sinal de cuidado e pesa no ranqueamento local",
+   "vertente": "tecnologia"
+  },
+  {
+   "titulo": "Sem Instagram localizado",
+   "evidencia": "Nenhum perfil encontrado para a clínica",
+   "custo": "Em odontologia estética ninguém fecha sem ver caso tratado",
+   "vertente": "social"
+  },
+  {
+   "titulo": "Não anuncia, ou anuncia sem rastrear",
+   "evidencia": "Nenhum pixel da Meta nem tag do Google Ads no site",
+   "custo": "Alcance limitado ao orgânico, que já está caindo",
+   "vertente": "trafego"
+  }
+ ],
+ "fontes": [
+  "Coleta HTTP direta de http://www.drclaudiopinho.com.br/",
+  "Google Busca (google.com/search) - pacote local (Resultados locais), hl=pt-BR&gl=BR, sessao deslogada, 2026-08-19",
+  "Google Maps (google.com/maps) - leitura direta da ficha via Playwright, hl=pt-BR, sessao deslogada, 2026-08-19",
+  "Quadro societário (tabela socios, mesmo snapshot)",
+  "Receita Federal via BigQuery basedosdados.br_me_cnpj (snapshot 2026-01-11)",
+  "WebSearch: \"Claudio Pinho\" OR \"Cláudio Pinho\" dentista Brasília doctoralia opinioes",
+  "WebSearch: \"Claudio Pinho\" dentista facebook.com Brasília",
+  "WebSearch: \"Ticyane\" \"Pinho\" OR \"Frota Pinho\" instagram",
+  "WebSearch: \"Ticyane\" Pinho dentista OR odontologia instagram",
+  "WebSearch: drclaudiopinho.com.br doctoralia OR youtube OR linkedin OR tiktok",
+  "https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=BR&q=%22Dr%20Claudio%20Pinho%22&search_type=keyword_unordered (Playwright, 2026-08-18)",
+  "https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=BR&q=%22claudio_pinho%22&search_type=keyword_unordered (Playwright, 2026-08-18)",
+  "https://www.facebook.com/claudiopinhoestetica/ (Playwright — 10 mil seguidores, recomendado por 92% de 38 avaliações, endereço SGAS 614 Sul Vitrium Centro Médico Sala 38 confere com região da presenca.json, telefone (61) 3443-9555, e-mail clpinho@terra.com.br, site integrato.com.br [instituição de ensino do próprio Dr. Cláudio], último post: há 9 horas — página muito ativa)",
+  "https://www.ident.com.br/dr.claudiopinho (WebFetch)"
+ ],
+ "limitacoes": [
+  "A ficha existe mas esta NAO REIVINDICADA (o Maps oferece 'Reivindicar esta empresa') e com ZERO avaliacoes - nao ha nota nem historico para medir recencia.",
+  "A página do Facebook encontrada (claudiopinhoestetica) está fortemente associada à Integrato Ensino Especializado (instituição de ensino do Dr. Cláudio), não exclusivamente à clínica — registrado como está, sem reinterpretar",
+  "Contagem exata de fotos nao coletada: o Google Maps nao exibe o total sem abrir a galeria foto a foto. Registrado apenas se existe ou nao a aba 'Do proprietario'.",
+  "Contato do CNPJ aponta para escritorio de contabilidade ou e compartilhado com outro CNPJ — confirmar o telefone real da clinica antes de ligar",
+  "Doctoralia da clínica não localizado (site oficial nunca menciona Doctoralia)",
+  "Instagram pessoal de Ticyane de Oliveira Frota Pinho não localizado",
+  "LinkedIn, YouTube e TikTok não localizados",
+  "O endereco da ficha (SGAS 614) bate com o cadastro do projeto (SGAS QD 614); a referencia 'SEPS 710/910' do briefing nao apareceu em nenhuma ficha. Nao localizei uma segunda ficha nesse endereco."
+ ]
+}

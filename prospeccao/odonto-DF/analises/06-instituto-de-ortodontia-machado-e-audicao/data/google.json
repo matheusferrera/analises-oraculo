@@ -1,0 +1,67 @@
+{
+ "coletadoEm": "2026-08-19",
+ "google": {
+  "perfilEncontrado": true,
+  "nome": "Instituto Machado Odontologia Funcional Brasilia",
+  "categoria": "Clinica odontologica",
+  "categoriaCorreta": true,
+  "nota": 4.9,
+  "avaliacoes": 32,
+  "recenciaUltimaAvaliacao": "1 ano (mais recente entre as visiveis)",
+  "respostasDoProprietario": "parcial - unica resposta vista foi em avaliacao de 2 anos atras; as duas mais recentes estao sem resposta",
+  "fichasDuplicadas": [],
+  "fotos": "galeria presente; aba 'Do proprietario' disponivel (ha fotos publicadas pelo proprietario). Contagem exata nao coletada.",
+  "siteVinculado": "institutomachado.com.br (+ linklist.bio)",
+  "buscaMarca": "Maps 'Instituto de Ortodontia Machado e Audicao Asa Norte Brasilia' abriu a ficha 'Instituto Machado Odontologia Funcional Brasilia' - SHN Q2 Bl H Sobreloja 65, Metropolitan Mix, confere com o endereco esperado. O nome da ficha nao menciona ortodontia nem audicao.",
+  "buscaSemMarca": "'ortodontia Asa Norte Brasilia' - o Instituto NAO aparece no pacote local.",
+  "pacoteLocal": [
+   {
+    "nome": "Dr. Leonardo Figueiredo",
+    "nota": 4.9,
+    "avaliacoes": 30,
+    "local": "CLN 406 Bloco E Sl 111, Asa Norte"
+   },
+   {
+    "nome": "Ortoriso Clinica Odontologica",
+    "nota": 4.9,
+    "avaliacoes": 205,
+    "local": "SCN Qd 1 Bl F Sl 1305, Asa Norte"
+   },
+   {
+    "nome": "Clinica de Ortodontia Fabiola Bafutto",
+    "nota": 4.9,
+    "avaliacoes": 70,
+    "local": "SRTVN Qd 701 Centro Empresarial Norte Bl A Sl 809"
+   }
+  ]
+ },
+ "concorrentes": [
+  {
+   "nome": "Dr. Leonardo Figueiredo",
+   "nota": 4.9,
+   "avaliacoes": 30,
+   "local": "CLN 406 Bloco E Sl 111, Asa Norte"
+  },
+  {
+   "nome": "Ortoriso Clinica Odontologica",
+   "nota": 4.9,
+   "avaliacoes": 205,
+   "local": "SCN Qd 1 Bl F Sl 1305, Asa Norte"
+  },
+  {
+   "nome": "Clinica de Ortodontia Fabiola Bafutto",
+   "nota": 4.9,
+   "avaliacoes": 70,
+   "local": "SRTVN Qd 701 Centro Empresarial Norte Bl A Sl 809"
+  }
+ ],
+ "fontes": [
+  "Google Maps (google.com/maps) - leitura direta da ficha via Playwright, hl=pt-BR, sessao deslogada, 2026-08-19",
+  "Google Busca (google.com/search) - pacote local (Resultados locais), hl=pt-BR&gl=BR, sessao deslogada, 2026-08-19"
+ ],
+ "limitacoes": [
+  "Contagem exata de fotos nao coletada: o Google Maps nao exibe o total sem abrir a galeria foto a foto. Registrado apenas se existe ou nao a aba 'Do proprietario'.",
+  "Recencia baseada nas avaliacoes visiveis na ordenacao padrao do Maps (relevancia), nao em ordenacao por data. E o piso da recencia real, nao o valor exato.",
+  "Divergencia de nome entre a razao/nome comercial esperado ('Instituto de Ortodontia Machado e Audicao') e o nome da ficha ('Instituto Machado Odontologia Funcional Brasilia'). Considerei a mesma empresa pelo endereco (SHN Q2 Bloco H), mas vale confirmar."
+ ]
+}

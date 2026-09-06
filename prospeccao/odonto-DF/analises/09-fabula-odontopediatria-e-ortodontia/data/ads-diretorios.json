@@ -1,0 +1,56 @@
+{
+ "coletadoEm": "2026-08-18",
+ "ads": {
+  "metaAdLibrary": {
+   "anunciosAtivos": 0,
+   "criativos": 0,
+   "mesesNoAr": null,
+   "formatos": [],
+   "metodo": "Playwright (contexto isolado) em facebook.com/ads/library, país=BR, active_status=all, busca por \"Fábula Odontopediatria\" (frase exata) e \"fabulaodonto\"; ambas retornaram \"Nenhum anúncio\" na Biblioteca",
+   "conseguiuLer": true,
+   "termosBuscados": [
+    "Fábula Odontopediatria (frase exata)",
+    "fabulaodonto"
+   ]
+  },
+  "leitura": "Não anuncia na Meta. Em odontopediatria, onde a decisão é da mãe e acontece no feed, a ausência de mídia paga é uma lacuna direta de agenda."
+ },
+ "diretorios": {
+  "doctoralia": null,
+  "doctoraliaNota": null,
+  "doctoraliaOpinioes": null,
+  "facebook": "https://www.facebook.com/fabulaodonto/",
+  "linkedin": null,
+  "youtube": "https://www.youtube.com/channel/UCgsnOW9mqUKpP_l6eUVuIRg",
+  "tiktok": null,
+  "outros": [
+   "DentMap: https://dentmap.com.br/dentistas/brasilia/fabula-odontopediatria-ortodontia-db0c1926 — 4,8★ (4 avaliações)",
+   "Linktree oficial da clínica com todos os links: https://linktr.ee/fabulaodonto"
+  ]
+ },
+ "siteConfirmacao": {
+  "existe": true,
+  "url": "https://fabulaodonto.com.br/",
+  "conclusivo": true,
+  "observacao": "Site já confirmado anteriormente em presenca.json (fora do escopo desta coleta, incluído aqui só para registro)."
+ },
+ "instagramDecisor": {
+  "handle": null,
+  "confianca": "nao_encontrado",
+  "evidencia": "Não localizei perfil pessoal de Gabriela Mesquita Lopes no Instagram. Só encontrei o perfil institucional @fabulaodonto."
+ },
+ "fontes": [
+  "https://www.facebook.com/fabulaodonto/",
+  "https://www.youtube.com/channel/UCgsnOW9mqUKpP_l6eUVuIRg",
+  "https://linktr.ee/fabulaodonto",
+  "https://dentmap.com.br/dentistas/brasilia/fabula-odontopediatria-ortodontia-db0c1926",
+  "WebSearch: Fábula Odontopediatria Brasília doctoralia opiniões",
+  "WebSearch: Gabriela Mesquita Lopes odontopediatra instagram Brasília",
+  "WebSearch: \"Consultório Fábula Odontopediatria e Ortodontia\" doctoralia"
+ ],
+ "limitacoes": [
+  "Não localizei URL de página Doctoralia dedicada à clínica (buscas indicam que ela aparece indexada nas listagens de odontopediatria de Brasília, mas não achei a ficha própria com nota/opiniões)",
+  "Não localizei LinkedIn ou TikTok da clínica",
+  "Não localizei Instagram pessoal da decisora Gabriela Mesquita Lopes"
+ ]
+}

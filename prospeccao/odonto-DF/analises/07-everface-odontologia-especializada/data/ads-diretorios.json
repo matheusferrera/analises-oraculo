@@ -1,0 +1,51 @@
+{
+ "coletadoEm": "2026-08-18",
+ "ads": {
+  "metaAdLibrary": {
+   "anunciosAtivos": 0,
+   "criativos": 0,
+   "mesesNoAr": null,
+   "formatos": [],
+   "metodo": "Playwright (contexto isolado) em facebook.com/ads/library, país=BR, active_status=all, busca por \"Everface\" e \"everface_odontologia\"; ambas retornaram \"Nenhum anúncio\" na Biblioteca",
+   "conseguiuLer": true,
+   "termosBuscados": [
+    "Everface",
+    "everface_odontologia"
+   ]
+  },
+  "leitura": "Não anuncia na Meta. Atenção para não confundir com a 'Faces Odontologia Especializada' de Águas Claras, que anuncia — são páginas e clínicas diferentes."
+ },
+ "diretorios": {
+  "doctoralia": "https://www.doctoralia.com.br/everton-da-rosa/cirurgiao-buco-maxilo-facial-dentista/brasilia",
+  "doctoraliaNota": 5,
+  "doctoraliaOpinioes": 1,
+  "facebook": "https://www.facebook.com/people/Dr-Everton-da-Rosa/",
+  "linkedin": null,
+  "youtube": null,
+  "tiktok": null,
+  "outros": []
+ },
+ "siteConfirmacao": {
+  "existe": true,
+  "url": "https://www.drevertondarosa.com/",
+  "conclusivo": true,
+  "observacao": "Site oficial confirmado: cita Dr. Everton Luis Santos da Rosa (CRO-DF 2232), endereço idêntico ao da Receita (Edifício Assis Chateaubriand, SRTVS Quadra 701, Conjunto L, Bloco 2, Sala 531, Asa Sul, Brasília-DF), telefone (61) 3326-3361 e handle de Instagram @everface_odontologia — todos batendo com os dados já conhecidos da clínica."
+ },
+ "instagramDecisor": {
+  "handle": "everton_da_rosa",
+  "confianca": "alta",
+  "evidencia": "Perfil pessoal @everton_da_rosa (3.515 seguidores), bio '🔵 Cirurgião #bucomaxilofacial 🔵 Palestrante 🔵 Consultor 🔵 #ortognatica', com link para drevertondarosa.com — o mesmo site oficial confirmado da Everface. Nome, especialidade (cirurgia ortognática/bucomaxilofacial) e site batem exatamente com o decisor Everton Luis Santos da Rosa."
+ },
+ "fontes": [
+  "https://www.drevertondarosa.com/",
+  "https://www.doctoralia.com.br/everton-da-rosa/cirurgiao-buco-maxilo-facial-dentista/brasilia",
+  "https://www.instagram.com/everton_da_rosa/",
+  "https://www.instagram.com/everface_odontologia/",
+  "WebSearch: Everface Odontologia site oficial Brasília",
+  "WebSearch: Everton Luis Santos da Rosa dentista instagram cirurgião ortognática"
+ ],
+ "limitacoes": [
+  "Não localizei LinkedIn, YouTube ou TikTok da clínica",
+  "URL completa do Facebook (facebook.com/people/Dr-Everton-da-Rosa/) veio truncada na fonte, sem o ID numérico final — pode não abrir direto sem busca adicional"
+ ]
+}

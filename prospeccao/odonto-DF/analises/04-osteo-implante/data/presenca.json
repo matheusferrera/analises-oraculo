@@ -1,0 +1,294 @@
+{
+ "coletadoEm": "2026-08-19",
+ "cnpj": "10.283.428/0001-42",
+ "slug": "osteo-implante",
+ "clinica": {
+  "nome": "Osteo Implante",
+  "razaoSocial": "Afp Clinica Odontologica Ltda",
+  "cnaeDescricao": "Atividade odontológica",
+  "fundacao": "2008-08-18",
+  "idadeAnos": 18,
+  "porte": "EPP",
+  "regiao": "Taguatinga",
+  "endereco": "QUADRA QNC 07 LOTE 02 LOJAS 01, 02, 03 E 04, S/N, TERREO, TAGUATINGA, CEP 72115570, Brasilia/DF",
+  "unidades": 2
+ },
+ "decisor": {
+  "nome": "Fabiano Cesar De Aguida",
+  "qualificacao": "Sócio-Administrador",
+  "decisaoCompartilhada": true,
+  "telefone": "(61) 3036-6116",
+  "telefoneTipo": "fixo",
+  "whatsapp": "+556130366116",
+  "email": "",
+  "instagramPessoal": null,
+  "telefone2": "",
+  "emailEhDeContador": false,
+  "telefoneCompartilhado": true
+ },
+ "tecnologia": {
+  "site": "https://osteoimplante.com.br/",
+  "httpStatus": 200,
+  "cms": "WordPress + Elementor",
+  "https": true,
+  "ttfbSegundos": 0.36,
+  "tempoTotalSegundos": null,
+  "tamanhoBytes": 150658,
+  "viewportMobile": true,
+  "h1": 1,
+  "metaDescription": null,
+  "openGraph": false,
+  "jsonLdLocalBusiness": false,
+  "sitemap": "https://osteoimplante.com.br/sitemap.xml",
+  "paginasReais": [
+   "https://osteoimplante.com.br/",
+   "https://osteoimplante.com.br/author/exemplo/"
+  ],
+  "residuoCMS": [],
+  "formulario": true,
+  "whatsappNoSite": true,
+  "agendamentoOnline": true,
+  "avisoCookies": false,
+  "dominiosDuplicados": [],
+  "propensaoBot": {
+   "nota": 25,
+   "sinais": [
+    "WhatsApp já é canal declarado — o volume existe, falta automatizar"
+   ]
+  },
+  "urlFinal": "https://osteoimplante.com.br/",
+  "titulo": "Osteo Implante &#8211; Implante dentário em Brasília – Recupere seu sorriso e volte a mastigar com segurança!",
+  "pixelMeta": true,
+  "pixelGoogleAds": false,
+  "gtm": true,
+  "ga4": false
+ },
+ "instagram": {
+  "handle": "osteoimplante",
+  "uid": null,
+  "seguidores": 6924,
+  "seguindo": null,
+  "publicacoesTotal": 591,
+  "amostraColetada": 120,
+  "verificado": null,
+  "businessContactMethod": null,
+  "ctaAtivado": null,
+  "bio": null,
+  "linkBio": null,
+  "destaques": [],
+  "primeiroPost": null,
+  "ultimoPost": null,
+  "hiatoDias": 8,
+  "cadenciaMensal": {},
+  "faseAtual": {
+   "posts": 3,
+   "engajamentoPct": 0.39,
+   "mixFormatos": {
+    "reel": 66,
+    "imagem": 36,
+    "carrossel": 18
+   },
+   "medianaPlaysReel": 2308
+  },
+  "tendenciaEngajamento": [],
+  "ctaPctFaseAtual": 20.0,
+  "topHashtags": [],
+  "topMencoes": [],
+  "erAmostra": 1.45,
+  "er90d": 0.39,
+  "postsUlt90d": 3
+ },
+ "ads": {
+  "metaAdLibrary": {
+   "anunciosAtivos": 14,
+   "criativos": 14,
+   "mesesNoAr": 3.6,
+   "formatos": [
+    "vídeo"
+   ],
+   "metodo": "Playwright (contexto isolado) em facebook.com/ads/library, país=BR, active_status=all, busca por \"Osteo Implante\" (frase exata e busca por palavras); 14 criativos ativos da página \"Osteo Implante\" (facebook.com/100091373353324, endereço C Norte QNC 7 — Taguatinga/DF, confirmado na própria página), 6 deles com o rótulo \"2 anúncios usam esse criativo e esse texto\". Meta reporta \"~20 resultados\"",
+   "conseguiuLer": true,
+   "termosBuscados": [
+    "Osteo Implante",
+    "Osteo Implante (frase exata)"
+   ]
+  },
+  "pixelMeta": null,
+  "pixelGoogleAds": null,
+  "gtm": null,
+  "ga4": null,
+  "leitura": "Anuncia de forma constante desde 29/04/2026: 14 criativos, 100% vídeo, todos com CTA de WhatsApp — e boa parte é o mesmo texto repetido em várias entregas. Volume alto com criativo único: a alavanca óbvia é variação de mensagem e segmentação, não aumento de verba."
+ },
+ "google": {
+  "perfilEncontrado": true,
+  "nome": "Osteo Implante",
+  "categoria": "Periodontia e implantes dentarios",
+  "categoriaCorreta": true,
+  "nota": 4.8,
+  "avaliacoes": 60,
+  "recenciaUltimaAvaliacao": "1 ano (avaliacao mais recente entre as visiveis; as outras sao de 4 e 5 anos)",
+  "respostasDoProprietario": false,
+  "fichasDuplicadas": [],
+  "fotos": "galeria presente; aba 'Do proprietario' disponivel (ha fotos publicadas pelo proprietario). Contagem exata nao coletada.",
+  "siteVinculado": "osteoimplante.com.br",
+  "buscaMarca": "Maps 'Osteo Implante Taguatinga Brasilia' abriu a ficha (QNC 7). Maps '\"Osteo Implante\" Asa Norte Brasilia' NAO retornou ficha da marca - trouxe 'Osteon - Centro de Implantodontia' (SMHN Q2 Sl 414), que e outra empresa.",
+  "buscaSemMarca": "'implante dentario Taguatinga Brasilia' - a Osteo Implante NAO aparece no pacote local.",
+  "pacoteLocal": [
+   {
+    "nome": "OdontoLinea",
+    "nota": 4.9,
+    "avaliacoes": 164,
+    "local": "Taguatinga Trade Center, Av. Central 339"
+   },
+   {
+    "nome": "Oral Unic",
+    "nota": 4.9,
+    "avaliacoes": 361,
+    "local": "Taguatinga Norte QND 27 Lote 02"
+   },
+   {
+    "nome": "Trinno Implantes",
+    "nota": 4.9,
+    "avaliacoes": 638,
+    "local": "St. de Industrias Graficas Conj B Lotes 02/04"
+   }
+  ]
+ },
+ "diretorios": {
+  "doctoralia": null,
+  "facebook": "https://www.facebook.com/OsteoImplante/",
+  "linkedin": null,
+  "youtube": "https://www.youtube.com/@OsteoImplante",
+  "tiktok": null,
+  "outros": [
+   {
+    "nome": "Instagram (não estava em presenca.json, handle era null)",
+    "url": "https://www.instagram.com/osteoimplante/",
+    "observacao": "~6.532 seguidores, ~581 publicações segundo resultados de busca. presenca.json tem instagram.handle=null; este achado pode ser útil para complementar essa lacuna em outro processo de coleta (não editei presenca.json conforme instrução)."
+   },
+   {
+    "nome": "Facebook (9.006 curtidas, 5.003 check-ins confirmados via busca)",
+    "url": "https://www.facebook.com/OsteoImplante/",
+    "observacao": "Endereço e telefone batem com presenca.json (QNC 07 lote 02, (61) 3036-6116). Página ativa com posts recentes de vídeo."
+   },
+   {
+    "nome": "Facebook (página alternativa possivelmente duplicada, não confirmada)",
+    "url": "https://www.facebook.com/osteoimplanteodontologia/",
+    "observacao": "Apareceu em busca com título 'Osteo Implante Odontologia | Brasília DF'; não foi possível confirmar via fetch se é a mesma página, uma filial, ou uma página abandonada/duplicada."
+   },
+   {
+    "nome": "DentMap",
+    "url": "https://dentmap.com.br/dentistas/brasilia/osteo-implante-75b2ecba",
+    "observacao": "Aparece em resultado de busca com nota 4,8★ (4 avaliações), mas o fetch direto da página retornou HTTP 404 no momento da checagem — não foi possível confirmar ao vivo o conteúdo nem a nota."
+   },
+   {
+    "nome": "Guia Digital Brasília na Net",
+    "url": "https://brasiliananet.com.br/anunciantes/osteo-implante-64dab75388a13.html"
+   },
+   {
+    "nome": "GuiaFácil",
+    "url": "https://guiafacil.com/site/osteo-implantes/brasilia/df/6130366116"
+   }
+  ]
+ },
+ "consistenciaNAP": {
+  "google": null,
+  "site": null,
+  "instagram": null,
+  "receita": null,
+  "divergencias": []
+ },
+ "concorrentes": [
+  {
+   "nome": "OdontoLinea",
+   "nota": 4.9,
+   "avaliacoes": 164,
+   "local": "Taguatinga Trade Center, Av. Central 339"
+  },
+  {
+   "nome": "Oral Unic",
+   "nota": 4.9,
+   "avaliacoes": 361,
+   "local": "Taguatinga Norte QND 27 Lote 02"
+  },
+  {
+   "nome": "Trinno Implantes",
+   "nota": 4.9,
+   "avaliacoes": 638,
+   "local": "St. de Industrias Graficas Conj B Lotes 02/04"
+  }
+ ],
+ "notaGeral": {
+  "valor": 5.2,
+  "escala": 10,
+  "pilares": {
+   "site": 7.2,
+   "instagram": 1.6,
+   "cadencia": 2.0,
+   "google": 7.0,
+   "reputacaoEDiretorios": 4.4,
+   "conversao": 9.0
+  }
+ },
+ "dores": [
+  {
+   "titulo": "Sem schema de negócio local",
+   "evidencia": "Nenhum JSON-LD de LocalBusiness ou Dentist na home",
+   "custo": "Perde rich result na busca local, onde o paciente de implante procura",
+   "vertente": "tecnologia"
+  },
+  {
+   "titulo": "Avaliações sem resposta",
+   "evidencia": "Nenhuma resposta do proprietário nas avaliações visíveis",
+   "custo": "Resposta do dono é sinal de cuidado e pesa no ranqueamento local",
+   "vertente": "tecnologia"
+  },
+  {
+   "titulo": "Engajamento no chão",
+   "evidencia": "0,39% de engajamento nos últimos 90 dias",
+   "custo": "A maior parte dos seguidores já não vê o que é publicado",
+   "vertente": "social"
+  },
+  {
+   "titulo": "Cadência insuficiente",
+   "evidencia": "3 publicações em 90 dias",
+   "custo": "Abaixo do mínimo para o algoritmo manter entrega estável",
+   "vertente": "social"
+  }
+ ],
+ "fontes": [
+  "Coleta HTTP direta de https://osteoimplante.com.br/",
+  "Google Busca (google.com/search) - pacote local (Resultados locais), hl=pt-BR&gl=BR, sessao deslogada, 2026-08-19",
+  "Google Maps (google.com/maps) - leitura direta da ficha via Playwright, hl=pt-BR, sessao deslogada, 2026-08-19",
+  "Instagram @osteoimplante localizado por busca (agente Trilha A)",
+  "Instagram @osteoimplante via API interna com sessao logada (19/08/2026), amostra de 120 posts",
+  "Quadro societário (tabela socios, mesmo snapshot)",
+  "Receita Federal via BigQuery basedosdados.br_me_cnpj (snapshot 2026-01-11)",
+  "WebSearch: \"Fabiano Aguida Instagram dentista OR implante\"",
+  "WebSearch: \"Osteo Implante Instagram Taguatinga\"",
+  "WebSearch: \"Osteo Implante Taguatinga Facebook LinkedIn\"",
+  "WebSearch: \"Osteo Implante Taguatinga QNC 07 Doctoralia dentista\"",
+  "WebSearch: \"Osteo Implante youtube.com/@ channel Taguatinga\"",
+  "https://brasiliananet.com.br/anunciantes/osteo-implante-64dab75388a13.html",
+  "https://dentmap.com.br/dentistas/brasilia/osteo-implante-75b2ecba",
+  "https://guiafacil.com/site/osteo-implantes/brasilia/df/6130366116",
+  "https://osteoimplante.com.br/",
+  "https://www.facebook.com/OsteoImplante/",
+  "https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=BR&q=Osteo%20Implante&search_type=keyword_unordered",
+  "https://www.instagram.com/osteoimplante/",
+  "https://www.youtube.com/@OsteoImplante"
+ ],
+ "limitacoes": [
+  "A empresa tem um segundo CNPJ na Asa Norte (27.410.508/0001-14, SCN Quadra 2) na base do projeto. Nao localizei ficha do Google para essa unidade. 'Osteon - Centro de Implantodontia' NAO e a mesma empresa (nome e endereco diferentes) e nao deve ser contado como ficha da Osteo.",
+  "Contagem exata de fotos nao coletada: o Google Maps nao exibe o total sem abrir a galeria foto a foto. Registrado apenas se existe ou nao a aba 'Do proprietario'.",
+  "Contato do CNPJ aponta para escritorio de contabilidade ou e compartilhado com outro CNPJ — confirmar o telefone real da clinica antes de ligar",
+  "Convencao do campo perfilEncontrado: true = ficha confirmada; 'nao_localizado' = busquei e nao encontrei ficha correspondente (nao equivale a afirmar que a empresa nao possui perfil).",
+  "DentMap não pôde ser verificado ao vivo (404 no fetch direto), apesar de aparecer em cache de busca.",
+  "Doctoralia não localizado para esta clínica.",
+  "Existência de uma segunda página de Facebook (osteoimplanteodontologia) não foi esclarecida — pode ser duplicata ou filial.",
+  "LinkedIn não localizado (o único resultado com nome parecido, 'Osteo Implantes Ortopédicos', é uma empresa distinta de ortopedia, não odontologia — descartado).",
+  "Nenhuma das 3 avaliacoes visiveis tinha resposta do proprietario; nao percorri as 60 avaliacoes, entao 'respostasDoProprietario: false' vale para a amostra visivel.",
+  "Recencia baseada nas avaliacoes visiveis na ordenacao padrao do Maps (relevancia), nao em ordenacao por data. E o piso da recencia real, nao o valor exato.",
+  "TikTok não localizado."
+ ]
+}

@@ -1,0 +1,373 @@
+[
+ {
+  "nome": "Renove - Estética e Implantes Orais",
+  "decisor": "Tiago Moura de Almeida",
+  "site": "",
+  "instagram": "",
+  "instagram_decisor": "",
+  "problemas": [
+   "Nenhum site próprio. Só fichas em diretórios de terceiros (odontologia.net.br, agendarconsulta)",
+   "Nenhum Instagram localizado",
+   "14 anos e EPP: capacidade sem nenhuma vitrine digital própria"
+  ],
+  "severidade": "alta"
+ },
+ {
+  "nome": "Implantomed",
+  "decisor": "Sheila Mendes Batista",
+  "site": "implantomed.com.br",
+  "instagram": "implantomed",
+  "instagram_decisor": "",
+  "problemas": [
+   "Site e Instagram ativos, com páginas por serviço (implante, prótese, equipe)",
+   "IG é da Dra. Sheila: marca pessoal e marca da clínica no mesmo perfil, sem separação"
+  ],
+  "severidade": "media"
+ },
+ {
+  "nome": "Vital Implantes",
+  "decisor": "Cristhian Rogers Silva Domingos",
+  "site": "vitalimplantes.com.br",
+  "instagram": "vitalimplantes",
+  "instagram_decisor": "",
+  "problemas": [
+   "Melhor base do grupo: 17 mil seguidores, 860 posts, 2 unidades",
+   "Volume alto não garante conversão — precisa medir ER e cadência (estágio 3)"
+  ],
+  "severidade": "baixa"
+ },
+ {
+  "nome": "Osteo Implante",
+  "decisor": "Fabiano Cesar de Aguida",
+  "site": "osteoimplante.com.br",
+  "instagram": "",
+  "instagram_decisor": "",
+  "problemas": [
+   "**Google com apenas 4 avaliações** para 16 anos e 18 mil pacientes atendidos",
+   "Nenhum Instagram localizado",
+   "2 unidades (Taguatinga e Asa Norte) sem presença social"
+  ],
+  "severidade": "alta"
+ },
+ {
+  "nome": "Patrícia Pizzo Ortodontia",
+  "decisor": "Patrícia Maria Pizzo Reis",
+  "site": "patriciapizzo.com.br",
+  "instagram": "odontopatriciapizzo",
+  "instagram_decisor": "",
+  "problemas": [
+   "Site e IG ativos; Invisalign Doctor e professora de especialização desde 2005",
+   "Autoridade acadêmica forte e subaproveitada como conteúdo"
+  ],
+  "severidade": "media"
+ },
+ {
+  "nome": "Instituto de Ortodontia Machado",
+  "decisor": "Rosário Casalenuovo Junior",
+  "site": "",
+  "instagram": "",
+  "instagram_decisor": "",
+  "problemas": [
+   "**Sem site e sem Instagram.** Só diretórios",
+   "**E-mail de contato público é do escritório de contabilidade** — ninguém cuida do digital",
+   "16 anos de operação, Asa Norte"
+  ],
+  "severidade": "alta"
+ },
+ {
+  "nome": "Everface Odontologia",
+  "decisor": "Everton Luis Santos da Rosa",
+  "site": "",
+  "instagram": "everface_odontologia",
+  "instagram_decisor": "",
+  "problemas": [
+   "Instagram ativo, mas sem site próprio localizado",
+   "Cirurgia ortognática com planejamento virtual: ticket altíssimo, sem página para converter",
+   "Depende de Doctoralia — plataforma de terceiro que cobra e controla o lead"
+  ],
+  "severidade": "alta"
+ },
+ {
+  "nome": "Orthos Taguatinga",
+  "decisor": "Wells Moura Trigueiro",
+  "site": "",
+  "instagram": "orthosbrasilia",
+  "instagram_decisor": "",
+  "problemas": [
+   "IG com 11 mil seguidores e Facebook, mas sem site próprio localizado",
+   "33 anos de mercado sem domínio próprio: todo o tráfego é alugado"
+  ],
+  "severidade": "alta"
+ },
+ {
+  "nome": "Fábula Odontopediatria",
+  "decisor": "Gabriela Mesquita Lopes",
+  "site": "fabulaodonto.com.br",
+  "instagram": "fabulaodonto",
+  "instagram_decisor": "",
+  "problemas": [
+   "Estrutura digital mais completa do grupo: site, IG, Facebook, YouTube, Linktree, 2ª marca (Like U)",
+   "**Google com apenas 4 avaliações** apesar da estrutura",
+   "Corpo clínico com doutorado (Barcelona, UnB) pouco explorado"
+  ],
+  "severidade": "media"
+ },
+ {
+  "nome": "Faces Odontologia Estética",
+  "decisor": "Karina de Oliveira Sales da Cruz",
+  "site": "",
+  "instagram": "facesodontologia",
+  "instagram_decisor": "",
+  "problemas": [
+   "IG ativo, sem site próprio localizado",
+   "Nicho estético em Águas Claras, alta concorrência local"
+  ],
+  "severidade": "alta"
+ },
+ {
+  "nome": "IBI - Inst. Brasiliense de Implante",
+  "decisor": "Ronaldo José de Oliveira",
+  "site": "",
+  "instagram": "",
+  "instagram_decisor": "",
+  "problemas": [
+   "**Sem site e sem perfil próprio no Instagram** — só uma página de localização gerada pelo IG",
+   "Nome 'Instituto' sugere posicionamento de autoridade sem nenhum ativo digital que o sustente"
+  ],
+  "severidade": "alta"
+ },
+ {
+  "nome": "CRIE Odontologia",
+  "decisor": "Frederico Goulart de O. Silva",
+  "site": "crieodontologia.com.br",
+  "instagram": "crieodontologia",
+  "instagram_decisor": "",
+  "problemas": [
+   "Site com páginas de unidades, equipe e contato; IG com 5.205 seguidores e 1.122 posts",
+   "Duas unidades com modelos distintos (convênio e particular) sem segmentação de comunicação"
+  ],
+  "severidade": "baixa"
+ },
+ {
+  "nome": "Sallum - Odontologia Estética",
+  "decisor": "Gabriel de Souza Sallum",
+  "site": "sallumodontologia.com.br",
+  "instagram": "sallumodontologia",
+  "instagram_decisor": "",
+  "problemas": [
+   "Site, IG e Facebook ativos",
+   "Harmonização facial: ticket alto e concorrência agressiva em anúncios"
+  ],
+  "severidade": "baixa"
+ },
+ {
+  "nome": "Claudio Pinho Odontologia",
+  "decisor": "Cláudio de Pinho Costa",
+  "site": "drclaudiopinho.com.br",
+  "instagram": "",
+  "instagram_decisor": "claudio_pinho",
+  "problemas": [
+   "**Site em HTTP, sem HTTPS** — navegador marca como 'não seguro' e o Google rebaixa",
+   "Presidente da Soc. Bras. de Odontologia Estética e membro da AAED: autoridade rara, site datado",
+   "IG é pessoal (@claudio_pinho); a clínica não tem perfil próprio"
+  ],
+  "severidade": "alta"
+ },
+ {
+  "nome": "WV Implantodontia",
+  "decisor": "Walter Vasques Filho",
+  "site": "",
+  "instagram": "",
+  "instagram_decisor": "",
+  "problemas": [
+   "**Sem site e sem Instagram.** Só Facebook e diretórios",
+   "Centro de Reabilitação Oral: ticket alto, zero vitrine"
+  ],
+  "severidade": "alta"
+ },
+ {
+  "nome": "Talita Chimeli Odontologia",
+  "decisor": "Talita B. C. Chimeli",
+  "site": "talitachimeli.com.br",
+  "instagram": "",
+  "instagram_decisor": "",
+  "problemas": [
+   "**Quatro domínios diferentes** (.com.br, .com, medbr.com.br, odontobr.org) competindo entre si",
+   "Canibalização de SEO clássica: o Google divide autoridade e nenhum ranqueia bem",
+   "Mestre pela UnB e professora — autoridade forte, sem IG localizado"
+  ],
+  "severidade": "alta"
+ },
+ {
+  "nome": "Centro Clínico Ortodontia Gomide",
+  "decisor": "Maria Beatriz Borges Gomide",
+  "site": "",
+  "instagram": "",
+  "instagram_decisor": "",
+  "problemas": [
+   "**Sem site e sem Instagram**",
+   "**E-mail de contato é @hotmail.com** — sem domínio próprio",
+   "18 anos de operação na Asa Sul"
+  ],
+  "severidade": "alta"
+ },
+ {
+  "nome": "Bicalho Ortodontia",
+  "decisor": "Rafael de Faria Bicalho",
+  "site": "bicalhoortodontia.com.br",
+  "instagram": "bicalho.ortodontia",
+  "instagram_decisor": "rafael.fbicalho",
+  "problemas": [
+   "**Referência do grupo: Google 5,0 com 113 avaliações**",
+   "Site, IG da clínica e IG pessoal do Dr. Rafael — estrutura completa",
+   "50 anos de legado familiar: menor dor digital, maior exigência de proposta"
+  ],
+  "severidade": "baixa"
+ },
+ {
+  "nome": "Implant Center",
+  "decisor": "George Furtado Guimarães",
+  "site": "implantcenter.com.br",
+  "instagram": "implantcenterdf",
+  "instagram_decisor": "",
+  "problemas": [
+   "Site com páginas por profissional e por tratamento; IG ativo",
+   "Coordenador de mestrado na São Leopoldo Mandic, 25 mil implantes: autoridade de primeira linha"
+  ],
+  "severidade": "baixa"
+ },
+ {
+  "nome": "CIR Premier",
+  "decisor": "Aurélio Belas Lustosa",
+  "site": "cir.com.br",
+  "instagram": "",
+  "instagram_decisor": "",
+  "problemas": [
+   "Site próprio e ISO 9001, mas **sem Instagram localizado**",
+   "Facebook com 1.031 curtidas — canal defasado como principal rede",
+   "Lago Sul, 32 anos, capital acima de R$500 mil: maior capacidade da lista"
+  ],
+  "severidade": "alta"
+ },
+ {
+  "nome": "Brasília Implantes",
+  "decisor": "César Augusto de Oliveira Vaz",
+  "site": "",
+  "instagram": "",
+  "instagram_decisor": "",
+  "problemas": [
+   "**Não foi possível identificar presença digital com confiança** — nome genérico demais",
+   "Requer verificação manual antes de qualquer abordagem"
+  ],
+  "severidade": "indefinida"
+ },
+ {
+  "nome": "Ortho Life",
+  "decisor": "Marcelo Vieira",
+  "site": "",
+  "instagram": "",
+  "instagram_decisor": "",
+  "problemas": [
+   "**Não foi possível identificar com confiança** — resultados apontam para homônimos em Rio Branco e Gama",
+   "Requer verificação manual"
+  ],
+  "severidade": "indefinida"
+ },
+ {
+  "nome": "Implanto",
+  "decisor": "Enio de Lima Bicudo",
+  "site": "implanto.com.br",
+  "instagram": "implantodontologia",
+  "instagram_decisor": "",
+  "problemas": [
+   "Site e IG ativos, mas IG com apenas 1.257 seguidores para 20+ anos de operação",
+   "514 posts e base pequena: sinal de cadência sem estratégia"
+  ],
+  "severidade": "media"
+ },
+ {
+  "nome": "SIGA Odontologia",
+  "decisor": "Josafá Martins de Lima",
+  "site": "sigaodontologia.com.br",
+  "instagram": "sigaodontologiadf",
+  "instagram_decisor": "",
+  "problemas": [
+   "**Dois domínios** (sigaodontologia.com.br e sigaodontologiaoficial.com) dividindo autoridade",
+   "IG com 2.470 seguidores para 22 anos de mercado"
+  ],
+  "severidade": "media"
+ },
+ {
+  "nome": "Aquarium Odontologia",
+  "decisor": "Rogério Rocha Saud",
+  "site": "",
+  "instagram": "",
+  "instagram_decisor": "",
+  "problemas": [
+   "**Sem site e sem Instagram.** Só Facebook",
+   "27 anos de operação, harmonização orofacial: ticket alto e zero vitrine digital"
+  ],
+  "severidade": "alta"
+ },
+ {
+  "nome": "Prime Estética Facial",
+  "decisor": "Júlio Evangelista de Souza Jr",
+  "site": "primeesteticafacial.com.br",
+  "instagram": "",
+  "instagram_decisor": "",
+  "problemas": [
+   "Site próprio ativo, **sem Instagram localizado com confiança**",
+   "Estética facial sem Instagram é a maior contradição possível no nicho"
+  ],
+  "severidade": "alta"
+ },
+ {
+  "nome": "Moya Ortodontia",
+  "decisor": "João Carlos de Assis Moya",
+  "site": "moyaortodontia.com.br",
+  "instagram": "",
+  "instagram_decisor": "",
+  "problemas": [
+   "Site + landing page separada (lp.moyaortodontia.com.br), **sem Instagram localizado**",
+   "Facebook pessoal do Dr. João como principal rede — canal defasado",
+   "Invisalign Doctor com 25 anos: autoridade sem vitrine visual"
+  ],
+  "severidade": "alta"
+ },
+ {
+  "nome": "Amazing HOF",
+  "decisor": "Cleudivânia Medeiros Santos",
+  "site": "",
+  "instagram": "",
+  "instagram_decisor": "",
+  "problemas": [
+   "**Não foi possível identificar presença digital** — nenhum resultado correspondente",
+   "Harmonização orofacial sem rastro digital localizável"
+  ],
+  "severidade": "indefinida"
+ },
+ {
+  "nome": "Eduardo Burgel Periodontia",
+  "decisor": "Eduardo de Araújo Bürgel",
+  "site": "",
+  "instagram": "",
+  "instagram_decisor": "eduardo.burgel",
+  "problemas": [
+   "**Sem site próprio.** Só diretórios (Yelp, Doctoralia, Solutudo)",
+   "IG pessoal com cerca de mil seguidores — baixo para periodontia e implantes na Asa Norte"
+  ],
+  "severidade": "alta"
+ },
+ {
+  "nome": "DF Implantes",
+  "decisor": "Júlio César Fonseca",
+  "site": "",
+  "instagram": "dfimplante",
+  "instagram_decisor": "",
+  "problemas": [
+   "IG com 1.930 seguidores, **sem site próprio localizado**",
+   "Sem domínio, todo o tráfego depende do algoritmo do Instagram"
+  ],
+  "severidade": "alta"
+ }
+]

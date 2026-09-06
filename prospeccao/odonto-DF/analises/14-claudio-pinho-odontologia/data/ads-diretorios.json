@@ -1,0 +1,55 @@
+{
+ "coletadoEm": "2026-08-18",
+ "ads": {
+  "metaAdLibrary": {
+   "anunciosAtivos": 0,
+   "criativos": null,
+   "mesesNoAr": null,
+   "formatos": [],
+   "metodo": "Playwright em facebook.com/ads/library. Busca por frase exata \"claudio_pinho\" (handle do Instagram) devolveu ~550 resultados, mas o topo é dominado por conteúdo não relacionado (ex: deputado estadual cearense também chamado Cláudio Pinho). Nova busca por \"Dr Claudio Pinho\" (entre aspas) devolveu ~10 resultados, todos de propaganda eleitoral 2022 de um Francisco Cláudio Pinto Pinho, deputado estadual do Ceará (PDT) — homônimo, sem relação com o dentista.",
+   "conseguiuLer": true
+  },
+  "leitura": "Nenhum anúncio da clínica odontológica foi identificado — as buscas por nome esbarram em homônimos (um deputado estadual do Ceará com nome quase idêntico) que dominam os resultados. Não é possível afirmar com segurança que não existam anúncios ativos; apenas que não foram encontrados sob os termos testados."
+ },
+ "diretorios": {
+  "doctoralia": null,
+  "doctoraliaNota": null,
+  "doctoraliaOpinioes": null,
+  "facebook": "https://www.facebook.com/claudiopinhoestetica/",
+  "linkedin": null,
+  "youtube": null,
+  "tiktok": null,
+  "outros": [
+   {"nome": "Ident.com.br", "url": "https://www.ident.com.br/dr.claudiopinho", "obs": "CRO-DF 4315, especialidade Dentística, sem nota/avaliações exibidas, sem menção a Ticyane"}
+  ]
+ },
+ "siteConfirmacao": {
+  "existe": null,
+  "url": null,
+  "conclusivo": false,
+  "observacao": "Fora do escopo desta coleta (site já confirmado em presenca.json: drclaudiopinho.com.br, HTTP, sem HTTPS)."
+ },
+ "instagramDecisor": {
+  "handle": "claudio_pinho",
+  "confianca": "alta",
+  "evidencia": "Já confirmado no contexto fornecido; reconfirmado via WebSearch (instagram.com/claudio_pinho/, localizado em Brasília, DF). Ticyane de Oliveira Frota Pinho: nenhum perfil pessoal de Instagram localizado — buscas por \"Ticyane\" + Pinho/Frota Pinho só retornam perfis homônimos não relacionados (ex: Ticiane Pinheiro) e menções dela como coautora de artigos de imprensa (Estado de Minas, Correio Braziliense), não um perfil social."
+ },
+ "fontes": [
+  "https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=BR&q=%22claudio_pinho%22&search_type=keyword_unordered (Playwright, 2026-08-18)",
+  "https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=BR&q=%22Dr%20Claudio%20Pinho%22&search_type=keyword_unordered (Playwright, 2026-08-18)",
+  "https://www.facebook.com/claudiopinhoestetica/ (Playwright — 10 mil seguidores, recomendado por 92% de 38 avaliações, endereço SGAS 614 Sul Vitrium Centro Médico Sala 38 confere com região da presenca.json, telefone (61) 3443-9555, e-mail clpinho@terra.com.br, site integrato.com.br [instituição de ensino do próprio Dr. Cláudio], último post: há 9 horas — página muito ativa)",
+  "https://www.ident.com.br/dr.claudiopinho (WebFetch)",
+  "WebSearch: \"Claudio Pinho\" OR \"Cláudio Pinho\" dentista Brasília doctoralia opinioes",
+  "WebSearch: \"Claudio Pinho\" dentista facebook.com Brasília",
+  "WebSearch: \"Ticyane\" Pinho dentista OR odontologia instagram",
+  "WebSearch: \"Ticyane\" \"Pinho\" OR \"Frota Pinho\" instagram",
+  "WebSearch: drclaudiopinho.com.br doctoralia OR youtube OR linkedin OR tiktok"
+ ],
+ "limitacoes": [
+  "Meta Ad Library: resultados poluídos por homônimo político no Ceará, não foi possível isolar com certeza a ausência total de anúncios",
+  "Doctoralia da clínica não localizado (site oficial nunca menciona Doctoralia)",
+  "LinkedIn, YouTube e TikTok não localizados",
+  "Instagram pessoal de Ticyane de Oliveira Frota Pinho não localizado",
+  "A página do Facebook encontrada (claudiopinhoestetica) está fortemente associada à Integrato Ensino Especializado (instituição de ensino do Dr. Cláudio), não exclusivamente à clínica — registrado como está, sem reinterpretar"
+ ]
+}

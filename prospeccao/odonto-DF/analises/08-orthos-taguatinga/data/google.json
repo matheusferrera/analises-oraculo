@@ -1,0 +1,79 @@
+{
+ "coletadoEm": "2026-08-19",
+ "google": {
+  "perfilEncontrado": true,
+  "nome": "Orthos Odontologia",
+  "categoria": "Clinica odontologica",
+  "categoriaCorreta": true,
+  "nota": 4.5,
+  "avaliacoes": 223,
+  "recenciaUltimaAvaliacao": "3 semanas",
+  "respostasDoProprietario": false,
+  "fichasDuplicadas": [
+   {
+    "nome": "Orthos Odontologia",
+    "nota": 4.8,
+    "avaliacoes": 82,
+    "categoria": "Clinica odontologica",
+    "endereco": "QS 03 Lotes 03/05/07, Ed. Patio Capital, Sala 06 - Taguatinga",
+    "telefone": "(61) 3901-2001",
+    "placeId": "ChIJN56zACMzWpMRo49M7m0JFHI",
+    "observacao": "Ficha separada (place id distinto) com NOME EXATAMENTE IGUAL e MESMO TELEFONE da ficha de Aguas Claras. Ambas vistas por mim na mesma busca do Maps. Sao duas unidades reais, mas sem qualquer diferenciador no nome - o usuario nao consegue distinguir qual e qual no resultado de busca."
+   }
+  ],
+  "fotos": "galeria presente; aba 'Do proprietario' disponivel (ha fotos publicadas pelo proprietario). Contagem exata nao coletada. Foto mais recente: 8 dias atras.",
+  "siteVinculado": "orthosodonto.com.br (+ contate.me)",
+  "buscaMarca": "Maps 'Orthos odontologia Aguas Claras Taguatinga Brasilia' retornou as 2 fichas homonimas. Detalhei a de Aguas Claras (Shopping Estacao XVI, 223 avaliacoes).",
+  "buscaSemMarca": "'ortodontia Aguas Claras Brasilia' - a Orthos NAO aparece no pacote local.",
+  "pacoteLocal": [
+   {
+    "nome": "Dra. Marjore Viana Ortodontia",
+    "nota": 5.0,
+    "avaliacoes": 158,
+    "local": "Ed. e-Business, Av. Pau Brasil 6, Aguas Claras"
+   },
+   {
+    "nome": "Ortoestetica Aguas Claras",
+    "nota": 4.9,
+    "avaliacoes": 57,
+    "local": "R. Ipe Amarelo 08, Aguas Claras"
+   },
+   {
+    "nome": "Adriane Amorim Ortodontista Aguas Claras",
+    "nota": 5.0,
+    "avaliacoes": 17,
+    "local": "DF Plaza Shopping Torre A, R. Copaiba 01 Sl 217"
+   }
+  ]
+ },
+ "concorrentes": [
+  {
+   "nome": "Dra. Marjore Viana Ortodontia",
+   "nota": 5.0,
+   "avaliacoes": 158,
+   "local": "Ed. e-Business, Av. Pau Brasil 6, Aguas Claras"
+  },
+  {
+   "nome": "Ortoestetica Aguas Claras",
+   "nota": 4.9,
+   "avaliacoes": 57,
+   "local": "R. Ipe Amarelo 08, Aguas Claras"
+  },
+  {
+   "nome": "Adriane Amorim Ortodontista Aguas Claras",
+   "nota": 5.0,
+   "avaliacoes": 17,
+   "local": "DF Plaza Shopping Torre A, R. Copaiba 01 Sl 217"
+  }
+ ],
+ "fontes": [
+  "Google Maps (google.com/maps) - leitura direta da ficha via Playwright, hl=pt-BR, sessao deslogada, 2026-08-19",
+  "Google Busca (google.com/search) - pacote local (Resultados locais), hl=pt-BR&gl=BR, sessao deslogada, 2026-08-19"
+ ],
+ "limitacoes": [
+  "Contagem exata de fotos nao coletada: o Google Maps nao exibe o total sem abrir a galeria foto a foto. Registrado apenas se existe ou nao a aba 'Do proprietario'.",
+  "Recencia baseada nas avaliacoes visiveis na ordenacao padrao do Maps (relevancia), nao em ordenacao por data. E o piso da recencia real, nao o valor exato.",
+  "As duas fichas correspondem a enderecos diferentes (Aguas Claras e Taguatinga), entao nao sao duplicata do mesmo ponto - o problema e o nome identico, sem sufixo de unidade.",
+  "Nenhuma das 3 avaliacoes visiveis na ficha de Aguas Claras tinha resposta, incluindo uma negativa detalhada de 1 mes atras. Nao percorri as 223 avaliacoes."
+ ]
+}

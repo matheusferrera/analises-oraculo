@@ -5,8 +5,8 @@
 -- Recorte de CNAE:
 --   (a) 8630504 "Atividade odontologica" -- todos
 --   (b) 8630501/02/03/599 -- SOMENTE com nome_fantasia com termo odontologico
---       (nos vizinhos, so ~1,5% dos ativos tem nome odonto; incluir tudo
---        traria ~6.900 clinicas medicas nao-odonto)
+--       (nos vizinhos, apenas 15 dos 6.909 ativos tem nome odontologico;
+--        incluir os vizinhos inteiros traria ~6.900 clinicas medicas nao-odonto)
 -- =====================================================================
 DECLARE PART DATE DEFAULT DATE '2026-01-11';
 
@@ -27,7 +27,7 @@ odonto AS (
   FROM base
   WHERE cnae_fiscal_principal = '8630504'
      OR REGEXP_CONTAINS(LOWER(COALESCE(nome_fantasia,'')),
-          r'odonto|dent|orto(dont|)|implant|sorriso|periodont|endodont|protese dent|bucal')
+          r'odonto|dental|dentaria|dentario|dentes|ortodont|implantodont|periodont|endodont|bucal|sorriso')
 ),
 -- 3) endereco de contador: quantos cnpj_basico DISTINTOS dividem o mesmo CEP+numero
 --    (calculado sobre TODOS os estabelecimentos ativos do DF, nao so odonto)

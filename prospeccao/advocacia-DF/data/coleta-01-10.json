@@ -1,0 +1,515 @@
+[
+ {
+  "pos": 1,
+  "nome": "Barbosa de Sá Advogados (Barbosa de Sá e Alencastro Advogados Associados)",
+  "cnpj": "07187226000192",
+  "decisor": "Getúlio Humberto Barbosa de Sá",
+  "site": {
+   "url": "https://bsaa.adv.br/",
+   "status": 200,
+   "tempoSegundos": 5.27,
+   "conclusivo": true,
+   "observacao": "Site próprio, ativo e substancial. Estrutura editorial relevante: 'Artigos e publicações', 'E-books Gratuitos' e 'Eventos', além de 10 áreas de atuação. Não tem meta description no HTML da home. Domínio confere com o e-mail do CNPJ (bsaa@bsaa.adv.br)."
+  },
+  "google": {
+   "perfilEncontrado": true,
+   "nota": 4.9,
+   "avaliacoes": 15,
+   "categoria": "Serviços jurídicos",
+   "observacao": "Ficha 'Barbosa de Sá e Alencastro Advogados', SHIS QL 4 Conj. 1 Casa 02 - Lago Sul. Telefone da ficha (61) 3034-0660 bate exatamente com o do CNPJ; casamento confirmado por telefone + endereço."
+  },
+  "instagram": {
+   "handle": "bsaa_advogados",
+   "seguidores": 2703,
+   "posts": 72,
+   "observacao": "Confirmado por link no próprio site. Bio: 'Escritório de Advocacia Cível e Criminal, Implementação de Compliance e Adequação à LGPD'."
+  },
+  "linkedin": {
+   "empresa": "https://br.linkedin.com/company/bsaadv",
+   "decisor": "https://www.linkedin.com/in/getulio-humberto-92402b241/",
+   "observacao": "Ambos localizados via busca. Não abri as páginas para validar conteúdo (LinkedIn bloqueia acesso automatizado)."
+  },
+  "autoridade": {
+   "sinais": [
+    "OAB/DF 12.244-A",
+    "Consta na base DNA da Advocacia (Análise Editorial) — perfil cadastral, sem indicação de premiação nas edições consultadas",
+    "Escritório produz conteúdo técnico próprio: seção de artigos e publicações, e-books gratuitos e eventos",
+    "Consultoria em compliance digital / LGPD (Lei 13.709/18) desde 2018 e em ESG",
+    "Escritório fundado em 2004 (CNPJ) / 2005 (site)"
+   ],
+   "observacao": "Ativo mais forte é a produção editorial própria (e-books e artigos) somada ao posicionamento em compliance/LGPD — nicho técnico que sustenta autoridade sem esbarrar no Provimento 205/2021."
+  },
+  "ads": {
+   "temAnuncio": false,
+   "observacao": "ausência é conformidade com a OAB, não falha. Meta Ad Library, busca '\"Barbosa de Sá\" advogados' (BR, todos os status): ~37 resultados, nenhum do escritório — todos de anunciantes políticos e de mídia cujo texto cita o termo."
+  },
+  "limitacoes": [
+   "Página no Facebook (facebook.com/www.bsaa.adv.br) apareceu em busca mas não foi aberta nem validada",
+   "Ad Library: inspecionei os anunciantes do topo do ranking, não os ~37 resultados um a um"
+  ]
+ },
+ {
+  "pos": 2,
+  "nome": "Marcus Vinicius Furtado Coelho Advocacia",
+  "cnpj": "15478361000115",
+  "decisor": "Marcus Vinícius Furtado Coêlho",
+  "site": {
+   "url": "https://www.furtadocoelho.adv.br/",
+   "status": 200,
+   "tempoSegundos": 1.76,
+   "conclusivo": true,
+   "observacao": "Site próprio ativo. O domínio mvfc.adv.br redireciona para cá. Menciona sede em Brasília e filiais em São Paulo e Teresina. Não encontrei links de redes sociais no HTML da home; /contato/ retorna 404."
+  },
+  "google": {
+   "perfilEncontrado": true,
+   "nota": 4.7,
+   "avaliacoes": 21,
+   "categoria": "Serviços jurídicos",
+   "observacao": "Ficha 'Furtado Coêlho', SHIS QL 14 - Lago Sul. Telefone (61) 3226-7186 idêntico ao do CNPJ; casamento confirmado por telefone + endereço."
+  },
+  "instagram": {
+   "handle": "marcusviniciusfurtadocoelho",
+   "seguidores": 4740,
+   "posts": 185,
+   "observacao": "Perfil PESSOAL do decisor, não do escritório. Bio confirma identidade: 'Advogado / Presidente Nacional da OAB (2013–2016) / Doutor em Direito pela Universidade de Salamanca (Espanha)'. Não localizei perfil do escritório."
+  },
+  "linkedin": {
+   "empresa": "https://br.linkedin.com/company/marcus-vinicius-furtado-coêlho-advocacia",
+   "decisor": null,
+   "observacao": "Página de empresa localizada via busca. Perfil pessoal do decisor no LinkedIn não localizado."
+  },
+  "autoridade": {
+   "sinais": [
+    "Ex-Presidente Nacional do Conselho Federal da OAB — a bio do próprio Instagram declara 2013–2016; matérias de imprensa citam 2013–2015 (divergência não resolvida)",
+    "Secretário-Geral do Conselho Federal da OAB (2010–2012)",
+    "Procurador-Geral do Estado do Piauí (2001–2002)",
+    "Doutor em Direito Processual pela Universidade de Salamanca (Espanha)",
+    "Especialista em Direito Processual Civil pela UFSC; graduado pela UFPI",
+    "Mais de 30 anos de carreira; escritório com filiais em São Paulo e Teresina",
+    "Perfil no catálogo da Migalhas",
+    "Atuação declarada em Tribunais Superiores, CNJ, TRFs e Tribunais de Contas"
+   ],
+   "observacao": "É o maior ativo de autoridade do lote e o mais subexplorado digitalmente: a reputação está no perfil pessoal do sócio (4.740 seguidores), não na marca do escritório, que não tem Instagram nem página de conteúdo."
+  },
+  "ads": {
+   "temAnuncio": false,
+   "observacao": "ausência é conformidade com a OAB, não falha. Meta Ad Library, busca '\"Furtado Coêlho\"' (BR, todos os status): ~180 resultados, nenhum do escritório — anunciantes do topo são homônimos ('Cláudio Furtado') e perfis políticos."
+  },
+  "limitacoes": [
+   "Divergência de datas do mandato na presidência da OAB entre a bio do Instagram (2013–2016) e a imprensa (2013–2015) — não resolvida",
+   "Ad Library: ~180 resultados, inspecionei apenas os anunciantes do topo do ranking",
+   "Capital social do CNPJ é R$ 1.000.000, o maior do lote — dado de contexto, não verificado além do registro"
+  ]
+ },
+ {
+  "pos": 3,
+  "nome": "Oliveira Souza, de Castro Advogados",
+  "cnpj": "02940165000179",
+  "decisor": "João Maria de Oliveira Souza",
+  "site": {
+   "url": "https://oliveirasouza.adv.br/",
+   "status": 200,
+   "tempoSegundos": 1.76,
+   "conclusivo": true,
+   "observacao": "O site mais bem estruturado do lote em termos de SEO: tem meta description descritiva e seções 'Na mídia', 'Entrevistas', 'Eventos' e 'Notícias e Artigos'. Posicionamento declarado em Direito Regulatório, Administrativo Sancionador e Público, com destaque para agronegócio. Domínio confere com o e-mail do CNPJ."
+  },
+  "google": {
+   "perfilEncontrado": true,
+   "nota": 4.8,
+   "avaliacoes": 5,
+   "categoria": "Advogado",
+   "observacao": "Ficha 'Oliveira Souza', SHIS QL 10 Casa 15 - Lago Sul, endereço idêntico ao do CNPJ, e site oliveirasouza.adv.br na ficha. ATENÇÃO: o telefone da ficha, (61) 3323-4719, difere do telefone do CNPJ, (61) 3045-4505 — casamento sustentado por endereço + site, não por telefone. A ficha tem post do proprietário, ou seja, está sob gestão."
+  },
+  "instagram": {
+   "handle": "oliveirasouzaadvogados",
+   "seguidores": null,
+   "posts": null,
+   "observacao": "Handle confirmado por link no próprio site do escritório. Contagem de seguidores não obtida: a API interna do Instagram devolveu HTTP 400 em três tentativas espaçadas."
+  },
+  "linkedin": {
+   "empresa": "https://www.linkedin.com/company/oliveira-souza-advogados/",
+   "decisor": null,
+   "observacao": "Página de empresa confirmada por link no próprio site. Perfil pessoal do decisor não localizado."
+  },
+  "autoridade": {
+   "sinais": [
+    "Escritório fundado em 1998 (confere com a data de início de atividade no CNPJ: 18/11/1998)",
+    "Sócio fundador João Maria de Oliveira Souza com mais de 30 anos de experiência declarados",
+    "Posicionamento de nicho em agronegócio, com participação declarada na defesa e no desenvolvimento do setor",
+    "Site mantém seções ativas de 'Na mídia', 'Entrevistas' e 'Eventos' — indício de assessoria de imprensa em funcionamento"
+   ],
+   "observacao": "Autoridade já está sendo capturada: é o único do lote com seção de imprensa organizada no site. O gap é de volume social, não de substância."
+  },
+  "ads": {
+   "temAnuncio": false,
+   "observacao": "ausência é conformidade com a OAB, não falha. Meta Ad Library, busca '\"Oliveira Souza\" advogados' (BR, todos os status): ~190 resultados, nenhum do escritório — anunciantes do topo são políticos, veículos de mídia e o IAB."
+  },
+  "limitacoes": [
+   "Seguidores do Instagram não coletados (API 400 persistente)",
+   "Divergência entre o telefone do Google e o do CNPJ não esclarecida",
+   "Ad Library: ~190 resultados, inspecionei apenas os anunciantes do topo do ranking"
+  ]
+ },
+ {
+  "pos": 4,
+  "nome": "Yamakawa Advogados e Consultores Associados S/S",
+  "cnpj": "05930476000145",
+  "decisor": "Moacir Akira Yamakawa",
+  "site": {
+   "url": "https://novo.yamakawa.adv.br/",
+   "status": 200,
+   "tempoSegundos": 0.26,
+   "conclusivo": true,
+   "observacao": "MIGRAÇÃO ABANDONADA NO MEIO. O domínio yamakawa.adv.br redireciona para novo.yamakawa.adv.br, cujo <title> ainda é o padrão de instalação do WordPress: 'Novo Yamakawa – My WordPress Blog'. Os contadores da home nunca foram preenchidos e exibem '+0 Anos de Experiência' e '+0 Processos'. Caminhos do site antigo, como yamakawa.adv.br/equipe/, retornam HTTP 500 com 'Erro › WordPress — Há um erro crítico no seu site'. Nenhum link de rede social no HTML."
+  },
+  "google": {
+   "perfilEncontrado": true,
+   "nota": 5.0,
+   "avaliacoes": 1,
+   "categoria": "Advogado",
+   "observacao": "Ficha 'Yamakawa Advocacia e Consultoria', SCN Q 1 - Asa Norte. Telefone (61) 3328-0001 idêntico ao do CNPJ. A ficha NÃO ESTÁ REIVINDICADA: o Google exibe o botão 'Reivindicar esta empresa' e pede 'Adicionar horário' — ou seja, ninguém do escritório administra o perfil."
+  },
+  "instagram": {
+   "handle": null,
+   "seguidores": null,
+   "posts": null,
+   "observacao": "Existe a conta @yamakawa.adv, com nome de exibição 'YAMAKAWA ADVOCACIA', porém com 0 seguidores e 0 publicações. Não consegui confirmar que pertence a este escritório — conta vazia não é prova de titularidade. Registrado como não localizado."
+  },
+  "linkedin": {
+   "empresa": null,
+   "decisor": null,
+   "observacao": "Não localizei página de empresa nem perfil do decisor."
+  },
+  "autoridade": {
+   "sinais": [
+    "Moacir Akira Yamakawa — OAB/DF 1.937-A",
+    "Graduado em Direito pela Universidade Católica Dom Bosco (UCDB)",
+    "Especialista em Processo Civil pelo UniCEUB e em Direito Material e Processual do Trabalho pelo IESB/DF",
+    "Sócio administrador do escritório",
+    "Cerca de 2.905 processos vinculados ao nome no Escavador, sendo ~2.544 no Distrito Federal",
+    "Escritório fundado em 2003"
+   ],
+   "observacao": "Volume processual expressivo e credenciais acadêmicas sólidas convivendo com a pior infraestrutura digital do lote: site em migração quebrada e ficha do Google não reivindicada. É o caso mais claro de autoridade não capturada."
+  },
+  "ads": {
+   "temAnuncio": false,
+   "observacao": "ausência é conformidade com a OAB, não falha. Meta Ad Library, busca '\"Yamakawa\" advocacia' (BR, todos os status): 'Nenhum anúncio corresponde aos seus critérios de pesquisa'."
+  },
+  "limitacoes": [
+   "Titularidade da conta @yamakawa.adv não confirmada",
+   "Não localizei LinkedIn de empresa nem do decisor",
+   "Existe outro CNPJ correlato na base (34.098.374/0001-03, Ana Paula Porto Yamakawa - Sociedade Individual de Advocacia, mesmo edifício) que não foi objeto desta coleta"
+  ]
+ },
+ {
+  "pos": 5,
+  "nome": "Riedel Resende e Advogados Associados",
+  "cnpj": "03635901000148",
+  "decisor": "Ulisses Riedel de Resende",
+  "site": {
+   "url": "https://riedel.com.br/",
+   "status": 200,
+   "tempoSegundos": 2.25,
+   "conclusivo": true,
+   "observacao": "Site próprio ativo, operando como marca guarda-chuva 'Advocacia Riedel', com abas separadas para 'Riedel Resende' e 'Riedel Azevedo' — as duas bancas dividem o mesmo endereço no Liberty Mall. O site legado www2.riedel.com.br continua no ar em paralelo, com a biografia do fundador. Onze áreas de atuação e blog próprio."
+  },
+  "google": {
+   "perfilEncontrado": true,
+   "nota": 4.0,
+   "avaliacoes": 153,
+   "categoria": "Serviços jurídicos",
+   "observacao": "Ficha 'Advocacia Riedel', Liberty Mall - SCN Q2 Bl D, Torre A, 13º andar, endereço idêntico ao do CNPJ. É de longe o maior volume de avaliações do lote (153) e a MENOR nota (4,0). As avaliações em destaque apontam falha de comunicação, não de técnica: 'Após a entrega dos documentos, o tratamento se torna desconfortante' e 'Se eu não ligar, ninguém me manda mensagem ou e-mail'."
+  },
+  "instagram": {
+   "handle": "advocacia.riedel",
+   "seguidores": 4429,
+   "posts": 1180,
+   "observacao": "Confirmado por link no próprio site. O perfil mais ativo do lote: 1.180 publicações. Bio: '+60 anos de excelência jurídica / Atuação em + de 8 áreas do Direito'. Usa linktr.ee/AdvocaciaRiedel na bio."
+  },
+  "linkedin": {
+   "empresa": "https://www.linkedin.com/company/advocacia-riedel/",
+   "decisor": null,
+   "observacao": "Confirmado por link no próprio site. Existe também a página br.linkedin.com/company/riedel-resende-e-advogados-associados, localizada via busca — possível duplicidade de páginas de empresa. Perfil pessoal do decisor não localizado. Facebook: facebook.com/riedeloficial."
+  },
+  "autoridade": {
+   "sinais": [
+    "Ulisses Riedel de Resende — advogado e ex-Senador da República (2003)",
+    "Fundador do DIAP — Departamento Intersindical de Assessoria Parlamentar (1983)",
+    "Cidadão Honorário de Brasília (2002)",
+    "Professor universitário de Direito do Trabalho desde 1967 (Universidade Gama Filho, RJ) e depois no CEUB, em Brasília",
+    "Autor de livros publicados, incluindo obra sobre Ecologia Espiritual lançada em 2018",
+    "Verbete próprio na Wikipédia em português",
+    "Medalha de Comendador da Ordem do Mérito Judiciário do Trabalho (TST) e Ordem do Mérito do Congresso Nacional",
+    "Paraninfo e patrono de turmas de formandos; turma de 1977 leva seu nome",
+    "Escritório fundado em 1959 no Rio de Janeiro e transferido para Brasília em 1971, acompanhando o TST",
+    "Responsável declarado pela criação de 60 entidades sindicais e sete confederações de trabalhadores"
+   ],
+   "observacao": "Maior densidade histórica do lote. O paradoxo aqui é que o escritório é o único que já investe em marketing digital (Instagram com 1.180 posts, anúncio ativo) e ao mesmo tempo tem a pior nota no Google — o gargalo é reputação e atendimento, não visibilidade."
+  },
+  "ads": {
+   "temAnuncio": true,
+   "observacao": "ausência é conformidade com a OAB, não falha — mas aqui HÁ anúncio. Único do lote a anunciar. Meta Ad Library: anúncio ATIVO do anunciante 'Riedel Advocacia', veiculação iniciada em 23/06/2026, sobre Reforma da Previdência e direito previdenciário, apresentando o advogado Dr. Pedro Akil. A busca por 'Advocacia Riedel' retornou ~16 resultados no total."
+  },
+  "limitacoes": [
+   "Possível duplicidade de páginas de empresa no LinkedIn não confirmada",
+   "Perfil pessoal do decisor no LinkedIn não localizado",
+   "Nota 4,0 e as citações de avaliações vêm do resumo exibido pelo Google; não li as 153 avaliações integralmente",
+   "O CNPJ irmão 07.888.763/0001-60 (Riedel, Azevedo e Advogados Associados) divide o mesmo endereço e não foi objeto desta coleta"
+  ]
+ },
+ {
+  "pos": 6,
+  "nome": "Advocacia e Consultoria (razão social: Furtado e Jaime Advocacia e Consultoria S/S)",
+  "cnpj": "06833456000119",
+  "decisor": "Eric Furtado Ferreira Borges",
+  "site": {
+   "url": "https://www.furtadoejaime.com.br/",
+   "status": 200,
+   "tempoSegundos": 1.29,
+   "conclusivo": true,
+   "observacao": "Site próprio ativo, porém enxuto: quatro itens de menu (Início, Escritório, Áreas de Atuação, Contato) e nenhuma seção de conteúdo ou publicações. Nichos declarados incomuns e específicos: franquias, combustíveis e negócios imobiliários. Nenhum link de rede social no HTML; /contato/ retorna 404. O nome fantasia no CNPJ é 'ADVOCACIA E CONSULTORIA', mas a marca usada no mercado é 'Furtado e Jaime Advogados'."
+  },
+  "google": {
+   "perfilEncontrado": true,
+   "nota": 5.0,
+   "avaliacoes": 4,
+   "categoria": "Advogado",
+   "observacao": "Ficha 'Furtado e Jaime Advocacia', SHIS QI 25 Casa 12 - Lago Sul, endereço idêntico ao do CNPJ. Telefone da ficha (61) 3322-0330 difere do do CNPJ, (61) 3234-5995, mas endereço e site na ficha confirmam o casamento. A ficha tem fotos do proprietário, ou seja, houve gestão em algum momento; as avaliações mais recentes são de 3 anos atrás."
+  },
+  "instagram": {
+   "handle": null,
+   "seguidores": null,
+   "posts": null,
+   "observacao": "Não localizei. Testei @furtadoejaime e @furtadoejaimeadvogados — nenhum usuário retornado pela API."
+  },
+  "linkedin": {
+   "empresa": null,
+   "decisor": null,
+   "observacao": "Não localizei página de empresa nem perfil do decisor."
+  },
+  "autoridade": {
+   "sinais": [
+    "Eric Furtado Ferreira Borges — graduado em Direito pelo Centro Universitário de Brasília (2002)",
+    "Especialista em Direito Público pelo Centro Universitário do Distrito Federal (2004)",
+    "Professor universitário desde 2002",
+    "Advogado inscrito na OAB/DF desde 2003",
+    "Cerca de 641 processos vinculados ao nome, majoritariamente no TJDFT e no TRF1",
+    "Escritório com atuação declarada desde 2001, com foco em Direito Empresarial",
+    "Perfil de publicações no Jusbrasil (furtadoejaime2.jusbrasil.com.br)",
+    "Atua como diretor e consultor jurídico de empresas privadas"
+   ],
+   "observacao": "A docência desde 2002 e os nichos verticais (franquias, combustíveis) são ângulos de conteúdo técnico prontos e não explorados — o site não tem uma linha de conteúdo publicada."
+  },
+  "ads": {
+   "temAnuncio": false,
+   "observacao": "ausência é conformidade com a OAB, não falha. Meta Ad Library, busca '\"Furtado e Jaime\"' (BR, todos os status): ~7 resultados, nenhum do escritório — todos de anunciantes políticos e de mídia."
+  },
+  "limitacoes": [
+   "Nenhuma rede social localizada",
+   "Divergência entre o telefone do Google e o do CNPJ não esclarecida",
+   "O endereço no CNPJ é Casa 12 e algumas fontes externas citam Casa 13, no mesmo conjunto; a ficha do Google traz Casa 12"
+  ]
+ },
+ {
+  "pos": 7,
+  "nome": "Vieira e Serra Advogados Associados",
+  "cnpj": "13224921000180",
+  "decisor": "Eduardo Serra Rossigneux Vieira",
+  "site": {
+   "url": "https://vieiraeserra.com.br/",
+   "status": 200,
+   "tempoSegundos": 2.56,
+   "conclusivo": true,
+   "observacao": "Site próprio ativo e o mais completo do lote junto com o Oliveira Souza: tem meta description, posicionamento claro ('Direito para Negócios'), seção 'Prêmios e Reconhecimentos', além de Notícias, Eventos, Carreiras e uma área de colaborador. Domínio confere com o e-mail do CNPJ."
+  },
+  "google": {
+   "perfilEncontrado": true,
+   "nota": 5.0,
+   "avaliacoes": 43,
+   "categoria": "Advogado",
+   "observacao": "Ficha 'Vieira e Serra Advogados', SHIS QL 2 Casa 2 - Lago Sul. Endereço e telefone (61) 3963-2224 idênticos aos do CNPJ. É a melhor combinação nota/volume do lote: 5,0 com 43 avaliações. Perfil claramente sob gestão ativa: há post do proprietário datado de 16/07/2026 ('16 anos de uma trajetória incrível!')."
+  },
+  "instagram": {
+   "handle": "vieiraeserra",
+   "seguidores": null,
+   "posts": null,
+   "observacao": "Handle confirmado por link no próprio site do escritório. Contagem de seguidores não obtida: a API interna do Instagram devolveu HTTP 400 em três tentativas espaçadas."
+  },
+  "linkedin": {
+   "empresa": "https://www.linkedin.com/company/vieiraeserraadvogados/",
+   "decisor": "https://br.linkedin.com/in/eduardo-serra-rossigneux-vieira",
+   "observacao": "Página de empresa confirmada por link no próprio site; perfil do decisor localizado via busca."
+  },
+  "autoridade": {
+   "sinais": [
+    "Seção 'Prêmios e Reconhecimentos' mantida no próprio site",
+    "Matéria no Jornal de Brasília (coluna Analice Nicolau) sobre os irmãos Eduardo e Leonardo Serra Rossigneux Vieira, tratando-os como referência entre empresários do DF",
+    "Eduardo Serra Rossigneux Vieira — sócio-administrador desde a fundação, em 26/10/2010; formado pelo UniCEUB",
+    "Especialização declarada em Direito Empresarial e Imobiliário",
+    "Escritório completou 16 anos em julho de 2026"
+   ],
+   "observacao": "É o escritório com a presença digital mais equilibrada do lote — site forte, Google impecável e sob gestão, LinkedIn de empresa e do decisor, Instagram ativo. O ângulo de abordagem aqui não é corrigir falha, é escalar o que já funciona."
+  },
+  "ads": {
+   "temAnuncio": false,
+   "observacao": "ausência é conformidade com a OAB, não falha. Meta Ad Library, busca '\"Vieira e Serra\"' (BR, todos os status): ~1.700 resultados, nenhum do escritório — o termo é genérico e capturou governos estaduais, políticos e veículos de imprensa."
+  },
+  "limitacoes": [
+   "Seguidores do Instagram não coletados (API 400 persistente)",
+   "Os prêmios citados no site não foram abertos e nomeados individualmente",
+   "Ad Library: ~1.700 resultados por termo genérico, inspecionei apenas os anunciantes do topo do ranking"
+  ]
+ },
+ {
+  "pos": 8,
+  "nome": "Claudio Dantas Advogados Associados S/S",
+  "cnpj": "10268129000139",
+  "decisor": "Cláudio Dantas de Araújo",
+  "site": {
+   "url": null,
+   "status": null,
+   "conclusivo": false,
+   "observacao": "NÃO LOCALIZEI site — o que é diferente de não ter. Testei claudiodantas.adv.br, claudiodantasadvogados.com.br e cdantas.adv.br: os três não resolvem em DNS (NXDOMAIN). O e-mail registrado no CNPJ é isacparaujo@gmail.com, um endereço genérico, sem domínio próprio associado — indício, não prova, de ausência de site."
+  },
+  "google": {
+   "perfilEncontrado": false,
+   "nota": null,
+   "avaliacoes": null,
+   "categoria": null,
+   "observacao": "NÃO LOCALIZEI ficha. Busquei por nome + endereço (SHN Q2 Bl F, Asa Norte) e, separadamente, pelo telefone do CNPJ. A busca por nome trouxe apenas homônimos em outros endereços (Sousa/Dantas/Fontinele no SCS, Dantas Advocacia na SHIGS, Claudio Santos Advogados no Lago Sul). A busca pelo telefone (61) 3032-8797 retornou a empresa 'MiU Marcas', de registro de marcas, no MESMO edifício (SHN Q. 2 Bl F) — o número consta hoje atribuído a outra empresa. Não houve CAPTCHA."
+  },
+  "instagram": {
+   "handle": null,
+   "seguidores": null,
+   "posts": null,
+   "observacao": "Não localizei. Testei @claudiodantasadvogados e @dantasadvogadosbsb — HTTP 404 nos dois."
+  },
+  "linkedin": {
+   "empresa": null,
+   "decisor": null,
+   "observacao": "Não localizei página de empresa nem perfil do decisor."
+  },
+  "autoridade": {
+   "sinais": [],
+   "observacao": "Nenhum sinal de autoridade localizado. RISCO DE HOMÔNIMO ALTO E DELIBERADAMENTE NÃO CONTORNADO: existe um jornalista brasileiro conhecido chamado Claudio Dantas, com canal no YouTube e presença ampla, e há diversos escritórios 'Dantas' em Brasília e em outros estados. Nada dessas fontes foi atribuído a este escritório. O capital social registrado é de R$ 1.705.000 — o segundo maior do lote — o que sugere porte relevante apesar da invisibilidade digital, mas é dado cadastral, não sinal de autoridade."
+  },
+  "ads": {
+   "temAnuncio": false,
+   "observacao": "ausência é conformidade com a OAB, não falha. Meta Ad Library, busca '\"Claudio Dantas\" advogados' (BR, todos os status): ~9 resultados, nenhum do escritório."
+  },
+  "limitacoes": [
+   "Site: não localizado, NÃO confirmado como inexistente",
+   "Google: ficha não localizada, NÃO confirmada como inexistente",
+   "Nenhuma rede social localizada",
+   "Nenhum sinal de autoridade localizado — a checagem foi limitada de propósito pelo risco de homônimo",
+   "Este é o único dos dez sem qualquer ativo digital confirmado; recomendo validação por telefone antes de qualquer abordagem"
+  ]
+ },
+ {
+  "pos": 9,
+  "nome": "Loureiro & Vilanova Advogados Associados",
+  "cnpj": "08957588000188",
+  "decisor": "Guilherme Loureiro Perocco",
+  "site": {
+   "url": "http://loureirovilanova.com.br/",
+   "status": 200,
+   "tempoSegundos": 0.19,
+   "conclusivo": true,
+   "observacao": "SITE FORA DO AR POR SUSPENSÃO DE HOSPEDAGEM. O domínio existe e responde, mas toda requisição — a home e também caminhos internos indexados, como /sobre-nos/ — é redirecionada para /cgi-sys/suspendedpage.cgi, com a mensagem 'Este site não está acessível no momento. Webmaster, por favor, entre em contato com o provedor de hospedagem de sites'. O HTTP 200 é da página de suspensão do cPanel, não de conteúdo. O domínio confere com o e-mail do CNPJ (contato@loureirovilanova.com.br), então o site existiu e caiu."
+  },
+  "google": {
+   "perfilEncontrado": true,
+   "nota": null,
+   "avaliacoes": 0,
+   "categoria": "Advogado",
+   "observacao": "DUAS FICHAS DUPLICADAS, ambas sem nenhuma avaliação. (a) 'Loureiro & Vilanova Advogados Associados' — SHIS QI 17 Conjunto 02 Casa 03, que confere com o CNPJ, telefone (61) 3051-5151, categoria 'Advogado', com agendamento on-line ativado. (b) 'Loureiro & Vila Nova Advogados' — SHIS QI 5 Conj 02 Casa 03, telefone (61) 98139-9300, categoria 'Advogado administrativo'. As duas fichas apontam para o mesmo domínio suspenso. Nenhuma das duas bate com o telefone do CNPJ, (61) 3322-0410."
+  },
+  "instagram": {
+   "handle": null,
+   "seguidores": null,
+   "posts": null,
+   "observacao": "Não localizei. Testei @loureirovilanova — nenhum usuário retornado pela API."
+  },
+  "linkedin": {
+   "empresa": null,
+   "decisor": null,
+   "observacao": "Não localizei página de empresa nem perfil do decisor."
+  },
+  "autoridade": {
+   "sinais": [
+    "Guilherme Loureiro Perocco — coautor, com Emmanuel Vilanova, do livro 'Regulação dos Investimentos de Fundos de Pensão – Comentários à Resolução CMN 3.792/2009' (São Paulo: Ed. Revista dos Tribunais, 2014)",
+    "Autor com página própria de artigos no Consultor Jurídico (ConJur)",
+    "Graduado em Direito pela UNIP-DF (2004)",
+    "Gerente de Consultoria de Aquisições do Projeto VIGISUS II / Fundação Nacional de Saúde",
+    "Cerca de 2.043 processos vinculados ao nome, sendo ~1.216 no DF e ~646 em Minas Gerais",
+    "Sócio fundador do escritório, constituído em 2007"
+   ],
+   "observacao": "O contraste mais gritante do lote: o sócio publicou livro por editora de referência e assina artigos no ConJur — dois dos ativos de autoridade mais valiosos que um advogado pode ter — enquanto o site do escritório está suspenso por falta de pagamento de hospedagem e as duas fichas do Google somam zero avaliações. Autoridade existe e está integralmente não capturada."
+  },
+  "ads": {
+   "temAnuncio": false,
+   "observacao": "ausência é conformidade com a OAB, não falha. Meta Ad Library, busca '\"Loureiro\" \"Vilanova\"' (BR, todos os status): 'Nenhum anúncio corresponde aos seus critérios de pesquisa'."
+  },
+  "limitacoes": [
+   "Não consegui ver o conteúdo do site, apenas confirmar a suspensão",
+   "Não confirmei qual das duas fichas do Google é a oficial nem se a segunda é um endereço antigo",
+   "Nenhuma rede social localizada",
+   "Não verifiquei se o livro teve edições posteriores a 2014"
+  ]
+ },
+ {
+  "pos": 10,
+  "nome": "Eliana Calmon Advocacia e Consultoria",
+  "cnpj": "24504341000162",
+  "decisor": "Eliana Calmon Alves",
+  "site": {
+   "url": "https://elianacalmon.adv.br/",
+   "status": 200,
+   "tempoSegundos": 0.25,
+   "conclusivo": true,
+   "observacao": "Site próprio ativo e o mais rápido do lote, mas também o mais enxuto: quatro itens de menu (O Escritório, Atuação, Equipe, Contato), sem meta description e sem qualquer seção de conteúdo, artigos ou imprensa. O texto informa início das atividades em 2015 (o CNPJ registra 15/03/2016) e descreve atuação especializada na formatação de teses. O caminho /contato/ retorna 404."
+  },
+  "google": {
+   "perfilEncontrado": true,
+   "nota": 5.0,
+   "avaliacoes": 1,
+   "categoria": "Escritório de advocacia",
+   "observacao": "Ficha 'ELIANA CALMON ADVOCACIA E CONSULTORIA', Edifício Business Point, SAUS Q3 Bl C, salas 1203 a 1208 — endereço idêntico ao do CNPJ. Telefone da ficha (61) 3963-1262 difere do do CNPJ, (61) 8118-6333, mas endereço e site na ficha confirmam o casamento."
+  },
+  "instagram": {
+   "handle": null,
+   "seguidores": null,
+   "posts": null,
+   "observacao": "Não localizei perfil do escritório (@elianacalmonadvocacia retorna 404). Existe a conta @elianacalmon, com nome de exibição 'Eliana Calmon', 525 seguidores e ZERO publicações, sem bio — não consegui confirmar que pertence à ex-ministra e não a uma homônima. Deixado como não localizado de propósito."
+  },
+  "linkedin": {
+   "empresa": "https://www.linkedin.com/company/eliana-calmon-advocacia-e-consultoria/",
+   "decisor": null,
+   "observacao": "Confirmado por link no próprio site. O site também referencia linkedin.com/company/elianacalmon — possível duplicidade de páginas de empresa. Perfil pessoal da decisora não localizado."
+  },
+  "autoridade": {
+   "sinais": [
+    "Eliana Calmon Alves — primeira mulher a ocupar o cargo de ministra do Superior Tribunal de Justiça",
+    "Corregedora Nacional de Justiça no CNJ entre 2010 e 2012",
+    "Carreira de 34 anos na magistratura; juíza federal e desembargadora federal por cerca de dez anos cada",
+    "Aposentada do STJ em 2013",
+    "Autora do livro 'Eliana Calmon no CNJ', sobre sua atuação como corregedora nacional",
+    "Autora de 'REsp – Receitas Especiais', livro de receitas já na 11ª edição",
+    "Notoriedade nacional pela expressão 'bandidos de toga' ao tratar de juízes corruptos",
+    "Atuação atual como advogada e palestrante, com entrevistas em veículos nacionais e programa do próprio STJ (2024)"
+   ],
+   "observacao": "Autoridade institucional máxima do lote, e a mais desproporcional em relação à presença digital: uma ex-ministra do STJ e ex-corregedora nacional com 1 avaliação no Google, site de quatro páginas sem conteúdo e nenhum canal editorial. Todo o capital reputacional está fora do controle do escritório, disperso em matérias de terceiros."
+  },
+  "ads": {
+   "temAnuncio": false,
+   "observacao": "ausência é conformidade com a OAB, não falha. Meta Ad Library, busca '\"Eliana Calmon\"' (BR, todos os status): ~64 resultados, nenhum do escritório — anunciantes do topo são cursos, blogs políticos e uma homônima ('Eliana Maria Landim')."
+  },
+  "limitacoes": [
+   "Titularidade da conta @elianacalmon não confirmada — não atribuída de propósito",
+   "Possível duplicidade de páginas de empresa no LinkedIn não confirmada",
+   "Perfil pessoal da decisora no LinkedIn não localizado",
+   "Divergência entre o telefone do Google e o do CNPJ não esclarecida",
+   "Ad Library: ~64 resultados, inspecionei apenas os anunciantes do topo do ranking"
+  ]
+ }
+]

@@ -1,0 +1,305 @@
+{
+ "coletadoEm": "2026-08-19",
+ "cnpj": "12.067.091/0001-61",
+ "slug": "implantomed",
+ "clinica": {
+  "nome": "Implantomed",
+  "razaoSocial": "Smg Clinica Odontologica Ltda",
+  "cnaeDescricao": "Atividade odontológica",
+  "fundacao": "2010-06-09",
+  "idadeAnos": 16,
+  "porte": "EPP",
+  "regiao": "Asa Sul",
+  "endereco": "QUADRA SGAS 614, SN, CONJ  C                   SALA  53 55 TERREO, ASA SUL, CEP 70200740, Brasilia/DF",
+  "unidades": 1
+ },
+ "decisor": {
+  "nome": "Sheila Mendes Batista",
+  "qualificacao": "Sócio-Administrador",
+  "decisaoCompartilhada": false,
+  "telefone": "(61) 3202-3656",
+  "telefoneTipo": "fixo",
+  "whatsapp": "+556132023656",
+  "email": "contato@implantomed.com.br",
+  "instagramPessoal": "implantomed",
+  "instagramPessoalConfianca": "alta",
+  "telefone2": "",
+  "emailEhDeContador": false,
+  "telefoneCompartilhado": false
+ },
+ "tecnologia": {
+  "site": "https://implantomed.com.br/",
+  "httpStatus": 200,
+  "cms": null,
+  "https": true,
+  "ttfbSegundos": 0.838,
+  "tempoTotalSegundos": null,
+  "tamanhoBytes": 7649,
+  "viewportMobile": true,
+  "h1": 0,
+  "metaDescription": "Clínica Implantomed em Brasília-DF, especializada em implante dentário e reabilitação oral. +25 anos, +3.000 cirurgias, Dra. Sheila Mendes. SGAS 613/614 Asa Sul. Prótese dentária, All-on-4, estética d",
+  "openGraph": true,
+  "jsonLdLocalBusiness": false,
+  "sitemap": "https://implantomed.com.br/sitemap.xml",
+  "paginasReais": [
+   "https://implantomed.com.br/",
+   "https://implantomed.com.br/servicos",
+   "https://implantomed.com.br/especialidades",
+   "https://implantomed.com.br/tecnologias",
+   "https://implantomed.com.br/depoimentos",
+   "https://implantomed.com.br/blog",
+   "https://implantomed.com.br/blog/dente-escurecido",
+   "https://implantomed.com.br/blog/saude-bucal-dos-idosos",
+   "https://implantomed.com.br/blog/implante-em-idosos",
+   "https://implantomed.com.br/blog/implante-dentario-doi",
+   "https://implantomed.com.br/blog/implante-sem-corte",
+   "https://implantomed.com.br/blog/quanto-tempo-dura-implante-dentario",
+   "https://implantomed.com.br/blog/implante-dentario-cuidados",
+   "https://implantomed.com.br/blog/cuidados-apos-enxerto-osseo",
+   "https://implantomed.com.br/blog/sorriso-gengival",
+   "https://implantomed.com.br/blog/enxerto-osseo-para-implante-dentario",
+   "https://implantomed.com.br/blog/implante-dentario-pode-comer-normal",
+   "https://implantomed.com.br/blog/diferenca-protese-e-implante",
+   "https://implantomed.com.br/blog/restauracao-dente-quebrado",
+   "https://implantomed.com.br/blog/dentes-de-porcelana",
+   "https://implantomed.com.br/blog/cuidados-com-a-protese-dentaria",
+   "https://implantomed.com.br/blog/tipos-de-implantes-dentarios",
+   "https://implantomed.com.br/blog/custo-implante-dentario-brasilia"
+  ],
+  "residuoCMS": [],
+  "formulario": false,
+  "whatsappNoSite": true,
+  "agendamentoOnline": true,
+  "avisoCookies": false,
+  "dominiosDuplicados": [
+   "www.implantomed.com.br FALHA handshake TLS (alerta 80); apex responde 200"
+  ],
+  "propensaoBot": {
+   "nota": 25,
+   "sinais": [
+    "WhatsApp já é canal declarado — o volume existe, falta automatizar"
+   ]
+  },
+  "urlFinal": "https://implantomed.com.br/",
+  "titulo": "Clinica de Implante Dentário",
+  "pixelMeta": true,
+  "pixelGoogleAds": false,
+  "gtm": true,
+  "ga4": false
+ },
+ "instagram": {
+  "handle": "implantomed",
+  "uid": null,
+  "seguidores": 3119,
+  "seguindo": null,
+  "publicacoesTotal": 1348,
+  "amostraColetada": 131,
+  "verificado": null,
+  "businessContactMethod": null,
+  "ctaAtivado": null,
+  "bio": null,
+  "linkBio": null,
+  "destaques": [],
+  "primeiroPost": null,
+  "ultimoPost": null,
+  "hiatoDias": 1,
+  "cadenciaMensal": {},
+  "faseAtual": {
+   "posts": 54,
+   "engajamentoPct": 0.85,
+   "mixFormatos": {
+    "reel": 129,
+    "imagem": 2
+   },
+   "medianaPlaysReel": 1121
+  },
+  "tendenciaEngajamento": [],
+  "ctaPctFaseAtual": 2.3,
+  "topHashtags": [],
+  "topMencoes": [],
+  "erAmostra": 0.75,
+  "er90d": 0.85,
+  "postsUlt90d": 54
+ },
+ "ads": {
+  "metaAdLibrary": {
+   "anunciosAtivos": 3,
+   "criativos": 3,
+   "mesesNoAr": 0.0,
+   "formatos": [
+    "vídeo"
+   ],
+   "metodo": "Playwright (contexto isolado) em facebook.com/ads/library, país=BR, active_status=all, busca por \"Implantomed\" (frase exata e busca por palavras); 3 criativos ativos da página \"Implantomed Clínica Odontológica\", todos iniciados em 17/08/2026; a Meta reporta \"~8 resultados\" para o termo, o que indica variações do mesmo criativo",
+   "conseguiuLer": true,
+   "termosBuscados": [
+    "Implantomed",
+    "Implantomed (frase exata)"
+   ]
+  },
+  "pixelMeta": null,
+  "pixelGoogleAds": null,
+  "gtm": null,
+  "ga4": null,
+  "leitura": "Acabou de ligar a torneira: 3 criativos ativos, todos em vídeo e todos iniciados em 17/08/2026 (véspera da coleta), levando para o perfil do Instagram e não para WhatsApp. É teste recente e sem histórico — quem chegar agora com estrutura de campanha e destino de conversão pega a operação ainda crua."
+ },
+ "google": {
+  "perfilEncontrado": true,
+  "nome": "Implantomed",
+  "categoria": "Clinica de implante dentario",
+  "categoriaCorreta": true,
+  "nota": 4.9,
+  "avaliacoes": 117,
+  "recenciaUltimaAvaliacao": "2 meses (avaliacao mais recente entre as visiveis)",
+  "respostasDoProprietario": true,
+  "fichasDuplicadas": [
+   {
+    "nome": "Implantomed Senior",
+    "nota": 5.0,
+    "avaliacoes": 1,
+    "categoria": "Clinica odontologica",
+    "endereco": "LOTE 99, SGAS 613 Vitrium 53 & 55 - Asa Sul",
+    "telefone": "(61) 3345-4311",
+    "placeId": "ChIJm1a0xVolWpMRGOjqfR6_OqI",
+    "observacao": "Ficha separada (place id distinto) no MESMO predio e faixa de salas da ficha principal (Ed. Vitrium, salas 53 e 55 vs sala 55). Ambas foram vistas por mim na mesma busca do Maps. Divide sinal de relevancia com a ficha principal e carrega apenas 1 avaliacao."
+   }
+  ],
+  "fotos": "galeria presente; aba 'Do proprietario' disponivel (ha fotos publicadas pelo proprietario). Contagem exata nao coletada.",
+  "siteVinculado": "https://implantomed.com.br/",
+  "buscaMarca": "Maps 'Implantomed Asa Sul Brasilia' - retornou 2 fichas da marca (Implantomed e Implantomed Senior). Ficha principal com post do proprietario de 19/05/2026.",
+  "buscaSemMarca": "'implante dentario Asa Sul Brasilia' - Implantomed NAO aparece no pacote local.",
+  "pacoteLocal": [
+   {
+    "nome": "Royal Implantes",
+    "nota": 5.0,
+    "avaliacoes": 152,
+    "local": "SCS Q 07 Ed Torre Patio Brasil Bl A Sl 1105/1107/1109"
+   },
+   {
+    "nome": "Clinica Odontologica CROE Odonto",
+    "nota": 5.0,
+    "avaliacoes": 2,
+    "local": "SGAS 902 Sul Ed Athenas"
+   },
+   {
+    "nome": "ImplantCenter Odontologia",
+    "nota": 5.0,
+    "avaliacoes": 127,
+    "local": "SEPS 710-910 Torre A loja 09 galeria Via Brasil"
+   }
+  ]
+ },
+ "diretorios": {
+  "doctoralia": "https://www.doctoralia.com.br/sheila-mendes-batista-2/dentista/brasilia",
+  "facebook": "https://www.facebook.com/implantomed/",
+  "linkedin": null,
+  "youtube": null,
+  "tiktok": null,
+  "outros": [
+   {
+    "nome": "Instagram (conta oficial da clínica)",
+    "url": "https://www.instagram.com/implantomed/",
+    "observacao": "2.231 seguidores, 1.153 publicações, segundo resultado de busca — já registrado como instagram.handle em presenca.json."
+   },
+   {
+    "nome": "Ache Seu Dentista",
+    "url": "https://acheseudentista.com.br/index.php?pg=pagina_pessoal&nome=Sheila+Mendes+Batista&id=203146"
+   },
+   {
+    "nome": "Vídeo avulso no YouTube (não confirma canal próprio dedicado)",
+    "url": "https://www.youtube.com/watch?v=wn4siJEvinE",
+    "observacao": "\"Drª Sheila Mendes Recebe Prêmio de Qualidade da BRASLIDER\" — vídeo de terceiros/evento, não um canal oficial da clínica."
+   },
+   {
+    "nome": "SoundCloud (entrevista em rádio)",
+    "url": "https://soundcloud.com/implantomed/entrevista-rt-dra-sheila-mendes-batista-da-implantomed"
+   }
+  ]
+ },
+ "consistenciaNAP": {
+  "google": null,
+  "site": null,
+  "instagram": null,
+  "receita": null,
+  "divergencias": []
+ },
+ "concorrentes": [
+  {
+   "nome": "Royal Implantes",
+   "nota": 5.0,
+   "avaliacoes": 152,
+   "local": "SCS Q 07 Ed Torre Patio Brasil Bl A Sl 1105/1107/1109"
+  },
+  {
+   "nome": "Clinica Odontologica CROE Odonto",
+   "nota": 5.0,
+   "avaliacoes": 2,
+   "local": "SGAS 902 Sul Ed Athenas"
+  },
+  {
+   "nome": "ImplantCenter Odontologia",
+   "nota": 5.0,
+   "avaliacoes": 127,
+   "local": "SEPS 710-910 Torre A loja 09 galeria Via Brasil"
+  }
+ ],
+ "notaGeral": {
+  "valor": 6.4,
+  "escala": 10,
+  "pilares": {
+   "site": 8.4,
+   "instagram": 3.4,
+   "cadencia": 9.0,
+   "google": 7.0,
+   "reputacaoEDiretorios": 4.4,
+   "conversao": 6.0
+  }
+ },
+ "dores": [
+  {
+   "titulo": "Sem schema de negócio local",
+   "evidencia": "Nenhum JSON-LD de LocalBusiness ou Dentist na home",
+   "custo": "Perde rich result na busca local, onde o paciente de implante procura",
+   "vertente": "tecnologia"
+  },
+  {
+   "titulo": "Fichas duplicadas no Google",
+   "evidencia": "Uma segunda ficha concorrente para o mesmo negócio",
+   "custo": "O Google divide avaliações e autoridade, e nenhuma acumula o suficiente",
+   "vertente": "tecnologia"
+  },
+  {
+   "titulo": "Publica sem pedir a consulta",
+   "evidencia": "Apenas 2,3% dos posts tem chamada para ação",
+   "custo": "Audiência construída sem caminho para virar agendamento",
+   "vertente": "social"
+  }
+ ],
+ "fontes": [
+  "Coleta HTTP direta de https://implantomed.com.br/ (apex)",
+  "Google Busca (google.com/search) - pacote local (Resultados locais), hl=pt-BR&gl=BR, sessao deslogada, 2026-08-19",
+  "Google Maps (google.com/maps) - leitura direta da ficha via Playwright, hl=pt-BR, sessao deslogada, 2026-08-19",
+  "Instagram @implantomed via API interna com sessao logada (19/08/2026), amostra de 131 posts",
+  "Quadro societário (tabela socios, mesmo snapshot)",
+  "Receita Federal via BigQuery basedosdados.br_me_cnpj (snapshot 2026-01-11)",
+  "WebSearch: \"Implantomed Brasília Facebook Instagram TikTok\"",
+  "WebSearch: \"Implantomed Doctoralia Sheila Mendes Batista\"",
+  "WebSearch: \"Sheila Batista OR Sheila Mendes instagram pessoal implantodontista @dra\"",
+  "https://acheseudentista.com.br/index.php?pg=pagina_pessoal&nome=Sheila+Mendes+Batista&id=203146",
+  "https://implantomed.com.br/ (curl direto, HTTP 200)",
+  "https://soundcloud.com/implantomed/entrevista-rt-dra-sheila-mendes-batista-da-implantomed",
+  "https://www.doctoralia.com.br/sheila-mendes-batista-2/dentista/brasilia",
+  "https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=BR&q=Implantomed&search_type=keyword_unordered",
+  "https://www.facebook.com/implantomed/",
+  "https://www.implantomed.com.br/ (WebFetch e curl, erro TLS confirmado)",
+  "https://www.implantomed.com.br/equipe/",
+  "https://www.instagram.com/implantomed/"
+ ],
+ "limitacoes": [
+  "Contagem exata de fotos nao coletada: o Google Maps nao exibe o total sem abrir a galeria foto a foto. Registrado apenas se existe ou nao a aba 'Do proprietario'.",
+  "Nao confirmei se 'Implantomed Senior' e uma unidade/servico deliberadamente separado ou uma ficha duplicada por engano - so a empresa pode dizer. O fato registrado e que sao duas fichas distintas no mesmo endereco.",
+  "Nenhum LinkedIn ou TikTok da clínica localizado.",
+  "Nota e nº de opiniões do Doctoralia são do perfil pessoal da Dra. Sheila (que É a técnica responsável/decisora), não necessariamente um perfil separado 'da clínica' no Doctoralia.",
+  "Não há canal de YouTube próprio confirmado, apenas vídeos avulsos de terceiros.",
+  "Recencia baseada nas avaliacoes visiveis na ordenacao padrao do Maps (relevancia), nao em ordenacao por data. E o piso da recencia real, nao o valor exato."
+ ]
+}

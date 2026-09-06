@@ -1,363 +1,1847 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
-<meta charset="UTF-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Plano até a eleição: Natália Rinco 4055 | Oráculo</title>
-<meta name="description" content="Plano de execução dos 47 dias que separam Natália Rinco (PSB 4055) do primeiro turno: correções de custo zero, abertura da mídia paga antes de 1º de outubro, cadência, priorização geográfica dos 30 municípios e metas de voto ancoradas no resultado de 2022. Preparado pela Oráculo Tecnologia."/>
-<meta property="og:type" content="website"/>
-<meta property="og:title" content="Plano até a eleição: Natália Rinco 4055 | Oráculo"/>
-<meta property="og:description" content="Plano de execução dos 47 dias que separam Natália Rinco (PSB 4055) do primeiro turno: correções de custo zero, abertura da mídia paga antes de 1º de outubro, cadência, priorização geográfica dos 30 municípios e metas de voto ancoradas no resultado de 2022. Preparado pela Oráculo Tecnologia."/>
-<meta property="og:image" content="https://analises-oraculo.vercel.app/NataliaRinco/og-plano.png"/>
-<meta property="og:image:width" content="1200"/>
-<meta property="og:image:height" content="630"/>
-<meta property="og:url" content="https://analises-oraculo.vercel.app/NataliaRinco/Plano-Ate-a-Eleicao.html"/>
-<meta property="og:site_name" content="Oráculo Tecnologia"/>
-<meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="https://analises-oraculo.vercel.app/NataliaRinco/og-plano.png"/>
-<link rel="preconnect" href="https://fonts.googleapis.com"/>
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous"/>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&amp;family=Petrona:ital,wght@0,400..700;1,400..600&amp;display=swap"/>
-<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
-<style>
-  *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-  :root{
-    --ink:#1b2e73;--ink-deep:#131f4e;--ink-soft:#2c4193;--on-ink:#fff;--on-ink-2:#b3c0ea;--on-ink-3:#8b9bd4;
-    --paper:#fbfbfd;--surface:#fff;--rule:#dfe1ec;--rule-soft:#ebedf4;--text:#15182b;--text-2:#454b66;--text-3:#6b7186;
-    --primary:#1d4ed8;--primary-bg:#eef2ff;--good:#15803d;--good-bg:#f1faf3;--warn:#8f4e07;--warn-bg:#fdf7ed;--grave:#1b2e73;--grave-bg:#eff1fa;--purple:#6d28d9;--purple-bg:#f5f3ff;
-    --sans:'Bricolage Grotesque',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;--serif:'Petrona',Georgia,'Times New Roman',serif;
-    --gut:clamp(1.125rem,5vw,2.5rem);--col:68rem;--nav-h:2.9rem;
-  }
-  html{scroll-behavior:smooth;-webkit-text-size-adjust:100%;overflow-x:hidden;overflow-x:clip}
-  body{font-family:var(--serif);font-size:16px;line-height:1.7;background:var(--paper);color:var(--text);-webkit-font-smoothing:antialiased;padding-top:var(--nav-h);overflow-x:hidden;overflow-x:clip}
-  .num,td,th,.kpi-val,.score-val,.metric-value{font-variant-numeric:tabular-nums}
-  .cover{background:var(--ink);color:var(--on-ink);padding:clamp(3.5rem,12vw,8rem) var(--gut) clamp(2.5rem,7vw,4.5rem)}
-  .cover-inner,.kpi-row,.closing-inner,footer{max-width:var(--col);margin:0 auto}
-  .cover-mark{font-family:var(--sans);font-size:.8125rem;font-weight:600;color:var(--on-ink-2);margin-bottom:clamp(2.5rem,9vw,5rem)}
-  .cover-mark b{color:#fff}
-  .cover h1{font-family:var(--sans);font-size:clamp(2rem,6.2vw,4.25rem);font-weight:600;letter-spacing:-.035em;line-height:1.04;max-width:20ch;text-wrap:balance;margin-bottom:1.5rem}
-  .cover h1 em{font-style:normal;color:var(--on-ink-2)}
-  .cover-sub{font-size:clamp(1rem,2vw,1.0625rem);line-height:1.65;color:var(--on-ink-2);max-width:54ch}
-  .cover-rule{height:1px;background:rgba(255,255,255,.22);margin:clamp(2.5rem,7vw,4rem) 0 1.25rem}
-  .cover-foot{font-family:var(--sans);font-size:.8125rem;color:var(--on-ink-3);display:flex;flex-wrap:wrap;gap:.4rem 1.5rem}
-  .cover-foot b{color:var(--on-ink-2)}
-  .kpi-band{background:var(--ink-deep);padding:clamp(2rem,5vw,2.75rem) var(--gut)}
-  .kpi-row{display:grid;grid-template-columns:repeat(5,1fr);gap:1px;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.14)}
-  .kpi{background:var(--ink-deep);padding:1.1rem 1rem 1.2rem;min-width:0}
-  .kpi-val{font-family:var(--sans);font-size:clamp(1.4rem,3vw,2.125rem);font-weight:600;letter-spacing:-.03em;line-height:1.05;color:#fff}
-  .kpi-label{font-family:var(--sans);font-size:.75rem;font-weight:600;color:var(--on-ink-2);margin-top:.35rem}
-  .kpi-note{font-family:var(--sans);font-size:.7rem;color:var(--on-ink-3);margin-top:.15rem;line-height:1.35}
-  .nav{position:fixed;top:0;left:0;right:0;height:var(--nav-h);z-index:50;background:var(--paper);border-bottom:1px solid var(--rule);padding:0 var(--gut);display:flex;align-items:stretch;overflow-x:auto;scrollbar-width:none;font-family:var(--sans)}
-  .nav::-webkit-scrollbar{display:none}.nav a{flex-shrink:0;display:flex;align-items:center;padding:0 .68rem;font-size:.78rem;font-weight:500;color:var(--text-3);text-decoration:none;border-bottom:2px solid transparent;white-space:nowrap}.nav a:hover,.nav a.active{color:var(--ink)}.nav a.active{font-weight:700;border-bottom-color:var(--ink)}
-  .page{width:100%;max-width:calc(var(--col) + 2 * var(--gut));margin:0 auto;padding:clamp(2rem,4vw,3rem) var(--gut) clamp(3rem,6vw,4.5rem)}
-  section{min-width:0;scroll-margin-top:calc(var(--nav-h) + .75rem)}
-  .sec-head{border-top:1px solid var(--text);padding-top:.85rem;margin:clamp(2.5rem,6vw,4rem) 0 1.4rem}.sec-head h2{font-family:var(--sans);font-size:clamp(1.4rem,3.6vw,2rem);font-weight:600;letter-spacing:-.028em;line-height:1.15}.sec-head p{font-size:.9375rem;color:var(--text-3);margin-top:.35rem;max-width:66ch}
-  section:first-child .sec-head{margin-top:0}
-  h3{font-family:var(--sans);font-size:1.08rem;line-height:1.3;margin:1.7rem 0 .65rem}p+p{margin-top:.8rem}.lede{font-size:clamp(1.08rem,2vw,1.28rem);line-height:1.65;max-width:68ch}.muted{color:var(--text-3)}
-  .grid-2,.grid-3,.grid-4{display:grid;gap:1rem}.grid-2{grid-template-columns:repeat(2,minmax(0,1fr))}.grid-3{grid-template-columns:repeat(3,minmax(0,1fr))}.grid-4{grid-template-columns:repeat(4,minmax(0,1fr))}.grid-2>*,.grid-3>*,.grid-4>*,.essential>*,.score>*,.score-grid>*,.diag>*,.metric-strip>*,.swot>*,.roadmap>*{min-width:0}
-  .card{background:var(--surface);border:1px solid var(--rule);padding:1.15rem}.card h3{margin:0 0 .55rem;font-size:1rem}.card p{font-size:.9rem;color:var(--text-2)}.card ul{padding-left:1.1rem;font-size:.9rem;color:var(--text-2)}.card li+li{margin-top:.35rem}
-  .eyebrow{font-family:var(--sans);font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.12em;color:var(--primary);margin-bottom:.45rem}
-  .essential{display:grid;grid-template-columns:1.25fr .75fr;gap:1.25rem}.essential-main{border-left:4px solid var(--ink);padding:.2rem 0 .2rem 1.2rem}.essential-list{list-style:none}.essential-list li{border-bottom:1px solid var(--rule-soft);padding:.6rem 0;font-size:.9rem}.essential-list li:last-child{border-bottom:0}
-  .score{background:var(--ink);color:#fff;padding:clamp(1.3rem,4vw,2rem);display:grid;grid-template-columns:13rem 1fr;gap:2rem;align-items:center}.score-number{display:flex;align-items:baseline}.score-val{font-family:var(--sans);font-size:4.6rem;font-weight:650;line-height:1;letter-spacing:-.06em}.score-den{font-family:var(--sans);color:var(--on-ink-2);font-size:1rem;margin-left:.35rem}.score-verdict{color:var(--on-ink-2);font-size:1.05rem}.score-verdict b{color:#fff;font-family:var(--sans)}
-  .score-grid{margin-top:1px;display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--rule)}.score-item{background:#fff;padding:1rem}.score-item-head{display:flex;justify-content:space-between;gap:.75rem;font-family:var(--sans);font-size:.8rem;font-weight:650}.score-track{height:5px;background:var(--rule-soft);margin-top:.6rem}.score-fill{height:100%;background:var(--ink)}
-  .diag{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--rule);border:1px solid var(--rule);margin-top:1.25rem}.diag-col{background:#fff;padding:1.15rem}.diag-col ul{padding-left:1.15rem;font-size:.9rem;color:var(--text-2)}.diag-col li+li{margin-top:.45rem}
-  .metric-strip{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--rule);margin:1.2rem 0}.metric{padding:1rem;border-right:1px solid var(--rule)}.metric:last-child{border-right:0}.metric-value{font-family:var(--sans);font-size:1.55rem;font-weight:650;letter-spacing:-.035em}.metric-label{font-family:var(--sans);font-size:.72rem;color:var(--text-3);margin-top:.2rem}
-  .chart{width:100%;min-width:0;overflow:hidden;background:#fff;border:1px solid var(--rule);padding:1rem;margin:1rem 0;min-height:280px;position:relative}.chart.sm{min-height:235px}.chart canvas{display:block;width:100%!important;max-width:100%!important;max-height:320px}
-  .table-wrap{width:100%;max-width:100%;min-width:0;overflow-x:auto;overscroll-behavior-inline:contain;-webkit-overflow-scrolling:touch}table{width:100%;border-collapse:collapse;background:#fff;border:1px solid var(--rule);font-family:var(--sans);font-size:.8rem;margin:1rem 0}th,td{text-align:left;padding:.72rem;border-bottom:1px solid var(--rule-soft);vertical-align:top}th{font-size:.66rem;text-transform:uppercase;letter-spacing:.08em;color:var(--text-3);background:#f7f8fb}tbody tr:last-child td{border-bottom:0}.right{text-align:right}.status{font-size:.66rem;font-weight:700;padding:.2rem .42rem;background:var(--primary-bg);color:var(--primary);white-space:nowrap}.status.good{background:var(--good-bg);color:var(--good)}.status.warn{background:var(--warn-bg);color:var(--warn)}
-  .insight{border-left:3px solid var(--primary);background:var(--primary-bg);padding:1rem 1.1rem;margin:1.25rem 0}.insight.good{border-color:var(--good);background:var(--good-bg)}.insight.warn{border-color:var(--warn);background:var(--warn-bg)}.insight.bad{border-color:var(--grave);background:var(--grave-bg)}.insight.purple{border-color:var(--purple);background:var(--purple-bg)}.insight-header{font-family:var(--sans);font-size:.68rem;font-weight:750;letter-spacing:.1em;text-transform:uppercase;color:var(--primary);margin-bottom:.4rem}.insight.good .insight-header{color:var(--good)}.insight.warn .insight-header{color:var(--warn)}.insight.bad .insight-header{color:var(--grave)}.insight.purple .insight-header{color:var(--purple)}.insight-body{display:flex;gap:.75rem}.verdict{font-family:var(--sans);font-size:.7rem;font-weight:700;white-space:nowrap}.insight p{font-size:.9rem;color:var(--text-2)}
-  .callout{border:1px solid var(--rule);background:#fff;padding:1rem 1.1rem;margin:1rem 0}.callout>strong{display:block;font-family:var(--sans);font-size:.7rem;text-transform:uppercase;letter-spacing:.1em;color:var(--ink);margin-bottom:.4rem}.callout p,.callout li{font-size:.9rem;color:var(--text-2)}
-  .swot{display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:var(--rule);border:1px solid var(--rule)}.swot-cell{background:#fff;padding:1.15rem}.swot-cell h3{margin:0 0 .6rem}.swot-cell ul{padding-left:1rem;font-size:.9rem;color:var(--text-2)}.swot-cell li+li{margin-top:.35rem}
-  .roadmap{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem}.phase{border-top:4px solid var(--ink);background:#fff;border-left:1px solid var(--rule);border-right:1px solid var(--rule);border-bottom:1px solid var(--rule);padding:1.15rem}.phase:nth-child(2){border-top-color:var(--primary)}.phase:nth-child(3){border-top-color:var(--purple)}.phase-time{font-family:var(--sans);font-size:.7rem;font-weight:750;letter-spacing:.1em;text-transform:uppercase;color:var(--text-3)}.phase h3{margin:.45rem 0 .8rem}.phase ol{padding-left:1.1rem;font-size:.88rem;color:var(--text-2)}.phase li+li{margin-top:.45rem}.phase-kpi{border-top:1px solid var(--rule);margin-top:1rem;padding-top:.8rem;font-family:var(--sans);font-size:.72rem;color:var(--ink)}
-  .priority{display:grid;grid-template-columns:4rem 1fr auto;gap:1rem;align-items:center;padding:.9rem 0;border-bottom:1px solid var(--rule)}.priority:last-child{border-bottom:0}.priority-num{font-family:var(--sans);font-size:1.8rem;font-weight:650;color:var(--ink)}.priority h3{margin:0;font-size:.95rem}.priority p{font-size:.85rem;color:var(--text-3)}
-  .closing{background:var(--ink-deep);color:#fff;padding:clamp(2.5rem,7vw,4.5rem) var(--gut)}.closing h2{font-family:var(--sans);font-size:clamp(1.7rem,4vw,2.8rem);letter-spacing:-.035em;line-height:1.1;max-width:22ch}.closing p{color:var(--on-ink-2);max-width:58ch;margin-top:1rem}.closing-meta{font-family:var(--sans);font-size:.75rem;color:var(--on-ink-3);margin-top:2rem}
-  footer{padding:1.5rem var(--gut);font-family:var(--sans);font-size:.72rem;color:var(--text-3);display:flex;justify-content:space-between;gap:1rem}
-  @media(max-width:850px){.kpi-row{grid-template-columns:repeat(2,minmax(0,1fr))}.kpi:last-child{grid-column:span 2}.grid-3,.grid-4,.roadmap{grid-template-columns:repeat(2,minmax(0,1fr))}.essential,.score,.diag{grid-template-columns:minmax(0,1fr)}.score-grid,.metric-strip{grid-template-columns:repeat(2,minmax(0,1fr))}.metric:nth-child(2){border-right:0}.metric:nth-child(-n+2){border-bottom:1px solid var(--rule)}}
-  @media(max-width:580px){.grid-2,.grid-3,.grid-4,.roadmap,.swot,.score-grid{grid-template-columns:minmax(0,1fr)}.insight-body{display:block}.verdict{display:block;margin-bottom:.3rem}.priority{grid-template-columns:2.5rem minmax(0,1fr)}.priority .status{grid-column:2}.table-wrap{width:auto;max-width:none;margin:1rem calc(-1 * var(--gut));padding:0 var(--gut)}table{min-width:620px}.cover h1{max-width:16ch}footer{display:block}footer span{display:block}.kpi-row{grid-template-columns:minmax(0,1fr)}.kpi:last-child{grid-column:auto}}
-  @media print{.nav{display:none}body{padding-top:0}.cover,.kpi-band,.score,.closing{print-color-adjust:exact;-webkit-print-color-adjust:exact}.page{max-width:none}.chart{break-inside:avoid}section{break-inside:auto}}
-</style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Plano até a eleição: Natália Rinco 4055 | Oráculo</title>
+  <meta name="description"
+    content="Plano de execução dos 47 dias que separam Natália Rinco (PSB 4055) do primeiro turno: correções de custo zero, abertura da mídia paga antes de 1º de outubro, cadência, priorização geográfica dos 30 municípios e metas de voto ancoradas no resultado de 2022. Preparado pela Oráculo Tecnologia." />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Plano até a eleição: Natália Rinco 4055 | Oráculo" />
+  <meta property="og:description"
+    content="Plano de execução dos 47 dias que separam Natália Rinco (PSB 4055) do primeiro turno: correções de custo zero, abertura da mídia paga antes de 1º de outubro, cadência, priorização geográfica dos 30 municípios e metas de voto ancoradas no resultado de 2022. Preparado pela Oráculo Tecnologia." />
+  <meta property="og:image" content="https://analises-oraculo.vercel.app/NataliaRinco/og-plano.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:url" content="https://analises-oraculo.vercel.app/NataliaRinco/Plano-Ate-a-Eleicao.html" />
+  <meta property="og:site_name" content="Oráculo Tecnologia" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image" content="https://analises-oraculo.vercel.app/NataliaRinco/og-plano.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&amp;family=Petrona:ital,wght@0,400..700;1,400..600&amp;display=swap" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <style>
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0
+    }
+
+    :root {
+      --ink: #1b2e73;
+      --ink-deep: #131f4e;
+      --ink-soft: #2c4193;
+      --on-ink: #fff;
+      --on-ink-2: #b3c0ea;
+      --on-ink-3: #8b9bd4;
+      --paper: #fbfbfd;
+      --surface: #fff;
+      --rule: #dfe1ec;
+      --rule-soft: #ebedf4;
+      --text: #15182b;
+      --text-2: #454b66;
+      --text-3: #6b7186;
+      --primary: #1d4ed8;
+      --primary-bg: #eef2ff;
+      --good: #15803d;
+      --good-bg: #f1faf3;
+      --warn: #8f4e07;
+      --warn-bg: #fdf7ed;
+      --grave: #1b2e73;
+      --grave-bg: #eff1fa;
+      --purple: #6d28d9;
+      --purple-bg: #f5f3ff;
+      --sans: 'Bricolage Grotesque', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      --serif: 'Petrona', Georgia, 'Times New Roman', serif;
+      --gut: clamp(1.125rem, 5vw, 2.5rem);
+      --col: 68rem;
+      --nav-h: 2.9rem;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      -webkit-text-size-adjust: 100%;
+      overflow-x: hidden;
+      overflow-x: clip
+    }
+
+    body {
+      font-family: var(--serif);
+      font-size: 16px;
+      line-height: 1.7;
+      background: var(--paper);
+      color: var(--text);
+      -webkit-font-smoothing: antialiased;
+      padding-top: var(--nav-h);
+      overflow-x: hidden;
+      overflow-x: clip
+    }
+
+    .num,
+    td,
+    th,
+    .kpi-val,
+    .score-val,
+    .metric-value {
+      font-variant-numeric: tabular-nums
+    }
+
+    .cover {
+      background: var(--ink);
+      color: var(--on-ink);
+      padding: clamp(3.5rem, 12vw, 8rem) var(--gut) clamp(2.5rem, 7vw, 4.5rem)
+    }
+
+    .cover-inner,
+    .kpi-row,
+    .closing-inner,
+    footer {
+      max-width: var(--col);
+      margin: 0 auto
+    }
+
+    .cover-mark {
+      font-family: var(--sans);
+      font-size: .8125rem;
+      font-weight: 600;
+      color: var(--on-ink-2);
+      margin-bottom: clamp(2.5rem, 9vw, 5rem)
+    }
+
+    .cover-mark b {
+      color: #fff
+    }
+
+    .cover h1 {
+      font-family: var(--sans);
+      font-size: clamp(2rem, 6.2vw, 4.25rem);
+      font-weight: 600;
+      letter-spacing: -.035em;
+      line-height: 1.04;
+      max-width: 20ch;
+      text-wrap: balance;
+      margin-bottom: 1.5rem
+    }
+
+    .cover h1 em {
+      font-style: normal;
+      color: var(--on-ink-2)
+    }
+
+    .cover-sub {
+      font-size: clamp(1rem, 2vw, 1.0625rem);
+      line-height: 1.65;
+      color: var(--on-ink-2);
+      max-width: 54ch
+    }
+
+    .cover-rule {
+      height: 1px;
+      background: rgba(255, 255, 255, .22);
+      margin: clamp(2.5rem, 7vw, 4rem) 0 1.25rem
+    }
+
+    .cover-foot {
+      font-family: var(--sans);
+      font-size: .8125rem;
+      color: var(--on-ink-3);
+      display: flex;
+      flex-wrap: wrap;
+      gap: .4rem 1.5rem
+    }
+
+    .cover-foot b {
+      color: var(--on-ink-2)
+    }
+
+    .kpi-band {
+      background: var(--ink-deep);
+      padding: clamp(2rem, 5vw, 2.75rem) var(--gut)
+    }
+
+    .kpi-row {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 1px;
+      background: rgba(255, 255, 255, .14);
+      border: 1px solid rgba(255, 255, 255, .14)
+    }
+
+    .kpi {
+      background: var(--ink-deep);
+      padding: 1.1rem 1rem 1.2rem;
+      min-width: 0
+    }
+
+    .kpi-val {
+      font-family: var(--sans);
+      font-size: clamp(1.4rem, 3vw, 2.125rem);
+      font-weight: 600;
+      letter-spacing: -.03em;
+      line-height: 1.05;
+      color: #fff
+    }
+
+    .kpi-label {
+      font-family: var(--sans);
+      font-size: .75rem;
+      font-weight: 600;
+      color: var(--on-ink-2);
+      margin-top: .35rem
+    }
+
+    .kpi-note {
+      font-family: var(--sans);
+      font-size: .7rem;
+      color: var(--on-ink-3);
+      margin-top: .15rem;
+      line-height: 1.35
+    }
+
+    .nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: var(--nav-h);
+      z-index: 50;
+      background: var(--paper);
+      border-bottom: 1px solid var(--rule);
+      padding: 0 var(--gut);
+      display: flex;
+      align-items: stretch;
+      overflow-x: auto;
+      scrollbar-width: none;
+      font-family: var(--sans)
+    }
+
+    .nav::-webkit-scrollbar {
+      display: none
+    }
+
+    .nav a {
+      flex-shrink: 0;
+      display: flex;
+      align-items: center;
+      padding: 0 .68rem;
+      font-size: .78rem;
+      font-weight: 500;
+      color: var(--text-3);
+      text-decoration: none;
+      border-bottom: 2px solid transparent;
+      white-space: nowrap
+    }
+
+    .nav a:hover,
+    .nav a.active {
+      color: var(--ink)
+    }
+
+    .nav a.active {
+      font-weight: 700;
+      border-bottom-color: var(--ink)
+    }
+
+    .page {
+      width: 100%;
+      max-width: calc(var(--col) + 2 * var(--gut));
+      margin: 0 auto;
+      padding: clamp(2rem, 4vw, 3rem) var(--gut) clamp(3rem, 6vw, 4.5rem)
+    }
+
+    section {
+      min-width: 0;
+      scroll-margin-top: calc(var(--nav-h) + .75rem)
+    }
+
+    .sec-head {
+      border-top: 1px solid var(--text);
+      padding-top: .85rem;
+      margin: clamp(2.5rem, 6vw, 4rem) 0 1.4rem
+    }
+
+    .sec-head h2 {
+      font-family: var(--sans);
+      font-size: clamp(1.4rem, 3.6vw, 2rem);
+      font-weight: 600;
+      letter-spacing: -.028em;
+      line-height: 1.15
+    }
+
+    .sec-head p {
+      font-size: .9375rem;
+      color: var(--text-3);
+      margin-top: .35rem;
+      max-width: 66ch
+    }
+
+    section:first-child .sec-head {
+      margin-top: 0
+    }
+
+    h3 {
+      font-family: var(--sans);
+      font-size: 1.08rem;
+      line-height: 1.3;
+      margin: 1.7rem 0 .65rem
+    }
+
+    p+p {
+      margin-top: .8rem
+    }
+
+    .lede {
+      font-size: clamp(1.08rem, 2vw, 1.28rem);
+      line-height: 1.65;
+      max-width: 68ch
+    }
+
+    .muted {
+      color: var(--text-3)
+    }
+
+    .grid-2,
+    .grid-3,
+    .grid-4 {
+      display: grid;
+      gap: 1rem
+    }
+
+    .grid-2 {
+      grid-template-columns: repeat(2, minmax(0, 1fr))
+    }
+
+    .grid-3 {
+      grid-template-columns: repeat(3, minmax(0, 1fr))
+    }
+
+    .grid-4 {
+      grid-template-columns: repeat(4, minmax(0, 1fr))
+    }
+
+    .grid-2>*,
+    .grid-3>*,
+    .grid-4>*,
+    .essential>*,
+    .score>*,
+    .score-grid>*,
+    .diag>*,
+    .metric-strip>*,
+    .swot>*,
+    .roadmap>* {
+      min-width: 0
+    }
+
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--rule);
+      padding: 1.15rem
+    }
+
+    .card h3 {
+      margin: 0 0 .55rem;
+      font-size: 1rem
+    }
+
+    .card p {
+      font-size: .9rem;
+      color: var(--text-2)
+    }
+
+    .card ul {
+      padding-left: 1.1rem;
+      font-size: .9rem;
+      color: var(--text-2)
+    }
+
+    .card li+li {
+      margin-top: .35rem
+    }
+
+    .eyebrow {
+      font-family: var(--sans);
+      font-size: .68rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: .12em;
+      color: var(--primary);
+      margin-bottom: .45rem
+    }
+
+    .essential {
+      display: grid;
+      grid-template-columns: 1.25fr .75fr;
+      gap: 1.25rem
+    }
+
+    .essential-main {
+      border-left: 4px solid var(--ink);
+      padding: .2rem 0 .2rem 1.2rem
+    }
+
+    .essential-list {
+      list-style: none
+    }
+
+    .essential-list li {
+      border-bottom: 1px solid var(--rule-soft);
+      padding: .6rem 0;
+      font-size: .9rem
+    }
+
+    .essential-list li:last-child {
+      border-bottom: 0
+    }
+
+    .score {
+      background: var(--ink);
+      color: #fff;
+      padding: clamp(1.3rem, 4vw, 2rem);
+      display: grid;
+      grid-template-columns: 13rem 1fr;
+      gap: 2rem;
+      align-items: center
+    }
+
+    .score-number {
+      display: flex;
+      align-items: baseline
+    }
+
+    .score-val {
+      font-family: var(--sans);
+      font-size: 4.6rem;
+      font-weight: 650;
+      line-height: 1;
+      letter-spacing: -.06em
+    }
+
+    .score-den {
+      font-family: var(--sans);
+      color: var(--on-ink-2);
+      font-size: 1rem;
+      margin-left: .35rem
+    }
+
+    .score-verdict {
+      color: var(--on-ink-2);
+      font-size: 1.05rem
+    }
+
+    .score-verdict b {
+      color: #fff;
+      font-family: var(--sans)
+    }
+
+    .score-grid {
+      margin-top: 1px;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1px;
+      background: var(--rule)
+    }
+
+    .score-item {
+      background: #fff;
+      padding: 1rem
+    }
+
+    .score-item-head {
+      display: flex;
+      justify-content: space-between;
+      gap: .75rem;
+      font-family: var(--sans);
+      font-size: .8rem;
+      font-weight: 650
+    }
+
+    .score-track {
+      height: 5px;
+      background: var(--rule-soft);
+      margin-top: .6rem
+    }
+
+    .score-fill {
+      height: 100%;
+      background: var(--ink)
+    }
+
+    .diag {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1px;
+      background: var(--rule);
+      border: 1px solid var(--rule);
+      margin-top: 1.25rem
+    }
+
+    .diag-col {
+      background: #fff;
+      padding: 1.15rem
+    }
+
+    .diag-col ul {
+      padding-left: 1.15rem;
+      font-size: .9rem;
+      color: var(--text-2)
+    }
+
+    .diag-col li+li {
+      margin-top: .45rem
+    }
+
+    .metric-strip {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      border: 1px solid var(--rule);
+      margin: 1.2rem 0
+    }
+
+    .metric {
+      padding: 1rem;
+      border-right: 1px solid var(--rule)
+    }
+
+    .metric:last-child {
+      border-right: 0
+    }
+
+    .metric-value {
+      font-family: var(--sans);
+      font-size: 1.55rem;
+      font-weight: 650;
+      letter-spacing: -.035em
+    }
+
+    .metric-label {
+      font-family: var(--sans);
+      font-size: .72rem;
+      color: var(--text-3);
+      margin-top: .2rem
+    }
+
+    .chart {
+      width: 100%;
+      min-width: 0;
+      overflow: hidden;
+      background: #fff;
+      border: 1px solid var(--rule);
+      padding: 1rem;
+      margin: 1rem 0;
+      min-height: 280px;
+      position: relative
+    }
+
+    .chart.sm {
+      min-height: 235px
+    }
+
+    .chart canvas {
+      display: block;
+      width: 100% !important;
+      max-width: 100% !important;
+      max-height: 320px
+    }
+
+    .table-wrap {
+      width: 100%;
+      max-width: 100%;
+      min-width: 0;
+      overflow-x: auto;
+      overscroll-behavior-inline: contain;
+      -webkit-overflow-scrolling: touch
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: #fff;
+      border: 1px solid var(--rule);
+      font-family: var(--sans);
+      font-size: .8rem;
+      margin: 1rem 0
+    }
+
+    th,
+    td {
+      text-align: left;
+      padding: .72rem;
+      border-bottom: 1px solid var(--rule-soft);
+      vertical-align: top
+    }
+
+    th {
+      font-size: .66rem;
+      text-transform: uppercase;
+      letter-spacing: .08em;
+      color: var(--text-3);
+      background: #f7f8fb
+    }
+
+    tbody tr:last-child td {
+      border-bottom: 0
+    }
+
+    .right {
+      text-align: right
+    }
+
+    .status {
+      font-size: .66rem;
+      font-weight: 700;
+      padding: .2rem .42rem;
+      background: var(--primary-bg);
+      color: var(--primary);
+      white-space: nowrap
+    }
+
+    .status.good {
+      background: var(--good-bg);
+      color: var(--good)
+    }
+
+    .status.warn {
+      background: var(--warn-bg);
+      color: var(--warn)
+    }
+
+    .insight {
+      border-left: 3px solid var(--primary);
+      background: var(--primary-bg);
+      padding: 1rem 1.1rem;
+      margin: 1.25rem 0
+    }
+
+    .insight.good {
+      border-color: var(--good);
+      background: var(--good-bg)
+    }
+
+    .insight.warn {
+      border-color: var(--warn);
+      background: var(--warn-bg)
+    }
+
+    .insight.bad {
+      border-color: var(--grave);
+      background: var(--grave-bg)
+    }
+
+    .insight.purple {
+      border-color: var(--purple);
+      background: var(--purple-bg)
+    }
+
+    .insight-header {
+      font-family: var(--sans);
+      font-size: .68rem;
+      font-weight: 750;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      color: var(--primary);
+      margin-bottom: .4rem
+    }
+
+    .insight.good .insight-header {
+      color: var(--good)
+    }
+
+    .insight.warn .insight-header {
+      color: var(--warn)
+    }
+
+    .insight.bad .insight-header {
+      color: var(--grave)
+    }
+
+    .insight.purple .insight-header {
+      color: var(--purple)
+    }
+
+    .insight-body {
+      display: flex;
+      gap: .75rem
+    }
+
+    .verdict {
+      font-family: var(--sans);
+      font-size: .7rem;
+      font-weight: 700;
+      white-space: nowrap
+    }
+
+    .insight p {
+      font-size: .9rem;
+      color: var(--text-2)
+    }
+
+    .callout {
+      border: 1px solid var(--rule);
+      background: #fff;
+      padding: 1rem 1.1rem;
+      margin: 1rem 0
+    }
+
+    .callout>strong {
+      display: block;
+      font-family: var(--sans);
+      font-size: .7rem;
+      text-transform: uppercase;
+      letter-spacing: .1em;
+      color: var(--ink);
+      margin-bottom: .4rem
+    }
+
+    .callout p,
+    .callout li {
+      font-size: .9rem;
+      color: var(--text-2)
+    }
+
+    .swot {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1px;
+      background: var(--rule);
+      border: 1px solid var(--rule)
+    }
+
+    .swot-cell {
+      background: #fff;
+      padding: 1.15rem
+    }
+
+    .swot-cell h3 {
+      margin: 0 0 .6rem
+    }
+
+    .swot-cell ul {
+      padding-left: 1rem;
+      font-size: .9rem;
+      color: var(--text-2)
+    }
+
+    .swot-cell li+li {
+      margin-top: .35rem
+    }
+
+    .roadmap {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1rem
+    }
+
+    .phase {
+      border-top: 4px solid var(--ink);
+      background: #fff;
+      border-left: 1px solid var(--rule);
+      border-right: 1px solid var(--rule);
+      border-bottom: 1px solid var(--rule);
+      padding: 1.15rem
+    }
+
+    .phase:nth-child(2) {
+      border-top-color: var(--primary)
+    }
+
+    .phase:nth-child(3) {
+      border-top-color: var(--purple)
+    }
+
+    .phase-time {
+      font-family: var(--sans);
+      font-size: .7rem;
+      font-weight: 750;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      color: var(--text-3)
+    }
+
+    .phase h3 {
+      margin: .45rem 0 .8rem
+    }
+
+    .phase ol {
+      padding-left: 1.1rem;
+      font-size: .88rem;
+      color: var(--text-2)
+    }
+
+    .phase li+li {
+      margin-top: .45rem
+    }
+
+    .phase-kpi {
+      border-top: 1px solid var(--rule);
+      margin-top: 1rem;
+      padding-top: .8rem;
+      font-family: var(--sans);
+      font-size: .72rem;
+      color: var(--ink)
+    }
+
+    .priority {
+      display: grid;
+      grid-template-columns: 4rem 1fr auto;
+      gap: 1rem;
+      align-items: center;
+      padding: .9rem 0;
+      border-bottom: 1px solid var(--rule)
+    }
+
+    .priority:last-child {
+      border-bottom: 0
+    }
+
+    .priority-num {
+      font-family: var(--sans);
+      font-size: 1.8rem;
+      font-weight: 650;
+      color: var(--ink)
+    }
+
+    .priority h3 {
+      margin: 0;
+      font-size: .95rem
+    }
+
+    .priority p {
+      font-size: .85rem;
+      color: var(--text-3)
+    }
+
+    .closing {
+      background: var(--ink-deep);
+      color: #fff;
+      padding: clamp(2.5rem, 7vw, 4.5rem) var(--gut)
+    }
+
+    .closing h2 {
+      font-family: var(--sans);
+      font-size: clamp(1.7rem, 4vw, 2.8rem);
+      letter-spacing: -.035em;
+      line-height: 1.1;
+      max-width: 22ch
+    }
+
+    .closing p {
+      color: var(--on-ink-2);
+      max-width: 58ch;
+      margin-top: 1rem
+    }
+
+    .closing-meta {
+      font-family: var(--sans);
+      font-size: .75rem;
+      color: var(--on-ink-3);
+      margin-top: 2rem
+    }
+
+    footer {
+      padding: 1.5rem var(--gut);
+      font-family: var(--sans);
+      font-size: .72rem;
+      color: var(--text-3);
+      display: flex;
+      justify-content: space-between;
+      gap: 1rem
+    }
+
+    @media(max-width:850px) {
+      .kpi-row {
+        grid-template-columns: repeat(2, minmax(0, 1fr))
+      }
+
+      .kpi:last-child {
+        grid-column: span 2
+      }
+
+      .grid-3,
+      .grid-4,
+      .roadmap {
+        grid-template-columns: repeat(2, minmax(0, 1fr))
+      }
+
+      .essential,
+      .score,
+      .diag {
+        grid-template-columns: minmax(0, 1fr)
+      }
+
+      .score-grid,
+      .metric-strip {
+        grid-template-columns: repeat(2, minmax(0, 1fr))
+      }
+
+      .metric:nth-child(2) {
+        border-right: 0
+      }
+
+      .metric:nth-child(-n+2) {
+        border-bottom: 1px solid var(--rule)
+      }
+    }
+
+    @media(max-width:580px) {
+
+      .grid-2,
+      .grid-3,
+      .grid-4,
+      .roadmap,
+      .swot,
+      .score-grid {
+        grid-template-columns: minmax(0, 1fr)
+      }
+
+      .insight-body {
+        display: block
+      }
+
+      .verdict {
+        display: block;
+        margin-bottom: .3rem
+      }
+
+      .priority {
+        grid-template-columns: 2.5rem minmax(0, 1fr)
+      }
+
+      .priority .status {
+        grid-column: 2
+      }
+
+      .table-wrap {
+        width: auto;
+        max-width: none;
+        margin: 1rem calc(-1 * var(--gut));
+        padding: 0 var(--gut)
+      }
+
+      table {
+        min-width: 620px
+      }
+
+      .cover h1 {
+        max-width: 16ch
+      }
+
+      footer {
+        display: block
+      }
+
+      footer span {
+        display: block
+      }
+
+      .kpi-row {
+        grid-template-columns: minmax(0, 1fr)
+      }
+
+      .kpi:last-child {
+        grid-column: auto
+      }
+    }
+
+    @media print {
+      .nav {
+        display: none
+      }
+
+      body {
+        padding-top: 0
+      }
+
+      .cover,
+      .kpi-band,
+      .score,
+      .closing {
+        print-color-adjust: exact;
+        -webkit-print-color-adjust: exact
+      }
+
+      .page {
+        max-width: none
+      }
+
+      .chart {
+        break-inside: avoid
+      }
+
+      section {
+        break-inside: auto
+      }
+    }
+  </style>
 </head>
+
 <body>
-<header class="cover">
-  <div class="cover-inner">
-    <div class="cover-mark"><b>Oráculo Tecnologia</b> · Plano de execução até o primeiro turno</div>
-    <h1>São 47 dias até a urna, e só 44 deles aceitam impulsionamento. <em>O plano cabe em cinco fases e começa com o que não custa nada.</em></h1>
-    <p class="cover-sub">Documento operacional derivado da análise de cenário de 18 de agosto. Cada ação aqui responde a um achado concreto daquela leitura, e cada fase termina com um número verificável. A meta de voto foi ancorada no resultado real de 2022 nos 30 municípios da base, não em estimativa.</p>
-    <div class="cover-rule"></div>
-    <div class="cover-foot"><span><b>Natália Bravim Rinco</b></span><span>PSB 4055 · Deputada federal por Goiás</span><span>18 de agosto a 4 de outubro de 2026</span></div>
-  </div>
-</header>
+  <header class="cover">
+    <div class="cover-inner">
+      <div class="cover-mark"><b>Oráculo Tecnologia</b> · Plano de execução até o primeiro turno</div>
+      <h1>São 47 dias até a urna, e só 44 deles aceitam impulsionamento. <em>O plano cabe em cinco fases e começa com o
+          que não custa nada.</em></h1>
+      <p class="cover-sub">Documento operacional derivado da análise de cenário de 24 de agosto. Cada ação aqui responde
+        a um achado concreto daquela leitura, e cada fase termina com um número verificável. A meta de voto foi ancorada
+        no resultado real de 2022 nos 30 municípios da base, não em estimativa.</p>
+      <div class="cover-rule"></div>
+      <div class="cover-foot"><span><b>Natália Bravim Rinco</b></span><span>PSB 4055 · Deputada federal por
+          Goiás</span><span>24 de agosto a 4 de outubro de 2026</span></div>
+    </div>
+  </header>
 
-<div class="kpi-band">
-  <div class="kpi-row">
-    <div class="kpi"><div class="kpi-val">47</div><div class="kpi-label">Dias até o primeiro turno</div><div class="kpi-note">4 de outubro de 2026</div></div>
-    <div class="kpi"><div class="kpi-val">44</div><div class="kpi-label">Dias de janela para mídia paga</div><div class="kpi-note">O impulsionamento acaba em 1º de outubro</div></div>
-    <div class="kpi"><div class="kpi-val">10.700</div><div class="kpi-label">Meta de votos do plano</div><div class="kpi-note">Daria a 54ª posição no resultado de 2022</div></div>
-    <div class="kpi"><div class="kpi-val">7</div><div class="kpi-label">Correções de custo zero na Fase 0</div><div class="kpi-note">Executáveis em 48 horas</div></div>
-    <div class="kpi"><div class="kpi-val">6</div><div class="kpi-label">Municípios que concentram o esforço</div><div class="kpi-note">63% do eleitorado da base regional</div></div>
-  </div>
-</div>
-
-<nav class="nav" aria-label="Seções do plano">
-  <a href="#premissa">Premissa</a><a href="#meta">Meta</a><a href="#calendario">Calendário legal</a><a href="#fase0">Fase 0</a><a href="#fases">Fases 1 a 3</a><a href="#urna">Reta final</a><a href="#geografia">Geografia</a><a href="#orcamento">Orçamento</a><a href="#painel">Painel</a><a href="#nao">O que não fazer</a>
-</nav>
-
-<main class="page">
-  <section id="premissa">
-    <div class="sec-head"><h2>A premissa do plano</h2><p>O que este plano persegue, e por que não persegue a vaga.</p></div>
-    <div class="essential">
-      <div class="essential-main">
-        <p class="eyebrow">Objetivo declarado</p>
-        <p class="lede">A análise de 18 de agosto mostrou que a vaga não está ao alcance desta eleição: o PSB fez <b>0,38 do quociente eleitoral</b> em 2022 e a base geográfica inteira vale 40% do que o último eleito precisou. Um plano honesto não finge o contrário. Este plano persegue <b>duas coisas que estão ao alcance</b>: maximizar a votação pessoal de outubro, que é o ativo que fica, e parar de desperdiçar o que a campanha já construiu e não está usando.</p>
+  <div class="kpi-band">
+    <div class="kpi-row">
+      <div class="kpi">
+        <div class="kpi-val">47</div>
+        <div class="kpi-label">Dias até o primeiro turno</div>
+        <div class="kpi-note">4 de outubro de 2026</div>
       </div>
-      <div class="card"><p class="eyebrow">Por que isso importa</p><p>Votação pessoal é o que define acesso a cargo, a espaço no partido e a viabilidade de 2028 e 2030. Uma estreante que sai de zero e faz <b>dez mil votos</b> vira quadro consolidado. Uma que faz dois mil vira nota de rodapé. A diferença entre os dois cenários está inteiramente dentro destes 47 dias.</p></div>
+      <div class="kpi">
+        <div class="kpi-val">44</div>
+        <div class="kpi-label">Dias de janela para mídia paga</div>
+        <div class="kpi-note">O impulsionamento acaba em 1º de outubro</div>
+      </div>
+      <div class="kpi">
+        <div class="kpi-val">10.700</div>
+        <div class="kpi-label">Meta de votos do plano</div>
+        <div class="kpi-note">Daria a 54ª posição no resultado de 2022</div>
+      </div>
+      <div class="kpi">
+        <div class="kpi-val">7</div>
+        <div class="kpi-label">Correções de custo zero na Fase 0</div>
+        <div class="kpi-note">Executáveis em 48 horas</div>
+      </div>
+      <div class="kpi">
+        <div class="kpi-val">6</div>
+        <div class="kpi-label">Municípios que concentram o esforço</div>
+        <div class="kpi-note">63% do eleitorado da base regional</div>
+      </div>
     </div>
-    <div class="grid-3" style="margin-top:1rem">
-      <div class="card"><p class="eyebrow">Princípio 1</p><h3>Primeiro o que é grátis</h3><p>Sete correções de custo zero destravam tráfego que já existe e hoje se perde. Nenhuma delas depende de dinheiro, equipe ou aprovação.</p></div>
-      <div class="card"><p class="eyebrow">Princípio 2</p><h3>Depois o que compra alcance</h3><p>O gargalo medido é distribuição, não conteúdo. Com 9,37% de engajamento, cada pessoa nova alcançada rende mais aqui que em qualquer perfil comparado.</p></div>
-      <div class="card"><p class="eyebrow">Princípio 3</p><h3>Sempre com o número</h3><p>O número 4055 aparece hoje em uma legenda de vinte. Nenhuma peça deste plano sai sem ele. É o que se digita na urna.</p></div>
-    </div>
-    <div class="insight info"><div class="insight-header">O que isso significa para você</div><div class="insight-body"><span class="verdict">&#9654; Atenção</span><p>A escolha mais importante do plano é o que ele decide não fazer: não tenta disputar Goiânia contra quem tem 740 mil seguidores, não tenta cobrir os 246 municípios do estado e não gasta energia em plataformas que exigem meses para maturar. Concentra tudo em ganhar a Chapada com folga e furar para os municípios grandes do entorno.</p></div></div>
-  </section>
-  <section id="meta">
-    <div class="sec-head"><h2>A meta de votos, e de onde ela sai</h2><p>Cada parcela ancorada no resultado real de 2022, e não em projeção.</p></div>
-    <div class="metric-strip">
-      <div class="metric"><div class="metric-value">10.773</div><div class="metric-label">meta somada de votos nominais</div></div>
-      <div class="metric"><div class="metric-value">54º</div><div class="metric-label">posição que isso daria entre os 342 de 2022</div></div>
-      <div class="metric"><div class="metric-value">5,3%</div><div class="metric-label">do quociente eleitoral, entregue ao PSB</div></div>
-      <div class="metric"><div class="metric-value">8,6x</div><div class="metric-label">o que o melhor PSB local fez na região em 2022</div></div>
-    </div>
-    <div class="table-wrap"><table>
-      <thead><tr><th>Território</th><th>Votos nominais em 2022</th><th>Meta de participação</th><th>Votos</th><th>Âncora da meta</th></tr></thead>
-      <tbody>
-        <tr><td>Chapada dos Veadeiros (6 municípios)</td><td>20.633</td><td>25%</td><td><b>5.158</b></td><td>Acima do recorde histórico da microrregião, que é 15,44% de Magda Mofatto em 2022</td></tr>
-        <tr><td>Nordeste Goiano, fora da Chapada (24 municípios)</td><td>209.929</td><td>1,5%</td><td><b>3.149</b></td><td>Um sexto do que Flávia Morais fez na mesma região</td></tr>
-        <tr><td>Restante de Goiás</td><td>3.082.354</td><td>0,08%</td><td><b>2.466</b></td><td>Voto disperso de rede, imprensa e horário gratuito do PSB</td></tr>
-        <tr><td><b>Total</b></td><td>3.312.916</td><td>0,33%</td><td><b>10.773</b></td><td>54ª posição no resultado de 2022</td></tr>
-      </tbody>
-    </table></div>
-    <div class="chart"><canvas id="chartMeta"></canvas></div>
-    <p>A parcela mais difícil é a primeira, e é a única que a campanha controla de verdade. Levar a Chapada a 25% significa <b>superar em 62% a maior concentração já registrada na microrregião</b>, feita por uma deputada com estrutura estadual. É agressivo, e é plausível justamente porque nenhum dos concorrentes históricos mora ali: a disputa local hoje é entre nomes de fora que aparecem de campanha em campanha.</p>
-    <div class="callout"><strong>Régua de comparação</strong><p>Para dimensionar: <b>Elias Vaz</b>, o candidato do PSB que melhor votou na região em 2022, fez <b>1.906 votos</b> nos 30 municípios, sendo 1.246 na Chapada. A meta deste plano é <b>8,6 vezes</b> esse total regional. Já a votação necessária para a última vaga, 51.346 votos, exigiria <b>22,3% de toda a região</b> ou uma penetração estadual que nenhuma estrutura disponível hoje sustenta em 47 dias. Por isso a meta é de construção, não de eleição.</p></div>
-    <div class="insight warn"><div class="insight-header">O que isso significa para você</div><div class="insight-body"><span class="verdict">&#9654; Atenção</span><p>Vale combinar essa régua com a candidata antes de 1º de setembro. Uma campanha que entra em outubro achando que disputa vaga e faz dez mil votos vive o resultado como derrota. A mesma campanha, com a meta acordada em dez mil, vive como o melhor desempenho de estreia do PSB na região em pelo menos duas eleições. É o mesmo número e são duas trajetórias políticas diferentes.</p></div></div>
-  </section>
-  <section id="calendario">
-    <div class="sec-head"><h2>O calendário legal que fecha as janelas</h2><p>Datas confirmadas na Resolução TSE nº 23.760/2026 e no calendário eleitoral oficial.</p></div>
-    <p>Três janelas fecham <b>antes</b> do dia da eleição, e planejar sem elas é o erro mais comum de campanha estreante. A mais importante é a da mídia paga: ela termina em <b>1º de outubro</b>, três dias antes da urna.</p>
-    <div class="table-wrap"><table>
-      <thead><tr><th>Janela</th><th>Período</th><th>Situação hoje</th><th>Dias restantes</th></tr></thead>
-      <tbody>
-        <tr><td><b>Impulsionamento pago na internet</b></td><td>16/08 a 01/10</td><td>Aberta <span class="status warn">não utilizada</span></td><td><b>44</b></td></tr>
-        <tr><td>Horário eleitoral gratuito em rádio e TV</td><td>28/08 a 01/10</td><td>Abre em 10 dias</td><td>34 de veiculação</td></tr>
-        <tr><td>Propaganda paga na imprensa escrita</td><td>16/08 a 02/10</td><td>Aberta, até 10 anúncios por veículo</td><td>45</td></tr>
-        <tr><td>Comícios e sonorização fixa</td><td>16/08 a 01/10, das 8h às 24h</td><td>Aberta</td><td>44</td></tr>
-        <tr><td>Alto-falantes e amplificadores</td><td>16/08 a 03/10, das 8h às 22h</td><td>Aberta</td><td>46</td></tr>
-        <tr><td>Material gráfico, caminhada, carreata e passeata</td><td>até as 22h de 03/10</td><td>Aberta</td><td>46</td></tr>
-        <tr><td>Enquetes sobre o processo eleitoral</td><td>proibidas desde 16/08</td><td>Vedado</td><td>—</td></tr>
-      </tbody>
-    </table></div>
-    <div class="callout"><strong>Duas regras que mudam a rotina de produção</strong><p>Primeira: <b>live da candidata equivale a ato de campanha</b> desde 16 de agosto, mesmo sem menção à eleição e mesmo tratando de mandato. Toda transmissão entra na contabilidade de campanha e precisa seguir as mesmas regras das demais peças. Segunda: é vedada a publicação e a republicação de <b>novo conteúdo sintético produzido ou alterado por inteligência artificial</b>, ainda que gratuito, e o seu impulsionamento, nas <b>72 horas anteriores e nas 24 horas posteriores</b> à eleição. Na prática, todo material com IA precisa estar publicado antes de 1º de outubro. Continua vedado, em qualquer data, o disparo em massa de conteúdo político-eleitoral em aplicativos de mensagem.</p></div>
-    <div class="chart"><canvas id="chartJanelas"></canvas></div>
-    <div class="insight bad"><div class="insight-header">O que isso significa para você</div><div class="insight-body"><span class="verdict">&#9654; Atenção</span><p>A campanha está no dia 3 de uma janela de 47 e ainda não abriu a única alavanca que resolve o problema diagnosticado, que é alcance. Cada dia sem impulsionamento é um dia a menos de uma janela que não se renova: quando chegar 1º de outubro, o dinheiro que sobrar na conta de campanha não compra mais nada na internet.</p></div></div>
-  </section>
-  <section id="fase0">
-    <div class="sec-head"><h2>Fase 0: as próximas 48 horas</h2><p>Sete correções que não custam dinheiro e destravam tráfego que já existe.</p></div>
-    <p>Nenhum item desta lista depende de orçamento, equipe ou terceiros. Todos saem de achados literais da análise, e juntos eles param o vazamento de audiência que a campanha já pagou para gerar.</p>
-    <div class="priority">
-      <div class="priority-num">01</div>
-      <div><h3>Recuperar o nome de usuário antigo</h3><p>Registrar <b>@nataliarincopsb</b> numa conta secundária que aponte para a atual. Hoje ele devolve erro, é o endereço que o Google indexa, é o que está declarado ao TSE e está livre para qualquer pessoa registrar, inclusive um adversário.</p></div>
-      <span class="status bad">Crítico</span>
-    </div>
-    <div class="priority">
-      <div class="priority-num">02</div>
-      <div><h3>Atualizar o endereço declarado na Justiça Eleitoral</h3><p>O registro aponta para <b>instagram.com/nataliarincopsb</b> e para o Threads sob o mesmo nome. Os dois estão fora do ar. Corrigir para @nataliarinco4055.</p></div>
-      <span class="status bad">Crítico</span>
-    </div>
-    <div class="priority">
-      <div class="priority-num">03</div>
-      <div><h3>Colocar o 4055 na biografia</h3><p>O número está no nome de usuário e não aparece no texto que o eleitor lê. Primeira linha da bio: nome, cargo e número.</p></div>
-      <span class="status warn">Alto impacto</span>
-    </div>
-    <div class="priority">
-      <div class="priority-num">04</div>
-      <div><h3>Reorganizar os destaques</h3><p>São 14 fixados e apenas 1 é de campanha. Arquivar treinos, Quarentena, Banda, Canoa, Europa e Bloco Badauê. Deixar <b>Chapada</b>, que tem 68 mídias e sustenta a narrativa, e criar três novos: Quem sou, Propostas e 4055.</p></div>
-      <span class="status warn">Alto impacto</span>
-    </div>
-    <div class="priority">
-      <div class="priority-num">05</div>
-      <div><h3>Corrigir o erro de digitação da bio</h3><p>&ldquo;Novas oportunidade&rdquo; está sem o plural. É a última linha que o eleitor lê antes de decidir se segue.</p></div>
-      <span class="status">Rápido</span>
-    </div>
-    <div class="priority">
-      <div class="priority-num">06</div>
-      <div><h3>Corrigir a legenda de 2 de julho</h3><p>Ela está na voz do parceiro, agradecendo à própria candidata em terceira pessoa e citando um arroba que não existe mais.</p></div>
-      <span class="status">Rápido</span>
-    </div>
-    <div class="priority">
-      <div class="priority-num">07</div>
-      <div><h3>Configurar o botão de contato nativo</h3><p>O WhatsApp existe como link na bio, mas o perfil não tem botão de contato configurado. É um toque a menos entre o eleitor e a conversa.</p></div>
-      <span class="status">Rápido</span>
-    </div>
-    <div class="insight good"><div class="insight-header">O que isso significa para você</div><div class="insight-body"><span class="verdict">&#9733; Destaque</span><p>Esta é a fase de melhor retorno de todo o plano, e ela termina em dois dias. As sete correções somadas custam menos de três horas de trabalho e resolvem o único achado da análise que é ao mesmo tempo grave, visível para adversários e trivial de consertar.</p></div></div>
-  </section>
-  <section id="fases">
-    <div class="sec-head"><h2>Fases 1 a 3: a operação</h2><p>Do dia 19 de agosto até o fechamento da janela paga, em 1º de outubro.</p></div>
-    <div class="roadmap">
-      <div class="phase"><div class="phase-time">Fase 1 · 19/08 a 30/08 · 12 dias</div><h3>Ligar a distribuição</h3><ol>
-        <li>Abrir a conta de anúncios com o CNPJ de campanha 68.518.601/0001-24 e subir a primeira campanha ainda esta semana.</li>
-        <li>Subir a cadência de 1 publicação por semana para <b>2 por dia</b>, sendo pelo menos 1 Reel, que é o único formato que hoje alcança além da base.</li>
-        <li>Abrir o TikTok e republicar ali os 11 Reels da fase de campanha, que já foram produzidos e testados.</li>
-        <li>Impulsionar os dois melhores posts existentes, a convenção de 04/08 e o anúncio de 08/08, com segmentação nos 6 municípios da Chapada.</li>
-        <li>Produzir a peça de apresentação de 30 segundos com nome, número e território, que vira a base de todo o resto.</li>
-        <li>Estruturar os 95 perfis já marcados em lista de multiplicadores, com contato direto e material pronto para repostar.</li>
-      </ol><div class="phase-kpi">Metas: 4.500 seguidores · primeira campanha paga no ar · TikTok aberto com 11 vídeos · 24 publicações no período</div></div>
+  </div>
 
-      <div class="phase"><div class="phase-time">Fase 2 · 31/08 a 17/09 · 18 dias</div><h3>Converter alcance em intenção</h3><ol>
-        <li>Entrar no horário eleitoral gratuito do PSB, que começa em 28/08, com peça própria alinhada ao material digital.</li>
-        <li>Escalar o investimento para os 5 municípios grandes do entorno, que são Formosa, Planaltina, Niquelândia, Posse e Minaçu.</li>
-        <li>Passar a fechar <b>toda</b> publicação com pedido explícito de voto e o número, contra 1 em 20 hoje.</li>
-        <li>Rodar uma agenda presencial semanal na Chapada, transformada em conteúdo no mesmo dia.</li>
-        <li>Abrir uma segunda frente de conteúdo com as pautas da vaquinha: turismo comunitário, reciclagem, mulheres e interior.</li>
-        <li>Retomar a vaquinha com meta pública declarada, hoje ausente na página.</li>
-      </ol><div class="phase-kpi">Metas: 8.000 seguidores · R$ 15.000 arrecadados · 100% das peças com o número · 36 publicações no período</div></div>
+  <nav class="nav" aria-label="Seções do plano">
+    <a href="#premissa">Premissa</a><a href="#meta">Meta</a><a href="#calendario">Calendário legal</a><a
+      href="#fase0">Fase 0</a><a href="#fases">Fases 1 a 3</a><a href="#urna">Reta final</a><a
+      href="#geografia">Geografia</a><a href="#orcamento">Orçamento</a><a href="#painel">Painel</a><a href="#nao">O que
+      não fazer</a>
+  </nav>
 
-      <div class="phase"><div class="phase-time">Fase 3 · 18/09 a 01/10 · 14 dias</div><h3>Gastar a janela antes que ela feche</h3><ol>
-        <li>Concentrar aqui a maior parte do orçamento de mídia: é a fase em que o eleitor decide e a última em que se pode comprar alcance.</li>
-        <li>Publicar todo o material que use inteligência artificial <b>antes de 1º de outubro</b>, por causa da vedação das 72 horas.</li>
-        <li>Rodar a peça de fechamento com depoimento de lideranças locais da Chapada.</li>
-        <li>Fazer o comício ou ato de encerramento até 1º de outubro, quando a janela de sonorização fixa se encerra.</li>
-        <li>Distribuir material gráfico e organizar caminhadas, que seguem permitidos até as 22h de 3 de outubro.</li>
-        <li>Preparar e agendar todo o conteúdo orgânico dos três últimos dias, quando não há mais impulsionamento.</li>
-      </ol><div class="phase-kpi">Metas: 12.000 seguidores · 100% do orçamento de mídia executado até 01/10 · conteúdo dos 3 últimos dias pronto</div></div>
+  <main class="page">
+    <section id="premissa">
+      <div class="sec-head">
+        <h2>A premissa do plano</h2>
+        <p>O que este plano persegue, e por que não persegue a vaga.</p>
+      </div>
+      <div class="essential">
+        <div class="essential-main">
+          <p class="eyebrow">Objetivo declarado</p>
+          <p class="lede">A análise de 24 de agosto mostrou que a vaga não está ao alcance desta eleição: o PSB fez
+            <b>0,38 do quociente eleitoral</b> em 2022 e a base geográfica inteira vale 40% do que o último eleito
+            precisou. Um plano honesto não finge o contrário. Este plano persegue <b>duas coisas que estão ao
+              alcance</b>: maximizar a votação pessoal de outubro, que é o ativo que fica, e parar de desperdiçar o que
+            a campanha já construiu e não está usando.</p>
+        </div>
+        <div class="card">
+          <p class="eyebrow">Por que isso importa</p>
+          <p>Votação pessoal é o que define acesso a cargo, a espaço no partido e a viabilidade de 2028 e 2030. Uma
+            estreante que sai de zero e faz <b>dez mil votos</b> vira quadro consolidado. Uma que faz dois mil vira nota
+            de rodapé. A diferença entre os dois cenários está inteiramente dentro destes 47 dias.</p>
+        </div>
+      </div>
+      <div class="grid-3" style="margin-top:1rem">
+        <div class="card">
+          <p class="eyebrow">Princípio 1</p>
+          <h3>Primeiro o que é grátis</h3>
+          <p>Sete correções de custo zero destravam tráfego que já existe e hoje se perde. Nenhuma delas depende de
+            dinheiro, equipe ou aprovação.</p>
+        </div>
+        <div class="card">
+          <p class="eyebrow">Princípio 2</p>
+          <h3>Depois o que compra alcance</h3>
+          <p>O gargalo medido é distribuição, não conteúdo. Com 9,37% de engajamento, cada pessoa nova alcançada rende
+            mais aqui que em qualquer perfil comparado.</p>
+        </div>
+        <div class="card">
+          <p class="eyebrow">Princípio 3</p>
+          <h3>Sempre com o número</h3>
+          <p>O número 4055 aparece hoje em uma legenda de vinte. Nenhuma peça deste plano sai sem ele. É o que se digita
+            na urna.</p>
+        </div>
+      </div>
+      <div class="insight info">
+        <div class="insight-header">O que isso significa para você</div>
+        <div class="insight-body"><span class="verdict">&#9654; Atenção</span>
+          <p>A escolha mais importante do plano é o que ele decide não fazer: não tenta disputar Goiânia contra quem tem
+            740 mil seguidores, não tenta cobrir os 246 municípios do estado e não gasta energia em plataformas que
+            exigem meses para maturar. Concentra tudo em ganhar a Chapada com folga e furar para os municípios grandes
+            do entorno.</p>
+        </div>
+      </div>
+    </section>
+    <section id="meta">
+      <div class="sec-head">
+        <h2>A meta de votos, e de onde ela sai</h2>
+        <p>Cada parcela ancorada no resultado real de 2022, e não em projeção.</p>
+      </div>
+      <div class="metric-strip">
+        <div class="metric">
+          <div class="metric-value">10.773</div>
+          <div class="metric-label">meta somada de votos nominais</div>
+        </div>
+        <div class="metric">
+          <div class="metric-value">54º</div>
+          <div class="metric-label">posição que isso daria entre os 342 de 2022</div>
+        </div>
+        <div class="metric">
+          <div class="metric-value">5,3%</div>
+          <div class="metric-label">do quociente eleitoral, entregue ao PSB</div>
+        </div>
+        <div class="metric">
+          <div class="metric-value">8,6x</div>
+          <div class="metric-label">o que o melhor PSB local fez na região em 2022</div>
+        </div>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Território</th>
+              <th>Votos nominais em 2022</th>
+              <th>Meta de participação</th>
+              <th>Votos</th>
+              <th>Âncora da meta</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Chapada dos Veadeiros (6 municípios)</td>
+              <td>20.633</td>
+              <td>25%</td>
+              <td><b>5.158</b></td>
+              <td>Acima do recorde histórico da microrregião, que é 15,44% de Magda Mofatto em 2022</td>
+            </tr>
+            <tr>
+              <td>Nordeste Goiano, fora da Chapada (24 municípios)</td>
+              <td>209.929</td>
+              <td>1,5%</td>
+              <td><b>3.149</b></td>
+              <td>Um sexto do que Flávia Morais fez na mesma região</td>
+            </tr>
+            <tr>
+              <td>Restante de Goiás</td>
+              <td>3.082.354</td>
+              <td>0,08%</td>
+              <td><b>2.466</b></td>
+              <td>Voto disperso de rede, imprensa e horário gratuito do PSB</td>
+            </tr>
+            <tr>
+              <td><b>Total</b></td>
+              <td>3.312.916</td>
+              <td>0,33%</td>
+              <td><b>10.773</b></td>
+              <td>54ª posição no resultado de 2022</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="chart"><canvas id="chartMeta"></canvas></div>
+      <p>A parcela mais difícil é a primeira, e é a única que a campanha controla de verdade. Levar a Chapada a 25%
+        significa <b>superar em 62% a maior concentração já registrada na microrregião</b>, feita por uma deputada com
+        estrutura estadual. É agressivo, e é plausível justamente porque nenhum dos concorrentes históricos mora ali: a
+        disputa local hoje é entre nomes de fora que aparecem de campanha em campanha.</p>
+      <div class="callout"><strong>Régua de comparação</strong>
+        <p>Para dimensionar: <b>Elias Vaz</b>, o candidato do PSB que melhor votou na região em 2022, fez <b>1.906
+            votos</b> nos 30 municípios, sendo 1.246 na Chapada. A meta deste plano é <b>8,6 vezes</b> esse total
+          regional. Já a votação necessária para a última vaga, 51.346 votos, exigiria <b>22,3% de toda a região</b> ou
+          uma penetração estadual que nenhuma estrutura disponível hoje sustenta em 47 dias. Por isso a meta é de
+          construção, não de eleição.</p>
+      </div>
+      <div class="insight warn">
+        <div class="insight-header">O que isso significa para você</div>
+        <div class="insight-body"><span class="verdict">&#9654; Atenção</span>
+          <p>Vale combinar essa régua com a candidata antes de 1º de setembro. Uma campanha que entra em outubro achando
+            que disputa vaga e faz dez mil votos vive o resultado como derrota. A mesma campanha, com a meta acordada em
+            dez mil, vive como o melhor desempenho de estreia do PSB na região em pelo menos duas eleições. É o mesmo
+            número e são duas trajetórias políticas diferentes.</p>
+        </div>
+      </div>
+    </section>
+    <section id="calendario">
+      <div class="sec-head">
+        <h2>O calendário legal que fecha as janelas</h2>
+        <p>Datas confirmadas na Resolução TSE nº 23.760/2026 e no calendário eleitoral oficial.</p>
+      </div>
+      <p>Três janelas fecham <b>antes</b> do dia da eleição, e planejar sem elas é o erro mais comum de campanha
+        estreante. A mais importante é a da mídia paga: ela termina em <b>1º de outubro</b>, três dias antes da urna.
+      </p>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Janela</th>
+              <th>Período</th>
+              <th>Situação hoje</th>
+              <th>Dias restantes</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><b>Impulsionamento pago na internet</b></td>
+              <td>16/08 a 01/10</td>
+              <td>Aberta <span class="status warn">não utilizada</span></td>
+              <td><b>44</b></td>
+            </tr>
+            <tr>
+              <td>Horário eleitoral gratuito em rádio e TV</td>
+              <td>28/08 a 01/10</td>
+              <td>Abre em 10 dias</td>
+              <td>34 de veiculação</td>
+            </tr>
+            <tr>
+              <td>Propaganda paga na imprensa escrita</td>
+              <td>16/08 a 02/10</td>
+              <td>Aberta, até 10 anúncios por veículo</td>
+              <td>45</td>
+            </tr>
+            <tr>
+              <td>Comícios e sonorização fixa</td>
+              <td>16/08 a 01/10, das 8h às 24h</td>
+              <td>Aberta</td>
+              <td>44</td>
+            </tr>
+            <tr>
+              <td>Alto-falantes e amplificadores</td>
+              <td>16/08 a 03/10, das 8h às 22h</td>
+              <td>Aberta</td>
+              <td>46</td>
+            </tr>
+            <tr>
+              <td>Material gráfico, caminhada, carreata e passeata</td>
+              <td>até as 22h de 03/10</td>
+              <td>Aberta</td>
+              <td>46</td>
+            </tr>
+            <tr>
+              <td>Enquetes sobre o processo eleitoral</td>
+              <td>proibidas desde 16/08</td>
+              <td>Vedado</td>
+              <td>—</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="callout"><strong>Duas regras que mudam a rotina de produção</strong>
+        <p>Primeira: <b>live da candidata equivale a ato de campanha</b> desde 16 de agosto, mesmo sem menção à eleição
+          e mesmo tratando de mandato. Toda transmissão entra na contabilidade de campanha e precisa seguir as mesmas
+          regras das demais peças. Segunda: é vedada a publicação e a republicação de <b>novo conteúdo sintético
+            produzido ou alterado por inteligência artificial</b>, ainda que gratuito, e o seu impulsionamento, nas
+          <b>72 horas anteriores e nas 24 horas posteriores</b> à eleição. Na prática, todo material com IA precisa
+          estar publicado antes de 1º de outubro. Continua vedado, em qualquer data, o disparo em massa de conteúdo
+          político-eleitoral em aplicativos de mensagem.</p>
+      </div>
+      <div class="chart"><canvas id="chartJanelas"></canvas></div>
+      <div class="insight bad">
+        <div class="insight-header">O que isso significa para você</div>
+        <div class="insight-body"><span class="verdict">&#9654; Atenção</span>
+          <p>A campanha está no dia 3 de uma janela de 47 e ainda não abriu a única alavanca que resolve o problema
+            diagnosticado, que é alcance. Cada dia sem impulsionamento é um dia a menos de uma janela que não se renova:
+            quando chegar 1º de outubro, o dinheiro que sobrar na conta de campanha não compra mais nada na internet.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="fase0">
+      <div class="sec-head">
+        <h2>Fase 0: as próximas 48 horas</h2>
+        <p>Sete correções que não custam dinheiro e destravam tráfego que já existe.</p>
+      </div>
+      <p>Nenhum item desta lista depende de orçamento, equipe ou terceiros. Todos saem de achados literais da análise, e
+        juntos eles param o vazamento de audiência que a campanha já pagou para gerar.</p>
+      <div class="priority">
+        <div class="priority-num">01</div>
+        <div>
+          <h3>Recuperar o nome de usuário antigo</h3>
+          <p>Registrar <b>@nataliarincopsb</b> numa conta secundária que aponte para a atual. Hoje ele devolve erro, é o
+            endereço que o Google indexa, é o que está declarado ao TSE e está livre para qualquer pessoa registrar,
+            inclusive um adversário.</p>
+        </div>
+        <span class="status bad">Crítico</span>
+      </div>
+      <div class="priority">
+        <div class="priority-num">02</div>
+        <div>
+          <h3>Atualizar o endereço declarado na Justiça Eleitoral</h3>
+          <p>O registro aponta para <b>instagram.com/nataliarincopsb</b> e para o Threads sob o mesmo nome. Os dois
+            estão fora do ar. Corrigir para @nataliarinco4055.</p>
+        </div>
+        <span class="status bad">Crítico</span>
+      </div>
+      <div class="priority">
+        <div class="priority-num">03</div>
+        <div>
+          <h3>Colocar o 4055 na biografia</h3>
+          <p>O número está no nome de usuário e não aparece no texto que o eleitor lê. Primeira linha da bio: nome,
+            cargo e número.</p>
+        </div>
+        <span class="status warn">Alto impacto</span>
+      </div>
+      <div class="priority">
+        <div class="priority-num">04</div>
+        <div>
+          <h3>Reorganizar os destaques</h3>
+          <p>São 14 fixados e apenas 1 é de campanha. Arquivar treinos, Quarentena, Banda, Canoa, Europa e Bloco Badauê.
+            Deixar <b>Chapada</b>, que tem 68 mídias e sustenta a narrativa, e criar três novos: Quem sou, Propostas e
+            4055.</p>
+        </div>
+        <span class="status warn">Alto impacto</span>
+      </div>
+      <div class="priority">
+        <div class="priority-num">05</div>
+        <div>
+          <h3>Corrigir o erro de digitação da bio</h3>
+          <p>&ldquo;Novas oportunidade&rdquo; está sem o plural. É a última linha que o eleitor lê antes de decidir se
+            segue.</p>
+        </div>
+        <span class="status">Rápido</span>
+      </div>
+      <div class="priority">
+        <div class="priority-num">06</div>
+        <div>
+          <h3>Corrigir a legenda de 2 de julho</h3>
+          <p>Ela está na voz do parceiro, agradecendo à própria candidata em terceira pessoa e citando um arroba que não
+            existe mais.</p>
+        </div>
+        <span class="status">Rápido</span>
+      </div>
+      <div class="priority">
+        <div class="priority-num">07</div>
+        <div>
+          <h3>Configurar o botão de contato nativo</h3>
+          <p>O WhatsApp existe como link na bio, mas o perfil não tem botão de contato configurado. É um toque a menos
+            entre o eleitor e a conversa.</p>
+        </div>
+        <span class="status">Rápido</span>
+      </div>
+      <div class="insight good">
+        <div class="insight-header">O que isso significa para você</div>
+        <div class="insight-body"><span class="verdict">&#9733; Destaque</span>
+          <p>Esta é a fase de melhor retorno de todo o plano, e ela termina em dois dias. As sete correções somadas
+            custam menos de três horas de trabalho e resolvem o único achado da análise que é ao mesmo tempo grave,
+            visível para adversários e trivial de consertar.</p>
+        </div>
+      </div>
+    </section>
+    <section id="fases">
+      <div class="sec-head">
+        <h2>Fases 1 a 3: a operação</h2>
+        <p>Do dia 19 de agosto até o fechamento da janela paga, em 1º de outubro.</p>
+      </div>
+      <div class="roadmap">
+        <div class="phase">
+          <div class="phase-time">Fase 1 · 19/08 a 30/08 · 12 dias</div>
+          <h3>Ligar a distribuição</h3>
+          <ol>
+            <li>Abrir a conta de anúncios com o CNPJ de campanha 68.518.601/0001-24 e subir a primeira campanha ainda
+              esta semana.</li>
+            <li>Subir a cadência de 1 publicação por semana para <b>2 por dia</b>, sendo pelo menos 1 Reel, que é o
+              único formato que hoje alcança além da base.</li>
+            <li>Abrir o TikTok e republicar ali os 11 Reels da fase de campanha, que já foram produzidos e testados.
+            </li>
+            <li>Impulsionar os dois melhores posts existentes, a convenção de 04/08 e o anúncio de 08/08, com
+              segmentação nos 6 municípios da Chapada.</li>
+            <li>Produzir a peça de apresentação de 30 segundos com nome, número e território, que vira a base de todo o
+              resto.</li>
+            <li>Estruturar os 95 perfis já marcados em lista de multiplicadores, com contato direto e material pronto
+              para repostar.</li>
+          </ol>
+          <div class="phase-kpi">Metas: 4.500 seguidores · primeira campanha paga no ar · TikTok aberto com 11 vídeos ·
+            24 publicações no período</div>
+        </div>
+
+        <div class="phase">
+          <div class="phase-time">Fase 2 · 31/08 a 17/09 · 18 dias</div>
+          <h3>Converter alcance em intenção</h3>
+          <ol>
+            <li>Entrar no horário eleitoral gratuito do PSB, que começa em 28/08, com peça própria alinhada ao material
+              digital.</li>
+            <li>Escalar o investimento para os 5 municípios grandes do entorno, que são Formosa, Planaltina,
+              Niquelândia, Posse e Minaçu.</li>
+            <li>Passar a fechar <b>toda</b> publicação com pedido explícito de voto e o número, contra 1 em 20 hoje.
+            </li>
+            <li>Rodar uma agenda presencial semanal na Chapada, transformada em conteúdo no mesmo dia.</li>
+            <li>Abrir uma segunda frente de conteúdo com as pautas da vaquinha: turismo comunitário, reciclagem,
+              mulheres e interior.</li>
+            <li>Retomar a vaquinha com meta pública declarada, hoje ausente na página.</li>
+          </ol>
+          <div class="phase-kpi">Metas: 8.000 seguidores · R$ 15.000 arrecadados · 100% das peças com o número · 36
+            publicações no período</div>
+        </div>
+
+        <div class="phase">
+          <div class="phase-time">Fase 3 · 18/09 a 01/10 · 14 dias</div>
+          <h3>Gastar a janela antes que ela feche</h3>
+          <ol>
+            <li>Concentrar aqui a maior parte do orçamento de mídia: é a fase em que o eleitor decide e a última em que
+              se pode comprar alcance.</li>
+            <li>Publicar todo o material que use inteligência artificial <b>antes de 1º de outubro</b>, por causa da
+              vedação das 72 horas.</li>
+            <li>Rodar a peça de fechamento com depoimento de lideranças locais da Chapada.</li>
+            <li>Fazer o comício ou ato de encerramento até 1º de outubro, quando a janela de sonorização fixa se
+              encerra.</li>
+            <li>Distribuir material gráfico e organizar caminhadas, que seguem permitidos até as 22h de 3 de outubro.
+            </li>
+            <li>Preparar e agendar todo o conteúdo orgânico dos três últimos dias, quando não há mais impulsionamento.
+            </li>
+          </ol>
+          <div class="phase-kpi">Metas: 12.000 seguidores · 100% do orçamento de mídia executado até 01/10 · conteúdo
+            dos 3 últimos dias pronto</div>
+        </div>
+      </div>
+      <div class="insight info">
+        <div class="insight-header">O que isso significa para você</div>
+        <div class="insight-body"><span class="verdict">&#9654; Atenção</span>
+          <p>A curva de investimento é deliberadamente crescente. Campanha estreante costuma gastar cedo, quando ninguém
+            decidiu ainda, e chegar sem caixa nas duas semanas que decidem. Aqui a Fase 1 compra aprendizado com pouco
+            dinheiro, e a Fase 3 gasta o que sobrou sabendo o que funciona.</p>
+        </div>
+      </div>
+    </section>
+    <section id="urna">
+      <div class="sec-head">
+        <h2>Fase 4: os três últimos dias</h2>
+        <p>De 2 a 4 de outubro, sem mídia paga e com regra diferente.</p>
+      </div>
+      <div class="roadmap">
+        <div class="phase">
+          <div class="phase-time">02 e 03/10 · véspera</div>
+          <h3>Só orgânico e rua</h3>
+          <ol>
+            <li>Impulsionamento encerrado desde 1º de outubro: tudo daqui em diante é alcance próprio e compartilhamento
+              da rede.</li>
+            <li>Acionar a lista de multiplicadores construída na Fase 1, com peça pronta para repostar.</li>
+            <li>Caminhada e distribuição de material gráfico permitidas até as <b>22h de 3 de outubro</b>.</li>
+            <li>Nada de conteúdo novo com inteligência artificial: a vedação das 72 horas já está valendo.</li>
+            <li>Peça final simples, com rosto, nome e número, pensada para ser vista sem som.</li>
+          </ol>
+          <div class="phase-kpi">Meta: 100% da rede de multiplicadores acionada com material em mãos</div>
+        </div>
+
+        <div class="phase">
+          <div class="phase-time">04/10 · dia da eleição</div>
+          <h3>Lembrança do número</h3>
+          <ol>
+            <li>O que decide agora é uma coisa só: quem lembra de 4055 na hora de digitar.</li>
+            <li>Conteúdo orgânico curto e repetitivo com o número, publicado ao longo do dia.</li>
+            <li>Mobilização da rede pessoal por conversa individual, nunca por disparo em massa, que é vedado.</li>
+            <li>Registrar o dia em conteúdo: é material de abertura do próximo ciclo, independentemente do resultado.
+            </li>
+          </ol>
+          <div class="phase-kpi">Meta: 10.773 votos nominais</div>
+        </div>
+      </div>
+      <div class="insight purple">
+        <div class="insight-header">O que isso significa para você</div>
+        <div class="insight-body"><span class="verdict">&#9654; Atenção</span>
+          <p>O dia da eleição não muda intenção de voto, ele só recupera memória. Por isso o número precisa ter sido
+            repetido nas seis semanas anteriores: quem chega ao dia 4 tentando apresentar a candidata pela primeira vez
+            já perdeu. É a razão de o 4055 aparecer em todas as fases deste plano.</p>
+        </div>
+      </div>
+    </section>
+    <section id="geografia">
+      <div class="sec-head">
+        <h2>Onde concentrar o esforço</h2>
+        <p>A priorização geográfica que decorre do eleitorado real de cada município.</p>
+      </div>
+      <p>A base emocional da campanha é a Chapada, mas a base aritmética não está toda lá. Os seis municípios da
+        microrregião somam 30.157 eleitores, enquanto <b>Formosa e Planaltina sozinhas somam 135.861</b>. O plano trata
+        os dois grupos com papéis diferentes: a Chapada é onde se busca domínio, o entorno é onde se busca penetração.
+      </p>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Município</th>
+              <th>Eleitores em 2022</th>
+              <th>Votos nominais dep. federal</th>
+              <th>Papel no plano</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Formosa</td>
+              <td>74.886</td>
+              <td>49.187</td>
+              <td>Penetração, maior colégio da região</td>
+            </tr>
+            <tr>
+              <td>Planaltina</td>
+              <td>60.975</td>
+              <td>38.046</td>
+              <td>Penetração</td>
+            </tr>
+            <tr>
+              <td>Niquelândia</td>
+              <td>27.499</td>
+              <td>18.219</td>
+              <td>Penetração</td>
+            </tr>
+            <tr>
+              <td>Posse</td>
+              <td>24.322</td>
+              <td>17.342</td>
+              <td>Penetração</td>
+            </tr>
+            <tr>
+              <td>Minaçu</td>
+              <td>22.451</td>
+              <td>14.935</td>
+              <td>Penetração</td>
+            </tr>
+            <tr>
+              <td>Campos Belos</td>
+              <td>14.136</td>
+              <td>9.707</td>
+              <td>Penetração</td>
+            </tr>
+            <tr>
+              <td><b>Alto Paraíso de Goiás</b></td>
+              <td>6.941</td>
+              <td>4.700</td>
+              <td><b>Domínio</b>, cidade da família</td>
+            </tr>
+            <tr>
+              <td>Cavalcante</td>
+              <td>7.215</td>
+              <td>4.892</td>
+              <td>Domínio, Chapada</td>
+            </tr>
+            <tr>
+              <td>São João d&rsquo;Aliança</td>
+              <td>7.035</td>
+              <td>5.004</td>
+              <td>Domínio, Chapada</td>
+            </tr>
+            <tr>
+              <td>Colinas do Sul</td>
+              <td>3.437</td>
+              <td>2.343</td>
+              <td>Domínio, Chapada</td>
+            </tr>
+            <tr>
+              <td>Nova Roma</td>
+              <td>2.815</td>
+              <td>1.904</td>
+              <td>Domínio, Chapada</td>
+            </tr>
+            <tr>
+              <td>Teresina de Goiás</td>
+              <td>2.714</td>
+              <td>1.790</td>
+              <td>Domínio, Chapada</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="chart"><canvas id="chartGeografia"></canvas></div>
+      <div class="callout"><strong>A assimetria que orienta o gasto</strong>
+        <p>Os seis municípios de <b>penetração</b> reúnem <b>224.269 eleitores</b>, sete vezes e meia o eleitorado da
+          Chapada inteira, e é onde a mídia paga faz diferença, porque a candidata é desconhecida ali. Os seis de
+          <b>domínio</b> reúnem 30.157 eleitores, e ali a mídia paga importa menos que presença física, boca a boca e a
+          rede de lideranças, porque o nome já circula. Gastar dinheiro de anúncio na Chapada é comprar o que já se tem.
+        </p>
+      </div>
+      <div class="insight good">
+        <div class="insight-header">O que isso significa para você</div>
+        <div class="insight-body"><span class="verdict">&#9733; Destaque</span>
+          <p>Essa divisão resolve a tensão entre coração e aritmética sem sacrificar nenhum dos dois. A Chapada continua
+            sendo a identidade e o palco das agendas presenciais, e o dinheiro de mídia vai para onde ele compra gente
+            nova. Formosa sozinha tem mais eleitores que os seis municípios da Chapada somados mais que o dobro.</p>
+        </div>
+      </div>
+    </section>
+    <section id="orcamento">
+      <div class="sec-head">
+        <h2>Onde colocar cada real</h2>
+        <p>Prioridade de investimento e o que o custo observado no mercado goiano sugere.</p>
+      </div>
+      <p>A vaquinha marcava <b>R$ 3.690 de 19 doadores</b> na data da análise, e nada disso virou distribuição. A boa
+        notícia é que o custo de alcance em Goiás, medido na Biblioteca de Anúncios da Meta, é baixo o suficiente para
+        que valores modestos comprem audiência relevante.</p>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Referência observada</th>
+              <th>Investimento</th>
+              <th>Impressões</th>
+              <th>Custo por mil impressões</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Magda Mofatto, peça de maior alcance</td>
+              <td>menos de R$ 200</td>
+              <td>500 mil a 600 mil</td>
+              <td>cerca de <b>R$ 0,36</b></td>
+            </tr>
+            <tr>
+              <td>Aava Santiago, anúncio ativo em agosto</td>
+              <td>R$ 1.000 a R$ 1.500</td>
+              <td>60 mil a 70 mil</td>
+              <td>cerca de <b>R$ 19,23</b></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p>A diferença de <b>53 vezes</b> entre os dois casos não é sorte: é criativo e segmentação. Uma peça que as
+        pessoas compartilham espontaneamente reduz o custo de entrega, e uma peça que precisa ser empurrada o
+        multiplica. Como o perfil da candidata já tem o maior engajamento do grupo comparado, a hipótese de trabalho é
+        que ela consiga um custo mais próximo do primeiro caso que do segundo, e isso deve ser testado com pouco
+        dinheiro na Fase 1 antes de escalar.</p>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Prioridade</th>
+              <th>Destino</th>
+              <th>Fase</th>
+              <th>Critério</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1ª</td>
+              <td>Teste de criativo, valores pequenos em várias peças</td>
+              <td>Fase 1</td>
+              <td>Descobrir o custo por mil real antes de escalar</td>
+            </tr>
+            <tr>
+              <td>2ª</td>
+              <td>Impulsionamento nos 6 municípios de penetração</td>
+              <td>Fases 2 e 3</td>
+              <td>Onde a candidata é desconhecida e há eleitorado</td>
+            </tr>
+            <tr>
+              <td>3ª</td>
+              <td>Produção da peça de apresentação de 30 segundos</td>
+              <td>Fase 1</td>
+              <td>Ativo reaproveitado em todas as fases</td>
+            </tr>
+            <tr>
+              <td>4ª</td>
+              <td>Deslocamento para agenda presencial na Chapada</td>
+              <td>Fases 2 e 3</td>
+              <td>Onde presença rende mais que anúncio</td>
+            </tr>
+            <tr>
+              <td>5ª</td>
+              <td>Material gráfico para os três últimos dias</td>
+              <td>Fase 3</td>
+              <td>Permitido até as 22h de 03/10</td>
+            </tr>
+            <tr>
+              <td>Última</td>
+              <td>Impulsionamento na Chapada</td>
+              <td>—</td>
+              <td>Comprar alcance onde o nome já circula</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="callout"><strong>Regras de contratação que não podem ser burladas</strong>
+        <p>O impulsionamento só pode ser contratado <b>diretamente com a plataforma</b>, pelo candidato, partido,
+          federação ou coligação, usando o CNPJ de campanha, e o conteúdo precisa estar <b>identificado como propaganda
+            eleitoral</b>. Não é permitido contratar por meio de terceiros ou de agências que não estejam nessa cadeia,
+          nem impulsionar a partir de perfil de apoiador. A plataforma também passa a exigir declaração específica sobre
+          uso de inteligência artificial no conteúdo impulsionado.</p>
+      </div>
+      <div class="insight warn">
+        <div class="insight-header">O que isso significa para você</div>
+        <div class="insight-body"><span class="verdict">&#9654; Atenção</span>
+          <p>O maior risco financeiro aqui não é gastar demais: é chegar em 1º de outubro com dinheiro em caixa. Recurso
+            de campanha não impulsiona depois dessa data e não se transfere para a eleição seguinte. Se a arrecadação
+            continuar no ritmo atual, a decisão relevante passa a ser quanto a candidata está disposta a colocar do
+            próprio bolso dentro das regras de autofinanciamento.</p>
+        </div>
+      </div>
+    </section>
+    <section id="painel">
+      <div class="sec-head">
+        <h2>O painel semanal</h2>
+        <p>Seis números para olhar toda segunda-feira, e o que cada um dispara.</p>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Indicador</th>
+              <th>Hoje</th>
+              <th>Meta em 01/10</th>
+              <th>O que fazer se estiver abaixo</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Seguidores</td>
+              <td>2.714</td>
+              <td>12.000</td>
+              <td>Aumentar investimento em peça de apresentação, não em peça de proposta</td>
+            </tr>
+            <tr>
+              <td>Publicações por semana</td>
+              <td>7 previstas, 1 realizada antes do plano</td>
+              <td>14</td>
+              <td>Reduzir produção elaborada e aumentar registro de agenda</td>
+            </tr>
+            <tr>
+              <td>Reproduções médias por Reel</td>
+              <td>4.104</td>
+              <td>25.000</td>
+              <td>Trocar o criativo, não o orçamento: custo alto é sintoma de peça fraca</td>
+            </tr>
+            <tr>
+              <td>Custo por mil impressões</td>
+              <td>não medido</td>
+              <td>abaixo de R$ 3,00</td>
+              <td>Voltar ao teste de criativo da Fase 1</td>
+            </tr>
+            <tr>
+              <td>Peças com o número 4055</td>
+              <td>1 de 20</td>
+              <td>100%</td>
+              <td>Erro de processo, corrigir na hora</td>
+            </tr>
+            <tr>
+              <td>Arrecadação da vaquinha</td>
+              <td>R$ 3.690</td>
+              <td>R$ 30.000</td>
+              <td>Publicar meta e prestação de contas parcial na página</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="chart"><canvas id="chartPainel"></canvas></div>
+      <div class="insight info">
+        <div class="insight-header">O que isso significa para você</div>
+        <div class="insight-body"><span class="verdict">&#9650; Bom</span>
+          <p>O indicador que mais informa é o custo por mil impressões, e ele é o único que a campanha ainda não mede.
+            Ele separa problema de dinheiro de problema de conteúdo: se o custo estiver alto, aumentar o orçamento só
+            queima caixa mais rápido, e o que precisa mudar é a peça.</p>
+        </div>
+      </div>
+    </section>
+    <section id="nao">
+      <div class="sec-head">
+        <h2>O que não fazer</h2>
+        <p>Riscos legais e desperdícios previsíveis nestes 47 dias.</p>
+      </div>
+      <div class="grid-2">
+        <div class="card">
+          <p class="eyebrow">Risco legal</p>
+          <h3>Disparo em massa em aplicativo de mensagem</h3>
+          <p>Continua vedado o disparo em massa de conteúdo político-eleitoral, tanto em aplicativos de mensagem quanto
+            em plataformas digitais. Mobilização por conversa individual e por grupos preexistentes é outra coisa e
+            segue permitida.</p>
+        </div>
+        <div class="card">
+          <p class="eyebrow">Risco legal</p>
+          <h3>Conteúdo com IA na reta final</h3>
+          <p>É vedada a publicação e a republicação de novo conteúdo sintético gerado ou alterado por inteligência
+            artificial, mesmo gratuito, nas 72 horas anteriores e nas 24 posteriores à eleição. Todo material desse tipo
+            precisa estar no ar antes de 1º de outubro.</p>
+        </div>
+        <div class="card">
+          <p class="eyebrow">Risco legal</p>
+          <h3>Impulsionar por fora da cadeia oficial</h3>
+          <p>O anúncio precisa ser contratado diretamente com a plataforma, pelo CNPJ de campanha, e identificado como
+            propaganda eleitoral. Apoiador impulsionando post da candidata a partir da própria conta gera problema, não
+            alcance.</p>
+        </div>
+        <div class="card">
+          <p class="eyebrow">Risco legal</p>
+          <h3>Divulgar enquete</h3>
+          <p>Enquetes relacionadas ao processo eleitoral estão proibidas desde 16 de agosto, e cabe poder de polícia
+            contra a divulgação. Caixinha de enquete no story sobre intenção de voto entra nessa vedação.</p>
+        </div>
+        <div class="card">
+          <p class="eyebrow">Desperdício</p>
+          <h3>Trocar o nome de usuário de novo</h3>
+          <p>A primeira troca já quebrou o registro no TSE, a indexação do Google e uma legenda. Uma segunda troca em
+            plena campanha destruiria também o que for construído agora.</p>
+        </div>
+        <div class="card">
+          <p class="eyebrow">Desperdício</p>
+          <h3>Disputar Goiânia</h3>
+          <p>A capital é o território de quem tem 740 mil seguidores e estrutura de anos. Cada real gasto ali compra
+            menos voto que o mesmo real gasto em Formosa ou Posse.</p>
+        </div>
+        <div class="card">
+          <p class="eyebrow">Desperdício</p>
+          <h3>Abrir mais plataformas do que se consegue alimentar</h3>
+          <p>O plano prevê uma única frente nova, o TikTok, e ainda assim reaproveitando Reels já produzidos. Abrir
+            Facebook, YouTube e Kwai ao mesmo tempo, com a cadência atual, resulta em cinco canais abandonados.</p>
+        </div>
+        <div class="card">
+          <p class="eyebrow">Desperdício</p>
+          <h3>Guardar dinheiro para depois</h3>
+          <p>A janela de impulsionamento fecha em 1º de outubro. Saldo em caixa no dia 2 de outubro não vira alcance,
+            vira só linha na prestação de contas.</p>
+        </div>
+      </div>
+      <div class="insight bad">
+        <div class="insight-header">O que isso significa para você</div>
+        <div class="insight-body"><span class="verdict">&#9654; Atenção</span>
+          <p>Os quatro primeiros itens não são conselhos de eficiência: são vedações com consequência de multa, de
+            direito de resposta ou de investigação. Numa campanha estreante, com registro ainda aguardando julgamento, o
+            custo de um deslize desses é desproporcional ao ganho que ele traria.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="closing">
+    <div class="closing-inner">
+      <h2>O plano não muda a aritmética. Ele muda o que sobra depois dela.</h2>
+      <p>A vaga de outubro depende de o PSB quase triplicar a votação de 2022, e isso não está nas mãos desta campanha.
+        O que está é a diferença entre terminar a eleição com dois mil votos e um perfil de 2.714 seguidores, ou
+        terminar com dez mil votos, doze mil seguidores, uma lista de multiplicadores organizada e a Chapada dos
+        Veadeiros votando em um nome da Chapada dos Veadeiros pela primeira vez. Os 47 dias decidem qual dos dois
+        cenários acontece, e as sete primeiras correções custam três horas.</p>
+      <div class="closing-meta">Oráculo Tecnologia · Plano de execução · 24 de agosto a 4 de outubro de 2026</div>
     </div>
-    <div class="insight info"><div class="insight-header">O que isso significa para você</div><div class="insight-body"><span class="verdict">&#9654; Atenção</span><p>A curva de investimento é deliberadamente crescente. Campanha estreante costuma gastar cedo, quando ninguém decidiu ainda, e chegar sem caixa nas duas semanas que decidem. Aqui a Fase 1 compra aprendizado com pouco dinheiro, e a Fase 3 gasta o que sobrou sabendo o que funciona.</p></div></div>
-  </section>
-  <section id="urna">
-    <div class="sec-head"><h2>Fase 4: os três últimos dias</h2><p>De 2 a 4 de outubro, sem mídia paga e com regra diferente.</p></div>
-    <div class="roadmap">
-      <div class="phase"><div class="phase-time">02 e 03/10 · véspera</div><h3>Só orgânico e rua</h3><ol>
-        <li>Impulsionamento encerrado desde 1º de outubro: tudo daqui em diante é alcance próprio e compartilhamento da rede.</li>
-        <li>Acionar a lista de multiplicadores construída na Fase 1, com peça pronta para repostar.</li>
-        <li>Caminhada e distribuição de material gráfico permitidas até as <b>22h de 3 de outubro</b>.</li>
-        <li>Nada de conteúdo novo com inteligência artificial: a vedação das 72 horas já está valendo.</li>
-        <li>Peça final simples, com rosto, nome e número, pensada para ser vista sem som.</li>
-      </ol><div class="phase-kpi">Meta: 100% da rede de multiplicadores acionada com material em mãos</div></div>
+  </div>
+  <script>
+    (() => {
+      const ink = '#1b2e73', primary = '#1d4ed8', soft = '#b3c0ea', rule = '#dfe1ec', good = '#15803d', purple = '#6d28d9';
+      Chart.defaults.font.family = "'Bricolage Grotesque', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif";
+      Chart.defaults.color = '#6b7186';
+      Chart.defaults.plugins.legend.labels.usePointStyle = true;
+      Chart.defaults.plugins.legend.labels.boxWidth = 7;
+      const grid = { color: '#ebedf4' };
 
-      <div class="phase"><div class="phase-time">04/10 · dia da eleição</div><h3>Lembrança do número</h3><ol>
-        <li>O que decide agora é uma coisa só: quem lembra de 4055 na hora de digitar.</li>
-        <li>Conteúdo orgânico curto e repetitivo com o número, publicado ao longo do dia.</li>
-        <li>Mobilização da rede pessoal por conversa individual, nunca por disparo em massa, que é vedado.</li>
-        <li>Registrar o dia em conteúdo: é material de abertura do próximo ciclo, independentemente do resultado.</li>
-      </ol><div class="phase-kpi">Meta: 10.773 votos nominais</div></div>
-    </div>
-    <div class="insight purple"><div class="insight-header">O que isso significa para você</div><div class="insight-body"><span class="verdict">&#9654; Atenção</span><p>O dia da eleição não muda intenção de voto, ele só recupera memória. Por isso o número precisa ter sido repetido nas seis semanas anteriores: quem chega ao dia 4 tentando apresentar a candidata pela primeira vez já perdeu. É a razão de o 4055 aparecer em todas as fases deste plano.</p></div></div>
-  </section>
-  <section id="geografia">
-    <div class="sec-head"><h2>Onde concentrar o esforço</h2><p>A priorização geográfica que decorre do eleitorado real de cada município.</p></div>
-    <p>A base emocional da campanha é a Chapada, mas a base aritmética não está toda lá. Os seis municípios da microrregião somam 30.157 eleitores, enquanto <b>Formosa e Planaltina sozinhas somam 135.861</b>. O plano trata os dois grupos com papéis diferentes: a Chapada é onde se busca domínio, o entorno é onde se busca penetração.</p>
-    <div class="table-wrap"><table>
-      <thead><tr><th>Município</th><th>Eleitores em 2022</th><th>Votos nominais dep. federal</th><th>Papel no plano</th></tr></thead>
-      <tbody>
-        <tr><td>Formosa</td><td>74.886</td><td>49.187</td><td>Penetração, maior colégio da região</td></tr>
-        <tr><td>Planaltina</td><td>60.975</td><td>38.046</td><td>Penetração</td></tr>
-        <tr><td>Niquelândia</td><td>27.499</td><td>18.219</td><td>Penetração</td></tr>
-        <tr><td>Posse</td><td>24.322</td><td>17.342</td><td>Penetração</td></tr>
-        <tr><td>Minaçu</td><td>22.451</td><td>14.935</td><td>Penetração</td></tr>
-        <tr><td>Campos Belos</td><td>14.136</td><td>9.707</td><td>Penetração</td></tr>
-        <tr><td><b>Alto Paraíso de Goiás</b></td><td>6.941</td><td>4.700</td><td><b>Domínio</b>, cidade da família</td></tr>
-        <tr><td>Cavalcante</td><td>7.215</td><td>4.892</td><td>Domínio, Chapada</td></tr>
-        <tr><td>São João d&rsquo;Aliança</td><td>7.035</td><td>5.004</td><td>Domínio, Chapada</td></tr>
-        <tr><td>Colinas do Sul</td><td>3.437</td><td>2.343</td><td>Domínio, Chapada</td></tr>
-        <tr><td>Nova Roma</td><td>2.815</td><td>1.904</td><td>Domínio, Chapada</td></tr>
-        <tr><td>Teresina de Goiás</td><td>2.714</td><td>1.790</td><td>Domínio, Chapada</td></tr>
-      </tbody>
-    </table></div>
-    <div class="chart"><canvas id="chartGeografia"></canvas></div>
-    <div class="callout"><strong>A assimetria que orienta o gasto</strong><p>Os seis municípios de <b>penetração</b> reúnem <b>224.269 eleitores</b>, sete vezes e meia o eleitorado da Chapada inteira, e é onde a mídia paga faz diferença, porque a candidata é desconhecida ali. Os seis de <b>domínio</b> reúnem 30.157 eleitores, e ali a mídia paga importa menos que presença física, boca a boca e a rede de lideranças, porque o nome já circula. Gastar dinheiro de anúncio na Chapada é comprar o que já se tem.</p></div>
-    <div class="insight good"><div class="insight-header">O que isso significa para você</div><div class="insight-body"><span class="verdict">&#9733; Destaque</span><p>Essa divisão resolve a tensão entre coração e aritmética sem sacrificar nenhum dos dois. A Chapada continua sendo a identidade e o palco das agendas presenciais, e o dinheiro de mídia vai para onde ele compra gente nova. Formosa sozinha tem mais eleitores que os seis municípios da Chapada somados mais que o dobro.</p></div></div>
-  </section>
-  <section id="orcamento">
-    <div class="sec-head"><h2>Onde colocar cada real</h2><p>Prioridade de investimento e o que o custo observado no mercado goiano sugere.</p></div>
-    <p>A vaquinha marcava <b>R$ 3.690 de 19 doadores</b> na data da análise, e nada disso virou distribuição. A boa notícia é que o custo de alcance em Goiás, medido na Biblioteca de Anúncios da Meta, é baixo o suficiente para que valores modestos comprem audiência relevante.</p>
-    <div class="table-wrap"><table>
-      <thead><tr><th>Referência observada</th><th>Investimento</th><th>Impressões</th><th>Custo por mil impressões</th></tr></thead>
-      <tbody>
-        <tr><td>Magda Mofatto, peça de maior alcance</td><td>menos de R$ 200</td><td>500 mil a 600 mil</td><td>cerca de <b>R$ 0,36</b></td></tr>
-        <tr><td>Aava Santiago, anúncio ativo em agosto</td><td>R$ 1.000 a R$ 1.500</td><td>60 mil a 70 mil</td><td>cerca de <b>R$ 19,23</b></td></tr>
-      </tbody>
-    </table></div>
-    <p>A diferença de <b>53 vezes</b> entre os dois casos não é sorte: é criativo e segmentação. Uma peça que as pessoas compartilham espontaneamente reduz o custo de entrega, e uma peça que precisa ser empurrada o multiplica. Como o perfil da candidata já tem o maior engajamento do grupo comparado, a hipótese de trabalho é que ela consiga um custo mais próximo do primeiro caso que do segundo, e isso deve ser testado com pouco dinheiro na Fase 1 antes de escalar.</p>
-    <div class="table-wrap"><table>
-      <thead><tr><th>Prioridade</th><th>Destino</th><th>Fase</th><th>Critério</th></tr></thead>
-      <tbody>
-        <tr><td>1ª</td><td>Teste de criativo, valores pequenos em várias peças</td><td>Fase 1</td><td>Descobrir o custo por mil real antes de escalar</td></tr>
-        <tr><td>2ª</td><td>Impulsionamento nos 6 municípios de penetração</td><td>Fases 2 e 3</td><td>Onde a candidata é desconhecida e há eleitorado</td></tr>
-        <tr><td>3ª</td><td>Produção da peça de apresentação de 30 segundos</td><td>Fase 1</td><td>Ativo reaproveitado em todas as fases</td></tr>
-        <tr><td>4ª</td><td>Deslocamento para agenda presencial na Chapada</td><td>Fases 2 e 3</td><td>Onde presença rende mais que anúncio</td></tr>
-        <tr><td>5ª</td><td>Material gráfico para os três últimos dias</td><td>Fase 3</td><td>Permitido até as 22h de 03/10</td></tr>
-        <tr><td>Última</td><td>Impulsionamento na Chapada</td><td>—</td><td>Comprar alcance onde o nome já circula</td></tr>
-      </tbody>
-    </table></div>
-    <div class="callout"><strong>Regras de contratação que não podem ser burladas</strong><p>O impulsionamento só pode ser contratado <b>diretamente com a plataforma</b>, pelo candidato, partido, federação ou coligação, usando o CNPJ de campanha, e o conteúdo precisa estar <b>identificado como propaganda eleitoral</b>. Não é permitido contratar por meio de terceiros ou de agências que não estejam nessa cadeia, nem impulsionar a partir de perfil de apoiador. A plataforma também passa a exigir declaração específica sobre uso de inteligência artificial no conteúdo impulsionado.</p></div>
-    <div class="insight warn"><div class="insight-header">O que isso significa para você</div><div class="insight-body"><span class="verdict">&#9654; Atenção</span><p>O maior risco financeiro aqui não é gastar demais: é chegar em 1º de outubro com dinheiro em caixa. Recurso de campanha não impulsiona depois dessa data e não se transfere para a eleição seguinte. Se a arrecadação continuar no ritmo atual, a decisão relevante passa a ser quanto a candidata está disposta a colocar do próprio bolso dentro das regras de autofinanciamento.</p></div></div>
-  </section>
-  <section id="painel">
-    <div class="sec-head"><h2>O painel semanal</h2><p>Seis números para olhar toda segunda-feira, e o que cada um dispara.</p></div>
-    <div class="table-wrap"><table>
-      <thead><tr><th>Indicador</th><th>Hoje</th><th>Meta em 01/10</th><th>O que fazer se estiver abaixo</th></tr></thead>
-      <tbody>
-        <tr><td>Seguidores</td><td>2.714</td><td>12.000</td><td>Aumentar investimento em peça de apresentação, não em peça de proposta</td></tr>
-        <tr><td>Publicações por semana</td><td>7 previstas, 1 realizada antes do plano</td><td>14</td><td>Reduzir produção elaborada e aumentar registro de agenda</td></tr>
-        <tr><td>Reproduções médias por Reel</td><td>4.104</td><td>25.000</td><td>Trocar o criativo, não o orçamento: custo alto é sintoma de peça fraca</td></tr>
-        <tr><td>Custo por mil impressões</td><td>não medido</td><td>abaixo de R$ 3,00</td><td>Voltar ao teste de criativo da Fase 1</td></tr>
-        <tr><td>Peças com o número 4055</td><td>1 de 20</td><td>100%</td><td>Erro de processo, corrigir na hora</td></tr>
-        <tr><td>Arrecadação da vaquinha</td><td>R$ 3.690</td><td>R$ 30.000</td><td>Publicar meta e prestação de contas parcial na página</td></tr>
-      </tbody>
-    </table></div>
-    <div class="chart"><canvas id="chartPainel"></canvas></div>
-    <div class="insight info"><div class="insight-header">O que isso significa para você</div><div class="insight-body"><span class="verdict">&#9650; Bom</span><p>O indicador que mais informa é o custo por mil impressões, e ele é o único que a campanha ainda não mede. Ele separa problema de dinheiro de problema de conteúdo: se o custo estiver alto, aumentar o orçamento só queima caixa mais rápido, e o que precisa mudar é a peça.</p></div></div>
-  </section>
-  <section id="nao">
-    <div class="sec-head"><h2>O que não fazer</h2><p>Riscos legais e desperdícios previsíveis nestes 47 dias.</p></div>
-    <div class="grid-2">
-      <div class="card"><p class="eyebrow">Risco legal</p><h3>Disparo em massa em aplicativo de mensagem</h3><p>Continua vedado o disparo em massa de conteúdo político-eleitoral, tanto em aplicativos de mensagem quanto em plataformas digitais. Mobilização por conversa individual e por grupos preexistentes é outra coisa e segue permitida.</p></div>
-      <div class="card"><p class="eyebrow">Risco legal</p><h3>Conteúdo com IA na reta final</h3><p>É vedada a publicação e a republicação de novo conteúdo sintético gerado ou alterado por inteligência artificial, mesmo gratuito, nas 72 horas anteriores e nas 24 posteriores à eleição. Todo material desse tipo precisa estar no ar antes de 1º de outubro.</p></div>
-      <div class="card"><p class="eyebrow">Risco legal</p><h3>Impulsionar por fora da cadeia oficial</h3><p>O anúncio precisa ser contratado diretamente com a plataforma, pelo CNPJ de campanha, e identificado como propaganda eleitoral. Apoiador impulsionando post da candidata a partir da própria conta gera problema, não alcance.</p></div>
-      <div class="card"><p class="eyebrow">Risco legal</p><h3>Divulgar enquete</h3><p>Enquetes relacionadas ao processo eleitoral estão proibidas desde 16 de agosto, e cabe poder de polícia contra a divulgação. Caixinha de enquete no story sobre intenção de voto entra nessa vedação.</p></div>
-      <div class="card"><p class="eyebrow">Desperdício</p><h3>Trocar o nome de usuário de novo</h3><p>A primeira troca já quebrou o registro no TSE, a indexação do Google e uma legenda. Uma segunda troca em plena campanha destruiria também o que for construído agora.</p></div>
-      <div class="card"><p class="eyebrow">Desperdício</p><h3>Disputar Goiânia</h3><p>A capital é o território de quem tem 740 mil seguidores e estrutura de anos. Cada real gasto ali compra menos voto que o mesmo real gasto em Formosa ou Posse.</p></div>
-      <div class="card"><p class="eyebrow">Desperdício</p><h3>Abrir mais plataformas do que se consegue alimentar</h3><p>O plano prevê uma única frente nova, o TikTok, e ainda assim reaproveitando Reels já produzidos. Abrir Facebook, YouTube e Kwai ao mesmo tempo, com a cadência atual, resulta em cinco canais abandonados.</p></div>
-      <div class="card"><p class="eyebrow">Desperdício</p><h3>Guardar dinheiro para depois</h3><p>A janela de impulsionamento fecha em 1º de outubro. Saldo em caixa no dia 2 de outubro não vira alcance, vira só linha na prestação de contas.</p></div>
-    </div>
-    <div class="insight bad"><div class="insight-header">O que isso significa para você</div><div class="insight-body"><span class="verdict">&#9654; Atenção</span><p>Os quatro primeiros itens não são conselhos de eficiência: são vedações com consequência de multa, de direito de resposta ou de investigação. Numa campanha estreante, com registro ainda aguardando julgamento, o custo de um deslize desses é desproporcional ao ganho que ele traria.</p></div></div>
-  </section>
-</main>
+      new Chart(document.getElementById('chartMeta'), { type: 'bar', data: { labels: ['Chapada dos Veadeiros', 'Nordeste Goiano restante', 'Restante de Goiás'], datasets: [{ label: 'Meta de votos', data: [5158, 3149, 2466], backgroundColor: [primary, ink, soft], borderRadius: 2 }] }, options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false }, title: { display: true, text: 'Composição da meta de 10.773 votos' } }, scales: { y: { beginAtZero: true, grid }, x: { grid: { display: false } } } } });
 
-<div class="closing"><div class="closing-inner"><h2>O plano não muda a aritmética. Ele muda o que sobra depois dela.</h2><p>A vaga de outubro depende de o PSB quase triplicar a votação de 2022, e isso não está nas mãos desta campanha. O que está é a diferença entre terminar a eleição com dois mil votos e um perfil de 2.714 seguidores, ou terminar com dez mil votos, doze mil seguidores, uma lista de multiplicadores organizada e a Chapada dos Veadeiros votando em um nome da Chapada dos Veadeiros pela primeira vez. Os 47 dias decidem qual dos dois cenários acontece, e as sete primeiras correções custam três horas.</p><div class="closing-meta">Oráculo Tecnologia · Plano de execução · 18 de agosto a 4 de outubro de 2026</div></div></div>
-<script>
-(() => {
-  const ink='#1b2e73', primary='#1d4ed8', soft='#b3c0ea', rule='#dfe1ec', good='#15803d', purple='#6d28d9';
-  Chart.defaults.font.family="'Bricolage Grotesque', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif";
-  Chart.defaults.color='#6b7186';
-  Chart.defaults.plugins.legend.labels.usePointStyle=true;
-  Chart.defaults.plugins.legend.labels.boxWidth=7;
-  const grid={color:'#ebedf4'};
+      new Chart(document.getElementById('chartJanelas'), { type: 'bar', data: { labels: ['Impulsionamento pago', 'Horário gratuito em rádio e TV', 'Imprensa escrita paga', 'Comícios e som fixo', 'Material gráfico e carreata'], datasets: [{ label: 'Dias restantes a partir de 18/08', data: [44, 34, 45, 44, 46], backgroundColor: [primary, soft, soft, soft, ink], borderRadius: 2 }] }, options: { responsive: true, maintainAspectRatio: false, indexAxis: 'y', plugins: { legend: { display: false }, title: { display: true, text: 'Janelas legais que fecham antes do dia da eleição' } }, scales: { x: { beginAtZero: true, grid }, y: { grid: { display: false } } } } });
 
-  new Chart(document.getElementById('chartMeta'),{type:'bar',data:{labels:['Chapada dos Veadeiros','Nordeste Goiano restante','Restante de Goiás'],datasets:[{label:'Meta de votos',data:[5158,3149,2466],backgroundColor:[primary,ink,soft],borderRadius:2}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false},title:{display:true,text:'Composição da meta de 10.773 votos'}},scales:{y:{beginAtZero:true,grid},x:{grid:{display:false}}}}});
+      new Chart(document.getElementById('chartGeografia'), { type: 'bar', data: { labels: ['Formosa', 'Planaltina', 'Niquelândia', 'Posse', 'Minaçu', 'Campos Belos', 'Alto Paraíso', 'Cavalcante', 'S. João d\u2019Aliança', 'Colinas do Sul', 'Nova Roma', 'Teresina de Goiás'], datasets: [{ label: 'Eleitores em 2022', data: [74886, 60975, 27499, 24322, 22451, 14136, 6941, 7215, 7035, 3437, 2815, 2714], backgroundColor: [ink, ink, ink, ink, ink, ink, primary, primary, primary, primary, primary, primary], borderRadius: 2 }] }, options: { responsive: true, maintainAspectRatio: false, indexAxis: 'y', plugins: { legend: { display: false }, title: { display: true, text: 'Eleitorado por município · escuro é penetração, azul é domínio' } }, scales: { x: { beginAtZero: true, grid }, y: { grid: { display: false } } } } });
 
-  new Chart(document.getElementById('chartJanelas'),{type:'bar',data:{labels:['Impulsionamento pago','Horário gratuito em rádio e TV','Imprensa escrita paga','Comícios e som fixo','Material gráfico e carreata'],datasets:[{label:'Dias restantes a partir de 18/08',data:[44,34,45,44,46],backgroundColor:[primary,soft,soft,soft,ink],borderRadius:2}]},options:{responsive:true,maintainAspectRatio:false,indexAxis:'y',plugins:{legend:{display:false},title:{display:true,text:'Janelas legais que fecham antes do dia da eleição'}},scales:{x:{beginAtZero:true,grid},y:{grid:{display:false}}}}});
-
-  new Chart(document.getElementById('chartGeografia'),{type:'bar',data:{labels:['Formosa','Planaltina','Niquelândia','Posse','Minaçu','Campos Belos','Alto Paraíso','Cavalcante','S. João d\u2019Aliança','Colinas do Sul','Nova Roma','Teresina de Goiás'],datasets:[{label:'Eleitores em 2022',data:[74886,60975,27499,24322,22451,14136,6941,7215,7035,3437,2815,2714],backgroundColor:[ink,ink,ink,ink,ink,ink,primary,primary,primary,primary,primary,primary],borderRadius:2}]},options:{responsive:true,maintainAspectRatio:false,indexAxis:'y',plugins:{legend:{display:false},title:{display:true,text:'Eleitorado por município · escuro é penetração, azul é domínio'}},scales:{x:{beginAtZero:true,grid},y:{grid:{display:false}}}}});
-
-  new Chart(document.getElementById('chartPainel'),{type:'bar',data:{labels:['Seguidores','Publicações por semana','Reproduções por Reel','Peças com o número (%)','Vaquinha (R$)'],datasets:[{label:'Hoje',data:[2714,1,4104,5,3690],backgroundColor:soft,borderRadius:2},{label:'Meta em 01/10',data:[12000,14,25000,100,30000],backgroundColor:primary,borderRadius:2}]},options:{responsive:true,maintainAspectRatio:false,plugins:{title:{display:true,text:'Painel semanal · escala logarítmica para caber grandezas diferentes'}},scales:{y:{type:'logarithmic',grid},x:{grid:{display:false}}}}});
-})();
-</script>
-<script>
-(() => {
-  const links=[...document.querySelectorAll('.nav a')];
-  const sections=links.map(a=>document.querySelector(a.getAttribute('href'))).filter(Boolean);
-  const observer=new IntersectionObserver(entries=>{entries.forEach(entry=>{if(entry.isIntersecting){links.forEach(a=>a.classList.toggle('active',a.getAttribute('href')==='#'+entry.target.id));}})},{rootMargin:'-25% 0px -65% 0px'});
-  sections.forEach(s=>observer.observe(s));
-})();
-</script>
+      new Chart(document.getElementById('chartPainel'), { type: 'bar', data: { labels: ['Seguidores', 'Publicações por semana', 'Reproduções por Reel', 'Peças com o número (%)', 'Vaquinha (R$)'], datasets: [{ label: 'Hoje', data: [2714, 1, 4104, 5, 3690], backgroundColor: soft, borderRadius: 2 }, { label: 'Meta em 01/10', data: [12000, 14, 25000, 100, 30000], backgroundColor: primary, borderRadius: 2 }] }, options: { responsive: true, maintainAspectRatio: false, plugins: { title: { display: true, text: 'Painel semanal · escala logarítmica para caber grandezas diferentes' } }, scales: { y: { type: 'logarithmic', grid }, x: { grid: { display: false } } } } });
+    })();
+  </script>
+  <script>
+    (() => {
+      const links = [...document.querySelectorAll('.nav a')];
+      const sections = links.map(a => document.querySelector(a.getAttribute('href'))).filter(Boolean);
+      const observer = new IntersectionObserver(entries => { entries.forEach(entry => { if (entry.isIntersecting) { links.forEach(a => a.classList.toggle('active', a.getAttribute('href') === '#' + entry.target.id)); } }) }, { rootMargin: '-25% 0px -65% 0px' });
+      sections.forEach(s => observer.observe(s));
+    })();
+  </script>
 </body>
+
 </html>

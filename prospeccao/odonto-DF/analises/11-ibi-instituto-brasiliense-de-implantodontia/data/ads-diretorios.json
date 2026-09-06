@@ -1,0 +1,49 @@
+{
+ "coletadoEm": "2026-08-18",
+ "ads": {
+  "metaAdLibrary": {
+   "anunciosAtivos": 0,
+   "criativos": null,
+   "mesesNoAr": null,
+   "formatos": [],
+   "metodo": "Playwright (sessão sem login) em facebook.com/ads/library com q=\"IBI Instituto Brasiliense de Implantodontia\", country=BR, active_status=all — página carregou normalmente",
+   "conseguiuLer": true
+  },
+  "leitura": "Biblioteca de Anúncios retornou \"Nenhum anúncio corresponde aos seus critérios de pesquisa\" para o nome exato da clínica — sem anúncios ativos ou inativos localizados."
+ },
+ "diretorios": {
+  "doctoralia": null,
+  "doctoraliaNota": null,
+  "doctoraliaOpinioes": null,
+  "facebook": null,
+  "linkedin": null,
+  "youtube": null,
+  "tiktok": null,
+  "outros": []
+ },
+ "siteConfirmacao": {
+  "existe": null,
+  "url": null,
+  "conclusivo": false,
+  "observacao": "Busca extensa (nome da clínica, endereço SRTVS Bloco K Sala 732 Edifício Embassy Tower, telefone (61) 3541-5562, decisor Ronaldo José de Oliveira) não localizou site, Facebook, Doctoralia ou LinkedIn próprios. ATENÇÃO PARA NÃO CONFUNDIR: existe uma entidade de nome muito parecido — 'IBIP - Instituto Brasiliense de Implantodontia e Periodontia' (site ibipdf.com.br, Facebook facebook.com/institutoibip/, Instagram @ibip_df) — mas é uma empresa DISTINTA: responsável é Dr. Joviniano Martins de Oliveira Junior (CRO-DF 2393), não Ronaldo José de Oliveira, e não há menção ao CNPJ 22.580.698/0001-02 nem ao endereço da IBI em nenhuma página do IBIP. Não é seguro atribuir esses ativos à clínica-alvo. A única referência ao Instagram genuinamente ligada à IBI é a página de localização (location tag) 'IBI Odontologia - Instituto Brasiliense de Implante' em instagram.com/explore/locations/263952661/, que não é um perfil de conta e não permite avaliar atividade."
+ },
+ "instagramDecisor": {
+  "handle": null,
+  "confianca": "nao_encontrado",
+  "evidencia": "Buscas por \"Ronaldo José de Oliveira\" + implantodontia/Brasília não retornaram perfil de Instagram identificável com confiança razoável."
+ },
+ "fontes": [
+  "https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=BR&q=IBI%20Instituto%20Brasiliense%20de%20Implantodontia&search_type=keyword_unordered (Playwright, 2026-08-18)",
+  "WebSearch: \"IBI Instituto Brasiliense de Implantodontia\" Brasília doctoralia OR facebook OR instagram OR site",
+  "WebSearch: \"Ronaldo José de Oliveira\" implantodontia Brasília instagram",
+  "WebSearch: \"IBI\" implantodontia Brasília doctoralia OR \"SRTVS\" facebook instagram -IBIP",
+  "https://www.ibipdf.com.br/ (WebFetch, para descartar confusão com IBIP)",
+  "https://www.facebook.com/institutoibip/ (WebFetch, para descartar confusão com IBIP)"
+ ],
+ "limitacoes": [
+  "Não foi possível confirmar site próprio da IBI (CNPJ 22.580.698/0001-02) — 'não localizei', não 'não tem'",
+  "Não foi possível confirmar Facebook, LinkedIn, YouTube, TikTok ou Doctoralia próprios",
+  "Instagram do decisor Ronaldo José de Oliveira não localizado",
+  "Existe risco real de confusão com a entidade IBIP (nome parecido, mesmo segmento, mesma cidade) — documentado acima para não ser usado por engano em material comercial"
+ ]
+}

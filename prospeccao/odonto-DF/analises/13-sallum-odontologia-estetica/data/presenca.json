@@ -1,0 +1,272 @@
+{
+ "coletadoEm": "2026-08-19",
+ "cnpj": "18.661.055/0001-08",
+ "slug": "sallum-odontologia-estetica",
+ "clinica": {
+  "nome": "Sallum — Odontologia Estética",
+  "razaoSocial": "Sallum - Odontologia Especializada Ltda",
+  "cnaeDescricao": "Atividade odontológica",
+  "fundacao": "2013-08-08",
+  "idadeAnos": 13,
+  "porte": "DEMAIS",
+  "regiao": "Asa Sul",
+  "endereco": "QUADRA SGAS 616 CONJ A BLOCO B SALAS 231,233 E 235, SN, ASA SUL, CEP 70200760, Brasilia/DF",
+  "unidades": 1
+ },
+ "decisor": {
+  "nome": "Gabriel De Souza Sallum",
+  "qualificacao": "Sócio-Administrador",
+  "decisaoCompartilhada": false,
+  "telefone": "(61) 3225-0655",
+  "telefoneTipo": "fixo",
+  "whatsapp": "+556132250655",
+  "email": "brendo@cclcontabilidade.com.br",
+  "instagramPessoal": null,
+  "telefone2": "",
+  "emailEhDeContador": true,
+  "telefoneCompartilhado": true
+ },
+ "tecnologia": {
+  "site": "https://www.sallumodontologia.com.br/",
+  "httpStatus": 0,
+  "cms": null,
+  "https": null,
+  "ttfbSegundos": null,
+  "tempoTotalSegundos": null,
+  "tamanhoBytes": null,
+  "viewportMobile": null,
+  "h1": null,
+  "metaDescription": null,
+  "openGraph": null,
+  "jsonLdLocalBusiness": null,
+  "sitemap": null,
+  "paginasReais": [],
+  "residuoCMS": [],
+  "formulario": null,
+  "whatsappNoSite": null,
+  "agendamentoOnline": null,
+  "avisoCookies": null,
+  "dominiosDuplicados": [],
+  "propensaoBot": {
+   "nota": null,
+   "sinais": []
+  },
+  "erroColeta": "URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+ },
+ "instagram": {
+  "handle": "sallumodontologia",
+  "uid": null,
+  "seguidores": 10608,
+  "seguindo": null,
+  "publicacoesTotal": 651,
+  "amostraColetada": 120,
+  "verificado": null,
+  "businessContactMethod": null,
+  "ctaAtivado": null,
+  "bio": null,
+  "linkBio": null,
+  "destaques": [],
+  "primeiroPost": null,
+  "ultimoPost": null,
+  "hiatoDias": 68,
+  "cadenciaMensal": {},
+  "faseAtual": {
+   "posts": 2,
+   "engajamentoPct": 0.12,
+   "mixFormatos": {
+    "imagem": 61,
+    "reel": 46,
+    "carrossel": 13
+   },
+   "medianaPlaysReel": 1057
+  },
+  "tendenciaEngajamento": [],
+  "ctaPctFaseAtual": 4.2,
+  "topHashtags": [],
+  "topMencoes": [],
+  "erAmostra": 0.47,
+  "er90d": 0.12,
+  "postsUlt90d": 2
+ },
+ "ads": {
+  "metaAdLibrary": {
+   "anunciosAtivos": 0,
+   "criativos": null,
+   "mesesNoAr": null,
+   "formatos": [],
+   "metodo": "Playwright em facebook.com/ads/library, busca por frase exata \"sallumodontologia\" (country=BR, active_status=all)",
+   "conseguiuLer": true
+  },
+  "pixelMeta": null,
+  "pixelGoogleAds": null,
+  "gtm": null,
+  "ga4": null,
+  "leitura": "Biblioteca de Anúncios retornou \"Nenhum anúncio corresponde aos seus critérios de pesquisa\" — sem anúncios ativos ou inativos localizados para o termo exato."
+ },
+ "google": {
+  "perfilEncontrado": true,
+  "nome": "Sallum Odontologia",
+  "categoria": "Clinica odontologica",
+  "categoriaCorreta": true,
+  "nota": 4.3,
+  "avaliacoes": 13,
+  "recenciaUltimaAvaliacao": "7 anos (avaliacao mais recente entre as visiveis foi editada ha 7 anos; a seguinte tem 8 anos)",
+  "respostasDoProprietario": "sim, porem antigas - as respostas visiveis sao de 6 e 7 anos atras",
+  "fichasDuplicadas": [
+   {
+    "nome": "Dr. Gabriel Sallum, Dentista",
+    "nota": null,
+    "avaliacoes": 0,
+    "categoria": "Dentista",
+    "endereco": "SGAS 616 Conj A, Centro Clinico Linea Vitta, Bl B, Sala 231/233 - Asa Sul",
+    "telefone": null,
+    "site": "sim (vinculado)",
+    "observacao": "Ficha separada no MESMO endereco e MESMA sala (231/233) da ficha 'Sallum Odontologia'. Sem avaliacoes e sem telefone. Ambas foram vistas por mim na mesma busca do Maps ('Sallum Odontologia Estetica SGAS 616 Asa Sul Brasilia'). Duplicidade clinica-vs-profissional no mesmo ponto: divide sinal de relevancia e o visitante que cair na ficha vazia nao ve nenhuma prova social."
+   }
+  ],
+  "fotos": "galeria presente; aba 'Do proprietario' disponivel (ha fotos publicadas pelo proprietario). Contagem exata nao coletada.",
+  "siteVinculado": "sallumodontologia.com.br (+ wa.me)",
+  "buscaMarca": "Maps 'Sallum Odontologia Estetica SGAS 616 Asa Sul Brasilia' retornou as 2 fichas do mesmo endereco. Detalhei 'Sallum Odontologia' (4,3 / 13 avaliacoes).",
+  "buscaSemMarca": "'odontologia estetica Asa Sul Brasilia' - a Sallum NAO aparece no pacote local.",
+  "pacoteLocal": [
+   {
+    "nome": "Odontologia Estetica",
+    "nota": 4.6,
+    "avaliacoes": 21,
+    "local": "SDS CONIC Conj Baracat Sala 408"
+   },
+   {
+    "nome": "Odontologia Familiar e Estetica",
+    "nota": null,
+    "avaliacoes": 0,
+    "local": "Q. 6 Bloco A Entrada 136 Salas 105/106"
+   },
+   {
+    "nome": "Harmonizacao Facial Dra Andrea Meireles Asa Sul",
+    "nota": 5.0,
+    "avaliacoes": 149,
+    "local": "SHS Q 716 Cj N Bl A Sl 402"
+   }
+  ]
+ },
+ "diretorios": {
+  "doctoralia": "https://www.doctoralia.com.br/gabriel-sallum/dentista/brasilia",
+  "facebook": "https://www.facebook.com/sallumodontologia/",
+  "linkedin": null,
+  "youtube": null,
+  "tiktok": null,
+  "outros": 10
+ },
+ "consistenciaNAP": {
+  "google": null,
+  "site": null,
+  "instagram": null,
+  "receita": null,
+  "divergencias": []
+ },
+ "concorrentes": [
+  {
+   "nome": "Odontologia Estetica",
+   "nota": 4.6,
+   "avaliacoes": 21,
+   "local": "SDS CONIC Conj Baracat Sala 408"
+  },
+  {
+   "nome": "Odontologia Familiar e Estetica",
+   "nota": null,
+   "avaliacoes": 0,
+   "local": "Q. 6 Bloco A Entrada 136 Salas 105/106"
+  },
+  {
+   "nome": "Harmonizacao Facial Dra Andrea Meireles Asa Sul",
+   "nota": 5.0,
+   "avaliacoes": 149,
+   "local": "SHS Q 716 Cj N Bl A Sl 402"
+  }
+ ],
+ "notaGeral": {
+  "valor": 2.1,
+  "escala": 10,
+  "pilares": {
+   "site": 0.5,
+   "instagram": 1.3,
+   "cadencia": 1.0,
+   "google": 4.0,
+   "reputacaoEDiretorios": 4.4,
+   "conversao": 1.5
+  }
+ },
+ "dores": [
+  {
+   "titulo": "O site não abre",
+   "evidencia": "O domínio https://www.sallumodontologia.com.br/ não responde. O DNS do domínio não resolve, verificado em três clientes independentes",
+   "custo": "Todo clique vindo da busca cai numa porta fechada",
+   "vertente": "tecnologia"
+  },
+  {
+   "titulo": "Fichas duplicadas no Google",
+   "evidencia": "Uma segunda ficha concorrente para o mesmo negócio",
+   "custo": "O Google divide avaliações e autoridade, e nenhuma acumula o suficiente",
+   "vertente": "tecnologia"
+  },
+  {
+   "titulo": "Conta parada",
+   "evidencia": "68 dias desde a última publicação",
+   "custo": "O algoritmo reduz entrega de quem some, e recuperar custa mais que manter",
+   "vertente": "social"
+  },
+  {
+   "titulo": "Engajamento no chão",
+   "evidencia": "0,12% de engajamento nos últimos 90 dias",
+   "custo": "A maior parte dos seguidores já não vê o que é publicado",
+   "vertente": "social"
+  },
+  {
+   "titulo": "Publica sem pedir a consulta",
+   "evidencia": "Apenas 4,2% dos posts tem chamada para ação",
+   "custo": "Audiência construída sem caminho para virar agendamento",
+   "vertente": "social"
+  },
+  {
+   "titulo": "Mix de formatos invertido",
+   "evidencia": "61 dos 120 posts da amostra são imagem estática",
+   "custo": "O maior volume de esforço vai para o formato de menor entrega",
+   "vertente": "social"
+  },
+  {
+   "titulo": "Cadência insuficiente",
+   "evidencia": "2 publicações em 90 dias",
+   "custo": "Abaixo do mínimo para o algoritmo manter entrega estável",
+   "vertente": "social"
+  },
+  {
+   "titulo": "Não anuncia, ou anuncia sem rastrear",
+   "evidencia": "Nenhum pixel da Meta nem tag do Google Ads no site",
+   "custo": "Alcance limitado ao orgânico, que já está caindo",
+   "vertente": "trafego"
+  }
+ ],
+ "fontes": [
+  "Google Busca (google.com/search) - pacote local (Resultados locais), hl=pt-BR&gl=BR, sessao deslogada, 2026-08-19",
+  "Google Maps (google.com/maps) - leitura direta da ficha via Playwright, hl=pt-BR, sessao deslogada, 2026-08-19",
+  "Instagram @sallumodontologia via API interna com sessao logada (19/08/2026), amostra de 120 posts",
+  "Quadro societário (tabela socios, mesmo snapshot)",
+  "Receita Federal via BigQuery basedosdados.br_me_cnpj (snapshot 2026-01-11)",
+  "WebSearch: \"Gabriel de Souza Sallum\" OR \"Gabriel Sallum\" dentista instagram Brasília",
+  "WebSearch: \"Sallum Odontologia\" Brasília doctoralia OR facebook OR site",
+  "dig sallumodontologia.com.br A / dig www.sallumodontologia.com.br / nslookup (Bash, 2026-08-18)",
+  "https://www.doctoralia.com.br/gabriel-sallum/dentista/brasilia (WebFetch — 5 estrelas, 10 opiniões, endereço SGAS 616 Conj A Bloco B Sala 231/233 confere com presenca.json)",
+  "https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=BR&q=%22sallumodontologia%22&search_type=keyword_unordered (Playwright, 2026-08-18)",
+  "https://www.facebook.com/sallumodontologia/ (Playwright — 904 seguidores, recomendado por 100% de 5 avaliações, endereço confere, e-mail contato@sallumodontologia.com.br, WhatsApp +5561992214197, último post visível: 30 de janeiro de 2023)",
+  "whois -h whois.registro.br sallumodontologia.com.br (Bash, 2026-08-18 22:47 -03)"
+ ],
+ "limitacoes": [
+  "Contagem exata de fotos nao coletada: o Google Maps nao exibe o total sem abrir a galeria foto a foto. Registrado apenas se existe ou nao a aba 'Do proprietario'.",
+  "Contato do CNPJ aponta para escritorio de contabilidade ou e compartilhado com outro CNPJ — confirmar o telefone real da clinica antes de ligar",
+  "E-mail institucional (contato@sallumodontologia.com.br) provavelmente também está fora do ar pela mesma quebra de DNS, mas isso não foi testado diretamente (sem envio de e-mail de teste)",
+  "LinkedIn, YouTube e TikTok da clínica não localizados",
+  "Perfil essencialmente dormente: as avaliacoes visiveis tem 7-8 anos e as respostas do proprietario 6-7 anos. Nao percorri as 13 avaliacoes uma a uma, entao pode existir alguma mais recente fora da amostra visivel.",
+  "Recencia baseada nas avaliacoes visiveis na ordenacao padrao do Maps (relevancia), nao em ordenacao por data. E o piso da recencia real, nao o valor exato.",
+  "Site https://www.sallumodontologia.com.br/ nao respondeu a clientes HTTP (URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>) — CONFIRMAR no Chrome"
+ ]
+}

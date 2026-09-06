@@ -1,0 +1,49 @@
+{
+ "coletadoEm": "2026-08-18",
+ "ads": {
+  "metaAdLibrary": {
+   "anunciosAtivos": 0,
+   "criativos": null,
+   "mesesNoAr": null,
+   "formatos": [],
+   "metodo": "Playwright em facebook.com/ads/library, busca por frase exata \"sallumodontologia\" (country=BR, active_status=all)",
+   "conseguiuLer": true
+  },
+  "leitura": "Biblioteca de Anúncios retornou \"Nenhum anúncio corresponde aos seus critérios de pesquisa\" — sem anúncios ativos ou inativos localizados para o termo exato."
+ },
+ "diretorios": {
+  "doctoralia": "https://www.doctoralia.com.br/gabriel-sallum/dentista/brasilia",
+  "doctoraliaNota": 5.0,
+  "doctoraliaOpinioes": 10,
+  "facebook": "https://www.facebook.com/sallumodontologia/",
+  "linkedin": null,
+  "youtube": null,
+  "tiktok": null,
+  "outros": []
+ },
+ "siteConfirmacao": {
+  "existe": true,
+  "url": "https://www.sallumodontologia.com.br/",
+  "conclusivo": true,
+  "observacao": "INVESTIGAÇÃO DO DOMÍNIO MORTO — conclusão: o domínio NÃO expirou nem foi abandonado no registro; está com DNS quebrado/hospedagem fora do ar. Consulta ao WHOIS oficial (whois.registro.br) confirma: owner 'EMR Odontologia Especializada', ownerid 18.661.055/0001-08 (mesmo CNPJ da clínica-alvo), responsible 'GABRIEL de Souza Sallum' (mesmo decisor), status 'published', created 2017-09-20, expires 2030-09-20 — ou seja, o registro do domínio está ATIVO e pago até 2030, não expirado. O problema está nos nameservers: ns1080.hostgator.com.br e ns1081.hostgator.com.br respondem 'QREFUSED' para consultas ao domínio na data de hoje (2026-08-18), e o campo nslastaa (última resposta autoritativa bem-sucedida) marca 2026-01-20 — indicando que a zona DNS parou de responder em algum momento entre janeiro e agosto de 2026 (~7 meses). Os nameservers da Hostgator em si resolvem normalmente (não é queda global da Hostgator); o mais provável é cancelamento/suspensão do plano de hospedagem por falta de pagamento ou remoção da zona DNS da conta, não perda do domínio. dig/nslookup confirmam SERVFAIL tanto para o domínio raiz quanto para www. — o site está de fato fora do ar para qualquer visitante hoje, apesar do domínio continuar sendo propriedade do cliente."
+ },
+ "instagramDecisor": {
+  "handle": null,
+  "confianca": "nao_encontrado",
+  "evidencia": "Buscas por \"Gabriel de Souza Sallum\" / \"Gabriel Sallum\" dentista Brasília não retornaram perfil pessoal de Instagram distinto do perfil institucional @sallumodontologia já registrado em presenca.json."
+ },
+ "fontes": [
+  "https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=BR&q=%22sallumodontologia%22&search_type=keyword_unordered (Playwright, 2026-08-18)",
+  "whois -h whois.registro.br sallumodontologia.com.br (Bash, 2026-08-18 22:47 -03)",
+  "dig sallumodontologia.com.br A / dig www.sallumodontologia.com.br / nslookup (Bash, 2026-08-18)",
+  "https://www.doctoralia.com.br/gabriel-sallum/dentista/brasilia (WebFetch — 5 estrelas, 10 opiniões, endereço SGAS 616 Conj A Bloco B Sala 231/233 confere com presenca.json)",
+  "https://www.facebook.com/sallumodontologia/ (Playwright — 904 seguidores, recomendado por 100% de 5 avaliações, endereço confere, e-mail contato@sallumodontologia.com.br, WhatsApp +5561992214197, último post visível: 30 de janeiro de 2023)",
+  "WebSearch: \"Gabriel de Souza Sallum\" OR \"Gabriel Sallum\" dentista instagram Brasília",
+  "WebSearch: \"Sallum Odontologia\" Brasília doctoralia OR facebook OR site"
+ ],
+ "limitacoes": [
+  "Instagram pessoal do decisor Gabriel de Souza Sallum não localizado (distinto do perfil da clínica)",
+  "LinkedIn, YouTube e TikTok da clínica não localizados",
+  "E-mail institucional (contato@sallumodontologia.com.br) provavelmente também está fora do ar pela mesma quebra de DNS, mas isso não foi testado diretamente (sem envio de e-mail de teste)"
+ ]
+}

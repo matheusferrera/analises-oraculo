@@ -1,0 +1,69 @@
+{
+ "coletadoEm": "2026-08-19",
+ "google": {
+  "perfilEncontrado": true,
+  "nome": "Osteo Implante",
+  "categoria": "Periodontia e implantes dentarios",
+  "categoriaCorreta": true,
+  "nota": 4.8,
+  "avaliacoes": 60,
+  "recenciaUltimaAvaliacao": "1 ano (avaliacao mais recente entre as visiveis; as outras sao de 4 e 5 anos)",
+  "respostasDoProprietario": false,
+  "fichasDuplicadas": [],
+  "fotos": "galeria presente; aba 'Do proprietario' disponivel (ha fotos publicadas pelo proprietario). Contagem exata nao coletada.",
+  "siteVinculado": "osteoimplante.com.br",
+  "buscaMarca": "Maps 'Osteo Implante Taguatinga Brasilia' abriu a ficha (QNC 7). Maps '\"Osteo Implante\" Asa Norte Brasilia' NAO retornou ficha da marca - trouxe 'Osteon - Centro de Implantodontia' (SMHN Q2 Sl 414), que e outra empresa.",
+  "buscaSemMarca": "'implante dentario Taguatinga Brasilia' - a Osteo Implante NAO aparece no pacote local.",
+  "pacoteLocal": [
+   {
+    "nome": "OdontoLinea",
+    "nota": 4.9,
+    "avaliacoes": 164,
+    "local": "Taguatinga Trade Center, Av. Central 339"
+   },
+   {
+    "nome": "Oral Unic",
+    "nota": 4.9,
+    "avaliacoes": 361,
+    "local": "Taguatinga Norte QND 27 Lote 02"
+   },
+   {
+    "nome": "Trinno Implantes",
+    "nota": 4.9,
+    "avaliacoes": 638,
+    "local": "St. de Industrias Graficas Conj B Lotes 02/04"
+   }
+  ]
+ },
+ "concorrentes": [
+  {
+   "nome": "OdontoLinea",
+   "nota": 4.9,
+   "avaliacoes": 164,
+   "local": "Taguatinga Trade Center, Av. Central 339"
+  },
+  {
+   "nome": "Oral Unic",
+   "nota": 4.9,
+   "avaliacoes": 361,
+   "local": "Taguatinga Norte QND 27 Lote 02"
+  },
+  {
+   "nome": "Trinno Implantes",
+   "nota": 4.9,
+   "avaliacoes": 638,
+   "local": "St. de Industrias Graficas Conj B Lotes 02/04"
+  }
+ ],
+ "fontes": [
+  "Google Maps (google.com/maps) - leitura direta da ficha via Playwright, hl=pt-BR, sessao deslogada, 2026-08-19",
+  "Google Busca (google.com/search) - pacote local (Resultados locais), hl=pt-BR&gl=BR, sessao deslogada, 2026-08-19"
+ ],
+ "limitacoes": [
+  "Contagem exata de fotos nao coletada: o Google Maps nao exibe o total sem abrir a galeria foto a foto. Registrado apenas se existe ou nao a aba 'Do proprietario'.",
+  "Recencia baseada nas avaliacoes visiveis na ordenacao padrao do Maps (relevancia), nao em ordenacao por data. E o piso da recencia real, nao o valor exato.",
+  "Convencao do campo perfilEncontrado: true = ficha confirmada; 'nao_localizado' = busquei e nao encontrei ficha correspondente (nao equivale a afirmar que a empresa nao possui perfil).",
+  "A empresa tem um segundo CNPJ na Asa Norte (27.410.508/0001-14, SCN Quadra 2) na base do projeto. Nao localizei ficha do Google para essa unidade. 'Osteon - Centro de Implantodontia' NAO e a mesma empresa (nome e endereco diferentes) e nao deve ser contado como ficha da Osteo.",
+  "Nenhuma das 3 avaliacoes visiveis tinha resposta do proprietario; nao percorri as 60 avaliacoes, entao 'respostasDoProprietario: false' vale para a amostra visivel."
+ ]
+}

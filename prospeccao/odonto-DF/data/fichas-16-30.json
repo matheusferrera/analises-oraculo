@@ -1,0 +1,402 @@
+[
+  {
+    "pos": 16,
+    "nome": "Talita Chimeli Odontologia Estética Avançada",
+    "site": {
+      "url": "https://talitachimeli.com.br/",
+      "status": 200,
+      "conclusivo": true
+    },
+    "instagram": {
+      "handle": "@talitachimeli",
+      "seguidores": 29156
+    },
+    "google": {
+      "perfilEncontrado": true,
+      "nota": 5.0,
+      "avaliacoes": 76
+    },
+    "instagramDecisor": {
+      "handle": "@talitachimeli",
+      "confianca": "alta"
+    },
+    "observacao": "Decisora: Talita Baumgratz Cachapuz Chimeli. Dos 4 dominios, 2 estao no ar: talitachimeli.com.br (200) e talitachimeli.com (200, marca separada 'Chimeli Dental Studio'). talitachimeli.medbr.com.br retorna 522 (Cloudflare, origem fora do ar) e talitachimeli.odontobr.org nao tem DNS. O PRINCIPAL e talitachimeli.com.br: e o site linkado no Perfil da Empresa do Google. O Instagram @talitachimeli e conta verificada, de marca pessoal, e serve simultaneamente de conta da clinica e da decisora; a bio aponta para talitachimeli.digital (infoproduto de pos-graduacao), nao para a clinica. Existe ainda @talitachimel_i identificada como 'CONTA RESERVA'. Google: SHLS 716 Centro Clinico Oswaldo Cruz sala 210, Asa Sul - bate com o endereco do CNPJ.",
+    "limitacoes": [
+      "Nao foi verificado se talitachimeli.com (Chimeli Dental Studio) pertence ao mesmo CNPJ ou e outra pessoa juridica"
+    ]
+  },
+  {
+    "pos": 17,
+    "nome": "Centro Clínico de Ortodontia Gomide",
+    "site": {
+      "url": null,
+      "status": null,
+      "conclusivo": true
+    },
+    "instagram": {
+      "handle": null,
+      "seguidores": null
+    },
+    "google": {
+      "perfilEncontrado": true,
+      "nota": 4.9,
+      "avaliacoes": 41
+    },
+    "instagramDecisor": {
+      "handle": null,
+      "confianca": "nao_encontrado"
+    },
+    "observacao": "Decisores: Maria Beatriz Borges Gomide e Rafael Torminn Gomide. E-mail conhecido ortodontiagomide@hotmail.com. NAO TEM SITE NO AR: ortodontiagomide.com.br nao esta registrado (whois registro.br: 'No match'). O Perfil da Empresa do Google aponta para lpgomideodontologia.com.br, que TAMBEM nao esta registrado - ou seja, o Google exibe um link de site quebrado. Perfil encontrado sob o nome 'Gomide Odontologia', 4,9 com 41 avaliacoes, Centro Medico Lucio Costa SGAS 610/611 lt.74 sala 217, CEP 70200-700, tel (61) 99187-7005.",
+    "limitacoes": [
+      "Instagram da clinica nao localizado (busca por 'ortodontia gomide' e 'gomide odontologia brasilia' no Instagram nao retornou o perfil) - nao confirma ausencia",
+      "Instagram pessoal dos decisores nao localizado",
+      "O bloco no Google (Bloco I) difere do bloco no CNPJ (Bloco F); mesma quadra, mesmo CEP e mesma sala 217, mas a correspondencia nao e literal"
+    ]
+  },
+  {
+    "pos": 18,
+    "nome": "Bicalho Ortodontia",
+    "site": {
+      "url": "https://bicalhoortodontia.com.br/",
+      "status": 200,
+      "conclusivo": true
+    },
+    "instagram": {
+      "handle": "@bicalho.ortodontia",
+      "seguidores": 2720
+    },
+    "google": {
+      "perfilEncontrado": true,
+      "nota": 5.0,
+      "avaliacoes": 121
+    },
+    "instagramDecisor": {
+      "handle": "@rafael.fbicalho",
+      "confianca": "alta"
+    },
+    "observacao": "Decisor: Rafael de Faria Bicalho. Tudo confirmado. As avaliacoes do Google subiram de 113 para 121 desde o levantamento anterior - nota segue 5,0. Google: Liberty Mall, SCN Q2 Torre B Sala 323, Asa Norte, tel (61) 98145-9587, site linkado corretamente. O Instagram pessoal @rafael.fbicalho e confirmado pela propria bio ('Ortodontista da @bicalho.ortodontia', 'Presidente da @abor_df'), 1.107 seguidores. Conta da clinica usa linktr.ee/bicalhoortodontia.",
+    "limitacoes": []
+  },
+  {
+    "pos": 19,
+    "nome": "Implant Center",
+    "site": {
+      "url": "https://implantcenter.com.br/",
+      "status": 200,
+      "conclusivo": true
+    },
+    "instagram": {
+      "handle": "@implantcenterdf",
+      "seguidores": 2325
+    },
+    "google": {
+      "perfilEncontrado": true,
+      "nota": 5.0,
+      "avaliacoes": 127
+    },
+    "instagramDecisor": {
+      "handle": "@implantcenterdf",
+      "confianca": "media"
+    },
+    "observacao": "Decisor: George Furtado Guimaraes. Confirmado. O Instagram da clinica e ao mesmo tempo a marca pessoal do decisor - o nome do perfil e 'Prof. Dr. George Furtado | Dentista Brasilia'. Nao foi localizada conta pessoal separada; por isso a confianca no campo instagramDecisor e media (o handle e o mesmo da clinica, nao uma conta pessoal distinta). Google: 'ImplantCenter Odontologia', SEPS 710-910 Torre A loja 09 galeria Via Brasil, Asa Sul, tel (61) 3443-0402 - bate com o CNPJ.",
+    "limitacoes": [
+      "Nao foi localizada conta pessoal do decisor separada da conta da clinica"
+    ]
+  },
+  {
+    "pos": 20,
+    "nome": "CIR Premier",
+    "site": {
+      "url": "https://www.cir.com.br/",
+      "status": 200,
+      "conclusivo": true
+    },
+    "instagram": {
+      "handle": "@cirbyaureliobelas",
+      "seguidores": 79000
+    },
+    "google": {
+      "perfilEncontrado": true,
+      "nota": 4.8,
+      "avaliacoes": 374
+    },
+    "instagramDecisor": {
+      "handle": "@aureliobelaslustosa",
+      "confianca": "alta"
+    },
+    "observacao": "Decisor: Aurelio Belas Lustosa. O INSTAGRAM DA CLINICA FOI LOCALIZADO: @cirbyaureliobelas ('1o Hospital Odontologico do Brasil'), extraido do proprio codigo-fonte de cir.com.br. E de longe o maior perfil da lista, ~79 mil seguidores e 1.533 posts. Google: 'CiR - Hospital Odontologico - Lentes de Contato Dental e Implantes em Brasilia-DF', 4,8 com 374 avaliacoes, SHIS QI 3 Bloco G Lago Sul, tel (61) 3365-1000 - bate com o CNPJ. Instagram pessoal @aureliobelaslustosa confere pelo nome completo exato, mas e uma conta pequena e pouco ativa (224 seguidores) frente a conta da clinica.",
+    "limitacoes": [
+      "Seguidores do @cirbyaureliobelas vem arredondados pelo Instagram como '79K'; o valor 79000 e aproximado"
+    ]
+  },
+  {
+    "pos": 21,
+    "nome": "Brasília Implantes",
+    "site": {
+      "url": null,
+      "status": null,
+      "conclusivo": true
+    },
+    "instagram": {
+      "handle": null,
+      "seguidores": null
+    },
+    "google": {
+      "perfilEncontrado": true,
+      "nota": 5.0,
+      "avaliacoes": 1
+    },
+    "instagramDecisor": {
+      "handle": null,
+      "confianca": "nao_encontrado"
+    },
+    "observacao": "Decisor: Cesar Augusto de Oliveira Vaz. RESOLVIDO PARCIALMENTE - o Perfil da Empresa foi identificado desta vez com confianca alta: 'Brasilia Implantes', Ed. Jaime Leal Sala 115, Setor Terminal Norte, Asa Norte, CEP 70770-100, tel (61) 99521-0817. Bate exatamente com o CNPJ (SETOR TERMINAL NORTE, BLOCO N, SALAS 115 E 116, CEP 70770100). O perfil tem nota 5,0 com apenas 1 avaliacao e NENHUM site linkado. brasiliaimplantes.com.br nao esta registrado. ATENCAO: existe @brasiliaimplantesdf no Instagram (535 seguidores), mas o perfil se identifica como 'Brasilia Implantes - Nucleo Bandeirante', endereco diferente - NAO foi atribuido a este lead.",
+    "limitacoes": [
+      "Instagram da clinica nao localizado - o homonimo @brasiliaimplantesdf e de Nucleo Bandeirante e foi descartado por divergencia de endereco",
+      "Instagram pessoal do decisor nao localizado"
+    ]
+  },
+  {
+    "pos": 22,
+    "nome": "Ortho Life",
+    "site": {
+      "url": null,
+      "status": null,
+      "conclusivo": false
+    },
+    "instagram": {
+      "handle": null,
+      "seguidores": null
+    },
+    "google": {
+      "perfilEncontrado": true,
+      "nota": 3.0,
+      "avaliacoes": 2
+    },
+    "instagramDecisor": {
+      "handle": null,
+      "confianca": "nao_encontrado"
+    },
+    "observacao": "Decisor: Marcelo Vieira. RESOLVIDO, MAS COM ALERTA GRAVE - o Perfil da Empresa foi identificado pelo telefone: 'Ortholife', Edificio Maristela quadra 01 salas 308 a 310, tel (61) 3225-8767, que e EXATAMENTE o telefone do CNPJ ((61) 32258767) e a mesma sala 308 (CNPJ: SCS Quadra 01 Bloco B, sala 308, Asa Sul). O Google marca esse perfil como PERMANENTEMENTE FECHADO, nota 3,0 com 2 avaliacoes. Ou seja, a empresa pode nao estar mais operando neste endereco - conferir antes de prospectar. Existe tambem 'Ortholife | Patio Brasil Shopping - Asa Sul', 5,0 com 10 avaliacoes, em SCS Quadra 07 Bloco A salas 906/908, que PODE ser a mesma operacao em novo endereco, mas isso nao foi confirmado e nao esta atribuido aqui. Sobre o dominio: ortholife.com.br esta registrado em nome de 'ORTHO LIFE CONSULT', sem registro DNS (fora do ar); nao ha evidencia de que pertenca a esta clinica, entao nao foi atribuido.",
+    "limitacoes": [
+      "Site nao localizado e nao conclusivo: ortholife.com.br existe mas nao resolve e o titular ('ORTHO LIFE CONSULT') nao foi vinculado a este CNPJ",
+      "Instagram da clinica nao localizado - todos os candidatos ('ortholiferv', 'ortholife.brasileia', 'ortholife_odonto', 'ortholifeodontologia') sao de outras cidades e foram descartados",
+      "Instagram pessoal de Marcelo Vieira nao localizado (nome muito comum)",
+      "Nao foi confirmado se a operacao migrou para o endereco do Patio Brasil Shopping"
+    ]
+  },
+  {
+    "pos": 23,
+    "nome": "Implanto",
+    "site": {
+      "url": "https://implanto.com.br/",
+      "status": 200,
+      "conclusivo": true
+    },
+    "instagram": {
+      "handle": "@implantodontologia",
+      "seguidores": 1268
+    },
+    "google": {
+      "perfilEncontrado": true,
+      "nota": 5.0,
+      "avaliacoes": 16
+    },
+    "instagramDecisor": {
+      "handle": null,
+      "confianca": "nao_encontrado"
+    },
+    "observacao": "Decisor: Enio de Lima Bicudo. Site e Instagram confirmados. Google: 'Clinica Implanto Odontologia Especializada | Dentista Brasilia', 5,0 com 16 avaliacoes, SGAS 613 Conjunto E Sala 217, Asa Sul, tel (61) 3245-1122 - bate exatamente com o CNPJ. Ponto de atencao para a abordagem: o site implanto.com.br devolve apenas ~2 KB de HTML (pagina praticamente vazia, provavelmente renderizada por JS ou landing minima), e o perfil @implantodontologia segue 2.906 contas para 1.268 seguidores - proporcao tipica de conta que buscou crescimento por follow-back.",
+    "limitacoes": [
+      "Instagram pessoal do decisor nao localizado"
+    ]
+  },
+  {
+    "pos": 24,
+    "nome": "SIGA Odontologia Especializada",
+    "site": {
+      "url": "https://www.sigaodontologia.com.br/",
+      "status": 200,
+      "conclusivo": true
+    },
+    "instagram": {
+      "handle": "@sigaodontologiadf",
+      "seguidores": 2580
+    },
+    "google": {
+      "perfilEncontrado": true,
+      "nota": 4.9,
+      "avaliacoes": 711
+    },
+    "instagramDecisor": {
+      "handle": null,
+      "confianca": "nao_encontrado"
+    },
+    "observacao": "Decisor: Josafa Martins de Lima. OS DOIS DOMINIOS ESTAO NO AR (200): sigaodontologia.com.br e sigaodontologiaoficial.com - sao dois sites distintos, com titulos e textos diferentes, disputando a mesma marca. Isso divide autoridade de SEO e e um gancho de venda direto. O sigaodontologiaoficial.com linka varios perfis de dentistas (@degoisnery, @dra.raquel_pereira, @drakarlasuzym, @marcelosoukef, @sarahquetura) alem de @sigaodontologiadf. Google: 'Siga Odontologia', 4,9 com 711 avaliacoes - o maior volume de avaliacoes da lista - em SCS Quadra 7 Edificio Executivo Tower salas 910/912, que bate EXATAMENTE com o CNPJ (SCS QUADRA 07 BLOCO A SALAS 910 E 912). CORRECAO AO BRIEFING: o endereco nao e o Conjunto Nacional, e o SCS Quadra 7.",
+    "limitacoes": [
+      "Instagram pessoal do decisor nao localizado",
+      "Nao foi verificado qual dos dois dominios o Perfil da Empresa do Google linka"
+    ]
+  },
+  {
+    "pos": 25,
+    "nome": "Aquarium Odontologia e Harmonização",
+    "site": {
+      "url": null,
+      "status": null,
+      "conclusivo": true
+    },
+    "instagram": {
+      "handle": null,
+      "seguidores": null
+    },
+    "google": {
+      "perfilEncontrado": false,
+      "nota": null,
+      "avaliacoes": null
+    },
+    "instagramDecisor": {
+      "handle": null,
+      "confianca": "nao_encontrado"
+    },
+    "observacao": "Decisor: Rogerio Rocha Saud (e-mail no CNPJ: saudrr@gmail.com). O lead mais fraco digitalmente da lista. NAO TEM SITE: aquariumodontologia.com.br nao esta registrado (whois: 'No match'). Nenhum Perfil da Empresa foi localizado no endereco do CNPJ (SRTVS Quadra 701 Bloco B Conjunto D sala 719, Asa Sul, CEP 70340907), nem por nome nem por endereco. ATENCAO A HOMONIMO: 'Aquarius Odontologia Integrada' (4,9 com 608 avaliacoes, SDN Torre Vermelha, aquariusodontologia.com.br) e OUTRA empresa - nome e endereco diferentes - e NAO foi atribuida a este lead. Confirma o levantamento anterior de que so havia Facebook.",
+    "limitacoes": [
+      "Perfil da Empresa nao localizado - isso NAO comprova que nao exista, apenas que nao apareceu nas buscas por nome e por endereco",
+      "Instagram da clinica nao localizado",
+      "Instagram pessoal do decisor nao localizado (busca por 'rogerio saud' so retornou homonimos de outras areas)"
+    ]
+  },
+  {
+    "pos": 26,
+    "nome": "Prime Estética Facial",
+    "site": {
+      "url": "https://primeesteticafacial.com.br/",
+      "status": null,
+      "conclusivo": true
+    },
+    "instagram": {
+      "handle": "@primeesteticafacial",
+      "seguidores": 3343
+    },
+    "google": {
+      "perfilEncontrado": true,
+      "nota": 5.0,
+      "avaliacoes": 33
+    },
+    "instagramDecisor": {
+      "handle": "@dr.julioevangelista",
+      "confianca": "alta"
+    },
+    "observacao": "Decisor: Julio Evangelista de Souza Junior. TRES ACHADOS FORTES. (1) O SITE CAIU: primeesteticafacial.com.br NAO ESTA MAIS REGISTRADO (whois registro.br: 'No match'), sem DNS e sem resposta HTTP - mas o link continua publicado na bio do Instagram da clinica, mandando todo mundo para o vazio. Gancho de venda imediato. (2) O INSTAGRAM DA CLINICA FOI LOCALIZADO: @primeesteticafacial, 3.343 seguidores, 174 posts, telefone (61) 98589-0089 na bio. (3) O Perfil da Empresa existe, mas sob a marca pessoal do decisor: 'JULIO EVANGELISTA - CIRURGIA ORTOGNATICA E OTOPLASTIA', 5,0 com 33 avaliacoes, em SGAS 610 Bloco 1 - bate com o CNPJ (SGAS 610 Conj F Bloco 01 Sala T53). Instagram pessoal do decisor @dr.julioevangelista tem 14 mil seguidores, MUITO maior que o da clinica.",
+    "limitacoes": [
+      "Nao foi localizado Perfil da Empresa sob o nome 'Prime Estetica Facial' - o perfil encontrado esta sob o nome do socio",
+      "Seguidores de @dr.julioevangelista vem arredondados como '14K'; valor aproximado"
+    ]
+  },
+  {
+    "pos": 27,
+    "nome": "Moya Ortodontia e Ortopedia Facial",
+    "site": {
+      "url": "https://moyaortodontia.com.br/",
+      "status": 200,
+      "conclusivo": true
+    },
+    "instagram": {
+      "handle": "@drjoaomoya",
+      "seguidores": 3815
+    },
+    "google": {
+      "perfilEncontrado": true,
+      "nota": 5.0,
+      "avaliacoes": 25
+    },
+    "instagramDecisor": {
+      "handle": "@drjoaomoya",
+      "confianca": "media"
+    },
+    "observacao": "Decisores: Joao Carlos de Assis Moya e Daniela de Assis Moya Yokomizo. O INSTAGRAM FOI LOCALIZADO: @drjoaomoya, CONTA VERIFICADA, 3.815 seguidores - extraido do codigo-fonte de moyaortodontia.com.br. Assim como em outros leads, e conta de marca pessoal do socio e serve de conta da clinica; por isso instagramDecisor esta como confianca media. Dois dominios no ar: moyaortodontia.com.br (200) e lp.moyaortodontia.com.br (200, landing page de Invisalign). FICHAS DUPLICADAS NO GOOGLE: existem dois Perfis da Empresa - 'Dr. Joao Moya - Ortodontista - Clinica Moya de Ortodontia e Ortopedia Facial' (5,0 com 25 avaliacoes) e 'Clinica Moya de Odonto. Espec. Ortodontia e ortopedia facial' (NENHUMA avaliacao) no endereco SRTVN conj. C 124, que e o endereco exato do CNPJ. Ficha duplicada divide avaliacoes e derruba o ranqueamento local - gancho de venda.",
+    "limitacoes": [
+      "Instagram pessoal de Daniela de Assis Moya Yokomizo nao localizado - o perfil @danielamoya encontrado e de uma 'Consultora de Marketing' e nao foi atribuido por risco de homonimo",
+      "Nao foi possivel determinar qual das duas fichas do Google e a principal"
+    ]
+  },
+  {
+    "pos": 28,
+    "nome": "Amazing HOF",
+    "site": {
+      "url": "https://www.dravaniamedeiros.com.br/",
+      "status": null,
+      "conclusivo": true
+    },
+    "instagram": {
+      "handle": "@amazinghof",
+      "seguidores": 23000
+    },
+    "google": {
+      "perfilEncontrado": true,
+      "nota": 5.0,
+      "avaliacoes": 32
+    },
+    "instagramDecisor": {
+      "handle": "@dravaniamedeiros",
+      "confianca": "alta"
+    },
+    "observacao": "Decisora: Cleudivania Medeiros Santos, que atua como 'Dra. Vania Medeiros'. IDENTIFICADO COM CONFIANCA ALTA (era inconclusivo antes). Perfil da Empresa: 'Amazing HOF | Harmonizacao Facial e Corporal', 5,0 com 32 avaliacoes, Aguas Claras Shopping, Av. das Araucarias 1835, 5o Andar, Sala 566 - bate EXATAMENTE com o CNPJ. Instagram da clinica @amazinghof, ~23 mil seguidores, 410 posts. GANCHO FORTE: o site linkado no Google, dravaniamedeiros.com.br, ESTA REGISTRADO (whois: titular 'Vania Medeiros Santos', vaniamedeiross@gmail.com, criado em 08/12/2025, expira em 08/12/2026) mas NAO TEM REGISTRO DNS - ou seja, o dominio foi comprado e nunca entrou no ar, e o Google esta publicando um link morto ha meses. O whois tambem confirma a identidade da decisora. Instagram pessoal @dravaniamedeiros ('Vania Medeiros | Lipo de Papada | Fios PDO') tem ~15 mil seguidores.",
+    "limitacoes": [
+      "Seguidores de @amazinghof e @dravaniamedeiros vem arredondados pelo Instagram como '23K' e '15K'; valores aproximados"
+    ]
+  },
+  {
+    "pos": 29,
+    "nome": "Eduardo Burgel Periodontia e Implantes",
+    "site": {
+      "url": null,
+      "status": null,
+      "conclusivo": true
+    },
+    "instagram": {
+      "handle": null,
+      "seguidores": null
+    },
+    "google": {
+      "perfilEncontrado": true,
+      "nota": 4.2,
+      "avaliacoes": 5
+    },
+    "instagramDecisor": {
+      "handle": "@eduardo.burgel",
+      "confianca": "alta"
+    },
+    "observacao": "Decisor: Eduardo de Araujo Burgel. NAO TEM SITE - confirmado por duas vias: eduardoburgel.com.br nao esta registrado (whois: 'No match') e o Perfil da Empresa no Google nao traz nenhum campo de site. Google: 'Eduardo Burgel Periodontia e Implantes LTDA', 4,2 com apenas 5 avaliacoes - a MENOR nota da lista - em Setor Comercial Norte Q1, America Office Tower, Sala 312, Asa Norte, tel (61) 3081-8888, que bate com o CNPJ. Instagram pessoal @eduardo.burgel confirmado pela bio ('Cirurgiao dentista em Brasilia... periodontia, implantes'), 1.093 seguidores, 130 posts. Nao existe conta separada da clinica.",
+    "limitacoes": [
+      "Instagram da clinica nao localizado - so foi encontrada a conta pessoal do decisor"
+    ]
+  },
+  {
+    "pos": 30,
+    "nome": "DF Implantes",
+    "site": {
+      "url": null,
+      "status": null,
+      "conclusivo": true
+    },
+    "instagram": {
+      "handle": "@dfimplante",
+      "seguidores": 2119
+    },
+    "google": {
+      "perfilEncontrado": true,
+      "nota": 5.0,
+      "avaliacoes": 3
+    },
+    "instagramDecisor": {
+      "handle": null,
+      "confianca": "nao_encontrado"
+    },
+    "observacao": "Decisor: Julio Cesar Fonseca. NAO TEM SITE - o Perfil da Empresa no Google nao traz campo de site. ARMADILHA IMPORTANTE: o dominio dfimplantes.com.br ESTA no ar (200), mas e de OUTRA empresa - a propria pagina diz 'Especialistas em Implantes Dentarios e Reabilitacao Oral em SALVADOR', com o Instagram @dfimplantes.clinica (14,5 mil seguidores, 'Dr Daniel Magalhaes / Dr Felipe Araujo, SALVADOR-BA'). NAO atribuir esse site nem esse Instagram a este lead. Google confirmado: 'DF Implantes', 5,0 com 3 avaliacoes, SEPS 715/915 conjunto A bloco D EDIFICIO PACINI, Asa Sul, tel (61) 99595-7557 - mesmo Edificio Pacini do CNPJ. Instagram da clinica @dfimplante confirmado, 2.119 seguidores, mas so 49 posts e 301 seguindo - conta pouco trabalhada.",
+    "limitacoes": [
+      "A sala no Google (Sl 522) difere da sala no CNPJ (consultorio 421); mesmo predio (Edificio Pacini), mesma quadra",
+      "Instagram pessoal do decisor nao localizado"
+    ]
+  }
+]

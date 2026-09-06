@@ -1,0 +1,78 @@
+{
+ "coletadoEm": "2026-08-19",
+ "google": {
+  "perfilEncontrado": true,
+  "nome": "Sallum Odontologia",
+  "categoria": "Clinica odontologica",
+  "categoriaCorreta": true,
+  "nota": 4.3,
+  "avaliacoes": 13,
+  "recenciaUltimaAvaliacao": "7 anos (avaliacao mais recente entre as visiveis foi editada ha 7 anos; a seguinte tem 8 anos)",
+  "respostasDoProprietario": "sim, porem antigas - as respostas visiveis sao de 6 e 7 anos atras",
+  "fichasDuplicadas": [
+   {
+    "nome": "Dr. Gabriel Sallum, Dentista",
+    "nota": null,
+    "avaliacoes": 0,
+    "categoria": "Dentista",
+    "endereco": "SGAS 616 Conj A, Centro Clinico Linea Vitta, Bl B, Sala 231/233 - Asa Sul",
+    "telefone": null,
+    "site": "sim (vinculado)",
+    "observacao": "Ficha separada no MESMO endereco e MESMA sala (231/233) da ficha 'Sallum Odontologia'. Sem avaliacoes e sem telefone. Ambas foram vistas por mim na mesma busca do Maps ('Sallum Odontologia Estetica SGAS 616 Asa Sul Brasilia'). Duplicidade clinica-vs-profissional no mesmo ponto: divide sinal de relevancia e o visitante que cair na ficha vazia nao ve nenhuma prova social."
+   }
+  ],
+  "fotos": "galeria presente; aba 'Do proprietario' disponivel (ha fotos publicadas pelo proprietario). Contagem exata nao coletada.",
+  "siteVinculado": "sallumodontologia.com.br (+ wa.me)",
+  "buscaMarca": "Maps 'Sallum Odontologia Estetica SGAS 616 Asa Sul Brasilia' retornou as 2 fichas do mesmo endereco. Detalhei 'Sallum Odontologia' (4,3 / 13 avaliacoes).",
+  "buscaSemMarca": "'odontologia estetica Asa Sul Brasilia' - a Sallum NAO aparece no pacote local.",
+  "pacoteLocal": [
+   {
+    "nome": "Odontologia Estetica",
+    "nota": 4.6,
+    "avaliacoes": 21,
+    "local": "SDS CONIC Conj Baracat Sala 408"
+   },
+   {
+    "nome": "Odontologia Familiar e Estetica",
+    "nota": null,
+    "avaliacoes": 0,
+    "local": "Q. 6 Bloco A Entrada 136 Salas 105/106"
+   },
+   {
+    "nome": "Harmonizacao Facial Dra Andrea Meireles Asa Sul",
+    "nota": 5.0,
+    "avaliacoes": 149,
+    "local": "SHS Q 716 Cj N Bl A Sl 402"
+   }
+  ]
+ },
+ "concorrentes": [
+  {
+   "nome": "Odontologia Estetica",
+   "nota": 4.6,
+   "avaliacoes": 21,
+   "local": "SDS CONIC Conj Baracat Sala 408"
+  },
+  {
+   "nome": "Odontologia Familiar e Estetica",
+   "nota": null,
+   "avaliacoes": 0,
+   "local": "Q. 6 Bloco A Entrada 136 Salas 105/106"
+  },
+  {
+   "nome": "Harmonizacao Facial Dra Andrea Meireles Asa Sul",
+   "nota": 5.0,
+   "avaliacoes": 149,
+   "local": "SHS Q 716 Cj N Bl A Sl 402"
+  }
+ ],
+ "fontes": [
+  "Google Maps (google.com/maps) - leitura direta da ficha via Playwright, hl=pt-BR, sessao deslogada, 2026-08-19",
+  "Google Busca (google.com/search) - pacote local (Resultados locais), hl=pt-BR&gl=BR, sessao deslogada, 2026-08-19"
+ ],
+ "limitacoes": [
+  "Contagem exata de fotos nao coletada: o Google Maps nao exibe o total sem abrir a galeria foto a foto. Registrado apenas se existe ou nao a aba 'Do proprietario'.",
+  "Recencia baseada nas avaliacoes visiveis na ordenacao padrao do Maps (relevancia), nao em ordenacao por data. E o piso da recencia real, nao o valor exato.",
+  "Perfil essencialmente dormente: as avaliacoes visiveis tem 7-8 anos e as respostas do proprietario 6-7 anos. Nao percorri as 13 avaliacoes uma a uma, entao pode existir alguma mais recente fora da amostra visivel."
+ ]
+}

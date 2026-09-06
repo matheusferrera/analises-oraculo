@@ -1,0 +1,69 @@
+{
+ "coletadoEm": "2026-08-19",
+ "google": {
+  "perfilEncontrado": "nao_localizado",
+  "nome": null,
+  "categoria": null,
+  "categoriaCorreta": null,
+  "nota": null,
+  "avaliacoes": null,
+  "recenciaUltimaAvaliacao": null,
+  "respostasDoProprietario": null,
+  "fichasDuplicadas": [],
+  "fotos": null,
+  "siteVinculado": null,
+  "buscaMarca": "Buscas: 'Renove Estetica e Implantes Orais Brasilia'; '\"Renove\" odontologia implantes Asa Norte Brasilia SCN Quadra 2'; Maps 'Renove Estetica e Implantes Orais Liberty Mall Asa Norte Brasilia'. Nenhuma ficha com o nome da empresa. O pacote local da 1a busca trouxe negocios de estetica sem relacao (Clinica Renovi, Rennove Estetica Especializada, Renove Beauty).",
+  "buscaSemMarca": "'implante dentario Asa Norte Brasilia' - a clinica NAO aparece no pacote local.",
+  "pacoteLocal": [
+   {
+    "nome": "Oral Sin Implantes Brasilia Asa Norte",
+    "nota": 4.9,
+    "avaliacoes": 202,
+    "local": "SHCGN CRN 710/711, Asa Norte"
+   },
+   {
+    "nome": "MAGNUS ODONTOLOGIA ESPECIALIZADA",
+    "nota": 5.0,
+    "avaliacoes": 215,
+    "local": "SRTVN Q 701 Conj C Bl A Sl 602, Asa Norte"
+   },
+   {
+    "nome": "Dentista Dra. Eleanor Sardenberg - Clinica Boca e Saude",
+    "nota": 5.0,
+    "avaliacoes": 179,
+    "local": "CLN 112 sala 103, Asa Norte"
+   }
+  ]
+ },
+ "concorrentes": [
+  {
+   "nome": "Oral Sin Implantes Brasilia Asa Norte",
+   "nota": 4.9,
+   "avaliacoes": 202,
+   "local": "SHCGN CRN 710/711, Asa Norte"
+  },
+  {
+   "nome": "MAGNUS ODONTOLOGIA ESPECIALIZADA",
+   "nota": 5.0,
+   "avaliacoes": 215,
+   "local": "SRTVN Q 701 Conj C Bl A Sl 602, Asa Norte"
+  },
+  {
+   "nome": "Dentista Dra. Eleanor Sardenberg - Clinica Boca e Saude",
+   "nota": 5.0,
+   "avaliacoes": 179,
+   "local": "CLN 112 sala 103, Asa Norte"
+  }
+ ],
+ "fontes": [
+  "Google Maps (google.com/maps) - leitura direta da ficha via Playwright, hl=pt-BR, sessao deslogada, 2026-08-19",
+  "Google Busca (google.com/search) - pacote local (Resultados locais), hl=pt-BR&gl=BR, sessao deslogada, 2026-08-19"
+ ],
+ "limitacoes": [
+  "Convencao do campo perfilEncontrado: true = ficha confirmada; 'nao_localizado' = busquei e nao encontrei ficha correspondente (nao equivale a afirmar que a empresa nao possui perfil).",
+  "Nao localizei ficha do Google com o nome 'Renove - Estetica e Implantes Orais' (CNPJ 16.803.567/0001-36, SCN Q2 Bl D entrada A sala 1209, Liberty Mall Torre A). Isso NAO equivale a afirmar que a empresa nao tem perfil.",
+  "CANDIDATO NAO CONFIRMADO: existe no mesmo shopping uma ficha chamada apenas 'Renov' - nota 3,0 com 2 avaliacoes, categoria 'Clinica odontologica', Liberty Mall Torre B (SCN Q2 Bl D), tel (61) 99836-4626, SEM site vinculado e aparentemente NAO reivindicada (a SERP oferece 'E proprietario desta empresa?'). Nome e torre divergem do registro (Torre A, entrada A, sala 1209), entao NAO tratei como sendo a mesma empresa. Precisa de confirmacao por telefone antes de qualquer uso comercial.",
+  "Contagem exata de fotos nao coletada: o Google Maps nao exibe o total sem abrir a galeria foto a foto. Registrado apenas se existe ou nao a aba 'Do proprietario'.",
+  "Recencia baseada nas avaliacoes visiveis na ordenacao padrao do Maps (relevancia), nao em ordenacao por data. E o piso da recencia real, nao o valor exato."
+ ]
+}

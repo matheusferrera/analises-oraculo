@@ -1,0 +1,68 @@
+{
+ "coletadoEm": "2026-08-18",
+ "ads": {
+  "metaAdLibrary": {
+   "anunciosAtivos": 0,
+   "criativos": 0,
+   "mesesNoAr": null,
+   "formatos": [],
+   "metodo": "Playwright (contexto isolado) em facebook.com/ads/library, país=BR, active_status=all, busca por \"Renove Estética e Implantes Orais\", \"Renove Estética\" (frase exata) e \"Renove Implantes\"; a página carregou e mostrou o resultado das três buscas",
+   "conseguiuLer": true,
+   "termosBuscados": [
+    "Renove Estética e Implantes Orais",
+    "Renove Estética (frase exata)",
+    "Renove Implantes"
+   ]
+  },
+  "leitura": "Não anuncia na Meta: nenhuma das buscas devolveu anúncio da clínica de Brasília — os únicos resultados com 'Renove' são homônimos de outros estados (Renove Harmonização Facial, de Gramado/RS; Oral Renove, de Jaraguá do Sul/SC; Odontologia Integrada Renove, de Rio do Sul/SC). Aquisição paga é território livre: o lead depende hoje de indicação e busca orgânica."
+ },
+ "diretorios": {
+  "doctoralia": null,
+  "doctoraliaNota": null,
+  "doctoraliaOpinioes": null,
+  "facebook": null,
+  "linkedin": null,
+  "youtube": null,
+  "tiktok": null,
+  "outros": [
+   {
+    "nome": "Odontologia.net.br (diretório)",
+    "url": "https://odontologia.net.br/sobre/renove---estetica-e-implantes-orais-brasilia-df-16520645",
+    "observacao": "Página estrutural do diretório; sem dados de contato/redes sociais expostos no fetch."
+   },
+   {
+    "nome": "Agendar Consulta (guia.agendarconsulta.com)",
+    "url": "https://guia.agendarconsulta.com/distrito-federal/brasilia/renove-estetica-e-implantes-orais-9578447",
+    "observacao": "Confirma telefone (61) 8179-0097 e endereço SCN Quadra 2 Bloco D, Asa Norte. Mostra '0 avaliações' e não lista site próprio nem redes sociais da clínica."
+   }
+  ]
+ },
+ "siteConfirmacao": {
+  "existe": null,
+  "url": null,
+  "conclusivo": false,
+  "observacao": "Não foi localizado site próprio em múltiplas buscas (nome da clínica, endereço SCN Quadra 2, decisor Tiago Moura de Almeida, telefone). Existe um domínio 'renoveodonto.com.br', mas ao verificar o conteúdo é uma clínica homônima em Goiânia (endereço Av. C, Qd. A-48, Jardim Goiás, telefone (62) 3218-3981) — não é a mesma empresa. O diretório agendarconsulta.com, que lista dados de contato corretos da clínica (telefone e endereço batem com presenca.json), explicitamente não aponta site próprio. Isso é evidência de ausência de site, mas como é uma clínica pequena (1 unidade, EPP) que pode ter presença digital fraca/não indexada, não há certeza suficiente para marcar como conclusivo."
+ },
+ "instagramDecisor": {
+  "handle": null,
+  "confianca": "nao_encontrado",
+  "evidencia": "Buscas por 'Tiago Moura de Almeida' + Instagram retornaram apenas perfis de homônimos sem vínculo confirmado com a clínica (@clinicatiagoalmeida, @tiagoomoura, @_tiago_almeida, @tiagoooalmeida). Foi localizado um perfil de LinkedIn (br.linkedin.com/in/tiago-moura-de-almeida-b6058021) e um perfil no Ident (ident.com.br/Tiagomoura33/perfil-completo) associados ao nome e à profissão de cirurgião-dentista, mas nenhum Instagram pessoal pôde ser confirmado com confiança razoável."
+ },
+ "fontes": [
+  "https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=BR&q=Renove%20Estetica%20e%20Implantes%20Orais&search_type=keyword_unordered",
+  "https://odontologia.net.br/sobre/renove---estetica-e-implantes-orais-brasilia-df-16520645",
+  "https://guia.agendarconsulta.com/distrito-federal/brasilia/renove-estetica-e-implantes-orais-9578447",
+  "https://www.renoveodonto.com.br/",
+  "https://www.econodata.com.br/consulta-empresa/16803567000136-renove-estetica-e-implantes-orais-ltda",
+  "https://www.ident.com.br/Tiagomoura33/perfil-completo",
+  "https://br.linkedin.com/in/tiago-moura-de-almeida-b6058021",
+  "WebSearch: \"Renove Estética e Implantes Orais Brasília Asa Norte Doctoralia\"",
+  "WebSearch: \"Renove implantes Facebook Instagram SCN 2 OR Asa Norte clínica odontológica\"",
+  "WebSearch: \"Tiago Moura de Almeida Instagram Brasília dentista\""
+ ],
+ "limitacoes": [
+  "Nenhum perfil de Doctoralia, Facebook, LinkedIn, YouTube ou TikTok da clínica foi localizado — pode ser ausência real de presença nesses canais ou apenas indexação fraca de uma clínica pequena de unidade única.",
+  "Confirmação de site próprio ficou inconclusiva.",
+  "Instagram do decisor não localizado com confiança."
+ ]
+}

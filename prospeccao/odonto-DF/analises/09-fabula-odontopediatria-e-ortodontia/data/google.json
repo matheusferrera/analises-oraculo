@@ -1,0 +1,80 @@
+{
+ "coletadoEm": "2026-08-19",
+ "google": {
+  "perfilEncontrado": true,
+  "nome": "Fabula - Odontopediatria & Ortodontia",
+  "categoria": "Odontopediatra (aparece tambem como 'Clinica de odontopediatria' conforme a consulta)",
+  "categoriaCorreta": true,
+  "nota": 4.9,
+  "avaliacoes": 86,
+  "recenciaUltimaAvaliacao": "1 mes (respostas do proprietario ha 3 semanas)",
+  "respostasDoProprietario": true,
+  "fichasDuplicadas": [],
+  "fotos": "galeria presente; aba 'Do proprietario' disponivel (ha fotos publicadas pelo proprietario). Contagem exata nao coletada.",
+  "siteVinculado": "fabulaodonto.com.br",
+  "buscaMarca": "Maps 'Fabula Odontopediatria e Ortodontia Brasilia' retornou so a unidade Lago Sul. Foi preciso buscar 'Fabula odontopediatria Liberty Mall Asa Norte Brasilia' para achar a 2a unidade.",
+  "buscaSemMarca": "'odontopediatria Lago Sul Brasilia' - a Fabula aparece em 1o lugar no pacote local.",
+  "pacoteLocal": [
+   {
+    "nome": "Fabula - Odontopediatria & Ortodontia",
+    "nota": 4.9,
+    "avaliacoes": 86,
+    "local": "SHIS QI 11 Ed Onze Bl K Sala 105, Lago Sul"
+   },
+   {
+    "nome": "Dra. Michelle Amorim",
+    "nota": 5.0,
+    "avaliacoes": 5,
+    "local": "SHIS QI 09 Centro Clinico do Lago Bl E2 Sala 201"
+   },
+   {
+    "nome": "Odontologia Quagliotti",
+    "nota": 5.0,
+    "avaliacoes": 12,
+    "local": "Bloco H Sala 207, Lago Sul"
+   }
+  ],
+  "unidadesAdicionais": [
+   {
+    "nome": "Fabula Like U - Odontologia & Ortodontia 4teens",
+    "nota": null,
+    "avaliacoes": 0,
+    "categoria": "Clinica odontologica",
+    "endereco": "SCN Q 2, Centro Empresarial Liberty Mall Torre B, sala 1111 - Asa Norte",
+    "telefone": "(61) 99801-5777",
+    "site": "sim (vinculado)",
+    "observacao": "Unidade da Asa Norte com ficha ativa e ZERO avaliacoes. Mesmo telefone da unidade Lago Sul. Nome de marca diferente ('Fabula Like U ... 4teens'), o que impede herdar a reputacao da ficha principal e a deixa invisivel em buscas por 'Fabula'."
+   }
+  ]
+ },
+ "concorrentes": [
+  {
+   "nome": "Fabula - Odontopediatria & Ortodontia",
+   "nota": 4.9,
+   "avaliacoes": 86,
+   "local": "SHIS QI 11 Ed Onze Bl K Sala 105, Lago Sul"
+  },
+  {
+   "nome": "Dra. Michelle Amorim",
+   "nota": 5.0,
+   "avaliacoes": 5,
+   "local": "SHIS QI 09 Centro Clinico do Lago Bl E2 Sala 201"
+  },
+  {
+   "nome": "Odontologia Quagliotti",
+   "nota": 5.0,
+   "avaliacoes": 12,
+   "local": "Bloco H Sala 207, Lago Sul"
+  }
+ ],
+ "fontes": [
+  "Google Maps (google.com/maps) - leitura direta da ficha via Playwright, hl=pt-BR, sessao deslogada, 2026-08-19",
+  "Google Busca (google.com/search) - pacote local (Resultados locais), hl=pt-BR&gl=BR, sessao deslogada, 2026-08-19"
+ ],
+ "limitacoes": [
+  "Contagem exata de fotos nao coletada: o Google Maps nao exibe o total sem abrir a galeria foto a foto. Registrado apenas se existe ou nao a aba 'Do proprietario'.",
+  "Recencia baseada nas avaliacoes visiveis na ordenacao padrao do Maps (relevancia), nao em ordenacao por data. E o piso da recencia real, nao o valor exato.",
+  "A categoria exibida variou entre 'Clinica de odontopediatria' e 'Odontopediatra' em consultas diferentes - o Google alterna a categoria mostrada conforme o termo buscado. Nao e possivel ler a categoria primaria real sem acesso ao painel do proprietario.",
+  "Nao abri a ficha da unidade Asa Norte em detalhe; os dados dela vieram da listagem do Maps."
+ ]
+}

@@ -1,0 +1,68 @@
+{
+ "coletadoEm": "2026-08-19",
+ "google": {
+  "perfilEncontrado": true,
+  "nome": "Everface Odontologia Especializada",
+  "categoria": "Cirurgiao dentista",
+  "categoriaCorreta": false,
+  "nota": 5.0,
+  "avaliacoes": 3,
+  "recenciaUltimaAvaliacao": "10 meses",
+  "respostasDoProprietario": false,
+  "fichasDuplicadas": [],
+  "fotos": "galeria presente, mas SEM aba 'Do proprietario' - so fotos de clientes/Street View. Contagem exata nao coletada.",
+  "siteVinculado": "drevertondarosa.com",
+  "buscaMarca": "Maps 'Everface Odontologia Especializada Brasilia' abriu direto a ficha - SRTVS QD 701 Conj L Bl 2 Sala 531, Ed. Assis Chateaubriand, Asa Sul; confere com o cadastro.",
+  "buscaSemMarca": "'extracao de siso cirurgia Asa Sul Brasilia' - a Everface NAO aparece no pacote local.",
+  "pacoteLocal": [
+   {
+    "nome": "Clinica Zelus Odontologia",
+    "nota": 5.0,
+    "avaliacoes": 188,
+    "local": "SCS Q. 6 Torre A Sl 906/908"
+   },
+   {
+    "nome": "All Vida Odontologia 24h",
+    "nota": 5.0,
+    "avaliacoes": 164,
+    "local": "Venancio Shopping Bl B50 Sala 525, Asa Sul"
+   },
+   {
+    "nome": "Dra Monise Mendes, Cirurgia Odontologica e Bucomaxilofacial",
+    "nota": 5.0,
+    "avaliacoes": 88,
+    "local": "EQS 102/103 Centro Empresarial Sao Francisco"
+   }
+  ]
+ },
+ "concorrentes": [
+  {
+   "nome": "Clinica Zelus Odontologia",
+   "nota": 5.0,
+   "avaliacoes": 188,
+   "local": "SCS Q. 6 Torre A Sl 906/908"
+  },
+  {
+   "nome": "All Vida Odontologia 24h",
+   "nota": 5.0,
+   "avaliacoes": 164,
+   "local": "Venancio Shopping Bl B50 Sala 525, Asa Sul"
+  },
+  {
+   "nome": "Dra Monise Mendes, Cirurgia Odontologica e Bucomaxilofacial",
+   "nota": 5.0,
+   "avaliacoes": 88,
+   "local": "EQS 102/103 Centro Empresarial Sao Francisco"
+  }
+ ],
+ "fontes": [
+  "Google Maps (google.com/maps) - leitura direta da ficha via Playwright, hl=pt-BR, sessao deslogada, 2026-08-19",
+  "Google Busca (google.com/search) - pacote local (Resultados locais), hl=pt-BR&gl=BR, sessao deslogada, 2026-08-19"
+ ],
+ "limitacoes": [
+  "Contagem exata de fotos nao coletada: o Google Maps nao exibe o total sem abrir a galeria foto a foto. Registrado apenas se existe ou nao a aba 'Do proprietario'.",
+  "Recencia baseada nas avaliacoes visiveis na ordenacao padrao do Maps (relevancia), nao em ordenacao por data. E o piso da recencia real, nao o valor exato.",
+  "categoriaCorreta marcada como false porque a ficha esta como 'Cirurgiao dentista' (categoria de profissional) e nao como clinica/especialidade - avaliacao minha, nao um dado do Google.",
+  "O site vinculado e o dominio pessoal do profissional (drevertondarosa.com), nao um dominio da marca Everface. Nao verifiquei se existe site proprio da Everface."
+ ]
+}

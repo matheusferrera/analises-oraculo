@@ -1,0 +1,256 @@
+{
+ "coletadoEm": "2026-08-19",
+ "cnpj": "24.396.735/0001-44",
+ "slug": "faces-odontologia-estetica-ltda",
+ "clinica": {
+  "nome": "Faces Odontologia Estética",
+  "razaoSocial": "Faces Odontologia Estetica Ltda",
+  "cnaeDescricao": "Atividade odontológica",
+  "fundacao": "2016-03-16",
+  "idadeAnos": 10,
+  "porte": "EPP",
+  "regiao": "Aguas Claras",
+  "endereco": "AVENIDA DAS ARAUCARIAS LOTES 1835,1905,1955 E 2005 SALA, 551, EDIF  SHOP AGUAS CLARAS, AGUAS CLARAS, CEP 71936250, Brasilia/DF",
+  "unidades": 1
+ },
+ "decisor": {
+  "nome": "Karina De Oliveira Sales Da Cruz",
+  "qualificacao": "Sócio-Administrador",
+  "decisaoCompartilhada": false,
+  "telefone": "(61) 3011-2400",
+  "telefoneTipo": "fixo",
+  "whatsapp": "+556130112400",
+  "email": "contato@facesodontologia.com.br",
+  "instagramPessoal": null,
+  "telefone2": "",
+  "emailEhDeContador": false,
+  "telefoneCompartilhado": false
+ },
+ "tecnologia": {
+  "site": "https://facesodontologia.com.br/",
+  "httpStatus": 200,
+  "cms": "WordPress + Elementor",
+  "https": true,
+  "ttfbSegundos": 2.961,
+  "tempoTotalSegundos": null,
+  "tamanhoBytes": 739637,
+  "viewportMobile": true,
+  "h1": 0,
+  "metaDescription": null,
+  "openGraph": true,
+  "jsonLdLocalBusiness": false,
+  "sitemap": "https://www.dentista-aguasclaras.com.br/sitemap.xml",
+  "paginasReais": [
+   "https://www.dentista-aguasclaras.com.br",
+   "https://www.dentista-aguasclaras.com.br/política-de-privacidade",
+   "https://www.dentista-aguasclaras.com.br/início"
+  ],
+  "residuoCMS": [],
+  "formulario": false,
+  "whatsappNoSite": true,
+  "agendamentoOnline": true,
+  "avisoCookies": true,
+  "dominiosDuplicados": [],
+  "propensaoBot": {
+   "nota": 25,
+   "sinais": [
+    "WhatsApp já é canal declarado — o volume existe, falta automatizar"
+   ]
+  },
+  "urlFinal": "https://www.dentista-aguasclaras.com.br/",
+  "titulo": "home | facesodonto nova",
+  "pixelMeta": false,
+  "pixelGoogleAds": false,
+  "gtm": false,
+  "ga4": true
+ },
+ "instagram": {
+  "handle": "facesodontologia",
+  "uid": null,
+  "seguidores": 2938,
+  "seguindo": null,
+  "publicacoesTotal": 523,
+  "amostraColetada": 120,
+  "verificado": null,
+  "businessContactMethod": null,
+  "ctaAtivado": null,
+  "bio": null,
+  "linkBio": null,
+  "destaques": [],
+  "primeiroPost": null,
+  "ultimoPost": null,
+  "hiatoDias": 1,
+  "cadenciaMensal": {},
+  "faseAtual": {
+   "posts": 11,
+   "engajamentoPct": 0.79,
+   "mixFormatos": {
+    "reel": 98,
+    "carrossel": 12,
+    "imagem": 10
+   },
+   "medianaPlaysReel": 1452
+  },
+  "tendenciaEngajamento": [],
+  "ctaPctFaseAtual": 0.0,
+  "topHashtags": [],
+  "topMencoes": [],
+  "erAmostra": 1.51,
+  "er90d": 0.79,
+  "postsUlt90d": 11
+ },
+ "ads": {
+  "metaAdLibrary": {
+   "anunciosAtivos": 3,
+   "criativos": 3,
+   "mesesNoAr": 0.4,
+   "formatos": [
+    "vídeo"
+   ],
+   "metodo": "Playwright (contexto isolado) em facebook.com/ads/library, país=BR, active_status=all, busca por \"Faces Odontologia\" e \"Faces Odontologia Especializada\" (frase exata); 3 anúncios ativos da página \"Faces Odontologia Especializada\" (facebook.com/facesodontologiaespecializadadf), cuja descrição confirma \"📍Águas Claras DF\" e telefone (61) 3011-2400 — mesma clínica da pasta",
+   "conseguiuLer": true,
+   "termosBuscados": [
+    "Faces Odontologia (frase exata)",
+    "Faces Odontologia Especializada (frase exata)"
+   ]
+  },
+  "pixelMeta": null,
+  "pixelGoogleAds": null,
+  "gtm": null,
+  "ga4": null,
+  "leitura": "Começou a anunciar em agosto/2026: 3 criativos em vídeo, todos com CTA de WhatsApp, o mais antigo de 06/08. Operação nova de mídia, sem histórico acumulado — momento em que a clínica ainda está descobrindo o que funciona e é receptiva a quem já tem método."
+ },
+ "google": {
+  "perfilEncontrado": true,
+  "nome": "Faces Odontologia Especializada - Lentes de Contato Dental",
+  "categoria": "Clinica odontologica",
+  "categoriaCorreta": true,
+  "nota": 5.0,
+  "avaliacoes": 348,
+  "recenciaUltimaAvaliacao": "1 mes",
+  "respostasDoProprietario": false,
+  "fichasDuplicadas": [],
+  "fotos": "galeria presente; aba 'Do proprietario' disponivel (ha fotos publicadas pelo proprietario). Contagem exata nao coletada. Abas: Tudo / Dente / Videos / Do proprietario / Street View.",
+  "siteVinculado": "facesodontologia.com.br (+ api.whatsapp.com)",
+  "buscaMarca": "Maps 'Faces Odontologia Estetica Aguas Claras Brasilia' abriu direto a ficha - Aguas Claras Shopping, Sala 551. Ficha rica: horarios extras, atributos de diversidade, aba de Servicos.",
+  "buscaSemMarca": "'odontologia estetica lentes de contato dental Aguas Claras Brasilia' - a Faces aparece em 1o lugar no pacote local.",
+  "pacoteLocal": [
+   {
+    "nome": "Faces Odontologia Especializada - Lentes de Contato Dental",
+    "nota": 5.0,
+    "avaliacoes": 348,
+    "local": "Aguas Claras Shopping, Sala 551"
+   },
+   {
+    "nome": "Rodrigo Braga - Lentes de Contato Dental",
+    "nota": 5.0,
+    "avaliacoes": 12,
+    "local": "Ed Led Office, QS 01, Aguas Claras"
+   },
+   {
+    "nome": "Ortoestetica Aguas Claras",
+    "nota": 4.9,
+    "avaliacoes": 57,
+    "local": "R. Ipe Amarelo 08, Aguas Claras"
+   }
+  ]
+ },
+ "diretorios": {
+  "doctoralia": "https://www.doctoralia.com.br/karina-de-oliveira-sales-da-cruz/dentista/aguas-claras",
+  "facebook": null,
+  "linkedin": "https://www.linkedin.com/company/faces-odontologia-est%C3%A9tica",
+  "youtube": null,
+  "tiktok": null,
+  "outros": [
+   "Domínio alternativo da mesma clínica: https://www.dentista-aguasclaras.com.br/"
+  ]
+ },
+ "consistenciaNAP": {
+  "google": null,
+  "site": null,
+  "instagram": null,
+  "receita": null,
+  "divergencias": []
+ },
+ "concorrentes": [
+  {
+   "nome": "Faces Odontologia Especializada - Lentes de Contato Dental",
+   "nota": 5.0,
+   "avaliacoes": 348,
+   "local": "Aguas Claras Shopping, Sala 551"
+  },
+  {
+   "nome": "Rodrigo Braga - Lentes de Contato Dental",
+   "nota": 5.0,
+   "avaliacoes": 12,
+   "local": "Ed Led Office, QS 01, Aguas Claras"
+  },
+  {
+   "nome": "Ortoestetica Aguas Claras",
+   "nota": 4.9,
+   "avaliacoes": 57,
+   "local": "R. Ipe Amarelo 08, Aguas Claras"
+  }
+ ],
+ "notaGeral": {
+  "valor": 6.0,
+  "escala": 10,
+  "pilares": {
+   "site": 7.2,
+   "instagram": 3.2,
+   "cadencia": 7.0,
+   "google": 8.0,
+   "reputacaoEDiretorios": 4.4,
+   "conversao": 6.0
+  }
+ },
+ "dores": [
+  {
+   "titulo": "Sem schema de negócio local",
+   "evidencia": "Nenhum JSON-LD de LocalBusiness ou Dentist na home",
+   "custo": "Perde rich result na busca local, onde o paciente de implante procura",
+   "vertente": "tecnologia"
+  },
+  {
+   "titulo": "Avaliações sem resposta",
+   "evidencia": "Nenhuma resposta do proprietário nas avaliações visíveis",
+   "custo": "Resposta do dono é sinal de cuidado e pesa no ranqueamento local",
+   "vertente": "tecnologia"
+  },
+  {
+   "titulo": "Publica sem pedir a consulta",
+   "evidencia": "Apenas 0,0% dos posts tem chamada para ação",
+   "custo": "Audiência construída sem caminho para virar agendamento",
+   "vertente": "social"
+  },
+  {
+   "titulo": "Não anuncia, ou anuncia sem rastrear",
+   "evidencia": "Nenhum pixel da Meta nem tag do Google Ads no site",
+   "custo": "Alcance limitado ao orgânico, que já está caindo",
+   "vertente": "trafego"
+  }
+ ],
+ "fontes": [
+  "Coleta HTTP direta de https://www.dentista-aguasclaras.com.br/",
+  "Google Busca (google.com/search) - pacote local (Resultados locais), hl=pt-BR&gl=BR, sessao deslogada, 2026-08-19",
+  "Google Maps (google.com/maps) - leitura direta da ficha via Playwright, hl=pt-BR, sessao deslogada, 2026-08-19",
+  "Instagram @facesodontologia via API interna com sessao logada (19/08/2026), amostra de 120 posts",
+  "Quadro societário (tabela socios, mesmo snapshot)",
+  "Receita Federal via BigQuery basedosdados.br_me_cnpj (snapshot 2026-01-11)",
+  "WebSearch: \"facesodontologia\" facebook.com águas claras",
+  "WebSearch: Faces Odontologia Estética Águas Claras site oficial",
+  "WebSearch: Karina de Oliveira Sales da Cruz dentista instagram Águas Claras",
+  "https://www.dentista-aguasclaras.com.br/",
+  "https://www.doctoralia.com.br/karina-de-oliveira-sales-da-cruz/dentista/aguas-claras",
+  "https://www.facesodontologia.com.br/",
+  "https://www.instagram.com/drakaricruz/",
+  "https://www.linkedin.com/company/faces-odontologia-est%C3%A9tica"
+ ],
+ "limitacoes": [
+  "Contagem exata de fotos nao coletada: o Google Maps nao exibe o total sem abrir a galeria foto a foto. Registrado apenas se existe ou nao a aba 'Do proprietario'.",
+  "Nenhuma das 3 avaliacoes visiveis tinha resposta do proprietario - com 348 avaliacoes e nota 5,0, e o unico buraco visivel da ficha. Nao percorri todas as avaliacoes.",
+  "Não localizei YouTube ou TikTok da clínica",
+  "Não localizei página do Facebook da clínica",
+  "Recencia baseada nas avaliacoes visiveis na ordenacao padrao do Maps (relevancia), nao em ordenacao por data. E o piso da recencia real, nao o valor exato."
+ ]
+}

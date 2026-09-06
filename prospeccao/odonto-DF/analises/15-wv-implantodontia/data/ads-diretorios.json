@@ -1,0 +1,52 @@
+{
+ "coletadoEm": "2026-08-18",
+ "ads": {
+  "metaAdLibrary": {
+   "anunciosAtivos": 0,
+   "criativos": null,
+   "mesesNoAr": null,
+   "formatos": [],
+   "metodo": "Playwright em facebook.com/ads/library, busca por frase exata \"WV Implantodontia\" (country=BR, active_status=all)",
+   "conseguiuLer": true
+  },
+  "leitura": "Biblioteca de Anúncios retornou \"Nenhum anúncio corresponde aos seus critérios de pesquisa\" — sem anúncios ativos ou inativos localizados."
+ },
+ "diretorios": {
+  "doctoralia": null,
+  "doctoraliaNota": null,
+  "doctoraliaOpinioes": null,
+  "facebook": "https://www.facebook.com/DentistaEmBrasiliaDF/",
+  "linkedin": null,
+  "youtube": null,
+  "tiktok": null,
+  "outros": [
+   {"nome": "Ident.com.br", "url": "https://www.ident.com.br/dr.waltervasques", "obs": "CRO-DF 2317, formado pela UnB em 1987, atua como clínico geral, sem nota/avaliações exibidas, sem endereço/telefone/redes sociais listados"}
+  ]
+ },
+ "siteConfirmacao": {
+  "existe": null,
+  "url": null,
+  "conclusivo": false,
+  "observacao": "Nenhum site próprio da WV Implantodontia (CNPJ 20.600.926/0001-25) foi localizado. Existe uma empresa distinta e homônima na família — 'Centro de Reabilitação Oral Dr Walter Vasques', CNPJ 33.512.963/0001-23, fundada em 1990, sediada em Taguatinga Norte (Loc CNB 01, Sala 221, CEP 72115-015) — mas é um CNPJ diferente do que estamos prospectando; não há confirmação de que seja a mesma operação ou apenas um negócio anterior/paralelo do mesmo profissional. Não foi encontrado site oficial para essa unidade de Taguatinga também."
+ },
+ "instagramDecisor": {
+  "handle": null,
+  "confianca": "nao_encontrado",
+  "evidencia": "Buscas por \"Walter Vasques Filho\" / \"WV Implantodontia\" instagram não retornaram perfil pessoal identificável (apenas perfis homônimos não relacionados, ex: um advogado chamado Walter Filho em Fortaleza)."
+ },
+ "fontes": [
+  "https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=BR&q=%22WV%20Implantodontia%22&search_type=keyword_unordered (Playwright, 2026-08-18)",
+  "https://www.facebook.com/DentistaEmBrasiliaDF/ (Playwright — página \"Dr Walter Vasques Filho\", 515 seguidores, endereço SRTVS Quadra 701 Bloco K Sala 508 quinto andar Edifício Embassy Tower confere EXATAMENTE com presenca.json, telefone (61) 3037-5294, sem avaliações, último post visível: 13 de agosto de 2020 — página dormente há mais de 5 anos)",
+  "https://www.ident.com.br/dr.waltervasques (WebFetch)",
+  "WebSearch: \"Walter Vasques\" implantodontia Brasília OR Taguatinga instagram OR facebook",
+  "WebSearch: \"Centro de Reabilitação Oral\" \"Walter Vasques\" Taguatinga site OR facebook",
+  "WebSearch: \"WV Implantodontia\" Brasília doctoralia",
+  "WebSearch: \"WV Implantodontia\" OR \"Walter Vasques Filho\" instagram"
+ ],
+ "limitacoes": [
+  "Site próprio da WV Implantodontia não localizado — 'não localizei', não 'não tem'",
+  "Doctoralia, LinkedIn, YouTube e TikTok não localizados",
+  "Instagram pessoal do decisor Walter Vasques Filho não localizado",
+  "Relação entre WV Implantodontia (CNPJ 20.600.926/0001-25, Asa Sul) e Centro de Reabilitação Oral Dr Walter Vasques (CNPJ 33.512.963/0001-23, Taguatinga) não foi confirmada — mesma família/decisor aparente, mas CNPJs distintos; tratar como entidades separadas até confirmação"
+ ]
+}

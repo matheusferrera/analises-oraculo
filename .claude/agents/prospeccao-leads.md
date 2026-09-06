@@ -94,6 +94,8 @@ A Base dos Dados removeu os zeros à esquerda e converteu flags para inteiro. Us
 
 `porte` é autodeclarado e envelhece mal → **peso no score, nunca corte duro sozinho**. `opcao_mei` é alta precisão → corte seco.
 
+> **Nem todo nicho tem MEI.** Em profissões regulamentadas (odontologia, medicina, advocacia) o MEI não é permitido e o filtro corta **zero**. Verificado em odonto-DF: 3.549 → 3.549. Mantenha o filtro, mas meça quanto ele cortou antes de creditar valor a ele.
+
 ### Defasagem — e como compensar
 
 O snapshot mais recente da Base dos Dados costuma ter **vários meses de atraso** em relação a hoje. Isso quase não afeta o recorte (o filtro de "aberta há 18+ meses" já absorve), mas significa que empresas **baixadas recentemente ainda aparecem como ativas**.
@@ -112,7 +114,9 @@ Confirme a descrição oficial em `basedosdados.br_bd_diretorios_brasil.cnae_2` 
 
 Referência confirmada: **`8630504` = Atividade odontológica**. Vizinhos da mesma família `8630`: `8630503` consultas médicas, `8630502` exames complementares, `8630501` procedimentos cirúrgicos, `8630599` outras.
 
-CNAE mente com frequência — use-o para recrutar candidatos amplamente e confirme o nicho de verdade pelo digital no estágio 3.
+**Teste a hipótese de CNAE errado antes de agir sobre ela.** O senso comum diz que muita empresa se registra no CNAE errado, mas isso varia por nicho e região — meça, não presuma. Em odonto-DF, os CNAEs vizinhos tinham 0,05%–0,6% de nomes odontológicos contra 64% no `8630504`: incluí-los inteiros arrastaria ~6.900 clínicas médicas para dentro da fila. A regra prática: puxe os vizinhos **só quando o nome fantasia confirmar o nicho**, e reporte quantos isso rendeu.
+
+**Cuidado com regex de nome de nicho.** Padrões gulosos casam o nicho errado: `orto` pega ORTOPEDIA, `implant` pega implante capilar. Esse bug injetou ~85 falsos positivos no topo da fila de odonto-DF (ex.: "MULTI HAIR IMPLANT"). Sempre liste 30 casamentos à mão antes de confiar no regex.
 
 ### Query de recorte
 
@@ -147,7 +151,7 @@ WHERE COALESCE(s.opcao_mei, 0) = 0
 Rode antes de gastar qualquer request. Descarta:
 - MEI, situação ≠ ATIVA, aberta há < 18 meses (sem verba consolidada)
 - Fora dos municípios pedidos
-- **Endereço de contador**: se dezenas de CNPJs dividem o mesmo CEP+número, marque `endereco_suspeito = true` e não use esse endereço para casar com o Places
+- **Endereço de contador**: use **CEP + número + complemento** (mesma sala), nunca CEP+número. Em cidades de quadras comerciais como Brasília, um único CEP+número é o prédio inteiro — um endereço no DF tem 1.229 CNPJs, e um corte `≥10` por CEP+número marcaria **44% da fila** como suspeita. Com complemento, odonto-DF marcou 3 leads. Grave as duas contagens (`n_cnpjs_mesma_sala`, `n_cnpjs_mesmo_predio`) por lead
 - Franquia/rede nacional detectável pelo nome fantasia — decisão de marketing é centralizada, não vale o esforço
 
 ## Estágio 2 — Capacidade (Places + Meta Ad Library)

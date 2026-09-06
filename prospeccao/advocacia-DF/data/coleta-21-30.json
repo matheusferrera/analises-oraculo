@@ -1,0 +1,446 @@
+[
+  {
+    "pos": 21,
+    "nome": "Silveira Cruz Advogados",
+    "decisor": "Vera Carla Nelson Cruz Silveira",
+    "cnpj": "07419539000129",
+    "regiao": "SHIS QL 10 Cj. 4 - Lago Sul",
+    "site": {
+      "url": "https://silveiracruz.adv.br/",
+      "status": 200,
+      "tempoSegundos": 0.585,
+      "conclusivo": true,
+      "observacao": "Site institucional completo (Sobre, Equipe, Areas de atuacao, Noticias, Webmail). O host https://www.silveiracruz.adv.br falha com certificado SSL expirado; so o apex sem www responde limpo — quem digitar 'www' ve alerta de seguranca do navegador. Na pagina de equipe cada socio exibe um rotulo 'Linkedin', mas apenas 1 dos 11 (Anamaria Reys Resende) tem href real; os demais sao links mortos."
+    },
+    "google": {
+      "perfilEncontrado": true,
+      "nota": 4.0,
+      "avaliacoes": 1,
+      "categoria": "Servicos juridicos"
+    },
+    "instagram": { "handle": null, "seguidores": null },
+    "linkedin": { "empresa": null, "decisor": null },
+    "autoridade": {
+      "sinais": [
+        "Eustaquio Nunes Silveira (socio senior e administrador) e ex-Desembargador Federal do TRF1 — biografia oficial em trf1.jus.br; mais de 25 anos na magistratura",
+        "Vera Carla Nelson Cruz Silveira, OAB/DF 19.640, socia titular e diretora juridica, ex-integrante da magistratura federal",
+        "Sustentacao oral de Vera Carla perante a Quinta Turma do STJ em 10/02/2026 repercutida por perfil juridico de terceiros (AgRg no RMS)",
+        "Perfil no diretorio Analise Advocacia (analise.com) e no Catalogo Migalhas",
+        "Fundado em 2005; nova sede inaugurada em mai/2024 com repercussao em coluna social do Metropoles",
+        "Instagram pessoal do socio senior: @eustaquio_silveira, 420 seguidores, 221 posts (conta pessoal, nao institucional)"
+      ],
+      "observacao": "Autoridade real e alta (dois ex-magistrados no quadro societario) e esta praticamente invisivel no digital: 1 unica avaliacao no Google, nenhum canal social institucional e os links de LinkedIn do proprio site quebrados. E o caso mais claro de autoridade nao capturada do lote."
+    },
+    "ads": {
+      "temAnuncio": null,
+      "observacao": "ausencia e conformidade com a OAB, nao falha; leitura da Meta Ad Library ficou inconclusiva (ver limitacoes)"
+    },
+    "limitacoes": [
+      "Instagram e LinkedIn institucionais do escritorio nao localizados — nao confirmado que nao existam",
+      "LinkedIn da decisora Vera Carla nao localizado",
+      "Meta Ad Library nao lida de forma conclusiva: a contagem de resultados e renderizada no cliente e o navegador compartilhado trocava de aba entre a navegacao e a leitura"
+    ]
+  },
+  {
+    "pos": 22,
+    "nome": "Rodrigues Pinheiro Advocacia",
+    "decisor": "Denise Aparecida Rodrigues Pinheiro de Oliveira",
+    "cnpj": "05462770000170",
+    "regiao": "SCS Q2 Bl D Ed. Oscar Niemeyer - Asa Sul",
+    "site": {
+      "url": "https://www.rodriguespinheiro.adv.br/",
+      "status": 200,
+      "tempoSegundos": 2.27,
+      "conclusivo": true,
+      "observacao": "Site completo, com Areas de Atuacao segmentadas (entidades sindicais, trabalhista, servidor publico, conselhos profissionais, tribunais superiores, previdenciario, civil, familia), Equipe, Conteudo e Trabalhe Conosco. Carregamento lento (2,3 s) para uma home institucional."
+    },
+    "google": {
+      "perfilEncontrado": true,
+      "nota": 4.4,
+      "avaliacoes": 20,
+      "categoria": "Servicos juridicos"
+    },
+    "instagram": { "handle": "@rodriguespinheiroadvocacia", "seguidores": 1755 },
+    "linkedin": {
+      "empresa": "https://www.linkedin.com/company/rodrigues-pinheiro-advocacia",
+      "decisor": null
+    },
+    "autoridade": {
+      "sinais": [
+        "Denise Aparecida Rodrigues Pinheiro de Oliveira: socia fundadora, advogada trabalhista com atuacao desde 1987, graduada pelo UniCEUB, especializacoes em Direito Processual Civil e em Direito do Trabalho/Previdenciario, doutoranda",
+        "Escritorio ativo desde 1995 (CNPJ de 2002); posicionamento em entidades sindicais e conselhos profissionais — nicho institucional B2B",
+        "Instagram com 679 posts e 1.755 seguidores: a operacao de conteudo mais consistente em volume do lote",
+        "Secao 'Conteudo' propria no site"
+      ],
+      "observacao": "Unico do lote com os tres canais (site + Google + Instagram + LinkedIn de empresa) simultaneamente ativos. Nao ha ranking internacional identificado; a prova social e a longevidade e a base sindical."
+    },
+    "ads": {
+      "temAnuncio": null,
+      "observacao": "ausencia e conformidade com a OAB, nao falha; leitura da Meta Ad Library ficou inconclusiva (ver limitacoes)"
+    },
+    "limitacoes": [
+      "LinkedIn pessoal da decisora Denise nao localizado",
+      "Nenhum ranking (Chambers, Analise Advocacia, Leaders League, Legal 500) localizado para este escritorio — nao confirmado que nao exista",
+      "Meta Ad Library nao lida de forma conclusiva"
+    ]
+  },
+  {
+    "pos": 23,
+    "nome": "Escritorio de Advocacia Safe Carneiro",
+    "decisor": "Joaquim Jose Safe Carneiro",
+    "cnpj": "00702969000104",
+    "regiao": "SDN Conjunto Nacional, salas 4025/4027 - Asa Norte",
+    "site": {
+      "url": "https://safecarneiro.adv.br/",
+      "status": 200,
+      "tempoSegundos": 0.135,
+      "conclusivo": true,
+      "observacao": "Existe e responde rapido, mas o documento inteiro tem 6,8 KB: uma frase institucional ('atua em Brasilia ha mais de 40 anos, em processos judiciais e administrativos') e um link 'Saiba +'. Sem equipe, sem areas de atuacao, sem contato estruturado. E uma pagina de placa, nao um site."
+    },
+    "google": {
+      "perfilEncontrado": true,
+      "nota": 4.2,
+      "avaliacoes": 19,
+      "categoria": "Servicos juridicos"
+    },
+    "instagram": { "handle": null, "seguidores": null },
+    "linkedin": { "empresa": null, "decisor": null },
+    "autoridade": {
+      "sinais": [
+        "Joaquim Jose (J.J.) Safe Carneiro foi presidente da OAB-DF de 1998 a 2003 — o cargo em entidade de maior peso identificado em todo o lote",
+        "Criminalista desde 1962; professor de direito penal em instituicoes do DF nas decadas de 1960 e 1970",
+        "43 anos de operacao formal do escritorio (CNPJ ativo desde 08/06/1983)",
+        "Perfil no diretorio Analise Advocacia (analise.com)",
+        "Endereco de prestigio: Conjunto Nacional, Asa Norte"
+      ],
+      "observacao": "ALERTA CRITICO PARA ABORDAGEM: J.J. Safe Carneiro faleceu em 27/11/2025, conforme noticiado por Correio Braziliense, Metropoles e pela AATDF (Associacao dos Advogados Trabalhistas do DF). O decisor indicado na lista nao esta mais vivo — a sucessao precisa ser identificada antes de qualquer contato. O legado (ex-presidente da OAB-DF) e um ativo de marca enorme e completamente nao explorado digitalmente."
+    },
+    "ads": {
+      "temAnuncio": null,
+      "observacao": "ausencia e conformidade com a OAB, nao falha; leitura da Meta Ad Library ficou inconclusiva (ver limitacoes)"
+    },
+    "limitacoes": [
+      "Decisor informado na lista faleceu em 27/11/2025 — sucessor nao identificado",
+      "Instagram e LinkedIn do escritorio nao localizados. ATENCAO A HOMONIMO: o perfil @radiologiasafecarneiro (750+ seguidores) e de uma clinica de radiologia odontologica de Brasilia, NAO do escritorio de advocacia",
+      "O perfil no Google exibe o telefone (61) 3328-6716 e nao apresenta botao 'Site' — o dominio safecarneiro.adv.br existe mas nao esta vinculado a ficha",
+      "Meta Ad Library nao lida de forma conclusiva"
+    ]
+  },
+  {
+    "pos": 24,
+    "nome": "Penna Fernandes, Safe Carneiro e Caldas Pereira Advogados Associados",
+    "decisor": "Eduardo Luiz Safe Carneiro",
+    "cnpj": "02853210000158",
+    "regiao": "SHIS QL 08 Conj. 03 Casa 01 - Lago Sul",
+    "site": {
+      "url": "https://pennasafecaldas.adv.br/",
+      "status": 200,
+      "tempoSegundos": 2.54,
+      "conclusivo": true,
+      "observacao": "Site robusto e com conteudo tecnico incomum para o porte: alem de Atuacao, Equipe e Contato, tem secoes 'Instancias Juridicas e Administrativas', 'Clientes atendidos', 'Jurisprudencia Sedimentada' e 'Dissidios Coletivos'. Documento de 204 KB, o mais pesado do lote. Nenhum link de rede social no codigo-fonte."
+    },
+    "google": {
+      "perfilEncontrado": true,
+      "nota": 5.0,
+      "avaliacoes": 3,
+      "categoria": "Advogado"
+    },
+    "instagram": { "handle": null, "seguidores": null },
+    "linkedin": { "empresa": null, "decisor": null },
+    "autoridade": {
+      "sinais": [
+        "Socio Eduardo Pereira: Advogado Julgador do Tribunal de Etica da OAB/DF; socio da banca desde jun/1997 (perfil LinkedIn br.linkedin.com/in/eduardo-pereira-4b281b36)",
+        "Sociedade constituida em 20/11/1998 (27 anos)",
+        "Socios de nome: Claudio A. F. Penna Fernandes e Eduardo Luiz Safe Carneiro",
+        "Conteudo tecnico publicado no proprio site (jurisprudencia sedimentada, dissidios coletivos) — materia-prima de autoridade ja escrita, sem distribuicao"
+      ],
+      "observacao": "O escritorio ja produz o tipo de conteudo que sustenta autoridade tecnica (jurisprudencia e dissidios), mas ele fica preso no site: nao ha nenhum canal social, nenhum LinkedIn de empresa e apenas 3 avaliacoes no Google. A NAP tambem diverge (ver limitacoes)."
+    },
+    "ads": {
+      "temAnuncio": null,
+      "observacao": "ausencia e conformidade com a OAB, nao falha; leitura da Meta Ad Library ficou inconclusiva (ver limitacoes)"
+    },
+    "limitacoes": [
+      "Endereco divergente entre fontes: ficha do Google mostra SHIS QL 22, Lago Sul, CEP 71650-235; o cadastro CNPJ registra SHI/S QL 08 Conj. 03 Casa 01, CEP 71620-235. Inconsistencia de NAP nao resolvida",
+      "LinkedIn do decisor Eduardo Luiz Safe Carneiro nao confirmado. Existe br.linkedin.com/in/eduardo-luiz-safe-carneiro-jr-731129117, mas o sufixo 'Jr' indica possivel homonimo (filho) — nao atribuido",
+      "Instagram e LinkedIn de empresa nao localizados",
+      "NAO CONFUNDIR com caldaspereira.adv.br: 'Caldas Pereira Advogados e Consultores Associados' e outra sociedade, constituida em 1990, com site e telefone proprios ((61) 2107-9191)",
+      "Meta Ad Library nao lida de forma conclusiva"
+    ]
+  },
+  {
+    "pos": 25,
+    "nome": "Mendonca Wald Advogados Associados",
+    "decisor": "Arnoldo Wald Filho",
+    "cnpj": "02937768000111",
+    "regiao": "SCS Q9 Bl C sala 504 - Asa Sul",
+    "site": {
+      "url": "https://www.wald.com.br/",
+      "status": 200,
+      "tempoSegundos": 1.43,
+      "conclusivo": true,
+      "observacao": "Atribuicao CONFIRMADA por cruzamento de NAP: a pagina de contato do wald.com.br lista a unidade Brasilia como 'SCS, Qd. 09, Lote C, Torre C, Sala 504, Asa Sul | 70308-200, +55 (61) 3410-4700' — coincide exatamente com o endereco, CEP e telefone do CNPJ 02.937.768/0001-11. A razao social Mendonca Wald e a entidade brasiliense do grupo Wald, Antunes, Vita e Blattner Advogados. Site institucional forte, com secoes de Compliance, LGPD, Administracao Judicial e Noticias, versao em ingles."
+    },
+    "google": {
+      "perfilEncontrado": false,
+      "nota": null,
+      "avaliacoes": null,
+      "categoria": null
+    },
+    "instagram": { "handle": null, "seguidores": null },
+    "linkedin": {
+      "empresa": "https://www.linkedin.com/company/wald",
+      "decisor": null
+    },
+    "autoridade": {
+      "sinais": [
+        "The Legal 500 — escritorio destacado (materia no proprio site)",
+        "Leaders League — ficha em Contentieux & Arbitrage (leadersleague.com/pt/firm/wald-antunes-vita-e-blattner-advogados/bresil)",
+        "Best Lawyers — ranking internacional destacando oito profissionais da banca",
+        "Analise Advocacia 500 — entre os escritorios mais admirados do Brasil",
+        "Fundado em 1954 pelo jurista Arnoldo Wald; 70+ anos de atuacao. Arnoldo Wald tem verbete na Wikipedia",
+        "Pioneirismo declarado na consolidacao da arbitragem no Brasil, com protagonismo em grandes disputas arbitrais",
+        "Escritorios em Sao Paulo, Rio de Janeiro e Brasilia"
+      ],
+      "observacao": "O lastro de autoridade e o mais institucionalizado do lote (4 rankings + 70 anos + tradicao em arbitragem), mas ele pertence a marca 'Wald' nacional. A unidade de Brasilia nao tem ficha propria no Google nem presenca digital local, o que a torna invisivel em busca geolocalizada apesar do prestigio da marca."
+    },
+    "ads": {
+      "temAnuncio": null,
+      "observacao": "ausencia e conformidade com a OAB, nao falha; leitura da Meta Ad Library ficou inconclusiva (ver limitacoes)"
+    },
+    "limitacoes": [
+      "Perfil da Empresa no Google para 'Mendonca Wald' ou para a unidade Brasilia nao localizado — nao confirmado que nao exista",
+      "Instagram do grupo ou da unidade nao localizado",
+      "LinkedIn pessoal de Arnoldo Wald Filho nao localizado; o company page e do grupo (linkedin.com/company/wald), nao da razao social brasiliense",
+      "Decisao de marketing provavelmente centralizada em Sao Paulo — a autonomia da unidade DF nao foi verificada",
+      "Meta Ad Library nao lida de forma conclusiva"
+    ]
+  },
+  {
+    "pos": 26,
+    "nome": "Henrique Mourao Advocacia",
+    "decisor": "Adriana Mourao Nogueira",
+    "cnpj": "04926752000139",
+    "regiao": "SHIS QI 17 Conj. 3 Casa 27 - Lago Sul",
+    "site": {
+      "url": "https://www.hmourao.com.br/",
+      "status": 200,
+      "tempoSegundos": 1.93,
+      "conclusivo": true,
+      "observacao": "Site institucional com O Escritorio, Equipe, Areas de Atuacao, Noticias, Responsabilidade Social e Contato. Dois WhatsApp no codigo (wa.me/556132263035 do DF e wa.me/553131161500 de Belo Horizonte), coerente com a operacao em duas pracas."
+    },
+    "google": {
+      "perfilEncontrado": true,
+      "nota": 5.0,
+      "avaliacoes": 4,
+      "categoria": "Servicos juridicos"
+    },
+    "instagram": { "handle": "@henriquemouraoadvocacia", "seguidores": 385 },
+    "linkedin": {
+      "empresa": "https://br.linkedin.com/company/henrique-mourao-advocacia",
+      "decisor": null
+    },
+    "autoridade": {
+      "sinais": [
+        "The Legal 500 — ficha de ranking em Dispute Resolution (legal500.com/rankings/ranking/c-brazil/city-focus-belo-horizonte/dispute-resolution/236651-henrique-mourao-advocacia)",
+        "Henrique Mourao consta como profissional da CAMARB — Camara de Mediacao e Arbitragem (camarb.com.br/profissional/henrique-mourao)",
+        "Cobertura editorial na Analise: 'Henrique Mourao Advogados estreia como nova banca' em Minas Gerais e Brasilia (05/03/2021)",
+        "Catalogo Migalhas",
+        "Secao Responsabilidade Social propria no site",
+        "Escritorio ativo desde 2002 (CNPJ), atuacao multidisciplinar consultiva e contenciosa, clientes nacionais e estrangeiros"
+      ],
+      "observacao": "Combinacao rara no lote: ranking internacional (Legal 500) + credencial arbitral (CAMARB) + os quatro canais no ar. O gargalo e escala — 385 seguidores e 4 avaliacoes nao correspondem ao lastro tecnico. O Instagram existe com 300 posts, ou seja, ja ha rotina de producao; falta alcance."
+    },
+    "ads": {
+      "temAnuncio": null,
+      "observacao": "ausencia e conformidade com a OAB, nao falha; leitura da Meta Ad Library ficou inconclusiva (ver limitacoes)"
+    },
+    "limitacoes": [
+      "LinkedIn pessoal da decisora Adriana Mourao Nogueira nao localizado",
+      "O ranking do Legal 500 esta indexado sob o city focus de Belo Horizonte, nao de Brasilia — o peso do reconhecimento para a praca do DF nao foi verificado",
+      "Meta Ad Library nao lida de forma conclusiva"
+    ]
+  },
+  {
+    "pos": 27,
+    "nome": "Advocacia Meneghetti, Maranhao, Maciel & Trigo",
+    "decisor": "Marco Antonio Meneghetti",
+    "cnpj": "37160611000107",
+    "regiao": "SHIS QI 3 Conj. 10 Casa 16 - Lago Sul",
+    "site": {
+      "url": "https://advm.com.br/",
+      "status": 200,
+      "tempoSegundos": 0.13,
+      "conclusivo": true,
+      "observacao": "O dominio responde 200 e rapido, mas o conteudo e uma pagina de espera: titulo 'Em Desenvolvimento - Advocacia ADVM' e o texto 'Nosso site esta em desenvolvimento. Em breve sera publicado.' Nao ha equipe, areas de atuacao, contato nem qualquer conteudo institucional. Dominio confirmado pelo e-mail de cadastro do CNPJ (financeiro@advm.com.br) e por peca institucional no Migalhas de 2014 que ja citava www.advm.com.br."
+    },
+    "google": {
+      "perfilEncontrado": true,
+      "nota": 5.0,
+      "avaliacoes": 1,
+      "categoria": "Advogado tributarista"
+    },
+    "instagram": { "handle": null, "seguidores": null },
+    "linkedin": { "empresa": null, "decisor": null },
+    "autoridade": {
+      "sinais": [
+        "Perfil no diretorio Analise Advocacia (analise.com/dna/perfil-do-escritorio/advocacia-meneghetti-maranhao-maciel-trigo-43854)",
+        "Peca institucional publicada no Migalhas em 21/10/2014",
+        "Atividade desde 03/11/1992 — 33 anos de operacao",
+        "Categoria atribuida pelo Google e 'Advogado tributarista', indicando especializacao fiscal",
+        "Capital social de R$ 167.300 e porte medio, acima da mediana do lote"
+      ],
+      "observacao": "Maior lacuna digital do grupo. Um escritorio com 33 anos, especializacao tributaria e porte medio esta com o site parado numa pagina de 'em desenvolvimento', 1 avaliacao no Google, ficha com endereco truncado e sem nenhum canal social. Toda a autoridade acumulada esta fora do alcance de quem procura."
+    },
+    "ads": {
+      "temAnuncio": null,
+      "observacao": "ausencia e conformidade com a OAB, nao falha; leitura da Meta Ad Library ficou inconclusiva (ver limitacoes)"
+    },
+    "limitacoes": [
+      "A ficha do Google traz o endereco truncado ('300, - Lago Sul, Brasilia - DF'), sem quadra nem conjunto, e nao apresenta botao 'Site' — o perfil esta incompleto e desvinculado do dominio",
+      "Instagram e LinkedIn (empresa e decisor) nao localizados",
+      "Nenhum ranking internacional localizado — nao confirmado que nao exista",
+      "Meta Ad Library nao lida de forma conclusiva"
+    ]
+  },
+  {
+    "pos": 28,
+    "nome": "Mota Advogados (Mota & Advogados Associados)",
+    "decisor": "Kamilla Flavila e Leles Barbosa Maniero",
+    "cnpj": "03996810000219",
+    "regiao": "SRTV Sul Q701 Lt 110 Bl O salas 118/119 - Asa Sul",
+    "site": {
+      "url": "https://www.motaeadvogados.com.br/",
+      "status": 200,
+      "tempoSegundos": 0.76,
+      "conclusivo": true,
+      "observacao": "Dois dominios servem o mesmo site: www.motaeadvogados.com.br e www.mota.adv.br, ambos 200. O apex mota.adv.br esta QUEBRADO — retorna erro Cloudflare 1014 (CNAME cross-user banned), e o mesmo ocorre em motaadvogados.com.br e periciaauditoria.com.br (este ultimo e o dominio do e-mail cadastrado no CNPJ). O <title> da home e 'Escritorio de Advocacia em Porto Alegre' e a equipe listada e toda OAB/RS: Dr. Jose Mota (OAB/RS 22.378), Dra. Maristela Mota (OAB/RS 40.523), Dr. Rafael Augusto Mota (OAB/RS 138.765). O site posiciona a sede em Porto Alegre e trata Brasilia como 'Atuacao em Brasilia junto aos Tribunais Superiores'."
+    },
+    "google": {
+      "perfilEncontrado": true,
+      "nota": 3.7,
+      "avaliacoes": 46,
+      "categoria": "Escritorio de advocacia"
+    },
+    "instagram": { "handle": null, "seguidores": null },
+    "linkedin": {
+      "empresa": "https://br.linkedin.com/company/mota-&-advogados-associados",
+      "decisor": null
+    },
+    "autoridade": {
+      "sinais": [
+        "Operacao desde 2000 (matriz) com atuacao nacional declarada; unidade DF aberta em 19/12/2006",
+        "Base de avaliacoes no Google de 46 — a maior do lote, com folga",
+        "Paginas no Facebook para as duas pracas: facebook.com/Mota.Advogados.Brasilia e facebook.com/Mota.Advogados.Poa",
+        "Especializacao declarada em Direito Administrativo (servidor publico), Eleitoral, Imobiliario, Familia e Sucessoes, e Tribunais Superiores"
+      ],
+      "observacao": "Perfil diferente do resto do lote: e a filial DF de uma banca gaucha, nao uma banca brasiliense. Kamilla Flavila e administradora da unidade, nao socia de capital — os socios de capital sao Jose Pinto da Mota Filho, Maristela Pinto da Mota e Rafael Augusto Dantas Mota, todos inscritos na OAB/RS. ALERTA DE CONFORMIDADE: a home exibe contadores animados de 'Taxa de Sucesso', 'Casos Resolvidos' e 'Clientes Atendidos', alem de 'Consulte Seu Processo — receba atualizacoes em poucos minutos', elementos que tangenciam a vedacao a mercantilizacao e a promessa de resultado do Provimento 205/2021. Vale registrar como risco, nao como argumento de venda."
+    },
+    "ads": {
+      "temAnuncio": null,
+      "observacao": "ausencia e conformidade com a OAB, nao falha; leitura da Meta Ad Library ficou inconclusiva (ver limitacoes)"
+    },
+    "limitacoes": [
+      "Endereco divergente: a ficha do Google aponta SGAS 902, Condominio do Edificio Athenas; o cadastro do CNPJ 03.996.810/0002-19 registra SRTV Sul Q701 Lt 110 Bl O. Inconsistencia de NAP nao resolvida",
+      "O registro deste lote e a FILIAL (0002-19); a matriz e 03.996.810/0001-38. Nao verificado se a decisao de marketing e local ou de Porto Alegre",
+      "Instagram nao localizado para nenhuma das duas pracas",
+      "LinkedIn pessoal de Kamilla Flavila nao localizado",
+      "A nota 3,7 sobre 46 avaliacoes pode misturar as duas pracas — nao verificado",
+      "Meta Ad Library nao lida de forma conclusiva"
+    ]
+  },
+  {
+    "pos": 29,
+    "nome": "Marcos Joaquim Goncalves Alves, Burle e Viana Advogados (MJAB)",
+    "decisor": "Marcos Joaquim Goncalves Alves",
+    "cnpj": "26968337000180",
+    "regiao": "SHIS QI 9 Conj. 20 Casa 03 - Lago Sul",
+    "site": {
+      "url": "https://www.mjab.adv.br/",
+      "status": 200,
+      "tempoSegundos": 0.55,
+      "conclusivo": true,
+      "observacao": "Site bilingue (PT/EN), o mais rapido entre os sites completos do lote. Estrutura de banca grande: Quem somos, Expertise, Equipe, Responsabilidade social, Publicacoes, Contato, e uma categoria dedicada a Reconhecimentos. Escritorios declarados: Brasilia | Lisboa."
+    },
+    "google": {
+      "perfilEncontrado": true,
+      "nota": 5.0,
+      "avaliacoes": 14,
+      "categoria": "Escritorio da empresa"
+    },
+    "instagram": { "handle": "@mjab.advogados", "seguidores": 803 },
+    "linkedin": {
+      "empresa": "https://www.linkedin.com/company/mj-alves-e-burle-advogados-e-consultores",
+      "decisor": "https://br.linkedin.com/in/marcosjoaquim"
+    },
+    "autoridade": {
+      "sinais": [
+        "Chambers and Partners — Marcos Joaquim Goncalves Alves rankeado, Public Law: Highly Regarded (chambers.com/lawyer/marcos-joaquim-goncalves-alves-brazil-95:718853)",
+        "The Legal 500 — Tier 1 em Government Relations e ficha em Tax, city focus Brasilia (legal500.com/rankings/ranking/c-brazil/city-focus-brasilia/tax/53757)",
+        "Leaders League 2024 — reconhecimento em Civil and commercial litigation, citando os socios Marcos Joaquim e Alan Viana",
+        "Who's Who Legal — Marcos Joaquim Goncalves Alves e Fernanda Burle reconhecidos como National Leaders em Lobbying & Government Relations",
+        "LACCA / Latin Lawyer 2023 — destaque entre representantes das principais corporacoes da America Latina",
+        "Catalogo Migalhas",
+        "LinkedIn pessoal do decisor com mais de 4 mil seguidores — o maior alcance pessoal identificado no lote",
+        "Secao Publicacoes propria e conceito proprietario de posicionamento ('Legal Advocacy')",
+        "Capital social de R$ 500.000 e 12 socios — a maior estrutura societaria do lote"
+      ],
+      "observacao": "O perfil de autoridade mais completo do lote: cinco rankings distintos (Chambers, Legal 500, Leaders League, Who's Who Legal, LACCA), narrativa de posicionamento propria e presenca internacional. Tambem e o unico com os quatro canais no ar e o LinkedIn do decisor ativo. A dor aqui nao e ausencia — e assimetria: 5 rankings internacionais convivendo com 803 seguidores no Instagram e 14 avaliacoes no Google."
+    },
+    "ads": {
+      "temAnuncio": null,
+      "observacao": "ausencia e conformidade com a OAB, nao falha; leitura da Meta Ad Library ficou inconclusiva (ver limitacoes)"
+    },
+    "limitacoes": [
+      "Meta Ad Library nao lida de forma conclusiva",
+      "Existe facebook.com/advocacybrasil associado ao escritorio nos resultados, mas a titularidade da pagina nao foi confirmada"
+    ]
+  },
+  {
+    "pos": 30,
+    "nome": "Donati & Buzanelli Advogados Associados",
+    "decisor": "Conrado Donati Antunes",
+    "cnpj": "36759719000158",
+    "regiao": "SHIS QL 12 Conj. 15 Casa 01, Peninsula dos Ministros - Lago Sul",
+    "site": {
+      "url": "https://donatibuzanelli.com.br/",
+      "status": 200,
+      "tempoSegundos": 0.90,
+      "conclusivo": true,
+      "observacao": "donatibuzanelli.com redireciona para donatibuzanelli.com.br — os dois dominios respondem 200. Site com Sobre nos, Tecnologia, Reconhecimentos, ESG, Equipe, Areas, Conteudo, Pessoas e Contato. Posiciona-se como 'Advocacia descomplicada para todos', com bases em Brasilia e Sao Paulo e rede internacional de parceiros. Tempo de resposta oscilou entre 0,90 s e 3,89 s entre coletas."
+    },
+    "google": {
+      "perfilEncontrado": true,
+      "nota": 5.0,
+      "avaliacoes": 2,
+      "categoria": "Servicos juridicos"
+    },
+    "instagram": { "handle": "@donatibuzanelli", "seguidores": 470 },
+    "linkedin": {
+      "empresa": "https://br.linkedin.com/company/donati-buzanelli-advogados",
+      "decisor": "https://br.linkedin.com/in/conradodonati"
+    },
+    "autoridade": {
+      "sinais": [
+        "Chambers and Partners — Conrado Donati Antunes reconhecido em Dispute Resolution: White Collar Crime pelo guia Chambers Brazil Contentious 2021; ficha ativa em chambers.com/lawyer/conrado-donati-antunes-brazil-95:25857932",
+        "Benchmark Litigation Latin America 2020 — Conrado Donati e Paulo Buzanelli reconhecidos como 'Litigation Star' em White-Collar Crime (grupo Euromoney)",
+        "Perfil de advogado no diretorio Analise Advocacia (analise.com/dna/perfil-do-advogado/conrado-donati-antunes-1226062)",
+        "Conrado Donati acumula CEO da Concordia Participacoes, presidente do Conselho de Administracao da BCI S/A e assento em outros conselhos — cargo em entidade e credencial de governanca corporativa",
+        "LinkedIn pessoal do decisor com mais de 1,6 mil seguidores",
+        "Capital social de R$ 1.000.000 — o maior do lote",
+        "Cobertura de mercado no lancamento (jul/2023): 'uma nova firma especializada em direito penal e gestao de crise', formada por ex-socios de outra banca",
+        "Paginas proprias de Tecnologia e ESG no site — diferenciacao de posicionamento incomum em advocacia"
+      ],
+      "observacao": "Banca nova (CNPJ de mar/2020) com socios ja rankeados por Chambers e Benchmark antes da fundacao. A pagina de Reconhecimentos tem um defeito editorial concreto: o bloco 'LEGAL 500' repete palavra por palavra o texto do bloco 'BENCHMARK LITIGATION', ou seja, o reconhecimento do Legal 500 nunca e efetivamente descrito. Alem disso, os premios listados sao de 2020 e 2021 — a vitrine esta cinco anos desatualizada."
+    },
+    "ads": {
+      "temAnuncio": null,
+      "observacao": "ausencia e conformidade com a OAB, nao falha; leitura da Meta Ad Library ficou inconclusiva (ver limitacoes)"
+    },
+    "limitacoes": [
+      "Conteudo do reconhecimento do Legal 500 nao verificavel: o site duplica o texto do Benchmark Litigation nesse bloco",
+      "Nenhum reconhecimento posterior a 2021 localizado na pagina de Reconhecimentos — nao confirmado que nao existam",
+      "Meta Ad Library nao lida de forma conclusiva"
+    ]
+  }
+]

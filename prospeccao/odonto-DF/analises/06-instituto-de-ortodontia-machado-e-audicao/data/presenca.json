@@ -1,0 +1,277 @@
+{
+ "coletadoEm": "2026-08-19",
+ "cnpj": "02.272.945/0002-79",
+ "slug": "instituto-de-ortodontia-machado-e-audicao",
+ "clinica": {
+  "nome": "Instituto de Ortodontia Machado e Audição",
+  "razaoSocial": "Instituto Machado Odontologia Ltda",
+  "cnaeDescricao": "Atividade odontológica",
+  "fundacao": "2009-08-11",
+  "idadeAnos": 17,
+  "porte": "EPP",
+  "regiao": "Asa Norte",
+  "endereco": "SETOR SHN QUADRA 2 BLOCO H, 30, LOJA  65 70 74            SLJ, ASA NORTE, CEP 70702905, Brasilia/DF",
+  "unidades": 1
+ },
+ "decisor": {
+  "nome": "Rosario Casalenuovo Junior",
+  "qualificacao": "Sócio-Administrador",
+  "decisaoCompartilhada": false,
+  "telefone": "(61) 3225-0655",
+  "telefoneTipo": "fixo",
+  "whatsapp": "+556132250655",
+  "email": "brendo@cclcontabilidade.com.br",
+  "instagramPessoal": null,
+  "telefone2": "",
+  "emailEhDeContador": true,
+  "telefoneCompartilhado": true
+ },
+ "tecnologia": {
+  "site": "https://institutomachado.com.br/",
+  "httpStatus": 200,
+  "cms": "WordPress + Elementor",
+  "https": true,
+  "ttfbSegundos": 0.298,
+  "tempoTotalSegundos": null,
+  "tamanhoBytes": 156172,
+  "viewportMobile": true,
+  "h1": 1,
+  "metaDescription": null,
+  "openGraph": false,
+  "jsonLdLocalBusiness": false,
+  "sitemap": "https://institutomachado.com.br/sitemap.xml",
+  "paginasReais": [
+   "https://institutomachado.com.br/",
+   "https://institutomachado.com.br/nosso-espaco/",
+   "https://institutomachado.com.br/estetica/",
+   "https://institutomachado.com.br/corpo-clinico/",
+   "https://institutomachado.com.br/sobre-nos/",
+   "https://institutomachado.com.br/cases/",
+   "https://institutomachado.com.br/odontologia/",
+   "https://institutomachado.com.br/contato/",
+   "https://institutomachado.com.br/galeria-de-fotos/",
+   "https://institutomachado.com.br/author/admin/"
+  ],
+  "residuoCMS": [],
+  "formulario": true,
+  "whatsappNoSite": true,
+  "agendamentoOnline": true,
+  "avisoCookies": true,
+  "dominiosDuplicados": [],
+  "propensaoBot": {
+   "nota": 25,
+   "sinais": [
+    "WhatsApp já é canal declarado — o volume existe, falta automatizar"
+   ]
+  },
+  "urlFinal": "https://institutomachado.com.br/",
+  "titulo": "Instituto Machado &#8211; Instituto Machado",
+  "pixelMeta": false,
+  "pixelGoogleAds": false,
+  "gtm": true,
+  "ga4": true
+ },
+ "instagram": {
+  "handle": "institutomachadobrasilia_",
+  "uid": null,
+  "seguidores": 1236,
+  "seguindo": null,
+  "publicacoesTotal": 306,
+  "amostraColetada": 120,
+  "verificado": null,
+  "businessContactMethod": null,
+  "ctaAtivado": null,
+  "bio": null,
+  "linkBio": null,
+  "destaques": [],
+  "primeiroPost": null,
+  "ultimoPost": null,
+  "hiatoDias": 47,
+  "cadenciaMensal": {},
+  "faseAtual": {
+   "posts": 1,
+   "engajamentoPct": 0.0,
+   "mixFormatos": {
+    "imagem": 76,
+    "reel": 38,
+    "carrossel": 6
+   },
+   "medianaPlaysReel": 134
+  },
+  "tendenciaEngajamento": [],
+  "ctaPctFaseAtual": 15.8,
+  "topHashtags": [],
+  "topMencoes": [],
+  "erAmostra": 0.27,
+  "er90d": 0.0,
+  "postsUlt90d": 1
+ },
+ "ads": {
+  "metaAdLibrary": {
+   "anunciosAtivos": 2,
+   "criativos": 2,
+   "mesesNoAr": 9.2,
+   "formatos": [
+    "vídeo"
+   ],
+   "metodo": "Playwright (contexto isolado) em facebook.com/ads/library, país=BR, active_status=all, busca por \"Instituto Machado\" e \"Instituto Machado de Odontologia\" (frase exata); 2 anúncios ativos da página \"Instituto Machado de Odontologia Brasília\" (facebook.com/61568479941572), separados da unidade homônima de Cuiabá, que aparece na mesma busca com anúncios próprios",
+   "conseguiuLer": true,
+   "termosBuscados": [
+    "Instituto Machado (frase exata)",
+    "Instituto Machado de Odontologia (frase exata)",
+    "institutomachadobrasilia"
+   ]
+  },
+  "pixelMeta": null,
+  "pixelGoogleAds": null,
+  "gtm": null,
+  "ga4": null,
+  "leitura": "Anuncia há muito tempo e quase parado: só 2 criativos no ar, um deles rodando desde 10/11/2025 sem troca. Vídeo com CTA de WhatsApp, foco em ronco/apneia e DTM. Verba existe e o hábito de anunciar existe — o que falta é rotina de criativo novo, que é exatamente o ponto de entrada de uma proposta."
+ },
+ "google": {
+  "perfilEncontrado": true,
+  "nome": "Instituto Machado Odontologia Funcional Brasilia",
+  "categoria": "Clinica odontologica",
+  "categoriaCorreta": true,
+  "nota": 4.9,
+  "avaliacoes": 32,
+  "recenciaUltimaAvaliacao": "1 ano (mais recente entre as visiveis)",
+  "respostasDoProprietario": "parcial - unica resposta vista foi em avaliacao de 2 anos atras; as duas mais recentes estao sem resposta",
+  "fichasDuplicadas": [],
+  "fotos": "galeria presente; aba 'Do proprietario' disponivel (ha fotos publicadas pelo proprietario). Contagem exata nao coletada.",
+  "siteVinculado": "institutomachado.com.br (+ linklist.bio)",
+  "buscaMarca": "Maps 'Instituto de Ortodontia Machado e Audicao Asa Norte Brasilia' abriu a ficha 'Instituto Machado Odontologia Funcional Brasilia' - SHN Q2 Bl H Sobreloja 65, Metropolitan Mix, confere com o endereco esperado. O nome da ficha nao menciona ortodontia nem audicao.",
+  "buscaSemMarca": "'ortodontia Asa Norte Brasilia' - o Instituto NAO aparece no pacote local.",
+  "pacoteLocal": [
+   {
+    "nome": "Dr. Leonardo Figueiredo",
+    "nota": 4.9,
+    "avaliacoes": 30,
+    "local": "CLN 406 Bloco E Sl 111, Asa Norte"
+   },
+   {
+    "nome": "Ortoriso Clinica Odontologica",
+    "nota": 4.9,
+    "avaliacoes": 205,
+    "local": "SCN Qd 1 Bl F Sl 1305, Asa Norte"
+   },
+   {
+    "nome": "Clinica de Ortodontia Fabiola Bafutto",
+    "nota": 4.9,
+    "avaliacoes": 70,
+    "local": "SRTVN Qd 701 Centro Empresarial Norte Bl A Sl 809"
+   }
+  ]
+ },
+ "diretorios": {
+  "doctoralia": null,
+  "facebook": "https://www.facebook.com/institutomachadobrasilia/",
+  "linkedin": "https://br.linkedin.com/in/instituto-machado-618a874b",
+  "youtube": null,
+  "tiktok": null,
+  "outros": [
+   "Instagram da unidade Brasília (perfil da clínica, não é o handle de referência do cliente): https://www.instagram.com/institutomachadobrasilia_/ — bio 'Ortopedia Funcional dos Maxilares, Dor Orofacial, DTM, Clareamento, Harmonização Facial, Lentes', 1.236 seguidores, link linklist.bio/institutomachadobrasilia"
+  ]
+ },
+ "consistenciaNAP": {
+  "google": null,
+  "site": null,
+  "instagram": null,
+  "receita": null,
+  "divergencias": []
+ },
+ "concorrentes": [
+  {
+   "nome": "Dr. Leonardo Figueiredo",
+   "nota": 4.9,
+   "avaliacoes": 30,
+   "local": "CLN 406 Bloco E Sl 111, Asa Norte"
+  },
+  {
+   "nome": "Ortoriso Clinica Odontologica",
+   "nota": 4.9,
+   "avaliacoes": 205,
+   "local": "SCN Qd 1 Bl F Sl 1305, Asa Norte"
+  },
+  {
+   "nome": "Clinica de Ortodontia Fabiola Bafutto",
+   "nota": 4.9,
+   "avaliacoes": 70,
+   "local": "SRTVN Qd 701 Centro Empresarial Norte Bl A Sl 809"
+  }
+ ],
+ "notaGeral": {
+  "valor": 4.8,
+  "escala": 10,
+  "pilares": {
+   "site": 7.2,
+   "instagram": 0.0,
+   "cadencia": 1.0,
+   "google": 7.0,
+   "reputacaoEDiretorios": 4.4,
+   "conversao": 9.0
+  }
+ },
+ "dores": [
+  {
+   "titulo": "Sem schema de negócio local",
+   "evidencia": "Nenhum JSON-LD de LocalBusiness ou Dentist na home",
+   "custo": "Perde rich result na busca local, onde o paciente de implante procura",
+   "vertente": "tecnologia"
+  },
+  {
+   "titulo": "Conta parada",
+   "evidencia": "47 dias desde a última publicação",
+   "custo": "O algoritmo reduz entrega de quem some, e recuperar custa mais que manter",
+   "vertente": "social"
+  },
+  {
+   "titulo": "Engajamento no chão",
+   "evidencia": "0,0% de engajamento nos últimos 90 dias",
+   "custo": "A maior parte dos seguidores já não vê o que é publicado",
+   "vertente": "social"
+  },
+  {
+   "titulo": "Mix de formatos invertido",
+   "evidencia": "76 dos 120 posts da amostra são imagem estática",
+   "custo": "O maior volume de esforço vai para o formato de menor entrega",
+   "vertente": "social"
+  },
+  {
+   "titulo": "Cadência insuficiente",
+   "evidencia": "1 publicação em 90 dias",
+   "custo": "Abaixo do mínimo para o algoritmo manter entrega estável",
+   "vertente": "social"
+  },
+  {
+   "titulo": "Não anuncia, ou anuncia sem rastrear",
+   "evidencia": "Nenhum pixel da Meta nem tag do Google Ads no site",
+   "custo": "Alcance limitado ao orgânico, que já está caindo",
+   "vertente": "trafego"
+  }
+ ],
+ "fontes": [
+  "Coleta HTTP direta de https://institutomachado.com.br/",
+  "Google Busca (google.com/search) - pacote local (Resultados locais), hl=pt-BR&gl=BR, sessao deslogada, 2026-08-19",
+  "Google Maps (google.com/maps) - leitura direta da ficha via Playwright, hl=pt-BR, sessao deslogada, 2026-08-19",
+  "Instagram @institutomachadobrasilia_ via API interna com sessao logada (19/08/2026), amostra de 120 posts",
+  "Quadro societário (tabela socios, mesmo snapshot)",
+  "Receita Federal via BigQuery basedosdados.br_me_cnpj (snapshot 2026-01-11)",
+  "WebSearch: \"Instituto de Ortodontia Machado\" doctoralia (sem resultado específico para a unidade Brasília)",
+  "https://br.linkedin.com/in/instituto-machado-618a874b",
+  "https://institutomachado.com.br/",
+  "https://institutomachado.com.br/contato/",
+  "https://www.econodata.com.br/consulta-empresa/02272945000279-INSTITUTO-MACHADO-ODONTOLOGIA-LTDA",
+  "https://www.facebook.com/institutomachadobrasilia/",
+  "https://www.instagram.com/institutomachadobrasilia_/",
+  "https://www.linkedin.com/in/rosariocasaluenovo/"
+ ],
+ "limitacoes": [
+  "Contagem exata de fotos nao coletada: o Google Maps nao exibe o total sem abrir a galeria foto a foto. Registrado apenas se existe ou nao a aba 'Do proprietario'.",
+  "Contato do CNPJ aponta para escritorio de contabilidade ou e compartilhado com outro CNPJ — confirmar o telefone real da clinica antes de ligar",
+  "Divergencia de nome entre a razao/nome comercial esperado ('Instituto de Ortodontia Machado e Audicao') e o nome da ficha ('Instituto Machado Odontologia Funcional Brasilia'). Considerei a mesma empresa pelo endereco (SHN Q2 Bloco H), mas vale confirmar.",
+  "Endereço completo da unidade Brasília não é exibido no site institutomachado.com.br; a correspondência com SHN Quadra 2 Bloco H não foi confirmada de forma independente, apenas inferida pelo nome do diretor e CNPJ raiz",
+  "Não localizei página Doctoralia específica da unidade Brasília do Instituto Machado",
+  "Recencia baseada nas avaliacoes visiveis na ordenacao padrao do Maps (relevancia), nao em ordenacao por data. E o piso da recencia real, nao o valor exato."
+ ]
+}

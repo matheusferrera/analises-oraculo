@@ -1,0 +1,72 @@
+{
+ "coletadoEm": "2026-08-18",
+ "ads": {
+  "metaAdLibrary": {
+   "anunciosAtivos": 25,
+   "criativos": 25,
+   "mesesNoAr": 2.1,
+   "formatos": [
+    "vídeo",
+    "imagem"
+   ],
+   "metodo": "Playwright (contexto isolado) em facebook.com/ads/library, país=BR, active_status=all, busca por \"Vital Implantes\" (frase exata e busca por palavras); 25 anúncios atribuídos à página \"Vital Implantes e Tratamentos Dentários\" (nenhum marcado como Inativo), 11 em vídeo e 14 em imagem, veiculação de 15/06/2026 a 17/08/2026, com um criativo assinado em conjunto com \"Vital Implantes Taguatinga\". Meta reporta \"~32 resultados\" para a frase exata",
+   "conseguiuLer": true,
+   "termosBuscados": [
+    "Vital Implantes",
+    "Vital Implantes (frase exata)"
+   ]
+  },
+  "leitura": "É o anunciante mais pesado da lista: 25 anúncios no ar sem interrupção desde junho, mix de vídeo e imagem, tráfego para WhatsApp via encurtador de rastreio (tintim.link) e criativo separado por unidade (Taguatinga). Já compra mídia com método — a conversa aqui é sobre performance e escala, não sobre começar a anunciar."
+ },
+ "diretorios": {
+  "doctoralia": "https://www.doctoralia.com.br/vital-implantes-e-tratamentos-dentarios/dentista/brasilia",
+  "doctoraliaNota": null,
+  "doctoraliaOpinioes": 0,
+  "facebook": "https://www.facebook.com/vitalimplantes/",
+  "linkedin": "https://www.linkedin.com/company/vitalimplantes",
+  "youtube": "https://www.youtube.com/channel/UCo2eaBgvszU6ovWEhf9uVog",
+  "tiktok": null,
+  "outros": [
+   {
+    "nome": "Instagram (conta oficial da clínica)",
+    "url": "https://www.instagram.com/vitalimplantes/",
+    "observacao": "~17 mil seguidores, ~860 publicações, segundo resultados de busca — já registrado como instagram.handle em presenca.json."
+   },
+   {
+    "nome": "Facebook (URL alternativa/antiga da mesma página)",
+    "url": "https://www.facebook.com/vitalimplantesetratamentosdentarios/",
+    "observacao": "Apareceu em resultado de busca como página distinta; pode ser um alias/redirecionamento antigo da mesma Facebook Page — não foi possível confirmar com certeza qual é a URL canônica atual além de /vitalimplantes/."
+   }
+  ]
+ },
+ "siteConfirmacao": {
+  "existe": true,
+  "url": "https://www.vitalimplantes.com.br/",
+  "conclusivo": true,
+  "observacao": "Site já confirmado ativo em presenca.json (HTTP 200, WordPress-like com dezenas de páginas indexadas, sitemap.xml funcional). Reconfirmado por WebSearch com múltiplas páginas institucionais e de blog indexadas normalmente. Não havia necessidade de reverificação — incluído aqui apenas por completude."
+ },
+ "instagramDecisor": {
+  "handle": null,
+  "confianca": "nao_encontrado",
+  "evidencia": "Buscas por 'Cristhian Rogers Silva Domingos' + Instagram/LinkedIn não retornaram um perfil pessoal identificável. Fontes de negócio (Econodata, reportagem da Metrópoles) confirmam que ele é sócio-fundador/administrador da Vital Implantes, mas nenhuma rede social pessoal dele foi localizada com confiança razoável — apenas a conta institucional @vitalimplantes, que é claramente da marca (multi-unidade, mais de 40 dentistas), não um perfil pessoal do decisor."
+ },
+ "fontes": [
+  "https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=BR&q=Vital%20Implantes&search_type=keyword_unordered",
+  "https://www.doctoralia.com.br/vital-implantes-e-tratamentos-dentarios/dentista/brasilia",
+  "https://www.facebook.com/vitalimplantes/",
+  "https://www.linkedin.com/company/vitalimplantes",
+  "https://www.youtube.com/channel/UCo2eaBgvszU6ovWEhf9uVog",
+  "https://www.instagram.com/vitalimplantes/",
+  "https://www.metropoles.com/conteudo-especial/vital-implantes-tratamento-dentario-acessivel-e-com-qualidade",
+  "https://econodata.com.br/consulta-empresa/18198904000139-VITAL-IMPLANTES-LTDA",
+  "WebSearch: \"Vital Implantes e Tratamentos Dentários Brasília Doctoralia\"",
+  "WebSearch: \"Vital Implantes Brasília YouTube TikTok LinkedIn\"",
+  "WebSearch: \"Cristhian Rogers OR Cristhian Domingos Vital Implantes sócio LinkedIn Instagram\""
+ ],
+ "limitacoes": [
+  "TikTok não localizado.",
+  "Doctoralia da clínica ainda não tem avaliações publicadas ('Opiniões em breve'), então não há nota.",
+  "Existência de duas URLs de Facebook (vitalimplantes vs vitalimplantesetratamentosdentarios) não foi totalmente esclarecida — registrei a mais recorrente como principal.",
+  "Instagram pessoal do decisor Cristhian Rogers Silva Domingos não localizado."
+ ]
+}

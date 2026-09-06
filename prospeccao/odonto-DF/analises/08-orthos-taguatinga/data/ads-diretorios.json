@@ -1,0 +1,57 @@
+{
+ "coletadoEm": "2026-08-18",
+ "ads": {
+  "metaAdLibrary": {
+   "anunciosAtivos": 0,
+   "criativos": 0,
+   "mesesNoAr": null,
+   "formatos": [],
+   "metodo": "Playwright (contexto isolado) em facebook.com/ads/library, país=BR, active_status=all, busca por \"Orthos\" (frase exata), \"orthosbrasilia\" e \"Orthos Brasília\"; as duas últimas retornaram \"Nenhum anúncio\" e a primeira só trouxe homônimos de outros estados",
+   "conseguiuLer": true,
+   "termosBuscados": [
+    "Orthos (frase exata)",
+    "orthosbrasilia",
+    "Orthos Brasília"
+   ]
+  },
+  "leitura": "Não anuncia na Meta. Os vários 'Orthos' que aparecem anunciando são de fora do DF (Paranavaí/PR, Lauro de Freitas e Salvador/BA, Carmo do Cajuru/MG) e uma clínica de ortopedia — nenhum deles é a unidade de Águas Claras/Taguatinga."
+ },
+ "diretorios": {
+  "doctoralia": null,
+  "doctoraliaNota": null,
+  "doctoraliaOpinioes": null,
+  "facebook": null,
+  "linkedin": "https://br.linkedin.com/company/orthos-odontologia-ltda",
+  "youtube": null,
+  "tiktok": null,
+  "outros": [
+   "dentistas.net.br (ficha da unidade Águas Claras): https://www.dentistas.net.br/sobre/orthos-odontologia-aguas-claras"
+  ]
+ },
+ "siteConfirmacao": {
+  "existe": true,
+  "url": "https://orthosonline.com.br/",
+  "conclusivo": true,
+  "observacao": "Rede 'Orthos Odontologia' com múltiplas unidades em Brasília (Taguatinga/Pátio Capital, Águas Claras/Estação SVI, Guará II, Asa Norte/Vision Work). O e-mail cadastrado na Receita para o decisor (taguatinga@orthosonline.com.br) usa o mesmo domínio do site, confirmando o vínculo com a unidade da clínica em questão."
+ },
+ "instagramDecisor": {
+  "handle": "wellstrigueiro",
+  "confianca": "alta",
+  "evidencia": "Perfil @wellstrigueiro (825 seguidores), descrito como 'Invisalign Doctor Brasilia' / Ortodontista. 'Wells' é um primeiro nome incomum e bate com 'Wells Moura Trigueiro', decisor da Orthos Taguatinga; especialidade (ortodontia/Invisalign) e cidade (Brasília) também conferem com o perfil da clínica."
+ },
+ "fontes": [
+  "https://orthosonline.com.br/",
+  "https://orthosonline.com.br/unidades/",
+  "https://www.instagram.com/orthosbrasilia/",
+  "https://www.instagram.com/wellstrigueiro/",
+  "https://www.dentistas.net.br/sobre/orthos-odontologia-aguas-claras",
+  "https://br.linkedin.com/company/orthos-odontologia-ltda",
+  "WebSearch: Orthos Taguatinga site oficial orthosonline",
+  "WebSearch: \"Orthos Odontologia\" facebook.com Brasília -ortopedia"
+ ],
+ "limitacoes": [
+  "Não localizei página Doctoralia específica da unidade Taguatinga/Águas Claras (só encontrei um 'Orthos Odontologia' homônimo em Parnamirim/RN, sem relação)",
+  "Encontrei uma possível página do Facebook (facebook.com/orthosodontologiabsb, 'Orthos Ortodontia e Estética'), mas não consegui confirmar que corresponde a esta unidade específica — a rede tem várias unidades em Brasília com nomes semelhantes, então preferi não afirmar o vínculo sem confirmação",
+  "Não localizei YouTube ou TikTok da clínica"
+ ]
+}

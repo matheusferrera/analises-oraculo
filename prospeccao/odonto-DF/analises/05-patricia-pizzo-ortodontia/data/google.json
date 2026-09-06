@@ -1,0 +1,67 @@
+{
+ "coletadoEm": "2026-08-19",
+ "google": {
+  "perfilEncontrado": true,
+  "nome": "Patricia Pizzo Clinica Odontologica - Implantes e Ortodontia em Aguas Claras",
+  "categoria": "Clinica odontologica",
+  "categoriaCorreta": true,
+  "nota": 5.0,
+  "avaliacoes": 336,
+  "recenciaUltimaAvaliacao": "1 mes",
+  "respostasDoProprietario": true,
+  "fichasDuplicadas": [],
+  "fotos": "galeria presente; aba 'Do proprietario' disponivel (ha fotos publicadas pelo proprietario). Contagem exata nao coletada.",
+  "siteVinculado": "patriciapizzo.com.br",
+  "buscaMarca": "Maps 'Patricia Pizzo Ortodontia Aguas Claras Brasilia' abriu direto a ficha. Post do proprietario longo e bem escrito (endodontia), respostas personalizadas em todas as 3 avaliacoes visiveis.",
+  "buscaSemMarca": "'ortodontia Aguas Claras Brasilia' - a clinica NAO aparece no pacote local, mesmo tendo 336 avaliacoes com nota 5,0 (as 3 do pacote somam 232 avaliacoes).",
+  "pacoteLocal": [
+   {
+    "nome": "Dra. Marjore Viana Ortodontia",
+    "nota": 5.0,
+    "avaliacoes": 158,
+    "local": "Ed. e-Business, Av. Pau Brasil 6, Aguas Claras"
+   },
+   {
+    "nome": "Ortoestetica Aguas Claras",
+    "nota": 4.9,
+    "avaliacoes": 57,
+    "local": "R. Ipe Amarelo 08, Aguas Claras"
+   },
+   {
+    "nome": "Adriane Amorim Ortodontista Aguas Claras",
+    "nota": 5.0,
+    "avaliacoes": 17,
+    "local": "DF Plaza Shopping Torre A, R. Copaiba 01 Sl 217"
+   }
+  ]
+ },
+ "concorrentes": [
+  {
+   "nome": "Dra. Marjore Viana Ortodontia",
+   "nota": 5.0,
+   "avaliacoes": 158,
+   "local": "Ed. e-Business, Av. Pau Brasil 6, Aguas Claras"
+  },
+  {
+   "nome": "Ortoestetica Aguas Claras",
+   "nota": 4.9,
+   "avaliacoes": 57,
+   "local": "R. Ipe Amarelo 08, Aguas Claras"
+  },
+  {
+   "nome": "Adriane Amorim Ortodontista Aguas Claras",
+   "nota": 5.0,
+   "avaliacoes": 17,
+   "local": "DF Plaza Shopping Torre A, R. Copaiba 01 Sl 217"
+  }
+ ],
+ "fontes": [
+  "Google Maps (google.com/maps) - leitura direta da ficha via Playwright, hl=pt-BR, sessao deslogada, 2026-08-19",
+  "Google Busca (google.com/search) - pacote local (Resultados locais), hl=pt-BR&gl=BR, sessao deslogada, 2026-08-19"
+ ],
+ "limitacoes": [
+  "Contagem exata de fotos nao coletada: o Google Maps nao exibe o total sem abrir a galeria foto a foto. Registrado apenas se existe ou nao a aba 'Do proprietario'.",
+  "Recencia baseada nas avaliacoes visiveis na ordenacao padrao do Maps (relevancia), nao em ordenacao por data. E o piso da recencia real, nao o valor exato.",
+  "Nao investiguei a causa da ausencia no pacote local (pode ser categoria primaria, proximidade do centroide da busca ou relevancia por termo)."
+ ]
+}

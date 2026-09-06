@@ -1,0 +1,332 @@
+{
+ "coletadoEm": "2026-08-18",
+ "cnpj": "18.658.855/0001-70",
+ "slug": "patricia-pizzo-ortodontia",
+ "clinica": {
+  "nome": "Patrícia Pizzo Ortodontia",
+  "razaoSocial": "Patricia Pizzo Ortodontia E Ortopedia Facial Ltda",
+  "cnaeDescricao": "Atividade odontológica",
+  "fundacao": "2013-07-19",
+  "idadeAnos": 13,
+  "porte": "EPP",
+  "regiao": "Norte (Aguas Claras)",
+  "endereco": "RUA 5 NORTE LOTE, 3, SALA  414, NORTE (AGUAS CLARAS), CEP 71907720, Brasilia/DF",
+  "unidades": 1
+ },
+ "decisor": {
+  "nome": "Patricia Maria Pizzo Reis",
+  "qualificacao": "Sócio-Administrador",
+  "decisaoCompartilhada": false,
+  "telefone": "(61) 3024-1777",
+  "telefoneTipo": "fixo",
+  "whatsapp": "+556130241777",
+  "email": "patriciapizzoreis@gmail.com",
+  "instagramPessoal": "odontopatriciapizzo",
+  "instagramPessoalConfianca": "alta",
+  "telefone2": "(61) 9 9904-1777",
+  "emailEhDeContador": false,
+  "telefoneCompartilhado": false
+ },
+ "tecnologia": {
+  "site": "https://patriciapizzo.com.br/",
+  "httpStatus": 200,
+  "cms": "WordPress + Elementor",
+  "https": true,
+  "ttfbSegundos": 0.441,
+  "tempoTotalSegundos": null,
+  "tamanhoBytes": 363046,
+  "viewportMobile": true,
+  "h1": 1,
+  "metaDescription": "Clínica odontológica em Águas Claras com implantes, Invisalign e atendimento completo para cuidar do seu sorriso com segurança",
+  "openGraph": true,
+  "jsonLdLocalBusiness": false,
+  "sitemap": "https://patriciapizzo.com.br/sitemap.xml",
+  "paginasReais": [
+   "https://patriciapizzo.com.br/blog/",
+   "https://patriciapizzo.com.br/dentista-em-aguas-claras/",
+   "https://patriciapizzo.com.br/quem-tem-bruxismo-pode-usar-invisalign/",
+   "https://patriciapizzo.com.br/ortodontia-aguas-claras-aparelho-ortodontico/",
+   "https://patriciapizzo.com.br/quem-perdeu-osso-pode-fazer-implante-dentario/",
+   "https://patriciapizzo.com.br/",
+   "https://patriciapizzo.com.br/politicas-de-privacidade/",
+   "https://patriciapizzo.com.br/obrigado/",
+   "https://patriciapizzo.com.br/convenios/",
+   "https://patriciapizzo.com.br/orientacoes-apos-cirurgias-odontologicas/",
+   "https://patriciapizzo.com.br/orientacoes-sobre-clareamento-dental/",
+   "https://patriciapizzo.com.br/procedimentos-envolvendo-anestesia-local/",
+   "https://patriciapizzo.com.br/procedimentos-envolvendo-anestesia-local-e-sedacao/",
+   "https://patriciapizzo.com.br/clareamento-dental/",
+   "https://patriciapizzo.com.br/dtm/",
+   "https://patriciapizzo.com.br/endodontia/",
+   "https://patriciapizzo.com.br/implante-dentario/",
+   "https://patriciapizzo.com.br/laserterapia/",
+   "https://patriciapizzo.com.br/lente-de-contato/",
+   "https://patriciapizzo.com.br/ortodontia/",
+   "https://patriciapizzo.com.br/ortopedia-facial/",
+   "https://patriciapizzo.com.br/cirurgia-oral/",
+   "https://patriciapizzo.com.br/clinica-geral/",
+   "https://patriciapizzo.com.br/sobre/",
+   "https://patriciapizzo.com.br/especialistas/",
+   "https://patriciapizzo.com.br/guia-do-paciente/",
+   "https://patriciapizzo.com.br/invisalign/",
+   "https://patriciapizzo.com.br/protese-dentaria/",
+   "https://patriciapizzo.com.br/tratamentos/",
+   "https://patriciapizzo.com.br/category/categoria-1/",
+   "https://patriciapizzo.com.br/category/categoria-2/",
+   "https://patriciapizzo.com.br/category/implantes-reabilitacao-oral/",
+   "https://patriciapizzo.com.br/tag/implante-dentario-perda-ossea-enxerto-osseo-avaliacao-para-implantes/",
+   "https://patriciapizzo.com.br/author/cleiton/"
+  ],
+  "residuoCMS": [],
+  "formulario": false,
+  "whatsappNoSite": true,
+  "agendamentoOnline": true,
+  "avisoCookies": false,
+  "dominiosDuplicados": [],
+  "propensaoBot": {
+   "nota": 25,
+   "sinais": [
+    "WhatsApp já é canal declarado — o volume existe, falta automatizar"
+   ]
+  },
+  "urlFinal": "https://patriciapizzo.com.br/",
+  "titulo": "Dentista em Águas Claras implante e Invisalign",
+  "pixelMeta": false,
+  "pixelGoogleAds": false,
+  "gtm": false,
+  "ga4": false
+ },
+ "instagram": {
+  "handle": "odontopatriciapizzo",
+  "uid": "5473069243",
+  "seguidores": 10146,
+  "seguindo": 3315,
+  "publicacoesTotal": 2319,
+  "amostraColetada": 108,
+  "verificado": false,
+  "businessContactMethod": null,
+  "ctaAtivado": null,
+  "bio": null,
+  "linkBio": null,
+  "destaques": [],
+  "primeiroPost": "2025-10-13",
+  "ultimoPost": "2026-08-17",
+  "hiatoDias": 2,
+  "cadenciaMensal": {
+   "2026-01": 13,
+   "2026-02": 9,
+   "2026-03": 10,
+   "2026-04": 4,
+   "2026-05": 5,
+   "2026-06": 3,
+   "2026-07": 4,
+   "2026-08": 2
+  },
+  "faseAtual": {
+   "desde": "2026-05-20",
+   "posts": 9,
+   "engajamentoPct": 0.51,
+   "mixFormatos": {
+    "imagem": 75,
+    "carrossel": 23,
+    "reel": 10
+   },
+   "erPorFormato": {
+    "carrossel": 0.81,
+    "reel": 0.53,
+    "imagem": 0.09
+   },
+   "medianaPlaysReel": 708
+  },
+  "tendenciaEngajamento": [],
+  "ctaPctFaseAtual": 3.7,
+  "topHashtags": [],
+  "topMencoes": [],
+  "contaBusiness": true,
+  "categoriaInstagram": "Empreendedor(a)",
+  "erAmostra": 0.28,
+  "er90d": 0.51,
+  "erUltimos12": 0.57,
+  "postsUlt90d": 9,
+  "medianaPlaysReel": 708
+ },
+ "ads": {
+  "metaAdLibrary": {
+   "anunciosAtivos": 0,
+   "criativos": 0,
+   "mesesNoAr": null,
+   "formatos": [],
+   "metodo": "Playwright (contexto isolado) em facebook.com/ads/library, país=BR, active_status=all, busca por \"Patrícia Pizzo\" (frase exata), \"odontopatriciapizzo\" e \"Pizzo\"; as duas primeiras retornaram \"Nenhum anúncio\" e a terceira só trouxe homônimos sem relação (Doutora Katlin Pizzo, Hotel Pizzo Vogorno)",
+   "conseguiuLer": true,
+   "termosBuscados": [
+    "Patrícia Pizzo (frase exata)",
+    "odontopatriciapizzo",
+    "Pizzo"
+   ]
+  },
+  "pixelMeta": null,
+  "pixelGoogleAds": null,
+  "gtm": null,
+  "ga4": null,
+  "leitura": "Não anuncia na Meta. Toda a captação depende hoje de orgânico e indicação — e em Águas Claras, onde concorrentes diretos já compram mídia, isso significa perder a fila de pacientes que decide pelo primeiro contato."
+ },
+ "google": {
+  "perfilEncontrado": true,
+  "nome": "Patricia Pizzo Clinica Odontologica - Implantes e Ortodontia em Aguas Claras",
+  "categoria": "Clinica odontologica",
+  "categoriaCorreta": true,
+  "nota": 5.0,
+  "avaliacoes": 336,
+  "recenciaUltimaAvaliacao": "1 mes",
+  "respostasDoProprietario": true,
+  "fichasDuplicadas": [],
+  "fotos": "galeria presente; aba 'Do proprietario' disponivel (ha fotos publicadas pelo proprietario). Contagem exata nao coletada.",
+  "siteVinculado": "patriciapizzo.com.br",
+  "buscaMarca": "Maps 'Patricia Pizzo Ortodontia Aguas Claras Brasilia' abriu direto a ficha. Post do proprietario longo e bem escrito (endodontia), respostas personalizadas em todas as 3 avaliacoes visiveis.",
+  "buscaSemMarca": "'ortodontia Aguas Claras Brasilia' - a clinica NAO aparece no pacote local, mesmo tendo 336 avaliacoes com nota 5,0 (as 3 do pacote somam 232 avaliacoes).",
+  "pacoteLocal": [
+   {
+    "nome": "Dra. Marjore Viana Ortodontia",
+    "nota": 5.0,
+    "avaliacoes": 158,
+    "local": "Ed. e-Business, Av. Pau Brasil 6, Aguas Claras"
+   },
+   {
+    "nome": "Ortoestetica Aguas Claras",
+    "nota": 4.9,
+    "avaliacoes": 57,
+    "local": "R. Ipe Amarelo 08, Aguas Claras"
+   },
+   {
+    "nome": "Adriane Amorim Ortodontista Aguas Claras",
+    "nota": 5.0,
+    "avaliacoes": 17,
+    "local": "DF Plaza Shopping Torre A, R. Copaiba 01 Sl 217"
+   }
+  ]
+ },
+ "diretorios": {
+  "doctoralia": null,
+  "facebook": "https://www.facebook.com/odontopatriciapizzo/",
+  "linkedin": null,
+  "youtube": "https://www.youtube.com/channel/UCtgtdZSt4mTDv1Ksady2czA",
+  "tiktok": null,
+  "outros": [
+   {
+    "nome": "Instagram (conta oficial da clínica/decisora)",
+    "url": "https://www.instagram.com/odontopatriciapizzo/",
+    "observacao": "~10 mil seguidores segundo resultado de busca — já registrado como instagram.handle em presenca.json."
+   },
+   {
+    "nome": "Albany Medical Center (diretório do centro médico onde a clínica funciona)",
+    "url": "https://www.albanymedical.com.br/odontologo-aguas-claras/patricia-pizzo-clinica-odontologica/"
+   }
+  ]
+ },
+ "consistenciaNAP": {
+  "google": null,
+  "site": null,
+  "instagram": null,
+  "receita": null,
+  "divergencias": []
+ },
+ "concorrentes": [
+  {
+   "nome": "Dra. Marjore Viana Ortodontia",
+   "nota": 5.0,
+   "avaliacoes": 158,
+   "local": "Ed. e-Business, Av. Pau Brasil 6, Aguas Claras"
+  },
+  {
+   "nome": "Ortoestetica Aguas Claras",
+   "nota": 4.9,
+   "avaliacoes": 57,
+   "local": "R. Ipe Amarelo 08, Aguas Claras"
+  },
+  {
+   "nome": "Adriane Amorim Ortodontista Aguas Claras",
+   "nota": 5.0,
+   "avaliacoes": 17,
+   "local": "DF Plaza Shopping Torre A, R. Copaiba 01 Sl 217"
+  }
+ ],
+ "notaGeral": {
+  "valor": 6.0,
+  "escala": 10,
+  "pilares": {
+   "site": 8.4,
+   "instagram": 2.8,
+   "cadencia": 7.0,
+   "google": 9.0,
+   "reputacaoEDiretorios": 4.4,
+   "conversao": 4.5
+  }
+ },
+ "dores": [
+  {
+   "titulo": "Mix de formatos invertido",
+   "vertente": "social",
+   "evidencia": "69% dos posts sao imagem estatica, o formato com ER de 0,09% — nove vezes pior que o carrossel (0,81%)",
+   "custo": "O maior volume de esforco esta no formato que menos entrega alcance"
+  },
+  {
+   "titulo": "Cadencia em queda livre",
+   "vertente": "social",
+   "evidencia": "13 posts em janeiro contra 2 em agosto: queda de 85% no ano",
+   "custo": "Perda de alcance composta — o algoritmo reduz entrega de quem some"
+  },
+  {
+   "titulo": "Publica sem pedir a consulta",
+   "vertente": "social",
+   "evidencia": "Apenas 3,7% dos 108 posts tem qualquer chamada para acao",
+   "custo": "Audiencia de 10 mil pessoas sem caminho para virar agendamento"
+  },
+  {
+   "titulo": "Site nao mede nada",
+   "vertente": "tecnologia",
+   "evidencia": "Sem GA4, sem GTM, sem pixel da Meta e sem tag do Google Ads no HTML",
+   "custo": "Impossivel saber de onde vem paciente, entao impossivel investir com criterio"
+  },
+  {
+   "titulo": "Sem schema de negocio local",
+   "vertente": "tecnologia",
+   "evidencia": "Nenhum JSON-LD de LocalBusiness/Dentist na home",
+   "custo": "Perde rich result na busca local, onde o paciente de implante procura"
+  },
+  {
+   "titulo": "Nao anuncia",
+   "vertente": "trafego",
+   "evidencia": "Nenhum pixel de anuncio instalado; mediana de 708 plays por Reel para 10 mil seguidores",
+   "custo": "Alcance limitado ao organico, que ja esta caindo com a cadencia"
+  }
+ ],
+ "fontes": [
+  "Coleta HTTP direta de https://patriciapizzo.com.br/",
+  "Google Busca (google.com/search) - pacote local (Resultados locais), hl=pt-BR&gl=BR, sessao deslogada, 2026-08-19",
+  "Google Maps (google.com/maps) - leitura direta da ficha via Playwright, hl=pt-BR, sessao deslogada, 2026-08-19",
+  "Instagram API interna via sessao logada no Chrome (18/08/2026), amostra de 108 posts",
+  "Quadro societário (tabela socios, mesmo snapshot)",
+  "Receita Federal via BigQuery basedosdados.br_me_cnpj (snapshot 2026-01-11)",
+  "WebSearch: \"Dra Patrícia Pizzo instagram pessoal @drapatriciapizzo OR @patriciapizzo\"",
+  "WebSearch: \"Patricia Pizzo Ortodontia Facebook Águas Claras\"",
+  "WebSearch: \"Patricia Pizzo Ortodontia YouTube TikTok LinkedIn\"",
+  "WebSearch: \"Patricia Pizzo Ortodontia Águas Claras Doctoralia opiniões\"",
+  "WebSearch: \"site:doctoralia.com.br 'Patrícia Pizzo'\"",
+  "WebSearch: \"site:facebook.com 'Patricia Pizzo'\"",
+  "https://www.albanymedical.com.br/odontologo-aguas-claras/patricia-pizzo-clinica-odontologica/",
+  "https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=BR&q=Patricia%20Pizzo%20Ortodontia&search_type=keyword_unordered",
+  "https://www.facebook.com/odontopatriciapizzo/",
+  "https://www.instagram.com/odontopatriciapizzo/",
+  "https://www.youtube.com/channel/UCtgtdZSt4mTDv1Ksady2czA"
+ ],
+ "limitacoes": [
+  "Amostra de 108 dos 2.319 posts (cobre out/2025 a ago/2026)",
+  "Contagem exata de fotos nao coletada: o Google Maps nao exibe o total sem abrir a galeria foto a foto. Registrado apenas se existe ou nao a aba 'Do proprietario'.",
+  "Doctoralia não localizado para o nome 'Patricia Pizzo' apesar de busca direta no site (www.doctoralia.com.br/pesquisa?q=Patricia+Pizzo) — parece não ter perfil na plataforma, mas não é 100% conclusivo dado o volume de nomes semelhantes na base.",
+  "Instagram do decisor é a mesma conta de negócio/pessoal já usada pela clínica — não há perfil pessoal distinto identificado.",
+  "LinkedIn não localizado.",
+  "Nao investiguei a causa da ausencia no pacote local (pode ser categoria primaria, proximidade do centroide da busca ou relevancia por termo).",
+  "Recencia baseada nas avaliacoes visiveis na ordenacao padrao do Maps (relevancia), nao em ordenacao por data. E o piso da recencia real, nao o valor exato.",
+  "TikTok não localizado."
+ ]
+}

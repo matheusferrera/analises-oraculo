@@ -1,0 +1,260 @@
+{
+ "coletadoEm": "2026-08-19",
+ "cnpj": "12.007.751/0001-19",
+ "slug": "everface-odontologia-especializada",
+ "clinica": {
+  "nome": "Everface Odontologia Especializada",
+  "razaoSocial": "Instituto Everton Da Rosa De Cirurgia Ortognatica E Implantes Ltda",
+  "cnaeDescricao": "Atividade odontológica",
+  "fundacao": "2010-04-07",
+  "idadeAnos": 16,
+  "porte": "EPP",
+  "regiao": "Asa Sul",
+  "endereco": "SETOR SRTVS QUADRA 701 CONJUNTO L BLOCO 2, S/N, SALA  531                 EDIF  ASSIS CHATEAUBRIAND, ASA SUL, CEP 70340906, Brasilia/DF",
+  "unidades": 1
+ },
+ "decisor": {
+  "nome": "Everton Luis Santos Da Rosa",
+  "qualificacao": "Sócio-Administrador",
+  "decisaoCompartilhada": false,
+  "telefone": "(61) 3326-3361",
+  "telefoneTipo": "fixo",
+  "whatsapp": "+556133263361",
+  "email": "institutoer@gmail.com",
+  "instagramPessoal": "everton_da_rosa",
+  "instagramPessoalConfianca": "alta",
+  "telefone2": "",
+  "emailEhDeContador": false,
+  "telefoneCompartilhado": false
+ },
+ "tecnologia": {
+  "site": "https://drevertondarosa.com/",
+  "httpStatus": 200,
+  "cms": "WordPress + Elementor",
+  "https": true,
+  "ttfbSegundos": 0.744,
+  "tempoTotalSegundos": null,
+  "tamanhoBytes": 301048,
+  "viewportMobile": true,
+  "h1": 2,
+  "metaDescription": "Odontologia Especializada em Brasília. Especialistas em Implantes Dentários, Reabilitação Oral e Cirurgia Ortognática. Saiba Mais",
+  "openGraph": true,
+  "jsonLdLocalBusiness": false,
+  "sitemap": "https://drevertondarosa.com/sitemap.xml",
+  "paginasReais": [
+   "http://drevertondarosa.com/",
+   "http://drevertondarosa.com/histsrico-profissional",
+   "http://drevertondarosa.com/cirurgia-ortognatica",
+   "http://drevertondarosa.com/contato",
+   "http://drevertondarosa.com/casos-clmnicos"
+  ],
+  "residuoCMS": [],
+  "formulario": true,
+  "whatsappNoSite": true,
+  "agendamentoOnline": true,
+  "avisoCookies": true,
+  "dominiosDuplicados": [],
+  "propensaoBot": {
+   "nota": 25,
+   "sinais": [
+    "WhatsApp já é canal declarado — o volume existe, falta automatizar"
+   ]
+  },
+  "urlFinal": "https://drevertondarosa.com/",
+  "titulo": "Everface | Odontologia Especializada em Brasília",
+  "pixelMeta": false,
+  "pixelGoogleAds": false,
+  "gtm": true,
+  "ga4": false
+ },
+ "instagram": {
+  "handle": "everface_odontologia",
+  "uid": null,
+  "seguidores": 886,
+  "seguindo": null,
+  "publicacoesTotal": 112,
+  "amostraColetada": 111,
+  "verificado": null,
+  "businessContactMethod": null,
+  "ctaAtivado": null,
+  "bio": null,
+  "linkBio": null,
+  "destaques": [],
+  "primeiroPost": null,
+  "ultimoPost": null,
+  "hiatoDias": 11,
+  "cadenciaMensal": {},
+  "faseAtual": {
+   "posts": 15,
+   "engajamentoPct": 1.59,
+   "mixFormatos": {
+    "reel": 94,
+    "imagem": 12,
+    "carrossel": 5
+   },
+   "medianaPlaysReel": 484
+  },
+  "tendenciaEngajamento": [],
+  "ctaPctFaseAtual": 4.5,
+  "topHashtags": [],
+  "topMencoes": [],
+  "erAmostra": 2.52,
+  "er90d": 1.59,
+  "postsUlt90d": 15
+ },
+ "ads": {
+  "metaAdLibrary": {
+   "anunciosAtivos": 0,
+   "criativos": 0,
+   "mesesNoAr": null,
+   "formatos": [],
+   "metodo": "Playwright (contexto isolado) em facebook.com/ads/library, país=BR, active_status=all, busca por \"Everface\" e \"everface_odontologia\"; ambas retornaram \"Nenhum anúncio\" na Biblioteca",
+   "conseguiuLer": true,
+   "termosBuscados": [
+    "Everface",
+    "everface_odontologia"
+   ]
+  },
+  "pixelMeta": null,
+  "pixelGoogleAds": null,
+  "gtm": null,
+  "ga4": null,
+  "leitura": "Não anuncia na Meta. Atenção para não confundir com a 'Faces Odontologia Especializada' de Águas Claras, que anuncia — são páginas e clínicas diferentes."
+ },
+ "google": {
+  "perfilEncontrado": true,
+  "nome": "Everface Odontologia Especializada",
+  "categoria": "Cirurgiao dentista",
+  "categoriaCorreta": false,
+  "nota": 5.0,
+  "avaliacoes": 3,
+  "recenciaUltimaAvaliacao": "10 meses",
+  "respostasDoProprietario": false,
+  "fichasDuplicadas": [],
+  "fotos": "galeria presente, mas SEM aba 'Do proprietario' - so fotos de clientes/Street View. Contagem exata nao coletada.",
+  "siteVinculado": "drevertondarosa.com",
+  "buscaMarca": "Maps 'Everface Odontologia Especializada Brasilia' abriu direto a ficha - SRTVS QD 701 Conj L Bl 2 Sala 531, Ed. Assis Chateaubriand, Asa Sul; confere com o cadastro.",
+  "buscaSemMarca": "'extracao de siso cirurgia Asa Sul Brasilia' - a Everface NAO aparece no pacote local.",
+  "pacoteLocal": [
+   {
+    "nome": "Clinica Zelus Odontologia",
+    "nota": 5.0,
+    "avaliacoes": 188,
+    "local": "SCS Q. 6 Torre A Sl 906/908"
+   },
+   {
+    "nome": "All Vida Odontologia 24h",
+    "nota": 5.0,
+    "avaliacoes": 164,
+    "local": "Venancio Shopping Bl B50 Sala 525, Asa Sul"
+   },
+   {
+    "nome": "Dra Monise Mendes, Cirurgia Odontologica e Bucomaxilofacial",
+    "nota": 5.0,
+    "avaliacoes": 88,
+    "local": "EQS 102/103 Centro Empresarial Sao Francisco"
+   }
+  ]
+ },
+ "diretorios": {
+  "doctoralia": "https://www.doctoralia.com.br/everton-da-rosa/cirurgiao-buco-maxilo-facial-dentista/brasilia",
+  "facebook": "https://www.facebook.com/people/Dr-Everton-da-Rosa/",
+  "linkedin": null,
+  "youtube": null,
+  "tiktok": null,
+  "outros": 1
+ },
+ "consistenciaNAP": {
+  "google": null,
+  "site": null,
+  "instagram": null,
+  "receita": null,
+  "divergencias": []
+ },
+ "concorrentes": [
+  {
+   "nome": "Clinica Zelus Odontologia",
+   "nota": 5.0,
+   "avaliacoes": 188,
+   "local": "SCS Q. 6 Torre A Sl 906/908"
+  },
+  {
+   "nome": "All Vida Odontologia 24h",
+   "nota": 5.0,
+   "avaliacoes": 164,
+   "local": "Venancio Shopping Bl B50 Sala 525, Asa Sul"
+  },
+  {
+   "nome": "Dra Monise Mendes, Cirurgia Odontologica e Bucomaxilofacial",
+   "nota": 5.0,
+   "avaliacoes": 88,
+   "local": "EQS 102/103 Centro Empresarial Sao Francisco"
+  }
+ ],
+ "notaGeral": {
+  "valor": 5.9,
+  "escala": 10,
+  "pilares": {
+   "site": 8.4,
+   "instagram": 6.4,
+   "cadencia": 5.5,
+   "google": 4.0,
+   "reputacaoEDiretorios": 4.4,
+   "conversao": 6.5
+  }
+ },
+ "dores": [
+  {
+   "titulo": "Sem schema de negócio local",
+   "evidencia": "Nenhum JSON-LD de LocalBusiness ou Dentist na home",
+   "custo": "Perde rich result na busca local, onde o paciente de implante procura",
+   "vertente": "tecnologia"
+  },
+  {
+   "titulo": "Avaliações sem resposta",
+   "evidencia": "Nenhuma resposta do proprietário nas avaliações visíveis",
+   "custo": "Resposta do dono é sinal de cuidado e pesa no ranqueamento local",
+   "vertente": "tecnologia"
+  },
+  {
+   "titulo": "Categoria errada no Google",
+   "evidencia": "Categoria declarada: Cirurgiao dentista",
+   "custo": "A ficha deixa de aparecer nas buscas do procedimento que a clínica de fato vende",
+   "vertente": "tecnologia"
+  },
+  {
+   "titulo": "Publica sem pedir a consulta",
+   "evidencia": "Apenas 4,5% dos posts tem chamada para ação",
+   "custo": "Audiência construída sem caminho para virar agendamento",
+   "vertente": "social"
+  },
+  {
+   "titulo": "Não anuncia, ou anuncia sem rastrear",
+   "evidencia": "Nenhum pixel da Meta nem tag do Google Ads no site",
+   "custo": "Alcance limitado ao orgânico, que já está caindo",
+   "vertente": "trafego"
+  }
+ ],
+ "fontes": [
+  "Coleta HTTP direta de https://drevertondarosa.com/",
+  "Google Busca (google.com/search) - pacote local (Resultados locais), hl=pt-BR&gl=BR, sessao deslogada, 2026-08-19",
+  "Google Maps (google.com/maps) - leitura direta da ficha via Playwright, hl=pt-BR, sessao deslogada, 2026-08-19",
+  "Instagram @everface_odontologia via API interna com sessao logada (19/08/2026), amostra de 111 posts",
+  "Quadro societário (tabela socios, mesmo snapshot)",
+  "Receita Federal via BigQuery basedosdados.br_me_cnpj (snapshot 2026-01-11)",
+  "WebSearch: Everface Odontologia site oficial Brasília",
+  "WebSearch: Everton Luis Santos da Rosa dentista instagram cirurgião ortognática",
+  "https://www.doctoralia.com.br/everton-da-rosa/cirurgiao-buco-maxilo-facial-dentista/brasilia",
+  "https://www.drevertondarosa.com/",
+  "https://www.instagram.com/everface_odontologia/",
+  "https://www.instagram.com/everton_da_rosa/"
+ ],
+ "limitacoes": [
+  "Contagem exata de fotos nao coletada: o Google Maps nao exibe o total sem abrir a galeria foto a foto. Registrado apenas se existe ou nao a aba 'Do proprietario'.",
+  "Não localizei LinkedIn, YouTube ou TikTok da clínica",
+  "O site vinculado e o dominio pessoal do profissional (drevertondarosa.com), nao um dominio da marca Everface. Nao verifiquei se existe site proprio da Everface.",
+  "Recencia baseada nas avaliacoes visiveis na ordenacao padrao do Maps (relevancia), nao em ordenacao por data. E o piso da recencia real, nao o valor exato.",
+  "URL completa do Facebook (facebook.com/people/Dr-Everton-da-Rosa/) veio truncada na fonte, sem o ID numérico final — pode não abrir direto sem busca adicional",
+  "categoriaCorreta marcada como false porque a ficha esta como 'Cirurgiao dentista' (categoria de profissional) e nao como clinica/especialidade - avaliacao minha, nao um dado do Google."
+ ]
+}

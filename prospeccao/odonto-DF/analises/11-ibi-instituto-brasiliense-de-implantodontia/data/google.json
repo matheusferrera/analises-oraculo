@@ -1,0 +1,68 @@
+{
+ "coletadoEm": "2026-08-19",
+ "google": {
+  "perfilEncontrado": "nao_localizado",
+  "nome": null,
+  "categoria": null,
+  "categoriaCorreta": null,
+  "nota": null,
+  "avaliacoes": null,
+  "recenciaUltimaAvaliacao": null,
+  "respostasDoProprietario": null,
+  "fichasDuplicadas": [],
+  "fotos": null,
+  "siteVinculado": null,
+  "buscaMarca": "Buscas: Maps 'Instituto Brasiliense de Implantodontia Asa Sul Brasilia'; Maps 'IBI Implantodontia Brasilia Asa Sul'; Maps 'implantodontia SRTVS Embassy Tower sala 732 Brasilia'. Nenhuma ficha correspondente ao IBI (CNPJ 22.580.698/0001-02, SRTVS Bloco K sala 732, Ed. Embassy Tower). A ultima busca so retornou o proprio predio (Edificio Embassy Tower, 4,3 com 455 avaliacoes, 'Complexo de condominio').",
+  "buscaSemMarca": "'implante dentario Asa Sul Brasilia' - o IBI NAO aparece no pacote local.",
+  "pacoteLocal": [
+   {
+    "nome": "Royal Implantes",
+    "nota": 5.0,
+    "avaliacoes": 152,
+    "local": "SCS Q 07 Ed Torre Patio Brasil Bl A Sl 1105/1107/1109"
+   },
+   {
+    "nome": "Clinica Odontologica CROE Odonto",
+    "nota": 5.0,
+    "avaliacoes": 2,
+    "local": "SGAS 902 Sul Ed Athenas"
+   },
+   {
+    "nome": "ImplantCenter Odontologia",
+    "nota": 5.0,
+    "avaliacoes": 127,
+    "local": "SEPS 710-910 Torre A loja 09 galeria Via Brasil"
+   }
+  ]
+ },
+ "concorrentes": [
+  {
+   "nome": "Royal Implantes",
+   "nota": 5.0,
+   "avaliacoes": 152,
+   "local": "SCS Q 07 Ed Torre Patio Brasil Bl A Sl 1105/1107/1109"
+  },
+  {
+   "nome": "Clinica Odontologica CROE Odonto",
+   "nota": 5.0,
+   "avaliacoes": 2,
+   "local": "SGAS 902 Sul Ed Athenas"
+  },
+  {
+   "nome": "ImplantCenter Odontologia",
+   "nota": 5.0,
+   "avaliacoes": 127,
+   "local": "SEPS 710-910 Torre A loja 09 galeria Via Brasil"
+  }
+ ],
+ "fontes": [
+  "Google Maps (google.com/maps) - leitura direta da ficha via Playwright, hl=pt-BR, sessao deslogada, 2026-08-19",
+  "Google Busca (google.com/search) - pacote local (Resultados locais), hl=pt-BR&gl=BR, sessao deslogada, 2026-08-19"
+ ],
+ "limitacoes": [
+  "Convencao do campo perfilEncontrado: true = ficha confirmada; 'nao_localizado' = busquei e nao encontrei ficha correspondente (nao equivale a afirmar que a empresa nao possui perfil).",
+  "Nao localizei ficha do Google para o IBI - Instituto Brasiliense de Implantodontia (CNPJ 22.580.698/0001-02, Asa Sul, Ed. Embassy Tower sala 732). Isso NAO equivale a afirmar que a empresa nao tem perfil.",
+  "HOMONIMOS QUE NAO SAO O LEAD - nao usar como ficha do IBI: (a) 'Instituto Brasiliense de Implantodontia e Periodontia' (IBIP), SRTVS Centro Empresarial Brasilia Bloco A sala 310, tel (61) 98122-7123, sem avaliacoes - empresa diferente, CNPJ diferente; (b) 'IBI Odontologia -', St. J Norte QNJ 10, tel (61) 3475-6416, 4,9 com 8 avaliacoes - o telefone corresponde ao CNPJ 08.361.591/0001-34 ('IBI - Instituto Brasiliense de Implante', Taguatinga), tambem empresa distinta.",
+  "Observacao de contexto (NAO e do lead): o IBIP aparece com DUAS fichas praticamente identicas no mesmo endereco e telefone - 'Instituto Brasiliense de Implantodontia e Periodontia' e 'Instituto Brasiliense de Implantodontia e Per', ambas sem avaliacoes. Vi as duas na mesma busca. Registrado so para evitar que alguem confunda essa duplicidade com o lead."
+ ]
+}

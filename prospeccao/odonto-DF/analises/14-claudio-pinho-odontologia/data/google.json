@@ -1,0 +1,67 @@
+{
+ "coletadoEm": "2026-08-19",
+ "google": {
+  "perfilEncontrado": true,
+  "nome": "Claudio Pinho",
+  "categoria": "Clinica odontologica",
+  "categoriaCorreta": true,
+  "nota": null,
+  "avaliacoes": 0,
+  "recenciaUltimaAvaliacao": null,
+  "respostasDoProprietario": false,
+  "fichasDuplicadas": [],
+  "fotos": "galeria presente, mas SEM aba 'Do proprietario' - so fotos de clientes/Street View. Contagem exata nao coletada. Ficha sem qualquer foto do proprietario.",
+  "siteVinculado": "drclaudiopinho.com.br",
+  "buscaMarca": "Maps 'Claudio Pinho Odontologia Brasilia' e Maps '\"Claudio Pinho\" dentista SEPS 710 910 Brasilia' abriram a MESMA e unica ficha: 'Claudio Pinho', SGAS II SGAS 614 - Asa Sul, tel (61) 3443-9555. A ficha exibe 'Reivindicar esta empresa', ou seja, NAO esta reivindicada pelo dono. Nao ha nota, nao ha avaliacoes e nao ha secao de fotos do proprietario.",
+  "buscaSemMarca": "'implante dentario Asa Sul Brasilia' - a clinica NAO aparece no pacote local.",
+  "pacoteLocal": [
+   {
+    "nome": "Royal Implantes",
+    "nota": 5.0,
+    "avaliacoes": 152,
+    "local": "SCS Q 07 Ed Torre Patio Brasil Bl A Sl 1105/1107/1109"
+   },
+   {
+    "nome": "Clinica Odontologica CROE Odonto",
+    "nota": 5.0,
+    "avaliacoes": 2,
+    "local": "SGAS 902 Sul Ed Athenas"
+   },
+   {
+    "nome": "ImplantCenter Odontologia",
+    "nota": 5.0,
+    "avaliacoes": 127,
+    "local": "SEPS 710-910 Torre A loja 09 galeria Via Brasil"
+   }
+  ]
+ },
+ "concorrentes": [
+  {
+   "nome": "Royal Implantes",
+   "nota": 5.0,
+   "avaliacoes": 152,
+   "local": "SCS Q 07 Ed Torre Patio Brasil Bl A Sl 1105/1107/1109"
+  },
+  {
+   "nome": "Clinica Odontologica CROE Odonto",
+   "nota": 5.0,
+   "avaliacoes": 2,
+   "local": "SGAS 902 Sul Ed Athenas"
+  },
+  {
+   "nome": "ImplantCenter Odontologia",
+   "nota": 5.0,
+   "avaliacoes": 127,
+   "local": "SEPS 710-910 Torre A loja 09 galeria Via Brasil"
+  }
+ ],
+ "fontes": [
+  "Google Maps (google.com/maps) - leitura direta da ficha via Playwright, hl=pt-BR, sessao deslogada, 2026-08-19",
+  "Google Busca (google.com/search) - pacote local (Resultados locais), hl=pt-BR&gl=BR, sessao deslogada, 2026-08-19"
+ ],
+ "limitacoes": [
+  "Contagem exata de fotos nao coletada: o Google Maps nao exibe o total sem abrir a galeria foto a foto. Registrado apenas se existe ou nao a aba 'Do proprietario'.",
+  "A ficha existe mas esta NAO REIVINDICADA (o Maps oferece 'Reivindicar esta empresa') e com ZERO avaliacoes - nao ha nota nem historico para medir recencia.",
+  "O endereco da ficha (SGAS 614) bate com o cadastro do projeto (SGAS QD 614); a referencia 'SEPS 710/910' do briefing nao apareceu em nenhuma ficha. Nao localizei uma segunda ficha nesse endereco."
+ ]
+}

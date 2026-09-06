@@ -1,0 +1,50 @@
+{
+ "coletadoEm": "2026-08-18",
+ "ads": {
+  "metaAdLibrary": {
+   "anunciosAtivos": 0,
+   "criativos": null,
+   "mesesNoAr": null,
+   "formatos": [],
+   "metodo": "Playwright em facebook.com/ads/library. Busca por \"Crie Odontologia\" (keyword_unordered) devolveu ~110 resultados, mas todos de outros anunciantes que apenas mencionam a palavra genérica \"odontologia\"/\"crie\" (ex: Dr Ricardo Aguiar/Ortoestética Bancários em João Pessoa, cursos de IA para clínicas) — nenhum do anunciante Crie Odontologia. Nova busca por frase exata \"crieodontologia\" (entre aspas) devolveu zero resultados.",
+   "conseguiuLer": true
+  },
+  "leitura": "Nenhum anúncio ativo ou inativo da Crie Odontologia foi localizado na Biblioteca de Anúncios da Meta; a busca por palavra-chave solta traz apenas ruído de outros anunciantes do nicho odontológico."
+ },
+ "diretorios": {
+  "doctoralia": "https://www.doctoralia.com.br/clinicas/crie-2",
+  "doctoraliaNota": 0,
+  "doctoraliaOpinioes": 1,
+  "facebook": "https://www.facebook.com/CrieOdontologia/",
+  "linkedin": "https://br.linkedin.com/company/crie-odontologia",
+  "youtube": null,
+  "tiktok": null,
+  "outros": []
+ },
+ "siteConfirmacao": {
+  "existe": true,
+  "url": "https://www.crieodontologia.com.br/",
+  "conclusivo": true,
+  "observacao": "Já confirmado em presenca.json (HTTP 200, WordPress+Elementor); não fazia parte do escopo desta coleta, mantido apenas como referência."
+ },
+ "instagramDecisor": {
+  "handle": null,
+  "confianca": "nao_encontrado",
+  "evidencia": "Buscas por \"Frederico Goulart\" + dentista/odontologia/Brasília não retornaram perfil pessoal de Instagram com confiança razoável (apenas perfis homônimos não relacionados)."
+ },
+ "fontes": [
+  "https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=BR&q=Crie%20Odontologia&search_type=keyword_unordered (Playwright, 2026-08-18)",
+  "https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=BR&q=%22crieodontologia%22&search_type=keyword_unordered (Playwright, 2026-08-18)",
+  "https://www.doctoralia.com.br/clinicas/crie-2 (WebFetch)",
+  "https://www.facebook.com/CrieOdontologia/ (Playwright — 1,8 mil seguidores, 18 seguindo, recomendado por 92% de 46 avaliações, endereço SMHN Qd.02 Bl.C Sl.601 confere com presenca.json, telefone (61) 3327-2700, último post visível sem rolagem: 9 de janeiro de 2024)",
+  "WebSearch: crieodontologia instagram youtube linkedin facebook",
+  "WebSearch: \"CRIE Odontologia\" youtube.com OR linkedin.com/company OR tiktok.com",
+  "WebSearch: \"Frederico Goulart\" dentista OR odontologia instagram Brasília"
+ ],
+ "limitacoes": [
+  "Nota do Doctoralia aparece como 0 estrelas com apenas 1 opinião (de 2015, texto elogioso) — possível anomalia de exibição da plataforma; registrado literalmente como veio, não corrigido por inferência",
+  "LinkedIn: URL localizada via busca, mas o fetch direto retornou HTTP 429 (rate limit) — não foi possível confirmar seguidores/atividade recentes",
+  "YouTube e TikkTok mencionados de forma genérica em resultados de busca (\"Crie incentiva seguir no YouTube\"), mas nenhuma URL de canal específica foi localizada — ficou em branco",
+  "Instagram pessoal do decisor Frederico Goulart de Oliveira Silva não localizado"
+ ]
+}

@@ -1,0 +1,58 @@
+{
+ "coletadoEm": "2026-08-18",
+ "ads": {
+  "metaAdLibrary": {
+   "anunciosAtivos": 3,
+   "criativos": 3,
+   "mesesNoAr": 0.4,
+   "formatos": [
+    "vídeo"
+   ],
+   "metodo": "Playwright (contexto isolado) em facebook.com/ads/library, país=BR, active_status=all, busca por \"Faces Odontologia\" e \"Faces Odontologia Especializada\" (frase exata); 3 anúncios ativos da página \"Faces Odontologia Especializada\" (facebook.com/facesodontologiaespecializadadf), cuja descrição confirma \"📍Águas Claras DF\" e telefone (61) 3011-2400 — mesma clínica da pasta",
+   "conseguiuLer": true,
+   "termosBuscados": [
+    "Faces Odontologia (frase exata)",
+    "Faces Odontologia Especializada (frase exata)"
+   ]
+  },
+  "leitura": "Começou a anunciar em agosto/2026: 3 criativos em vídeo, todos com CTA de WhatsApp, o mais antigo de 06/08. Operação nova de mídia, sem histórico acumulado — momento em que a clínica ainda está descobrindo o que funciona e é receptiva a quem já tem método."
+ },
+ "diretorios": {
+  "doctoralia": "https://www.doctoralia.com.br/karina-de-oliveira-sales-da-cruz/dentista/aguas-claras",
+  "doctoraliaNota": 5,
+  "doctoraliaOpinioes": 171,
+  "facebook": null,
+  "linkedin": "https://www.linkedin.com/company/faces-odontologia-est%C3%A9tica",
+  "youtube": null,
+  "tiktok": null,
+  "outros": [
+   "Domínio alternativo da mesma clínica: https://www.dentista-aguasclaras.com.br/"
+  ]
+ },
+ "siteConfirmacao": {
+  "existe": true,
+  "url": "https://www.facesodontologia.com.br/",
+  "conclusivo": true,
+  "observacao": "Confirmado: endereço no site (Av Araucárias Lt 1835, Shopping Águas Claras, Sala 551) é essencialmente o mesmo da Receita, telefone (61) 3011-2400 idêntico, e a Dra. Karina Cruz é citada como referência em odontologia estética. Existe também o domínio dentista-aguasclaras.com.br, usado como landing page da mesma marca."
+ },
+ "instagramDecisor": {
+  "handle": null,
+  "confianca": "media",
+  "evidencia": "Encontrei @drakaricruz ('Karina Cruz', 7.095 seguidores). O nome bate com a decisora (Karina de Oliveira Sales da Cruz) e a bio menciona implantes dentários e especializações que também aparecem na ficha Doctoralia dela (implantes, DTM). Porém a bio não cita 'Águas Claras' nem 'Faces Odontologia' explicitamente, e enfatiza ortodontia/USP Bauru/CTBMF — um perfil de ênfase diferente do posicionamento 'estética/lentes de contato' da Faces. Pode ser homônima; não deve ser usado como confirmado sem checagem adicional (ex.: comparar foto de perfil ou posts com o site facesodontologia.com.br)."
+ },
+ "fontes": [
+  "https://www.facesodontologia.com.br/",
+  "https://www.dentista-aguasclaras.com.br/",
+  "https://www.doctoralia.com.br/karina-de-oliveira-sales-da-cruz/dentista/aguas-claras",
+  "https://www.instagram.com/drakaricruz/",
+  "https://www.linkedin.com/company/faces-odontologia-est%C3%A9tica",
+  "WebSearch: Faces Odontologia Estética Águas Claras site oficial",
+  "WebSearch: Karina de Oliveira Sales da Cruz dentista instagram Águas Claras",
+  "WebSearch: \"facesodontologia\" facebook.com águas claras"
+ ],
+ "limitacoes": [
+  "Não localizei página do Facebook da clínica",
+  "Não localizei YouTube ou TikTok da clínica",
+  "Instagram pessoal da decisora tem apenas confiança média — risco de homônima (@drakaricruz não menciona Águas Claras nem Faces Odontologia)"
+ ]
+}

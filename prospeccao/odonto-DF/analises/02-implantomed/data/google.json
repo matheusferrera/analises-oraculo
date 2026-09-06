@@ -1,0 +1,78 @@
+{
+ "coletadoEm": "2026-08-19",
+ "google": {
+  "perfilEncontrado": true,
+  "nome": "Implantomed",
+  "categoria": "Clinica de implante dentario",
+  "categoriaCorreta": true,
+  "nota": 4.9,
+  "avaliacoes": 117,
+  "recenciaUltimaAvaliacao": "2 meses (avaliacao mais recente entre as visiveis)",
+  "respostasDoProprietario": true,
+  "fichasDuplicadas": [
+   {
+    "nome": "Implantomed Senior",
+    "nota": 5.0,
+    "avaliacoes": 1,
+    "categoria": "Clinica odontologica",
+    "endereco": "LOTE 99, SGAS 613 Vitrium 53 & 55 - Asa Sul",
+    "telefone": "(61) 3345-4311",
+    "placeId": "ChIJm1a0xVolWpMRGOjqfR6_OqI",
+    "observacao": "Ficha separada (place id distinto) no MESMO predio e faixa de salas da ficha principal (Ed. Vitrium, salas 53 e 55 vs sala 55). Ambas foram vistas por mim na mesma busca do Maps. Divide sinal de relevancia com a ficha principal e carrega apenas 1 avaliacao."
+   }
+  ],
+  "fotos": "galeria presente; aba 'Do proprietario' disponivel (ha fotos publicadas pelo proprietario). Contagem exata nao coletada.",
+  "siteVinculado": "https://implantomed.com.br/",
+  "buscaMarca": "Maps 'Implantomed Asa Sul Brasilia' - retornou 2 fichas da marca (Implantomed e Implantomed Senior). Ficha principal com post do proprietario de 19/05/2026.",
+  "buscaSemMarca": "'implante dentario Asa Sul Brasilia' - Implantomed NAO aparece no pacote local.",
+  "pacoteLocal": [
+   {
+    "nome": "Royal Implantes",
+    "nota": 5.0,
+    "avaliacoes": 152,
+    "local": "SCS Q 07 Ed Torre Patio Brasil Bl A Sl 1105/1107/1109"
+   },
+   {
+    "nome": "Clinica Odontologica CROE Odonto",
+    "nota": 5.0,
+    "avaliacoes": 2,
+    "local": "SGAS 902 Sul Ed Athenas"
+   },
+   {
+    "nome": "ImplantCenter Odontologia",
+    "nota": 5.0,
+    "avaliacoes": 127,
+    "local": "SEPS 710-910 Torre A loja 09 galeria Via Brasil"
+   }
+  ]
+ },
+ "concorrentes": [
+  {
+   "nome": "Royal Implantes",
+   "nota": 5.0,
+   "avaliacoes": 152,
+   "local": "SCS Q 07 Ed Torre Patio Brasil Bl A Sl 1105/1107/1109"
+  },
+  {
+   "nome": "Clinica Odontologica CROE Odonto",
+   "nota": 5.0,
+   "avaliacoes": 2,
+   "local": "SGAS 902 Sul Ed Athenas"
+  },
+  {
+   "nome": "ImplantCenter Odontologia",
+   "nota": 5.0,
+   "avaliacoes": 127,
+   "local": "SEPS 710-910 Torre A loja 09 galeria Via Brasil"
+  }
+ ],
+ "fontes": [
+  "Google Maps (google.com/maps) - leitura direta da ficha via Playwright, hl=pt-BR, sessao deslogada, 2026-08-19",
+  "Google Busca (google.com/search) - pacote local (Resultados locais), hl=pt-BR&gl=BR, sessao deslogada, 2026-08-19"
+ ],
+ "limitacoes": [
+  "Contagem exata de fotos nao coletada: o Google Maps nao exibe o total sem abrir a galeria foto a foto. Registrado apenas se existe ou nao a aba 'Do proprietario'.",
+  "Recencia baseada nas avaliacoes visiveis na ordenacao padrao do Maps (relevancia), nao em ordenacao por data. E o piso da recencia real, nao o valor exato.",
+  "Nao confirmei se 'Implantomed Senior' e uma unidade/servico deliberadamente separado ou uma ficha duplicada por engano - so a empresa pode dizer. O fato registrado e que sao duas fichas distintas no mesmo endereco."
+ ]
+}

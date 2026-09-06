@@ -1,0 +1,67 @@
+{
+ "coletadoEm": "2026-08-19",
+ "google": {
+  "perfilEncontrado": true,
+  "nome": "Faces Odontologia Especializada - Lentes de Contato Dental",
+  "categoria": "Clinica odontologica",
+  "categoriaCorreta": true,
+  "nota": 5.0,
+  "avaliacoes": 348,
+  "recenciaUltimaAvaliacao": "1 mes",
+  "respostasDoProprietario": false,
+  "fichasDuplicadas": [],
+  "fotos": "galeria presente; aba 'Do proprietario' disponivel (ha fotos publicadas pelo proprietario). Contagem exata nao coletada. Abas: Tudo / Dente / Videos / Do proprietario / Street View.",
+  "siteVinculado": "facesodontologia.com.br (+ api.whatsapp.com)",
+  "buscaMarca": "Maps 'Faces Odontologia Estetica Aguas Claras Brasilia' abriu direto a ficha - Aguas Claras Shopping, Sala 551. Ficha rica: horarios extras, atributos de diversidade, aba de Servicos.",
+  "buscaSemMarca": "'odontologia estetica lentes de contato dental Aguas Claras Brasilia' - a Faces aparece em 1o lugar no pacote local.",
+  "pacoteLocal": [
+   {
+    "nome": "Faces Odontologia Especializada - Lentes de Contato Dental",
+    "nota": 5.0,
+    "avaliacoes": 348,
+    "local": "Aguas Claras Shopping, Sala 551"
+   },
+   {
+    "nome": "Rodrigo Braga - Lentes de Contato Dental",
+    "nota": 5.0,
+    "avaliacoes": 12,
+    "local": "Ed Led Office, QS 01, Aguas Claras"
+   },
+   {
+    "nome": "Ortoestetica Aguas Claras",
+    "nota": 4.9,
+    "avaliacoes": 57,
+    "local": "R. Ipe Amarelo 08, Aguas Claras"
+   }
+  ]
+ },
+ "concorrentes": [
+  {
+   "nome": "Faces Odontologia Especializada - Lentes de Contato Dental",
+   "nota": 5.0,
+   "avaliacoes": 348,
+   "local": "Aguas Claras Shopping, Sala 551"
+  },
+  {
+   "nome": "Rodrigo Braga - Lentes de Contato Dental",
+   "nota": 5.0,
+   "avaliacoes": 12,
+   "local": "Ed Led Office, QS 01, Aguas Claras"
+  },
+  {
+   "nome": "Ortoestetica Aguas Claras",
+   "nota": 4.9,
+   "avaliacoes": 57,
+   "local": "R. Ipe Amarelo 08, Aguas Claras"
+  }
+ ],
+ "fontes": [
+  "Google Maps (google.com/maps) - leitura direta da ficha via Playwright, hl=pt-BR, sessao deslogada, 2026-08-19",
+  "Google Busca (google.com/search) - pacote local (Resultados locais), hl=pt-BR&gl=BR, sessao deslogada, 2026-08-19"
+ ],
+ "limitacoes": [
+  "Contagem exata de fotos nao coletada: o Google Maps nao exibe o total sem abrir a galeria foto a foto. Registrado apenas se existe ou nao a aba 'Do proprietario'.",
+  "Recencia baseada nas avaliacoes visiveis na ordenacao padrao do Maps (relevancia), nao em ordenacao por data. E o piso da recencia real, nao o valor exato.",
+  "Nenhuma das 3 avaliacoes visiveis tinha resposta do proprietario - com 348 avaliacoes e nota 5,0, e o unico buraco visivel da ficha. Nao percorri todas as avaliacoes."
+ ]
+}

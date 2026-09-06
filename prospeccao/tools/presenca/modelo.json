@@ -1,0 +1,142 @@
+{
+ "coletadoEm": null,
+ "cnpj": null,
+ "slug": null,
+ "clinica": {
+  "nome": null,
+  "razaoSocial": null,
+  "cnaeDescricao": null,
+  "fundacao": null,
+  "idadeAnos": null,
+  "porte": null,
+  "regiao": null,
+  "endereco": null,
+  "unidades": null
+ },
+ "decisor": {
+  "nome": null,
+  "qualificacao": null,
+  "decisaoCompartilhada": null,
+  "telefone": null,
+  "telefoneTipo": null,
+  "whatsapp": null,
+  "email": null,
+  "instagramPessoal": null
+ },
+ "tecnologia": {
+  "site": null,
+  "httpStatus": null,
+  "cms": null,
+  "https": null,
+  "ttfbSegundos": null,
+  "tempoTotalSegundos": null,
+  "tamanhoBytes": null,
+  "viewportMobile": null,
+  "h1": null,
+  "metaDescription": null,
+  "openGraph": null,
+  "jsonLdLocalBusiness": null,
+  "sitemap": null,
+  "paginasReais": [],
+  "residuoCMS": [],
+  "formulario": null,
+  "whatsappNoSite": null,
+  "agendamentoOnline": null,
+  "avisoCookies": null,
+  "dominiosDuplicados": [],
+  "propensaoBot": {
+   "nota": null,
+   "sinais": []
+  }
+ },
+ "instagram": {
+  "handle": null,
+  "uid": null,
+  "seguidores": null,
+  "seguindo": null,
+  "publicacoesTotal": null,
+  "amostraColetada": null,
+  "verificado": null,
+  "businessContactMethod": null,
+  "ctaAtivado": null,
+  "bio": null,
+  "linkBio": null,
+  "destaques": [],
+  "primeiroPost": null,
+  "ultimoPost": null,
+  "hiatoDias": null,
+  "cadenciaMensal": {},
+  "faseAtual": {
+   "desde": null,
+   "posts": null,
+   "engajamentoPct": null,
+   "mixFormatos": {},
+   "erPorFormato": {},
+   "medianaPlaysReel": null
+  },
+  "tendenciaEngajamento": [],
+  "ctaPctFaseAtual": null,
+  "topHashtags": [],
+  "topMencoes": []
+ },
+ "ads": {
+  "metaAdLibrary": {
+   "anunciosAtivos": null,
+   "criativos": null,
+   "mesesNoAr": null,
+   "formatos": []
+  },
+  "pixelMeta": null,
+  "pixelGoogleAds": null,
+  "gtm": null,
+  "ga4": null,
+  "leitura": null
+ },
+ "google": {
+  "perfilEncontrado": null,
+  "nome": null,
+  "categoria": null,
+  "categoriaCorreta": null,
+  "nota": null,
+  "avaliacoes": null,
+  "recenciaUltimaAvaliacao": null,
+  "respostasDoProprietario": null,
+  "fichasDuplicadas": [],
+  "fotos": null,
+  "siteVinculado": null,
+  "buscaMarca": null,
+  "buscaSemMarca": null,
+  "pacoteLocal": []
+ },
+ "diretorios": {
+  "doctoralia": null,
+  "facebook": null,
+  "linkedin": null,
+  "youtube": null,
+  "tiktok": null,
+  "outros": []
+ },
+ "consistenciaNAP": {
+  "google": null,
+  "site": null,
+  "instagram": null,
+  "receita": null,
+  "divergencias": []
+ },
+ "concorrentes": [],
+ "notaGeral": {
+  "valor": null,
+  "escala": 10,
+  "pilares": {
+   "google": null,
+   "site": null,
+   "instagram": null,
+   "cadencia": null,
+   "reputacaoEDiretorios": null,
+   "conversao": null
+  }
+ },
+ "dores": [],
+ "fontes": [],
+ "limitacoes": []
+}

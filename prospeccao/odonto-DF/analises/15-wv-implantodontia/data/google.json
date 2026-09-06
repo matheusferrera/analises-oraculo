@@ -1,0 +1,67 @@
+{
+ "coletadoEm": "2026-08-19",
+ "google": {
+  "perfilEncontrado": "nao_localizado",
+  "nome": null,
+  "categoria": null,
+  "categoriaCorreta": null,
+  "nota": null,
+  "avaliacoes": null,
+  "recenciaUltimaAvaliacao": null,
+  "respostasDoProprietario": null,
+  "fichasDuplicadas": [],
+  "fotos": null,
+  "siteVinculado": null,
+  "buscaMarca": "Maps 'WV Implantodontia Walter Vasques Brasilia' nao retornou nenhuma ficha da marca (trouxe VAZ Odontologia, W Odontologia, WA Odontologia, entre outras - todas empresas distintas). Busca Google '\"Walter Vasques\" implantodontia Brasilia dentista' tambem nao trouxe painel do Google nem ficha local do decisor; o unico ativo proprio encontrado foi uma pagina no Facebook ('Dr Walter Vasques Filho', ~516 curtidas) e mencoes em cursos/perfis de terceiros.",
+  "buscaSemMarca": "'implante dentario Asa Sul Brasilia' - a clinica NAO aparece no pacote local.",
+  "pacoteLocal": [
+   {
+    "nome": "Royal Implantes",
+    "nota": 5.0,
+    "avaliacoes": 152,
+    "local": "SCS Q 07 Ed Torre Patio Brasil Bl A Sl 1105/1107/1109"
+   },
+   {
+    "nome": "Clinica Odontologica CROE Odonto",
+    "nota": 5.0,
+    "avaliacoes": 2,
+    "local": "SGAS 902 Sul Ed Athenas"
+   },
+   {
+    "nome": "ImplantCenter Odontologia",
+    "nota": 5.0,
+    "avaliacoes": 127,
+    "local": "SEPS 710-910 Torre A loja 09 galeria Via Brasil"
+   }
+  ]
+ },
+ "concorrentes": [
+  {
+   "nome": "Royal Implantes",
+   "nota": 5.0,
+   "avaliacoes": 152,
+   "local": "SCS Q 07 Ed Torre Patio Brasil Bl A Sl 1105/1107/1109"
+  },
+  {
+   "nome": "Clinica Odontologica CROE Odonto",
+   "nota": 5.0,
+   "avaliacoes": 2,
+   "local": "SGAS 902 Sul Ed Athenas"
+  },
+  {
+   "nome": "ImplantCenter Odontologia",
+   "nota": 5.0,
+   "avaliacoes": 127,
+   "local": "SEPS 710-910 Torre A loja 09 galeria Via Brasil"
+  }
+ ],
+ "fontes": [
+  "Google Maps (google.com/maps) - leitura direta da ficha via Playwright, hl=pt-BR, sessao deslogada, 2026-08-19",
+  "Google Busca (google.com/search) - pacote local (Resultados locais), hl=pt-BR&gl=BR, sessao deslogada, 2026-08-19"
+ ],
+ "limitacoes": [
+  "Convencao do campo perfilEncontrado: true = ficha confirmada; 'nao_localizado' = busquei e nao encontrei ficha correspondente (nao equivale a afirmar que a empresa nao possui perfil).",
+  "Nao localizei ficha do Google para WV Implantodontia (CNPJ 20.600.926/0001-25, SRTVS, Asa Sul) nem para o decisor Walter Vasques Filho. Isso NAO equivale a afirmar que nao existe perfil.",
+  "O cadastro do projeto traz o endereco truncado ('QUADRA SRTVS QUADRA'), entao nao consegui montar uma busca por endereco completo como fiz com o IBI."
+ ]
+}

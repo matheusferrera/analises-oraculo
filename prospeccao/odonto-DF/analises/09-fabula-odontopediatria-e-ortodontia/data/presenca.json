@@ -1,0 +1,324 @@
+{
+ "coletadoEm": "2026-08-19",
+ "cnpj": "09.431.884/0001-03",
+ "slug": "fabula-odontopediatria-e-ortodontia",
+ "clinica": {
+  "nome": "Fábula Odontopediatria e Ortodontia",
+  "razaoSocial": "Gabriela Lopes Odontopediatria Ltda",
+  "cnaeDescricao": "Atividade odontológica",
+  "fundacao": "2008-03-10",
+  "idadeAnos": 18,
+  "porte": "DEMAIS",
+  "regiao": "Asa Norte",
+  "endereco": "SETOR SETOR COMERCIAL NORTE, QUADRA 02, BLOCO D, ENTRADA B, SN, SALA  1108 1110 E 1111, ASA NORTE, CEP 70712903, Brasilia/DF",
+  "unidades": 2
+ },
+ "decisor": {
+  "nome": "Gabriela Mesquita Lopes",
+  "qualificacao": "Sócio-Administrador",
+  "decisaoCompartilhada": false,
+  "telefone": "(61) 9 9967-5834",
+  "telefoneTipo": "celular",
+  "whatsapp": "+5561999675834",
+  "email": "gabimlopes@gmail.com",
+  "instagramPessoal": null,
+  "telefone2": "",
+  "emailEhDeContador": false,
+  "telefoneCompartilhado": false
+ },
+ "tecnologia": {
+  "site": "https://fabulaodonto.com.br/",
+  "httpStatus": 200,
+  "cms": "WordPress + Elementor",
+  "https": true,
+  "ttfbSegundos": 2.369,
+  "tempoTotalSegundos": null,
+  "tamanhoBytes": 236209,
+  "viewportMobile": true,
+  "h1": 10,
+  "metaDescription": null,
+  "openGraph": false,
+  "jsonLdLocalBusiness": false,
+  "sitemap": "https://fabulaodonto.com.br/sitemap.xml",
+  "paginasReais": [
+   "https://fabulaodonto.com.br/vem-conhecer-a-nossa-historia/",
+   "https://fabulaodonto.com.br/kit-de-atividades-ludicas-da-fabula-odonto/",
+   "https://fabulaodonto.com.br/como-fica-o-programa-de-saude-bucal-do-meu-filho/",
+   "https://fabulaodonto.com.br/qual-a-quantidade-correta-de-creme-dental-usar/",
+   "https://fabulaodonto.com.br/e-possivel-coletar-celula-tronco-do-dentinho-de-leite/",
+   "https://fabulaodonto.com.br/nao-interrompa-as-consultas-de-monitoramento-e-supervisao-do-seu-filho/",
+   "https://fabulaodonto.com.br/o-acucar-e-mesmo-o-vilao-dos-dentinhos/",
+   "https://fabulaodonto.com.br/mamae-e-papai-precisamos-da-sua-ajuda/",
+   "https://fabulaodonto.com.br/seu-filho-gosta-de-escovar-os-dentinhos/",
+   "https://fabulaodonto.com.br/o-nascimento-dos-dentinhos/",
+   "https://fabulaodonto.com.br/colar-de-ambar-nao-use/",
+   "https://fabulaodonto.com.br/laserterapia/",
+   "https://fabulaodonto.com.br/quando-consultar-com-a-ortodontista/",
+   "https://fabulaodonto.com.br/antibiotico-nao-causa-carie/",
+   "https://fabulaodonto.com.br/a-erupcao-dos-dentinhos-de-leite/",
+   "https://fabulaodonto.com.br/crianca-pode-usar-enxaguante-bucal/",
+   "https://fabulaodonto.com.br/invisalign-first-seu-filho-merece-o-melhor-tratamento/",
+   "https://fabulaodonto.com.br/odontoeducacao-e-a-nossa-base/",
+   "https://fabulaodonto.com.br/frenectomia-lingual/",
+   "https://fabulaodonto.com.br/a-melhor-idade-para-iniciar-tratamento-com-o-aparelho-ortodontico/",
+   "https://fabulaodonto.com.br/musicas-para-estimular-a-cuidar-dos-dentinhos/",
+   "https://fabulaodonto.com.br/a-saliva-ajuda-a-prevenir-a-carie-e-a-limpar-os-dentes/",
+   "https://fabulaodonto.com.br/bruxismo-infantil-seu-filho-range-os-dentinhos/",
+   "https://fabulaodonto.com.br/o-dentinho-ficou-escuro-apos-um-trauma/",
+   "https://fabulaodonto.com.br/leite-materno-pode-causar-carie/",
+   "https://fabulaodonto.com.br/roncos-durante-o-sono-algo-esta-errado/",
+   "https://fabulaodonto.com.br/tratamentos-ortodonticos-transformando-sorrisos-e-promovendo-saude/",
+   "https://fabulaodonto.com.br/odontohebiatria-cuidando-da-saude-dos-jovens-e-transformando-sorrisos-na-fabula-like-u/",
+   "https://fabulaodonto.com.br/cuidados-com-a-saude-bucal-na-adolescencia-fabula-like-u-a-clinica-de-referencia-para-os-jovens-em-brasilia/",
+   "https://fabulaodonto.com.br/a-importancia-de-ter-um-odontopediatra-de-confianca-para-o-desenvolvimento-infantil/",
+   "https://fabulaodonto.com.br/cuidado-com-os-dentinhos-das-criancas-nessa-epoca-de-festas-juninas/",
+   "https://fabulaodonto.com.br/sempre-existe-um-bom-motivo-para-sorrir/",
+   "https://fabulaodonto.com.br/a-odontopediatria-e-a-ortodontia-trabalham-juntas/",
+   "https://fabulaodonto.com.br/como-escolher-um-odontopediatra/",
+   "https://fabulaodonto.com.br/medo-de-dentista-o-que-fazer/",
+   "https://fabulaodonto.com.br/primeira-consulta-bebe-dentista/",
+   "https://fabulaodonto.com.br/quando-colocar-aparelho-na-crianca/",
+   "https://fabulaodonto.com.br/laserterapia-no-dentista-infantil/",
+   "https://fabulaodonto.com.br/sedacao-consciente/",
+   "https://fabulaodonto.com.br/teste-da-linguinha-no-bebe/",
+   "https://fabulaodonto.com.br/odontopediatria-o-guia-completo-para-pais/",
+   "https://fabulaodonto.com.br/chupeta-e-succao-de-dedo-quando-vira-problema/",
+   "https://fabulaodonto.com.br/carie-de-mamadeira-carie-da-primeira-infancia-o-que-e-e-como-evitar/",
+   "https://fabulaodonto.com.br/anestesia-em-crianca-dentista/",
+   "https://fabulaodonto.com.br/politica-de-privacidade/",
+   "https://fabulaodonto.com.br/novidades-em-breve/",
+   "https://fabulaodonto.com.br/blog/",
+   "https://fabulaodonto.com.br/loja/",
+   "https://fabulaodonto.com.br/carrinho/",
+   "https://fabulaodonto.com.br/finalizar-compra/",
+   "https://fabulaodonto.com.br/minha-conta/",
+   "https://fabulaodonto.com.br/",
+   "https://fabulaodonto.com.br/termos-de-uso/",
+   "https://fabulaodonto.com.br/fabulalikeu/",
+   "https://fabulaodonto.com.br/blog-likeu/",
+   "https://fabulaodonto.com.br/kit-de-atividades-likeu/",
+   "https://fabulaodonto.com.br/home/",
+   "https://fabulaodonto.com.br/category/covid-19/",
+   "https://fabulaodonto.com.br/category/saude-bucal/",
+   "https://fabulaodonto.com.br/category/like-u/"
+  ],
+  "residuoCMS": [],
+  "formulario": true,
+  "whatsappNoSite": true,
+  "agendamentoOnline": true,
+  "avisoCookies": false,
+  "dominiosDuplicados": [],
+  "propensaoBot": {
+   "nota": 25,
+   "sinais": [
+    "WhatsApp já é canal declarado — o volume existe, falta automatizar"
+   ]
+  },
+  "urlFinal": "https://fabulaodonto.com.br/",
+  "titulo": "Fábula Odontopediatria e Ortodontia &#8211; Clínica especializada em Odontopediatria e Ortodontia em Brasília-DF",
+  "pixelMeta": false,
+  "pixelGoogleAds": false,
+  "gtm": true,
+  "ga4": false
+ },
+ "instagram": {
+  "handle": "fabulaodonto",
+  "uid": null,
+  "seguidores": 6975,
+  "seguindo": null,
+  "publicacoesTotal": 2121,
+  "amostraColetada": 120,
+  "verificado": null,
+  "businessContactMethod": null,
+  "ctaAtivado": null,
+  "bio": null,
+  "linkBio": null,
+  "destaques": [],
+  "primeiroPost": null,
+  "ultimoPost": null,
+  "hiatoDias": 6,
+  "cadenciaMensal": {},
+  "faseAtual": {
+   "posts": 12,
+   "engajamentoPct": 0.37,
+   "mixFormatos": {
+    "imagem": 61,
+    "reel": 47,
+    "carrossel": 12
+   },
+   "medianaPlaysReel": 1068
+  },
+  "tendenciaEngajamento": [],
+  "ctaPctFaseAtual": 14.2,
+  "topHashtags": [],
+  "topMencoes": [],
+  "erAmostra": 0.47,
+  "er90d": 0.37,
+  "postsUlt90d": 12
+ },
+ "ads": {
+  "metaAdLibrary": {
+   "anunciosAtivos": 0,
+   "criativos": 0,
+   "mesesNoAr": null,
+   "formatos": [],
+   "metodo": "Playwright (contexto isolado) em facebook.com/ads/library, país=BR, active_status=all, busca por \"Fábula Odontopediatria\" (frase exata) e \"fabulaodonto\"; ambas retornaram \"Nenhum anúncio\" na Biblioteca",
+   "conseguiuLer": true,
+   "termosBuscados": [
+    "Fábula Odontopediatria (frase exata)",
+    "fabulaodonto"
+   ]
+  },
+  "pixelMeta": null,
+  "pixelGoogleAds": null,
+  "gtm": null,
+  "ga4": null,
+  "leitura": "Não anuncia na Meta. Em odontopediatria, onde a decisão é da mãe e acontece no feed, a ausência de mídia paga é uma lacuna direta de agenda."
+ },
+ "google": {
+  "perfilEncontrado": true,
+  "nome": "Fabula - Odontopediatria & Ortodontia",
+  "categoria": "Odontopediatra (aparece tambem como 'Clinica de odontopediatria' conforme a consulta)",
+  "categoriaCorreta": true,
+  "nota": 4.9,
+  "avaliacoes": 86,
+  "recenciaUltimaAvaliacao": "1 mes (respostas do proprietario ha 3 semanas)",
+  "respostasDoProprietario": true,
+  "fichasDuplicadas": [],
+  "fotos": "galeria presente; aba 'Do proprietario' disponivel (ha fotos publicadas pelo proprietario). Contagem exata nao coletada.",
+  "siteVinculado": "fabulaodonto.com.br",
+  "buscaMarca": "Maps 'Fabula Odontopediatria e Ortodontia Brasilia' retornou so a unidade Lago Sul. Foi preciso buscar 'Fabula odontopediatria Liberty Mall Asa Norte Brasilia' para achar a 2a unidade.",
+  "buscaSemMarca": "'odontopediatria Lago Sul Brasilia' - a Fabula aparece em 1o lugar no pacote local.",
+  "pacoteLocal": [
+   {
+    "nome": "Fabula - Odontopediatria & Ortodontia",
+    "nota": 4.9,
+    "avaliacoes": 86,
+    "local": "SHIS QI 11 Ed Onze Bl K Sala 105, Lago Sul"
+   },
+   {
+    "nome": "Dra. Michelle Amorim",
+    "nota": 5.0,
+    "avaliacoes": 5,
+    "local": "SHIS QI 09 Centro Clinico do Lago Bl E2 Sala 201"
+   },
+   {
+    "nome": "Odontologia Quagliotti",
+    "nota": 5.0,
+    "avaliacoes": 12,
+    "local": "Bloco H Sala 207, Lago Sul"
+   }
+  ],
+  "unidadesAdicionais": [
+   {
+    "nome": "Fabula Like U - Odontologia & Ortodontia 4teens",
+    "nota": null,
+    "avaliacoes": 0,
+    "categoria": "Clinica odontologica",
+    "endereco": "SCN Q 2, Centro Empresarial Liberty Mall Torre B, sala 1111 - Asa Norte",
+    "telefone": "(61) 99801-5777",
+    "site": "sim (vinculado)",
+    "observacao": "Unidade da Asa Norte com ficha ativa e ZERO avaliacoes. Mesmo telefone da unidade Lago Sul. Nome de marca diferente ('Fabula Like U ... 4teens'), o que impede herdar a reputacao da ficha principal e a deixa invisivel em buscas por 'Fabula'."
+   }
+  ]
+ },
+ "diretorios": {
+  "doctoralia": null,
+  "facebook": "https://www.facebook.com/fabulaodonto/",
+  "linkedin": null,
+  "youtube": "https://www.youtube.com/channel/UCgsnOW9mqUKpP_l6eUVuIRg",
+  "tiktok": null,
+  "outros": [
+   "DentMap: https://dentmap.com.br/dentistas/brasilia/fabula-odontopediatria-ortodontia-db0c1926 — 4,8★ (4 avaliações)",
+   "Linktree oficial da clínica com todos os links: https://linktr.ee/fabulaodonto"
+  ]
+ },
+ "consistenciaNAP": {
+  "google": null,
+  "site": null,
+  "instagram": null,
+  "receita": null,
+  "divergencias": []
+ },
+ "concorrentes": [
+  {
+   "nome": "Fabula - Odontopediatria & Ortodontia",
+   "nota": 4.9,
+   "avaliacoes": 86,
+   "local": "SHIS QI 11 Ed Onze Bl K Sala 105, Lago Sul"
+  },
+  {
+   "nome": "Dra. Michelle Amorim",
+   "nota": 5.0,
+   "avaliacoes": 5,
+   "local": "SHIS QI 09 Centro Clinico do Lago Bl E2 Sala 201"
+  },
+  {
+   "nome": "Odontologia Quagliotti",
+   "nota": 5.0,
+   "avaliacoes": 12,
+   "local": "Bloco H Sala 207, Lago Sul"
+  }
+ ],
+ "notaGeral": {
+  "valor": 6.2,
+  "escala": 10,
+  "pilares": {
+   "site": 7.2,
+   "instagram": 1.5,
+   "cadencia": 7.0,
+   "google": 8.0,
+   "reputacaoEDiretorios": 4.4,
+   "conversao": 9.0
+  }
+ },
+ "dores": [
+  {
+   "titulo": "Sem schema de negócio local",
+   "evidencia": "Nenhum JSON-LD de LocalBusiness ou Dentist na home",
+   "custo": "Perde rich result na busca local, onde o paciente de implante procura",
+   "vertente": "tecnologia"
+  },
+  {
+   "titulo": "Engajamento no chão",
+   "evidencia": "0,37% de engajamento nos últimos 90 dias",
+   "custo": "A maior parte dos seguidores já não vê o que é publicado",
+   "vertente": "social"
+  },
+  {
+   "titulo": "Mix de formatos invertido",
+   "evidencia": "61 dos 120 posts da amostra são imagem estática",
+   "custo": "O maior volume de esforço vai para o formato de menor entrega",
+   "vertente": "social"
+  },
+  {
+   "titulo": "Não anuncia, ou anuncia sem rastrear",
+   "evidencia": "Nenhum pixel da Meta nem tag do Google Ads no site",
+   "custo": "Alcance limitado ao orgânico, que já está caindo",
+   "vertente": "trafego"
+  }
+ ],
+ "fontes": [
+  "Coleta HTTP direta de https://fabulaodonto.com.br/",
+  "Google Busca (google.com/search) - pacote local (Resultados locais), hl=pt-BR&gl=BR, sessao deslogada, 2026-08-19",
+  "Google Maps (google.com/maps) - leitura direta da ficha via Playwright, hl=pt-BR, sessao deslogada, 2026-08-19",
+  "Instagram @fabulaodonto via API interna com sessao logada (19/08/2026), amostra de 120 posts",
+  "Quadro societário (tabela socios, mesmo snapshot)",
+  "Receita Federal via BigQuery basedosdados.br_me_cnpj (snapshot 2026-01-11)",
+  "WebSearch: \"Consultório Fábula Odontopediatria e Ortodontia\" doctoralia",
+  "WebSearch: Fábula Odontopediatria Brasília doctoralia opiniões",
+  "WebSearch: Gabriela Mesquita Lopes odontopediatra instagram Brasília",
+  "https://dentmap.com.br/dentistas/brasilia/fabula-odontopediatria-ortodontia-db0c1926",
+  "https://linktr.ee/fabulaodonto",
+  "https://www.facebook.com/fabulaodonto/",
+  "https://www.youtube.com/channel/UCgsnOW9mqUKpP_l6eUVuIRg"
+ ],
+ "limitacoes": [
+  "A categoria exibida variou entre 'Clinica de odontopediatria' e 'Odontopediatra' em consultas diferentes - o Google alterna a categoria mostrada conforme o termo buscado. Nao e possivel ler a categoria primaria real sem acesso ao painel do proprietario.",
+  "Contagem exata de fotos nao coletada: o Google Maps nao exibe o total sem abrir a galeria foto a foto. Registrado apenas se existe ou nao a aba 'Do proprietario'.",
+  "Nao abri a ficha da unidade Asa Norte em detalhe; os dados dela vieram da listagem do Maps.",
+  "Não localizei LinkedIn ou TikTok da clínica",
+  "Não localizei URL de página Doctoralia dedicada à clínica (buscas indicam que ela aparece indexada nas listagens de odontopediatria de Brasília, mas não achei a ficha própria com nota/opiniões)",
+  "Recencia baseada nas avaliacoes visiveis na ordenacao padrao do Maps (relevancia), nao em ordenacao por data. E o piso da recencia real, nao o valor exato."
+ ]
+}

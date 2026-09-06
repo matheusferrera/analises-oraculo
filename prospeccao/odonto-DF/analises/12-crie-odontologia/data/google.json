@@ -1,0 +1,80 @@
+{
+ "coletadoEm": "2026-08-19",
+ "google": {
+  "perfilEncontrado": true,
+  "nome": "Crie Odontologia",
+  "categoria": "Clinica odontologica",
+  "categoriaCorreta": true,
+  "nota": 4.9,
+  "avaliacoes": 1098,
+  "recenciaUltimaAvaliacao": "4 semanas (resposta do proprietario ha 3 semanas)",
+  "respostasDoProprietario": true,
+  "fichasDuplicadas": [],
+  "fotos": "galeria presente; aba 'Do proprietario' disponivel (ha fotos publicadas pelo proprietario). Contagem exata nao coletada.",
+  "siteVinculado": "crieodontologia.com.br",
+  "buscaMarca": "Maps 'CRIE Odontologia SMHN Asa Norte Brasilia' abriu a ficha principal (Ed. Dr. Crispim, SMHN QD 02 Bloco C Sl 601). Maps '\"Crie\" odontologia lounge SMHN quadra 2 bloco B Brasilia' abriu a 2a unidade.",
+  "buscaSemMarca": "'clinica odontologica Asa Norte Brasilia' - a Crie NAO aparece no pacote local, apesar de 1.098 avaliacoes com nota 4,9; o pacote inclui a OdontoCompany com nota 4,1 e 141 avaliacoes.",
+  "pacoteLocal": [
+   {
+    "nome": "Clinica Odontologica Asa Norte",
+    "nota": 5.0,
+    "avaliacoes": 7,
+    "local": "SRTVN Centro Empresarial Norte sala 223A"
+   },
+   {
+    "nome": "OdontoCompany Asa Norte",
+    "nota": 4.1,
+    "avaliacoes": 141,
+    "local": "SHCGN CRN 712/713 Bl B, 22 Terreo"
+   },
+   {
+    "nome": "Ortoriso Clinica Odontologica",
+    "nota": 4.9,
+    "avaliacoes": 205,
+    "local": "SCN Qd 1 Bl F Sl 1305, Asa Norte"
+   }
+  ],
+  "unidadesAdicionais": [
+   {
+    "nome": "Crie Lounge",
+    "nota": 5.0,
+    "avaliacoes": 4,
+    "categoria": "Dentista",
+    "endereco": "SMHN Q. 2 BL B Sala 210 - Asa Norte",
+    "telefone": null,
+    "site": "crieodontologia.com.br",
+    "observacao": "Segunda unidade, no mesmo SMHN Q2 (bloco B). Ficha SEM telefone cadastrado (o Maps oferece 'Adicionar numero de telefone do lugar') e com apenas 4 avaliacoes. Categoria 'Dentista', diferente da ficha principal."
+   }
+  ]
+ },
+ "concorrentes": [
+  {
+   "nome": "Clinica Odontologica Asa Norte",
+   "nota": 5.0,
+   "avaliacoes": 7,
+   "local": "SRTVN Centro Empresarial Norte sala 223A"
+  },
+  {
+   "nome": "OdontoCompany Asa Norte",
+   "nota": 4.1,
+   "avaliacoes": 141,
+   "local": "SHCGN CRN 712/713 Bl B, 22 Terreo"
+  },
+  {
+   "nome": "Ortoriso Clinica Odontologica",
+   "nota": 4.9,
+   "avaliacoes": 205,
+   "local": "SCN Qd 1 Bl F Sl 1305, Asa Norte"
+  }
+ ],
+ "fontes": [
+  "Google Maps (google.com/maps) - leitura direta da ficha via Playwright, hl=pt-BR, sessao deslogada, 2026-08-19",
+  "Google Busca (google.com/search) - pacote local (Resultados locais), hl=pt-BR&gl=BR, sessao deslogada, 2026-08-19"
+ ],
+ "limitacoes": [
+  "Contagem exata de fotos nao coletada: o Google Maps nao exibe o total sem abrir a galeria foto a foto. Registrado apenas se existe ou nao a aba 'Do proprietario'.",
+  "Recencia baseada nas avaliacoes visiveis na ordenacao padrao do Maps (relevancia), nao em ordenacao por data. E o piso da recencia real, nao o valor exato.",
+  "O cadastro do projeto lista a 2a unidade como 'CRIE LOUNGE' no SMHN Q2 Bloco B consultorios 207; a ficha do Google diz Sala 210. Nao verifiquei qual esta correto.",
+  "Nao investiguei a causa da ausencia no pacote local para o termo generico."
+ ]
+}

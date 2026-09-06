@@ -1,0 +1,308 @@
+{
+ "coletadoEm": "2026-08-19",
+ "cnpj": "06.092.065/0001-90",
+ "slug": "crie-odontologia",
+ "clinica": {
+  "nome": "CRIE Odontologia",
+  "razaoSocial": "Adf Centro De Reabilitacao, Implante E Estetica Bucal Ltda",
+  "cnaeDescricao": "Atividade odontológica",
+  "fundacao": "2004-01-06",
+  "idadeAnos": 22,
+  "porte": "DEMAIS",
+  "regiao": "Asa Norte",
+  "endereco": "SETOR SMHN, 44, QUADRA02                  BLOCO C                   SALA  601 602 608 E 609   EDIF  DR. CRISPIM, ASA NORTE, CEP 70710100, Brasilia/DF",
+  "unidades": 1
+ },
+ "decisor": {
+  "nome": "Frederico Goulart De Oliveira Silva",
+  "qualificacao": "Sócio-Administrador",
+  "decisaoCompartilhada": true,
+  "telefone": "(61) 3326-4245",
+  "telefoneTipo": "fixo",
+  "whatsapp": "+556133264245",
+  "email": "admin@crieodontologia.com.br",
+  "instagramPessoal": null,
+  "telefone2": "",
+  "emailEhDeContador": false,
+  "telefoneCompartilhado": false
+ },
+ "tecnologia": {
+  "site": "https://www.crieodontologia.com.br/",
+  "httpStatus": 200,
+  "cms": "WordPress + Elementor",
+  "https": true,
+  "ttfbSegundos": 1.208,
+  "tempoTotalSegundos": null,
+  "tamanhoBytes": 338572,
+  "viewportMobile": true,
+  "h1": 5,
+  "metaDescription": "· Cirurgia Bucomaxilofacial · Dentística · DTM e Dor Orofacial · Endodontia · Harmonização Orofacial · Implantodontia · Invisalign.",
+  "openGraph": true,
+  "jsonLdLocalBusiness": false,
+  "sitemap": "https://www.crieodontologia.com.br/sitemap.xml",
+  "paginasReais": [
+   "https://www.crieodontologia.com.br/2024/06/25/seja-um-cliente-crie-premium/",
+   "https://www.crieodontologia.com.br/2023/07/12/bruxismo-riscos-causas-e-tratamentos/",
+   "https://www.crieodontologia.com.br/2023/07/05/fluorose-dental-o-que-e-causas-e-tratamentos/",
+   "https://www.crieodontologia.com.br/2023/06/30/cigarro-eletronico-e-problemas-na-boca-qual-a-relacao/",
+   "https://www.crieodontologia.com.br/2023/06/28/diastema-dentes-separados-causas-e-opcoes-de-tratamento/",
+   "https://www.crieodontologia.com.br/2023/06/26/dor-de-dente-aguda-o-que-fazer-para-aliviar/",
+   "https://www.crieodontologia.com.br/2023/06/21/o-que-e-um-abscesso-dentario-causas-e-sintomas/",
+   "https://www.crieodontologia.com.br/2023/06/16/por-que-o-invisalign-e-o-melhor-alinhador-do-mercado/",
+   "https://www.crieodontologia.com.br/2023/06/12/queixo-muito-grande-o-que-e-possivel-fazer/",
+   "https://www.crieodontologia.com.br/2023/06/08/pre-natal-odontologico-o-que-e-e-por-que-fazer/",
+   "https://www.crieodontologia.com.br/2023/06/05/como-se-livrar-do-cpap-nasal/",
+   "https://www.crieodontologia.com.br/2023/05/31/prevencao-da-pericoronarite-cuidados-importantes/",
+   "https://www.crieodontologia.com.br/2023/05/26/restauracao-de-dentes-tire-suas-principais-duvidas/",
+   "https://www.crieodontologia.com.br/2023/05/23/sapinho-na-boca-o-que-e-sintomas-causas-e-tratamentos/",
+   "https://www.crieodontologia.com.br/2023/05/19/como-prevenir-gengiva-inflamada-dicas-simples-que-funcionam/",
+   "https://www.crieodontologia.com.br/2023/05/17/implantes-dentarios-em-idosos-sao-seguros-quais-cuidados-tomar/",
+   "https://www.crieodontologia.com.br/2023/05/15/apneia-do-sono-tratamento-com-aparelho-e-cirurgia-ortognatica/",
+   "https://www.crieodontologia.com.br/2023/05/08/queixo-muito-pequeno-o-que-e-possivel-fazer/",
+   "https://www.crieodontologia.com.br/2023/05/01/clareamento-dental-vantagens-e-desvantagens/",
+   "https://www.crieodontologia.com.br/2023/04/24/dentes-sensiveis-principais-causas-e-tratamentos/",
+   "https://www.crieodontologia.com.br/2023/04/17/invisalign-como-escolher-o-dentista-certo-para-seu-tratamento/",
+   "https://www.crieodontologia.com.br/2023/04/10/9-mitos-sobre-saude-bucal-que-voce-precisa-parar-de-acreditar/",
+   "https://www.crieodontologia.com.br/2023/04/03/como-cuidar-de-implantes-dentarios-para-durarem-mais/",
+   "https://www.crieodontologia.com.br/2023/03/23/tratamento-com-invisalign-muito-alem-da-estetica/",
+   "https://www.crieodontologia.com.br/2023/03/16/dia-mundial-da-saude-bucal-as-duvidas-que-voce-sempre-teve-sobre-os-cuidados-com-a-boca/",
+   "https://www.crieodontologia.com.br/2023/03/09/qual-a-relacao-entre-problemas-de-mordida-e-dores-de-cabeca/",
+   "https://www.crieodontologia.com.br/2023/03/03/o-que-fazer-no-dia-a-dia-para-ter-dentes-sempre-saudaveis/",
+   "https://www.crieodontologia.com.br/2023/02/25/veja-como-a-tecnologia-esta-mudando-a-odontologia/",
+   "https://www.crieodontologia.com.br/2023/02/17/gengiva-retraida-causas-prevencao-e-tratamento/",
+   "https://www.crieodontologia.com.br/2023/02/10/tire-todas-as-suas-duvidas-sobre-dente-siso/",
+   "https://www.crieodontologia.com.br/2023/02/03/entenda-como-problemas-na-boca-podem-afetar-sua-saude-geral/",
+   "https://www.crieodontologia.com.br/2023/01/27/7-motivos-para-escolher-a-crie-odontologia/",
+   "https://www.crieodontologia.com.br/2023/01/18/como-funcionam-os-implantes-na-crie-odontologia/",
+   "https://www.crieodontologia.com.br/2023/01/10/tire-todas-as-suas-duvidas-sobre-implantes-dentarios/",
+   "https://www.crieodontologia.com.br/2023/01/03/o-que-e-a-especialidade-de-cirurgia-bucomaxilofacial/",
+   "https://www.crieodontologia.com.br/2022/12/18/atm-ou-articulacao-temporomandibular-conheca-seus-principais-problemas/",
+   "https://www.crieodontologia.com.br/2022/12/09/lentes-de-contato-dental-ou-facetas-de-resina-qual-escolher/",
+   "https://www.crieodontologia.com.br/2022/12/01/quais-sao-as-principais-vantagens-do-invisalign/",
+   "https://www.crieodontologia.com.br/2022/11/24/tudo-o-que-voce-precisa-saber-sobre-harmonizacao-orofacial/",
+   "https://www.crieodontologia.com.br/2022/11/16/escovacao-para-criancas-5-estrategias-adequadas/",
+   "https://www.crieodontologia.com.br/2022/11/08/placa-nos-dentes-causas-tratamentos-e-como-evitar/",
+   "https://www.crieodontologia.com.br/2022/11/01/tratamento-de-mordida-cruzada-como-corrigir-o-seu-sorriso/",
+   "https://www.crieodontologia.com.br/2022/10/24/facetas-dentarias-vantagens-e-desvantagens/",
+   "https://www.crieodontologia.com.br/2022/10/17/gosto-ruim-na-boca-o-que-causa-e-como-tratar/",
+   "https://www.crieodontologia.com.br/2022/10/10/erosao-acida-causas-riscos-e-tratamentos/",
+   "https://www.crieodontologia.com.br/2022/10/03/cirurgia-oral-e-maxilofacial-procedimentos-mais-comuns/",
+   "https://www.crieodontologia.com.br/2022/09/29/lingua-saburrosa-sintomas-causas-e-tratamento/",
+   "https://www.crieodontologia.com.br/2022/09/16/erosao-dentaria-como-pode-afetar-os-seus-dentes/",
+   "https://www.crieodontologia.com.br/2022/09/13/dor-apos-extracao-de-dente-dicas-para-aliviar/",
+   "https://www.crieodontologia.com.br/2022/09/06/exposicao-das-raizes-dentarias-causas-e-sintomas/",
+   "https://www.crieodontologia.com.br/2022/08/30/conheca-as-diferencas-entre-harmonizacao-facial-e-orofacial/",
+   "https://www.crieodontologia.com.br/2022/08/23/lentes-de-contato-dental-em-brasilia/",
+   "https://www.crieodontologia.com.br/2022/08/17/o-que-causa-a-hipersensibilidade-dentaria/",
+   "https://www.crieodontologia.com.br/2022/08/10/bucomaxilo-quando-procurar-esse-especialista/",
+   "https://www.crieodontologia.com.br/2022/08/03/por-que-usar-aparelho-antes-da-cirurgia-ortognatica/",
+   "https://www.crieodontologia.com.br/2022/07/21/tratamento-de-ortodontia-em-brasilia/",
+   "https://www.crieodontologia.com.br/2022/07/14/protocolo-sobre-implantes-em-brasilia-o-que-e-e-como-fazer/",
+   "https://www.crieodontologia.com.br/2022/07/07/dentista-geral-ou-dentista-estetico-quem-voce-deve-consultar/",
+   "https://www.crieodontologia.com.br/2022/06/29/cirurgia-bucomaxilo-em-brasilia-quanto-custa/",
+   "https://www.crieodontologia.com.br/2022/06/27/por-que-voce-deveria-escolher-a-crie-odontologia/"
+  ],
+  "residuoCMS": [
+   "https://www.crieodontologia.com.br/sample-page/"
+  ],
+  "formulario": false,
+  "whatsappNoSite": true,
+  "agendamentoOnline": true,
+  "avisoCookies": false,
+  "dominiosDuplicados": [],
+  "propensaoBot": {
+   "nota": 25,
+   "sinais": [
+    "WhatsApp já é canal declarado — o volume existe, falta automatizar"
+   ]
+  },
+  "urlFinal": "https://www.crieodontologia.com.br/",
+  "titulo": "Home - Crie Odontologia",
+  "pixelMeta": true,
+  "pixelGoogleAds": false,
+  "gtm": false,
+  "ga4": true
+ },
+ "instagram": {
+  "handle": "crieodontologia",
+  "uid": null,
+  "seguidores": 5197,
+  "seguindo": null,
+  "publicacoesTotal": 1134,
+  "amostraColetada": 120,
+  "verificado": null,
+  "businessContactMethod": null,
+  "ctaAtivado": null,
+  "bio": null,
+  "linkBio": null,
+  "destaques": [],
+  "primeiroPost": null,
+  "ultimoPost": null,
+  "hiatoDias": 4,
+  "cadenciaMensal": {},
+  "faseAtual": {
+   "posts": 28,
+   "engajamentoPct": 1.02,
+   "mixFormatos": {
+    "reel": 60,
+    "imagem": 45,
+    "carrossel": 15
+   },
+   "medianaPlaysReel": 833
+  },
+  "tendenciaEngajamento": [],
+  "ctaPctFaseAtual": 4.2,
+  "topHashtags": [],
+  "topMencoes": [],
+  "erAmostra": 0.73,
+  "er90d": 1.02,
+  "postsUlt90d": 28
+ },
+ "ads": {
+  "metaAdLibrary": {
+   "anunciosAtivos": 0,
+   "criativos": null,
+   "mesesNoAr": null,
+   "formatos": [],
+   "metodo": "Playwright em facebook.com/ads/library. Busca por \"Crie Odontologia\" (keyword_unordered) devolveu ~110 resultados, mas todos de outros anunciantes que apenas mencionam a palavra genérica \"odontologia\"/\"crie\" (ex: Dr Ricardo Aguiar/Ortoestética Bancários em João Pessoa, cursos de IA para clínicas) — nenhum do anunciante Crie Odontologia. Nova busca por frase exata \"crieodontologia\" (entre aspas) devolveu zero resultados.",
+   "conseguiuLer": true
+  },
+  "pixelMeta": null,
+  "pixelGoogleAds": null,
+  "gtm": null,
+  "ga4": null,
+  "leitura": "Nenhum anúncio ativo ou inativo da Crie Odontologia foi localizado na Biblioteca de Anúncios da Meta; a busca por palavra-chave solta traz apenas ruído de outros anunciantes do nicho odontológico."
+ },
+ "google": {
+  "perfilEncontrado": true,
+  "nome": "Crie Odontologia",
+  "categoria": "Clinica odontologica",
+  "categoriaCorreta": true,
+  "nota": 4.9,
+  "avaliacoes": 1098,
+  "recenciaUltimaAvaliacao": "4 semanas (resposta do proprietario ha 3 semanas)",
+  "respostasDoProprietario": true,
+  "fichasDuplicadas": [],
+  "fotos": "galeria presente; aba 'Do proprietario' disponivel (ha fotos publicadas pelo proprietario). Contagem exata nao coletada.",
+  "siteVinculado": "crieodontologia.com.br",
+  "buscaMarca": "Maps 'CRIE Odontologia SMHN Asa Norte Brasilia' abriu a ficha principal (Ed. Dr. Crispim, SMHN QD 02 Bloco C Sl 601). Maps '\"Crie\" odontologia lounge SMHN quadra 2 bloco B Brasilia' abriu a 2a unidade.",
+  "buscaSemMarca": "'clinica odontologica Asa Norte Brasilia' - a Crie NAO aparece no pacote local, apesar de 1.098 avaliacoes com nota 4,9; o pacote inclui a OdontoCompany com nota 4,1 e 141 avaliacoes.",
+  "pacoteLocal": [
+   {
+    "nome": "Clinica Odontologica Asa Norte",
+    "nota": 5.0,
+    "avaliacoes": 7,
+    "local": "SRTVN Centro Empresarial Norte sala 223A"
+   },
+   {
+    "nome": "OdontoCompany Asa Norte",
+    "nota": 4.1,
+    "avaliacoes": 141,
+    "local": "SHCGN CRN 712/713 Bl B, 22 Terreo"
+   },
+   {
+    "nome": "Ortoriso Clinica Odontologica",
+    "nota": 4.9,
+    "avaliacoes": 205,
+    "local": "SCN Qd 1 Bl F Sl 1305, Asa Norte"
+   }
+  ],
+  "unidadesAdicionais": [
+   {
+    "nome": "Crie Lounge",
+    "nota": 5.0,
+    "avaliacoes": 4,
+    "categoria": "Dentista",
+    "endereco": "SMHN Q. 2 BL B Sala 210 - Asa Norte",
+    "telefone": null,
+    "site": "crieodontologia.com.br",
+    "observacao": "Segunda unidade, no mesmo SMHN Q2 (bloco B). Ficha SEM telefone cadastrado (o Maps oferece 'Adicionar numero de telefone do lugar') e com apenas 4 avaliacoes. Categoria 'Dentista', diferente da ficha principal."
+   }
+  ]
+ },
+ "diretorios": {
+  "doctoralia": "https://www.doctoralia.com.br/clinicas/crie-2",
+  "facebook": "https://www.facebook.com/CrieOdontologia/",
+  "linkedin": "https://br.linkedin.com/company/crie-odontologia",
+  "youtube": null,
+  "tiktok": null,
+  "outros": 1
+ },
+ "consistenciaNAP": {
+  "google": null,
+  "site": null,
+  "instagram": null,
+  "receita": null,
+  "divergencias": []
+ },
+ "concorrentes": [
+  {
+   "nome": "Clinica Odontologica Asa Norte",
+   "nota": 5.0,
+   "avaliacoes": 7,
+   "local": "SRTVN Centro Empresarial Norte sala 223A"
+  },
+  {
+   "nome": "OdontoCompany Asa Norte",
+   "nota": 4.1,
+   "avaliacoes": 141,
+   "local": "SHCGN CRN 712/713 Bl B, 22 Terreo"
+  },
+  {
+   "nome": "Ortoriso Clinica Odontologica",
+   "nota": 4.9,
+   "avaliacoes": 205,
+   "local": "SCN Qd 1 Bl F Sl 1305, Asa Norte"
+  }
+ ],
+ "notaGeral": {
+  "valor": 6.8,
+  "escala": 10,
+  "pilares": {
+   "site": 8.4,
+   "instagram": 4.1,
+   "cadencia": 7.5,
+   "google": 9.0,
+   "reputacaoEDiretorios": 5.6,
+   "conversao": 6.0
+  }
+ },
+ "dores": [
+  {
+   "titulo": "Sem schema de negócio local",
+   "evidencia": "Nenhum JSON-LD de LocalBusiness ou Dentist na home",
+   "custo": "Perde rich result na busca local, onde o paciente de implante procura",
+   "vertente": "tecnologia"
+  },
+  {
+   "titulo": "Publica sem pedir a consulta",
+   "evidencia": "Apenas 4,2% dos posts tem chamada para ação",
+   "custo": "Audiência construída sem caminho para virar agendamento",
+   "vertente": "social"
+  }
+ ],
+ "fontes": [
+  "Coleta HTTP direta de https://www.crieodontologia.com.br/",
+  "Google Busca (google.com/search) - pacote local (Resultados locais), hl=pt-BR&gl=BR, sessao deslogada, 2026-08-19",
+  "Google Maps (google.com/maps) - leitura direta da ficha via Playwright, hl=pt-BR, sessao deslogada, 2026-08-19",
+  "Instagram @crieodontologia via API interna com sessao logada (19/08/2026), amostra de 120 posts",
+  "Quadro societário (tabela socios, mesmo snapshot)",
+  "Receita Federal via BigQuery basedosdados.br_me_cnpj (snapshot 2026-01-11)",
+  "WebSearch: \"CRIE Odontologia\" youtube.com OR linkedin.com/company OR tiktok.com",
+  "WebSearch: \"Frederico Goulart\" dentista OR odontologia instagram Brasília",
+  "WebSearch: crieodontologia instagram youtube linkedin facebook",
+  "https://www.doctoralia.com.br/clinicas/crie-2 (WebFetch)",
+  "https://www.facebook.com/CrieOdontologia/ (Playwright — 1,8 mil seguidores, 18 seguindo, recomendado por 92% de 46 avaliações, endereço SMHN Qd.02 Bl.C Sl.601 confere com presenca.json, telefone (61) 3327-2700, último post visível sem rolagem: 9 de janeiro de 2024)",
+  "https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=BR&q=%22crieodontologia%22&search_type=keyword_unordered (Playwright, 2026-08-18)",
+  "https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=BR&q=Crie%20Odontologia&search_type=keyword_unordered (Playwright, 2026-08-18)"
+ ],
+ "limitacoes": [
+  "Contagem exata de fotos nao coletada: o Google Maps nao exibe o total sem abrir a galeria foto a foto. Registrado apenas se existe ou nao a aba 'Do proprietario'.",
+  "LinkedIn: URL localizada via busca, mas o fetch direto retornou HTTP 429 (rate limit) — não foi possível confirmar seguidores/atividade recentes",
+  "Nao investiguei a causa da ausencia no pacote local para o termo generico.",
+  "Nota do Doctoralia aparece como 0 estrelas com apenas 1 opinião (de 2015, texto elogioso) — possível anomalia de exibição da plataforma; registrado literalmente como veio, não corrigido por inferência",
+  "O cadastro do projeto lista a 2a unidade como 'CRIE LOUNGE' no SMHN Q2 Bloco B consultorios 207; a ficha do Google diz Sala 210. Nao verifiquei qual esta correto.",
+  "Recencia baseada nas avaliacoes visiveis na ordenacao padrao do Maps (relevancia), nao em ordenacao por data. E o piso da recencia real, nao o valor exato.",
+  "YouTube e TikkTok mencionados de forma genérica em resultados de busca (\"Crie incentiva seguir no YouTube\"), mas nenhuma URL de canal específica foi localizada — ficou em branco"
+ ]
+}

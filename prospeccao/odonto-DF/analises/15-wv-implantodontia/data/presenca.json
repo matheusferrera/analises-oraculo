@@ -1,0 +1,238 @@
+{
+ "coletadoEm": "2026-08-19",
+ "cnpj": "20.600.926/0001-25",
+ "slug": "wv-implantodontia",
+ "clinica": {
+  "nome": "WV Implantodontia",
+  "razaoSocial": "Wv Implantodontia Ltda",
+  "cnaeDescricao": "Atividade odontológica",
+  "fundacao": "2014-06-20",
+  "idadeAnos": 12,
+  "porte": "DEMAIS",
+  "regiao": "Asa Sul",
+  "endereco": "QUADRA SRTVS QUADRA, 701, BLOCO K                   SALA  508, ASA SUL, CEP 70340908, Brasilia/DF",
+  "unidades": 1
+ },
+ "decisor": {
+  "nome": "Walter Vasques Filho",
+  "qualificacao": "Sócio-Administrador",
+  "decisaoCompartilhada": false,
+  "telefone": "(61) 3354-5337",
+  "telefoneTipo": "fixo",
+  "whatsapp": "+556133545337",
+  "email": "ecominacontabilidade@uol.com.br",
+  "instagramPessoal": null,
+  "telefone2": "(61) 3354-9667",
+  "emailEhDeContador": true,
+  "telefoneCompartilhado": true
+ },
+ "tecnologia": {
+  "site": null,
+  "httpStatus": null,
+  "cms": null,
+  "https": null,
+  "ttfbSegundos": null,
+  "tempoTotalSegundos": null,
+  "tamanhoBytes": null,
+  "viewportMobile": null,
+  "h1": null,
+  "metaDescription": null,
+  "openGraph": null,
+  "jsonLdLocalBusiness": null,
+  "sitemap": null,
+  "paginasReais": [],
+  "residuoCMS": [],
+  "formulario": null,
+  "whatsappNoSite": null,
+  "agendamentoOnline": null,
+  "avisoCookies": null,
+  "dominiosDuplicados": [],
+  "propensaoBot": {
+   "nota": null,
+   "sinais": []
+  }
+ },
+ "instagram": {
+  "handle": null,
+  "uid": null,
+  "seguidores": null,
+  "seguindo": null,
+  "publicacoesTotal": null,
+  "amostraColetada": null,
+  "verificado": null,
+  "businessContactMethod": null,
+  "ctaAtivado": null,
+  "bio": null,
+  "linkBio": null,
+  "destaques": [],
+  "primeiroPost": null,
+  "ultimoPost": null,
+  "hiatoDias": null,
+  "cadenciaMensal": {},
+  "faseAtual": {
+   "desde": null,
+   "posts": null,
+   "engajamentoPct": null,
+   "mixFormatos": {},
+   "erPorFormato": {},
+   "medianaPlaysReel": null
+  },
+  "tendenciaEngajamento": [],
+  "ctaPctFaseAtual": null,
+  "topHashtags": [],
+  "topMencoes": []
+ },
+ "ads": {
+  "metaAdLibrary": {
+   "anunciosAtivos": 0,
+   "criativos": null,
+   "mesesNoAr": null,
+   "formatos": [],
+   "metodo": "Playwright em facebook.com/ads/library, busca por frase exata \"WV Implantodontia\" (country=BR, active_status=all)",
+   "conseguiuLer": true
+  },
+  "pixelMeta": null,
+  "pixelGoogleAds": null,
+  "gtm": null,
+  "ga4": null,
+  "leitura": "Biblioteca de Anúncios retornou \"Nenhum anúncio corresponde aos seus critérios de pesquisa\" — sem anúncios ativos ou inativos localizados."
+ },
+ "google": {
+  "perfilEncontrado": false,
+  "nome": null,
+  "categoria": null,
+  "categoriaCorreta": null,
+  "nota": null,
+  "avaliacoes": null,
+  "recenciaUltimaAvaliacao": null,
+  "respostasDoProprietario": null,
+  "fichasDuplicadas": [],
+  "fotos": null,
+  "siteVinculado": null,
+  "buscaMarca": "Maps 'WV Implantodontia Walter Vasques Brasilia' nao retornou nenhuma ficha da marca (trouxe VAZ Odontologia, W Odontologia, WA Odontologia, entre outras - todas empresas distintas). Busca Google '\"Walter Vasques\" implantodontia Brasilia dentista' tambem nao trouxe painel do Google nem ficha local do decisor; o unico ativo proprio encontrado foi uma pagina no Facebook ('Dr Walter Vasques Filho', ~516 curtidas) e mencoes em cursos/perfis de terceiros.",
+  "buscaSemMarca": "'implante dentario Asa Sul Brasilia' - a clinica NAO aparece no pacote local.",
+  "pacoteLocal": [
+   {
+    "nome": "Royal Implantes",
+    "nota": 5.0,
+    "avaliacoes": 152,
+    "local": "SCS Q 07 Ed Torre Patio Brasil Bl A Sl 1105/1107/1109"
+   },
+   {
+    "nome": "Clinica Odontologica CROE Odonto",
+    "nota": 5.0,
+    "avaliacoes": 2,
+    "local": "SGAS 902 Sul Ed Athenas"
+   },
+   {
+    "nome": "ImplantCenter Odontologia",
+    "nota": 5.0,
+    "avaliacoes": 127,
+    "local": "SEPS 710-910 Torre A loja 09 galeria Via Brasil"
+   }
+  ]
+ },
+ "diretorios": {
+  "doctoralia": null,
+  "facebook": "https://www.facebook.com/DentistaEmBrasiliaDF/",
+  "linkedin": null,
+  "youtube": null,
+  "tiktok": null,
+  "outros": [
+   {
+    "nome": "Ident.com.br",
+    "url": "https://www.ident.com.br/dr.waltervasques",
+    "obs": "CRO-DF 2317, formado pela UnB em 1987, atua como clínico geral, sem nota/avaliações exibidas, sem endereço/telefone/redes sociais listados"
+   }
+  ]
+ },
+ "consistenciaNAP": {
+  "google": null,
+  "site": null,
+  "instagram": null,
+  "receita": null,
+  "divergencias": []
+ },
+ "concorrentes": [
+  {
+   "nome": "Royal Implantes",
+   "nota": 5.0,
+   "avaliacoes": 152,
+   "local": "SCS Q 07 Ed Torre Patio Brasil Bl A Sl 1105/1107/1109"
+  },
+  {
+   "nome": "Clinica Odontologica CROE Odonto",
+   "nota": 5.0,
+   "avaliacoes": 2,
+   "local": "SGAS 902 Sul Ed Athenas"
+  },
+  {
+   "nome": "ImplantCenter Odontologia",
+   "nota": 5.0,
+   "avaliacoes": 127,
+   "local": "SEPS 710-910 Torre A loja 09 galeria Via Brasil"
+  }
+ ],
+ "notaGeral": {
+  "valor": 1.7,
+  "escala": 10,
+  "pilares": {
+   "site": 0.0,
+   "instagram": null,
+   "cadencia": null,
+   "google": 0.5,
+   "reputacaoEDiretorios": 3.2,
+   "conversao": 3.0
+  }
+ },
+ "dores": [
+  {
+   "titulo": "Nenhum site próprio",
+   "evidencia": "Nenhuma página no domínio da clínica foi localizada",
+   "custo": "A presença inteira depende de perfis e diretórios de terceiros",
+   "vertente": "tecnologia"
+  },
+  {
+   "titulo": "Sem Perfil da Empresa no Google",
+   "evidencia": "Nenhuma ficha localizada na busca nem no Maps",
+   "custo": "A clínica não entra no pacote local, que é onde a busca por dentista começa",
+   "vertente": "tecnologia"
+  },
+  {
+   "titulo": "Sem Instagram localizado",
+   "evidencia": "Nenhum perfil encontrado para a clínica",
+   "custo": "Em odontologia estética ninguém fecha sem ver caso tratado",
+   "vertente": "social"
+  },
+  {
+   "titulo": "Não anuncia, ou anuncia sem rastrear",
+   "evidencia": "Nenhum pixel da Meta nem tag do Google Ads no site",
+   "custo": "Alcance limitado ao orgânico, que já está caindo",
+   "vertente": "trafego"
+  }
+ ],
+ "fontes": [
+  "Google Busca (google.com/search) - pacote local (Resultados locais), hl=pt-BR&gl=BR, sessao deslogada, 2026-08-19",
+  "Google Maps (google.com/maps) - leitura direta da ficha via Playwright, hl=pt-BR, sessao deslogada, 2026-08-19",
+  "Quadro societário (tabela socios, mesmo snapshot)",
+  "Receita Federal via BigQuery basedosdados.br_me_cnpj (snapshot 2026-01-11)",
+  "WebSearch: \"Centro de Reabilitação Oral\" \"Walter Vasques\" Taguatinga site OR facebook",
+  "WebSearch: \"WV Implantodontia\" Brasília doctoralia",
+  "WebSearch: \"WV Implantodontia\" OR \"Walter Vasques Filho\" instagram",
+  "WebSearch: \"Walter Vasques\" implantodontia Brasília OR Taguatinga instagram OR facebook",
+  "https://www.facebook.com/DentistaEmBrasiliaDF/ (Playwright — página \"Dr Walter Vasques Filho\", 515 seguidores, endereço SRTVS Quadra 701 Bloco K Sala 508 quinto andar Edifício Embassy Tower confere EXATAMENTE com presenca.json, telefone (61) 3037-5294, sem avaliações, último post visível: 13 de agosto de 2020 — página dormente há mais de 5 anos)",
+  "https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=BR&q=%22WV%20Implantodontia%22&search_type=keyword_unordered (Playwright, 2026-08-18)",
+  "https://www.ident.com.br/dr.waltervasques (WebFetch)"
+ ],
+ "limitacoes": [
+  "Contato do CNPJ aponta para escritorio de contabilidade ou e compartilhado com outro CNPJ — confirmar o telefone real da clinica antes de ligar",
+  "Convencao do campo perfilEncontrado: true = ficha confirmada; 'nao_localizado' = busquei e nao encontrei ficha correspondente (nao equivale a afirmar que a empresa nao possui perfil).",
+  "Doctoralia, LinkedIn, YouTube e TikTok não localizados",
+  "Instagram pessoal do decisor Walter Vasques Filho não localizado",
+  "Nao localizei ficha do Google para WV Implantodontia (CNPJ 20.600.926/0001-25, SRTVS, Asa Sul) nem para o decisor Walter Vasques Filho. Isso NAO equivale a afirmar que nao existe perfil.",
+  "Nenhum site proprio localizado por busca web — CONFIRMAR no Chrome antes de afirmar ausencia",
+  "O cadastro do projeto traz o endereco truncado ('QUADRA SRTVS QUADRA'), entao nao consegui montar uma busca por endereco completo como fiz com o IBI.",
+  "Relação entre WV Implantodontia (CNPJ 20.600.926/0001-25, Asa Sul) e Centro de Reabilitação Oral Dr Walter Vasques (CNPJ 33.512.963/0001-23, Taguatinga) não foi confirmada — mesma família/decisor aparente, mas CNPJs distintos; tratar como entidades separadas até confirmação",
+  "Site próprio da WV Implantodontia não localizado — 'não localizei', não 'não tem'"
+ ]
+}

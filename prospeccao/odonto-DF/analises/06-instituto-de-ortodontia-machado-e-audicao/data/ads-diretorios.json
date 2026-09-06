@@ -1,0 +1,59 @@
+{
+ "coletadoEm": "2026-08-18",
+ "ads": {
+  "metaAdLibrary": {
+   "anunciosAtivos": 2,
+   "criativos": 2,
+   "mesesNoAr": 9.2,
+   "formatos": [
+    "vídeo"
+   ],
+   "metodo": "Playwright (contexto isolado) em facebook.com/ads/library, país=BR, active_status=all, busca por \"Instituto Machado\" e \"Instituto Machado de Odontologia\" (frase exata); 2 anúncios ativos da página \"Instituto Machado de Odontologia Brasília\" (facebook.com/61568479941572), separados da unidade homônima de Cuiabá, que aparece na mesma busca com anúncios próprios",
+   "conseguiuLer": true,
+   "termosBuscados": [
+    "Instituto Machado (frase exata)",
+    "Instituto Machado de Odontologia (frase exata)",
+    "institutomachadobrasilia"
+   ]
+  },
+  "leitura": "Anuncia há muito tempo e quase parado: só 2 criativos no ar, um deles rodando desde 10/11/2025 sem troca. Vídeo com CTA de WhatsApp, foco em ronco/apneia e DTM. Verba existe e o hábito de anunciar existe — o que falta é rotina de criativo novo, que é exatamente o ponto de entrada de uma proposta."
+ },
+ "diretorios": {
+  "doctoralia": null,
+  "doctoraliaNota": null,
+  "doctoraliaOpinioes": null,
+  "facebook": "https://www.facebook.com/institutomachadobrasilia/",
+  "linkedin": "https://br.linkedin.com/in/instituto-machado-618a874b",
+  "youtube": null,
+  "tiktok": null,
+  "outros": [
+   "Instagram da unidade Brasília (perfil da clínica, não é o handle de referência do cliente): https://www.instagram.com/institutomachadobrasilia_/ — bio 'Ortopedia Funcional dos Maxilares, Dor Orofacial, DTM, Clareamento, Harmonização Facial, Lentes', 1.236 seguidores, link linklist.bio/institutomachadobrasilia"
+  ]
+ },
+ "siteConfirmacao": {
+  "existe": true,
+  "url": "https://institutomachado.com.br/",
+  "conclusivo": true,
+  "observacao": "Site institucional 'Instituto Machado' cobre duas unidades (Cuiabá e Brasília). A página de contato lista telefone (61) 3328-0313 para a unidade Brasília e cita como diretor o Dr. Rosário Casalenuovo Júnior — nome idêntico ao decisor da Receita Federal (Rosario Casalenuovo Junior, sócio-administrador). O CNPJ raiz (02.272.945) é o mesmo entre as filiais de Cuiabá (0001-98) e Brasília (0002-79), confirmando ser a mesma empresa. Diverge o telefone: o site mostra (61) 3328-0313 e a Receita lista (61) 3225-0655 — pode ser linha nova vs. antiga. O site não exibe o endereço completo da unidade Brasília (só 'Brasília/DF'), então o endereço exato (SHN Quadra 2 Bloco H) não foi confirmado de forma independente no próprio site."
+ },
+ "instagramDecisor": {
+  "handle": null,
+  "confianca": "nao_encontrado",
+  "evidencia": "Não localizei perfil pessoal de Rosário Casalenuovo Junior no Instagram. Existe o perfil @institutomachadobrasilia_, mas é da unidade/clínica, não pessoal. Há LinkedIn pessoal em https://www.linkedin.com/in/rosariocasaluenovo/, sem menção a Instagram."
+ },
+ "fontes": [
+  "https://institutomachado.com.br/",
+  "https://institutomachado.com.br/contato/",
+  "https://www.instagram.com/institutomachadobrasilia_/",
+  "https://www.facebook.com/institutomachadobrasilia/",
+  "https://www.econodata.com.br/consulta-empresa/02272945000279-INSTITUTO-MACHADO-ODONTOLOGIA-LTDA",
+  "https://www.linkedin.com/in/rosariocasaluenovo/",
+  "https://br.linkedin.com/in/instituto-machado-618a874b",
+  "WebSearch: \"Instituto de Ortodontia Machado\" doctoralia (sem resultado específico para a unidade Brasília)"
+ ],
+ "limitacoes": [
+  "Não localizei página Doctoralia específica da unidade Brasília do Instituto Machado",
+  "Endereço completo da unidade Brasília não é exibido no site institutomachado.com.br; a correspondência com SHN Quadra 2 Bloco H não foi confirmada de forma independente, apenas inferida pelo nome do diretor e CNPJ raiz",
+  "Não localizei perfil pessoal do decisor no Instagram, TikTok ou YouTube da clínica"
+ ]
+}

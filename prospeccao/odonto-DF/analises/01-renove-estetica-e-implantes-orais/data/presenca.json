@@ -1,0 +1,251 @@
+{
+ "coletadoEm": "2026-08-19",
+ "cnpj": "16.803.567/0001-36",
+ "slug": "renove-estetica-e-implantes-orais",
+ "clinica": {
+  "nome": "Renove — Estética e Implantes Orais",
+  "razaoSocial": "Renove - Estetica E Implantes Orais Ltda",
+  "cnaeDescricao": "Atividade odontológica",
+  "fundacao": "2012-08-27",
+  "idadeAnos": 14,
+  "porte": "EPP",
+  "regiao": "Asa Norte",
+  "endereco": "SETOR SCN QUADRA 2 BLOCO D ENTRADA A SALA, 1209, ASA NORTE, CEP 70712000, Brasilia/DF",
+  "unidades": 1
+ },
+ "decisor": {
+  "nome": "Tiago Moura De Almeida",
+  "qualificacao": "Sócio-Administrador",
+  "decisaoCompartilhada": false,
+  "telefone": "(61) 9 8179-0097",
+  "telefoneTipo": "celular",
+  "whatsapp": "+5561981790097",
+  "email": "renove1209@gmail.com",
+  "instagramPessoal": null,
+  "telefone2": "",
+  "emailEhDeContador": false,
+  "telefoneCompartilhado": false
+ },
+ "tecnologia": {
+  "site": null,
+  "httpStatus": null,
+  "cms": null,
+  "https": null,
+  "ttfbSegundos": null,
+  "tempoTotalSegundos": null,
+  "tamanhoBytes": null,
+  "viewportMobile": null,
+  "h1": null,
+  "metaDescription": null,
+  "openGraph": null,
+  "jsonLdLocalBusiness": null,
+  "sitemap": null,
+  "paginasReais": [],
+  "residuoCMS": [],
+  "formulario": null,
+  "whatsappNoSite": null,
+  "agendamentoOnline": null,
+  "avisoCookies": null,
+  "dominiosDuplicados": [],
+  "propensaoBot": {
+   "nota": null,
+   "sinais": []
+  }
+ },
+ "instagram": {
+  "handle": null,
+  "uid": null,
+  "seguidores": null,
+  "seguindo": null,
+  "publicacoesTotal": null,
+  "amostraColetada": null,
+  "verificado": null,
+  "businessContactMethod": null,
+  "ctaAtivado": null,
+  "bio": null,
+  "linkBio": null,
+  "destaques": [],
+  "primeiroPost": null,
+  "ultimoPost": null,
+  "hiatoDias": null,
+  "cadenciaMensal": {},
+  "faseAtual": {
+   "desde": null,
+   "posts": null,
+   "engajamentoPct": null,
+   "mixFormatos": {},
+   "erPorFormato": {},
+   "medianaPlaysReel": null
+  },
+  "tendenciaEngajamento": [],
+  "ctaPctFaseAtual": null,
+  "topHashtags": [],
+  "topMencoes": []
+ },
+ "ads": {
+  "metaAdLibrary": {
+   "anunciosAtivos": 0,
+   "criativos": 0,
+   "mesesNoAr": null,
+   "formatos": [],
+   "metodo": "Playwright (contexto isolado) em facebook.com/ads/library, país=BR, active_status=all, busca por \"Renove Estética e Implantes Orais\", \"Renove Estética\" (frase exata) e \"Renove Implantes\"; a página carregou e mostrou o resultado das três buscas",
+   "conseguiuLer": true,
+   "termosBuscados": [
+    "Renove Estética e Implantes Orais",
+    "Renove Estética (frase exata)",
+    "Renove Implantes"
+   ]
+  },
+  "pixelMeta": null,
+  "pixelGoogleAds": null,
+  "gtm": null,
+  "ga4": null,
+  "leitura": "Não anuncia na Meta: nenhuma das buscas devolveu anúncio da clínica de Brasília — os únicos resultados com 'Renove' são homônimos de outros estados (Renove Harmonização Facial, de Gramado/RS; Oral Renove, de Jaraguá do Sul/SC; Odontologia Integrada Renove, de Rio do Sul/SC). Aquisição paga é território livre: o lead depende hoje de indicação e busca orgânica."
+ },
+ "google": {
+  "perfilEncontrado": false,
+  "nome": null,
+  "categoria": null,
+  "categoriaCorreta": null,
+  "nota": null,
+  "avaliacoes": null,
+  "recenciaUltimaAvaliacao": null,
+  "respostasDoProprietario": null,
+  "fichasDuplicadas": [],
+  "fotos": null,
+  "siteVinculado": null,
+  "buscaMarca": "Buscas: 'Renove Estetica e Implantes Orais Brasilia'; '\"Renove\" odontologia implantes Asa Norte Brasilia SCN Quadra 2'; Maps 'Renove Estetica e Implantes Orais Liberty Mall Asa Norte Brasilia'. Nenhuma ficha com o nome da empresa. O pacote local da 1a busca trouxe negocios de estetica sem relacao (Clinica Renovi, Rennove Estetica Especializada, Renove Beauty).",
+  "buscaSemMarca": "'implante dentario Asa Norte Brasilia' - a clinica NAO aparece no pacote local.",
+  "pacoteLocal": [
+   {
+    "nome": "Oral Sin Implantes Brasilia Asa Norte",
+    "nota": 4.9,
+    "avaliacoes": 202,
+    "local": "SHCGN CRN 710/711, Asa Norte"
+   },
+   {
+    "nome": "MAGNUS ODONTOLOGIA ESPECIALIZADA",
+    "nota": 5.0,
+    "avaliacoes": 215,
+    "local": "SRTVN Q 701 Conj C Bl A Sl 602, Asa Norte"
+   },
+   {
+    "nome": "Dentista Dra. Eleanor Sardenberg - Clinica Boca e Saude",
+    "nota": 5.0,
+    "avaliacoes": 179,
+    "local": "CLN 112 sala 103, Asa Norte"
+   }
+  ]
+ },
+ "diretorios": {
+  "doctoralia": null,
+  "facebook": null,
+  "linkedin": null,
+  "youtube": null,
+  "tiktok": null,
+  "outros": [
+   {
+    "nome": "Odontologia.net.br (diretório)",
+    "url": "https://odontologia.net.br/sobre/renove---estetica-e-implantes-orais-brasilia-df-16520645",
+    "observacao": "Página estrutural do diretório; sem dados de contato/redes sociais expostos no fetch."
+   },
+   {
+    "nome": "Agendar Consulta (guia.agendarconsulta.com)",
+    "url": "https://guia.agendarconsulta.com/distrito-federal/brasilia/renove-estetica-e-implantes-orais-9578447",
+    "observacao": "Confirma telefone (61) 8179-0097 e endereço SCN Quadra 2 Bloco D, Asa Norte. Mostra '0 avaliações' e não lista site próprio nem redes sociais da clínica."
+   }
+  ]
+ },
+ "consistenciaNAP": {
+  "google": null,
+  "site": null,
+  "instagram": null,
+  "receita": null,
+  "divergencias": []
+ },
+ "concorrentes": [
+  {
+   "nome": "Oral Sin Implantes Brasilia Asa Norte",
+   "nota": 4.9,
+   "avaliacoes": 202,
+   "local": "SHCGN CRN 710/711, Asa Norte"
+  },
+  {
+   "nome": "MAGNUS ODONTOLOGIA ESPECIALIZADA",
+   "nota": 5.0,
+   "avaliacoes": 215,
+   "local": "SRTVN Q 701 Conj C Bl A Sl 602, Asa Norte"
+  },
+  {
+   "nome": "Dentista Dra. Eleanor Sardenberg - Clinica Boca e Saude",
+   "nota": 5.0,
+   "avaliacoes": 179,
+   "local": "CLN 112 sala 103, Asa Norte"
+  }
+ ],
+ "notaGeral": {
+  "valor": 1.4,
+  "escala": 10,
+  "pilares": {
+   "site": 0.0,
+   "instagram": null,
+   "cadencia": null,
+   "google": 0.5,
+   "reputacaoEDiretorios": 2.0,
+   "conversao": 3.0
+  }
+ },
+ "dores": [
+  {
+   "titulo": "Nenhum site próprio",
+   "evidencia": "Nenhuma página no domínio da clínica foi localizada",
+   "custo": "A presença inteira depende de perfis e diretórios de terceiros",
+   "vertente": "tecnologia"
+  },
+  {
+   "titulo": "Sem Perfil da Empresa no Google",
+   "evidencia": "Nenhuma ficha localizada na busca nem no Maps",
+   "custo": "A clínica não entra no pacote local, que é onde a busca por dentista começa",
+   "vertente": "tecnologia"
+  },
+  {
+   "titulo": "Sem Instagram localizado",
+   "evidencia": "Nenhum perfil encontrado para a clínica",
+   "custo": "Em odontologia estética ninguém fecha sem ver caso tratado",
+   "vertente": "social"
+  },
+  {
+   "titulo": "Não anuncia, ou anuncia sem rastrear",
+   "evidencia": "Nenhum pixel da Meta nem tag do Google Ads no site",
+   "custo": "Alcance limitado ao orgânico, que já está caindo",
+   "vertente": "trafego"
+  }
+ ],
+ "fontes": [
+  "Google Busca (google.com/search) - pacote local (Resultados locais), hl=pt-BR&gl=BR, sessao deslogada, 2026-08-19",
+  "Google Maps (google.com/maps) - leitura direta da ficha via Playwright, hl=pt-BR, sessao deslogada, 2026-08-19",
+  "Quadro societário (tabela socios, mesmo snapshot)",
+  "Receita Federal via BigQuery basedosdados.br_me_cnpj (snapshot 2026-01-11)",
+  "WebSearch: \"Renove Estética e Implantes Orais Brasília Asa Norte Doctoralia\"",
+  "WebSearch: \"Renove implantes Facebook Instagram SCN 2 OR Asa Norte clínica odontológica\"",
+  "WebSearch: \"Tiago Moura de Almeida Instagram Brasília dentista\"",
+  "https://br.linkedin.com/in/tiago-moura-de-almeida-b6058021",
+  "https://guia.agendarconsulta.com/distrito-federal/brasilia/renove-estetica-e-implantes-orais-9578447",
+  "https://odontologia.net.br/sobre/renove---estetica-e-implantes-orais-brasilia-df-16520645",
+  "https://www.econodata.com.br/consulta-empresa/16803567000136-renove-estetica-e-implantes-orais-ltda",
+  "https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=BR&q=Renove%20Estetica%20e%20Implantes%20Orais&search_type=keyword_unordered",
+  "https://www.ident.com.br/Tiagomoura33/perfil-completo",
+  "https://www.renoveodonto.com.br/"
+ ],
+ "limitacoes": [
+  "CANDIDATO NAO CONFIRMADO: existe no mesmo shopping uma ficha chamada apenas 'Renov' - nota 3,0 com 2 avaliacoes, categoria 'Clinica odontologica', Liberty Mall Torre B (SCN Q2 Bl D), tel (61) 99836-4626, SEM site vinculado e aparentemente NAO reivindicada (a SERP oferece 'E proprietario desta empresa?'). Nome e torre divergem do registro (Torre A, entrada A, sala 1209), entao NAO tratei como sendo a mesma empresa. Precisa de confirmacao por telefone antes de qualquer uso comercial.",
+  "Confirmação de site próprio ficou inconclusiva.",
+  "Contagem exata de fotos nao coletada: o Google Maps nao exibe o total sem abrir a galeria foto a foto. Registrado apenas se existe ou nao a aba 'Do proprietario'.",
+  "Convencao do campo perfilEncontrado: true = ficha confirmada; 'nao_localizado' = busquei e nao encontrei ficha correspondente (nao equivale a afirmar que a empresa nao possui perfil).",
+  "Instagram do decisor não localizado com confiança.",
+  "Nao localizei ficha do Google com o nome 'Renove - Estetica e Implantes Orais' (CNPJ 16.803.567/0001-36, SCN Q2 Bl D entrada A sala 1209, Liberty Mall Torre A). Isso NAO equivale a afirmar que a empresa nao tem perfil.",
+  "Nenhum perfil de Doctoralia, Facebook, LinkedIn, YouTube ou TikTok da clínica foi localizado — pode ser ausência real de presença nesses canais ou apenas indexação fraca de uma clínica pequena de unidade única.",
+  "Nenhum site proprio localizado por busca web — CONFIRMAR no Chrome antes de afirmar ausencia",
+  "Recencia baseada nas avaliacoes visiveis na ordenacao padrao do Maps (relevancia), nao em ordenacao por data. E o piso da recencia real, nao o valor exato."
+ ]
+}

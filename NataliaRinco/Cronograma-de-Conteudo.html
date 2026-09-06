@@ -1,0 +1,2344 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cronograma de conteúdo até 4 de outubro: Natália Rinco 4055 | Oráculo</title>
+  <meta name="description"
+    content="Cronograma semanal de publicações para Natália Rinco (PSB 4055) nas seis semanas que separam 24 de agosto do primeiro turno, com releitura da candidatura a partir da aritmética das sobras, do mapa de 30 municípios e do desempenho medido de cada tema no perfil. Preparado pela Oráculo Tecnologia." />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Cronograma de conteúdo até 4 de outubro: Natália Rinco 4055 | Oráculo" />
+  <meta property="og:description"
+    content="Cronograma semanal de publicações para Natália Rinco (PSB 4055) nas seis semanas que separam 24 de agosto do primeiro turno, com releitura da candidatura a partir da aritmética das sobras, do mapa de 30 municípios e do desempenho medido de cada tema no perfil. Preparado pela Oráculo Tecnologia." />
+  <meta property="og:image" content="https://analises-oraculo.vercel.app/NataliaRinco/og-cronograma.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:url" content="https://analises-oraculo.vercel.app/NataliaRinco/Cronograma-de-Conteudo.html" />
+  <meta property="og:site_name" content="Oráculo Tecnologia" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image" content="https://analises-oraculo.vercel.app/NataliaRinco/og-cronograma.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&amp;family=Petrona:ital,wght@0,400..700;1,400..600&amp;display=swap" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <style>
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0
+    }
+
+    :root {
+      --ink: #1b2e73;
+      --ink-deep: #131f4e;
+      --ink-soft: #2c4193;
+      --on-ink: #fff;
+      --on-ink-2: #b3c0ea;
+      --on-ink-3: #8b9bd4;
+      --paper: #fbfbfd;
+      --surface: #fff;
+      --rule: #dfe1ec;
+      --rule-soft: #ebedf4;
+      --text: #15182b;
+      --text-2: #454b66;
+      --text-3: #6b7186;
+      --primary: #1d4ed8;
+      --primary-bg: #eef2ff;
+      --good: #15803d;
+      --good-bg: #f1faf3;
+      --warn: #8f4e07;
+      --warn-bg: #fdf7ed;
+      --grave: #1b2e73;
+      --grave-bg: #eff1fa;
+      --purple: #6d28d9;
+      --purple-bg: #f5f3ff;
+      --sans: 'Bricolage Grotesque', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      --serif: 'Petrona', Georgia, 'Times New Roman', serif;
+      --gut: clamp(1.125rem, 5vw, 2.5rem);
+      --col: 68rem;
+      --nav-h: 2.9rem;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      -webkit-text-size-adjust: 100%;
+      overflow-x: hidden;
+      overflow-x: clip
+    }
+
+    body {
+      font-family: var(--serif);
+      font-size: 16px;
+      line-height: 1.7;
+      background: var(--paper);
+      color: var(--text);
+      -webkit-font-smoothing: antialiased;
+      padding-top: var(--nav-h);
+      overflow-x: hidden;
+      overflow-x: clip
+    }
+
+    .num,
+    td,
+    th,
+    .kpi-val,
+    .score-val,
+    .metric-value {
+      font-variant-numeric: tabular-nums
+    }
+
+    .cover {
+      background: var(--ink);
+      color: var(--on-ink);
+      padding: clamp(3.5rem, 12vw, 8rem) var(--gut) clamp(2.5rem, 7vw, 4.5rem)
+    }
+
+    .cover-inner,
+    .kpi-row,
+    .closing-inner,
+    footer {
+      max-width: var(--col);
+      margin: 0 auto
+    }
+
+    .cover-mark {
+      font-family: var(--sans);
+      font-size: .8125rem;
+      font-weight: 600;
+      color: var(--on-ink-2);
+      margin-bottom: clamp(2.5rem, 9vw, 5rem)
+    }
+
+    .cover-mark b {
+      color: #fff
+    }
+
+    .cover h1 {
+      font-family: var(--sans);
+      font-size: clamp(2rem, 6.2vw, 4.25rem);
+      font-weight: 600;
+      letter-spacing: -.035em;
+      line-height: 1.04;
+      max-width: 20ch;
+      text-wrap: balance;
+      margin-bottom: 1.5rem
+    }
+
+    .cover h1 em {
+      font-style: normal;
+      color: var(--on-ink-2)
+    }
+
+    .cover-sub {
+      font-size: clamp(1rem, 2vw, 1.0625rem);
+      line-height: 1.65;
+      color: var(--on-ink-2);
+      max-width: 54ch
+    }
+
+    .cover-rule {
+      height: 1px;
+      background: rgba(255, 255, 255, .22);
+      margin: clamp(2.5rem, 7vw, 4rem) 0 1.25rem
+    }
+
+    .cover-foot {
+      font-family: var(--sans);
+      font-size: .8125rem;
+      color: var(--on-ink-3);
+      display: flex;
+      flex-wrap: wrap;
+      gap: .4rem 1.5rem
+    }
+
+    .cover-foot b {
+      color: var(--on-ink-2)
+    }
+
+    .kpi-band {
+      background: var(--ink-deep);
+      padding: clamp(2rem, 5vw, 2.75rem) var(--gut)
+    }
+
+    .kpi-row {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 1px;
+      background: rgba(255, 255, 255, .14);
+      border: 1px solid rgba(255, 255, 255, .14)
+    }
+
+    .kpi {
+      background: var(--ink-deep);
+      padding: 1.1rem 1rem 1.2rem;
+      min-width: 0
+    }
+
+    .kpi-val {
+      font-family: var(--sans);
+      font-size: clamp(1.4rem, 3vw, 2.125rem);
+      font-weight: 600;
+      letter-spacing: -.03em;
+      line-height: 1.05;
+      color: #fff
+    }
+
+    .kpi-label {
+      font-family: var(--sans);
+      font-size: .75rem;
+      font-weight: 600;
+      color: var(--on-ink-2);
+      margin-top: .35rem
+    }
+
+    .kpi-note {
+      font-family: var(--sans);
+      font-size: .7rem;
+      color: var(--on-ink-3);
+      margin-top: .15rem;
+      line-height: 1.35
+    }
+
+    .nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: var(--nav-h);
+      z-index: 50;
+      background: var(--paper);
+      border-bottom: 1px solid var(--rule);
+      padding: 0 var(--gut);
+      display: flex;
+      align-items: stretch;
+      overflow-x: auto;
+      scrollbar-width: none;
+      font-family: var(--sans)
+    }
+
+    .nav::-webkit-scrollbar {
+      display: none
+    }
+
+    .nav a {
+      flex-shrink: 0;
+      display: flex;
+      align-items: center;
+      padding: 0 .68rem;
+      font-size: .78rem;
+      font-weight: 500;
+      color: var(--text-3);
+      text-decoration: none;
+      border-bottom: 2px solid transparent;
+      white-space: nowrap
+    }
+
+    .nav a:hover,
+    .nav a.active {
+      color: var(--ink)
+    }
+
+    .nav a.active {
+      font-weight: 700;
+      border-bottom-color: var(--ink)
+    }
+
+    .page {
+      width: 100%;
+      max-width: calc(var(--col) + 2 * var(--gut));
+      margin: 0 auto;
+      padding: clamp(2rem, 4vw, 3rem) var(--gut) clamp(3rem, 6vw, 4.5rem)
+    }
+
+    section {
+      min-width: 0;
+      scroll-margin-top: calc(var(--nav-h) + .75rem)
+    }
+
+    .sec-head {
+      border-top: 1px solid var(--text);
+      padding-top: .85rem;
+      margin: clamp(2.5rem, 6vw, 4rem) 0 1.4rem
+    }
+
+    .sec-head h2 {
+      font-family: var(--sans);
+      font-size: clamp(1.4rem, 3.6vw, 2rem);
+      font-weight: 600;
+      letter-spacing: -.028em;
+      line-height: 1.15
+    }
+
+    .sec-head p {
+      font-size: .9375rem;
+      color: var(--text-3);
+      margin-top: .35rem;
+      max-width: 66ch
+    }
+
+    section:first-child .sec-head {
+      margin-top: 0
+    }
+
+    h3 {
+      font-family: var(--sans);
+      font-size: 1.08rem;
+      line-height: 1.3;
+      margin: 1.7rem 0 .65rem
+    }
+
+    p+p {
+      margin-top: .8rem
+    }
+
+    .lede {
+      font-size: clamp(1.08rem, 2vw, 1.28rem);
+      line-height: 1.65;
+      max-width: 68ch
+    }
+
+    .muted {
+      color: var(--text-3)
+    }
+
+    .grid-2,
+    .grid-3,
+    .grid-4 {
+      display: grid;
+      gap: 1rem
+    }
+
+    .grid-2 {
+      grid-template-columns: repeat(2, minmax(0, 1fr))
+    }
+
+    .grid-3 {
+      grid-template-columns: repeat(3, minmax(0, 1fr))
+    }
+
+    .grid-4 {
+      grid-template-columns: repeat(4, minmax(0, 1fr))
+    }
+
+    .grid-2>*,
+    .grid-3>*,
+    .grid-4>*,
+    .essential>*,
+    .score>*,
+    .score-grid>*,
+    .diag>*,
+    .metric-strip>*,
+    .swot>*,
+    .roadmap>* {
+      min-width: 0
+    }
+
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--rule);
+      padding: 1.15rem
+    }
+
+    .card h3 {
+      margin: 0 0 .55rem;
+      font-size: 1rem
+    }
+
+    .card p {
+      font-size: .9rem;
+      color: var(--text-2)
+    }
+
+    .card ul {
+      padding-left: 1.1rem;
+      font-size: .9rem;
+      color: var(--text-2)
+    }
+
+    .card li+li {
+      margin-top: .35rem
+    }
+
+    .eyebrow {
+      font-family: var(--sans);
+      font-size: .68rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: .12em;
+      color: var(--primary);
+      margin-bottom: .45rem
+    }
+
+    .essential {
+      display: grid;
+      grid-template-columns: 1.25fr .75fr;
+      gap: 1.25rem
+    }
+
+    .essential-main {
+      border-left: 4px solid var(--ink);
+      padding: .2rem 0 .2rem 1.2rem
+    }
+
+    .essential-list {
+      list-style: none
+    }
+
+    .essential-list li {
+      border-bottom: 1px solid var(--rule-soft);
+      padding: .6rem 0;
+      font-size: .9rem
+    }
+
+    .essential-list li:last-child {
+      border-bottom: 0
+    }
+
+    .score {
+      background: var(--ink);
+      color: #fff;
+      padding: clamp(1.3rem, 4vw, 2rem);
+      display: grid;
+      grid-template-columns: 13rem 1fr;
+      gap: 2rem;
+      align-items: center
+    }
+
+    .score-number {
+      display: flex;
+      align-items: baseline
+    }
+
+    .score-val {
+      font-family: var(--sans);
+      font-size: 4.6rem;
+      font-weight: 650;
+      line-height: 1;
+      letter-spacing: -.06em
+    }
+
+    .score-den {
+      font-family: var(--sans);
+      color: var(--on-ink-2);
+      font-size: 1rem;
+      margin-left: .35rem
+    }
+
+    .score-verdict {
+      color: var(--on-ink-2);
+      font-size: 1.05rem
+    }
+
+    .score-verdict b {
+      color: #fff;
+      font-family: var(--sans)
+    }
+
+    .score-grid {
+      margin-top: 1px;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1px;
+      background: var(--rule)
+    }
+
+    .score-item {
+      background: #fff;
+      padding: 1rem
+    }
+
+    .score-item-head {
+      display: flex;
+      justify-content: space-between;
+      gap: .75rem;
+      font-family: var(--sans);
+      font-size: .8rem;
+      font-weight: 650
+    }
+
+    .score-track {
+      height: 5px;
+      background: var(--rule-soft);
+      margin-top: .6rem
+    }
+
+    .score-fill {
+      height: 100%;
+      background: var(--ink)
+    }
+
+    .diag {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1px;
+      background: var(--rule);
+      border: 1px solid var(--rule);
+      margin-top: 1.25rem
+    }
+
+    .diag-col {
+      background: #fff;
+      padding: 1.15rem
+    }
+
+    .diag-col ul {
+      padding-left: 1.15rem;
+      font-size: .9rem;
+      color: var(--text-2)
+    }
+
+    .diag-col li+li {
+      margin-top: .45rem
+    }
+
+    .metric-strip {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      border: 1px solid var(--rule);
+      margin: 1.2rem 0
+    }
+
+    .metric {
+      padding: 1rem;
+      border-right: 1px solid var(--rule)
+    }
+
+    .metric:last-child {
+      border-right: 0
+    }
+
+    .metric-value {
+      font-family: var(--sans);
+      font-size: 1.55rem;
+      font-weight: 650;
+      letter-spacing: -.035em
+    }
+
+    .metric-label {
+      font-family: var(--sans);
+      font-size: .72rem;
+      color: var(--text-3);
+      margin-top: .2rem
+    }
+
+    .chart {
+      width: 100%;
+      min-width: 0;
+      overflow: hidden;
+      background: #fff;
+      border: 1px solid var(--rule);
+      padding: 1rem;
+      margin: 1rem 0;
+      min-height: 280px;
+      position: relative
+    }
+
+    .chart.sm {
+      min-height: 235px
+    }
+
+    .chart canvas {
+      display: block;
+      width: 100% !important;
+      max-width: 100% !important;
+      max-height: 320px
+    }
+
+    .table-wrap {
+      width: 100%;
+      max-width: 100%;
+      min-width: 0;
+      overflow-x: auto;
+      overscroll-behavior-inline: contain;
+      -webkit-overflow-scrolling: touch
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: #fff;
+      border: 1px solid var(--rule);
+      font-family: var(--sans);
+      font-size: .8rem;
+      margin: 1rem 0
+    }
+
+    th,
+    td {
+      text-align: left;
+      padding: .72rem;
+      border-bottom: 1px solid var(--rule-soft);
+      vertical-align: top
+    }
+
+    th {
+      font-size: .66rem;
+      text-transform: uppercase;
+      letter-spacing: .08em;
+      color: var(--text-3);
+      background: #f7f8fb
+    }
+
+    tbody tr:last-child td {
+      border-bottom: 0
+    }
+
+    .right {
+      text-align: right
+    }
+
+    .status {
+      font-size: .66rem;
+      font-weight: 700;
+      padding: .2rem .42rem;
+      background: var(--primary-bg);
+      color: var(--primary);
+      white-space: nowrap
+    }
+
+    .status.good {
+      background: var(--good-bg);
+      color: var(--good)
+    }
+
+    .status.warn {
+      background: var(--warn-bg);
+      color: var(--warn)
+    }
+
+    .insight {
+      border-left: 3px solid var(--primary);
+      background: var(--primary-bg);
+      padding: 1rem 1.1rem;
+      margin: 1.25rem 0
+    }
+
+    .insight.good {
+      border-color: var(--good);
+      background: var(--good-bg)
+    }
+
+    .insight.warn {
+      border-color: var(--warn);
+      background: var(--warn-bg)
+    }
+
+    .insight.bad {
+      border-color: var(--grave);
+      background: var(--grave-bg)
+    }
+
+    .insight.purple {
+      border-color: var(--purple);
+      background: var(--purple-bg)
+    }
+
+    .insight-header {
+      font-family: var(--sans);
+      font-size: .68rem;
+      font-weight: 750;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      color: var(--primary);
+      margin-bottom: .4rem
+    }
+
+    .insight.good .insight-header {
+      color: var(--good)
+    }
+
+    .insight.warn .insight-header {
+      color: var(--warn)
+    }
+
+    .insight.bad .insight-header {
+      color: var(--grave)
+    }
+
+    .insight.purple .insight-header {
+      color: var(--purple)
+    }
+
+    .insight-body {
+      display: flex;
+      gap: .75rem
+    }
+
+    .verdict {
+      font-family: var(--sans);
+      font-size: .7rem;
+      font-weight: 700;
+      white-space: nowrap
+    }
+
+    .insight p {
+      font-size: .9rem;
+      color: var(--text-2)
+    }
+
+    .callout {
+      border: 1px solid var(--rule);
+      background: #fff;
+      padding: 1rem 1.1rem;
+      margin: 1rem 0
+    }
+
+    .callout>strong {
+      display: block;
+      font-family: var(--sans);
+      font-size: .7rem;
+      text-transform: uppercase;
+      letter-spacing: .1em;
+      color: var(--ink);
+      margin-bottom: .4rem
+    }
+
+    .callout p,
+    .callout li {
+      font-size: .9rem;
+      color: var(--text-2)
+    }
+
+    .swot {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1px;
+      background: var(--rule);
+      border: 1px solid var(--rule)
+    }
+
+    .swot-cell {
+      background: #fff;
+      padding: 1.15rem
+    }
+
+    .swot-cell h3 {
+      margin: 0 0 .6rem
+    }
+
+    .swot-cell ul {
+      padding-left: 1rem;
+      font-size: .9rem;
+      color: var(--text-2)
+    }
+
+    .swot-cell li+li {
+      margin-top: .35rem
+    }
+
+    .roadmap {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1rem
+    }
+
+    .phase {
+      border-top: 4px solid var(--ink);
+      background: #fff;
+      border-left: 1px solid var(--rule);
+      border-right: 1px solid var(--rule);
+      border-bottom: 1px solid var(--rule);
+      padding: 1.15rem
+    }
+
+    .phase:nth-child(2) {
+      border-top-color: var(--primary)
+    }
+
+    .phase:nth-child(3) {
+      border-top-color: var(--purple)
+    }
+
+    .phase-time {
+      font-family: var(--sans);
+      font-size: .7rem;
+      font-weight: 750;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      color: var(--text-3)
+    }
+
+    .phase h3 {
+      margin: .45rem 0 .8rem
+    }
+
+    .phase ol {
+      padding-left: 1.1rem;
+      font-size: .88rem;
+      color: var(--text-2)
+    }
+
+    .phase li+li {
+      margin-top: .45rem
+    }
+
+    .phase-kpi {
+      border-top: 1px solid var(--rule);
+      margin-top: 1rem;
+      padding-top: .8rem;
+      font-family: var(--sans);
+      font-size: .72rem;
+      color: var(--ink)
+    }
+
+    .priority {
+      display: grid;
+      grid-template-columns: 4rem 1fr auto;
+      gap: 1rem;
+      align-items: center;
+      padding: .9rem 0;
+      border-bottom: 1px solid var(--rule)
+    }
+
+    .priority:last-child {
+      border-bottom: 0
+    }
+
+    .priority-num {
+      font-family: var(--sans);
+      font-size: 1.8rem;
+      font-weight: 650;
+      color: var(--ink)
+    }
+
+    .priority h3 {
+      margin: 0;
+      font-size: .95rem
+    }
+
+    .priority p {
+      font-size: .85rem;
+      color: var(--text-3)
+    }
+
+    .closing {
+      background: var(--ink-deep);
+      color: #fff;
+      padding: clamp(2.5rem, 7vw, 4.5rem) var(--gut)
+    }
+
+    .closing h2 {
+      font-family: var(--sans);
+      font-size: clamp(1.7rem, 4vw, 2.8rem);
+      letter-spacing: -.035em;
+      line-height: 1.1;
+      max-width: 22ch
+    }
+
+    .closing p {
+      color: var(--on-ink-2);
+      max-width: 58ch;
+      margin-top: 1rem
+    }
+
+    .closing-meta {
+      font-family: var(--sans);
+      font-size: .75rem;
+      color: var(--on-ink-3);
+      margin-top: 2rem
+    }
+
+    footer {
+      padding: 1.5rem var(--gut);
+      font-family: var(--sans);
+      font-size: .72rem;
+      color: var(--text-3);
+      display: flex;
+      justify-content: space-between;
+      gap: 1rem
+    }
+
+    @media(max-width:850px) {
+      .kpi-row {
+        grid-template-columns: repeat(2, minmax(0, 1fr))
+      }
+
+      .kpi:last-child {
+        grid-column: span 2
+      }
+
+      .grid-3,
+      .grid-4,
+      .roadmap {
+        grid-template-columns: repeat(2, minmax(0, 1fr))
+      }
+
+      .essential,
+      .score,
+      .diag {
+        grid-template-columns: minmax(0, 1fr)
+      }
+
+      .score-grid,
+      .metric-strip {
+        grid-template-columns: repeat(2, minmax(0, 1fr))
+      }
+
+      .metric:nth-child(2) {
+        border-right: 0
+      }
+
+      .metric:nth-child(-n+2) {
+        border-bottom: 1px solid var(--rule)
+      }
+    }
+
+    @media(max-width:580px) {
+
+      .grid-2,
+      .grid-3,
+      .grid-4,
+      .roadmap,
+      .swot,
+      .score-grid {
+        grid-template-columns: minmax(0, 1fr)
+      }
+
+      .insight-body {
+        display: block
+      }
+
+      .verdict {
+        display: block;
+        margin-bottom: .3rem
+      }
+
+      .priority {
+        grid-template-columns: 2.5rem minmax(0, 1fr)
+      }
+
+      .priority .status {
+        grid-column: 2
+      }
+
+      .table-wrap {
+        width: auto;
+        max-width: none;
+        margin: 1rem calc(-1 * var(--gut));
+        padding: 0 var(--gut)
+      }
+
+      table {
+        min-width: 620px
+      }
+
+      .cover h1 {
+        max-width: 16ch
+      }
+
+      footer {
+        display: block
+      }
+
+      footer span {
+        display: block
+      }
+
+      .kpi-row {
+        grid-template-columns: minmax(0, 1fr)
+      }
+
+      .kpi:last-child {
+        grid-column: auto
+      }
+    }
+
+    @media print {
+      .nav {
+        display: none
+      }
+
+      body {
+        padding-top: 0
+      }
+
+      .cover,
+      .kpi-band,
+      .score,
+      .closing {
+        print-color-adjust: exact;
+        -webkit-print-color-adjust: exact
+      }
+
+      .page {
+        max-width: none
+      }
+
+      .chart {
+        break-inside: avoid
+      }
+
+      section {
+        break-inside: auto
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header class="cover">
+    <div class="cover-inner">
+      <div class="cover-mark"><b>Oráculo Tecnologia</b> · Cronograma semanal de conteúdo</div>
+      <h1>O conteúdo está funcionando melhor do que nunca. <em>Ele só não está sendo publicado.</em></h1>
+      <p class="cover-sub">Segunda coleta do perfil, feita em 24 de agosto de 2026, seis dias depois da análise de
+        cenário. O engajamento subiu para 14,70% desde a convenção, o maior da série, e o feed está parado há oito dias
+        com a janela legal aberta. Este documento relê a candidatura com a aritmética das sobras e com o mapa de quem já
+        ocupa os 30 municípios da base, e converte essa leitura em seis semanas de publicações com dia, formato e
+        objetivo.</p>
+      <div class="cover-rule"></div>
+      <div class="cover-foot"><span><b>Natália Bravim Rinco</b></span><span>PSB 4055 · Deputada federal por
+          Goiás</span><span>24 de agosto a 4 de outubro de 2026</span></div>
+    </div>
+  </header>
+
+  <div class="kpi-band">
+    <div class="kpi-row">
+      <div class="kpi">
+        <div class="kpi-val">41</div>
+        <div class="kpi-label">Dias até o primeiro turno</div>
+        <div class="kpi-note">Seis semanas cheias, começando nesta segunda</div>
+      </div>
+      <div class="kpi">
+        <div class="kpi-val">8</div>
+        <div class="kpi-label">Dias sem publicar no feed</div>
+        <div class="kpi-note">Último post em 16/08, último story em 23/08</div>
+      </div>
+      <div class="kpi">
+        <div class="kpi-val">14,70%</div>
+        <div class="kpi-label">Engajamento desde a convenção</div>
+        <div class="kpi-note">Contra 9,65% na média do ano</div>
+      </div>
+      <div class="kpi">
+        <div class="kpi-val">1 de 19</div>
+        <div class="kpi-label">Publicações que escrevem 4055</div>
+        <div class="kpi-note">É o que o eleitor digita na urna</div>
+      </div>
+      <div class="kpi">
+        <div class="kpi-val">50</div>
+        <div class="kpi-label">Publicações previstas no cronograma</div>
+        <div class="kpi-note">Sete por semana até 20/09, depois 9 e 13</div>
+      </div>
+    </div>
+  </div>
+
+  <nav class="nav" aria-label="Seções do cronograma">
+    <a href="#agora">Onde a campanha está</a><a href="#sobras">A conta que mudou</a><a href="#territorio">Quem ocupa o
+      território</a><a href="#tema">O que funciona no perfil</a><a href="#regras">As datas que fecham</a><a
+      href="#esqueleto">O esqueleto da semana</a><a href="#semanas">As seis semanas</a><a href="#formatos">Os seis
+      formatos</a><a href="#painel">Painel de segunda-feira</a>
+  </nav>
+
+  <main class="page">
+    <section id="agora">
+      <div class="sec-head">
+        <h2>Onde a campanha está em 24 de agosto</h2>
+        <p>Segunda coleta do perfil, seis dias depois da primeira.</p>
+      </div>
+      <div class="essential">
+        <div class="essential-main">
+          <p class="lede">A leitura de 24 de agosto dizia que o gargalo era distribuição, não conteúdo. A coleta de hoje
+            confirma isso de um jeito mais agudo. As quatro publicações feitas desde a convenção de 4 de agosto renderam
+            <b>14,70% de engajamento</b>, contra 9,65% da média do ano e contra os 9,37% medidos na análise anterior. O
+            conteúdo da campanha oficial engaja mais do que qualquer coisa que a conta já publicou. E o feed está parado
+            desde 16 de agosto.</p>
+        </div>
+        <div class="card">
+          <h3>A conta não está inativa</h3>
+          <p>O último story é de <b>23 de agosto, às 13h07</b>. A campanha está publicando no efêmero e não no
+            permanente. Story some em 24 horas, alcança quase só quem já segue, não aparece em busca e não vira ativo.
+            Feed acumula, é o que o impulsionamento distribui e é o que o eleitor encontra quando procura o nome.</p>
+        </div>
+      </div>
+      <div class="metric-strip">
+        <div class="metric">
+          <div class="metric-value">2.756</div>
+          <div class="metric-label">seguidores, contra 2.714 em 18/08</div>
+        </div>
+        <div class="metric">
+          <div class="metric-value">0,91</div>
+          <div class="metric-label">publicações por semana desde 31/03</div>
+        </div>
+        <div class="metric">
+          <div class="metric-value">4.214</div>
+          <div class="metric-label">reproduções no Reel médio de campanha</div>
+        </div>
+        <div class="metric">
+          <div class="metric-value">1,5x</div>
+          <div class="metric-label">a base de seguidores, o teto do alcance orgânico</div>
+        </div>
+      </div>
+      <h3>O alcance orgânico tem teto medido, e ele é dez vezes menor que a meta</h3>
+      <p>Os onze Reels publicados desde o fim de março fizeram em média <b>4.214 reproduções</b>, com mediana de 3.704 e
+        máximo de 8.627. Isso é 1,5 vez a base de seguidores, um resultado bom para uma conta pequena e insuficiente
+        para o problema em questão. Uma candidatura proporcional em Goiás precisa de <b>40.545 votos</b> só para entrar
+        na primeira rodada de distribuição de sobras, e a seção seguinte mostra de onde sai esse número. Entre o que o
+        perfil alcança hoje e o que a candidatura precisa alcançar existe um fator de dez, e nenhuma melhoria de
+        qualidade de conteúdo fecha um fator de dez. Só volume e distribuição paga fecham.</p>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Correção pendente desde 18/08</th>
+              <th>Situação verificada em 24/08</th>
+              <th>Custo</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Registrar o nome de usuário antigo numa conta secundária</td>
+              <td>instagram.com/nataliarincopsb continua devolvendo &ldquo;Página não encontrada&rdquo; e continua livre
+                para qualquer pessoa registrar <span class="status bad">aberto</span></td>
+              <td>Zero</td>
+            </tr>
+            <tr>
+              <td>Atualizar o endereço declarado à Justiça Eleitoral</td>
+              <td>O registro no TSE, atualizado em 18/08 às 21h22, ainda declara @nataliarincopsb no Instagram e no
+                Threads, os dois fora do ar <span class="status bad">aberto</span></td>
+              <td>Zero</td>
+            </tr>
+            <tr>
+              <td>Colocar o 4055 na biografia</td>
+              <td>A bio tem cinco linhas e nenhuma traz o número <span class="status bad">aberto</span></td>
+              <td>Zero</td>
+            </tr>
+            <tr>
+              <td>Corrigir &ldquo;Novas oportunidade&rdquo; na última linha da bio</td>
+              <td>Continua sem o plural <span class="status bad">aberto</span></td>
+              <td>Zero</td>
+            </tr>
+            <tr>
+              <td>Reorganizar os destaques</td>
+              <td>Os 14 destaques foram apagados, e sobrou <b>um só</b>, &ldquo;Minha história&rdquo;, com 2 mídias. O
+                destaque &ldquo;Chapada&rdquo;, que tinha 68 mídias e sustentava a narrativa do território, foi junto
+                <span class="status warn">refazer</span></td>
+              <td>Zero</td>
+            </tr>
+          </tbody>
+        </table>
+        <p class="sm muted">Fonte: perfil @nataliarinco4055, coleta de 24/08/2026 pela API interna do Instagram;
+          DivulgaCandContas do TSE, candidatura 90002547130, registro consultado em 24/08/2026.</p>
+      </div>
+      <div class="insight bad">
+        <div class="insight-header">O que isso significa para você</div>
+        <div class="insight-body"><span class="verdict">&#9654; Atenção</span>
+          <p>A limpeza dos destaques foi feita pela metade e custou mais do que rendeu. Tirar treino, Europa e bloco de
+            carnaval da vitrine estava certo. Apagar junto as 68 mídias da Chapada tirou do perfil a única prova visual
+            acumulada de que ela é da região, justamente o argumento central da candidatura. Vale reconstruir quatro
+            destaques nesta semana, e o cronograma abre espaço para isso na segunda-feira.</p>
+        </div>
+      </div>
+    </section>
+    <section id="sobras">
+      <div class="sec-head">
+        <h2>A conta que muda a leitura da candidatura</h2>
+        <p>Em Goiás, dez das dezessete vagas não foram decididas pelo quociente eleitoral.</p>
+      </div>
+      <p>A análise de 24 de agosto usou como régua a votação do último eleito de 2022, que foi Lêda Borges com 51.346
+        votos. Essa régua está certa e é incompleta. A regra que decide de fato uma candidatura proporcional pequena
+        está no artigo 109 da Lei 9.504, com a redação que a Lei 14.211 de 2021 deu a ele, e ela funciona em dois
+        níveis.</p>
+      <div class="metric-strip">
+        <div class="metric">
+          <div class="metric-value">202.725</div>
+          <div class="metric-label">quociente eleitoral de Goiás em 2022</div>
+        </div>
+        <div class="metric">
+          <div class="metric-value">7</div>
+          <div class="metric-label">vagas ganhas por quociente próprio</div>
+        </div>
+        <div class="metric">
+          <div class="metric-value">10</div>
+          <div class="metric-label">vagas decididas na distribuição de sobras</div>
+        </div>
+        <div class="metric">
+          <div class="metric-value">0,39</div>
+          <div class="metric-label">quocientes que o PSB fez em 2022</div>
+        </div>
+      </div>
+      <h3>Só entra na disputa das sobras o partido com 80% do quociente e o candidato com 20%</h3>
+      <p>Na primeira rodada de sobras, que é onde a maior parte das vagas de Goiás foi decidida, participam apenas os
+        partidos que alcançaram <b>80% do quociente eleitoral</b> e, dentro deles, apenas os candidatos que alcançaram
+        <b>20% desse quociente</b>. Aplicando os números de 2022, isso significa <b>162.180 votos</b> para o partido e
+        <b>40.545 votos</b> para a candidata. Os dois patamares precisam ser vencidos ao mesmo tempo. Um deles sem o
+        outro não vale nada.</p>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Legenda em Goiás, 2022</th>
+              <th>Nominais mais legenda</th>
+              <th>Quocientes</th>
+              <th>Vagas</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>PL</td>
+              <td>574.775</td>
+              <td>2,84</td>
+              <td>4</td>
+            </tr>
+            <tr>
+              <td>UNIÃO</td>
+              <td>373.859</td>
+              <td>1,84</td>
+              <td>2</td>
+            </tr>
+            <tr>
+              <td>Federação Brasil da Esperança</td>
+              <td>292.767</td>
+              <td>1,44</td>
+              <td>2</td>
+            </tr>
+            <tr>
+              <td>PP</td>
+              <td>287.770</td>
+              <td>1,42</td>
+              <td>2</td>
+            </tr>
+            <tr>
+              <td>MDB</td>
+              <td>277.308</td>
+              <td>1,37</td>
+              <td>2</td>
+            </tr>
+            <tr>
+              <td>REPUBLICANOS</td>
+              <td>273.442</td>
+              <td>1,35</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td>PSC</td>
+              <td>186.292</td>
+              <td>0,92</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td>Federação PSDB Cidadania</td>
+              <td>182.286</td>
+              <td>0,90</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td>PSD</td>
+              <td>180.621</td>
+              <td>0,89</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td>PDT</td>
+              <td>180.557</td>
+              <td>0,89</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td>PATRIOTA</td>
+              <td>149.111</td>
+              <td>0,74</td>
+              <td><b>0</b></td>
+            </tr>
+            <tr>
+              <td>SOLIDARIEDADE</td>
+              <td>135.025</td>
+              <td>0,67</td>
+              <td><b>0</b></td>
+            </tr>
+            <tr>
+              <td><b>PSB</b></td>
+              <td><b>78.959</b></td>
+              <td><b>0,39</b></td>
+              <td><b>0</b></td>
+            </tr>
+          </tbody>
+        </table>
+        <p class="sm muted">Fonte: resultados oficiais do TSE, eleição 546 de 2022, arquivos de agremiação e de
+          candidatos de Goiás para deputado federal, coleta de 24/08/2026. Votos válidos de 3.446.324 divididos por 17
+          vagas.</p>
+      </div>
+      <div class="chart"><canvas id="chartSobras"></canvas></div>
+      <p>A tabela mostra onde está a linha real. Quatro legendas ficaram abaixo de um quociente inteiro e ainda assim
+        elegeram um deputado cada, todas entre 0,89 e 0,92. As duas primeiras abaixo do corte de 80%, PATRIOTA com 0,74
+        e SOLIDARIEDADE com 0,67, não elegeram ninguém apesar de terem feito, somadas, quase 284 mil votos. É a
+        diferença mais cara da eleição goiana, e ela não depende de nenhum candidato individual.</p>
+      <div class="callout"><strong>O que isso faz com a candidatura</strong>
+        <p>O PSB precisaria <b>dobrar</b> a votação de 2022 para apenas entrar na disputa, e a chapa de 2026 não sugere
+          que isso vá acontecer. São <b>18 candidatos</b>, e apenas quatro deles têm votação anterior para deputado
+          federal em Goiás: Aava Santiago com 13.387, Dra. Ivane com 4.661, Nixon das Casinhas com 3.018 e Wesley Costa
+          com 1.896. Os quatro somam <b>22.962 votos</b>, ou 0,11 quociente. O partido também disputa <b>sozinho</b>,
+          sem federação, enquanto cinco federações estão na urna goiana em 2026 justamente para somar votos. A vaga de
+          outubro não está em disputa, e isso não é pessimismo: é a leitura da regra com os números publicados.</p>
+      </div>
+      <div class="insight bad">
+        <div class="insight-header">O que isso significa para você</div>
+        <div class="insight-body"><span class="verdict">&#9654; Atenção</span>
+          <p>A consequência prática é que a meta desta campanha é a votação nominal dela, e não a cadeira. Isso muda o
+            que o conteúdo precisa fazer. Uma campanha que disputa vaga fala com o estado inteiro e gasta o discurso em
+            pauta ampla. Uma campanha que constrói votação nominal escolhe um território, repete o nome e o número até
+            saturar e mede quantas pessoas novas viram a peça. As seis semanas deste cronograma foram montadas para a
+            segunda coisa.</p>
+        </div>
+      </div>
+    </section>
+    <section id="territorio">
+      <div class="sec-head">
+        <h2>Quem já ocupa os 30 municípios da base</h2>
+        <p>O território não está vago, e os municípios grandes são os mais disputados.</p>
+      </div>
+      <p>Os 30 municípios do Nordeste Goiano, da Chapada e do entorno somam <b>343.893 eleitores aptos</b> e produziram
+        <b>230.562 votos nominais</b> para deputado federal em 2022. Esse é o tamanho real do território. Duas leituras
+        dele orientam onde vale gastar conteúdo.</p>
+      <h3>Quatorze dos vinte maiores votados da região voltam à urna, e treze são deputados em exercício</h3>
+      <p>Cruzando o ranking regional de 2022 com a lista de candidatos de 2026, quatorze dos vinte nomes mais votados na
+        base estão outra vez na urna, treze deles eleitos em 2022, somando <b>124.456 votos regionais</b>. Flávia Morais
+        trocou o PDT pelo MDB e agora é 1515. José Nelto saiu do PP para o UNIÃO e é 4415. Magda Mofatto segue no PL
+        como 2222. Lucas Vergílio migrou para o MDB. O território que a campanha trata como aberto é, na verdade,
+        defendido por treze mandatos com estrutura, verba de gabinete e relação de anos com as prefeituras locais.</p>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Concorrente que volta em 2026</th>
+              <th>Número em 2026</th>
+              <th>Votos na região em 2022</th>
+              <th>Onde lidera</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Flávia Morais</td>
+              <td>1515 MDB</td>
+              <td>22.153</td>
+              <td>Cabeceiras, Mambaí, Vila Boa, Damianópolis, Guarani, Divinópolis, Simolândia, Buritinópolis, Flores,
+                Cavalcante</td>
+            </tr>
+            <tr>
+              <td>José Nelto</td>
+              <td>4415 UNIÃO</td>
+              <td>12.712</td>
+              <td>Formosa, Monte Alegre, Nova Roma</td>
+            </tr>
+            <tr>
+              <td>Magda Mofatto</td>
+              <td>2222 PL</td>
+              <td>12.712</td>
+              <td>Alto Paraíso, São João d&rsquo;Aliança, Iaciara, São Domingos, Campinaçu, Trombas</td>
+            </tr>
+            <tr>
+              <td>Lucas Vergílio</td>
+              <td>1510 MDB</td>
+              <td>11.112</td>
+              <td>Água Fria, Teresina de Goiás</td>
+            </tr>
+            <tr>
+              <td>Célio Silveira</td>
+              <td>1599 MDB</td>
+              <td>9.378</td>
+              <td>Planaltina, Guarinos</td>
+            </tr>
+            <tr>
+              <td>Adriano do Baldy</td>
+              <td>1111 PP</td>
+              <td>8.259</td>
+              <td>Campos Belos, Alvorada do Norte</td>
+            </tr>
+            <tr>
+              <td>Professor Alcides</td>
+              <td>4500 PSDB</td>
+              <td>7.425</td>
+              <td>Niquelândia, Colinas do Sul</td>
+            </tr>
+            <tr>
+              <td>Rubens Otoni</td>
+              <td>1313 PT</td>
+              <td>7.235</td>
+              <td>Voto disperso</td>
+            </tr>
+            <tr>
+              <td>Lêda Borges</td>
+              <td>1020 REPUBLICANOS</td>
+              <td>6.795</td>
+              <td>Voto disperso</td>
+            </tr>
+            <tr>
+              <td>Marussa Boldrin</td>
+              <td>1055 REPUBLICANOS</td>
+              <td>6.698</td>
+              <td>Voto disperso</td>
+            </tr>
+          </tbody>
+        </table>
+        <p class="sm muted">Fonte: resultados oficiais do TSE por município, eleição 546 de 2022, cruzados com a lista
+          de candidatos a deputado federal por Goiás em 2026 do DivulgaCandContas, coleta de 24/08/2026. A tabela traz
+          os dez primeiros dos quatorze que retornam.</p>
+      </div>
+      <h3>Os quatro maiores colégios da região são também os menos concentrados</h3>
+      <p>Medindo, em cada município, quanto do voto nominal foi para o candidato mais votado ali, aparece um padrão que
+        decide a geografia do conteúdo. Em Cabeceiras, Flávia Morais levou <b>65,5%</b> de todo o voto nominal. Em
+        Guarani de Goiás, 51,9%. Em Campinaçu, 53,9%. São cidades pequenas e capturadas, onde entrar significa desalojar
+        alguém. Já Formosa, Planaltina, Niquelândia e Alto Paraíso, que somam <b>110.152 votos nominais</b>, quase
+        metade da região, têm líder com pouco mais de 11%. Ninguém manda nelas.</p>
+      <div class="chart"><canvas id="chartConcentracao"></canvas></div>
+      <div class="callout"><strong>Alto Paraíso é a cidade da candidata e não é a cidade de ninguém</strong>
+        <p>Alto Paraíso de Goiás produziu <b>4.700 votos nominais</b> em 2022, e o mais votado ali fez <b>544</b>, ou
+          11,6%. Os três primeiros juntos não passaram de um terço. Nenhum deputado tem raiz na cidade, e o que se
+          disputa ali é voto de passagem. Para efeito de comparação, em 2024 a prefeitura foi vencida por Marcus Rinco,
+          do UNIÃO, com 2.819 votos e 51,38%, enquanto a candidatura apoiada pelo PSB fez 1.369 votos e 24,95%. Existe
+          eleitorado disponível e existe estrutura local adversária. As duas coisas ao mesmo tempo.</p>
+      </div>
+      <div class="insight info">
+        <div class="insight-header">O que isso significa para você</div>
+        <div class="insight-body"><span class="verdict">&#9733; Destaque</span>
+          <p>Isso resolve uma tensão que estava aberta no plano anterior. A regra passa a ser simples: onde a
+            concentração é alta, a campanha não compra anúncio nem gasta conteúdo, porque estaria brigando com um dono.
+            Onde a concentração é baixa e o eleitorado é grande, que é o caso de Formosa, Planaltina, Niquelândia e da
+            própria Alto Paraíso, cada real e cada peça encontram espaço vazio. O cronograma coloca os carrosséis de
+            território nesses quatro nomes e não nos outros vinte e seis.</p>
+        </div>
+      </div>
+    </section>
+    <section id="tema">
+      <div class="sec-head">
+        <h2>O que já funciona no perfil dela</h2>
+        <p>Dezenove publicações desde o retorno, classificadas por tema e medidas.</p>
+      </div>
+      <p>O cronograma não inventa uma linha editorial nova. Ele amplia o que a própria conta já provou que funciona.
+        Classificando as 19 publicações feitas desde 31 de março por tema e medindo engajamento e reproduções, a ordem é
+        clara e é contraintuitiva em um ponto.</p>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Tema</th>
+              <th>Publicações</th>
+              <th>Engajamento médio</th>
+              <th>Reproduções médias</th>
+              <th>Papel no cronograma</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><b>Origem e família</b></td>
+              <td>5</td>
+              <td><b>11,3%</b></td>
+              <td><b>5.577</b></td>
+              <td>Coluna vertebral, aparece toda semana</td>
+            </tr>
+            <tr>
+              <td>Território e Chapada</td>
+              <td>14</td>
+              <td>10,7%</td>
+              <td>4.985</td>
+              <td>Peça de sábado, redirecionada aos quatro colégios abertos</td>
+            </tr>
+            <tr>
+              <td>Campanha e voto</td>
+              <td>10</td>
+              <td>10,6%</td>
+              <td>5.422</td>
+              <td>Fecho de todas as peças, com o número</td>
+            </tr>
+            <tr>
+              <td>Mulheres na política</td>
+              <td>14</td>
+              <td>9,2%</td>
+              <td>3.781</td>
+              <td>Pauta de apoio, não de abertura</td>
+            </tr>
+            <tr>
+              <td>Partido e institucional</td>
+              <td>9</td>
+              <td>8,9%</td>
+              <td>4.359</td>
+              <td>Reduzir, rende menos e fala com quem já está dentro</td>
+            </tr>
+            <tr>
+              <td>Pauta ambiental</td>
+              <td>4</td>
+              <td><b>7,9%</b></td>
+              <td><b>2.024</b></td>
+              <td>Só dentro de proposta com efeito econômico local</td>
+            </tr>
+          </tbody>
+        </table>
+        <p class="sm muted">Fonte: 19 publicações de @nataliarinco4055 entre 31/03 e 16/08/2026, coleta de 24/08/2026.
+          Engajamento calculado como curtidas mais comentários sobre 2.756 seguidores. Uma publicação pode contar em
+          mais de um tema.</p>
+      </div>
+      <div class="chart"><canvas id="chartTema"></canvas></div>
+      <h3>A pauta ambiental é a bandeira da bio e o pior desempenho do perfil</h3>
+      <p>A biografia abre com renovação e fecha com reciclagem, e a pauta ambiental isolada entrega <b>7,9% de
+          engajamento e 2.024 reproduções</b>, menos da metade do alcance do tema de origem. O Reel da composteira
+        caseira, de 1º de junho, fez 30 curtidas e 860 reproduções, o pior resultado do período. Não é sinal de que a
+        pauta esteja errada. É sinal de que ela precisa entrar como consequência econômica, com o nome do município e o
+        efeito na renda de quem mora ali, e não como comportamento individual.</p>
+      <div class="callout"><strong>O número não está sendo dito</strong>
+        <p>Das 19 publicações do período, <b>uma única</b> escreve 4055 na legenda, e apenas três trazem alguma chamada
+          para ação. O perfil marcou <b>95 contas diferentes</b> nesse mesmo período, o que é uma rede de
+          multiplicadores já pronta e nunca acionada como tal. Os dois problemas são de processo, custam zero e o
+          cronograma resolve os dois com uma regra fixa: nenhuma peça sai sem o número na primeira linha da legenda, e
+          toda peça de território marca as contas daquele município.</p>
+      </div>
+      <div class="insight good">
+        <div class="insight-header">O que isso significa para você</div>
+        <div class="insight-body"><span class="verdict">&#9650; Bom</span>
+          <p>Este é o achado mais barato do documento. O perfil não precisa de conteúdo melhor, precisa do mesmo
+            conteúdo com mais frequência, com o número escrito e apontado para quatro municípios em vez de trinta.
+            Origem e família rende 11,3% de engajamento e 5.577 reproduções, e foi usado cinco vezes em cinco meses. O
+            cronograma usa esse registro dezoito vezes em seis semanas.</p>
+        </div>
+      </div>
+    </section>
+    <section id="regras">
+      <div class="sec-head">
+        <h2>As datas que fecham antes da urna</h2>
+        <p>Sete marcos legais caem dentro das seis semanas, e três delas fecham janelas.</p>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Data</th>
+              <th>O que acontece</th>
+              <th>Semana</th>
+              <th>Efeito no conteúdo</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><b>28/08</b></td>
+              <td>Começa a propaganda gratuita em rádio e televisão</td>
+              <td>1</td>
+              <td>Peça explicando onde encontrar 4055, publicada no mesmo dia</td>
+            </tr>
+            <tr>
+              <td><b>30/08</b></td>
+              <td>Prazo para os partidos distribuírem os recursos públicos destinados a candidaturas de mulheres,
+                pessoas negras e indígenas</td>
+              <td>1</td>
+              <td>Decisão de orçamento a ser resolvida com a direção estadual antes da data</td>
+            </tr>
+            <tr>
+              <td>09 a 13/09</td>
+              <td>Prestação de contas parcial, com a movimentação até 08/09</td>
+              <td>3</td>
+              <td>Nenhum, é rotina administrativa</td>
+            </tr>
+            <tr>
+              <td><b>15/09</b></td>
+              <td>As contas parciais viram públicas na internet</td>
+              <td>4</td>
+              <td>Peça de transparência publicada no mesmo dia</td>
+            </tr>
+            <tr>
+              <td><b>01/10</b></td>
+              <td>Fim do impulsionamento pago na internet, do horário gratuito, dos comícios e dos debates. Começa a
+                vedação a conteúdo sintético de inteligência artificial</td>
+              <td>6</td>
+              <td>Último dia para gastar orçamento e para publicar qualquer peça feita com IA</td>
+            </tr>
+            <tr>
+              <td>02/10</td>
+              <td>Último dia de anúncio pago em jornal e revista</td>
+              <td>6</td>
+              <td>Só orgânico a partir daqui</td>
+            </tr>
+            <tr>
+              <td><b>03/10</b></td>
+              <td>Até as 22h, material gráfico, caminhada, carreata e passeata</td>
+              <td>6</td>
+              <td>Última janela de rua, e ela vira conteúdo no mesmo dia</td>
+            </tr>
+            <tr>
+              <td><b>04/10</b></td>
+              <td>Primeiro turno, das 8h às 17h</td>
+              <td>6</td>
+              <td>Conteúdo curto e repetitivo com o número</td>
+            </tr>
+          </tbody>
+        </table>
+        <p class="sm muted">Fonte: calendário eleitoral de 2026 do TSE e Resolução TSE nº 23.760/2026.</p>
+      </div>
+      <div class="callout"><strong>Três regras que valem em todas as seis semanas</strong>
+        <p>Live da candidata equivale a ato de campanha desde 16 de agosto, mesmo sem menção à eleição. Enquete sobre o
+          processo eleitoral está vedada, e a caixinha de enquete no story sobre intenção de voto entra nessa proibição.
+          Disparo em massa de conteúdo político em aplicativo de mensagem é vedado em qualquer data, e conversa
+          individual ou grupo preexistente é outra coisa e segue permitida.</p>
+      </div>
+      <div class="insight warn">
+        <div class="insight-header">O que isso significa para você</div>
+        <div class="insight-body"><span class="verdict">&#9654; Atenção</span>
+          <p>A data mais urgente do documento é 30 de agosto, e ela não é de conteúdo. O partido tem até esse dia para
+            distribuir a parcela do fundo destinada a candidaturas de mulheres, e ela é uma das seis mulheres numa chapa
+            de dezoito. Essa conversa com a direção estadual precisa acontecer nesta semana, porque é a única fonte de
+            recurso à vista capaz de mudar a escala do impulsionamento das cinco semanas seguintes.</p>
+        </div>
+      </div>
+    </section>
+    <section id="esqueleto">
+      <div class="sec-head">
+        <h2>O esqueleto que se repete toda semana</h2>
+        <p>Sete posições fixas, para que nenhum dia comece com a pergunta &ldquo;o que a gente posta hoje?&rdquo;.</p>
+      </div>
+      <p>Campanha pequena não perde tempo produzindo, perde tempo decidindo. O cronograma fixa o que vai em cada dia da
+        semana e deixa apenas o assunto variar. Duas ou três posições são substituídas pelo tema da semana, e o resto
+        roda igual da primeira à sexta semana.</p>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Dia</th>
+              <th>Formato</th>
+              <th>O que é</th>
+              <th>Para que serve</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Segunda</td>
+              <td>Reel de 30 segundos</td>
+              <td>Abertura da semana, ela falando para a câmera</td>
+              <td>Peça principal, é a que recebe impulsionamento</td>
+            </tr>
+            <tr>
+              <td>Terça</td>
+              <td>Carrossel</td>
+              <td>Uma proposta ou uma pauta, com um número real do território</td>
+              <td>Conteúdo que o eleitor salva e reenvia</td>
+            </tr>
+            <tr>
+              <td>Quarta</td>
+              <td>Reel de origem</td>
+              <td>Um pedaço da história dela, da família ou da Chapada</td>
+              <td>Registro de maior engajamento e maior alcance do perfil</td>
+            </tr>
+            <tr>
+              <td>Quinta</td>
+              <td>Foto de agenda</td>
+              <td>Onde ela esteve, com legenda de três linhas</td>
+              <td>Prova de presença física, o mais barato de produzir</td>
+            </tr>
+            <tr>
+              <td>Sexta</td>
+              <td>Reel de rua</td>
+              <td>Voz de outra pessoa: eleitor, liderança, comerciante</td>
+              <td>Prova social, o que ela diz sobre si vale menos</td>
+            </tr>
+            <tr>
+              <td>Sábado</td>
+              <td>Carrossel de território</td>
+              <td>Um dos quatro municípios abertos, com o que ela propõe ali</td>
+              <td>Alcance geográfico dirigido</td>
+            </tr>
+            <tr>
+              <td>Domingo</td>
+              <td>Card do número</td>
+              <td>Peça estática, legível sem som, rosto e 4055</td>
+              <td>Memorização, é o que decide na urna</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="grid-3" style="margin-top:1rem">
+        <div class="card">
+          <h3>Stories, todo dia</h3>
+          <p>De três a cinco por dia, sem produção. Bastidor da agenda, resposta a pergunta de seguidor, contagem
+            regressiva. O último foi em 23/08, então o hábito existe e só precisa continuar enquanto o feed volta.</p>
+        </div>
+        <div class="card">
+          <h3>Uma live por semana</h3>
+          <p>Quarta à noite, trinta minutos. Vale lembrar que live equivale a ato de campanha desde 16 de agosto e entra
+            na contabilidade como qualquer outra peça.</p>
+        </div>
+        <div class="card">
+          <h3>A regra de legenda</h3>
+          <p>Primeira linha com o número, sempre. Última linha com o pedido de voto. Hoje uma publicação em dezenove
+            escreve 4055, e é o dado mais corrigível de toda a análise.</p>
+        </div>
+      </div>
+      <div class="insight good">
+        <div class="insight-header">O que isso significa para você</div>
+        <div class="insight-body"><span class="verdict">&#9650; Bom</span>
+          <p>Sete publicações por semana parece muito para quem vinha de uma por semana, e é justamente o ponto. Quatro
+            das sete posições são registro, não produção: agenda, rua, território e card do número saem do celular no
+            mesmo dia. As três que exigem preparo são segunda, terça e quarta, e elas podem ser gravadas todas na mesma
+            tarde de domingo.</p>
+        </div>
+      </div>
+    </section>
+    <section id="semanas">
+      <div class="sec-head">
+        <h2>As seis semanas, dia a dia</h2>
+        <p>De 24 de agosto a 4 de outubro, com uma missão por semana.</p>
+      </div>
+      <p>Cada semana tem um trabalho só, e as seis se encadeiam na ordem em que o eleitor decide: primeiro descobre quem
+        ela é, depois de onde ela vem, depois o que ela quer fazer, depois quem confia nela, depois por que arriscar em
+        alguém novo e, por último, qual é o número. Inverter essa ordem é o erro mais comum de campanha estreante, que
+        costuma começar por proposta antes de o eleitor saber o nome.</p>
+      <div class="chart"><canvas id="chartRitmo"></canvas></div>
+      <div class="roadmap">
+        <div class="phase">
+          <div class="phase-time">Semana 1 · 24 a 30 de agosto</div>
+          <h3>Quem ela é e qual é o número</h3>
+          <p>A campanha tem oito dias de atraso e uma peça-base que ainda não existe. Esta semana produz o ativo que vai
+            ser reutilizado até 4 de outubro, que é o vídeo de apresentação de 30 segundos, e resolve as cinco correções
+            de custo zero que continuam abertas desde 24 de agosto.</p>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Dia</th>
+                  <th>Formato</th>
+                  <th>A peça</th>
+                  <th>Objetivo</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><b>Seg 24</b></td>
+                  <td>Reel de 30s</td>
+                  <td><b>Peça-base.</b> &ldquo;Sou Natália Rinco, 4055, candidata a deputada federal.&rdquo; Rosto,
+                    nome, número, território e uma frase de propósito. Legendada, entendível sem som</td>
+                  <td>Criar o ativo que será impulsionado nas seis semanas</td>
+                </tr>
+                <tr>
+                  <td><b>Seg 24</b></td>
+                  <td>Perfil</td>
+                  <td>Reconstruir quatro destaques: Minha história, Chapada, Propostas e 4055. Colocar o número na
+                    primeira linha da bio e corrigir &ldquo;Novas oportunidade&rdquo;</td>
+                  <td>Parar de perder o visitante que chega ao perfil</td>
+                </tr>
+                <tr>
+                  <td><b>Ter 25</b></td>
+                  <td>Carrossel</td>
+                  <td>Três compromissos para o Nordeste Goiano, um por tela, cada um com um número do território</td>
+                  <td>Dar conteúdo concreto a quem chegou pela peça-base</td>
+                </tr>
+                <tr>
+                  <td><b>Qua 26</b></td>
+                  <td>Reel de origem</td>
+                  <td>A chegada dos avós à Chapada em 1964, em versão de 30 segundos com o número no fim. O original de
+                    12/05 fez 3.640 reproduções sem chamada nenhuma</td>
+                  <td>Usar o registro de maior alcance do perfil</td>
+                </tr>
+                <tr>
+                  <td><b>Qui 27</b></td>
+                  <td>Foto de agenda</td>
+                  <td>Onde ela esteve nesta semana, legenda de três linhas, contas do município marcadas</td>
+                  <td>Prova de presença, custo zero</td>
+                </tr>
+                <tr>
+                  <td><b>Sex 28</b></td>
+                  <td>Reel de utilidade</td>
+                  <td>Começou o horário gratuito: como achar 4055 na urna, onde ela aparece na TV, o que o eleitor
+                    precisa lembrar</td>
+                  <td>Aproveitar a data com peça útil, que circula mais</td>
+                </tr>
+                <tr>
+                  <td><b>Sáb 29</b></td>
+                  <td>Carrossel de território</td>
+                  <td><b>Formosa</b>, o maior colégio da região, com 49.187 votos nominais e nenhum dono: o líder de
+                    2022 ficou em 11,8%</td>
+                  <td>Entrar no município onde há mais espaço vazio</td>
+                </tr>
+                <tr>
+                  <td><b>Dom 30</b></td>
+                  <td>Card do número</td>
+                  <td>Peça estática, rosto e 4055, sem texto longo</td>
+                  <td>Memorização</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="callout"><strong>Marco legal da semana</strong>
+            <p>Em <b>28/08</b> começa o horário gratuito em rádio e TV, e a peça de sexta aproveita a data. Em
+              <b>30/08</b> vence o prazo para o partido distribuir os recursos destinados a candidaturas de mulheres, e
+              essa conversa precisa estar fechada antes.</p>
+          </div>
+          <p><b>Onde colocar dinheiro:</b> Toda a verba desta semana vai para a peça-base de segunda, em valores
+            pequenos e divididos em dois públicos, Alto Paraíso e Formosa. O objetivo aqui é descobrir o custo por mil
+            impressões real antes de escalar, e não comprar alcance.</p>
+          <div class="phase-kpi">Meta da semana: 7 publicações no feed, 5 correções fechadas, peça-base no ar e custo
+            por mil medido</div>
+        </div>
+        <div class="phase">
+          <div class="phase-time">Semana 2 · 31 de agosto a 6 de setembro</div>
+          <h3>De onde ela vem</h3>
+          <p>A semana usa o registro que o perfil mede como o mais forte, que é origem e família. Em 16 de agosto ela
+            publicou pela primeira vez que é filha de Divaldo Rinco, ex-prefeito de Alto Paraíso, e aquela peça fez 67
+            comentários, o segundo maior número do ano. A história pessoal é o ativo, e ela foi contada cinco vezes em
+            cinco meses.</p>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Dia</th>
+                  <th>Formato</th>
+                  <th>A peça</th>
+                  <th>Objetivo</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><b>Seg 31</b></td>
+                  <td>Reel de 30s</td>
+                  <td>Parte 1 da série &ldquo;Essa história começa antes de mim&rdquo;: os avós, 1964, o que existia na
+                    Chapada antes da estrada</td>
+                  <td>Abrir uma série, que é o formato que faz o seguidor voltar</td>
+                </tr>
+                <tr>
+                  <td><b>Ter 1º</b></td>
+                  <td>Carrossel</td>
+                  <td>O que a Chapada era e o que ela virou, em cinco imagens, com o dado de eleitorado e de renda da
+                    região</td>
+                  <td>Transformar afeto em argumento</td>
+                </tr>
+                <tr>
+                  <td><b>Qua 2</b></td>
+                  <td>Reel de origem</td>
+                  <td>Parte 2: o pai, Divaldo Rinco, e o que uma prefeitura da região conseguia fazer naquela época</td>
+                  <td>Aprofundar o registro que mais engaja</td>
+                </tr>
+                <tr>
+                  <td><b>Qui 3</b></td>
+                  <td>Foto de agenda</td>
+                  <td>Agenda presencial da semana, marcando as contas locais</td>
+                  <td>Prova de presença</td>
+                </tr>
+                <tr>
+                  <td><b>Sex 4</b></td>
+                  <td>Reel de rua</td>
+                  <td>Um morador antigo de Alto Paraíso falando dela, 15 segundos, sem roteiro</td>
+                  <td>Prova social, que vale mais que autodescrição</td>
+                </tr>
+                <tr>
+                  <td><b>Sáb 5</b></td>
+                  <td>Carrossel de território</td>
+                  <td><b>Planaltina</b>, 38.046 votos nominais, líder de 2022 com 11,5%</td>
+                  <td>Segundo colégio aberto</td>
+                </tr>
+                <tr>
+                  <td><b>Dom 6</b></td>
+                  <td>Card do número</td>
+                  <td>Parte 3 da série em peça estática: da menina de bicicleta à candidata, com 4055</td>
+                  <td>Fechar a série com o número</td>
+                </tr>
+                <tr>
+                  <td><b>Semana</b></td>
+                  <td>Stories</td>
+                  <td>Caixinha de perguntas sobre a história da família, respondida em vídeo</td>
+                  <td>Alimentar o feed da semana seguinte com material gratuito</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <p><b>Onde colocar dinheiro:</b> Impulsionar as partes 1 e 3 da série, que são as de maior potencial de
+            compartilhamento. Manter Formosa e Planaltina como públicos e acrescentar Alto Paraíso com verba menor,
+            porque ali o nome já circula.</p>
+          <div class="phase-kpi">Meta da semana: 7 publicações, série de 3 partes completa, primeiro Reel acima de 10
+            mil reproduções</div>
+        </div>
+        <div class="phase">
+          <div class="phase-time">Semana 3 · 7 a 13 de setembro</div>
+          <h3>O que ela quer fazer</h3>
+          <p>Terceira semana é quando o eleitor que já sabe quem ela é começa a perguntar para quê. Uma proposta por
+            dia, cada uma amarrada a um município com nome e a um número verificável. Proposta genérica não circula e
+            não é lembrada.</p>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Dia</th>
+                  <th>Formato</th>
+                  <th>A peça</th>
+                  <th>Objetivo</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><b>Seg 7</b></td>
+                  <td>Reel de 30s</td>
+                  <td>Turismo comunitário na Chapada: quem vive disso hoje, quanto entra e o que falta. Feriado da
+                    Independência, dia de alto tráfego</td>
+                  <td>Proposta com efeito econômico direto, não pauta abstrata</td>
+                </tr>
+                <tr>
+                  <td><b>Ter 8</b></td>
+                  <td>Carrossel</td>
+                  <td>Estrada e escoamento no Vão do Paranã, com os municípios citados pelo nome</td>
+                  <td>Falar com quem não é da Chapada</td>
+                </tr>
+                <tr>
+                  <td><b>Qua 9</b></td>
+                  <td>Reel de origem</td>
+                  <td>Por que ela entrou na política, versão curta e direta, sem partido no enquadramento</td>
+                  <td>O tema institucional rende 8,9% e o de origem 11,3%</td>
+                </tr>
+                <tr>
+                  <td><b>Qui 10</b></td>
+                  <td>Carrossel</td>
+                  <td>Saúde de referência para Posse e Formosa: para onde o paciente vai hoje e quantos quilômetros ele
+                    roda</td>
+                  <td>Proposta que o eleitor reconhece na própria vida</td>
+                </tr>
+                <tr>
+                  <td><b>Sex 11</b></td>
+                  <td>Reel de rua</td>
+                  <td>Uma mulher que vive de extrativismo ou de artesanato no cerrado, falando da própria renda</td>
+                  <td>A pauta ambiental entra pela economia, que é onde ela funciona</td>
+                </tr>
+                <tr>
+                  <td><b>Sáb 12</b></td>
+                  <td>Carrossel de território</td>
+                  <td><b>Niquelândia</b>, 18.219 votos nominais, líder de 2022 com 11,0%</td>
+                  <td>Terceiro colégio aberto</td>
+                </tr>
+                <tr>
+                  <td><b>Dom 13</b></td>
+                  <td>Card do número</td>
+                  <td>As cinco propostas da semana em uma peça só, com 4055</td>
+                  <td>Consolidar e memorizar</td>
+                </tr>
+                <tr>
+                  <td><b>Semana</b></td>
+                  <td>Stories</td>
+                  <td>Uma proposta por dia em três telas, com enquete de opinião sobre o serviço público local, nunca
+                    sobre intenção de voto</td>
+                  <td>Enquete eleitoral é vedada desde 16/08</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="callout"><strong>Marco legal da semana</strong>
+            <p>De <b>09 a 13/09</b> corre o prazo da prestação de contas parcial, com a movimentação até 08/09. É rotina
+              administrativa e não gera conteúdo, mas atrasar aqui compromete a peça de transparência da semana 4.</p>
+          </div>
+          <p><b>Onde colocar dinheiro:</b> Escalar o investimento na peça de melhor custo por mil medido nas duas
+            primeiras semanas. Manter os quatro municípios abertos e cortar qualquer público que tenha entregado custo
+            acima do dobro da média.</p>
+          <div class="phase-kpi">Meta da semana: 7 publicações, 5 propostas publicadas, custo por mil estabilizado</div>
+        </div>
+        <div class="phase">
+          <div class="phase-time">Semana 4 · 14 a 20 de setembro</div>
+          <h3>Quem está com ela</h3>
+          <p>A quarta semana tira a candidata do centro da fala. Depoimento de terceiro circula mais e convence mais do
+            que autodescrição, e a campanha já tem uma rede pronta: 95 contas diferentes foram marcadas nas publicações
+            desde março e nenhuma foi acionada como multiplicadora.</p>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Dia</th>
+                  <th>Formato</th>
+                  <th>A peça</th>
+                  <th>Objetivo</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><b>Seg 14</b></td>
+                  <td>Reel de 30s</td>
+                  <td>Quatro lideranças de quatro municípios diferentes, 15 segundos cada, dizendo por que apoiam</td>
+                  <td>Prova social distribuída geograficamente</td>
+                </tr>
+                <tr>
+                  <td><b>Ter 15</b></td>
+                  <td>Carrossel</td>
+                  <td><b>Transparência.</b> Quanto a campanha arrecadou, de quantas pessoas e onde foi gasto, no dia em
+                    que o TSE publica as contas parciais</td>
+                  <td>Assunto que gera confiança e que ninguém disputa</td>
+                </tr>
+                <tr>
+                  <td><b>Qua 16</b></td>
+                  <td>Reel de origem</td>
+                  <td>O que a candidatura mudou na vida dela nestes dois meses, tom pessoal</td>
+                  <td>Manter a coluna vertebral da semana</td>
+                </tr>
+                <tr>
+                  <td><b>Qui 17</b></td>
+                  <td>Foto de agenda</td>
+                  <td>Agenda presencial, marcando lideranças e contas locais</td>
+                  <td>Prova de presença</td>
+                </tr>
+                <tr>
+                  <td><b>Sex 18</b></td>
+                  <td>Reel de rua</td>
+                  <td>Comerciante ou produtor de um dos quatro municípios abertos</td>
+                  <td>Voz de terceiro em território de conquista</td>
+                </tr>
+                <tr>
+                  <td><b>Sáb 19</b></td>
+                  <td>Carrossel de território</td>
+                  <td><b>Alto Paraíso</b>, 4.700 votos nominais e o mais votado de 2022 com apenas 544, ou 11,6%</td>
+                  <td>Fechar o quarto colégio, o de casa</td>
+                </tr>
+                <tr>
+                  <td><b>Dom 20</b></td>
+                  <td>Card do número</td>
+                  <td>Rosto, 4055 e a frase de campanha</td>
+                  <td>Memorização</td>
+                </tr>
+                <tr>
+                  <td><b>Semana</b></td>
+                  <td>Kit de multiplicador</td>
+                  <td>Enviar às 95 contas já marcadas um pacote com três peças prontas, uma legenda sugerida e o número
+                  </td>
+                  <td>Transformar rede existente em distribuição, sem disparo em massa</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="callout"><strong>Marco legal da semana</strong>
+            <p>Em <b>15/09</b> as contas parciais viram públicas na internet. Publicar no mesmo dia o que entrou e o que
+              saiu é diferenciação barata, porque quase nenhuma campanha pequena faz.</p>
+          </div>
+          <p><b>Onde colocar dinheiro:</b> Impulsionar a peça de depoimentos de segunda, que é a de maior potencial de
+            conversão da campanha inteira. Começar a subir o orçamento, porque restam duas semanas de janela.</p>
+          <div class="phase-kpi">Meta da semana: 7 publicações, kit enviado às 95 contas, peça de transparência
+            publicada em 15/09</div>
+        </div>
+        <div class="phase">
+          <div class="phase-time">Semana 5 · 21 a 27 de setembro</div>
+          <h3>Por que uma estreante</h3>
+          <p>É a semana em que o eleitor decide, e é a semana de enfrentar a objeção em vez de contorná-la. A objeção é
+            concreta: quatorze dos vinte mais votados da região em 2022 estão na urna outra vez, treze deles com
+            mandato. A campanha tem duas escolhas, fingir que isso não existe ou usar isso como argumento. A segunda
+            funciona melhor.</p>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Dia</th>
+                  <th>Formato</th>
+                  <th>A peça</th>
+                  <th>Objetivo</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><b>Seg 21</b></td>
+                  <td>Reel de 30s</td>
+                  <td>&ldquo;Treze deputados receberam voto da nossa região e a região continua na mesma.&rdquo; O
+                    argumento da renovação com o dado na tela</td>
+                  <td>Confronto direto, o formato que mais circula na reta final</td>
+                </tr>
+                <tr>
+                  <td><b>Ter 22</b></td>
+                  <td>Carrossel</td>
+                  <td>Quanto o Nordeste Goiano vota e quanto recebe de volta, com os 230.562 votos nominais da região
+                  </td>
+                  <td>Dar régua ao eleitor</td>
+                </tr>
+                <tr>
+                  <td><b>Qua 23</b></td>
+                  <td>Reel de origem</td>
+                  <td>O que muda quando a região tem deputada que mora nela</td>
+                  <td>Ligar biografia a consequência prática</td>
+                </tr>
+                <tr>
+                  <td><b>Qui 24</b></td>
+                  <td>Foto de agenda</td>
+                  <td>Agenda presencial em um dos quatro municípios abertos</td>
+                  <td>Prova de presença na semana decisiva</td>
+                </tr>
+                <tr>
+                  <td><b>Sex 25</b></td>
+                  <td>Reel de rua</td>
+                  <td>Duas ou três pessoas dizendo em que vão votar e por quê, gravado na rua</td>
+                  <td>Prova social no momento de decisão</td>
+                </tr>
+                <tr>
+                  <td><b>Sáb 26</b></td>
+                  <td>Carrossel</td>
+                  <td>Resposta às três objeções mais ouvidas na caixinha de perguntas</td>
+                  <td>Tirar o freio de quem já está inclinado</td>
+                </tr>
+                <tr>
+                  <td><b>Dom 27</b></td>
+                  <td>Card do número</td>
+                  <td>Peça simples, rosto e 4055</td>
+                  <td>Memorização</td>
+                </tr>
+                <tr>
+                  <td><b>Semana</b></td>
+                  <td>Live</td>
+                  <td>Uma live de 30 minutos respondendo perguntas ao vivo, lembrando que ela conta como ato de campanha
+                  </td>
+                  <td>Profundidade com quem já decidiu, e material para cortes</td>
+                </tr>
+                <tr>
+                  <td><b>Extra</b></td>
+                  <td>Dois Reels de corte</td>
+                  <td>Os dois melhores trechos da live, publicados na quinta e no sábado além do esqueleto</td>
+                  <td>Duplicar o uso de material já gravado na semana decisiva</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <p><b>Onde colocar dinheiro:</b> <b>Pico de investimento.</b> Esta é a semana de maior orçamento das seis,
+            porque é quando a decisão acontece e ainda há janela. Concentrar nas duas peças de melhor custo por mil de
+            todo o período, sem criar criativo novo para gastar.</p>
+          <div class="phase-kpi">Meta da semana: 9 publicações, maior semana de investimento, uma live realizada</div>
+        </div>
+        <div class="phase">
+          <div class="phase-time">Semana 6 · 28 de setembro a 4 de outubro</div>
+          <h3>Lembrar o número</h3>
+          <p>A última semana não apresenta nada novo e não muda intenção de voto. Ela recupera memória. Quem chega ao
+            dia 4 tentando se apresentar já perdeu. Três janelas fecham dentro dela e cada dia tem uma regra diferente.
+          </p>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Dia</th>
+                  <th>Formato</th>
+                  <th>A peça</th>
+                  <th>Objetivo</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><b>Seg 28</b></td>
+                  <td>Reel de 30s</td>
+                  <td>A peça de fechamento: por que 4055, em trinta segundos, com a melhor versão do argumento</td>
+                  <td>Última peça grande, e a mais impulsionada</td>
+                </tr>
+                <tr>
+                  <td><b>Ter 29</b></td>
+                  <td>Carrossel</td>
+                  <td>Tudo que foi prometido nas seis semanas, em uma peça só</td>
+                  <td>Consolidação, e material que o apoiador reenvia</td>
+                </tr>
+                <tr>
+                  <td><b>Qua 30</b></td>
+                  <td>Reel de rua</td>
+                  <td>Corte com as vozes de apoiadores das seis semanas</td>
+                  <td>Prova social acumulada</td>
+                </tr>
+                <tr>
+                  <td><b>Qui 1º</b></td>
+                  <td>Card e Reel</td>
+                  <td><b>Último dia de impulsionamento.</b> Publicar de manhã, gastar o que restar do orçamento até o
+                    fim do dia e colocar no ar qualquer peça feita com inteligência artificial, porque depois disso ela
+                    fica vedada</td>
+                  <td>Fechar a janela paga com o caixa zerado</td>
+                </tr>
+                <tr>
+                  <td><b>Sex 2</b></td>
+                  <td>Orgânico</td>
+                  <td>Só alcance próprio a partir daqui. Acionar as 95 contas do kit de multiplicador com a peça de
+                    fechamento</td>
+                  <td>Distribuição sem dinheiro</td>
+                </tr>
+                <tr>
+                  <td><b>Sáb 3</b></td>
+                  <td>Rua e feed</td>
+                  <td>Caminhada e material gráfico até as 22h, virando conteúdo no mesmo dia. Publicar de três a quatro
+                    peças curtas</td>
+                  <td>Última janela de rua do calendário</td>
+                </tr>
+                <tr>
+                  <td><b>Dom 4</b></td>
+                  <td>Dia da eleição</td>
+                  <td>Peças curtas com o número ao longo do dia, mobilização por conversa individual, nunca por disparo
+                    em massa. Registrar o dia, que é a abertura do próximo ciclo</td>
+                  <td>Recuperar memória na hora de digitar</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="callout"><strong>Marco legal da semana</strong>
+            <p>Em <b>01/10</b> acabam o impulsionamento pago, o horário gratuito, os comícios e os debates, e começa a
+              vedação a conteúdo sintético de inteligência artificial, que vale até 24 horas depois da votação. Em
+              <b>02/10</b> vence o anúncio pago em jornal e revista. Em <b>03/10</b>, até as 22h, ainda valem material
+              gráfico, caminhada e carreata.</p>
+          </div>
+          <p><b>Onde colocar dinheiro:</b> Zerar o caixa até 1º de outubro. Recurso de campanha não compra alcance
+            depois dessa data e não se transfere para a eleição seguinte. Saldo em conta no dia 2 vira apenas linha na
+            prestação de contas.</p>
+          <div class="phase-kpi">Meta da semana: 13 publicações, orçamento de mídia integralmente executado até 01/10,
+            rede de multiplicadores acionada</div>
+        </div>
+      </div>
+      <div class="insight purple">
+        <div class="insight-header">O que isso significa para você</div>
+        <div class="insight-body"><span class="verdict">&#9654; Atenção</span>
+          <p>A curva de publicação é crescente de propósito, de 7 por semana até 20 de setembro para 9 e depois 13, e a
+            de investimento acompanha. Campanha estreante costuma fazer o contrário: gasta cedo, quando ninguém decidiu,
+            e chega sem caixa nas duas semanas que decidem. Aqui as duas primeiras semanas compram aprendizado com pouco
+            dinheiro e descobrem qual criativo entrega barato, e a quinta e a sexta gastam o que sobrou já sabendo o que
+            funciona.</p>
+        </div>
+      </div>
+    </section>
+    <section id="formatos">
+      <div class="sec-head">
+        <h2>Os seis formatos que se repetem</h2>
+        <p>Cada peça do cronograma é uma destas seis, e nenhuma exige equipe.</p>
+      </div>
+      <div class="grid-3">
+        <div class="card">
+          <h3>Reel de 30 segundos</h3>
+          <p>Ela falando para a câmera, plano fixo, luz natural, legenda queimada no vídeo. Primeiros três segundos com
+            o rosto e o número na tela. Sem música alta por cima da voz. É a única peça que pede preparo, e três delas
+            cabem numa tarde de domingo.</p>
+        </div>
+        <div class="card">
+          <h3>Carrossel de proposta</h3>
+          <p>Cinco telas. A primeira com a pergunta, as três do meio com o conteúdo, a última com nome, número e pedido
+            de voto. Um número real do território em cada peça, com a fonte escrita na tela.</p>
+        </div>
+        <div class="card">
+          <h3>Foto de agenda</h3>
+          <p>Uma foto do dia, legenda de três linhas, contas do município marcadas. Sai do celular sem edição. É a peça
+            mais barata do cronograma e a que mais prova presença.</p>
+        </div>
+        <div class="card">
+          <h3>Reel de rua</h3>
+          <p>Quinze segundos, outra pessoa falando, gravado na vertical no celular. Sem roteiro decorado. Depoimento
+            vale mais quando parece depoimento.</p>
+        </div>
+        <div class="card">
+          <h3>Carrossel de território</h3>
+          <p>Sempre sobre um dos quatro municípios abertos: Formosa, Planaltina, Niquelândia e Alto Paraíso. Uma foto do
+            lugar, um dado do lugar, uma proposta para o lugar, e as contas locais marcadas.</p>
+        </div>
+        <div class="card">
+          <h3>Card do número</h3>
+          <p>Peça estática, rosto e 4055 grandes, legível na miniatura e sem som. É a peça que o apoiador salva e
+            reenvia, e a que mais importa nos últimos três dias, quando não há mais impulsionamento.</p>
+        </div>
+      </div>
+      <div class="callout"><strong>Quatro regras de produção que valem para as seis</strong>
+        <p>Primeira: o número entra na primeira linha da legenda, sempre, e hoje aparece em uma publicação de dezenove.
+          Segunda: toda peça tem que funcionar sem som, porque a maior parte das reproduções acontece com o áudio
+          desligado. Terceira: peça de território marca as contas daquele município, o que é a forma legítima de
+          aparecer para quem não segue. Quarta: qualquer peça que use inteligência artificial precisa estar publicada
+          até 1º de outubro.</p>
+      </div>
+      <div class="insight info">
+        <div class="insight-header">O que isso significa para você</div>
+        <div class="insight-body"><span class="verdict">&#9650; Bom</span>
+          <p>A produção inteira cabe em duas sessões por semana. Domingo à tarde para gravar os três Reels da semana em
+            sequência, com a mesma roupa e a mesma luz, e uma hora em qualquer dia para montar os dois carrosséis.
+            Agenda, rua e card saem no dia, do celular. Foi com esse nível de estrutura que a conta chegou ao melhor
+            engajamento da série.</p>
+        </div>
+      </div>
+    </section>
+    <section id="painel">
+      <div class="sec-head">
+        <h2>O painel de segunda-feira</h2>
+        <p>Cinco números na segunda de manhã, e o que cada um dispara.</p>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Indicador</th>
+              <th>Hoje, 24/08</th>
+              <th>Onde precisa estar em 01/10</th>
+              <th>O que fazer se estiver abaixo</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Publicações no feed na semana</td>
+              <td>0 nas duas últimas</td>
+              <td>13</td>
+              <td>Trocar peça produzida por registro de agenda, que custa zero</td>
+            </tr>
+            <tr>
+              <td>Reproduções médias por Reel</td>
+              <td>4.214</td>
+              <td>25.000</td>
+              <td>Trocar o criativo, não o orçamento. Custo alto é sintoma de peça fraca</td>
+            </tr>
+            <tr>
+              <td>Custo por mil impressões</td>
+              <td>não medido</td>
+              <td>abaixo de R$ 3,00</td>
+              <td>Voltar ao teste de criativo pequeno da semana 1</td>
+            </tr>
+            <tr>
+              <td>Publicações com o número 4055</td>
+              <td>1 de 19</td>
+              <td>100%</td>
+              <td>Erro de processo, corrigir na mesma hora</td>
+            </tr>
+            <tr>
+              <td>Seguidores</td>
+              <td>2.756</td>
+              <td>12.000</td>
+              <td>Investir em peça de apresentação, não em peça de proposta</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="chart"><canvas id="chartAlcance"></canvas></div>
+      <p>O gráfico coloca lado a lado, em escala logarítmica, o alcance que o perfil tem hoje e as três réguas que
+        importam. O Reel médio faz 4.214 reproduções. A meta de votação nominal desta campanha, definida no plano de 24
+        de agosto, é de 10.773 votos. O piso para uma candidata entrar na distribuição de sobras é de 40.545 votos, e o
+        piso para o partido é de 162.180. A distância entre a primeira barra e a segunda é o trabalho destas seis
+        semanas. A distância entre a segunda e a quarta é o trabalho de duas eleições.</p>
+      <div class="insight warn">
+        <div class="insight-header">O que isso significa para você</div>
+        <div class="insight-body"><span class="verdict">&#9654; Atenção</span>
+          <p>O indicador que mais informa continua sendo o custo por mil impressões, e ele segue sem ser medido. Ele é o
+            que separa problema de dinheiro de problema de conteúdo. Se o custo estiver alto, aumentar o orçamento só
+            queima o caixa mais rápido, e o que precisa mudar é a peça. A semana 1 existe em boa parte para produzir
+            esse número antes que qualquer valor relevante seja gasto.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="closing">
+    <div class="closing-inner">
+      <h2>Faltam seis semanas e a campanha ainda tem todas elas.</h2>
+      <p>O conteúdo desta candidatura engaja mais do que o de qualquer perfil comparado, e o mês de agosto provou isso
+        outra vez: 14,70% desde a convenção, o melhor número da série. O que falta não é talento nem mensagem. Falta uma
+        publicação por dia, o número escrito na legenda, quatro municípios em vez de trinta e o caixa zerado em 1º de
+        outubro. São decisões de rotina, e é a rotina que separa terminar outubro com dois mil votos ou com dez mil, um
+        perfil de doze mil seguidores e uma rede de multiplicadores organizada para 2028.</p>
+      <div class="closing-meta">Oráculo Tecnologia · Cronograma semanal de conteúdo · 24 de agosto a 4 de outubro de
+        2026</div>
+    </div>
+  </div>
+  <script>
+    (() => {
+      const ink = '#1b2e73', primary = '#1d4ed8', soft = '#b3c0ea', warn = '#8f4e07';
+      Chart.defaults.font.family = "'Bricolage Grotesque', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif";
+      Chart.defaults.color = '#6b7186';
+      Chart.defaults.plugins.legend.labels.usePointStyle = true;
+      Chart.defaults.plugins.legend.labels.boxWidth = 7;
+      const grid = { color: '#ebedf4' };
+
+      new Chart(document.getElementById('chartSobras'), { type: 'bar', data: { labels: ['PL', 'UNIÃO', 'FE Brasil', 'PP', 'MDB', 'REPUBLICANOS', 'PSC', 'PSDB Cidadania', 'PSD', 'PDT', 'PATRIOTA', 'SOLIDARIEDADE', 'PSB'], datasets: [{ label: 'Quocientes eleitorais alcançados em 2022', data: [2.84, 1.84, 1.44, 1.42, 1.37, 1.35, 0.92, 0.90, 0.89, 0.89, 0.74, 0.67, 0.39], backgroundColor: ['#1b2e73', '#1b2e73', '#1b2e73', '#1b2e73', '#1b2e73', '#1b2e73', '#1d4ed8', '#1d4ed8', '#1d4ed8', '#1d4ed8', '#b3c0ea', '#b3c0ea', '#8f4e07'], borderRadius: 2 }] }, options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false }, title: { display: true, text: 'Goiás 2022: a linha dos 80% do quociente separa quem elegeu de quem não elegeu' } }, scales: { y: { beginAtZero: true, grid, title: { display: true, text: 'quocientes' } }, x: { grid: { display: false }, ticks: { maxRotation: 60, minRotation: 45 } } } } });
+
+      new Chart(document.getElementById('chartConcentracao'), { type: 'bar', data: { labels: ['Niquelândia', 'Planaltina', 'Alto Paraíso', 'Formosa', 'Campos Belos', 'Minaçu', 'Posse', 'Mambaí', 'Divinópolis', 'Nova Roma', 'Damianópolis', 'Guarani de Goiás', 'Campinaçu', 'Cabeceiras'], datasets: [{ label: '% do voto nominal do município que foi para o mais votado ali', data: [11.0, 11.5, 11.6, 11.8, 26.4, 27.0, 38.4, 40.7, 43.3, 44.0, 50.2, 51.9, 53.9, 65.5], backgroundColor: ['#1d4ed8', '#1d4ed8', '#1d4ed8', '#1d4ed8', '#b3c0ea', '#b3c0ea', '#b3c0ea', '#1b2e73', '#1b2e73', '#1b2e73', '#1b2e73', '#1b2e73', '#1b2e73', '#1b2e73'], borderRadius: 2 }] }, options: { responsive: true, maintainAspectRatio: false, indexAxis: 'y', plugins: { legend: { display: false }, title: { display: true, text: 'Concentração do voto por município em 2022 · azul é território aberto, escuro é território capturado' } }, scales: { x: { beginAtZero: true, grid, ticks: { callback: v => v + '%' } }, y: { grid: { display: false } } } } });
+
+      new Chart(document.getElementById('chartTema'), { type: 'bar', data: { labels: ['Origem e família', 'Território e Chapada', 'Campanha e voto', 'Mulheres na política', 'Partido e institucional', 'Pauta ambiental'], datasets: [{ label: 'Engajamento médio (%)', data: [11.3, 10.7, 10.6, 9.2, 8.9, 7.9], backgroundColor: primary, borderRadius: 2, yAxisID: 'y' }, { label: 'Reproduções médias', data: [5577, 4985, 5422, 3781, 4359, 2024], backgroundColor: soft, borderRadius: 2, yAxisID: 'y1' }] }, options: { responsive: true, maintainAspectRatio: false, plugins: { title: { display: true, text: 'Desempenho por tema em 19 publicações desde 31 de março' } }, scales: { y: { beginAtZero: true, grid, position: 'left', ticks: { callback: v => v + '%' } }, y1: { beginAtZero: true, position: 'right', grid: { display: false } }, x: { grid: { display: false }, ticks: { maxRotation: 30, minRotation: 0 } } } } });
+
+      new Chart(document.getElementById('chartRitmo'), { type: 'bar', data: { labels: ['Realizado até 24/08', 'Semana 1', 'Semana 2', 'Semana 3', 'Semana 4', 'Semana 5', 'Semana 6'], datasets: [{ label: 'Publicações no feed por semana', data: [0.91, 7, 7, 7, 7, 9, 13], backgroundColor: ['#8f4e07', '#b3c0ea', '#b3c0ea', '#1d4ed8', '#1d4ed8', '#1b2e73', '#1b2e73'], borderRadius: 2 }] }, options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false }, title: { display: true, text: 'Cadência: a média realizada desde março contra o previsto nas seis semanas' } }, scales: { y: { beginAtZero: true, grid }, x: { grid: { display: false } } } } });
+
+      new Chart(document.getElementById('chartAlcance'), { type: 'bar', data: { labels: ['Reel médio de hoje', 'Meta de votos do plano', 'Piso da candidata nas sobras', 'Piso do partido nas sobras'], datasets: [{ label: 'Pessoas', data: [4214, 10773, 40545, 162180], backgroundColor: [warn, primary, ink, ink], borderRadius: 2 }] }, options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false }, title: { display: true, text: 'Alcance de hoje contra as três réguas · escala logarítmica' } }, scales: { y: { type: 'logarithmic', grid }, x: { grid: { display: false }, ticks: { maxRotation: 20, minRotation: 0 } } } } });
+    })();
+  </script>
+  <script>
+    (() => {
+      const links = [...document.querySelectorAll('.nav a')];
+      const sections = links.map(a => document.querySelector(a.getAttribute('href'))).filter(Boolean);
+      const observer = new IntersectionObserver(entries => { entries.forEach(entry => { if (entry.isIntersecting) { links.forEach(a => a.classList.toggle('active', a.getAttribute('href') === '#' + entry.target.id)); } }) }, { rootMargin: '-25% 0px -65% 0px' });
+      sections.forEach(s => observer.observe(s));
+    })();
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,80 @@
+{
+ "coletadoEm": "2026-08-18",
+ "ads": {
+  "metaAdLibrary": {
+   "anunciosAtivos": 3,
+   "criativos": 3,
+   "mesesNoAr": 0.0,
+   "formatos": [
+    "vídeo"
+   ],
+   "metodo": "Playwright (contexto isolado) em facebook.com/ads/library, país=BR, active_status=all, busca por \"Implantomed\" (frase exata e busca por palavras); 3 criativos ativos da página \"Implantomed Clínica Odontológica\", todos iniciados em 17/08/2026; a Meta reporta \"~8 resultados\" para o termo, o que indica variações do mesmo criativo",
+   "conseguiuLer": true,
+   "termosBuscados": [
+    "Implantomed",
+    "Implantomed (frase exata)"
+   ]
+  },
+  "leitura": "Acabou de ligar a torneira: 3 criativos ativos, todos em vídeo e todos iniciados em 17/08/2026 (véspera da coleta), levando para o perfil do Instagram e não para WhatsApp. É teste recente e sem histórico — quem chegar agora com estrutura de campanha e destino de conversão pega a operação ainda crua."
+ },
+ "diretorios": {
+  "doctoralia": "https://www.doctoralia.com.br/sheila-mendes-batista-2/dentista/brasilia",
+  "doctoraliaNota": 5.0,
+  "doctoraliaOpinioes": 8,
+  "facebook": "https://www.facebook.com/implantomed/",
+  "linkedin": null,
+  "youtube": null,
+  "tiktok": null,
+  "outros": [
+   {
+    "nome": "Instagram (conta oficial da clínica)",
+    "url": "https://www.instagram.com/implantomed/",
+    "observacao": "2.231 seguidores, 1.153 publicações, segundo resultado de busca — já registrado como instagram.handle em presenca.json."
+   },
+   {
+    "nome": "Ache Seu Dentista",
+    "url": "https://acheseudentista.com.br/index.php?pg=pagina_pessoal&nome=Sheila+Mendes+Batista&id=203146"
+   },
+   {
+    "nome": "Vídeo avulso no YouTube (não confirma canal próprio dedicado)",
+    "url": "https://www.youtube.com/watch?v=wn4siJEvinE",
+    "observacao": "\"Drª Sheila Mendes Recebe Prêmio de Qualidade da BRASLIDER\" — vídeo de terceiros/evento, não um canal oficial da clínica."
+   },
+   {
+    "nome": "SoundCloud (entrevista em rádio)",
+    "url": "https://soundcloud.com/implantomed/entrevista-rt-dra-sheila-mendes-batista-da-implantomed"
+   }
+  ]
+ },
+ "siteConfirmacao": {
+  "existe": true,
+  "url": "https://implantomed.com.br/",
+  "conclusivo": true,
+  "observacao": "O site EXISTE e está no ar. Achado importante: 'https://www.implantomed.com.br/' (com www) falha o handshake TLS em WebFetch, curl e Python (erro consistente: TLSV1_ALERT_INTERNAL_ERROR / alerta 80) — isso é o mesmo erro já registrado em presenca.json. Porém 'https://implantomed.com.br/' (SEM o 'www.', domínio apex) respondeu HTTP 200 normalmente via curl, com conteúdo real: título '<title>Clinica de Implante Dentário</title>' e meta description 'Clínica Implantomed em Brasília-DF, especializada em implante dentário e reabilitação oral. +25 anos, +3.000 cirurgias, Dra. Sheila Mendes. SGAS 613/614 Asa Sul...'. Conclusão: o problema é uma misconfiguração de TLS/SNI específica do subdomínio 'www', não do domínio em si — o site funciona normalmente pelo domínio apex. Também confirmado que o Google indexa múltiplas páginas do site (equipe, a-clinica-implantomed, implante-dentario etc.), reforçando que o site está ativo e acessível por navegador/Googlebot."
+ },
+ "instagramDecisor": {
+  "handle": "implantomed",
+  "confianca": "alta",
+  "evidencia": "A conta @implantomed no Instagram (https://www.instagram.com/implantomed/) tem nome de exibição 'Drª Sheila Mendes | Especialista em Implantes' — é a conta oficial da clínica, mas funciona como a vitrine pessoal/profissional da sócia-administradora Sheila Mendes Batista (diretora técnica, CRO-DF 3949). Não foi localizado um perfil pessoal dela separado desta conta de negócio; portanto este é o handle mais próximo de um 'perfil pessoal' disponível, com ressalva de que é compartilhado com a marca."
+ },
+ "fontes": [
+  "https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=BR&q=Implantomed&search_type=keyword_unordered",
+  "https://www.doctoralia.com.br/sheila-mendes-batista-2/dentista/brasilia",
+  "https://www.facebook.com/implantomed/",
+  "https://www.instagram.com/implantomed/",
+  "https://implantomed.com.br/ (curl direto, HTTP 200)",
+  "https://www.implantomed.com.br/ (WebFetch e curl, erro TLS confirmado)",
+  "https://www.implantomed.com.br/equipe/",
+  "https://acheseudentista.com.br/index.php?pg=pagina_pessoal&nome=Sheila+Mendes+Batista&id=203146",
+  "https://soundcloud.com/implantomed/entrevista-rt-dra-sheila-mendes-batista-da-implantomed",
+  "WebSearch: \"Implantomed Doctoralia Sheila Mendes Batista\"",
+  "WebSearch: \"Implantomed Brasília Facebook Instagram TikTok\"",
+  "WebSearch: \"Sheila Batista OR Sheila Mendes instagram pessoal implantodontista @dra\""
+ ],
+ "limitacoes": [
+  "Nenhum LinkedIn ou TikTok da clínica localizado.",
+  "Não há canal de YouTube próprio confirmado, apenas vídeos avulsos de terceiros.",
+  "Nota e nº de opiniões do Doctoralia são do perfil pessoal da Dra. Sheila (que É a técnica responsável/decisora), não necessariamente um perfil separado 'da clínica' no Doctoralia.",
+  "Instagram do decisor é a mesma conta de negócio da clínica — não há perfil pessoal distinto confirmado."
+ ]
+}

@@ -1,0 +1,494 @@
+[
+  {
+    "pos": 11,
+    "nome": "Azevedo, Barbosa & De Lucca Advogados",
+    "cnpj": "10714214000183",
+    "decisor": "Miguel Eyer Nogueira Barbosa",
+    "site": {
+      "url": "https://www.ea.adv.br/",
+      "status": 200,
+      "conclusivo": true,
+      "observacao": "Responde em 1,83s. Domínio derivado do e-mail do CNPJ (andrea@ea.adv.br) e confirmado pelo conteúdo: endereço SHIS QI 9 Conj. 17 Casa 14 e telefone (61) 3364-1000 batem com a Receita. Site institucional enxuto, posicionado em Radiodifusão, Tecnologia e Telecomunicações. Não lista sócios nominalmente nem publica conteúdo técnico."
+    },
+    "google": {
+      "perfilEncontrado": true,
+      "nota": 4.5,
+      "avaliacoes": 11,
+      "categoria": "Serviços jurídicos",
+      "observacao": "Ficha com endereço e telefone corretos, horário de funcionamento cadastrado, botão de site ativo. Comentários visíveis: 'Profissionais de primeira!', 'Atendimento impecável desde o primeiro contato.'"
+    },
+    "instagram": {
+      "handle": null,
+      "seguidores": null,
+      "observacao": "Não localizado. O site não traz links de redes sociais; busca no Instagram por 'Azevedo Barbosa de Lucca advogados' retornou zero contas; handles candidatos @eaadvogados e @ea.advogados não existem."
+    },
+    "linkedin": {
+      "empresa": null,
+      "decisor": "https://www.linkedin.com/in/miguel-eyer-nogueira-barbosa-a30a91103",
+      "observacao": "Página de empresa não localizada. Outro sócio com perfil: Edio Azevedo — https://www.linkedin.com/in/edio-azevedo-1790a352"
+    },
+    "autoridade": {
+      "sinais": [
+        "Nicho técnico raro: radiodifusão (rádio, TV, RTV e novas mídias), telecomunicações e tecnologia",
+        "Atuação declarada perante o Ministério das Comunicações e a Anatel",
+        "Presença em congresso do setor de rádio e TV (tema 'Rádio e TV: para todo mundo, em todo lugar')",
+        "Capital social de R$ 210.000 e sociedade desde 2009 (sócio mais antigo desde 2011)"
+      ],
+      "observacao": "A posição de 'referência nacional em radiodifusão' é autodeclarada no site — não localizei ranking (Chambers, Análise Advocacia, Leaders League), livro ou docência que a sustente publicamente. É exatamente o ativo que o marketing deveria capturar: nicho regulatório defensável, sem prova externa publicada."
+    },
+    "ads": {
+      "temAnuncio": false,
+      "observacao": "Meta Ad Library, busca por frase exata 'Azevedo, Barbosa & de Lucca' no Brasil: 0 resultados, sem CAPTCHA. Ausência é conformidade com o Provimento 205/2021 da OAB, não falha."
+    },
+    "limitacoes": [
+      "instagram.handle e instagram.seguidores não coletados — nenhuma conta localizada",
+      "linkedin.empresa não coletado — página de empresa não localizada",
+      "Nenhum ranking ou reconhecimento externo localizado (ausência de evidência, não evidência de ausência)"
+    ]
+  },
+  {
+    "pos": 12,
+    "nome": "Ferrareze e Freitas Advogados Associados",
+    "cnpj": "16894447000191",
+    "decisor": "Gilberto Rodrigues de Freitas",
+    "site": {
+      "url": "https://ffa.com.br/pt-br",
+      "status": 200,
+      "conclusivo": true,
+      "observacao": "Responde em 0,80s. Domínio derivado do e-mail do CNPJ (sociosbsb@ffa.com.br). Site nacional, multilíngue, com blog e vídeos. ATENÇÃO: é um escritório nacional — fundado em 1982 em Passo Fundo/RS por Celso Ferrareze e Gilberto Freitas, com 26 unidades em 16 estados e mais de 600 profissionais. O CNPJ de Brasília é uma unidade, não a matriz."
+    },
+    "google": {
+      "perfilEncontrado": true,
+      "nota": 4.9,
+      "avaliacoes": 82,
+      "categoria": "Serviços jurídicos em Brasília, Distrito Federal",
+      "observacao": "Ficha da unidade de Brasília: Setor de Autarquias Sul Q. 4, Bloco A, salas 805 a 808 (Victoria Office Tower), tel. (61) 3321-1067. A ficha NÃO tem website cadastrado (o Google exibe 'Adicionar website'). Melhor nota e maior volume de avaliações do grupo 11–20."
+    },
+    "instagram": {
+      "handle": "@ffa_advogados",
+      "seguidores": 17000,
+      "observacao": "17 mil seguidores e 2.425 posts. Conta do grupo nacional, não da unidade de Brasília. Link confirmado no próprio site. Contagem lida como '17K' na meta description — valor arredondado."
+    },
+    "linkedin": {
+      "empresa": "https://www.linkedin.com/company/ferrareze-e-freitas-advogados",
+      "decisor": null,
+      "observacao": "Há também um perfil pessoal usado como marca: https://www.linkedin.com/in/ffa-advogados-803a93187. Perfil pessoal de Gilberto Rodrigues de Freitas não localizado. Também mantém YouTube (@FFAadvogados) e Facebook (/FFAadvogados)."
+    },
+    "autoridade": {
+      "sinais": [
+        "Mais de 40 anos de atuação (fundado em 1982), 26 unidades em 16 estados, 600+ profissionais",
+        "Prêmio da Associação Brasileira de Liderança em 2013, categoria direito do trabalho bancário",
+        "Sócios fundadores nominados na marca: Celso Ferrareze e Gilberto Freitas",
+        "Estrutura de conteúdo própria: blog, YouTube com vídeos institucionais, Instagram ativo com 17 mil seguidores"
+      ],
+      "observacao": "Snippets do Google associaram o nome ao 'ranking Análise Advocacia Regional 2026', mas o trecho misturava outros escritórios (Diego Bomfim, CoreLaw) — NÃO confirmei o reconhecimento e por isso ele não entra na lista de sinais. Este é o único dos dez com máquina de marketing já montada; a oportunidade é regional (a unidade de Brasília não tem site próprio na ficha do Google), não de construção do zero."
+    },
+    "ads": {
+      "temAnuncio": false,
+      "observacao": "Meta Ad Library, frase exata 'Ferrareze e Freitas': 1 resultado, mas veiculado pela página de terceiro 'Nilson Santos' — nenhum anúncio da página do escritório. Ausência é conformidade com o Provimento 205/2021 da OAB, não falha."
+    },
+    "limitacoes": [
+      "linkedin.decisor não coletado — perfil pessoal de Gilberto Rodrigues de Freitas não localizado",
+      "instagram.seguidores é aproximado (17K arredondado pelo Instagram)",
+      "Reconhecimento em ranking (Análise Advocacia 2026) não confirmado — snippet ambíguo, descartado",
+      "Não verifiquei se o decisor atua a partir de Brasília ou da matriz no Sul — risco relevante para a abordagem"
+    ]
+  },
+  {
+    "pos": 13,
+    "nome": "Lauro Pinheiro Advocacia",
+    "cnpj": "10492490000225",
+    "decisor": "Lauro Augusto Vieira Santos Pinheiro",
+    "site": {
+      "url": "https://lauropinheiro.com/",
+      "status": null,
+      "conclusivo": true,
+      "observacao": "PROBLEMA TÉCNICO CONFIRMADO: o certificado SSL está expirado — curl retorna 'SSL certificate problem: certificate has expired' e código 000; o conteúdo só carrega ignorando a verificação (-k). Na prática, todo visitante vê aviso de site não seguro no navegador. O site é WordPress e se apresenta como 'Pinheiro Advocacia e Consultoria', fundado em janeiro de 2007, sede em Brasília com unidades em São Paulo e Goiânia. Domínio confirmado pelo e-mail do CNPJ (lauro@lauropinheiro.com). Existe ainda lauropinheiro.com.br (HTTP 200), que é outro negócio do mesmo sócio — 'Lauro Pinheiro – Negócios Imobiliários', com a página marcada 'PÁGINA EM CONSTRUÇÃO'."
+    },
+    "google": {
+      "perfilEncontrado": true,
+      "nota": 5.0,
+      "avaliacoes": 3,
+      "categoria": "Advogado",
+      "observacao": "Ficha 'Pinheiro Advocacia e Consultoria', SHIS QI 12 casa 12 - Lago Sul, 71630-225, tel. (61) 3326-7054. O telefone bate exatamente com o do CNPJ (61 33267054); o endereço difere do cadastro na Receita (SHIS QI 19 Cj 11 Lt 13, 71655-110), indicando mudança de sede não atualizada em um dos dois registros."
+    },
+    "instagram": {
+      "handle": "@pinheiroadvocaciadf",
+      "seguidores": 2491,
+      "observacao": "ATRIBUIÇÃO PROVÁVEL, NÃO CONFIRMADA. 2.491 seguidores e 155 posts. Casa com o escritório por três indícios: sufixo 'df' no handle, nome 'Pinheiro Advocacia' e menção a atuação 'desde 2007' (o site declara fundação em janeiro de 2007). Não consegui ler a bio nem o link externo da conta para fechar a confirmação, e o site não publica links de redes sociais. 'Pinheiro' é sobrenome muito comum na advocacia do DF — confirmar antes de abordar."
+    },
+    "linkedin": {
+      "empresa": "https://www.linkedin.com/company/pinheiro-advocacia",
+      "decisor": "https://www.linkedin.com/in/lauro-augusto-vieira-santos-pinheiro-a7023a30",
+      "observacao": "Perfil do decisor com nome completo idêntico ao do quadro societário — atribuição segura."
+    },
+    "autoridade": {
+      "sinais": [
+        "Atuação desde 2007 com unidades próprias em Brasília, São Paulo e Goiânia",
+        "Instagram com 2.491 seguidores — a segunda maior audiência própria do grupo, atrás só do FFA"
+      ],
+      "observacao": "Não localizei ranking, livro, docência ou cargo em entidade. O nome aparece em jurisprudência como advogado constituído, o que confirma atuação mas não é sinal de autoridade. É o caso mais claro da lista em que existe audiência (2,5 mil seguidores) sem lastro de autoridade publicado — e com o site, que deveria ser o destino dessa audiência, quebrado por certificado expirado."
+    },
+    "ads": {
+      "temAnuncio": null,
+      "observacao": "Inconclusivo: a busca por frase exata 'Pinheiro Advocacia' na Meta Ad Library retorna 143 anúncios, mas de escritórios homônimos distintos (Almeida Pinheiro Advocacia, Andrade & Pinheiro Advocacia, Ryan Pinheiro e outros). Sem a página do Facebook deste escritório não é possível isolar. Ausência de anúncio seria conformidade com o Provimento 205/2021 da OAB, não falha."
+    },
+    "limitacoes": [
+      "site.status fica null porque a requisição falha na verificação TLS — o achado (certificado expirado) é o dado, e é conclusivo",
+      "instagram.handle é atribuição provável, não confirmada",
+      "ads.temAnuncio inconclusivo por homonímia",
+      "Nenhum sinal de autoridade formal localizado"
+    ]
+  },
+  {
+    "pos": 14,
+    "nome": "Valadares Coelho, Leal e Advogados Associados",
+    "cnpj": "10206748000107",
+    "decisor": "Jonatas da Costa Coelho",
+    "site": {
+      "url": "http://vcladvogados.com.br/",
+      "status": 200,
+      "conclusivo": true,
+      "observacao": "Responde em 0,54s por HTTP e 2,36s por HTTPS. Endereço no site (SHIS QI 26 Conjunto 13 Casa 21, 71670-130) bate exatamente com a Receita. O site grafa o decisor como 'Jônatas Coelho'. ATENÇÃO: o e-mail do CNPJ (contelb@contelb.com.br) é da contabilidade Contelb, de Águas Claras — não é domínio do escritório."
+    },
+    "google": {
+      "perfilEncontrado": true,
+      "nota": 4.7,
+      "avaliacoes": 19,
+      "categoria": "Serviços jurídicos",
+      "observacao": "Ficha 'Valadares, Coelho, Leal & Advogados Associados', SHIS QI 26 CASA 21 - Lago Sul, tel. (61) 3264-3500, com site e horário cadastrados. O telefone da ficha e do site (3264-3500) difere do registrado na Receita (61 3399-8138)."
+    },
+    "instagram": {
+      "handle": "@vcladvogados",
+      "seguidores": 84,
+      "observacao": "Conta confirmada pelo link externo da própria bio (vcladvogados.com.br), nome '↪ VCL & Advogados Associados'. Está VAZIA: 84 seguidores, 0 posts. CUIDADO COM HOMÔNIMO: @valadaresadvogados (1.257 seguidores) é OUTRO escritório, especializado em recuperação judicial e agronegócio — não atribuir."
+    },
+    "linkedin": {
+      "empresa": "https://www.linkedin.com/in/vcladvogados",
+      "decisor": null,
+      "observacao": "A presença institucional no LinkedIn é um perfil PESSOAL usado como se fosse página de empresa, com apenas 17 conexões — não há Company Page. Perfil pessoal de Jonatas/Jônatas Coelho não localizado. Facebook: /VCLAdvogados."
+    },
+    "autoridade": {
+      "sinais": [
+        "Sócio Alexandre Leal eleito conselheiro da OAB-DF",
+        "Escritório citado na publicação 'Quem é quem no Direito no Distrito Federal' (PDF hospedado no próprio site)",
+        "Matéria de destaque na revista 'Brasília Encontro'",
+        "Um dos dois únicos escritórios conveniados do SINAGÊNCIAS (Sindicato Nacional dos Servidores das Agências Reguladoras) e conveniado do Sinpol-DF",
+        "Sócio Alex Valadares com mestrado em Direito Público; entrevista no Jornal da Justiça",
+        "Promove rodadas de negócios em parceria com a AJE-DF"
+      ],
+      "observacao": "Autoridade real e bem distribuída entre os sócios (cargo na OAB-DF, convênios sindicais, imprensa local), mas quase toda essa prova está soterrada no próprio site e ausente das redes. O Instagram com 0 posts e o LinkedIn como perfil pessoal são o retrato exato de 'autoridade não capturada'."
+    },
+    "ads": {
+      "temAnuncio": false,
+      "observacao": "Meta Ad Library, frase exata 'Valadares, Coelho, Leal': 0 resultados, sem CAPTCHA. Ausência é conformidade com o Provimento 205/2021 da OAB, não falha."
+    },
+    "limitacoes": [
+      "linkedin.decisor não coletado — perfil pessoal de Jonatas da Costa Coelho não localizado",
+      "Não confirmei se 'Jônatas Coelho' do site e 'Jonatas da Costa Coelho' do quadro societário são a mesma pessoa (grafia divergente, mesma sociedade — muito provável, mas não verificado)"
+    ]
+  },
+  {
+    "pos": 15,
+    "nome": "Meira Morais Advogados",
+    "cnpj": "05693689000109",
+    "decisor": "Kilmara Araújo Meira Morais",
+    "site": {
+      "url": "https://meiramorais.adv.br/",
+      "status": 200,
+      "conclusivo": true,
+      "observacao": "Responde em 0,41s — o mais rápido do grupo depois do advds.com.br. Endereço (SHIS QI 25 Conj. 07, 71660-270) e telefone (61) 3248-3696 batem exatamente com a Receita. O CNPJ não registra e-mail, então o domínio foi localizado por busca e confirmado por endereço + telefone."
+    },
+    "google": {
+      "perfilEncontrado": true,
+      "nota": 4.9,
+      "avaliacoes": 21,
+      "categoria": "Serviços jurídicos",
+      "observacao": "Ficha completa: endereço, telefone, horário, site e até 'Horários de pico' com dados de visita. Uma das duas melhores notas do grupo."
+    },
+    "instagram": {
+      "handle": "@meiramorais",
+      "seguidores": 155,
+      "observacao": "Nome de exibição 'Meira Morais | Advocacia Especializada em Tribunais Superiores' — casa com o posicionamento do site (atuação em STJ e STF). 155 seguidores, 42 posts. CUIDADO COM HOMÔNIMO: @meiraadvocacia (3.587 seguidores, 737 posts, 'há 8 anos servindo') é OUTRA banca — o escritório-alvo tem 23 anos. Não atribuir."
+    },
+    "linkedin": {
+      "empresa": "https://www.linkedin.com/company/meira-morais-advogados",
+      "decisor": null,
+      "observacao": "Company Page com cerca de 109 seguidores. Perfil pessoal de Kilmara Araújo Meira Morais não localizado."
+    },
+    "autoridade": {
+      "sinais": [
+        "Sócio Otavio Brito Lopes: ex-Vice-Procurador-Geral do Trabalho e Subprocurador-Geral do Trabalho, professor de Direito do Trabalho no UniCEUB, autor ('As obrigações de fazer e de não fazer', 'A Questão da Discriminação no Trabalho' — citada 27 vezes)",
+        "Fundador Antonio Glaucius de Morais, que deixou o serviço público para a advocacia privada",
+        "12 sócios — o maior quadro societário do grupo 11–20",
+        "Posicionamento declarado em atuação perante STJ e STF",
+        "23 anos de atuação (sociedade desde 2003)"
+      ],
+      "observacao": "O ativo mais forte não é o escritório, é o sócio Otavio Brito Lopes: ex-número dois do MPT, professor e autor citado academicamente. Esse é o tipo exato de prova social admitida pelo Provimento 205 — e não aparece em nenhuma peça digital. Instagram com 155 seguidores e LinkedIn com 109 para um escritório de 12 sócios é subaproveitamento severo."
+    },
+    "ads": {
+      "temAnuncio": false,
+      "observacao": "Meta Ad Library, frase exata 'Meira Morais Advogados': 2 resultados, ambos veiculados pela página de terceiro 'Sindaema Espirito Santo' — nenhum do escritório. Ausência é conformidade com o Provimento 205/2021 da OAB, não falha."
+    },
+    "limitacoes": [
+      "linkedin.decisor não coletado — perfil de Kilmara Araújo Meira Morais não localizado",
+      "A decisora não aparece nominalmente no site do escritório (que destaca Antonio Glaucius de Morais, Indira Quaresma, Antonio Rafael e Otavio Brito Lopes); a condição de sócia-administradora desde a fundação em 2003 vem de bases de CNPJ, não do site"
+    ]
+  },
+  {
+    "pos": 16,
+    "nome": "Perdiz de Jesus Advogados Associados",
+    "cnpj": "00949546000193",
+    "decisor": "José Perdiz de Jesus",
+    "site": {
+      "url": "https://perdiz.adv.br/",
+      "status": 200,
+      "conclusivo": true,
+      "observacao": "Responde em 0,77s; home servida em /language/pt/home/ (site multilíngue). Domínio confirmado pelo e-mail do CNPJ (perdiz@perdiz.adv.br). Endereço e telefone conferem com a Receita. Site lista 12 áreas de atuação, equipe nominal e página de reconhecimentos."
+    },
+    "google": {
+      "perfilEncontrado": true,
+      "nota": 5.0,
+      "avaliacoes": 1,
+      "categoria": "Serviços jurídicos",
+      "observacao": "Ficha em CAIXA ALTA ('PERDIZ DE JESUS ADVOGADOS ASSOCIADOS'), SHIS QI 12 CASA 1 - Lago Sul, 71630-285, tel. (61) 3327-4444. SEM horário de funcionamento cadastrado (o Google exibe 'Adicionar horário de funcionamento' e 'Adicionar informações ausentes'). Uma única avaliação."
+    },
+    "instagram": {
+      "handle": "@perdizdejesusadvogados",
+      "seguidores": 833,
+      "observacao": "833 seguidores, 271 posts. Link confirmado no próprio site. Conta ativa, com posts sobre eventos e temas técnicos (ex.: cláusula compromissória)."
+    },
+    "linkedin": {
+      "empresa": "https://www.linkedin.com/company/perdiz-de-jesus-advogados-associados",
+      "decisor": null,
+      "observacao": "Company Page confirmada por link no site. Perfil pessoal de José Perdiz de Jesus não localizado."
+    },
+    "autoridade": {
+      "sinais": [
+        "Chambers & Partners 2025",
+        "The Legal 500",
+        "Leaders League",
+        "LACCA — reconhecimento por assessoria a grandes instituições financeiras da América Latina",
+        "José Perdiz de Jesus: presidente do STJD do futebol (mandato 2023/2024) e presidente interino da CBF em dezembro de 2023",
+        "Presidiu as Comissões Eleitorais da OAB/DF em três triênios (2013/2015, 2016/2018, 2019/2021)",
+        "Membro da OAB desde 1989; escritório fundado em 1995 (o mais antigo do grupo junto com Nilton Correia)",
+        "Maior capital social do grupo: R$ 1.200.000",
+        "Sócios nominados: Rodrigo Neiva Pinheiro, Vitor Perdiz de Jesus Borba, Luanna Perdiz de Jesus"
+      ],
+      "observacao": "É o portfólio de reconhecimento mais forte da lista junto com o Dias de Souza — quatro rankings internacionais e um sócio com projeção nacional no esporte. O contraste com UMA avaliação no Google e 833 seguidores é o achado mais gritante da coleta: autoridade máxima, captura mínima."
+    },
+    "ads": {
+      "temAnuncio": false,
+      "observacao": "Meta Ad Library, frase exata 'Perdiz de Jesus Advogados': 0 resultados, sem CAPTCHA. Ausência é conformidade com o Provimento 205/2021 da OAB, não falha."
+    },
+    "limitacoes": [
+      "linkedin.decisor não coletado — perfil pessoal de José Perdiz de Jesus não localizado",
+      "Os rankings (Chambers, Legal 500, Leaders League, LACCA) vêm da página institucional do próprio escritório; não fiz a verificação cruzada nos sites dos rankings"
+    ]
+  },
+  {
+    "pos": 17,
+    "nome": "Nilton Correia Advogados Associados",
+    "cnpj": "32901779000102",
+    "decisor": "Nilton da Silva Correia",
+    "site": {
+      "url": "https://www.niltoncorreia.com.br/",
+      "status": 200,
+      "conclusivo": true,
+      "observacao": "Responde em 1,30s. Domínio confirmado pelo e-mail do CNPJ (ncaa@niltoncorreia.com.br). Traz páginas de equipe e contato, 8 áreas de atuação e o currículo do fundador. Endereço (SRTVS Qd 701, Centro Empresarial Brasília, Bl B, sala 328) confere com a Receita."
+    },
+    "google": {
+      "perfilEncontrado": true,
+      "nota": 2.0,
+      "avaliacoes": 4,
+      "categoria": "Advogado",
+      "observacao": "ACHADO CRÍTICO — DUAS FICHAS DUPLICADAS no Google Maps: (1) 'Nilton Correia Advogados Associados', nota 2,0 com 4 avaliações, categoria 'Advogado', Setor de Rádio e Televisão Sul, tel. (61) 3226-4934, com site cadastrado; (2) 'Nilton Correia Advogados', SEM avaliações, categoria 'Serviços jurídicos', SHN Q. 2, tel. (61) 3225-3866, sem site. Os dois telefones constam na página de contato do próprio escritório, o que confirma que ambas as fichas são do mesmo escritório. Pior nota do grupo 11–20, e a reputação está fragmentada entre duas fichas. Duas buscas anteriores no Google Search não exibiram painel de conhecimento — o dado só apareceu pelo Maps."
+    },
+    "instagram": {
+      "handle": "@niltoncorreia.adv",
+      "seguidores": 20,
+      "observacao": "Nome de exibição 'Nilton Correia Advogados Associados', bio 'Desde 1989 | Advocacia com excelência e tradição — Trabalhista • Civil • Previdenciário', link para linktr.ee/Niltoncorreia. Conta praticamente inexistente: 20 seguidores, 4 posts. CUIDADO COM HOMÔNIMO: @niltoncorreiaadv é 'Nilton Correia | Advogado SP' — outro profissional, em São Paulo."
+    },
+    "linkedin": {
+      "empresa": "https://br.linkedin.com/company/nilton-correia-advogados-associados",
+      "decisor": null,
+      "observacao": "Company Page com cerca de 7 seguidores. Perfil pessoal de Nilton da Silva Correia não localizado."
+    },
+    "autoridade": {
+      "sinais": [
+        "Nilton Correia: OAB-DF nº 1.291 — inscrição de número baixíssimo, mais de 50 anos de exercício",
+        "Graduado pela UFBA em 1971; mestre em Direito das Relações do Trabalho pelo UDF",
+        "Ex-presidente da ABRAT (Associação Brasileira de Advogados Trabalhistas) e da AAT/DF",
+        "Múltiplas condecorações da Ordem do Mérito Judiciário do Trabalho",
+        "Escritório associado da ABRAT",
+        "Sociedade constituída em 1989 — a mais antiga do grupo",
+        "Atuação em Tribunais Superiores, ações e inquéritos civis públicos, pareceres"
+      ],
+      "observacao": "Currículo institucional de primeira linha — presidência de duas entidades da classe e OAB nº 1.291 são exatamente o tipo de prova social que o Provimento 205 admite e valoriza. Convive com nota 2,0 no Google, ficha duplicada, 20 seguidores no Instagram e 7 no LinkedIn. É o maior descompasso reputacional da lista: aqui há dano ativo (nota 2,0), não só ausência."
+    },
+    "ads": {
+      "temAnuncio": false,
+      "observacao": "Meta Ad Library, frase exata 'Nilton Correia Advogados': 0 resultados, sem CAPTCHA. Ausência é conformidade com o Provimento 205/2021 da OAB, não falha."
+    },
+    "limitacoes": [
+      "linkedin.decisor não coletado — perfil pessoal de Nilton da Silva Correia não localizado",
+      "Não li o teor das 4 avaliações que produzem a nota 2,0 — não sei se são reclamações de clientes, de parte contrária ou de ex-colaboradores",
+      "google.nota e google.avaliacoes referem-se à ficha (1); a ficha (2) não tem avaliações"
+    ]
+  },
+  {
+    "pos": 18,
+    "nome": "Almeida e Silva Consultoria Jurídica",
+    "cnpj": "01625281000130",
+    "razaoSocial": "Silva Castro Franco e Pin Sociedade de Advogados",
+    "decisor": "Valério Alvarenga Monteiro de Castro",
+    "site": {
+      "url": "https://www.scfp.adv.br/",
+      "status": 200,
+      "conclusivo": true,
+      "observacao": "Responde em 1,21s. O domínio scmf.adv.br (do e-mail do CNPJ, financeiro@scmf.adv.br) REDIRECIONA para www.scfp.adv.br — vestígio do nome anterior 'Silva, Castro e Mello Franco'. Site em Wix, com páginas de história, equipe e contato. Endereço (SHIS QL 2 Conj. 2 Casa 2, 71610-025) confere com a Receita. DIVERGÊNCIA DE MARCA: o nome fantasia registrado na Receita, 'Almeida e Silva Consultoria Jurídica', não é usado em lugar nenhum — o escritório se apresenta como 'SCFP Advogados'. O telefone do site e do Google é (61) 3346-5008; a Receita registra (61) 3248-5008."
+    },
+    "google": {
+      "perfilEncontrado": true,
+      "nota": 4.7,
+      "avaliacoes": 35,
+      "categoria": "Advogado",
+      "observacao": "Ficha 'Silva Castro Franco Pin Sociedade de Advogados', SHIS QL 02 Conjunto 02 Casa 02 - Lago Sul, 71610-025, tel. (61) 3346-5008, com site e horário cadastrados. Segundo maior volume de avaliações do grupo, atrás só do FFA."
+    },
+    "instagram": {
+      "handle": "@scfp.adv",
+      "seguidores": 568,
+      "observacao": "Nome de exibição 'Silva Castro Franco Pin'. 568 seguidores mas apenas 12 posts — conta recém-criada ou pouco alimentada. Link confirmado no próprio site."
+    },
+    "linkedin": {
+      "empresa": "https://www.linkedin.com/company/silva-castro-franco-pin-sociedade-de-advogados",
+      "decisor": "https://br.linkedin.com/in/val%C3%A9rio-alvarenga-monteiro-de-castro-14968928",
+      "observacao": "Ambos confirmados: a Company Page está linkada no site do escritório e o perfil do decisor traz o nome completo idêntico ao do quadro societário."
+    },
+    "autoridade": {
+      "sinais": [
+        "Fundado em 1997 por Oswaldo José Barbosa Silva e Valério Alvarenga Monteiro de Castro (o decisor é sócio-fundador, na sociedade desde 26/11/1998)",
+        "Estrutura departamentalizada em 6 áreas: Administrativo, Tributário, Educacional, Trabalhista, Cível e Família",
+        "Sócios-diretores nominados: Henrique de Mello Franco (2011) e Fabiana Cristiana Uglar Pin (2012)",
+        "Nicho pouco disputado: Direito Educacional",
+        "Cerca de 30 anos de atuação e 9 sócios"
+      ],
+      "observacao": "Snippets do Google associaram 'Silva Castro Franco Pin' ao 'ranking Análise Advocacia Regional 2026', mas a frase aparecia colada a posts de outros escritórios e a página 'Nossa História' do próprio site NÃO menciona nenhum reconhecimento, ranking, prêmio, publicação ou docência. Por isso o ranking não entra como sinal. Um escritório com três décadas e 35 avaliações que não publica um único reconhecimento é autoridade não capturada em estado puro."
+    },
+    "ads": {
+      "temAnuncio": false,
+      "observacao": "Meta Ad Library, frase exata 'SCFP Advogados': 0 resultados, sem CAPTCHA. Ausência é conformidade com o Provimento 205/2021 da OAB, não falha."
+    },
+    "limitacoes": [
+      "Reconhecimento no ranking Análise Advocacia 2026 NÃO confirmado — indício descartado por ambiguidade de snippet",
+      "A divergência entre o nome fantasia na Receita ('Almeida e Silva Consultoria Jurídica') e a marca em uso ('SCFP') não foi explicada — pode indicar cadastro desatualizado ou operação de duas marcas",
+      "Telefone divergente entre Receita (3248-5008) e site/Google (3346-5008) não reconciliado"
+    ]
+  },
+  {
+    "pos": 19,
+    "nome": "Cidade, Schmorantz Advogados Associados",
+    "cnpj": "07863524000155",
+    "decisor": "Vera Mirna Schmorantz",
+    "site": {
+      "url": null,
+      "status": null,
+      "conclusivo": true,
+      "observacao": "NÃO TEM SITE PRÓPRIO LOCALIZÁVEL. Testei cidadeschmorantz.com.br, cidadeschmorantz.adv.br, cidadeschmorantz.com, cidadeschmorantzadvogados.com.br e schmorantz.adv.br — todos falham na resolução de DNS (o domínio não existe). O e-mail registrado no CNPJ é processo@datasoftcontabilidade.com.br, ou seja, da contabilidade, não do escritório. Nenhuma busca retornou site institucional; as referências públicas ao escritório estão sempre em sites de terceiros (SINAL, Facebook, agregadores de CNPJ). Único dos dez sem site."
+    },
+    "google": {
+      "perfilEncontrado": false,
+      "nota": null,
+      "avaliacoes": null,
+      "categoria": null,
+      "observacao": "Nenhum Perfil da Empresa localizado. A busca no Google Maps por 'Cidade Schmorantz Advogados Associados SBN Quadra 2 Bloco J Brasília' retornou apenas escritórios não relacionados (Advogados Associados, Alckmin Advogados, Caram Zuquim e Espírito Santo, Malta Advogados) — nenhum resultado com o nome do escritório. Duas buscas no Google Search também não exibiram painel de conhecimento. Uma tentativa adicional via busca local (tbm=lcl) bateu em CAPTCHA e foi interrompida."
+    },
+    "instagram": {
+      "handle": null,
+      "seguidores": null,
+      "observacao": "Não localizado. Busca no Instagram por 'Cidade Schmorantz' retornou zero contas."
+    },
+    "linkedin": {
+      "empresa": "https://br.linkedin.com/company/cidade-schmorantz-advogados-associados",
+      "decisor": "https://br.linkedin.com/in/vera-mirna-schmorantz-133090107",
+      "observacao": "Única presença digital própria e verificável do escritório, junto com o Facebook (/CidadeSchmorantz). Outro sócio com perfil: Carlos Alberto Macedo Cidade — https://www.linkedin.com/in/carlos-alberto-macedo-cidade (Diretor de Relações)."
+    },
+    "autoridade": {
+      "sinais": [
+        "Vera Mirna Schmorantz, OAB/DF 17.966, sócia-administradora",
+        "Assina notas técnicas para o SINAL (Sindicato Nacional dos Funcionários do Banco Central) — inclusive a Nota Técnica sobre a PEC 65, de abril de 2026",
+        "Escritório conveniado do SINAL para assessoria jurídica dos filiados",
+        "Atuação em Ações Diretas de Inconstitucionalidade no STF (registro no DJE do STF, com decisão citada 11 vezes)",
+        "Presidiu Comissão Eleitoral com ato publicado no SINJ-DF",
+        "Sócio Carlos Alberto Macedo Cidade, também sócio-administrador",
+        "Experiência declarada em direito administrativo, servidores públicos, trabalhista, cível e tributário"
+      ],
+      "observacao": "Produz peça técnica de alto nível — nota técnica sobre PEC assinada e publicada por um sindicato nacional é conteúdo pronto, com autoria e data. Esse material circula no site do SINAL, não em canal do escritório. É o caso mais extremo da lista: autoridade documentada e zero infraestrutura digital própria (sem site, sem Google, sem Instagram)."
+    },
+    "ads": {
+      "temAnuncio": false,
+      "observacao": "Meta Ad Library, frase exata 'Cidade Schmorantz': 2 resultados, ambos veiculados pela página do SINAL (terceiro) — nenhum do escritório. Ausência é conformidade com o Provimento 205/2021 da OAB, não falha."
+    },
+    "limitacoes": [
+      "instagram.handle e instagram.seguidores não coletados — nenhuma conta localizada",
+      "A conclusão 'não tem site' vale para os cinco domínios testados e para as buscas realizadas; se o escritório usa um domínio de padrão inesperado, ele não foi alcançado",
+      "Uma das tentativas de confirmação do Google (busca local) foi interrompida por CAPTCHA — a conclusão de 'sem ficha' se apoia na busca do Maps, que retornou resultados normalmente"
+    ]
+  },
+  {
+    "pos": 20,
+    "nome": "Advocacia Dias de Souza",
+    "cnpj": "02881643000117",
+    "decisor": "Hamilton Dias de Souza",
+    "site": {
+      "url": "https://advds.com.br/",
+      "status": 200,
+      "conclusivo": true,
+      "observacao": "Responde em 0,38s — o site mais rápido do grupo. Endereço (SHIS QI 15, Conj. 02, Casa 01, Lago Sul) e telefone (61) 3329-9400 batem com a Receita. Site bilíngue, com páginas de escritório, advogados e reconhecimentos, e foco editorial em reforma tributária. Observações de desambiguação: diasdesouza.adv.br devolve HTTP 403 e dsa.com.br é o site de Dias de Souza Advogados Associados (São Paulo), escritório de aliança estratégica de Hamilton Dias de Souza — não é o CNPJ de Brasília."
+    },
+    "google": {
+      "perfilEncontrado": true,
+      "nota": 4.8,
+      "avaliacoes": 24,
+      "categoria": "Serviços jurídicos",
+      "observacao": "Ficha 'Advocacia Dias de Souza', SHIS QI 15 casa 01 - Lago Sul, 71635-220, tel. (61) 3329-9400, com site e horário cadastrados. O Google também exibe avaliação da web: 5/5 no Facebook (2 votos)."
+    },
+    "instagram": {
+      "handle": "@advocacia_dias_de_souza",
+      "seguidores": null,
+      "observacao": "Handle confirmado por link no próprio site. Não consegui ler a contagem de seguidores: as requisições ao perfil retornaram a casca do Instagram sem meta description, mesmo após três tentativas."
+    },
+    "linkedin": {
+      "empresa": "https://www.linkedin.com/company/advocacia-diasdesouza",
+      "decisor": null,
+      "observacao": "Company Page confirmada por link no site. Perfil pessoal de Hamilton Dias de Souza não localizado no LinkedIn — ele mantém páginas próprias em Google Sites e Wix, além de coluna de autor no Migalhas. Facebook: /advdiasdesouza."
+    },
+    "autoridade": {
+      "sinais": [
+        "Chambers Global 2026 e Chambers Brasil 2026",
+        "Análise Advocacia DNA",
+        "Leaders League",
+        "Best Lawyers (reconhecimentos individuais de advogados do escritório)",
+        "Hamilton Dias de Souza: graduado pela Faculdade de Direito da USP em 1966, especialista em Direito Tributário e mestre em Direito Econômico e Financeiro pela mesma instituição",
+        "Ex-professor de Direito Tributário da Faculdade de Direito da USP",
+        "Autor de dois livros e mais de 60 artigos e teses; colunista no Migalhas",
+        "Da sua atuação resultou a Súmula 570 do STF (não incidência de ICM na importação de bens de capital antes da EC 23/83)",
+        "Membro do Conselho do Instituto dos Advogados de São Paulo, da Academia Brasileira de Direito Tributário, do Conselho Superior Jurídico da FIESP, do CAEFT e do Conselho Consultivo do ETCO",
+        "Ex-presidente e membro da Academia Internacional de Direito e Economia; cadeira nº 34 da Academia Paulista de Direito",
+        "Escritório fundado em 1999 com Anna Paola Zonari; hoje também liderado por Daniel Corrêa Szelbracikowski e Júlio Cesar Soares",
+        "Clientes dos setores de agronegócio, automotivo, financeiro, bebidas, comércio exterior, metalurgia e telecomunicações"
+      ],
+      "observacao": "Autoridade de escala nacional e a única da lista com lastro acadêmico (docência na USP, livros, súmula do STF em seu nome) somado a rankings internacionais atuais. É também o único com posicionamento editorial claro e atual (reforma tributária), o que reduz a dor de 'conteúdo técnico inexistente' e desloca a conversa para distribuição e captura."
+    },
+    "ads": {
+      "temAnuncio": true,
+      "observacao": "ÚNICO DOS DEZ COM ANÚNCIO PRÓPRIO NA META. Ad Library, frase exata 'Advocacia Dias de Souza': 7 anúncios, todos da própria página 'Advocacia Dias de Souza' (facebook.com/advdiasdesouza) e TODOS INATIVOS no momento da coleta — ou seja, há histórico de veiculação, nenhuma campanha no ar. Registro do fato: nem a ausência nem a presença de anúncio é dor aqui; o Provimento 205/2021 da OAB restringe publicidade e a ausência é conformidade."
+    },
+    "limitacoes": [
+      "instagram.seguidores não coletado — o Instagram devolveu a casca da página sem meta description em três tentativas",
+      "linkedin.decisor não coletado — perfil pessoal de Hamilton Dias de Souza não localizado no LinkedIn",
+      "Não datei os 7 anúncios inativos, então não sei há quanto tempo a última campanha saiu do ar",
+      "Os rankings vêm da página de reconhecimentos do próprio escritório; não fiz verificação cruzada nos sites de Chambers, Leaders League e Best Lawyers"
+    ]
+  }
+]
