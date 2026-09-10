@@ -40,6 +40,16 @@ LOCK_CSS = '''<style>
   .lock-go{font-family:var(--sans);font-size:.8rem;font-weight:650;padding:.63rem 1.1rem;background:var(--ink);color:#fff;border:0;cursor:pointer}
   .lock-go:hover{background:var(--primary)}
   .lock-err{width:100%;font-family:var(--sans);font-size:.75rem;color:var(--warn);margin:.1rem 0 0}
+  .locked.cell{margin-top:.55rem}
+  .locked.cell>.locked-content{max-height:none}
+  .locked-veil.sm{padding:.5rem}
+  .lock-card.sm{padding:1rem .85rem}
+  .lock-card.sm svg{width:17px;height:17px}
+  .lock-card.sm .lock-what{font-size:.85rem;margin-top:.5rem}
+  .lock-card.sm .lock-cta{margin-top:.8rem;font-size:.73rem;padding:.55rem .9rem}
+  .lock-card.sm .lock-form{margin-top:.8rem;gap:.4rem}
+  .lock-card.sm .lock-input{width:7.5rem;font-size:.85rem;padding:.5rem .5rem}
+  .lock-card.sm .lock-go{font-size:.73rem;padding:.52rem .8rem}
   .nav a.is-locked svg{width:9px;height:9px;margin-left:.32rem;opacity:.55;flex:none}
   .preview-note{border-color:var(--ink)}
   html.is-full .locked-content{max-height:none;overflow:visible;filter:none;opacity:1;pointer-events:auto;user-select:auto;-webkit-user-select:auto}
@@ -74,6 +84,20 @@ def veil(what, sub):
             '<button class="lock-cta" type="button" data-unlock>Liberar o relatório completo</button>'
             f'<a class="lock-alt" href="{WA}" target="_blank" rel="noopener">Ainda não tenho a senha, falar com a Oráculo</a>'
             '</div></div>')
+
+def veil_sm(what):
+    return ('<div class="locked-veil sm"><div class="lock-card sm">' + LOCK_SVG +
+            f'<p class="lock-what">{what}</p>'
+            '<button class="lock-cta" type="button" data-unlock>Liberar</button>'
+            '</div></div>')
+
+def lock_ul(section_html, marker, what):
+    """Trava apenas a lista que vem logo depois do marcador, deixando o titulo nitido."""
+    k = section_html.index(marker) + len(marker)
+    a = section_html.index('<ul>', k)
+    b = section_html.index('</ul>', a) + len('</ul>')
+    return (section_html[:a] + '<div class="locked cell"><div class="locked-content">'
+            + section_html[a:b] + '</div>' + veil_sm(what) + '</div>' + section_html[b:])
 
 def lockup(section_html, what, sub):
     """Envolve tudo o que vem depois do .sec-head no bloco travado."""
@@ -143,12 +167,12 @@ COVER = f'''<header class="cover">
 </div></div>
 <nav class="nav">
   <a href="#essencial">O essencial</a><a href="#diagnostico">Diagnóstico</a>
-  <a class="is-locked" href="#instagram">Instagram{NAV_SVG}</a>
-  <a class="is-locked" href="#marca">A marca MOVE{NAV_SVG}</a>
-  <a class="is-locked" href="#busca">Busca no Google{NAV_SVG}</a>
+  <a href="#instagram">Instagram</a>
+  <a href="#marca">A marca MOVE</a>
+  <a href="#busca">Busca no Google</a>
   <a class="is-locked" href="#venda">Caminho até o ingresso{NAV_SVG}</a>
   <a href="#comparativo">Comparativo</a>
-  <a class="is-locked" href="#swot">SWOT{NAV_SVG}</a>
+  <a href="#swot">SWOT</a>
   <a class="is-locked" href="#recomendacoes">Plano de 180 dias{NAV_SVG}</a>
   <a class="is-locked" href="#resumo">Resumo{NAV_SVG}</a>
 </nav>
@@ -561,29 +585,18 @@ SCRIPT = '''
 '''
 
 # ---- travas da versão de prévia ----
-PREVIEW_NOTE = ('<div class="callout preview-note"><strong>Sobre esta prévia</strong><p>O diagnóstico acima está '
-  'inteiro: a nota, os seis pilares e o peso de cada um. O comparativo com os concorrentes de Brasília também está '
-  'aberto. As demais seções trazem a apuração que sustenta essa nota e o plano de correção, e abrem com a senha de '
-  'acesso, entregue no início do trabalho com a Oráculo. '
-  '<b>Nada aqui foi resumido para caber na prévia: o material existe completo e já está escrito.</b></p></div>')
+PREVIEW_NOTE = ('<div class="callout preview-note"><strong>Sobre esta prévia</strong><p>A apuração está aberta '
+  'do começo ao fim: as 144 publicações lidas uma a uma, os destaques, a busca no Google, o domínio, o comparativo '
+  'com os concorrentes de Brasília e a SWOT. Fica reservado o que fazer com tudo isso: a coluna de resposta deste '
+  'diagnóstico, as oportunidades da SWOT, o caminho até o ingresso, o plano de 180 dias e o resumo executivo. '
+  '<b>Essas partes abrem com a senha de acesso, entregue no início do trabalho com a Oráculo.</b></p></div>')
 
-_i = S2.index('<div class="diag">'); _j = S2.index('<div class="insight ')
-S2 = (S2[:_i] + '<div class="locked"><div class="locked-content">' + S2[_i:_j] + '</div>'
-      + veil('As três colunas do diagnóstico executivo',
-             'Situação, impacto e a resposta indicada para cada um dos cinco pontos que derrubam a nota.')
-      + '</div>' + S2[_j:])
+S2 = lock_ul(S2, '<p class="eyebrow">Resposta</p>', 'A resposta indicada para cada um dos cinco pontos')
 S2 = S2.replace('</section>', PREVIEW_NOTE + '</section>')
+S8 = lock_ul(S8, '<h3>Oportunidades</h3>', 'As cinco oportunidades abertas hoje, e o que cada uma destrava')
 
-S3 = lockup(S3, 'Oito quinzenas de alcance, medidas uma a uma',
-  'A curva completa de reproduções por Reel, o mix dos três formatos, a comparação entre conteúdo pessoal e comercial e o efeito de esconder as curtidas.')
-S4 = lockup(S4, 'O inventário dos ativos de marca',
-  'As três contas lado a lado, as 16 pastas de destaque com a contagem de stories de cada uma e o achado mais caro desta auditoria.')
-S5 = lockup(S5, 'As cinco primeiras posições da busca pelo nome',
-  'Quem ocupa cada posição e o que é seu, o mapa dos sete canais fora do Instagram e a situação do domínio da marca no registro.br.')
 S6 = lockup(S6, 'As seis etapas entre o Reel e o pagamento',
   'O que se perde em cada etapa, o que o código da página de venda revela sobre a medição e onde a prova social da 1ª edição deixou de ser publicada.')
-S8 = lockup(S8, 'A SWOT escrita a partir dos dados desta coleta',
-  '5 forças, 6 fraquezas, 5 oportunidades e 5 ameaças, cada uma amarrada a um número apurado, sem afirmação genérica.')
 S9 = lockup(S9, '19 ações em três ciclos, com meta por ciclo',
   'As sete primeiras cabem antes de 19 de setembro. Fecha com a sequência de cinco prioridades, na ordem que protege o investimento.')
 S10 = lockup(S10, 'Onde está o retorno mais rápido',
@@ -616,19 +629,20 @@ for a in re.findall(r'href="#([a-z]+)"', html):
     if f'id="{a}"' not in html: errs.append(f'âncora sem destino: #{a}')
 if 'meta name="description"' not in html: errs.append('falta meta description')
 
-if html.count('<div class="locked">') != 8: errs.append(f"blocos travados: {html.count(chr(60)+'div class=' + chr(34) + 'locked' + chr(34) + chr(62))} (esperado 8)")
-if html.count('class="locked-veil"') != 8: errs.append('veil sem par')
-if html.count('<div class="locked-content">') != html.count('<div class="locked">'): errs.append('locked-content sem par')
+if html.count('<div class="locked">') != 3: errs.append(f"blocos travados: {html.count(chr(60)+'div class=' + chr(34) + 'locked' + chr(34) + chr(62))} (esperado 3)")
+if html.count('class="locked-veil') != 5: errs.append('veil sem par')
+if html.count('<div class="locked-content">') != 5: errs.append('locked-content sem par')
 if 'is-full' not in html: errs.append('falta o destrave por URL')
-for sid in ['instagram','marca','busca','venda','swot','recomendacoes','resumo']:
+for sid in ['venda','recomendacoes','resumo']:
     seg = html[html.index(f'id="{sid}"'):]
     seg = seg[:seg.index('</section>')]
     if '<div class="locked">' not in seg: errs.append(f'seção não travada: {sid}')
-for sid in ['essencial','comparativo']:
+for sid in ['essencial','instagram','marca','busca','comparativo']:
     seg = html[html.index(f'id="{sid}"'):]
     seg = seg[:seg.index('</section>')]
     if '<div class="locked">' in seg: errs.append(f'seção travada por engano: {sid}')
 if '103669' in html: errs.append('senha em texto puro no HTML')
 if 'data-unlock' not in html: errs.append('botao de senha ausente')
+if html.count('locked cell') != 2: errs.append('travas de coluna: esperado 2')
 print('BYTES', len(html))
 print('ERROS:', errs if errs else 'nenhum')
